@@ -1,0 +1,74 @@
+04/01/2016 00:01:25: User Login: akaruz 127.0.0.1
+04/01/2016 00:10:01: User Login: akaruz 127.0.0.1
+04/01/2016 00:11:40: User Login: akaruz 127.0.0.1
+04/01/2016 00:12:44: User Login: akaruz 127.0.0.1
+04/01/2016 00:15:09: User Login: akaruz 127.0.0.1
+04/01/2016 00:16:49: User Login: akaruz 127.0.0.1
+04/01/2016 00:17:50: User Login: akaruz 127.0.0.1
+04/01/2016 00:19:15: User Login: akaruz 127.0.0.1
+04/01/2016 00:19:40: User Login: akaruz 127.0.0.1
+04/01/2016 00:21:46: User Login: akaruz 127.0.0.1
+04/01/2016 00:22:10: User Login: akaruz 
+04/01/2016 00:37:58: User Login: akaruz 127.0.0.1
+04/01/2016 00:45:30: User Login: akaruz 127.0.0.1
+04/01/2016 00:46:49: User Login: akaruz 127.0.0.1
+04/01/2016 00:47:47: User Login: akaruz 127.0.0.1
+04/01/2016 00:48:22: Status changed to disconnected: 0  127.0.0.1
+04/01/2016 00:48:24: User Login: akaruz 127.0.0.1
+04/01/2016 00:50:05: User Login: akaruz 127.0.0.1
+04/01/2016 00:52:03: User Login: akaruz 127.0.0.1
+04/01/2016 00:54:38: User Login: akaruz 127.0.0.1
+04/01/2016 01:24:17: User Login: akaruz 127.0.0.1
+04/01/2016 02:36:47: User Login: akaruz 127.0.0.1
+04/01/2016 02:37:13: Status changed to disconnected: 0  127.0.0.1
+04/01/2016 02:43:28: User Login: akaruz 127.0.0.1
+04/01/2016 02:43:29: World Server Login Attempt: akaruz 127.0.0.1
+04/01/2016 02:43:50: User Login: akaruz 127.0.0.1
+04/01/2016 02:43:51: World Server Login Attempt: akaruz 127.0.0.1
+04/01/2016 02:43:58: Status changed to disconnected: 0  127.0.0.1
+04/01/2016 02:44:17: Status changed to disconnected: 1 akaruz 127.0.0.1
+04/01/2016 02:45:46: User Login: akaruz 127.0.0.1
+04/01/2016 02:45:48: World Server Login Attempt: akaruz 127.0.0.1
+04/01/2016 02:50:26: User Login: akaruz 127.0.0.1
+04/01/2016 03:00:58: User Login: akaruz 127.0.0.1
+04/01/2016 03:01:47: User Login: akaruz 127.0.0.1
+04/01/2016 03:01:54: World Server Login Attempt: akaruz 127.0.0.1
+04/01/2016 03:02:47: User Login: akaruz 127.0.0.1
+04/01/2016 03:02:51: World Server Login Attempt: akaruz 127.0.0.1
+04/01/2016 03:11:40: Status changed to disconnected: 0  127.0.0.1
+04/01/2016 03:50:06: Conectado ao World Server #火星
+04/01/2016 03:53:41: Conectado ao World Server #火星
+04/01/2016 03:57:22: Conectado ao World Server #火星
+04/01/2016 03:57:38: User Login: akaruz 127.0.0.1
+04/01/2016 03:57:45: World Server Login Attempt: akaruz 127.0.0.1
+04/01/2016 03:58:52: World Server Login Attempt: akaruz 127.0.0.1
+04/01/2016 03:59:23: World Server #火星 desconectado
+04/01/2016 03:59:27: Status changed to disconnected: 1 akaruz 127.0.0.1
+04/01/2016 03:59:42: Conectado ao World Server #火星
+04/01/2016 03:59:49: User Login: akaruz 127.0.0.1
+04/01/2016 03:59:50: World Server Login Attempt: akaruz 127.0.0.1
+04/01/2016 04:00:23: World Server #火星 desconectado
+04/01/2016 04:00:27: Status changed to disconnected: 1 akaruz 127.0.0.1
+04/01/2016 04:05:22: Conectado ao World Server #火星
+04/01/2016 04:05:29: User Login: akaruz 127.0.0.1
+04/01/2016 04:05:31: World Server Login Attempt: akaruz 127.0.0.1
+04/01/2016 04:06:00: Status changed to disconnected: 1 akaruz 127.0.0.1
+04/01/2016 04:06:03: World Server #火星 desconectado
+04/01/2016 04:07:02: Conectado ao World Server #火星
+04/01/2016 04:07:09: User Login: akaruz 127.0.0.1
+04/01/2016 04:07:11: World Server Login Attempt: akaruz 127.0.0.1
+04/01/2016 04:07:41: Status changed to disconnected: 1 akaruz 127.0.0.1
+04/01/2016 04:07:43: World Server #火星 desconectado
+04/01/2016 04:32:49: Conectado ao World Server #火星
+04/01/2016 04:33:04: User Login: akaruz 127.0.0.1
+04/01/2016 04:33:06: World Server Login Attempt: akaruz 127.0.0.1
+04/01/2016 04:34:50: Conectado ao World Server #火星
+04/01/2016 04:35:06: User Login: akaruz 127.0.0.1
+04/01/2016 04:35:09: World Server Login Attempt: akaruz 127.0.0.1
+04/01/2016 04:36:07: Conectado ao World Server #火星
+04/01/2016 04:38:30: Conectado ao World Server #火星
+04/01/2016 04:38:32: User Login: akaruz 127.0.0.1
+04/01/2016 04:38:33: World Server Login Attempt: akaruz 127.0.0.1
+04/01/2016 04:38:54: Conectado ao World Server #火星
+04/01/2016 04:39:05: User Login: akaruz 127.0.0.1
+04/01/2016 04:39:06: World Server Login Attempt: akaruz 127.0.0.1

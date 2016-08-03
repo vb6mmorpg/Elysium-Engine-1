@@ -1,0 +1,9 @@
+22/06/2015 22:16:29: Discovery Response IPEndPoint: 127.0.0.1
+22/06/2015 22:16:29: Status changed to connected: 127.0.0.1
+22/06/2015 22:17:31: Discovery Response IPEndPoint: 127.0.0.1
+22/06/2015 22:17:32: Status changed to connected: 127.0.0.1
+22/06/2015 22:17:44: Status changed to disconnected: 127.0.0.1
+22/06/2015 22:19:21: Status changed to disconnected: 127.0.0.1
+22/06/2015 22:24:06: Discovery Response IPEndPoint: 127.0.0.1
+22/06/2015 22:24:06: Status changed to connected: 127.0.0.1
+22/06/2015 22:25:56: Status changed to disconnected: 127.0.0.1

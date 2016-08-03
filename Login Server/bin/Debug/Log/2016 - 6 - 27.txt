@@ -1,0 +1,16 @@
+2016/06/27 14:07:23: Conectado ao World Server #火星
+2016/06/27 14:08:29: User Login: akaruz 127.0.0.1
+2016/06/27 14:08:30: World Server Login Attempt: akaruz 127.0.0.1
+2016/06/27 14:08:58: Status changed to disconnected: 1 akaruz 127.0.0.1
+2016/06/27 14:36:24: Conectado ao World Server #火星
+2016/06/27 14:36:52: User Login: akaruz 127.0.0.1
+2016/06/27 14:36:54: World Server Login Attempt: akaruz 127.0.0.1
+2016/06/27 14:37:43: World Server Login Attempt: akaruz 127.0.0.1
+2016/06/27 14:37:56: World Server Login Attempt: akaruz 127.0.0.1
+2016/06/27 14:39:59: Status changed to disconnected: 1 akaruz 127.0.0.1
+2016/06/27 14:56:33: Conectado ao World Server #火星
+2016/06/27 14:56:53: User Login: akaruz 127.0.0.1
+2016/06/27 14:56:54: World Server Login Attempt: akaruz 127.0.0.1
+2016/06/27 15:01:13: Conectado ao World Server #火星
+2016/06/27 15:01:30: User Login: akaruz 127.0.0.1
+2016/06/27 15:01:31: World Server Login Attempt: akaruz 127.0.0.1

@@ -1,0 +1,7 @@
+2016/06/22 18:14:44: User Login: akaruz 127.0.0.1
+2016/06/22 18:14:56: World Server Login Attempt: akaruz 127.0.0.1
+2016/06/22 18:14:57: Conectado ao World Server #火星
+2016/06/22 18:15:22: User Login: akaruz 127.0.0.1
+2016/06/22 18:15:24: Status changed to disconnected: 0  127.0.0.1
+2016/06/22 18:15:26: World Server Login Attempt: akaruz 127.0.0.1
+2016/06/22 18:16:13: Status changed to disconnected: 1 akaruz 127.0.0.1

@@ -1,0 +1,7 @@
+01/01/2016 22:25:55: Discovery Response IPEndPoint: 127.0.0.1
+01/01/2016 22:25:56: Status changed to connected: 127.0.0.1
+01/01/2016 22:26:03: User Login: akaruz 127.0.0.1
+01/01/2016 22:27:20: Discovery Response IPEndPoint: 127.0.0.1
+01/01/2016 22:27:20: Status changed to connected: 127.0.0.1
+01/01/2016 22:27:24: User Login: akaruz 127.0.0.1
+01/01/2016 22:27:26: World Server Login Attempt: akaruz 127.0.0.1

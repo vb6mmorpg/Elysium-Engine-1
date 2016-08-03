@@ -1,0 +1,89 @@
+26/10/2015 18:41:29: Discovery Response IPEndPoint: 127.0.0.1
+26/10/2015 18:41:29: Status changed to connected: 127.0.0.1
+26/10/2015 18:41:47: User Login: akaruz 127.0.0.1
+26/10/2015 18:41:57: World Server Login Attempt: akaruz 127.0.0.1
+26/10/2015 18:42:44: Status changed to disconnected: 1 akaruz 127.0.0.1
+26/10/2015 18:45:48: Discovery Response IPEndPoint: 127.0.0.1
+26/10/2015 18:45:49: Status changed to connected: 127.0.0.1
+26/10/2015 18:45:52: User Login: akaruz 127.0.0.1
+26/10/2015 18:45:56: World Server Login Attempt: akaruz 127.0.0.1
+26/10/2015 18:46:36: Status changed to disconnected: 1 akaruz 127.0.0.1
+26/10/2015 18:46:37: Discovery Response IPEndPoint: 127.0.0.1
+26/10/2015 18:46:38: Status changed to connected: 127.0.0.1
+26/10/2015 18:46:50: User Login: akaruz 127.0.0.1
+26/10/2015 18:46:52: World Server Login Attempt: akaruz 127.0.0.1
+26/10/2015 18:47:25: Status changed to disconnected: 1 akaruz 127.0.0.1
+26/10/2015 18:51:08: Discovery Response IPEndPoint: 127.0.0.1
+26/10/2015 18:51:08: Status changed to connected: 127.0.0.1
+26/10/2015 18:51:13: User Login: akaruz 127.0.0.1
+26/10/2015 18:51:14: World Server Login Attempt: akaruz 127.0.0.1
+26/10/2015 18:52:27: Status changed to disconnected: 1 akaruz 127.0.0.1
+26/10/2015 18:54:37: Discovery Response IPEndPoint: 127.0.0.1
+26/10/2015 18:54:37: Status changed to connected: 127.0.0.1
+26/10/2015 18:54:50: User Login: akaruz 127.0.0.1
+26/10/2015 18:54:54: World Server Login Attempt: akaruz 127.0.0.1
+26/10/2015 18:59:22: Discovery Response IPEndPoint: 127.0.0.1
+26/10/2015 18:59:23: Status changed to connected: 127.0.0.1
+26/10/2015 18:59:49: User Login: akaruz 127.0.0.1
+26/10/2015 18:59:51: World Server Login Attempt: akaruz 127.0.0.1
+26/10/2015 19:02:06: Status changed to disconnected: 1 akaruz 127.0.0.1
+26/10/2015 19:03:45: Discovery Response IPEndPoint: 127.0.0.1
+26/10/2015 19:03:46: Status changed to connected: 127.0.0.1
+26/10/2015 19:03:50: User Login: akaruz 127.0.0.1
+26/10/2015 19:03:51: World Server Login Attempt: akaruz 127.0.0.1
+26/10/2015 19:04:33: Status changed to disconnected: 1 akaruz 127.0.0.1
+26/10/2015 19:06:35: Discovery Response IPEndPoint: 127.0.0.1
+26/10/2015 19:06:36: Status changed to connected: 127.0.0.1
+26/10/2015 19:06:44: User Login: akaruz 127.0.0.1
+26/10/2015 19:06:45: World Server Login Attempt: akaruz 127.0.0.1
+26/10/2015 19:10:27: Status changed to disconnected: 1 akaruz 127.0.0.1
+26/10/2015 19:19:32: Discovery Response IPEndPoint: 127.0.0.1
+26/10/2015 19:19:32: Status changed to connected: 127.0.0.1
+26/10/2015 19:19:46: User Login: akaruz 127.0.0.1
+26/10/2015 19:19:47: World Server Login Attempt: akaruz 127.0.0.1
+26/10/2015 19:21:36: World Server Login Attempt: akaruz 127.0.0.1
+26/10/2015 19:21:47: World Server Login Attempt: akaruz 127.0.0.1
+26/10/2015 23:01:28: Discovery Response IPEndPoint: 127.0.0.1
+26/10/2015 23:01:28: Status changed to connected: 127.0.0.1
+26/10/2015 23:02:05: Status changed to disconnected: 0  127.0.0.1
+26/10/2015 23:34:33: Discovery Response IPEndPoint: 127.0.0.1
+26/10/2015 23:34:34: Status changed to connected: 127.0.0.1
+26/10/2015 23:37:55: Discovery Response IPEndPoint: 127.0.0.1
+26/10/2015 23:37:55: Status changed to connected: 127.0.0.1
+26/10/2015 23:40:33: Discovery Response IPEndPoint: 127.0.0.1
+26/10/2015 23:40:34: Status changed to connected: 127.0.0.1
+26/10/2015 23:42:23: Discovery Response IPEndPoint: 127.0.0.1
+26/10/2015 23:42:24: Status changed to connected: 127.0.0.1
+26/10/2015 23:47:13: Discovery Response IPEndPoint: 127.0.0.1
+26/10/2015 23:47:13: Status changed to connected: 127.0.0.1
+26/10/2015 23:48:16: Discovery Response IPEndPoint: 127.0.0.1
+26/10/2015 23:48:16: Status changed to connected: 127.0.0.1
+26/10/2015 23:50:43: Discovery Response IPEndPoint: 127.0.0.1
+26/10/2015 23:50:43: Status changed to connected: 127.0.0.1
+26/10/2015 23:51:07: Unhandled type: WarningMessage
+26/10/2015 23:51:11: Unhandled type: WarningMessage
+26/10/2015 23:51:15: Unhandled type: WarningMessage
+26/10/2015 23:51:17: Discovery Response IPEndPoint: 127.0.0.1
+26/10/2015 23:51:17: Status changed to connected: 127.0.0.1
+26/10/2015 23:52:01: Discovery Response IPEndPoint: 127.0.0.1
+26/10/2015 23:52:01: Status changed to connected: 127.0.0.1
+26/10/2015 23:53:44: Discovery Response IPEndPoint: 127.0.0.1
+26/10/2015 23:53:44: Status changed to connected: 127.0.0.1
+26/10/2015 23:54:04: Unhandled type: WarningMessage
+26/10/2015 23:54:08: Unhandled type: WarningMessage
+26/10/2015 23:54:12: Unhandled type: WarningMessage
+26/10/2015 23:54:16: Unhandled type: WarningMessage
+26/10/2015 23:54:18: Discovery Response IPEndPoint: 127.0.0.1
+26/10/2015 23:54:18: Status changed to connected: 127.0.0.1
+26/10/2015 23:54:50: Unhandled type: WarningMessage
+26/10/2015 23:54:52: Discovery Response IPEndPoint: 127.0.0.1
+26/10/2015 23:54:52: Status changed to connected: 127.0.0.1
+26/10/2015 23:55:59: Discovery Response IPEndPoint: 127.0.0.1
+26/10/2015 23:55:59: Status changed to connected: 127.0.0.1
+26/10/2015 23:57:38: Discovery Response IPEndPoint: 127.0.0.1
+26/10/2015 23:57:39: Status changed to connected: 127.0.0.1
+26/10/2015 23:59:01: Discovery Response IPEndPoint: 127.0.0.1
+26/10/2015 23:59:01: Status changed to connected: 127.0.0.1
+27/10/2015 00:00:03: Discovery Response IPEndPoint: 127.0.0.1
+27/10/2015 00:00:04: Status changed to connected: 127.0.0.1
+27/10/2015 00:00:09: User Login: akaruz 127.0.0.1
