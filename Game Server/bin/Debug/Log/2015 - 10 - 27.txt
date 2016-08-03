@@ -1,0 +1,103 @@
+27/10/2015 00:25:28: Carregando dados de mysql.
+27/10/2015 00:25:28: ID: #artemis#
+27/10/2015 00:25:28: Name: Canal 1
+27/10/2015 00:25:28: Discovery: Elysium Diamond #1.0.0
+27/10/2015 00:25:28: IP: 127.0.0.1
+27/10/2015 00:25:28: Port: 10120
+27/10/2015 00:25:28: MaximumConnections: 2000
+27/10/2015 00:25:28: Logs: True
+27/10/2015 00:25:28: Cryptography: GameEngine
+27/10/2015 00:25:28: ClientSerial: #elysium#
+27/10/2015 00:25:28: Sleep: 2
+27/10/2015 00:25:28: TestServer: False
+27/10/2015 00:25:28: WorldServer 1 ID: Artemis
+27/10/2015 00:25:28: WorldServer 2 ID: 
+27/10/2015 00:25:28: WorldServer 3 ID: 
+27/10/2015 00:25:28: WorldServer 4 ID: 
+27/10/2015 00:25:28: WorldServer 5 ID: 
+27/10/2015 00:25:29: Connectado ao banco de dados
+27/10/2015 00:25:29: Carregando experiência
+27/10/2015 00:25:29: Exp Máximo: 121 22353256174
+27/10/2015 00:25:29: Carregando guilds.
+27/10/2015 00:25:29: Total : 2 guilds carregados.
+27/10/2015 00:25:29: Carregando membros.
+27/10/2015 00:25:29: Total : 3 membros carregados.
+27/10/2015 00:25:29: Carregando classes
+27/10/2015 00:25:29: Servidor iniciado
+27/10/2015 00:27:02: Status changed to connected: 127.0.0.1
+27/10/2015 00:27:02: Received From Client: artemis
+27/10/2015 00:27:26: Data From World Server ID: 1 Account: akaruz Char ID: 30 Slot: 0 78D2EEAF9CCE9450
+27/10/2015 00:27:27: Status changed to connected: 127.0.0.1
+27/10/2015 00:27:27: Received From Client: 78D2EEAF9CCE9450
+27/10/2015 00:27:27: Player Found ID: 30 Name: 水色
+27/10/2015 00:28:18: Status changed to disconnected: 127.0.0.1
+27/10/2015 00:30:26: Data From World Server ID: 1 Account: akaruz Char ID: 30 Slot: 0 DE9033669559DE87
+27/10/2015 00:30:26: Status changed to connected: 127.0.0.1
+27/10/2015 00:30:26: Received From Client: DE9033669559DE87
+27/10/2015 00:30:26: Player Found ID: 30 Name: 水色
+27/10/2015 00:31:05: Status changed to disconnected: 127.0.0.1
+27/10/2015 00:32:13: Data From World Server ID: 1 Account: akaruz Char ID: 30 Slot: 0 3BE5AD496D89A263
+27/10/2015 00:32:14: Status changed to connected: 127.0.0.1
+27/10/2015 00:32:14: Received From Client: 3BE5AD496D89A263
+27/10/2015 00:32:14: Player Found ID: 30 Name: 水色
+27/10/2015 00:32:53: Status changed to disconnected: 127.0.0.1
+27/10/2015 00:32:58: Status changed to disconnected: 127.0.0.1
+27/10/2015 00:42:57: Status changed to connected: 127.0.0.1
+27/10/2015 00:42:57: Received From Client: artemis
+27/10/2015 00:43:20: Status changed to connected: 127.0.0.1
+27/10/2015 00:43:20: Received From Client: artemis
+27/10/2015 00:43:22: Status changed to disconnected: 127.0.0.1
+27/10/2015 00:43:40: Data From World Server ID: 1 Account: akaruz Char ID: 30 Slot: 0 3D34488E2696C26A
+27/10/2015 00:43:40: Status changed to connected: 127.0.0.1
+27/10/2015 00:43:40: Received From Client: 3D34488E2696C26A
+27/10/2015 00:43:40: Player Found ID: 30 Name: 水色
+27/10/2015 00:44:17: Status changed to disconnected: 127.0.0.1
+27/10/2015 00:44:23: Status changed to disconnected: 127.0.0.1
+27/10/2015 00:45:54: Status changed to connected: 127.0.0.1
+27/10/2015 00:45:54: Received From Client: artemis
+27/10/2015 00:46:15: Data From World Server ID: 1 Account: akaruz Char ID: 30 Slot: 0 5206A5185FBAF7FB
+27/10/2015 00:47:00: Removed HexID: 5206A5185FBAF7FB akaruz
+27/10/2015 00:47:08: Carregando dados de mysql.
+27/10/2015 00:47:08: ID: #artemis#
+27/10/2015 00:47:08: Name: Canal 1
+27/10/2015 00:47:08: Discovery: Elysium Diamond #1.0.0
+27/10/2015 00:47:08: IP: 127.0.0.1
+27/10/2015 00:47:08: Port: 10120
+27/10/2015 00:47:08: MaximumConnections: 2000
+27/10/2015 00:47:08: Logs: True
+27/10/2015 00:47:08: Cryptography: GameEngine
+27/10/2015 00:47:08: ClientSerial: #elysium#
+27/10/2015 00:47:08: Sleep: 2
+27/10/2015 00:47:08: TestServer: False
+27/10/2015 00:47:08: WorldServer 1 ID: Artemis
+27/10/2015 00:47:08: WorldServer 2 ID: 
+27/10/2015 00:47:08: WorldServer 3 ID: 
+27/10/2015 00:47:08: WorldServer 4 ID: 
+27/10/2015 00:47:08: WorldServer 5 ID: 
+27/10/2015 00:47:08: Connectado ao banco de dados
+27/10/2015 00:47:08: Carregando experiência
+27/10/2015 00:47:08: Exp Máximo: 121 22353256174
+27/10/2015 00:47:08: Carregando guilds.
+27/10/2015 00:47:08: Total : 2 guilds carregados.
+27/10/2015 00:47:08: Carregando membros.
+27/10/2015 00:47:08: Total : 1 membros carregados.
+27/10/2015 00:47:08: Carregando classes
+27/10/2015 00:47:08: Servidor iniciado
+27/10/2015 00:47:34: Status changed to connected: 127.0.0.1
+27/10/2015 00:47:34: Received From Client: artemis
+27/10/2015 00:49:33: Data From World Server ID: 1 Account: akaruz Char ID: 30 Slot: 0 CB293A08993A6031
+27/10/2015 00:49:34: Status changed to connected: 127.0.0.1
+27/10/2015 00:49:34: Received From Client: CB293A08993A6031
+27/10/2015 00:49:34: Player Found ID: 30 Name: 水色
+27/10/2015 00:50:55: Status changed to disconnected: 127.0.0.1
+27/10/2015 00:51:09: Data From World Server ID: 1 Account: akaruz Char ID: 30 Slot: 0 47480EC8BF919898
+27/10/2015 00:51:10: Status changed to connected: 127.0.0.1
+27/10/2015 00:51:10: Received From Client: 47480EC8BF919898
+27/10/2015 00:51:10: Player Found ID: 30 Name: 水色
+27/10/2015 00:52:24: Status changed to disconnected: 127.0.0.1
+27/10/2015 00:52:32: Data From World Server ID: 1 Account: akaruz Char ID: 30 Slot: 0 EAE72DA87F1C9C3C
+27/10/2015 00:52:33: Status changed to connected: 127.0.0.1
+27/10/2015 00:52:33: Received From Client: EAE72DA87F1C9C3C
+27/10/2015 00:52:33: Player Found ID: 30 Name: 水色
+27/10/2015 00:53:18: Status changed to disconnected: 127.0.0.1
+27/10/2015 00:54:42: Status changed to disconnected: 127.0.0.1

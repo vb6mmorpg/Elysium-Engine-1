@@ -1,0 +1,53 @@
+04/01/2016 03:27:56: Carregando dados de mysql.
+04/01/2016 03:27:56: ID: #artemis#
+04/01/2016 03:27:56: Name: Canal 1
+04/01/2016 03:27:56: Discovery: Elysium Diamond #1.0.0
+04/01/2016 03:27:56: IP: 127.0.0.1
+04/01/2016 03:27:56: Port: 10120
+04/01/2016 03:27:56: MaximumConnections: 2000
+04/01/2016 03:27:56: Logs: True
+04/01/2016 03:27:56: Cryptography: GameEngine
+04/01/2016 03:27:56: ClientSerial: #elysium#
+04/01/2016 03:27:56: Sleep: 2
+04/01/2016 03:27:56: TestServer: False
+04/01/2016 03:27:56: WorldServer 1 ID: Artemis
+04/01/2016 03:27:56: WorldServer 2 ID: 
+04/01/2016 03:27:56: WorldServer 3 ID: 
+04/01/2016 03:27:56: WorldServer 4 ID: 
+04/01/2016 03:27:56: WorldServer 5 ID: 
+04/01/2016 03:27:56: Connectado ao banco de dados
+04/01/2016 03:27:56: Carregando experiência
+04/01/2016 03:27:56: Exp Máximo: 121 22353256174
+04/01/2016 03:27:56: Carregando guilds.
+04/01/2016 03:27:56: Total : 2 guilds carregados.
+04/01/2016 03:27:56: Carregando membros.
+04/01/2016 03:27:56: Total : 2 membros carregados.
+04/01/2016 03:27:56: Carregando classes
+04/01/2016 03:27:56: Servidor iniciado
+04/01/2016 03:27:59: Status changed to connected: 127.0.0.1
+04/01/2016 03:38:28: Carregando dados de mysql.
+04/01/2016 03:38:28: ID: #artemis#
+04/01/2016 03:38:28: Name: Canal 1
+04/01/2016 03:38:28: Discovery: Elysium Diamond #1.0.0
+04/01/2016 03:38:28: IP: 127.0.0.1
+04/01/2016 03:38:28: Port: 10120
+04/01/2016 03:38:28: MaximumConnections: 2000
+04/01/2016 03:38:28: Logs: True
+04/01/2016 03:38:28: Cryptography: GameEngine
+04/01/2016 03:38:28: ClientSerial: #elysium#
+04/01/2016 03:38:28: Sleep: 2
+04/01/2016 03:38:28: TestServer: False
+04/01/2016 03:38:28: WorldServer 1 ID: Artemis
+04/01/2016 03:38:28: WorldServer 2 ID: 
+04/01/2016 03:38:28: WorldServer 3 ID: 
+04/01/2016 03:38:28: WorldServer 4 ID: 
+04/01/2016 03:38:28: WorldServer 5 ID: 
+04/01/2016 03:38:28: Connectado ao banco de dados
+04/01/2016 03:38:28: Carregando experiência
+04/01/2016 03:38:28: Exp Máximo: 121 22353256174
+04/01/2016 03:38:28: Carregando guilds.
+04/01/2016 03:38:28: Total : 2 guilds carregados.
+04/01/2016 03:38:28: Carregando membros.
+04/01/2016 03:38:28: Total : 2 membros carregados.
+04/01/2016 03:38:28: Carregando classes
+04/01/2016 03:38:28: Servidor iniciado

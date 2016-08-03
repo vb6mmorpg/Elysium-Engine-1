@@ -1,0 +1,7 @@
+classe_0=Guerreiro
+sprite_0_m=4
+sprite_0_f=15
+
+classe_1=Mago
+sprite_1_m=22
+sprite_1_f=23

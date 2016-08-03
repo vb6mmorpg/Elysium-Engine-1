@@ -1,0 +1,106 @@
+01/04/2016 02:43:31: Discovery Response IPEndPoint: 127.0.0.1
+01/04/2016 02:43:31: Status changed to connected: 127.0.0.1
+01/04/2016 02:43:31: Data From Client: 2681C0655EB3719D
+01/04/2016 02:43:31: Status changed to disconnected: 0  127.0.0.1
+01/04/2016 02:43:52: Discovery Response IPEndPoint: 127.0.0.1
+01/04/2016 02:43:52: Status changed to connected: 127.0.0.1
+01/04/2016 02:43:52: Data From Client: 1D7B88E48E2D3866
+01/04/2016 02:43:52: Status changed to disconnected: 0  127.0.0.1
+01/04/2016 02:45:49: Discovery Response IPEndPoint: 127.0.0.1
+01/04/2016 02:45:49: Status changed to connected: 127.0.0.1
+01/04/2016 02:45:49: Data From Client: BC582A075AADFD45
+01/04/2016 02:45:49: Status changed to disconnected: 0  127.0.0.1
+01/04/2016 02:50:31: Discovery Response IPEndPoint: 127.0.0.1
+01/04/2016 02:50:31: Status changed to connected: 127.0.0.1
+01/04/2016 02:50:31: Data From Client: 026F091D80ECA896
+01/04/2016 02:50:31: Status changed to disconnected: 0  127.0.0.1
+01/04/2016 03:50:06: Discovery Response IPEndPoint: 127.0.0.1
+01/04/2016 03:50:06: Status changed to connected: 127.0.0.1
+01/04/2016 03:50:12: Status changed to disconnected: 0  127.0.0.1
+01/04/2016 03:53:41: Discovery Response IPEndPoint: 127.0.0.1
+01/04/2016 03:53:41: Status changed to connected: 127.0.0.1
+01/04/2016 03:57:22: Discovery Response IPEndPoint: 127.0.0.1
+01/04/2016 03:57:22: Status changed to connected: 127.0.0.1
+01/04/2016 03:57:53: Data From Login Server ID: 1 Account: akaruz 259BBCB55B61DC30
+01/04/2016 03:57:53: Discovery Response IPEndPoint: 127.0.0.1
+01/04/2016 03:57:53: Discovery Response IPEndPoint: 127.0.0.1
+01/04/2016 03:57:53: Discovery Response IPEndPoint: 127.0.0.1
+01/04/2016 03:57:53: Discovery Response IPEndPoint: 127.0.0.1
+01/04/2016 03:57:53: Status changed to connected: 127.0.0.1
+01/04/2016 03:57:53: Data From Client: 259BBCB55B61DC30
+01/04/2016 03:57:55: Player Found ID: 1 Account: akaruz 259BBCB55B61DC30
+01/04/2016 03:57:55: PreLoad ID: 1 Account: akaruz
+01/04/2016 03:58:56: Data From Login Server ID: 1 Account: akaruz 259BBCB55B61DC30
+01/04/2016 03:58:56: Status changed to disconnected: 1 akaruz 127.0.0.1
+01/04/2016 03:58:56: Discovery Response IPEndPoint: 127.0.0.1
+01/04/2016 03:58:56: Status changed to connected: 127.0.0.1
+01/04/2016 03:58:56: Data From Client: 259BBCB55B61DC30
+01/04/2016 03:58:58: Player Found ID: 1 Account: akaruz 259BBCB55B61DC30
+01/04/2016 03:58:58: PreLoad ID: 1 Account: akaruz
+01/04/2016 03:59:42: Discovery Response IPEndPoint: 127.0.0.1
+01/04/2016 03:59:42: Status changed to connected: 127.0.0.1
+01/04/2016 03:59:50: Data From Login Server ID: 1 Account: akaruz DB4123E418DE839C
+01/04/2016 03:59:51: Discovery Response IPEndPoint: 127.0.0.1
+01/04/2016 03:59:52: Status changed to connected: 127.0.0.1
+01/04/2016 03:59:52: Data From Client: DB4123E418DE839C
+01/04/2016 03:59:54: Player Found ID: 1 Account: akaruz DB4123E418DE839C
+01/04/2016 03:59:54: PreLoad ID: 1 Account: akaruz
+01/04/2016 04:05:22: Discovery Response IPEndPoint: 127.0.0.1
+01/04/2016 04:05:22: Status changed to connected: 127.0.0.1
+01/04/2016 04:05:31: Data From Login Server ID: 1 Account: akaruz 1CC84111D46B6476
+01/04/2016 04:05:31: Discovery Response IPEndPoint: 127.0.0.1
+01/04/2016 04:05:31: Status changed to connected: 127.0.0.1
+01/04/2016 04:05:31: Data From Client: 1CC84111D46B6476
+01/04/2016 04:05:36: Player Found ID: 1 Account: akaruz 1CC84111D46B6476
+01/04/2016 04:05:36: PreLoad ID: 1 Account: akaruz
+01/04/2016 04:07:02: Discovery Response IPEndPoint: 127.0.0.1
+01/04/2016 04:07:02: Status changed to connected: 127.0.0.1
+01/04/2016 04:07:16: Data From Login Server ID: 1 Account: akaruz 21599A101CB77738
+01/04/2016 04:07:16: Discovery Response IPEndPoint: 127.0.0.1
+01/04/2016 04:07:16: Discovery Response IPEndPoint: 127.0.0.1
+01/04/2016 04:07:16: Discovery Response IPEndPoint: 127.0.0.1
+01/04/2016 04:07:16: Status changed to connected: 127.0.0.1
+01/04/2016 04:07:16: Data From Client: 21599A101CB77738
+01/04/2016 04:07:16: Player Found ID: 1 Account: akaruz 21599A101CB77738
+01/04/2016 04:07:16: PreLoad ID: 1 Account: akaruz
+01/04/2016 04:32:49: Discovery Response IPEndPoint: 127.0.0.1
+01/04/2016 04:32:49: Status changed to connected: 127.0.0.1
+01/04/2016 04:33:06: Data From Login Server ID: 1 Account: akaruz 2F3BCE22B3823B48
+01/04/2016 04:33:07: Discovery Response IPEndPoint: 127.0.0.1
+01/04/2016 04:33:07: Status changed to connected: 127.0.0.1
+01/04/2016 04:33:07: Data From Client: 2F3BCE22B3823B48
+01/04/2016 04:33:07: Player Found ID: 1 Account: akaruz 2F3BCE22B3823B48
+01/04/2016 04:33:07: PreLoad ID: 1 Account: akaruz
+01/04/2016 04:33:28: Status changed to disconnected: 0  127.0.0.1
+01/04/2016 04:33:42: Status changed to disconnected: 1 akaruz 127.0.0.1
+01/04/2016 04:34:50: Discovery Response IPEndPoint: 127.0.0.1
+01/04/2016 04:34:50: Status changed to connected: 127.0.0.1
+01/04/2016 04:35:09: Data From Login Server ID: 1 Account: akaruz 87987114E6182F87
+01/04/2016 04:35:11: Discovery Response IPEndPoint: 127.0.0.1
+01/04/2016 04:35:11: Status changed to connected: 127.0.0.1
+01/04/2016 04:35:11: Data From Client: 87987114E6182F87
+01/04/2016 04:35:11: Player Found ID: 1 Account: akaruz 87987114E6182F87
+01/04/2016 04:35:11: PreLoad ID: 1 Account: akaruz
+01/04/2016 04:35:47: Status changed to disconnected: 0  127.0.0.1
+01/04/2016 04:36:07: Discovery Response IPEndPoint: 127.0.0.1
+01/04/2016 04:36:07: Status changed to connected: 127.0.0.1
+01/04/2016 04:36:32: Status changed to disconnected: 1 akaruz 127.0.0.1
+01/04/2016 04:36:54: Status changed to disconnected: 0  127.0.0.1
+01/04/2016 04:38:30: Discovery Response IPEndPoint: 127.0.0.1
+01/04/2016 04:38:30: Status changed to connected: 127.0.0.1
+01/04/2016 04:38:33: Data From Login Server ID: 1 Account: akaruz 879F998071CA5BD9
+01/04/2016 04:38:35: Discovery Response IPEndPoint: 127.0.0.1
+01/04/2016 04:38:35: Status changed to connected: 127.0.0.1
+01/04/2016 04:38:35: Data From Client: 879F998071CA5BD9
+01/04/2016 04:38:35: Player Found ID: 1 Account: akaruz 879F998071CA5BD9
+01/04/2016 04:38:35: PreLoad ID: 1 Account: akaruz
+01/04/2016 04:38:54: Discovery Response IPEndPoint: 127.0.0.1
+01/04/2016 04:38:54: Status changed to connected: 127.0.0.1
+01/04/2016 04:39:02: Status changed to disconnected: 1 akaruz 127.0.0.1
+01/04/2016 04:39:06: Data From Login Server ID: 1 Account: akaruz 68F6D30055B23E06
+01/04/2016 04:39:07: Discovery Response IPEndPoint: 127.0.0.1
+01/04/2016 04:39:07: Status changed to connected: 127.0.0.1
+01/04/2016 04:39:07: Data From Client: 68F6D30055B23E06
+01/04/2016 04:39:07: Player Found ID: 1 Account: akaruz 68F6D30055B23E06
+01/04/2016 04:39:07: PreLoad ID: 1 Account: akaruz
+01/04/2016 04:39:13: Status changed to disconnected: 0  127.0.0.1

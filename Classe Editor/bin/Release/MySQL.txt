@@ -1,0 +1,16 @@
+//------------------------------------------------------//
+//		     MYSQL SERVER		        //
+//------------------------------------------------------//
+MySQL_IP    		=    	127.0.0.1
+MySQL_Port 		=    	3306
+MySQL_User  		=    	root
+MySQL_Pass  		=	dwHandle
+MySQL_DB    		=    	elysium_gs
+
+//------------------------------------------------------//
+//		     MSSQL SERVER		        //
+//------------------------------------------------------//
+MSSQL_IP		=	127.0.0.1
+MSSQL_User		=	sa
+MSSQL_Pass		=	dwHandle
+MSSQL_DB		=	elysium_gs

@@ -1,0 +1,8 @@
+01/12/2015 01:21:18: Discovery Response IPEndPoint: 127.0.0.1
+01/12/2015 01:21:18: Status changed to connected: 127.0.0.1
+01/12/2015 01:22:01: Data From Login Server ID: 1 Account: akaruz C48654F3100D3D64
+01/12/2015 01:22:02: Discovery Response IPEndPoint: 127.0.0.1
+01/12/2015 01:22:02: Status changed to connected: 127.0.0.1
+01/12/2015 01:22:02: Data From Client: C48654F3100D3D64
+01/12/2015 01:22:02: Player Found ID: 1 Account: akaruz C48654F3100D3D64
+01/12/2015 01:22:02: Pre-Load ID: 1 Account: akaruz Char: 水色 Akaruz Caronne 

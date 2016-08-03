@@ -1,0 +1,204 @@
+2015/08/27 16:27:54: Carregando dados de mysql.
+2015/08/27 16:27:54: ID: #artemis#
+2015/08/27 16:27:54: Name: Canal 1
+2015/08/27 16:27:54: Discovery: Elysium Diamond #1.0.0
+2015/08/27 16:27:54: IP: 127.0.0.1
+2015/08/27 16:27:54: Port: 10120
+2015/08/27 16:27:54: MaximumConnections: 2000
+2015/08/27 16:27:54: Logs: True
+2015/08/27 16:27:54: Cryptography: GameEngine
+2015/08/27 16:27:54: ClientSerial: #elysium#
+2015/08/27 16:27:54: Sleep: 2
+2015/08/27 16:27:54: TestServer: False
+2015/08/27 16:27:54: WorldServer 1 ID: Artemis
+2015/08/27 16:27:54: WorldServer 2 ID: 
+2015/08/27 16:27:54: WorldServer 3 ID: 
+2015/08/27 16:27:54: WorldServer 4 ID: 
+2015/08/27 16:27:54: WorldServer 5 ID: 
+2015/08/27 16:27:54: Connectado ao banco de dados
+2015/08/27 16:27:54: Carregando experiência
+2015/08/27 16:27:54: Exp Máximo: 121 22353256174
+2015/08/27 16:27:54: Carregando classes
+2015/08/27 16:27:54: Servidor iniciado
+2015/08/27 16:28:04: Status changed to connected: 127.0.0.1
+2015/08/27 16:28:04: Received From Client: artemis
+2015/08/27 16:28:18: Data From World Server ID: 1 Account: akaruz Char ID: 14 Slot: 0 DBAB45852EA5DD74
+2015/08/27 16:28:20: Status changed to connected: 127.0.0.1
+2015/08/27 16:28:20: Received From Client: DBAB45852EA5DD74
+2015/08/27 16:28:20: Player Found ID: 14 Name: Nadaila
+2015/08/27 16:29:18: Carregando dados de mysql.
+2015/08/27 16:29:18: ID: #artemis#
+2015/08/27 16:29:18: Name: Canal 1
+2015/08/27 16:29:18: Discovery: Elysium Diamond #1.0.0
+2015/08/27 16:29:18: IP: 127.0.0.1
+2015/08/27 16:29:18: Port: 10120
+2015/08/27 16:29:18: MaximumConnections: 2000
+2015/08/27 16:29:18: Logs: True
+2015/08/27 16:29:18: Cryptography: GameEngine
+2015/08/27 16:29:18: ClientSerial: #elysium#
+2015/08/27 16:29:18: Sleep: 2
+2015/08/27 16:29:18: TestServer: False
+2015/08/27 16:29:18: WorldServer 1 ID: Artemis
+2015/08/27 16:29:18: WorldServer 2 ID: 
+2015/08/27 16:29:18: WorldServer 3 ID: 
+2015/08/27 16:29:18: WorldServer 4 ID: 
+2015/08/27 16:29:18: WorldServer 5 ID: 
+2015/08/27 16:29:18: Connectado ao banco de dados
+2015/08/27 16:29:18: Carregando experiência
+2015/08/27 16:29:18: Exp Máximo: 121 22353256174
+2015/08/27 16:29:18: Carregando classes
+2015/08/27 16:29:19: Servidor iniciado
+2015/08/27 16:29:24: Status changed to connected: 127.0.0.1
+2015/08/27 16:29:24: Received From Client: artemis
+2015/08/27 16:29:56: Data From World Server ID: 1 Account: akaruz Char ID: 14 Slot: 0 93CF3BB83F9ACBA9
+2015/08/27 16:29:57: Status changed to connected: 127.0.0.1
+2015/08/27 16:29:57: Received From Client: 93CF3BB83F9ACBA9
+2015/08/27 16:29:57: Player Found ID: 14 Name: Nadaila
+2015/08/27 16:30:54: Carregando dados de mysql.
+2015/08/27 16:30:54: ID: #artemis#
+2015/08/27 16:30:54: Name: Canal 1
+2015/08/27 16:30:54: Discovery: Elysium Diamond #1.0.0
+2015/08/27 16:30:54: IP: 127.0.0.1
+2015/08/27 16:30:54: Port: 10120
+2015/08/27 16:30:54: MaximumConnections: 2000
+2015/08/27 16:30:54: Logs: True
+2015/08/27 16:30:54: Cryptography: GameEngine
+2015/08/27 16:30:54: ClientSerial: #elysium#
+2015/08/27 16:30:54: Sleep: 2
+2015/08/27 16:30:54: TestServer: False
+2015/08/27 16:30:54: WorldServer 1 ID: Artemis
+2015/08/27 16:30:54: WorldServer 2 ID: 
+2015/08/27 16:30:54: WorldServer 3 ID: 
+2015/08/27 16:30:54: WorldServer 4 ID: 
+2015/08/27 16:30:54: WorldServer 5 ID: 
+2015/08/27 16:30:54: Connectado ao banco de dados
+2015/08/27 16:30:54: Carregando experiência
+2015/08/27 16:30:54: Exp Máximo: 121 22353256174
+2015/08/27 16:30:54: Carregando classes
+2015/08/27 16:30:54: Servidor iniciado
+2015/08/27 16:34:10: Carregando dados de mysql.
+2015/08/27 16:34:10: ID: #artemis#
+2015/08/27 16:34:10: Name: Canal 1
+2015/08/27 16:34:10: Discovery: Elysium Diamond #1.0.0
+2015/08/27 16:34:10: IP: 127.0.0.1
+2015/08/27 16:34:10: Port: 10120
+2015/08/27 16:34:10: MaximumConnections: 2000
+2015/08/27 16:34:10: Logs: True
+2015/08/27 16:34:10: Cryptography: GameEngine
+2015/08/27 16:34:10: ClientSerial: #elysium#
+2015/08/27 16:34:10: Sleep: 2
+2015/08/27 16:34:10: TestServer: False
+2015/08/27 16:34:10: WorldServer 1 ID: Artemis
+2015/08/27 16:34:10: WorldServer 2 ID: 
+2015/08/27 16:34:10: WorldServer 3 ID: 
+2015/08/27 16:34:11: WorldServer 4 ID: 
+2015/08/27 16:34:11: WorldServer 5 ID: 
+2015/08/27 16:34:11: Connectado ao banco de dados
+2015/08/27 16:34:11: Carregando experiência
+2015/08/27 16:34:11: Exp Máximo: 121 22353256174
+2015/08/27 16:34:11: Carregando guilds.
+2015/08/27 16:34:11: Total : 0 guilds carregados.
+2015/08/27 16:34:11: Carregando membros.
+2015/08/27 16:34:11: Total : 0 membros carregados.
+2015/08/27 16:34:11: Carregando classes
+2015/08/27 16:34:11: Servidor iniciado
+2015/08/27 16:34:14: Status changed to connected: 127.0.0.1
+2015/08/27 16:34:14: Received From Client: artemis
+2015/08/27 16:37:22: Carregando dados de mysql.
+2015/08/27 16:37:22: ID: #artemis#
+2015/08/27 16:37:22: Name: Canal 1
+2015/08/27 16:37:22: Discovery: Elysium Diamond #1.0.0
+2015/08/27 16:37:22: IP: 127.0.0.1
+2015/08/27 16:37:22: Port: 10120
+2015/08/27 16:37:22: MaximumConnections: 2000
+2015/08/27 16:37:22: Logs: True
+2015/08/27 16:37:22: Cryptography: GameEngine
+2015/08/27 16:37:22: ClientSerial: #elysium#
+2015/08/27 16:37:22: Sleep: 2
+2015/08/27 16:37:22: TestServer: False
+2015/08/27 16:37:22: WorldServer 1 ID: Artemis
+2015/08/27 16:37:22: WorldServer 2 ID: 
+2015/08/27 16:37:22: WorldServer 3 ID: 
+2015/08/27 16:37:22: WorldServer 4 ID: 
+2015/08/27 16:37:22: WorldServer 5 ID: 
+2015/08/27 16:37:23: Connectado ao banco de dados
+2015/08/27 16:37:23: Carregando experiência
+2015/08/27 16:37:23: Exp Máximo: 121 22353256174
+2015/08/27 16:37:23: Carregando guilds.
+2015/08/27 16:37:23: Total : 2 guilds carregados.
+2015/08/27 16:37:23: Carregando membros.
+2015/08/27 16:37:23: Total : 3 membros carregados.
+2015/08/27 16:37:23: Carregando classes
+2015/08/27 16:37:23: Servidor iniciado
+2015/08/27 16:37:24: Status changed to connected: 127.0.0.1
+2015/08/27 16:37:24: Received From Client: artemis
+2015/08/27 16:38:15: Data From World Server ID: 1 Account: akaruz Char ID: 6 Slot: 2 B6545DCBEF997274
+2015/08/27 16:38:16: Status changed to connected: 127.0.0.1
+2015/08/27 16:38:16: Received From Client: B6545DCBEF997274
+2015/08/27 16:38:16: Player Found ID: 6 Name: Caronne
+2015/08/27 16:38:49: Carregando dados de mysql.
+2015/08/27 16:38:49: ID: #artemis#
+2015/08/27 16:38:49: Name: Canal 1
+2015/08/27 16:38:49: Discovery: Elysium Diamond #1.0.0
+2015/08/27 16:38:49: IP: 127.0.0.1
+2015/08/27 16:38:49: Port: 10120
+2015/08/27 16:38:49: MaximumConnections: 2000
+2015/08/27 16:38:49: Logs: True
+2015/08/27 16:38:49: Cryptography: GameEngine
+2015/08/27 16:38:49: ClientSerial: #elysium#
+2015/08/27 16:38:49: Sleep: 2
+2015/08/27 16:38:49: TestServer: False
+2015/08/27 16:38:49: WorldServer 1 ID: Artemis
+2015/08/27 16:38:49: WorldServer 2 ID: 
+2015/08/27 16:38:49: WorldServer 3 ID: 
+2015/08/27 16:38:49: WorldServer 4 ID: 
+2015/08/27 16:38:49: WorldServer 5 ID: 
+2015/08/27 16:38:49: Connectado ao banco de dados
+2015/08/27 16:38:49: Carregando experiência
+2015/08/27 16:38:49: Exp Máximo: 121 22353256174
+2015/08/27 16:38:49: Carregando guilds.
+2015/08/27 16:38:49: Total : 2 guilds carregados.
+2015/08/27 16:38:49: Carregando membros.
+2015/08/27 16:38:49: Total : 3 membros carregados.
+2015/08/27 16:38:49: Carregando classes
+2015/08/27 16:38:49: Servidor iniciado
+2015/08/27 16:38:54: Status changed to connected: 127.0.0.1
+2015/08/27 16:38:54: Received From Client: artemis
+2015/08/27 16:45:03: Carregando dados de mysql.
+2015/08/27 16:45:03: ID: #artemis#
+2015/08/27 16:45:03: Name: Canal 1
+2015/08/27 16:45:03: Discovery: Elysium Diamond #1.0.0
+2015/08/27 16:45:03: IP: 127.0.0.1
+2015/08/27 16:45:03: Port: 10120
+2015/08/27 16:45:03: MaximumConnections: 2000
+2015/08/27 16:45:03: Logs: True
+2015/08/27 16:45:03: Cryptography: GameEngine
+2015/08/27 16:45:03: ClientSerial: #elysium#
+2015/08/27 16:45:03: Sleep: 2
+2015/08/27 16:45:03: TestServer: False
+2015/08/27 16:45:03: WorldServer 1 ID: Artemis
+2015/08/27 16:45:03: WorldServer 2 ID: 
+2015/08/27 16:45:03: WorldServer 3 ID: 
+2015/08/27 16:45:03: WorldServer 4 ID: 
+2015/08/27 16:45:03: WorldServer 5 ID: 
+2015/08/27 16:45:03: Connectado ao banco de dados
+2015/08/27 16:45:03: Carregando experiência
+2015/08/27 16:45:03: Exp Máximo: 121 22353256174
+2015/08/27 16:45:03: Carregando guilds.
+2015/08/27 16:45:03: Total : 2 guilds carregados.
+2015/08/27 16:45:03: Carregando membros.
+2015/08/27 16:45:03: Total : 3 membros carregados.
+2015/08/27 16:45:03: Carregando classes
+2015/08/27 16:45:04: Servidor iniciado
+2015/08/27 16:45:07: Status changed to connected: 127.0.0.1
+2015/08/27 16:45:07: Received From Client: artemis
+2015/08/27 16:45:51: Data From World Server ID: 1 Account: akaruz Char ID: 6 Slot: 2 92A8AEC4CE8CDF9F
+2015/08/27 16:45:53: Status changed to connected: 127.0.0.1
+2015/08/27 16:45:53: Received From Client: 92A8AEC4CE8CDF9F
+2015/08/27 16:45:53: Player Found ID: 6 Name: Caronne
+2015/08/27 16:46:24: Status changed to disconnected: 127.0.0.1
+2015/08/27 16:46:47: Data From World Server ID: 1 Account: akaruz Char ID: 14 Slot: 0 C0242A71BA536146
+2015/08/27 16:46:48: Status changed to connected: 127.0.0.1
+2015/08/27 16:46:48: Received From Client: C0242A71BA536146
+2015/08/27 16:46:48: Player Found ID: 14 Name: Nadaila
+2015/08/27 16:47:35: Status changed to disconnected: 127.0.0.1

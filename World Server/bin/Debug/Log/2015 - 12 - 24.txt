@@ -1,0 +1,238 @@
+24/12/2015 15:57:50: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 15:57:50: Status changed to connected: 127.0.0.1
+24/12/2015 15:57:50: Data From Client: FB01DB968DEF58C8
+24/12/2015 15:58:02: Unhandled type: WarningMessage
+24/12/2015 15:58:04: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 15:58:04: Status changed to connected: 127.0.0.1
+24/12/2015 15:58:06: Data From Login Server ID: 1 Account: akaruz FB01DB968DEF58C8
+24/12/2015 15:58:08: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 15:58:08: Status changed to connected: 127.0.0.1
+24/12/2015 15:58:08: Data From Client: FB01DB968DEF58C8
+24/12/2015 15:58:08: Player Found ID: 1 Account: akaruz FB01DB968DEF58C8
+24/12/2015 15:58:08: Pre-Load ID: 1 Account: akaruz Char: 水色 Akaruz Caronne アカウント 
+24/12/2015 15:58:54: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 15:58:54: Status changed to connected: 127.0.0.1
+24/12/2015 15:59:24: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 15:59:24: Status changed to connected: 127.0.0.1
+24/12/2015 15:59:24: Data From Client: CCEAE69E12B810A7
+24/12/2015 16:01:06: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 16:01:06: Status changed to connected: 127.0.0.1
+24/12/2015 16:01:06: Data From Client: CCEAE69E12B810A7
+24/12/2015 16:01:06: Status changed to disconnected: 0  127.0.0.1
+24/12/2015 16:01:14: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 16:01:14: Status changed to connected: 127.0.0.1
+24/12/2015 17:16:47: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 17:16:47: Status changed to connected: 127.0.0.1
+24/12/2015 17:17:11: Status changed to disconnected: 0  127.0.0.1
+24/12/2015 17:49:21: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 17:49:21: Status changed to connected: 127.0.0.1
+24/12/2015 17:51:59: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 17:51:59: Status changed to connected: 127.0.0.1
+24/12/2015 17:52:56: Status changed to disconnected: 0  127.0.0.1
+24/12/2015 17:55:01: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 17:55:01: Status changed to connected: 127.0.0.1
+24/12/2015 17:55:32: Status changed to disconnected: 0  127.0.0.1
+24/12/2015 18:02:09: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 18:02:09: Status changed to connected: 127.0.0.1
+24/12/2015 18:02:24: Data From Login Server ID: 1 Account: akaruz 295645683057C127
+24/12/2015 18:02:26: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 18:02:26: Status changed to connected: 127.0.0.1
+24/12/2015 18:02:26: Data From Client: 295645683057C127
+24/12/2015 18:02:26: Player Found ID: 1 Account: akaruz 295645683057C127
+24/12/2015 18:02:26: Pre-Load ID: 1 Account: akaruz Char: 水色 Akaruz Caronne アカウント 
+24/12/2015 18:02:32: Data From Login Server ID: 1 Account: akaruz 295645683057C127
+24/12/2015 18:02:32: Status changed to disconnected: 1 akaruz 127.0.0.1
+24/12/2015 18:02:32: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 18:02:32: Status changed to connected: 127.0.0.1
+24/12/2015 18:02:32: Data From Client: 295645683057C127
+24/12/2015 18:02:32: Player Found ID: 1 Account: akaruz 295645683057C127
+24/12/2015 18:02:32: Pre-Load ID: 1 Account: akaruz Char: 水色 Akaruz Caronne アカウント 
+24/12/2015 18:02:43: Status changed to disconnected: 0  127.0.0.1
+24/12/2015 18:04:57: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 18:04:57: Status changed to connected: 127.0.0.1
+24/12/2015 18:05:43: Data From Login Server ID: 1 Account: akaruz 7CBA5031955E635C
+24/12/2015 18:05:44: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 18:05:44: Status changed to connected: 127.0.0.1
+24/12/2015 18:05:44: Data From Client: 7CBA5031955E635C
+24/12/2015 18:05:44: Player Found ID: 1 Account: akaruz 7CBA5031955E635C
+24/12/2015 18:05:44: Pre-Load ID: 1 Account: akaruz Char: 水色 Akaruz Caronne アカウント 
+24/12/2015 18:06:38: Status changed to disconnected: 0  127.0.0.1
+24/12/2015 18:07:07: Status changed to disconnected: 1 akaruz 127.0.0.1
+24/12/2015 18:07:42: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 18:07:43: Status changed to connected: 127.0.0.1
+24/12/2015 18:08:19: Data From Login Server ID: 1 Account: akaruz E8D45E00111C7F20
+24/12/2015 18:08:20: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 18:08:20: Status changed to connected: 127.0.0.1
+24/12/2015 18:08:20: Data From Client: E8D45E00111C7F20
+24/12/2015 18:08:20: Player Found ID: 1 Account: akaruz E8D45E00111C7F20
+24/12/2015 18:08:20: Pre-Load ID: 1 Account: akaruz Char: 水色 Akaruz Caronne アカウント 
+24/12/2015 18:09:15: Status changed to disconnected: 0  127.0.0.1
+24/12/2015 18:09:19: Status changed to disconnected: 1 akaruz 127.0.0.1
+24/12/2015 18:56:06: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 18:56:06: Status changed to connected: 127.0.0.1
+24/12/2015 18:57:24: Status changed to disconnected: 0  127.0.0.1
+24/12/2015 18:57:37: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 18:57:37: Status changed to connected: 127.0.0.1
+24/12/2015 18:58:18: Status changed to disconnected: 0  127.0.0.1
+24/12/2015 18:58:40: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 18:58:40: Status changed to connected: 127.0.0.1
+24/12/2015 19:00:02: Data From Login Server ID: 1 Account: akaruz 63038A2B0B293768
+24/12/2015 19:00:02: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 19:00:02: Status changed to connected: 127.0.0.1
+24/12/2015 19:00:02: Data From Client: 63038A2B0B293768
+24/12/2015 19:00:02: Player Found ID: 1 Account: akaruz 63038A2B0B293768
+24/12/2015 19:00:02: Pre-Load ID: 1 Account: akaruz Char: 水色 Akaruz Caronne アカウント 
+24/12/2015 19:00:03: Data From Login Server ID: 2 Account: dragonick 630E96F8A6F0C8F6
+24/12/2015 19:00:04: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 19:00:04: Status changed to connected: 127.0.0.1
+24/12/2015 19:00:04: Data From Client: 630E96F8A6F0C8F6
+24/12/2015 19:00:04: Player Found ID: 2 Account: dragonick 630E96F8A6F0C8F6
+24/12/2015 19:00:04: Pre-Load ID: 2 Account: dragonick Char: Isabele 
+24/12/2015 19:00:08: Data From Login Server ID: 1 Account: akaruz 63038A2B0B293768
+24/12/2015 19:00:08: Status changed to disconnected: 1 akaruz 127.0.0.1
+24/12/2015 19:00:08: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 19:00:08: Status changed to connected: 127.0.0.1
+24/12/2015 19:00:08: Data From Client: 63038A2B0B293768
+24/12/2015 19:00:08: Player Found ID: 1 Account: akaruz 63038A2B0B293768
+24/12/2015 19:00:08: Pre-Load ID: 1 Account: akaruz Char: 水色 Akaruz Caronne アカウント 
+24/12/2015 19:00:09: Data From Login Server ID: 2 Account: dragonick 630E96F8A6F0C8F6
+24/12/2015 19:00:09: Status changed to disconnected: 2 dragonick 127.0.0.1
+24/12/2015 19:00:10: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 19:00:10: Status changed to connected: 127.0.0.1
+24/12/2015 19:00:10: Data From Client: 630E96F8A6F0C8F6
+24/12/2015 19:00:10: Player Found ID: 2 Account: dragonick 630E96F8A6F0C8F6
+24/12/2015 19:00:10: Pre-Load ID: 2 Account: dragonick Char: Isabele 
+24/12/2015 19:00:11: Status changed to disconnected: 1 akaruz 127.0.0.1
+24/12/2015 19:00:11: Data From Login Server ID: 1 Account: akaruz 63038A2B0B293768
+24/12/2015 19:00:12: Status changed to disconnected: 2 dragonick 127.0.0.1
+24/12/2015 19:00:12: Data From Login Server ID: 2 Account: dragonick 630E96F8A6F0C8F6
+24/12/2015 19:00:12: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 19:00:12: Status changed to connected: 127.0.0.1
+24/12/2015 19:00:12: Data From Client: 630E96F8A6F0C8F6
+24/12/2015 19:00:12: Player Found ID: 2 Account: dragonick 630E96F8A6F0C8F6
+24/12/2015 19:00:12: Pre-Load ID: 2 Account: dragonick Char: Isabele 
+24/12/2015 19:00:12: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 19:00:12: Status changed to connected: 127.0.0.1
+24/12/2015 19:00:12: Data From Client: 63038A2B0B293768
+24/12/2015 19:00:12: Player Found ID: 1 Account: akaruz 63038A2B0B293768
+24/12/2015 19:00:13: Pre-Load ID: 1 Account: akaruz Char: 水色 Akaruz Caronne アカウント 
+24/12/2015 19:00:15: Data From Login Server ID: 1 Account: akaruz 63038A2B0B293768
+24/12/2015 19:00:15: Status changed to disconnected: 1 akaruz 127.0.0.1
+24/12/2015 19:00:16: Status changed to disconnected: 2 dragonick 127.0.0.1
+24/12/2015 19:00:17: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 19:00:17: Status changed to connected: 127.0.0.1
+24/12/2015 19:00:17: Data From Client: 63038A2B0B293768
+24/12/2015 19:00:17: Player Found ID: 1 Account: akaruz 63038A2B0B293768
+24/12/2015 19:00:17: Pre-Load ID: 1 Account: akaruz Char: 水色 Akaruz Caronne アカウント 
+24/12/2015 19:00:20: Data From Login Server ID: 2 Account: dragonick 630E96F8A6F0C8F6
+24/12/2015 19:00:20: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 19:00:20: Status changed to connected: 127.0.0.1
+24/12/2015 19:00:20: Data From Client: 630E96F8A6F0C8F6
+24/12/2015 19:00:20: Player Found ID: 2 Account: dragonick 630E96F8A6F0C8F6
+24/12/2015 19:00:20: Pre-Load ID: 2 Account: dragonick Char: Isabele 
+24/12/2015 19:00:21: Status changed to disconnected: 1 akaruz 127.0.0.1
+24/12/2015 19:00:24: Status changed to disconnected: 2 dragonick 127.0.0.1
+24/12/2015 19:00:25: Data From Login Server ID: 1 Account: akaruz 63038A2B0B293768
+24/12/2015 19:00:27: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 19:00:27: Status changed to connected: 127.0.0.1
+24/12/2015 19:00:27: Data From Client: 63038A2B0B293768
+24/12/2015 19:00:27: Player Found ID: 1 Account: akaruz 63038A2B0B293768
+24/12/2015 19:00:27: Pre-Load ID: 1 Account: akaruz Char: 水色 Akaruz Caronne アカウント 
+24/12/2015 19:00:28: Status changed to disconnected: 1 akaruz 127.0.0.1
+24/12/2015 19:00:32: Data From Login Server ID: 1 Account: akaruz 63038A2B0B293768
+24/12/2015 19:00:33: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 19:00:33: Status changed to connected: 127.0.0.1
+24/12/2015 19:00:33: Data From Client: 63038A2B0B293768
+24/12/2015 19:00:33: Player Found ID: 1 Account: akaruz 63038A2B0B293768
+24/12/2015 19:00:33: Pre-Load ID: 1 Account: akaruz Char: 水色 Akaruz Caronne アカウント 
+24/12/2015 20:53:59: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 20:53:59: Status changed to connected: 127.0.0.1
+24/12/2015 20:54:22: Data From Login Server ID: 1 Account: akaruz 2D44D95E07F92186
+24/12/2015 20:54:23: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 20:54:23: Status changed to connected: 127.0.0.1
+24/12/2015 20:54:23: Data From Client: 2D44D95E07F92186
+24/12/2015 20:54:23: Player Found ID: 1 Account: akaruz 2D44D95E07F92186
+24/12/2015 20:54:24: Pre-Load ID: 1 Account: akaruz Char: 水色 Akaruz Caronne アカウント 
+24/12/2015 20:54:40: Status changed to disconnected: 1 akaruz 127.0.0.1
+24/12/2015 20:55:24: Status changed to disconnected: 0  127.0.0.1
+24/12/2015 21:01:36: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 21:01:36: Status changed to connected: 127.0.0.1
+24/12/2015 21:01:56: Data From Login Server ID: 1 Account: akaruz 73D5DC53E39136EF
+24/12/2015 21:01:58: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 21:01:58: Status changed to connected: 127.0.0.1
+24/12/2015 21:01:58: Data From Client: 73D5DC53E39136EF
+24/12/2015 21:01:58: Player Found ID: 1 Account: akaruz 73D5DC53E39136EF
+24/12/2015 21:01:58: Pre-Load ID: 1 Account: akaruz Char: 水色 Akaruz Caronne アカウント 
+24/12/2015 21:02:15: Status changed to disconnected: 1 akaruz 127.0.0.1
+24/12/2015 21:03:01: Data From Login Server ID: 1 Account: akaruz E6BDEB33C6D61E03
+24/12/2015 21:03:01: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 21:03:01: Status changed to connected: 127.0.0.1
+24/12/2015 21:03:01: Data From Client: E6BDEB33C6D61E03
+24/12/2015 21:03:01: Player Found ID: 1 Account: akaruz E6BDEB33C6D61E03
+24/12/2015 21:03:01: Pre-Load ID: 1 Account: akaruz Char: 水色 Akaruz Caronne アカウント 
+24/12/2015 21:03:28: Status changed to disconnected: 1 akaruz 127.0.0.1
+24/12/2015 21:03:31: Status changed to disconnected: 0  127.0.0.1
+24/12/2015 21:06:15: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 21:06:15: Status changed to connected: 127.0.0.1
+24/12/2015 21:06:52: Data From Login Server ID: 1 Account: akaruz 7470DE43F61734FD
+24/12/2015 21:06:53: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 21:06:53: Status changed to connected: 127.0.0.1
+24/12/2015 21:06:53: Data From Client: 7470DE43F61734FD
+24/12/2015 21:06:53: Player Found ID: 1 Account: akaruz 7470DE43F61734FD
+24/12/2015 21:06:53: Pre-Load ID: 1 Account: akaruz Char: 水色 Akaruz Caronne アカウント 
+24/12/2015 21:07:34: Status changed to disconnected: 0  127.0.0.1
+24/12/2015 21:07:38: Status changed to disconnected: 1 akaruz 127.0.0.1
+24/12/2015 21:08:42: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 21:08:42: Status changed to connected: 127.0.0.1
+24/12/2015 21:09:13: Data From Login Server ID: 1 Account: akaruz B22C2D6E5E628402
+24/12/2015 21:09:14: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 21:09:14: Status changed to connected: 127.0.0.1
+24/12/2015 21:09:14: Data From Client: B22C2D6E5E628402
+24/12/2015 21:09:14: Player Found ID: 1 Account: akaruz B22C2D6E5E628402
+24/12/2015 21:09:14: Pre-Load ID: 1 Account: akaruz Char: 水色 Akaruz Caronne アカウント 
+24/12/2015 21:10:30: Status changed to disconnected: 1 akaruz 127.0.0.1
+24/12/2015 21:11:53: Status changed to disconnected: 0  127.0.0.1
+24/12/2015 21:12:08: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 21:12:09: Status changed to connected: 127.0.0.1
+24/12/2015 21:12:29: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 21:12:29: Status changed to connected: 127.0.0.1
+24/12/2015 21:12:40: Status changed to disconnected: 0  127.0.0.1
+24/12/2015 21:12:46: Data From Login Server ID: 1 Account: akaruz E28CBCC10EC1EDDE
+24/12/2015 21:12:47: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 21:12:47: Status changed to connected: 127.0.0.1
+24/12/2015 21:12:47: Data From Client: E28CBCC10EC1EDDE
+24/12/2015 21:12:47: Player Found ID: 1 Account: akaruz E28CBCC10EC1EDDE
+24/12/2015 21:12:47: Pre-Load ID: 1 Account: akaruz Char: 水色 Akaruz Caronne アカウント 
+24/12/2015 21:13:16: Status changed to disconnected: 1 akaruz 127.0.0.1
+24/12/2015 21:14:03: Data From Login Server ID: 1 Account: akaruz 6BE5ACCEDCB5C204
+24/12/2015 21:14:03: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 21:14:03: Status changed to connected: 127.0.0.1
+24/12/2015 21:14:03: Data From Client: 6BE5ACCEDCB5C204
+24/12/2015 21:14:03: Player Found ID: 1 Account: akaruz 6BE5ACCEDCB5C204
+24/12/2015 21:14:03: Pre-Load ID: 1 Account: akaruz Char: 水色 Akaruz Caronne アカウント 
+24/12/2015 21:14:30: Status changed to disconnected: 1 akaruz 127.0.0.1
+24/12/2015 21:14:32: Status changed to disconnected: 0  127.0.0.1
+24/12/2015 21:18:35: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 21:18:35: Status changed to connected: 127.0.0.1
+24/12/2015 21:19:09: Data From Login Server ID: 1 Account: akaruz 9B323B44F3EE4120
+24/12/2015 21:19:11: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 21:19:11: Status changed to connected: 127.0.0.1
+24/12/2015 21:19:11: Data From Client: 9B323B44F3EE4120
+24/12/2015 21:19:11: Player Found ID: 1 Account: akaruz 9B323B44F3EE4120
+24/12/2015 21:19:11: Pre-Load ID: 1 Account: akaruz Char: 水色 Akaruz Caronne アカウント 
+24/12/2015 21:19:31: Status changed to disconnected: 1 akaruz 127.0.0.1
+24/12/2015 21:19:38: Data From Login Server ID: 1 Account: akaruz 8E7320BDDB87B114
+24/12/2015 21:19:39: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 21:19:39: Status changed to connected: 127.0.0.1
+24/12/2015 21:19:39: Data From Client: 8E7320BDDB87B114
+24/12/2015 21:19:39: Player Found ID: 1 Account: akaruz 8E7320BDDB87B114
+24/12/2015 21:19:39: Pre-Load ID: 1 Account: akaruz Char: 水色 Akaruz Caronne アカウント 
+24/12/2015 21:20:14: Status changed to disconnected: 1 akaruz 127.0.0.1
+24/12/2015 21:20:17: Data From Login Server ID: 1 Account: akaruz 9A9B62DEE1A7D3F7
+24/12/2015 21:20:18: Discovery Response IPEndPoint: 127.0.0.1
+24/12/2015 21:20:18: Status changed to connected: 127.0.0.1
+24/12/2015 21:20:18: Data From Client: 9A9B62DEE1A7D3F7
+24/12/2015 21:20:18: Player Found ID: 1 Account: akaruz 9A9B62DEE1A7D3F7
+24/12/2015 21:20:19: Pre-Load ID: 1 Account: akaruz Char: 水色 Akaruz Caronne アカウント 
+24/12/2015 21:20:25: Status changed to disconnected: 0  127.0.0.1
+24/12/2015 21:20:43: Status changed to disconnected: 1 akaruz 127.0.0.1

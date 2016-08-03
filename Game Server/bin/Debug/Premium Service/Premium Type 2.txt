@@ -1,0 +1,20 @@
+//------------------------------------------------------//
+//		  ACCOUNT PREMIUM SILVER  		//
+//------------------------------------------------------//
+Exp	 		= 15
+ItemDrop		= 15
+GoldDrop		= 10
+CraftExp		= 10
+SkillExp 		= 10
+GuildExp		= 10
+
+NormalItemDrop 		= 10
+RareItemDrop 		= 10
+HeroItemDrop 		= 10
+EternalItemDrop 	= 5
+LegendaryItemDrop 	= 5
+MysticItemDrop 		= 5
+EtherealItemDrop 	= 5
+
+CraftCriticalSucessRate = 5
+//------------------------------------------------------//

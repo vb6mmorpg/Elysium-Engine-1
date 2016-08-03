@@ -1,0 +1,19 @@
+C:\Users\DragonicK\Desktop\Chat Server\obj\Debug\ChatServer.csprojResolveAssemblyReference.cache
+C:\Users\DragonicK\Desktop\Chat Server\obj\Debug\ChatServer.frmMain.resources
+C:\Users\DragonicK\Desktop\Chat Server\obj\Debug\ChatServer.Properties.Resources.resources
+C:\Users\DragonicK\Desktop\Chat Server\obj\Debug\ChatServer.csproj.GenerateResource.Cache
+C:\Users\DragonicK\Desktop\Chat Server\bin\Debug\ChatServer.exe
+C:\Users\DragonicK\Desktop\Chat Server\bin\Debug\ChatServer.pdb
+C:\Users\DragonicK\Desktop\Chat Server\bin\Debug\Lidgren.Network.dll
+C:\Users\DragonicK\Desktop\Chat Server\obj\Debug\ChatServer.exe
+C:\Users\DragonicK\Desktop\Chat Server\obj\Debug\ChatServer.pdb
+D:\Programing Files\Elysium Diamond\Chat Server\bin\Debug\ChatServer.exe
+D:\Programing Files\Elysium Diamond\Chat Server\bin\Debug\ChatServer.pdb
+D:\Programing Files\Elysium Diamond\Chat Server\bin\Debug\Lidgren.Network.dll
+D:\Programing Files\Elysium Diamond\Chat Server\bin\Debug\MySql.Data.dll
+D:\Programing Files\Elysium Diamond\Chat Server\obj\Debug\ChatServer.csprojResolveAssemblyReference.cache
+D:\Programing Files\Elysium Diamond\Chat Server\obj\Debug\ChatServer.frmMain.resources
+D:\Programing Files\Elysium Diamond\Chat Server\obj\Debug\ChatServer.Properties.Resources.resources
+D:\Programing Files\Elysium Diamond\Chat Server\obj\Debug\ChatServer.csproj.GenerateResource.Cache
+D:\Programing Files\Elysium Diamond\Chat Server\obj\Debug\ChatServer.exe
+D:\Programing Files\Elysium Diamond\Chat Server\obj\Debug\ChatServer.pdb

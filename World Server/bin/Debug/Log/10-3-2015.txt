@@ -1,0 +1,35 @@
+2015/03/10 0:04:58: Discovery Response IPEndPoint: 127.0.0.1
+2015/03/10 0:04:58: Status changed to connected: 127.0.0.1
+2015/03/10 0:05:21: Discovery Response IPEndPoint: 127.0.0.1
+2015/03/10 0:05:21: Status changed to connected: 127.0.0.1
+2015/03/10 0:06:10: Status changed to disconnected: 127.0.0.1
+2015/03/10 1:03:04: Discovery Response IPEndPoint: 127.0.0.1
+2015/03/10 1:03:05: Status changed to connected: 127.0.0.1
+2015/03/10 1:06:14: Status changed to disconnected: 127.0.0.1
+2015/03/10 1:07:40: Discovery Response IPEndPoint: 127.0.0.1
+2015/03/10 1:07:40: Status changed to connected: 127.0.0.1
+2015/03/10 1:09:03: Discovery Response IPEndPoint: 127.0.0.1
+2015/03/10 1:09:03: Status changed to connected: 127.0.0.1
+2015/03/10 1:13:40: Discovery Response IPEndPoint: 127.0.0.1
+2015/03/10 1:13:40: Status changed to connected: 127.0.0.1
+2015/03/10 1:14:06: Discovery Response IPEndPoint: 127.0.0.1
+2015/03/10 1:14:06: Status changed to connected: 127.0.0.1
+2015/03/10 1:17:00: Discovery Response IPEndPoint: 127.0.0.1
+2015/03/10 1:17:00: Status changed to connected: 127.0.0.1
+2015/03/10 1:17:12: Discovery Response IPEndPoint: 127.0.0.1
+2015/03/10 1:17:12: Status changed to connected: 127.0.0.1
+2015/03/10 1:17:55: Status changed to disconnected: 127.0.0.1
+2015/03/10 1:18:40: Discovery Response IPEndPoint: 127.0.0.1
+2015/03/10 1:18:40: Status changed to connected: 127.0.0.1
+2015/03/10 1:18:57: Discovery Response IPEndPoint: 127.0.0.1
+2015/03/10 1:18:57: Status changed to connected: 127.0.0.1
+2015/03/10 1:20:00: Discovery Response IPEndPoint: 127.0.0.1
+2015/03/10 1:20:00: Status changed to connected: 127.0.0.1
+2015/03/10 1:20:11: Discovery Response IPEndPoint: 127.0.0.1
+2015/03/10 1:20:11: Status changed to connected: 127.0.0.1
+2015/03/10 1:21:06: Status changed to disconnected: 127.0.0.1
+2015/03/10 1:30:20: Discovery Response IPEndPoint: 127.0.0.1
+2015/03/10 1:30:20: Status changed to connected: 127.0.0.1
+2015/03/10 1:30:49: Discovery Response IPEndPoint: 127.0.0.1
+2015/03/10 1:30:49: Status changed to connected: 127.0.0.1
+2015/03/10 1:31:54: Status changed to disconnected: 127.0.0.1

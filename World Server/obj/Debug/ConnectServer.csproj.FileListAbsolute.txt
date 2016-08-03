@@ -1,0 +1,39 @@
+C:\Users\Lumiere\Desktop\ConnectServer\bin\Debug\ConnectServer.exe
+C:\Users\Lumiere\Desktop\ConnectServer\bin\Debug\ConnectServer.pdb
+C:\Users\Lumiere\Desktop\ConnectServer\obj\Debug\ConnectServer.csprojResolveAssemblyReference.cache
+C:\Users\Lumiere\Desktop\ConnectServer\obj\Debug\ConnectServer.Form1.resources
+C:\Users\Lumiere\Desktop\ConnectServer\obj\Debug\ConnectServer.Properties.Resources.resources
+C:\Users\Lumiere\Desktop\ConnectServer\obj\Debug\ConnectServer.csproj.GenerateResource.Cache
+C:\Users\Lumiere\Desktop\ConnectServer\obj\Debug\ConnectServer.exe
+C:\Users\Lumiere\Desktop\ConnectServer\obj\Debug\ConnectServer.pdb
+D:\Programing Files\Elemental Mage Project\ConnectServer\obj\Debug\ConnectServer.exe
+D:\Programing Files\Elemental Mage Project\ConnectServer\obj\Debug\ConnectServer.pdb
+D:\Programing Files\Elemental Mage Project\ConnectServer\bin\Debug\ConnectServer.exe
+D:\Programing Files\Elemental Mage Project\ConnectServer\bin\Debug\ConnectServer.pdb
+D:\Programing Files\Elemental Mage Project\ConnectServer\obj\Debug\ConnectServer.csprojResolveAssemblyReference.cache
+D:\Programing Files\Elemental Mage Project\ConnectServer\obj\Debug\ConnectServer.Properties.Resources.resources
+D:\Programing Files\Elemental Mage Project\ConnectServer\obj\Debug\ConnectServer.csproj.GenerateResource.Cache
+D:\Programing Files\Elemental Mage Project\ConnectServer\obj\Debug\ConnectServer.frmMain.resources
+E:\Programing Files\Elysium Diamond\ConnectServer\obj\Debug\ConnectServer.exe
+E:\Programing Files\Elysium Diamond\ConnectServer\obj\Debug\ConnectServer.pdb
+E:\Programing Files\Elysium Diamond\ConnectServer\obj\Debug\ConnectServer.frmMain.resources
+E:\Programing Files\Elysium Diamond\ConnectServer\obj\Debug\ConnectServer.Properties.Resources.resources
+E:\Programing Files\Elysium Diamond\ConnectServer\obj\Debug\ConnectServer.csproj.GenerateResource.Cache
+E:\Programing Files\Elysium Diamond\ConnectServer\bin\Debug\ConnectServer.exe
+E:\Programing Files\Elysium Diamond\ConnectServer\bin\Debug\ConnectServer.pdb
+E:\Programing Files\Elysium Diamond\ConnectServer\obj\Debug\ConnectServer.csprojResolveAssemblyReference.cache
+D:\Programing Files\Elysium Diamond\ConnectServer\obj\Debug\ConnectServer.exe
+D:\Programing Files\Elysium Diamond\ConnectServer\obj\Debug\ConnectServer.pdb
+D:\Programing Files\Elysium Diamond\ConnectServer\bin\Debug\ConnectServer.exe
+D:\Programing Files\Elysium Diamond\ConnectServer\bin\Debug\ConnectServer.pdb
+D:\Programing Files\Elysium Diamond\ConnectServer\obj\Debug\ConnectServer.csprojResolveAssemblyReference.cache
+D:\Programing Files\Elysium Diamond\ConnectServer\obj\Debug\ConnectServer.frmMain.resources
+D:\Programing Files\Elysium Diamond\ConnectServer\obj\Debug\ConnectServer.Properties.Resources.resources
+D:\Programing Files\Elysium Diamond\ConnectServer\obj\Debug\ConnectServer.csproj.GenerateResource.Cache
+D:\Programing Files\Elysium Diamond\Connect Server\obj\Debug\ConnectServer.exe
+D:\Programing Files\Elysium Diamond\Connect Server\obj\Debug\ConnectServer.pdb
+D:\Programing Files\Elysium Diamond\Connect Server\obj\Debug\ConnectServer.frmMain.resources
+D:\Programing Files\Elysium Diamond\Connect Server\obj\Debug\ConnectServer.Properties.Resources.resources
+D:\Programing Files\Elysium Diamond\Connect Server\obj\Debug\ConnectServer.csproj.GenerateResource.Cache
+D:\Programing Files\Elysium Diamond\Connect Server\bin\Debug\ConnectServer.exe
+D:\Programing Files\Elysium Diamond\Connect Server\bin\Debug\ConnectServer.pdb

@@ -1,0 +1,35 @@
+02/26/2016 00:29:54: Discovery Response IPEndPoint: 127.0.0.1
+02/26/2016 00:29:54: Status changed to connected: 127.0.0.1
+02/26/2016 01:24:14: Data From Login Server ID: 1 Account: akaruz D65BD0B4504E70F1
+02/26/2016 01:24:15: Discovery Response IPEndPoint: 127.0.0.1
+02/26/2016 01:24:15: Status changed to connected: 127.0.0.1
+02/26/2016 01:24:15: Data From Client: D65BD0B4504E70F1
+02/26/2016 01:24:15: Player Found ID: 1 Account: akaruz D65BD0B4504E70F1
+02/26/2016 01:24:16: PreLoad ID: 1 Account: akaruz
+02/26/2016 01:24:17: GameServer Login Attempt: akaruz 127.0.0.1
+02/26/2016 01:24:48: Status changed to disconnected: 1 akaruz 127.0.0.1
+02/26/2016 01:26:17: Data From Login Server ID: 1 Account: akaruz EBD656CDAF9242E5
+02/26/2016 01:26:19: Discovery Response IPEndPoint: 127.0.0.1
+02/26/2016 01:26:19: Status changed to connected: 127.0.0.1
+02/26/2016 01:26:19: Data From Client: EBD656CDAF9242E5
+02/26/2016 01:26:19: Player Found ID: 1 Account: akaruz EBD656CDAF9242E5
+02/26/2016 01:26:19: PreLoad ID: 1 Account: akaruz
+02/26/2016 01:26:20: GameServer Login Attempt: akaruz 127.0.0.1
+02/26/2016 01:26:49: Status changed to disconnected: 1 akaruz 127.0.0.1
+02/26/2016 01:27:05: Data From Login Server ID: 1 Account: akaruz 3F5CB68C41F4478A
+02/26/2016 01:27:06: Discovery Response IPEndPoint: 127.0.0.1
+02/26/2016 01:27:06: Status changed to connected: 127.0.0.1
+02/26/2016 01:27:06: Data From Client: 3F5CB68C41F4478A
+02/26/2016 01:27:06: Player Found ID: 1 Account: akaruz 3F5CB68C41F4478A
+02/26/2016 01:27:06: PreLoad ID: 1 Account: akaruz
+02/26/2016 01:27:07: GameServer Login Attempt: akaruz 127.0.0.1
+02/26/2016 01:28:05: Status changed to disconnected: 1 akaruz 127.0.0.1
+02/26/2016 01:29:15: Data From Login Server ID: 1 Account: akaruz 4505F7AD78788721
+02/26/2016 01:29:17: Discovery Response IPEndPoint: 127.0.0.1
+02/26/2016 01:29:17: Status changed to connected: 127.0.0.1
+02/26/2016 01:29:17: Data From Client: 4505F7AD78788721
+02/26/2016 01:29:17: Player Found ID: 1 Account: akaruz 4505F7AD78788721
+02/26/2016 01:29:17: PreLoad ID: 1 Account: akaruz
+02/26/2016 01:29:26: GameServer Login Attempt: akaruz 127.0.0.1
+02/26/2016 01:33:49: Status changed to disconnected: 1 akaruz 127.0.0.1
+02/26/2016 01:43:48: Status changed to disconnected: 0  127.0.0.1

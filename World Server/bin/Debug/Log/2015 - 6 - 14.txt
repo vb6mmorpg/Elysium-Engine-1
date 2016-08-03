@@ -1,0 +1,156 @@
+14/06/2015 07:59:13: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 07:59:13: Status changed to connected: 127.0.0.1
+14/06/2015 07:59:18: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 07:59:18: Status changed to connected: 127.0.0.1
+14/06/2015 08:02:19: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 08:02:19: Status changed to connected: 127.0.0.1
+14/06/2015 09:25:58: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 09:25:58: Status changed to connected: 127.0.0.1
+14/06/2015 09:26:19: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 09:26:19: Status changed to connected: 127.0.0.1
+14/06/2015 09:27:08: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 09:27:08: Status changed to connected: 127.0.0.1
+14/06/2015 09:27:27: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 09:27:27: Status changed to connected: 127.0.0.1
+14/06/2015 13:58:38: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 13:58:38: Status changed to connected: 127.0.0.1
+14/06/2015 13:59:29: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 13:59:29: Status changed to connected: 127.0.0.1
+14/06/2015 14:00:17: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 14:00:17: Status changed to connected: 127.0.0.1
+14/06/2015 14:00:17: Status changed to disconnected: 127.0.0.1
+14/06/2015 14:00:17: Unhandled type: WarningMessage
+14/06/2015 14:00:21: Unhandled type: WarningMessage
+14/06/2015 14:00:25: Unhandled type: WarningMessage
+14/06/2015 14:01:08: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 14:01:08: Status changed to connected: 127.0.0.1
+14/06/2015 14:01:09: Status changed to disconnected: 127.0.0.1
+14/06/2015 14:01:09: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 14:01:09: Status changed to connected: 127.0.0.1
+14/06/2015 14:04:46: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 14:04:46: Status changed to connected: 127.0.0.1
+14/06/2015 14:04:46: Status changed to disconnected: 127.0.0.1
+14/06/2015 14:04:50: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 14:04:50: Status changed to connected: 127.0.0.1
+14/06/2015 14:05:20: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 14:05:20: Status changed to connected: 127.0.0.1
+14/06/2015 14:05:38: Unhandled type: WarningMessage
+14/06/2015 14:05:40: Unhandled type: WarningMessage
+14/06/2015 14:05:42: Unhandled type: WarningMessage
+14/06/2015 14:05:42: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 14:05:42: Status changed to connected: 127.0.0.1
+14/06/2015 14:05:42: Status changed to disconnected: 127.0.0.1
+14/06/2015 14:05:46: Unhandled type: WarningMessage
+14/06/2015 14:05:50: Unhandled type: WarningMessage
+14/06/2015 14:06:10: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 14:06:10: Status changed to connected: 127.0.0.1
+14/06/2015 14:06:29: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 14:06:29: Status changed to connected: 127.0.0.1
+14/06/2015 14:28:34: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 14:28:34: Status changed to connected: 127.0.0.1
+14/06/2015 14:29:41: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 14:29:41: Status changed to connected: 127.0.0.1
+14/06/2015 14:33:52: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 14:33:52: Status changed to connected: 127.0.0.1
+14/06/2015 14:34:26: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 14:34:26: Status changed to connected: 127.0.0.1
+14/06/2015 14:35:32: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 14:35:32: Status changed to connected: 127.0.0.1
+14/06/2015 14:36:01: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 14:36:01: Status changed to connected: 127.0.0.1
+14/06/2015 15:05:20: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 15:05:20: Status changed to connected: 127.0.0.1
+14/06/2015 15:08:20: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 15:08:20: Status changed to connected: 127.0.0.1
+14/06/2015 15:08:28: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 15:08:28: Status changed to connected: 127.0.0.1
+14/06/2015 15:16:05: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 15:16:05: Status changed to connected: 127.0.0.1
+14/06/2015 15:16:34: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 15:16:34: Status changed to connected: 127.0.0.1
+14/06/2015 15:22:30: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 15:22:30: Status changed to connected: 127.0.0.1
+14/06/2015 15:23:02: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 15:23:02: Status changed to connected: 127.0.0.1
+14/06/2015 15:23:21: Status changed to disconnected: 127.0.0.1
+14/06/2015 15:23:22: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 15:23:22: Status changed to connected: 127.0.0.1
+14/06/2015 15:23:58: Status changed to disconnected: 127.0.0.1
+14/06/2015 15:52:19: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 15:52:19: Status changed to connected: 127.0.0.1
+14/06/2015 15:52:26: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 15:52:26: Status changed to connected: 127.0.0.1
+14/06/2015 15:52:29: Status changed to disconnected: 127.0.0.1
+14/06/2015 15:52:29: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 15:52:29: Status changed to connected: 127.0.0.1
+14/06/2015 15:52:35: Status changed to disconnected: 127.0.0.1
+14/06/2015 15:52:37: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 15:52:37: Status changed to connected: 127.0.0.1
+14/06/2015 15:52:49: Status changed to disconnected: 127.0.0.1
+14/06/2015 15:52:51: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 15:52:51: Status changed to connected: 127.0.0.1
+14/06/2015 15:53:33: Status changed to disconnected: 127.0.0.1
+14/06/2015 15:53:50: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 15:53:50: Status changed to connected: 127.0.0.1
+14/06/2015 15:58:47: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 15:58:47: Status changed to connected: 127.0.0.1
+14/06/2015 16:00:29: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 16:00:29: Status changed to connected: 127.0.0.1
+14/06/2015 16:01:11: Status changed to disconnected: 127.0.0.1
+14/06/2015 16:02:22: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 16:02:22: Status changed to connected: 127.0.0.1
+14/06/2015 16:03:03: Status changed to disconnected: 127.0.0.1
+14/06/2015 16:14:25: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 16:14:25: Status changed to connected: 127.0.0.1
+14/06/2015 16:15:53: Status changed to disconnected: 127.0.0.1
+14/06/2015 16:15:53: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 16:15:53: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 16:15:53: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 16:16:36: Unhandled type: WarningMessage
+14/06/2015 16:16:40: Unhandled type: WarningMessage
+14/06/2015 16:16:48: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 16:16:48: Status changed to connected: 127.0.0.1
+14/06/2015 16:17:50: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 16:17:50: Status changed to connected: 127.0.0.1
+14/06/2015 16:17:53: Status changed to disconnected: 127.0.0.1
+14/06/2015 16:17:55: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 16:17:55: Status changed to connected: 127.0.0.1
+14/06/2015 16:18:12: Status changed to disconnected: 127.0.0.1
+14/06/2015 16:18:13: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 16:18:13: Status changed to connected: 127.0.0.1
+14/06/2015 16:18:48: Status changed to disconnected: 127.0.0.1
+14/06/2015 16:22:52: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 16:22:52: Status changed to connected: 127.0.0.1
+14/06/2015 16:25:34: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 16:25:34: Status changed to connected: 127.0.0.1
+14/06/2015 16:26:25: Unhandled type: WarningMessage
+14/06/2015 16:26:29: Unhandled type: WarningMessage
+14/06/2015 16:26:33: Unhandled type: WarningMessage
+14/06/2015 16:26:37: Unhandled type: WarningMessage
+14/06/2015 16:26:43: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 16:26:43: Status changed to connected: 127.0.0.1
+14/06/2015 16:29:26: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 16:29:26: Status changed to connected: 127.0.0.1
+14/06/2015 16:33:09: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 16:33:09: Status changed to connected: 127.0.0.1
+14/06/2015 16:33:39: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 16:33:39: Status changed to connected: 127.0.0.1
+14/06/2015 16:34:27: Status changed to disconnected: 127.0.0.1
+14/06/2015 16:36:08: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 16:36:08: Status changed to connected: 127.0.0.1
+14/06/2015 16:39:30: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 16:39:30: Status changed to connected: 127.0.0.1
+14/06/2015 16:42:19: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 16:42:19: Status changed to connected: 127.0.0.1
+14/06/2015 16:57:50: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 16:57:51: Status changed to connected: 127.0.0.1
+14/06/2015 16:58:20: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 16:58:20: Status changed to connected: 127.0.0.1
+14/06/2015 16:58:53: Status changed to disconnected: 127.0.0.1
+14/06/2015 16:58:53: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 16:58:53: Status changed to connected: 127.0.0.1
+14/06/2015 16:59:06: Status changed to disconnected: 127.0.0.1
+14/06/2015 22:33:29: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 22:33:29: Status changed to connected: 127.0.0.1
+14/06/2015 22:35:29: Discovery Response IPEndPoint: 127.0.0.1
+14/06/2015 22:35:29: Status changed to connected: 127.0.0.1

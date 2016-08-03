@@ -1,0 +1,25 @@
+28/06/2015 05:20:51: Discovery Response IPEndPoint: 127.0.0.1
+28/06/2015 05:20:51: Status changed to connected: 127.0.0.1
+28/06/2015 05:21:36: Received Data: akaruz 0EA7065965C56F4C
+28/06/2015 05:21:38: Discovery Response IPEndPoint: 127.0.0.1
+28/06/2015 05:21:38: Status changed to connected: 127.0.0.1
+28/06/2015 05:21:38: Received Data From Client: 0EA7065965C56F4C
+28/06/2015 05:21:38: Player Found: akaruz
+28/06/2015 05:21:38: Pre-Load Account: akaruz; Nadaila, Akaruz, Caronne, Thaeo, 
+28/06/2015 05:41:22: Discovery Response IPEndPoint: 127.0.0.1
+28/06/2015 05:41:22: Status changed to connected: 127.0.0.1
+28/06/2015 05:42:00: Received Data From Login Server: akaruz 914754A37FA7CC65
+28/06/2015 05:42:00: Discovery Response IPEndPoint: 127.0.0.1
+28/06/2015 05:42:00: Status changed to connected: 127.0.0.1
+28/06/2015 05:42:00: Received Data From Client: 914754A37FA7CC65
+28/06/2015 05:42:00: Player Found: akaruz 914754A37FA7CC65
+28/06/2015 05:42:00: Pre-Load Account: akaruz; Nadaila Akaruz Caronne Thaeo 
+28/06/2015 05:43:32: Discovery Response IPEndPoint: 127.0.0.1
+28/06/2015 05:43:32: Status changed to connected: 127.0.0.1
+28/06/2015 05:43:54: Received Data From Login Server: akaruz 11F3A61090FBF583
+28/06/2015 05:43:56: Discovery Response IPEndPoint: 127.0.0.1
+28/06/2015 05:43:56: Status changed to connected: 127.0.0.1
+28/06/2015 05:43:56: Received Data From Client: 11F3A61090FBF583
+28/06/2015 05:43:56: Player Found: akaruz 11F3A61090FBF583
+28/06/2015 05:43:56: Pre-Load Account: akaruz; Nadaila Akaruz Caronne Thaeo 
+28/06/2015 05:44:10: Character Delete: From ID: 1 Char ID: 12 Thaeo

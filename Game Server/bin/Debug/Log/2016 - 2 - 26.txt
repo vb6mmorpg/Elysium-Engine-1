@@ -1,0 +1,588 @@
+2016/02/26 0:13:02: Carregando dados de mysql.
+2016/02/26 0:13:02: ID: #artemis#
+2016/02/26 0:13:02: Name: Canal 1
+2016/02/26 0:13:02: Discovery: Elysium Diamond #1.0.0
+2016/02/26 0:13:02: IP: 127.0.0.1
+2016/02/26 0:13:02: Port: 10120
+2016/02/26 0:13:02: MaximumConnections: 2000
+2016/02/26 0:13:02: Logs: True
+2016/02/26 0:13:02: Cryptography: GameEngine
+2016/02/26 0:13:02: ClientSerial: #elysium#
+2016/02/26 0:13:02: Sleep: 2
+2016/02/26 0:13:02: TestServer: False
+2016/02/26 0:13:02: WorldServer 1 ID: Artemis
+2016/02/26 0:13:02: WorldServer 2 ID: 
+2016/02/26 0:13:02: WorldServer 3 ID: 
+2016/02/26 0:13:02: WorldServer 4 ID: 
+2016/02/26 0:13:02: WorldServer 5 ID: 
+2016/02/26 0:13:02: Connectado ao banco de dados
+2016/02/26 0:13:02: Carregando experiência
+2016/02/26 0:13:02: Exp Máximo: 121 22353256174
+2016/02/26 0:13:02: Carregando guilds.
+2016/02/26 0:13:02: Total : 2 guilds carregados.
+2016/02/26 0:13:02: Carregando membros.
+2016/02/26 0:13:02: Total : 2 membros carregados.
+2016/02/26 0:13:02: Carregando classes
+2016/02/26 0:13:02: Carregando NPC
+2016/02/26 0:13:03: Servidor iniciado
+2016/02/26 1:10:11: Carregando dados de mysql.
+2016/02/26 1:10:11: ID: #artemis#
+2016/02/26 1:10:11: Name: Canal 1
+2016/02/26 1:10:11: Discovery: Elysium Diamond #1.0.0
+2016/02/26 1:10:11: IP: 127.0.0.1
+2016/02/26 1:10:11: Port: 10120
+2016/02/26 1:10:11: MaximumConnections: 2000
+2016/02/26 1:10:11: Logs: True
+2016/02/26 1:10:11: Cryptography: GameEngine
+2016/02/26 1:10:11: ClientSerial: #elysium#
+2016/02/26 1:10:11: Sleep: 2
+2016/02/26 1:10:11: TestServer: False
+2016/02/26 1:10:11: WorldServer 1 ID: Artemis
+2016/02/26 1:10:11: WorldServer 2 ID: 
+2016/02/26 1:10:11: WorldServer 3 ID: 
+2016/02/26 1:10:11: WorldServer 4 ID: 
+2016/02/26 1:10:11: WorldServer 5 ID: 
+2016/02/26 1:10:11: Connectado ao banco de dados
+2016/02/26 1:10:11: Carregando experiência
+2016/02/26 1:10:11: Exp Máximo: 121 22353256174
+2016/02/26 1:10:11: Carregando guilds.
+2016/02/26 1:10:11: Total : 2 guilds carregados.
+2016/02/26 1:10:11: Carregando membros.
+2016/02/26 1:10:11: Total : 2 membros carregados.
+2016/02/26 1:10:11: Carregando classes
+2016/02/26 1:10:11: Carregando NPC
+2016/02/26 1:10:11: Servidor iniciado
+2016/02/26 1:23:42: Carregando dados de mysql.
+2016/02/26 1:23:42: ID: #artemis#
+2016/02/26 1:23:42: Name: Canal 1
+2016/02/26 1:23:42: Discovery: Elysium Diamond #1.0.0
+2016/02/26 1:23:42: IP: 127.0.0.1
+2016/02/26 1:23:42: Port: 10120
+2016/02/26 1:23:42: MaximumConnections: 2000
+2016/02/26 1:23:42: Logs: True
+2016/02/26 1:23:42: Cryptography: GameEngine
+2016/02/26 1:23:42: ClientSerial: #elysium#
+2016/02/26 1:23:42: Sleep: 2
+2016/02/26 1:23:42: TestServer: False
+2016/02/26 1:23:42: WorldServer 1 ID: Artemis
+2016/02/26 1:23:42: WorldServer 2 ID: 
+2016/02/26 1:23:42: WorldServer 3 ID: 
+2016/02/26 1:23:42: WorldServer 4 ID: 
+2016/02/26 1:23:42: WorldServer 5 ID: 
+2016/02/26 1:23:42: Connectado ao banco de dados
+2016/02/26 1:23:42: Carregando experiência
+2016/02/26 1:23:42: Exp Máximo: 121 22353256174
+2016/02/26 1:23:42: Carregando guilds.
+2016/02/26 1:23:42: Total : 2 guilds carregados.
+2016/02/26 1:23:42: Carregando membros.
+2016/02/26 1:23:42: Total : 2 membros carregados.
+2016/02/26 1:23:42: Carregando classes
+2016/02/26 1:23:42: Carregando NPC
+2016/02/26 1:23:43: Servidor iniciado
+2016/02/26 1:23:49: Status changed to connected: 127.0.0.1
+2016/02/26 1:23:49: Received From Client: artemis
+2016/02/26 1:24:17: Data From World Server ID: 1 Account: akaruz Char ID: 9 Slot: 1 D65BD0B4504E70F1
+2016/02/26 1:24:18: Status changed to connected: 127.0.0.1
+2016/02/26 1:24:18: Received From Client: D65BD0B4504E70F1
+2016/02/26 1:24:18: Player Found ID: 9 Name: Ingsan
+2016/02/26 1:24:48: Status changed to disconnected: 127.0.0.1
+2016/02/26 1:26:20: Data From World Server ID: 1 Account: akaruz Char ID: 9 Slot: 1 EBD656CDAF9242E5
+2016/02/26 1:26:22: Status changed to connected: 127.0.0.1
+2016/02/26 1:26:22: Received From Client: EBD656CDAF9242E5
+2016/02/26 1:26:22: Player Found ID: 9 Name: Ingsan
+2016/02/26 1:26:49: Status changed to disconnected: 127.0.0.1
+2016/02/26 1:27:07: Data From World Server ID: 1 Account: akaruz Char ID: 9 Slot: 1 3F5CB68C41F4478A
+2016/02/26 1:27:09: Status changed to connected: 127.0.0.1
+2016/02/26 1:27:09: Received From Client: 3F5CB68C41F4478A
+2016/02/26 1:27:09: Player Found ID: 9 Name: Ingsan
+2016/02/26 1:27:09: Ingsan Dir: 7 X: -1 Y: 0
+2016/02/26 1:27:10: Ingsan Dir: 10 X: 0 Y: 0
+2016/02/26 1:27:10: Ingsan Dir: 10 X: 1 Y: 0
+2016/02/26 1:27:10: Ingsan Dir: 10 X: 2 Y: 0
+2016/02/26 1:27:10: Ingsan Dir: 10 X: 3 Y: 0
+2016/02/26 1:27:11: Ingsan Dir: 4 X: 3 Y: 1
+2016/02/26 1:27:11: Ingsan Dir: 4 X: 3 Y: 2
+2016/02/26 1:27:11: Ingsan Dir: 4 X: 3 Y: 3
+2016/02/26 1:27:11: Ingsan Dir: 4 X: 3 Y: 4
+2016/02/26 1:27:11: Ingsan Dir: 10 X: 4 Y: 4
+2016/02/26 1:27:12: Ingsan Dir: 10 X: 5 Y: 4
+2016/02/26 1:27:12: Ingsan Dir: 10 X: 6 Y: 4
+2016/02/26 1:27:12: Ingsan Dir: 10 X: 7 Y: 4
+2016/02/26 1:27:12: Ingsan Dir: 10 X: 8 Y: 4
+2016/02/26 1:27:12: Ingsan Dir: 4 X: 8 Y: 5
+2016/02/26 1:27:13: Ingsan Dir: 4 X: 8 Y: 6
+2016/02/26 1:27:13: Ingsan Dir: 4 X: 8 Y: 7
+2016/02/26 1:27:13: Ingsan Dir: 10 X: 9 Y: 7
+2016/02/26 1:27:13: Ingsan Dir: 4 X: 9 Y: 8
+2016/02/26 1:27:13: Ingsan Dir: 4 X: 9 Y: 9
+2016/02/26 1:28:06: Status changed to disconnected: 127.0.0.1
+2016/02/26 1:29:26: Data From World Server ID: 1 Account: akaruz Char ID: 9 Slot: 1 4505F7AD78788721
+2016/02/26 1:29:29: Status changed to connected: 127.0.0.1
+2016/02/26 1:29:29: Received From Client: 4505F7AD78788721
+2016/02/26 1:29:29: Player Found ID: 9 Name: Ingsan
+2016/02/26 1:29:31: Ingsan Dir: 4 X: 0 Y: 1
+2016/02/26 1:29:31: Ingsan Dir: 4 X: 0 Y: 2
+2016/02/26 1:29:31: Ingsan Dir: 10 X: 1 Y: 2
+2016/02/26 1:29:31: Ingsan Dir: 10 X: 2 Y: 2
+2016/02/26 1:29:31: Ingsan Dir: 10 X: 3 Y: 2
+2016/02/26 1:29:32: Ingsan Dir: 10 X: 4 Y: 2
+2016/02/26 1:29:32: Ingsan Dir: 4 X: 4 Y: 3
+2016/02/26 1:29:32: Ingsan Dir: 4 X: 4 Y: 4
+2016/02/26 1:29:32: Ingsan Dir: 10 X: 5 Y: 4
+2016/02/26 1:29:32: Ingsan Dir: 10 X: 6 Y: 4
+2016/02/26 1:29:33: Ingsan Dir: 10 X: 7 Y: 4
+2016/02/26 1:29:33: Ingsan Dir: 4 X: 7 Y: 5
+2016/02/26 1:29:33: Ingsan Dir: 4 X: 7 Y: 6
+2016/02/26 1:29:33: Ingsan Dir: 4 X: 7 Y: 7
+2016/02/26 1:29:33: Ingsan Dir: 4 X: 7 Y: 8
+2016/02/26 1:29:34: Ingsan Dir: 10 X: 8 Y: 8
+2016/02/26 1:29:34: Ingsan Dir: 10 X: 9 Y: 8
+2016/02/26 1:29:34: Ingsan Dir: 10 X: 10 Y: 8
+2016/02/26 1:29:34: Ingsan Dir: 10 X: 11 Y: 8
+2016/02/26 1:29:34: Ingsan Dir: 10 X: 12 Y: 8
+2016/02/26 1:29:34: Ingsan Dir: 10 X: 13 Y: 8
+2016/02/26 1:29:35: Ingsan Dir: 10 X: 14 Y: 8
+2016/02/26 1:29:35: Ingsan Dir: 10 X: 15 Y: 8
+2016/02/26 1:29:35: Ingsan Dir: 10 X: 16 Y: 8
+2016/02/26 1:29:35: Ingsan Dir: 10 X: 17 Y: 8
+2016/02/26 1:29:35: Ingsan Dir: 4 X: 17 Y: 9
+2016/02/26 1:29:36: Ingsan Dir: 4 X: 17 Y: 10
+2016/02/26 1:29:36: Ingsan Dir: 4 X: 17 Y: 11
+2016/02/26 1:29:36: Ingsan Dir: 10 X: 18 Y: 11
+2016/02/26 1:29:36: Ingsan Dir: 10 X: 19 Y: 11
+2016/02/26 1:29:36: Ingsan Dir: 10 X: 20 Y: 11
+2016/02/26 1:29:37: Ingsan Dir: 10 X: 21 Y: 11
+2016/02/26 1:29:37: Ingsan Dir: 10 X: 22 Y: 11
+2016/02/26 1:29:37: Ingsan Dir: 10 X: 23 Y: 11
+2016/02/26 1:29:37: Ingsan Dir: 4 X: 23 Y: 12
+2016/02/26 1:29:37: Ingsan Dir: 4 X: 23 Y: 13
+2016/02/26 1:29:37: Ingsan Dir: 4 X: 23 Y: 14
+2016/02/26 1:29:38: Ingsan Dir: 4 X: 23 Y: 15
+2016/02/26 1:29:38: Ingsan Dir: 4 X: 23 Y: 16
+2016/02/26 1:29:38: Ingsan Dir: 4 X: 23 Y: 17
+2016/02/26 1:29:38: Ingsan Dir: 10 X: 24 Y: 17
+2016/02/26 1:29:38: Ingsan Dir: 10 X: 25 Y: 17
+2016/02/26 1:29:39: Ingsan Dir: 10 X: 26 Y: 17
+2016/02/26 1:29:39: Ingsan Dir: 1 X: 26 Y: 16
+2016/02/26 1:29:39: Ingsan Dir: 7 X: 25 Y: 16
+2016/02/26 1:29:39: Ingsan Dir: 7 X: 24 Y: 16
+2016/02/26 1:29:39: Ingsan Dir: 4 X: 24 Y: 17
+2016/02/26 1:29:40: Ingsan Dir: 10 X: 25 Y: 17
+2016/02/26 1:29:40: Ingsan Dir: 7 X: 24 Y: 17
+2016/02/26 1:29:40: Ingsan Dir: 7 X: 23 Y: 17
+2016/02/26 1:29:40: Ingsan Dir: 7 X: 22 Y: 17
+2016/02/26 1:29:40: Ingsan Dir: 7 X: 21 Y: 17
+2016/02/26 1:29:41: Ingsan Dir: 4 X: 21 Y: 18
+2016/02/26 1:29:41: Ingsan Dir: 10 X: 22 Y: 18
+2016/02/26 1:29:41: Ingsan Dir: 10 X: 23 Y: 18
+2016/02/26 1:29:41: Ingsan Dir: 7 X: 22 Y: 18
+2016/02/26 1:29:41: Ingsan Dir: 7 X: 21 Y: 18
+2016/02/26 1:29:42: Ingsan Dir: 7 X: 20 Y: 18
+2016/02/26 1:29:42: Ingsan Dir: 10 X: 21 Y: 18
+2016/02/26 1:29:42: Ingsan Dir: 10 X: 22 Y: 18
+2016/02/26 1:29:42: Ingsan Dir: 1 X: 22 Y: 17
+2016/02/26 1:29:42: Ingsan Dir: 1 X: 22 Y: 16
+2016/02/26 1:29:42: Ingsan Dir: 1 X: 22 Y: 15
+2016/02/26 1:29:43: Ingsan Dir: 1 X: 22 Y: 14
+2016/02/26 1:29:43: Ingsan Dir: 1 X: 22 Y: 13
+2016/02/26 1:29:43: Ingsan Dir: 1 X: 22 Y: 12
+2016/02/26 1:29:43: Ingsan Dir: 1 X: 22 Y: 11
+2016/02/26 1:29:43: Ingsan Dir: 7 X: 21 Y: 11
+2016/02/26 1:29:44: Ingsan Dir: 1 X: 21 Y: 10
+2016/02/26 1:29:44: Ingsan Dir: 7 X: 20 Y: 10
+2016/02/26 1:29:44: Ingsan Dir: 7 X: 19 Y: 10
+2016/02/26 1:29:45: Ingsan Dir: 10 X: 20 Y: 10
+2016/02/26 1:29:45: Ingsan Dir: 7 X: 19 Y: 10
+2016/02/26 1:29:46: Ingsan Dir: 7 X: 18 Y: 10
+2016/02/26 1:29:46: Ingsan Dir: 7 X: 17 Y: 10
+2016/02/26 1:29:46: Ingsan Dir: 7 X: 16 Y: 10
+2016/02/26 1:29:46: Ingsan Dir: 7 X: 15 Y: 10
+2016/02/26 1:29:46: Ingsan Dir: 7 X: 14 Y: 10
+2016/02/26 1:29:46: Ingsan Dir: 7 X: 13 Y: 10
+2016/02/26 1:29:47: Ingsan Dir: 7 X: 12 Y: 10
+2016/02/26 1:29:47: Ingsan Dir: 7 X: 11 Y: 10
+2016/02/26 1:29:47: Ingsan Dir: 7 X: 10 Y: 10
+2016/02/26 1:29:47: Ingsan Dir: 7 X: 9 Y: 10
+2016/02/26 1:29:47: Ingsan Dir: 4 X: 9 Y: 11
+2016/02/26 1:29:48: Ingsan Dir: 4 X: 9 Y: 12
+2016/02/26 1:29:48: Ingsan Dir: 4 X: 9 Y: 13
+2016/02/26 1:29:48: Ingsan Dir: 4 X: 9 Y: 14
+2016/02/26 1:29:48: Ingsan Dir: 4 X: 9 Y: 15
+2016/02/26 1:29:48: Ingsan Dir: 7 X: 8 Y: 15
+2016/02/26 1:29:49: Ingsan Dir: 7 X: 7 Y: 15
+2016/02/26 1:29:49: Ingsan Dir: 4 X: 7 Y: 16
+2016/02/26 1:29:49: Ingsan Dir: 4 X: 7 Y: 17
+2016/02/26 1:29:49: Ingsan Dir: 4 X: 7 Y: 18
+2016/02/26 1:29:49: Ingsan Dir: 4 X: 7 Y: 19
+2016/02/26 1:29:50: Ingsan Dir: 4 X: 7 Y: 20
+2016/02/26 1:29:50: Ingsan Dir: 4 X: 7 Y: 21
+2016/02/26 1:29:50: Ingsan Dir: 7 X: 6 Y: 21
+2016/02/26 1:29:51: Ingsan Dir: 7 X: 5 Y: 21
+2016/02/26 1:29:51: Ingsan Dir: 1 X: 5 Y: 20
+2016/02/26 1:29:51: Ingsan Dir: 10 X: 6 Y: 20
+2016/02/26 1:29:52: Ingsan Dir: 10 X: 7 Y: 20
+2016/02/26 1:29:52: Ingsan Dir: 10 X: 8 Y: 20
+2016/02/26 1:29:52: Ingsan Dir: 10 X: 9 Y: 20
+2016/02/26 1:29:52: Ingsan Dir: 10 X: 10 Y: 20
+2016/02/26 1:29:52: Ingsan Dir: 10 X: 11 Y: 20
+2016/02/26 1:29:53: Ingsan Dir: 10 X: 12 Y: 20
+2016/02/26 1:29:53: Ingsan Dir: 4 X: 12 Y: 21
+2016/02/26 1:29:53: Ingsan Dir: 10 X: 13 Y: 21
+2016/02/26 1:29:53: Ingsan Dir: 10 X: 14 Y: 21
+2016/02/26 1:29:53: Ingsan Dir: 10 X: 15 Y: 21
+2016/02/26 1:29:54: Ingsan Dir: 7 X: 14 Y: 21
+2016/02/26 1:29:54: Ingsan Dir: 7 X: 13 Y: 21
+2016/02/26 1:29:54: Ingsan Dir: 7 X: 12 Y: 21
+2016/02/26 1:29:54: Ingsan Dir: 7 X: 11 Y: 21
+2016/02/26 1:29:54: Ingsan Dir: 7 X: 10 Y: 21
+2016/02/26 1:29:54: Ingsan Dir: 7 X: 9 Y: 21
+2016/02/26 1:29:55: Ingsan Dir: 7 X: 8 Y: 21
+2016/02/26 1:29:55: Ingsan Dir: 7 X: 7 Y: 21
+2016/02/26 1:29:55: Ingsan Dir: 7 X: 6 Y: 21
+2016/02/26 1:29:55: Ingsan Dir: 7 X: 5 Y: 21
+2016/02/26 1:29:55: Ingsan Dir: 4 X: 5 Y: 22
+2016/02/26 1:29:56: Ingsan Dir: 4 X: 5 Y: 23
+2016/02/26 1:29:56: Ingsan Dir: 10 X: 6 Y: 23
+2016/02/26 1:29:56: Ingsan Dir: 1 X: 6 Y: 22
+2016/02/26 1:29:56: Ingsan Dir: 1 X: 6 Y: 21
+2016/02/26 1:29:56: Ingsan Dir: 7 X: 5 Y: 21
+2016/02/26 1:29:59: Ingsan Dir: 1 X: 5 Y: 20
+2016/02/26 1:29:59: Ingsan Dir: 1 X: 5 Y: 19
+2016/02/26 1:30:00: Ingsan Dir: 10 X: 6 Y: 19
+2016/02/26 1:30:00: Ingsan Dir: 10 X: 7 Y: 19
+2016/02/26 1:30:00: Ingsan Dir: 10 X: 8 Y: 19
+2016/02/26 1:30:00: Ingsan Dir: 10 X: 9 Y: 19
+2016/02/26 1:30:00: Ingsan Dir: 10 X: 10 Y: 19
+2016/02/26 1:30:00: Ingsan Dir: 1 X: 10 Y: 18
+2016/02/26 1:30:01: Ingsan Dir: 10 X: 11 Y: 18
+2016/02/26 1:30:01: Ingsan Dir: 10 X: 12 Y: 18
+2016/02/26 1:30:01: Ingsan Dir: 10 X: 13 Y: 18
+2016/02/26 1:30:01: Ingsan Dir: 1 X: 13 Y: 17
+2016/02/26 1:30:02: Ingsan Dir: 1 X: 13 Y: 16
+2016/02/26 1:30:02: Ingsan Dir: 1 X: 13 Y: 15
+2016/02/26 1:30:02: Ingsan Dir: 10 X: 14 Y: 15
+2016/02/26 1:30:02: Ingsan Dir: 10 X: 15 Y: 15
+2016/02/26 1:30:02: Ingsan Dir: 10 X: 16 Y: 15
+2016/02/26 1:30:02: Ingsan Dir: 10 X: 17 Y: 15
+2016/02/26 1:30:03: Ingsan Dir: 1 X: 17 Y: 14
+2016/02/26 1:30:03: Ingsan Dir: 1 X: 17 Y: 13
+2016/02/26 1:30:03: Ingsan Dir: 1 X: 17 Y: 12
+2016/02/26 1:30:03: Ingsan Dir: 1 X: 17 Y: 11
+2016/02/26 1:30:03: Ingsan Dir: 1 X: 17 Y: 10
+2016/02/26 1:30:04: Ingsan Dir: 10 X: 18 Y: 10
+2016/02/26 1:30:04: Ingsan Dir: 10 X: 19 Y: 10
+2016/02/26 1:30:04: Ingsan Dir: 10 X: 20 Y: 10
+2016/02/26 1:30:04: Ingsan Dir: 10 X: 21 Y: 10
+2016/02/26 1:30:04: Ingsan Dir: 10 X: 22 Y: 10
+2016/02/26 1:30:05: Ingsan Dir: 4 X: 22 Y: 11
+2016/02/26 1:30:05: Ingsan Dir: 4 X: 22 Y: 12
+2016/02/26 1:30:05: Ingsan Dir: 4 X: 22 Y: 13
+2016/02/26 1:30:05: Ingsan Dir: 4 X: 22 Y: 14
+2016/02/26 1:30:05: Ingsan Dir: 4 X: 22 Y: 15
+2016/02/26 1:30:05: Ingsan Dir: 4 X: 22 Y: 16
+2016/02/26 1:30:06: Ingsan Dir: 4 X: 22 Y: 17
+2016/02/26 1:30:06: Ingsan Dir: 4 X: 22 Y: 18
+2016/02/26 1:30:06: Ingsan Dir: 4 X: 22 Y: 19
+2016/02/26 1:30:06: Ingsan Dir: 4 X: 22 Y: 20
+2016/02/26 1:30:06: Ingsan Dir: 10 X: 23 Y: 20
+2016/02/26 1:30:07: Ingsan Dir: 10 X: 24 Y: 20
+2016/02/26 1:30:07: Ingsan Dir: 10 X: 25 Y: 20
+2016/02/26 1:30:07: Ingsan Dir: 10 X: 26 Y: 20
+2016/02/26 1:30:07: Ingsan Dir: 10 X: 27 Y: 20
+2016/02/26 1:30:07: Ingsan Dir: 10 X: 28 Y: 20
+2016/02/26 1:30:08: Ingsan Dir: 10 X: 29 Y: 20
+2016/02/26 1:30:08: Ingsan Dir: 4 X: 29 Y: 21
+2016/02/26 1:30:08: Ingsan Dir: 4 X: 29 Y: 22
+2016/02/26 1:30:08: Ingsan Dir: 4 X: 29 Y: 23
+2016/02/26 1:30:08: Ingsan Dir: 4 X: 29 Y: 24
+2016/02/26 1:30:09: Ingsan Dir: 4 X: 29 Y: 25
+2016/02/26 1:30:09: Ingsan Dir: 4 X: 29 Y: 26
+2016/02/26 1:30:10: Ingsan Dir: 7 X: 28 Y: 26
+2016/02/26 1:30:10: Ingsan Dir: 10 X: 29 Y: 26
+2016/02/26 1:30:10: Ingsan Dir: 10 X: 30 Y: 26
+2016/02/26 1:30:11: Ingsan Dir: 10 X: 31 Y: 26
+2016/02/26 1:30:11: Ingsan Dir: 10 X: 32 Y: 26
+2016/02/26 1:30:11: Ingsan Dir: 1 X: 32 Y: 25
+2016/02/26 1:30:11: Ingsan Dir: 7 X: 31 Y: 25
+2016/02/26 1:30:11: Ingsan Dir: 7 X: 30 Y: 25
+2016/02/26 1:30:12: Ingsan Dir: 7 X: 29 Y: 25
+2016/02/26 1:30:12: Ingsan Dir: 1 X: 29 Y: 24
+2016/02/26 1:30:12: Ingsan Dir: 10 X: 30 Y: 24
+2016/02/26 1:30:13: Ingsan Dir: 4 X: 30 Y: 25
+2016/02/26 1:30:13: Ingsan Dir: 4 X: 30 Y: 26
+2016/02/26 1:30:13: Ingsan Dir: 4 X: 30 Y: 27
+2016/02/26 1:30:13: Ingsan Dir: 4 X: 30 Y: 28
+2016/02/26 1:30:14: Ingsan Dir: 1 X: 30 Y: 27
+2016/02/26 1:30:14: Ingsan Dir: 7 X: 29 Y: 27
+2016/02/26 1:30:15: Ingsan Dir: 7 X: 28 Y: 27
+2016/02/26 1:30:15: Ingsan Dir: 7 X: 27 Y: 27
+2016/02/26 1:30:15: Ingsan Dir: 1 X: 27 Y: 26
+2016/02/26 1:30:15: Ingsan Dir: 10 X: 28 Y: 26
+2016/02/26 1:30:15: Ingsan Dir: 10 X: 29 Y: 26
+2016/02/26 1:30:16: Ingsan Dir: 10 X: 30 Y: 26
+2016/02/26 1:30:16: Ingsan Dir: 10 X: 31 Y: 26
+2016/02/26 1:30:16: Ingsan Dir: 10 X: 32 Y: 26
+2016/02/26 1:30:16: Ingsan Dir: 10 X: 33 Y: 26
+2016/02/26 1:30:16: Ingsan Dir: 7 X: 32 Y: 26
+2016/02/26 1:30:16: Ingsan Dir: 7 X: 31 Y: 26
+2016/02/26 1:30:17: Ingsan Dir: 4 X: 31 Y: 27
+2016/02/26 1:30:17: Ingsan Dir: 4 X: 31 Y: 28
+2016/02/26 1:30:17: Ingsan Dir: 7 X: 30 Y: 28
+2016/02/26 1:30:17: Ingsan Dir: 7 X: 29 Y: 28
+2016/02/26 1:30:17: Ingsan Dir: 1 X: 29 Y: 27
+2016/02/26 1:30:18: Ingsan Dir: 10 X: 30 Y: 27
+2016/02/26 1:30:18: Ingsan Dir: 1 X: 30 Y: 26
+2016/02/26 1:30:18: Ingsan Dir: 1 X: 30 Y: 25
+2016/02/26 1:30:19: Ingsan Dir: 7 X: 29 Y: 25
+2016/02/26 1:30:19: Ingsan Dir: 7 X: 28 Y: 25
+2016/02/26 1:30:19: Ingsan Dir: 10 X: 29 Y: 25
+2016/02/26 1:30:20: Ingsan Dir: 4 X: 29 Y: 26
+2016/02/26 1:30:20: Ingsan Dir: 10 X: 30 Y: 26
+2016/02/26 1:30:20: Ingsan Dir: 10 X: 31 Y: 26
+2016/02/26 1:30:21: Ingsan Dir: 4 X: 31 Y: 27
+2016/02/26 1:30:21: Ingsan Dir: 7 X: 30 Y: 27
+2016/02/26 1:30:22: Ingsan Dir: 7 X: 29 Y: 27
+2016/02/26 1:30:24: Ingsan Dir: 10 X: 30 Y: 27
+2016/02/26 1:30:26: Ingsan Dir: 7 X: 29 Y: 27
+2016/02/26 1:30:26: Ingsan Dir: 10 X: 30 Y: 27
+2016/02/26 1:30:27: Ingsan Dir: 4 X: 30 Y: 28
+2016/02/26 1:30:27: Ingsan Dir: 4 X: 30 Y: 29
+2016/02/26 1:30:27: Ingsan Dir: 1 X: 30 Y: 28
+2016/02/26 1:30:28: Ingsan Dir: 1 X: 30 Y: 27
+2016/02/26 1:30:28: Ingsan Dir: 1 X: 30 Y: 26
+2016/02/26 1:30:29: Ingsan Dir: 4 X: 30 Y: 27
+2016/02/26 1:30:29: Ingsan Dir: 4 X: 30 Y: 28
+2016/02/26 1:30:29: Ingsan Dir: 4 X: 30 Y: 29
+2016/02/26 1:30:30: Ingsan Dir: 7 X: 29 Y: 29
+2016/02/26 1:30:30: Ingsan Dir: 1 X: 29 Y: 28
+2016/02/26 1:30:30: Ingsan Dir: 1 X: 29 Y: 27
+2016/02/26 1:30:30: Ingsan Dir: 10 X: 30 Y: 27
+2016/02/26 1:30:30: Ingsan Dir: 10 X: 31 Y: 27
+2016/02/26 1:30:31: Ingsan Dir: 10 X: 32 Y: 27
+2016/02/26 1:30:31: Ingsan Dir: 10 X: 33 Y: 27
+2016/02/26 1:30:31: Ingsan Dir: 1 X: 33 Y: 26
+2016/02/26 1:30:31: Ingsan Dir: 1 X: 33 Y: 25
+2016/02/26 1:30:31: Ingsan Dir: 1 X: 33 Y: 24
+2016/02/26 1:30:31: Ingsan Dir: 7 X: 32 Y: 24
+2016/02/26 1:30:32: Ingsan Dir: 7 X: 31 Y: 24
+2016/02/26 1:30:32: Ingsan Dir: 7 X: 30 Y: 24
+2016/02/26 1:30:32: Ingsan Dir: 4 X: 30 Y: 25
+2016/02/26 1:30:33: Ingsan Dir: 7 X: 29 Y: 25
+2016/02/26 1:30:33: Ingsan Dir: 4 X: 29 Y: 26
+2016/02/26 1:30:33: Ingsan Dir: 4 X: 29 Y: 27
+2016/02/26 1:30:33: Ingsan Dir: 10 X: 30 Y: 27
+2016/02/26 1:30:33: Ingsan Dir: 10 X: 31 Y: 27
+2016/02/26 1:30:34: Ingsan Dir: 7 X: 30 Y: 27
+2016/02/26 1:30:34: Ingsan Dir: 7 X: 29 Y: 27
+2016/02/26 1:30:34: Ingsan Dir: 7 X: 28 Y: 27
+2016/02/26 1:30:35: Ingsan Dir: 1 X: 28 Y: 26
+2016/02/26 1:30:35: Ingsan Dir: 1 X: 28 Y: 25
+2016/02/26 1:30:35: Ingsan Dir: 10 X: 29 Y: 25
+2016/02/26 1:30:35: Ingsan Dir: 10 X: 30 Y: 25
+2016/02/26 1:30:35: Ingsan Dir: 10 X: 31 Y: 25
+2016/02/26 1:30:35: Ingsan Dir: 4 X: 31 Y: 26
+2016/02/26 1:30:36: Ingsan Dir: 7 X: 30 Y: 26
+2016/02/26 1:30:36: Ingsan Dir: 7 X: 29 Y: 26
+2016/02/26 1:31:22: Ingsan Dir: 7 X: 28 Y: 26
+2016/02/26 1:31:22: Ingsan Dir: 7 X: 27 Y: 26
+2016/02/26 1:31:22: Ingsan Dir: 4 X: 27 Y: 27
+2016/02/26 1:31:23: Ingsan Dir: 10 X: 28 Y: 27
+2016/02/26 1:31:23: Ingsan Dir: 10 X: 29 Y: 27
+2016/02/26 1:31:23: Ingsan Dir: 10 X: 30 Y: 27
+2016/02/26 1:31:24: Ingsan Dir: 1 X: 30 Y: 26
+2016/02/26 1:31:24: Ingsan Dir: 1 X: 30 Y: 25
+2016/02/26 1:31:24: Ingsan Dir: 1 X: 30 Y: 24
+2016/02/26 1:31:25: Ingsan Dir: 1 X: 30 Y: 23
+2016/02/26 1:31:25: Ingsan Dir: 7 X: 29 Y: 23
+2016/02/26 1:31:26: Ingsan Dir: 7 X: 28 Y: 23
+2016/02/26 1:31:26: Ingsan Dir: 1 X: 28 Y: 22
+2016/02/26 1:31:26: Ingsan Dir: 1 X: 28 Y: 21
+2016/02/26 1:31:26: Ingsan Dir: 7 X: 27 Y: 21
+2016/02/26 1:31:26: Ingsan Dir: 7 X: 26 Y: 21
+2016/02/26 1:31:27: Ingsan Dir: 7 X: 25 Y: 21
+2016/02/26 1:31:27: Ingsan Dir: 7 X: 24 Y: 21
+2016/02/26 1:31:27: Ingsan Dir: 7 X: 23 Y: 21
+2016/02/26 1:31:27: Ingsan Dir: 7 X: 22 Y: 21
+2016/02/26 1:31:27: Ingsan Dir: 7 X: 21 Y: 21
+2016/02/26 1:31:27: Ingsan Dir: 7 X: 20 Y: 21
+2016/02/26 1:31:28: Ingsan Dir: 7 X: 19 Y: 21
+2016/02/26 1:31:28: Ingsan Dir: 7 X: 18 Y: 21
+2016/02/26 1:31:28: Ingsan Dir: 7 X: 17 Y: 21
+2016/02/26 1:31:28: Ingsan Dir: 7 X: 16 Y: 21
+2016/02/26 1:31:28: Ingsan Dir: 7 X: 15 Y: 21
+2016/02/26 1:31:29: Ingsan Dir: 7 X: 14 Y: 21
+2016/02/26 1:31:29: Ingsan Dir: 7 X: 13 Y: 21
+2016/02/26 1:31:29: Ingsan Dir: 7 X: 12 Y: 21
+2016/02/26 1:31:29: Ingsan Dir: 7 X: 11 Y: 21
+2016/02/26 1:31:29: Ingsan Dir: 7 X: 10 Y: 21
+2016/02/26 1:31:30: Ingsan Dir: 7 X: 9 Y: 21
+2016/02/26 1:31:30: Ingsan Dir: 7 X: 8 Y: 21
+2016/02/26 1:31:30: Ingsan Dir: 7 X: 7 Y: 21
+2016/02/26 1:31:30: Ingsan Dir: 7 X: 6 Y: 21
+2016/02/26 1:31:30: Ingsan Dir: 7 X: 5 Y: 21
+2016/02/26 1:31:30: Ingsan Dir: 7 X: 4 Y: 21
+2016/02/26 1:31:31: Ingsan Dir: 10 X: 5 Y: 21
+2016/02/26 1:31:31: Ingsan Dir: 10 X: 6 Y: 21
+2016/02/26 1:31:35: Ingsan Dir: 1 X: 6 Y: 20
+2016/02/26 1:31:35: Ingsan Dir: 1 X: 6 Y: 19
+2016/02/26 1:31:35: Ingsan Dir: 1 X: 6 Y: 18
+2016/02/26 1:31:36: Ingsan Dir: 4 X: 6 Y: 19
+2016/02/26 1:31:36: Ingsan Dir: 4 X: 6 Y: 20
+2016/02/26 1:31:37: Ingsan Dir: 4 X: 6 Y: 21
+2016/02/26 1:31:37: Ingsan Dir: 4 X: 6 Y: 22
+2016/02/26 1:31:37: Ingsan Dir: 4 X: 6 Y: 23
+2016/02/26 1:31:37: Ingsan Dir: 4 X: 6 Y: 24
+2016/02/26 1:31:37: Ingsan Dir: 1 X: 6 Y: 23
+2016/02/26 1:31:38: Ingsan Dir: 1 X: 6 Y: 22
+2016/02/26 1:31:38: Ingsan Dir: 1 X: 6 Y: 21
+2016/02/26 1:31:40: Ingsan Dir: 4 X: 6 Y: 22
+2016/02/26 1:31:40: Ingsan Dir: 4 X: 6 Y: 23
+2016/02/26 1:31:40: Ingsan Dir: 7 X: 5 Y: 23
+2016/02/26 1:31:51: Ingsan Dir: 10 X: 6 Y: 23
+2016/02/26 1:31:51: Ingsan Dir: 10 X: 7 Y: 23
+2016/02/26 1:31:51: Ingsan Dir: 7 X: 6 Y: 23
+2016/02/26 1:31:52: Ingsan Dir: 1 X: 6 Y: 22
+2016/02/26 1:32:01: Ingsan Dir: 4 X: 6 Y: 23
+2016/02/26 1:32:01: Ingsan Dir: 1 X: 6 Y: 22
+2016/02/26 1:32:02: Ingsan Dir: 1 X: 6 Y: 21
+2016/02/26 1:32:02: Ingsan Dir: 1 X: 6 Y: 20
+2016/02/26 1:32:02: Ingsan Dir: 1 X: 6 Y: 19
+2016/02/26 1:32:02: Ingsan Dir: 4 X: 6 Y: 20
+2016/02/26 1:32:03: Ingsan Dir: 1 X: 6 Y: 19
+2016/02/26 1:32:03: Ingsan Dir: 1 X: 6 Y: 18
+2016/02/26 1:32:03: Ingsan Dir: 1 X: 6 Y: 17
+2016/02/26 1:32:03: Ingsan Dir: 4 X: 6 Y: 18
+2016/02/26 1:32:04: Ingsan Dir: 4 X: 6 Y: 19
+2016/02/26 1:32:04: Ingsan Dir: 4 X: 6 Y: 20
+2016/02/26 1:32:04: Ingsan Dir: 4 X: 6 Y: 21
+2016/02/26 1:32:04: Ingsan Dir: 4 X: 6 Y: 22
+2016/02/26 1:32:05: Ingsan Dir: 4 X: 6 Y: 23
+2016/02/26 1:32:05: Ingsan Dir: 1 X: 6 Y: 22
+2016/02/26 1:32:05: Ingsan Dir: 1 X: 6 Y: 21
+2016/02/26 1:32:05: Ingsan Dir: 1 X: 6 Y: 20
+2016/02/26 1:32:05: Ingsan Dir: 1 X: 6 Y: 19
+2016/02/26 1:32:06: Ingsan Dir: 1 X: 6 Y: 18
+2016/02/26 1:32:06: Ingsan Dir: 4 X: 6 Y: 19
+2016/02/26 1:32:06: Ingsan Dir: 4 X: 6 Y: 20
+2016/02/26 1:32:07: Ingsan Dir: 1 X: 6 Y: 19
+2016/02/26 1:32:07: Ingsan Dir: 1 X: 6 Y: 18
+2016/02/26 1:32:07: Ingsan Dir: 1 X: 6 Y: 17
+2016/02/26 1:32:07: Ingsan Dir: 4 X: 6 Y: 18
+2016/02/26 1:32:08: Ingsan Dir: 4 X: 6 Y: 19
+2016/02/26 1:32:12: Ingsan Dir: 4 X: 6 Y: 20
+2016/02/26 1:32:12: Ingsan Dir: 4 X: 6 Y: 21
+2016/02/26 1:32:12: Ingsan Dir: 7 X: 5 Y: 21
+2016/02/26 1:32:12: Ingsan Dir: 4 X: 5 Y: 22
+2016/02/26 1:32:12: Ingsan Dir: 10 X: 6 Y: 22
+2016/02/26 1:32:13: Ingsan Dir: 10 X: 7 Y: 22
+2016/02/26 1:32:13: Ingsan Dir: 7 X: 6 Y: 22
+2016/02/26 1:32:13: Ingsan Dir: 1 X: 6 Y: 21
+2016/02/26 1:32:14: Ingsan Dir: 10 X: 7 Y: 21
+2016/02/26 1:32:14: Ingsan Dir: 10 X: 8 Y: 21
+2016/02/26 1:32:15: Ingsan Dir: 10 X: 9 Y: 21
+2016/02/26 1:32:15: Ingsan Dir: 7 X: 8 Y: 21
+2016/02/26 1:32:15: Ingsan Dir: 7 X: 7 Y: 21
+2016/02/26 1:32:15: Ingsan Dir: 7 X: 6 Y: 21
+2016/02/26 1:32:15: Ingsan Dir: 7 X: 5 Y: 21
+2016/02/26 1:32:16: Ingsan Dir: 10 X: 6 Y: 21
+2016/02/26 1:32:20: Ingsan Dir: 1 X: 6 Y: 20
+2016/02/26 1:32:20: Ingsan Dir: 1 X: 6 Y: 19
+2016/02/26 1:32:21: Ingsan Dir: 1 X: 6 Y: 18
+2016/02/26 1:32:21: Ingsan Dir: 4 X: 6 Y: 19
+2016/02/26 1:32:22: Ingsan Dir: 4 X: 6 Y: 20
+2016/02/26 1:32:22: Ingsan Dir: 4 X: 6 Y: 21
+2016/02/26 1:32:22: Ingsan Dir: 4 X: 6 Y: 22
+2016/02/26 1:32:23: Ingsan Dir: 1 X: 6 Y: 21
+2016/02/26 1:32:23: Ingsan Dir: 1 X: 6 Y: 20
+2016/02/26 1:32:23: Ingsan Dir: 1 X: 6 Y: 19
+2016/02/26 1:32:23: Ingsan Dir: 1 X: 6 Y: 18
+2016/02/26 1:32:23: Ingsan Dir: 1 X: 6 Y: 17
+2016/02/26 1:32:24: Ingsan Dir: 4 X: 6 Y: 18
+2016/02/26 1:32:48: Ingsan Dir: 4 X: 6 Y: 19
+2016/02/26 1:32:48: Ingsan Dir: 4 X: 6 Y: 20
+2016/02/26 1:32:48: Ingsan Dir: 4 X: 6 Y: 21
+2016/02/26 1:32:48: Ingsan Dir: 4 X: 6 Y: 22
+2016/02/26 1:32:49: Ingsan Dir: 4 X: 6 Y: 23
+2016/02/26 1:32:49: Ingsan Dir: 1 X: 6 Y: 22
+2016/02/26 1:32:49: Ingsan Dir: 7 X: 5 Y: 22
+2016/02/26 1:32:49: Ingsan Dir: 7 X: 4 Y: 22
+2016/02/26 1:32:50: Ingsan Dir: 10 X: 5 Y: 22
+2016/02/26 1:32:50: Ingsan Dir: 10 X: 6 Y: 22
+2016/02/26 1:32:51: Ingsan Dir: 1 X: 6 Y: 21
+2016/02/26 1:32:51: Ingsan Dir: 10 X: 7 Y: 21
+2016/02/26 1:32:51: Ingsan Dir: 10 X: 8 Y: 21
+2016/02/26 1:32:51: Ingsan Dir: 4 X: 8 Y: 22
+2016/02/26 1:32:51: Ingsan Dir: 4 X: 8 Y: 23
+2016/02/26 1:32:52: Ingsan Dir: 7 X: 7 Y: 23
+2016/02/26 1:32:52: Ingsan Dir: 7 X: 6 Y: 23
+2016/02/26 1:32:52: Ingsan Dir: 1 X: 6 Y: 22
+2016/02/26 1:32:53: Ingsan Dir: 4 X: 6 Y: 23
+2016/02/26 1:32:53: Ingsan Dir: 4 X: 6 Y: 24
+2016/02/26 1:32:53: Ingsan Dir: 4 X: 6 Y: 25
+2016/02/26 1:32:54: Ingsan Dir: 1 X: 6 Y: 24
+2016/02/26 1:32:54: Ingsan Dir: 1 X: 6 Y: 23
+2016/02/26 1:32:54: Ingsan Dir: 1 X: 6 Y: 22
+2016/02/26 1:32:54: Ingsan Dir: 1 X: 6 Y: 21
+2016/02/26 1:32:54: Ingsan Dir: 1 X: 6 Y: 20
+2016/02/26 1:32:59: Ingsan Dir: 4 X: 6 Y: 21
+2016/02/26 1:33:00: Ingsan Dir: 4 X: 6 Y: 22
+2016/02/26 1:33:00: Ingsan Dir: 1 X: 6 Y: 21
+2016/02/26 1:33:00: Ingsan Dir: 1 X: 6 Y: 20
+2016/02/26 1:33:00: Ingsan Dir: 1 X: 6 Y: 19
+2016/02/26 1:33:01: Ingsan Dir: 4 X: 6 Y: 20
+2016/02/26 1:33:01: Ingsan Dir: 4 X: 6 Y: 21
+2016/02/26 1:33:01: Ingsan Dir: 4 X: 6 Y: 22
+2016/02/26 1:33:01: Ingsan Dir: 4 X: 6 Y: 23
+2016/02/26 1:33:11: Ingsan Dir: 10 X: 7 Y: 23
+2016/02/26 1:33:11: Ingsan Dir: 1 X: 7 Y: 22
+2016/02/26 1:33:11: Ingsan Dir: 1 X: 7 Y: 21
+2016/02/26 1:33:11: Ingsan Dir: 1 X: 7 Y: 20
+2016/02/26 1:33:12: Ingsan Dir: 1 X: 7 Y: 19
+2016/02/26 1:33:12: Ingsan Dir: 1 X: 7 Y: 18
+2016/02/26 1:33:12: Ingsan Dir: 1 X: 7 Y: 17
+2016/02/26 1:33:12: Ingsan Dir: 10 X: 8 Y: 17
+2016/02/26 1:33:12: Ingsan Dir: 10 X: 9 Y: 17
+2016/02/26 1:33:13: Ingsan Dir: 10 X: 10 Y: 17
+2016/02/26 1:33:13: Ingsan Dir: 10 X: 11 Y: 17
+2016/02/26 1:33:13: Ingsan Dir: 1 X: 11 Y: 16
+2016/02/26 1:33:13: Ingsan Dir: 1 X: 11 Y: 15
+2016/02/26 1:33:13: Ingsan Dir: 1 X: 11 Y: 14
+2016/02/26 1:33:13: Ingsan Dir: 1 X: 11 Y: 13
+2016/02/26 1:33:14: Ingsan Dir: 1 X: 11 Y: 12
+2016/02/26 1:33:14: Ingsan Dir: 10 X: 12 Y: 12
+2016/02/26 1:33:14: Ingsan Dir: 10 X: 13 Y: 12
+2016/02/26 1:33:14: Ingsan Dir: 10 X: 14 Y: 12
+2016/02/26 1:33:14: Ingsan Dir: 1 X: 14 Y: 11
+2016/02/26 1:33:15: Ingsan Dir: 10 X: 15 Y: 11
+2016/02/26 1:33:15: Ingsan Dir: 10 X: 16 Y: 11
+2016/02/26 1:33:15: Ingsan Dir: 10 X: 17 Y: 11
+2016/02/26 1:33:15: Ingsan Dir: 10 X: 18 Y: 11
+2016/02/26 1:33:15: Ingsan Dir: 10 X: 19 Y: 11
+2016/02/26 1:33:16: Ingsan Dir: 10 X: 20 Y: 11
+2016/02/26 1:33:16: Ingsan Dir: 1 X: 20 Y: 10
+2016/02/26 1:33:16: Ingsan Dir: 1 X: 20 Y: 9
+2016/02/26 1:33:16: Ingsan Dir: 10 X: 21 Y: 9
+2016/02/26 1:33:16: Ingsan Dir: 7 X: 20 Y: 9
+2016/02/26 1:33:16: Ingsan Dir: 7 X: 19 Y: 9
+2016/02/26 1:33:17: Ingsan Dir: 7 X: 18 Y: 9
+2016/02/26 1:33:17: Ingsan Dir: 4 X: 18 Y: 10
+2016/02/26 1:33:17: Ingsan Dir: 10 X: 19 Y: 10
+2016/02/26 1:33:17: Ingsan Dir: 10 X: 20 Y: 10
+2016/02/26 1:33:17: Ingsan Dir: 10 X: 21 Y: 10
+2016/02/26 1:33:18: Ingsan Dir: 10 X: 22 Y: 10
+2016/02/26 1:33:18: Ingsan Dir: 4 X: 22 Y: 11
+2016/02/26 1:33:18: Ingsan Dir: 4 X: 22 Y: 12
+2016/02/26 1:33:18: Ingsan Dir: 7 X: 21 Y: 12
+2016/02/26 1:33:18: Ingsan Dir: 7 X: 20 Y: 12
+2016/02/26 1:33:19: Ingsan Dir: 1 X: 20 Y: 11
+2016/02/26 1:33:19: Ingsan Dir: 1 X: 20 Y: 10
+2016/02/26 1:33:19: Ingsan Dir: 1 X: 20 Y: 9
+2016/02/26 1:33:20: Ingsan Dir: 7 X: 19 Y: 9
+2016/02/26 1:33:20: Ingsan Dir: 7 X: 18 Y: 9
+2016/02/26 1:33:20: Ingsan Dir: 4 X: 18 Y: 10
+2016/02/26 1:33:20: Ingsan Dir: 10 X: 19 Y: 10
+2016/02/26 1:33:20: Ingsan Dir: 10 X: 20 Y: 10
+2016/02/26 1:33:20: Ingsan Dir: 10 X: 21 Y: 10
+2016/02/26 1:33:21: Ingsan Dir: 10 X: 22 Y: 10
+2016/02/26 1:33:21: Ingsan Dir: 4 X: 22 Y: 11
+2016/02/26 1:33:21: Ingsan Dir: 4 X: 22 Y: 12

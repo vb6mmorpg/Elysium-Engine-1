@@ -1,0 +1,24 @@
+D:\Programing Files\Elysium Diamond\Chat Server\bin\Debug\WorldServer.exe
+D:\Programing Files\Elysium Diamond\Chat Server\bin\Debug\WorldServer.pdb
+D:\Programing Files\Elysium Diamond\Chat Server\bin\Debug\Lidgren.Network.dll
+D:\Programing Files\Elysium Diamond\Chat Server\bin\Debug\MySql.Data.dll
+D:\Programing Files\Elysium Diamond\Chat Server\obj\Debug\WorldServer.csprojResolveAssemblyReference.cache
+D:\Programing Files\Elysium Diamond\Chat Server\obj\Debug\WorldServer.frmMain.resources
+D:\Programing Files\Elysium Diamond\Chat Server\obj\Debug\WorldServer.Properties.Resources.resources
+D:\Programing Files\Elysium Diamond\Chat Server\obj\Debug\WorldServer.csproj.GenerateResource.Cache
+D:\Programing Files\Elysium Diamond\Chat Server\obj\Debug\WorldServer.exe
+D:\Programing Files\Elysium Diamond\Chat Server\obj\Debug\WorldServer.pdb
+D:\Programing Files\Elysium Diamond\World Server\obj\Debug\WorldServer.exe
+D:\Programing Files\Elysium Diamond\World Server\obj\Debug\WorldServer.pdb
+D:\Programing Files\Elysium Diamond\World Server\bin\Debug\WorldServer.exe
+D:\Programing Files\Elysium Diamond\World Server\bin\Debug\WorldServer.pdb
+D:\Programing Files\Elysium Diamond\World Server\bin\Debug\Lidgren.Network.dll
+D:\Programing Files\Elysium Diamond\World Server\bin\Debug\MySql.Data.dll
+D:\Programing Files\Elysium Diamond\World Server\obj\Debug\WorldServer.csprojResolveAssemblyReference.cache
+D:\Programing Files\Elysium Diamond\World Server\obj\Debug\WorldServer.frmMain.resources
+D:\Programing Files\Elysium Diamond\World Server\obj\Debug\WorldServer.Properties.Resources.resources
+D:\Programing Files\Elysium Diamond\World Server\obj\Debug\WorldServer.csproj.GenerateResource.Cache
+D:\Programing Files\Elysium Diamond\World Server\bin\Debug\KopiLua.dll
+D:\Programing Files\Elysium Diamond\World Server\bin\Debug\NLua.dll
+D:\Elysium Diamond\World Server\obj\Debug\WorldServer.exe
+D:\Elysium Diamond\World Server\obj\Debug\WorldServer.pdb

@@ -1,0 +1,48 @@
+03/12/2015 00:46:09: Carregando dados de mysql.
+03/12/2015 00:46:09: ID: #artemis#
+03/12/2015 00:46:09: Name: Canal 1
+03/12/2015 00:46:09: Discovery: Elysium Diamond #1.0.0
+03/12/2015 00:46:09: IP: 127.0.0.1
+03/12/2015 00:46:09: Port: 10120
+03/12/2015 00:46:09: MaximumConnections: 2000
+03/12/2015 00:46:09: Logs: True
+03/12/2015 00:46:09: Cryptography: GameEngine
+03/12/2015 00:46:09: ClientSerial: #elysium#
+03/12/2015 00:46:09: Sleep: 2
+03/12/2015 00:46:09: TestServer: False
+03/12/2015 00:46:09: WorldServer 1 ID: Artemis
+03/12/2015 00:46:09: WorldServer 2 ID: 
+03/12/2015 00:46:09: WorldServer 3 ID: 
+03/12/2015 00:46:09: WorldServer 4 ID: 
+03/12/2015 00:46:09: WorldServer 5 ID: 
+03/12/2015 00:46:10: Unable to connect to any of the specified MySQL hosts.
+03/12/2015 00:46:10: Unable to connect to any of the specified MySQL hosts.
+03/12/2015 00:46:10: Carregando experiência
+03/12/2015 15:46:58: Carregando dados de mysql.
+03/12/2015 15:46:58: ID: #artemis#
+03/12/2015 15:46:58: Name: Canal 1
+03/12/2015 15:46:58: Discovery: Elysium Diamond #1.0.0
+03/12/2015 15:46:58: IP: 127.0.0.1
+03/12/2015 15:46:58: Port: 10120
+03/12/2015 15:46:58: MaximumConnections: 2000
+03/12/2015 15:46:58: Logs: True
+03/12/2015 15:46:58: Cryptography: GameEngine
+03/12/2015 15:46:58: ClientSerial: #elysium#
+03/12/2015 15:46:58: Sleep: 2
+03/12/2015 15:46:58: TestServer: False
+03/12/2015 15:46:58: WorldServer 1 ID: Artemis
+03/12/2015 15:46:58: WorldServer 2 ID: 
+03/12/2015 15:46:58: WorldServer 3 ID: 
+03/12/2015 15:46:58: WorldServer 4 ID: 
+03/12/2015 15:46:58: WorldServer 5 ID: 
+03/12/2015 15:46:58: Connectado ao banco de dados
+03/12/2015 15:46:58: Carregando experiência
+03/12/2015 15:46:58: Exp Máximo: 121 22353256174
+03/12/2015 15:46:58: Carregando guilds.
+03/12/2015 15:46:58: Total : 2 guilds carregados.
+03/12/2015 15:46:59: Carregando membros.
+03/12/2015 15:46:59: Total : 2 membros carregados.
+03/12/2015 15:46:59: Carregando classes
+03/12/2015 15:47:04: Servidor iniciado
+03/12/2015 15:47:09: Status changed to connected: 127.0.0.1
+03/12/2015 15:47:09: Received From Client: artemis

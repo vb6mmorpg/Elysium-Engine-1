@@ -1,0 +1,69 @@
+14/11/2015 02:10:22: Discovery Response IPEndPoint: 127.0.0.1
+14/11/2015 02:10:22: Status changed to connected: 127.0.0.1
+14/11/2015 02:11:06: Data From Login Server ID: 1 Account: akaruz 7A1E450E1B90D7D7
+14/11/2015 02:11:06: Discovery Response IPEndPoint: 127.0.0.1
+14/11/2015 02:11:06: Status changed to connected: 127.0.0.1
+14/11/2015 02:11:06: Data From Client: 7A1E450E1B90D7D7
+14/11/2015 02:11:06: Player Found ID: 1 Account: akaruz 7A1E450E1B90D7D7
+14/11/2015 02:11:06: Pre-Load ID: 1 Account: akaruz Char: 水色 Akaruz Caronne アカウント 
+14/11/2015 02:11:09: GameServer Login Attempt: akaruz 127.0.0.1
+14/11/2015 02:16:43: Discovery Response IPEndPoint: 127.0.0.1
+14/11/2015 02:16:43: Status changed to connected: 127.0.0.1
+14/11/2015 02:17:20: Discovery Response IPEndPoint: 127.0.0.1
+14/11/2015 02:17:20: Data From Login Server ID: 1 Account: akaruz 07CD94FBEF2AE3ED
+14/11/2015 02:17:20: Status changed to connected: 127.0.0.1
+14/11/2015 02:17:20: Data From Client: 07CD94FBEF2AE3ED
+14/11/2015 02:17:20: Player Found ID: 1 Account: akaruz 07CD94FBEF2AE3ED
+14/11/2015 02:17:20: Pre-Load ID: 1 Account: akaruz Char: 水色 Akaruz Caronne アカウント 
+14/11/2015 02:17:24: GameServer Login Attempt: akaruz 127.0.0.1
+14/11/2015 16:18:32: Discovery Response IPEndPoint: 127.0.0.1
+14/11/2015 16:18:32: Status changed to connected: 127.0.0.1
+14/11/2015 16:21:43: Data From Login Server ID: 1 Account: akaruz 133732C9249AC796
+14/11/2015 16:21:45: Discovery Response IPEndPoint: 127.0.0.1
+14/11/2015 16:21:45: Status changed to connected: 127.0.0.1
+14/11/2015 16:21:45: Data From Client: 133732C9249AC796
+14/11/2015 16:21:45: Player Found ID: 1 Account: akaruz 133732C9249AC796
+14/11/2015 16:21:45: Pre-Load ID: 1 Account: akaruz Char: 水色 Akaruz Caronne アカウント 
+14/11/2015 16:22:30: Character Deleted: From: 1 akaruz Char: 29 アカウント
+14/11/2015 16:23:14: GameServer Login Attempt: akaruz 127.0.0.1
+14/11/2015 16:24:02: Status changed to disconnected: 1 akaruz 127.0.0.1
+14/11/2015 16:30:57: Data From Login Server ID: 1 Account: akaruz 0EDEC1F17A3D405D
+14/11/2015 16:30:58: Discovery Response IPEndPoint: 127.0.0.1
+14/11/2015 16:30:58: Status changed to connected: 127.0.0.1
+14/11/2015 16:30:58: Data From Client: 0EDEC1F17A3D405D
+14/11/2015 16:30:58: Player Found ID: 1 Account: akaruz 0EDEC1F17A3D405D
+14/11/2015 16:30:58: Pre-Load ID: 1 Account: akaruz Char: 水色 Akaruz Caronne Alice 
+14/11/2015 16:31:02: GameServer Login Attempt: akaruz 127.0.0.1
+14/11/2015 16:31:29: Status changed to disconnected: 1 akaruz 127.0.0.1
+14/11/2015 16:31:41: Data From Login Server ID: 1 Account: akaruz 787C28FA3757F168
+14/11/2015 16:31:42: Discovery Response IPEndPoint: 127.0.0.1
+14/11/2015 16:31:42: Status changed to connected: 127.0.0.1
+14/11/2015 16:31:42: Data From Client: 787C28FA3757F168
+14/11/2015 16:31:42: Player Found ID: 1 Account: akaruz 787C28FA3757F168
+14/11/2015 16:31:42: Pre-Load ID: 1 Account: akaruz Char: 水色 Akaruz Caronne Alice 
+14/11/2015 16:32:29: Status changed to disconnected: 1 akaruz 127.0.0.1
+14/11/2015 16:34:06: Data From Login Server ID: 1 Account: akaruz 8CC55DB70665CDE1
+14/11/2015 16:34:06: Discovery Response IPEndPoint: 127.0.0.1
+14/11/2015 16:34:06: Status changed to connected: 127.0.0.1
+14/11/2015 16:34:06: Data From Client: 8CC55DB70665CDE1
+14/11/2015 16:34:06: Player Found ID: 1 Account: akaruz 8CC55DB70665CDE1
+14/11/2015 16:34:06: Pre-Load ID: 1 Account: akaruz Char: 水色 Akaruz Caronne Alice 
+14/11/2015 16:34:29: Character Deleted: From: 1 akaruz Char: 31 Alice
+14/11/2015 16:35:44: GameServer Login Attempt: akaruz 127.0.0.1
+14/11/2015 16:36:19: Status changed to disconnected: 1 akaruz 127.0.0.1
+14/11/2015 16:38:13: Data From Login Server ID: 1 Account: akaruz BCC082FEC03072A8
+14/11/2015 16:38:14: Discovery Response IPEndPoint: 127.0.0.1
+14/11/2015 16:38:14: Status changed to connected: 127.0.0.1
+14/11/2015 16:38:14: Data From Client: BCC082FEC03072A8
+14/11/2015 16:38:14: Player Found ID: 1 Account: akaruz BCC082FEC03072A8
+14/11/2015 16:38:14: Pre-Load ID: 1 Account: akaruz Char: 水色 Akaruz Caronne DragonicK 
+14/11/2015 16:38:16: GameServer Login Attempt: akaruz 127.0.0.1
+14/11/2015 16:38:47: Status changed to disconnected: 1 akaruz 127.0.0.1
+14/11/2015 16:38:59: Data From Login Server ID: 1 Account: akaruz EE3E8F91E8D4D40D
+14/11/2015 16:39:00: Discovery Response IPEndPoint: 127.0.0.1
+14/11/2015 16:39:00: Status changed to connected: 127.0.0.1
+14/11/2015 16:39:00: Data From Client: EE3E8F91E8D4D40D
+14/11/2015 16:39:00: Player Found ID: 1 Account: akaruz EE3E8F91E8D4D40D
+14/11/2015 16:39:00: Pre-Load ID: 1 Account: akaruz Char: 水色 Akaruz Caronne DragonicK 
+14/11/2015 16:39:02: GameServer Login Attempt: akaruz 127.0.0.1
+14/11/2015 16:40:27: Status changed to disconnected: 1 akaruz 127.0.0.1

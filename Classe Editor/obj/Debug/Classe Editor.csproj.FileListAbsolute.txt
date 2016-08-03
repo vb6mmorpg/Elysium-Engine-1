@@ -1,0 +1,16 @@
+C:\Users\julio_000\Desktop\Classe Editor\bin\Debug\Classe Editor.exe
+C:\Users\julio_000\Desktop\Classe Editor\bin\Debug\Classe Editor.pdb
+C:\Users\julio_000\Desktop\Classe Editor\obj\Debug\Classe_Editor.Form1.resources
+C:\Users\julio_000\Desktop\Classe Editor\obj\Debug\Classe_Editor.Properties.Resources.resources
+C:\Users\julio_000\Desktop\Classe Editor\obj\Debug\Classe Editor.csproj.GenerateResource.Cache
+C:\Users\julio_000\Desktop\Classe Editor\obj\Debug\Classe Editor.exe
+C:\Users\julio_000\Desktop\Classe Editor\obj\Debug\Classe Editor.pdb
+C:\Users\julio_000\Desktop\Classe Editor\obj\Debug\Classe Editor.csprojResolveAssemblyReference.cache
+D:\Programing Files\Elysium Diamond\Classe Editor\obj\Debug\Classe Editor.exe
+D:\Programing Files\Elysium Diamond\Classe Editor\obj\Debug\Classe Editor.pdb
+D:\Programing Files\Elysium Diamond\Classe Editor\obj\Debug\Classe_Editor.Form1.resources
+D:\Programing Files\Elysium Diamond\Classe Editor\obj\Debug\Classe_Editor.Properties.Resources.resources
+D:\Programing Files\Elysium Diamond\Classe Editor\obj\Debug\Classe Editor.csproj.GenerateResource.Cache
+D:\Programing Files\Elysium Diamond\Classe Editor\bin\Debug\Classe Editor.exe
+D:\Programing Files\Elysium Diamond\Classe Editor\bin\Debug\Classe Editor.pdb
+D:\Programing Files\Elysium Diamond\Classe Editor\obj\Debug\Classe Editor.csprojResolveAssemblyReference.cache

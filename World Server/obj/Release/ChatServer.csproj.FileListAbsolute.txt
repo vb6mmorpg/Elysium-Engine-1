@@ -1,0 +1,15 @@
+C:\Users\DragonicK\Desktop\Chat Server\bin\Release\ChatServer.exe
+C:\Users\DragonicK\Desktop\Chat Server\bin\Release\ChatServer.pdb
+C:\Users\DragonicK\Desktop\Chat Server\obj\Release\ChatServer.frmMain.resources
+C:\Users\DragonicK\Desktop\Chat Server\obj\Release\ChatServer.Properties.Resources.resources
+C:\Users\DragonicK\Desktop\Chat Server\obj\Release\ChatServer.csproj.GenerateResource.Cache
+C:\Users\DragonicK\Desktop\Chat Server\obj\Release\ChatServer.exe
+C:\Users\DragonicK\Desktop\Chat Server\obj\Release\ChatServer.pdb
+D:\Programing Files\Elysium Diamond\Chat Server\obj\Release\ChatServer.csproj.GenerateResource.Cache
+D:\Programing Files\Elysium Diamond\Chat Server\obj\Release\ChatServer.csprojResolveAssemblyReference.cache
+D:\Programing Files\Elysium Diamond\Chat Server\obj\Release\WorldServer.frmMain.resources
+D:\Programing Files\Elysium Diamond\Chat Server\obj\Release\WorldServer.Properties.Resources.resources
+D:\Programing Files\Elysium Diamond\Chat Server\bin\Release\WorldServer.exe
+D:\Programing Files\Elysium Diamond\Chat Server\bin\Release\WorldServer.pdb
+D:\Programing Files\Elysium Diamond\Chat Server\obj\Release\WorldServer.exe
+D:\Programing Files\Elysium Diamond\Chat Server\obj\Release\WorldServer.pdb

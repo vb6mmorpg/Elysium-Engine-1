@@ -1,0 +1,49 @@
+2014/12/17 1:07:38: Discovery Response IPEndPoint: 127.0.0.1
+2014/12/17 1:07:38: Status changed to connected: 127.0.0.1
+2014/12/17 1:10:11: Discovery Response IPEndPoint: 127.0.0.1
+2014/12/17 1:10:12: Status changed to connected: 127.0.0.1
+2014/12/17 1:10:21: Status changed to disconnected: 127.0.0.1
+2014/12/17 1:10:30: Discovery Response IPEndPoint: 127.0.0.1
+2014/12/17 1:10:30: Status changed to connected: 127.0.0.1
+2014/12/17 1:10:47: Status changed to disconnected: 127.0.0.1
+2014/12/17 1:11:41: Discovery Response IPEndPoint: 127.0.0.1
+2014/12/17 1:11:41: Status changed to connected: 127.0.0.1
+2014/12/17 1:11:50: Status changed to disconnected: 127.0.0.1
+2014/12/17 1:12:47: Discovery Response IPEndPoint: 127.0.0.1
+2014/12/17 1:12:47: Status changed to connected: 127.0.0.1
+2014/12/17 1:12:56: Status changed to disconnected: 127.0.0.1
+2014/12/17 10:01:26: Discovery Response IPEndPoint: 127.0.0.1
+2014/12/17 10:01:26: Status changed to connected: 127.0.0.1
+2014/12/17 10:02:45: Discovery Response IPEndPoint: 127.0.0.1
+2014/12/17 10:02:45: Status changed to connected: 127.0.0.1
+2014/12/17 10:02:58: Discovery Response IPEndPoint: 127.0.0.1
+2014/12/17 10:02:58: Status changed to connected: 127.0.0.1
+2014/12/17 10:03:07: Status changed to disconnected: 127.0.0.1
+2014/12/17 10:03:10: Status changed to disconnected: 127.0.0.1
+2014/12/17 10:03:41: Discovery Response IPEndPoint: 127.0.0.1
+2014/12/17 10:03:41: Status changed to connected: 127.0.0.1
+2014/12/17 10:04:06: Discovery Response IPEndPoint: 127.0.0.1
+2014/12/17 10:04:06: Status changed to connected: 127.0.0.1
+2014/12/17 10:04:14: Status changed to disconnected: 127.0.0.1
+2014/12/17 10:04:15: Status changed to disconnected: 127.0.0.1
+2014/12/17 10:04:54: Discovery Response IPEndPoint: 127.0.0.1
+2014/12/17 10:04:54: Status changed to connected: 127.0.0.1
+2014/12/17 10:04:57: Discovery Response IPEndPoint: 127.0.0.1
+2014/12/17 10:04:57: Status changed to connected: 127.0.0.1
+2014/12/17 10:06:24: Discovery Response IPEndPoint: 127.0.0.1
+2014/12/17 10:06:24: Status changed to connected: 127.0.0.1
+2014/12/17 10:06:33: Status changed to disconnected: 127.0.0.1
+2014/12/17 10:06:39: Status changed to disconnected: 127.0.0.1
+2014/12/17 10:06:42: Status changed to disconnected: 127.0.0.1
+2014/12/17 19:04:35: Discovery Response IPEndPoint: 127.0.0.1
+2014/12/17 19:04:35: Status changed to connected: 127.0.0.1
+2014/12/17 19:05:03: Discovery Response IPEndPoint: 127.0.0.1
+2014/12/17 19:05:03: Status changed to connected: 127.0.0.1
+2014/12/17 19:05:09: Discovery Response IPEndPoint: 127.0.0.1
+2014/12/17 19:05:09: Status changed to connected: 127.0.0.1
+2014/12/17 19:05:27: Status changed to disconnected: 127.0.0.1
+2014/12/17 19:05:29: Status changed to disconnected: 127.0.0.1
+2014/12/17 19:06:19: Discovery Response IPEndPoint: 127.0.0.1
+2014/12/17 19:06:19: Status changed to connected: 127.0.0.1
+2014/12/17 19:06:40: Status changed to disconnected: 127.0.0.1
+2014/12/17 21:03:10: Status changed to disconnected: 127.0.0.1

@@ -1,0 +1,18 @@
+//------------------------------------------------------//
+//		 	 WEAPON	     			//
+//							//
+//------------------------------------------------------//
+
+ItemId  Price  Quantity  Level  Durability  AccountWarehouse  Warehouse  Tradeable  Unseleable  BuyLimit
+
+MaxItem 	=	10
+Item_1 		=	1, 500, 1, 22, 150, 1, 1, 1, 0, 0
+Item_2		=	
+Item_3		=
+Item_4		=
+Item_5		=
+Item_6		=
+Item_7		=
+Item_8		=
+Item_9		=
+Item_10		=

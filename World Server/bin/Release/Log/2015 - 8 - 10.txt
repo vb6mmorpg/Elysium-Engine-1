@@ -1,0 +1,80 @@
+2015/08/10 14:15:39: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/10 14:15:40: Status changed to connected: 127.0.0.1
+2015/08/10 14:16:12: Data From Login Server ID: 1 Account: akaruz B184F61C3EAA1101
+2015/08/10 14:16:14: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/10 14:16:14: Status changed to connected: 127.0.0.1
+2015/08/10 14:16:14: Data From Client: B184F61C3EAA1101
+2015/08/10 14:16:14: Player Found ID: 1 Account: akaruz B184F61C3EAA1101
+2015/08/10 14:16:14: Pre-Load ID: 1 Account: akaruz Char: Nadaila Akaruz Caronne Thaeo 
+2015/08/10 14:16:16: GameServer Login Attempt: akaruz 127.0.0.1
+2015/08/10 14:30:20: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/10 14:30:20: Status changed to connected: 127.0.0.1
+2015/08/10 14:31:21: Data From Login Server ID: 1 Account: akaruz 5FC085EB6DA61E62
+2015/08/10 14:31:22: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/10 14:31:22: Status changed to connected: 127.0.0.1
+2015/08/10 14:31:22: Data From Client: 5FC085EB6DA61E62
+2015/08/10 14:31:22: Player Found ID: 1 Account: akaruz 5FC085EB6DA61E62
+2015/08/10 14:31:22: Pre-Load ID: 1 Account: akaruz Char: Nadaila Akaruz Caronne Thaeo 
+2015/08/10 14:31:24: GameServer Login Attempt: akaruz 127.0.0.1
+2015/08/10 14:31:57: Status changed to disconnected: 1 akaruz 127.0.0.1
+2015/08/10 14:34:39: Data From Login Server ID: 1 Account: akaruz 1CEDCDD144869C66
+2015/08/10 14:34:41: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/10 14:34:41: Status changed to connected: 127.0.0.1
+2015/08/10 14:34:41: Data From Client: 1CEDCDD144869C66
+2015/08/10 14:34:41: Player Found ID: 1 Account: akaruz 1CEDCDD144869C66
+2015/08/10 14:34:41: Pre-Load ID: 1 Account: akaruz Char: Nadaila Akaruz Caronne Thaeo 
+2015/08/10 14:34:42: GameServer Login Attempt: akaruz 127.0.0.1
+2015/08/10 14:44:04: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/10 14:44:04: Status changed to connected: 127.0.0.1
+2015/08/10 14:44:12: Data From Login Server ID: 1 Account: akaruz 264A7661DBE0F061
+2015/08/10 14:44:13: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/10 14:44:13: Status changed to connected: 127.0.0.1
+2015/08/10 14:44:13: Data From Client: 264A7661DBE0F061
+2015/08/10 14:44:13: Player Found ID: 1 Account: akaruz 264A7661DBE0F061
+2015/08/10 14:44:13: Pre-Load ID: 1 Account: akaruz Char: Nadaila Akaruz Caronne Thaeo 
+2015/08/10 14:44:15: GameServer Login Attempt: akaruz 127.0.0.1
+2015/08/10 17:53:10: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/10 17:53:10: Status changed to connected: 127.0.0.1
+2015/08/10 17:55:43: Data From Login Server ID: 1 Account: akaruz 872C42579C5A2940
+2015/08/10 17:55:43: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/10 17:55:43: Status changed to connected: 127.0.0.1
+2015/08/10 17:55:43: Data From Client: 872C42579C5A2940
+2015/08/10 17:55:43: Player Found ID: 1 Account: akaruz 872C42579C5A2940
+2015/08/10 17:55:43: Pre-Load ID: 1 Account: akaruz Char: Nadaila Akaruz Caronne Thaeo 
+2015/08/10 17:55:45: GameServer Login Attempt: akaruz 127.0.0.1
+2015/08/10 17:57:17: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/10 17:57:17: Status changed to connected: 127.0.0.1
+2015/08/10 17:57:35: Data From Login Server ID: 1 Account: akaruz 757EB2A2C7F8E4DB
+2015/08/10 17:57:37: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/10 17:57:37: Status changed to connected: 127.0.0.1
+2015/08/10 17:57:37: Data From Client: 757EB2A2C7F8E4DB
+2015/08/10 17:57:37: Player Found ID: 1 Account: akaruz 757EB2A2C7F8E4DB
+2015/08/10 17:57:37: Pre-Load ID: 1 Account: akaruz Char: Nadaila Akaruz Caronne Thaeo 
+2015/08/10 17:57:39: GameServer Login Attempt: akaruz 127.0.0.1
+2015/08/10 17:58:24: Status changed to disconnected: 1 akaruz 127.0.0.1
+2015/08/10 17:59:07: Data From Login Server ID: 1 Account: akaruz A7D8CDB078B4000C
+2015/08/10 17:59:08: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/10 17:59:08: Status changed to connected: 127.0.0.1
+2015/08/10 17:59:08: Data From Client: A7D8CDB078B4000C
+2015/08/10 17:59:08: Player Found ID: 1 Account: akaruz A7D8CDB078B4000C
+2015/08/10 17:59:08: Pre-Load ID: 1 Account: akaruz Char: Nadaila Akaruz Caronne Thaeo 
+2015/08/10 17:59:10: GameServer Login Attempt: akaruz 127.0.0.1
+2015/08/10 17:59:59: Status changed to disconnected: 1 akaruz 127.0.0.1
+2015/08/10 18:09:04: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/10 18:09:04: Status changed to connected: 127.0.0.1
+2015/08/10 18:10:13: Data From Login Server ID: 1 Account: akaruz 8DC0A678A7A8722C
+2015/08/10 18:10:15: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/10 18:10:15: Status changed to connected: 127.0.0.1
+2015/08/10 18:10:15: Data From Client: 8DC0A678A7A8722C
+2015/08/10 18:10:15: Player Found ID: 1 Account: akaruz 8DC0A678A7A8722C
+2015/08/10 18:10:15: Pre-Load ID: 1 Account: akaruz Char: Nadaila Akaruz Caronne Thaeo 
+2015/08/10 18:10:21: GameServer Login Attempt: akaruz 127.0.0.1
+2015/08/10 18:10:52: Status changed to disconnected: 1 akaruz 127.0.0.1
+2015/08/10 18:11:27: Data From Login Server ID: 1 Account: akaruz A38DFC3843C9E619
+2015/08/10 18:11:27: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/10 18:11:27: Status changed to connected: 127.0.0.1
+2015/08/10 18:11:27: Data From Client: A38DFC3843C9E619
+2015/08/10 18:11:27: Player Found ID: 1 Account: akaruz A38DFC3843C9E619
+2015/08/10 18:11:27: Pre-Load ID: 1 Account: akaruz Char: Nadaila Akaruz Caronne Thaeo 
+2015/08/10 18:11:29: GameServer Login Attempt: akaruz 127.0.0.1
+2015/08/10 18:13:02: Status changed to disconnected: 1 akaruz 127.0.0.1

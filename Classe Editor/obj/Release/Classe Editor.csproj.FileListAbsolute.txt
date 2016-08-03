@@ -1,0 +1,32 @@
+D:\Programing Files\Elysium Diamond\Classe Editor\bin\Release\Classe Editor.exe
+D:\Programing Files\Elysium Diamond\Classe Editor\bin\Release\Classe Editor.pdb
+D:\Programing Files\Elysium Diamond\Classe Editor\obj\Release\Classe_Editor.Form1.resources
+D:\Programing Files\Elysium Diamond\Classe Editor\obj\Release\Classe_Editor.Properties.Resources.resources
+D:\Programing Files\Elysium Diamond\Classe Editor\obj\Release\Classe Editor.csproj.GenerateResource.Cache
+D:\Programing Files\Elysium Diamond\Classe Editor\obj\Release\Classe Editor.exe
+D:\Programing Files\Elysium Diamond\Classe Editor\obj\Release\Classe Editor.pdb
+D:\Programing Files\Elysium Diamond\Classe Editor\obj\Release\Classe Editor.csprojResolveAssemblyReference.cache
+C:\Users\ジュリオ\Pictures\Classe Editor\obj\Release\Classe Editor.exe
+C:\Users\ジュリオ\Pictures\Classe Editor\obj\Release\Classe Editor.pdb
+C:\Users\ジュリオ\Pictures\Classe Editor\obj\Release\Classe Editor.csprojResolveAssemblyReference.cache
+C:\Users\ジュリオ\Pictures\Classe Editor\obj\Release\Classe_Editor.Form1.resources
+C:\Users\ジュリオ\Pictures\Classe Editor\obj\Release\Classe_Editor.Properties.Resources.resources
+C:\Users\ジュリオ\Pictures\Classe Editor\obj\Release\Classe Editor.csproj.GenerateResource.Cache
+C:\Users\ジュリオ\Pictures\Classe Editor\bin\Release\Classe Editor.exe
+C:\Users\ジュリオ\Pictures\Classe Editor\bin\Release\Classe Editor.pdb
+C:\Users\Eudivan\Desktop\Classe Editor\obj\Release\Classe Editor.exe
+C:\Users\Eudivan\Desktop\Classe Editor\obj\Release\Classe Editor.pdb
+C:\Users\Eudivan\Desktop\Classe Editor\bin\Release\Classe Editor.exe
+C:\Users\Eudivan\Desktop\Classe Editor\bin\Release\Classe Editor.pdb
+C:\Users\Eudivan\Desktop\Classe Editor\obj\Release\Classe Editor.csprojResolveAssemblyReference.cache
+C:\Users\Eudivan\Desktop\Classe Editor\obj\Release\Classe_Editor.Form1.resources
+C:\Users\Eudivan\Desktop\Classe Editor\obj\Release\Classe_Editor.Properties.Resources.resources
+C:\Users\Eudivan\Desktop\Classe Editor\obj\Release\Classe Editor.csproj.GenerateResource.Cache
+C:\Users\ジュリオ\Desktop\Classe Editor\obj\Release\Classe Editor.exe
+C:\Users\ジュリオ\Desktop\Classe Editor\obj\Release\Classe Editor.pdb
+C:\Users\ジュリオ\Desktop\Classe Editor\bin\Release\Classe Editor.exe
+C:\Users\ジュリオ\Desktop\Classe Editor\bin\Release\Classe Editor.pdb
+C:\Users\ジュリオ\Desktop\Classe Editor\obj\Release\Classe Editor.csprojResolveAssemblyReference.cache
+C:\Users\ジュリオ\Desktop\Classe Editor\obj\Release\Classe_Editor.Form1.resources
+C:\Users\ジュリオ\Desktop\Classe Editor\obj\Release\Classe_Editor.Properties.Resources.resources
+C:\Users\ジュリオ\Desktop\Classe Editor\obj\Release\Classe Editor.csproj.GenerateResource.Cache

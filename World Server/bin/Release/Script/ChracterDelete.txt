@@ -1,0 +1,4 @@
+CreateCharacter	 	= 1
+CharacterDelete		= 1
+CharacterDeleteMinLevel = 1
+CharacterDeleteMaxLevel = 170

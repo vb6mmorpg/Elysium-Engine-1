@@ -1,0 +1,905 @@
+2016/07/21 13:06:01: Carregando dados de mysql.
+2016/07/21 13:06:01: ID: #artemis#
+2016/07/21 13:06:01: Name: Canal 1
+2016/07/21 13:06:01: Discovery: Elysium Diamond #1.0.0
+2016/07/21 13:06:01: IP: 127.0.0.1
+2016/07/21 13:06:01: Port: 10120
+2016/07/21 13:06:01: MaximumConnections: 2000
+2016/07/21 13:06:01: Logs: True
+2016/07/21 13:06:01: Cryptography: GameEngine
+2016/07/21 13:06:01: ClientSerial: #elysium#
+2016/07/21 13:06:01: Sleep: 2
+2016/07/21 13:06:01: TestServer: False
+2016/07/21 13:06:01: WorldServer 1 ID: Artemis
+2016/07/21 13:06:01: WorldServer 2 ID: 
+2016/07/21 13:06:01: WorldServer 3 ID: 
+2016/07/21 13:06:01: WorldServer 4 ID: 
+2016/07/21 13:06:01: WorldServer 5 ID: 
+2016/07/21 13:06:01: Connectado ao banco de dados
+2016/07/21 13:06:01: Carregando experiência
+2016/07/21 13:06:01: Exp Máximo: 121 22353256174
+2016/07/21 13:06:01: Carregando guilds.
+2016/07/21 13:06:01: Total : 2 guilds carregados.
+2016/07/21 13:06:01: Carregando membros.
+2016/07/21 13:06:01: Total : 2 membros carregados.
+2016/07/21 13:06:01: Carregando classes
+2016/07/21 13:06:01: Carregando NPC
+2016/07/21 13:06:02: Servidor iniciado
+2016/07/21 13:06:11: Status changed to connected: 127.0.0.1
+2016/07/21 13:06:44: Data From World Server ID: 1 Account: akaruz Char ID: 10 Slot: 3 DEBEBF90909B831E
+2016/07/21 13:06:45: Status changed to connected: 127.0.0.1
+2016/07/21 13:06:45: Received From Client: DEBEBF90909B831E
+2016/07/21 13:06:45: Player Found ID: 10 Name: DragonicK
+2016/07/21 13:06:45: DragonicK Dir: 7 X: -1 Y: 0
+2016/07/21 13:07:20: Status changed to disconnected: 127.0.0.1
+2016/07/21 13:07:47: Data From World Server ID: 1 Account: akaruz Char ID: 10 Slot: 3 CB9B85E0D34D5FA3
+2016/07/21 13:07:48: Status changed to connected: 127.0.0.1
+2016/07/21 13:07:48: Received From Client: CB9B85E0D34D5FA3
+2016/07/21 13:07:48: Player Found ID: 10 Name: DragonicK
+2016/07/21 13:07:48: DragonicK Dir: 7 X: -1 Y: 0
+2016/07/21 13:07:51: DragonicK Dir: 10 X: 0 Y: 0
+2016/07/21 13:07:51: DragonicK Dir: 4 X: 0 Y: 1
+2016/07/21 13:07:51: DragonicK Dir: 10 X: 1 Y: 1
+2016/07/21 13:07:51: DragonicK Dir: 10 X: 2 Y: 1
+2016/07/21 13:07:51: DragonicK Dir: 4 X: 2 Y: 2
+2016/07/21 13:07:51: DragonicK Dir: 10 X: 3 Y: 2
+2016/07/21 13:07:52: DragonicK Dir: 10 X: 4 Y: 2
+2016/07/21 13:07:52: DragonicK Dir: 10 X: 5 Y: 2
+2016/07/21 13:07:52: DragonicK Dir: 4 X: 5 Y: 3
+2016/07/21 13:07:52: DragonicK Dir: 4 X: 5 Y: 4
+2016/07/21 13:07:52: DragonicK Dir: 10 X: 6 Y: 4
+2016/07/21 13:07:53: DragonicK Dir: 10 X: 7 Y: 4
+2016/07/21 13:07:53: DragonicK Dir: 10 X: 8 Y: 4
+2016/07/21 13:07:53: DragonicK Dir: 10 X: 9 Y: 4
+2016/07/21 13:07:53: DragonicK Dir: 10 X: 10 Y: 4
+2016/07/21 13:07:53: DragonicK Dir: 10 X: 11 Y: 4
+2016/07/21 13:07:54: DragonicK Dir: 4 X: 11 Y: 5
+2016/07/21 13:07:54: DragonicK Dir: 4 X: 11 Y: 6
+2016/07/21 13:07:54: DragonicK Dir: 4 X: 11 Y: 7
+2016/07/21 13:07:54: DragonicK Dir: 4 X: 11 Y: 8
+2016/07/21 13:07:54: DragonicK Dir: 4 X: 11 Y: 9
+2016/07/21 13:07:54: DragonicK Dir: 10 X: 12 Y: 9
+2016/07/21 13:07:55: DragonicK Dir: 10 X: 13 Y: 9
+2016/07/21 13:07:55: DragonicK Dir: 10 X: 14 Y: 9
+2016/07/21 13:07:55: DragonicK Dir: 4 X: 14 Y: 10
+2016/07/21 13:07:55: DragonicK Dir: 4 X: 14 Y: 11
+2016/07/21 13:07:55: DragonicK Dir: 4 X: 14 Y: 12
+2016/07/21 13:07:56: DragonicK Dir: 10 X: 15 Y: 12
+2016/07/21 13:07:56: DragonicK Dir: 10 X: 16 Y: 12
+2016/07/21 13:07:56: DragonicK Dir: 10 X: 17 Y: 12
+2016/07/21 13:07:56: DragonicK Dir: 10 X: 18 Y: 12
+2016/07/21 13:07:56: DragonicK Dir: 4 X: 18 Y: 13
+2016/07/21 13:07:57: DragonicK Dir: 4 X: 18 Y: 14
+2016/07/21 19:53:41: Carregando dados de mysql.
+2016/07/21 19:53:41: ID: command not found
+2016/07/21 19:53:41: Name: command not found
+2016/07/21 19:53:41: Discovery: command not found
+2016/07/21 19:53:41: IP: command not found
+2016/07/21 19:53:41: Port: 0
+2016/07/21 19:53:41: MaximumConnections: 0
+2016/07/21 19:53:41: Logs: False
+2016/07/21 19:53:41: ClientSerial: command not found
+2016/07/21 19:53:41: Sleep: 0
+2016/07/21 19:53:41: TestServer: False
+2016/07/21 19:53:41: WorldServer 1 ID: command not found
+2016/07/21 19:53:41: WorldServer 2 ID: command not found
+2016/07/21 19:53:41: WorldServer 3 ID: command not found
+2016/07/21 19:53:41: WorldServer 4 ID: command not found
+2016/07/21 19:53:41: WorldServer 5 ID: command not found
+2016/07/21 19:53:41: Unable to connect to any of the specified MySQL hosts.
+2016/07/21 19:53:41: Unable to connect to any of the specified MySQL hosts.
+2016/07/21 19:53:41: Carregando experiência
+2016/07/21 19:54:34: Carregando dados de mysql.
+2016/07/21 19:54:34: ID: command not found
+2016/07/21 19:54:34: Name: command not found
+2016/07/21 19:54:34: Discovery: command not found
+2016/07/21 19:54:34: IP: command not found
+2016/07/21 19:54:34: Port: 0
+2016/07/21 19:54:34: MaximumConnections: 0
+2016/07/21 19:54:34: Logs: False
+2016/07/21 19:54:34: ClientSerial: command not found
+2016/07/21 19:54:34: Sleep: 0
+2016/07/21 19:54:34: TestServer: False
+2016/07/21 19:54:34: WorldServer 1 ID: command not found
+2016/07/21 19:54:34: WorldServer 2 ID: command not found
+2016/07/21 19:54:34: WorldServer 3 ID: command not found
+2016/07/21 19:54:34: WorldServer 4 ID: command not found
+2016/07/21 19:54:34: WorldServer 5 ID: command not found
+2016/07/21 19:54:34: Unable to connect to any of the specified MySQL hosts.
+2016/07/21 19:54:34: Unable to connect to any of the specified MySQL hosts.
+2016/07/21 19:54:34: Carregando experiência
+2016/07/21 19:55:13: Carregando dados de mysql.
+2016/07/21 19:55:13: ID: command not found
+2016/07/21 19:55:13: Name: command not found
+2016/07/21 19:55:13: Discovery: command not found
+2016/07/21 19:55:13: IP: command not found
+2016/07/21 19:55:13: Port: 0
+2016/07/21 19:55:13: MaximumConnections: 0
+2016/07/21 19:55:13: Logs: False
+2016/07/21 19:55:13: ClientSerial: command not found
+2016/07/21 19:55:13: Sleep: 0
+2016/07/21 19:55:13: TestServer: False
+2016/07/21 19:55:13: WorldServer 1 ID: command not found
+2016/07/21 19:55:13: WorldServer 2 ID: command not found
+2016/07/21 19:55:13: WorldServer 3 ID: command not found
+2016/07/21 19:55:13: WorldServer 4 ID: command not found
+2016/07/21 19:55:13: WorldServer 5 ID: command not found
+2016/07/21 19:55:13: Unable to connect to any of the specified MySQL hosts.
+2016/07/21 19:55:13: Unable to connect to any of the specified MySQL hosts.
+2016/07/21 19:55:13: Carregando experiência
+2016/07/21 19:56:17: Carregando dados de mysql.
+2016/07/21 19:56:17: ID: #artemis#
+2016/07/21 19:56:17: Name: Canal 1
+2016/07/21 19:56:17: Discovery: Elysium Diamond #1.0.0
+2016/07/21 19:56:17: IP: 127.0.0.1
+2016/07/21 19:56:17: Port: 10120
+2016/07/21 19:56:17: MaximumConnections: 2000
+2016/07/21 19:56:17: Logs: True
+2016/07/21 19:56:17: ClientSerial: #elysium#
+2016/07/21 19:56:17: Sleep: 1
+2016/07/21 19:56:17: TestServer: False
+2016/07/21 19:56:17: WorldServer 1 ID: Artemis
+2016/07/21 19:56:17: WorldServer 2 ID: 
+2016/07/21 19:56:17: WorldServer 3 ID: 
+2016/07/21 19:56:17: WorldServer 4 ID: 
+2016/07/21 19:56:17: WorldServer 5 ID: 
+2016/07/21 19:56:17: Connectado ao banco de dados
+2016/07/21 19:56:17: Carregando experiência
+2016/07/21 19:56:17: Exp Máximo: 121 22353256174
+2016/07/21 19:56:17: Carregando guilds.
+2016/07/21 19:56:17: Total : 0 guilds carregados.
+2016/07/21 19:56:17: Carregando membros.
+2016/07/21 19:56:17: Total : 0 membros carregados.
+2016/07/21 19:56:17: Carregando classes
+2016/07/21 19:56:17: Carregando NPC
+2016/07/21 19:56:17: Servidor iniciado
+2016/07/21 19:56:24: Status changed to connected: 127.0.0.1
+2016/07/21 19:58:09: Data From World Server ID: 1 Account: akaruz Char ID: 10 Slot: 3 E5D7E08CF0BB5412
+2016/07/21 19:58:10: Status changed to connected: 127.0.0.1
+2016/07/21 19:58:10: Received From Client: E5D7E08CF0BB5412
+2016/07/21 19:58:10: Player Found ID: 10 Name: DragonicK
+2016/07/21 20:04:09: Carregando dados de mysql.
+2016/07/21 20:04:09: ID: #artemis#
+2016/07/21 20:04:09: Name: Canal 1
+2016/07/21 20:04:09: Discovery: Elysium Diamond #1.0.0
+2016/07/21 20:04:09: IP: 127.0.0.1
+2016/07/21 20:04:09: Port: 10120
+2016/07/21 20:04:09: MaximumConnections: 2000
+2016/07/21 20:04:09: Logs: True
+2016/07/21 20:04:09: ClientSerial: #elysium#
+2016/07/21 20:04:09: Sleep: 1
+2016/07/21 20:04:09: TestServer: False
+2016/07/21 20:04:09: WorldServer 1 ID: Artemis
+2016/07/21 20:04:09: WorldServer 2 ID: 
+2016/07/21 20:04:09: WorldServer 3 ID: 
+2016/07/21 20:04:09: WorldServer 4 ID: 
+2016/07/21 20:04:09: WorldServer 5 ID: 
+2016/07/21 20:04:09: Connectado ao banco de dados
+2016/07/21 20:04:09: Carregando experiência
+2016/07/21 20:04:09: Exp Máximo: 121 22353256174
+2016/07/21 20:04:09: Carregando guilds.
+2016/07/21 20:04:09: Total : 0 guilds carregados.
+2016/07/21 20:04:09: Carregando membros.
+2016/07/21 20:04:09: Total : 0 membros carregados.
+2016/07/21 20:04:09: Carregando classes
+2016/07/21 20:04:09: Carregando NPC
+2016/07/21 20:04:10: Servidor iniciado
+2016/07/21 20:04:14: Status changed to connected: 127.0.0.1
+2016/07/21 20:04:33: Data From World Server ID: 1 Account: akaruz Char ID: 10 Slot: 3 151C002A641A175C
+2016/07/21 20:04:34: Status changed to connected: 127.0.0.1
+2016/07/21 20:04:34: Received From Client: 151C002A641A175C
+2016/07/21 20:04:34: Player Found ID: 10 Name: DragonicK
+2016/07/21 20:04:37: DragonicK Dir: 4 X: 0 Y: 1
+2016/07/21 20:04:37: DragonicK Dir: 4 X: 0 Y: 2
+2016/07/21 20:04:37: DragonicK Dir: 10 X: 1 Y: 2
+2016/07/21 20:04:37: DragonicK Dir: 10 X: 2 Y: 2
+2016/07/21 20:07:55: Carregando dados de mysql.
+2016/07/21 20:07:55: ID: #artemis#
+2016/07/21 20:07:55: Name: Canal 1
+2016/07/21 20:07:55: Discovery: Elysium Diamond #1.0.0
+2016/07/21 20:07:55: IP: 127.0.0.1
+2016/07/21 20:07:55: Port: 10120
+2016/07/21 20:07:55: MaximumConnections: 2000
+2016/07/21 20:07:55: Logs: True
+2016/07/21 20:07:55: ClientSerial: #elysium#
+2016/07/21 20:07:55: Sleep: 1
+2016/07/21 20:07:55: TestServer: False
+2016/07/21 20:07:55: WorldServer 1 ID: Artemis
+2016/07/21 20:07:55: WorldServer 2 ID: 
+2016/07/21 20:07:55: WorldServer 3 ID: 
+2016/07/21 20:07:55: WorldServer 4 ID: 
+2016/07/21 20:07:55: WorldServer 5 ID: 
+2016/07/21 20:07:55: Connectado ao banco de dados
+2016/07/21 20:07:55: Carregando experiência
+2016/07/21 20:07:55: Exp Máximo: 121 22353256174
+2016/07/21 20:07:55: Carregando guilds.
+2016/07/21 20:07:55: Total : 0 guilds carregados.
+2016/07/21 20:07:55: Carregando membros.
+2016/07/21 20:07:55: Total : 0 membros carregados.
+2016/07/21 20:07:55: Carregando classes
+2016/07/21 20:07:55: Carregando NPC
+2016/07/21 20:07:55: Servidor iniciado
+2016/07/21 20:08:04: Status changed to connected: 127.0.0.1
+2016/07/21 20:08:37: Data From World Server ID: 1 Account: akaruz Char ID: 10 Slot: 3 D51F3B78158D9E48
+2016/07/21 20:08:39: Status changed to connected: 127.0.0.1
+2016/07/21 20:08:39: Received From Client: D51F3B78158D9E48
+2016/07/21 20:08:39: Player Found ID: 10 Name: DragonicK
+2016/07/21 20:11:13: Carregando dados de mysql.
+2016/07/21 20:11:13: ID: #artemis#
+2016/07/21 20:11:13: Name: Canal 1
+2016/07/21 20:11:13: Discovery: Elysium Diamond #1.0.0
+2016/07/21 20:11:13: IP: 127.0.0.1
+2016/07/21 20:11:13: Port: 10120
+2016/07/21 20:11:13: MaximumConnections: 2000
+2016/07/21 20:11:13: Logs: True
+2016/07/21 20:11:13: ClientSerial: #elysium#
+2016/07/21 20:11:13: Sleep: 1
+2016/07/21 20:11:13: TestServer: False
+2016/07/21 20:11:13: WorldServer 1 ID: Artemis
+2016/07/21 20:11:13: WorldServer 2 ID: 
+2016/07/21 20:11:13: WorldServer 3 ID: 
+2016/07/21 20:11:13: WorldServer 4 ID: 
+2016/07/21 20:11:13: WorldServer 5 ID: 
+2016/07/21 20:11:13: Connectado ao banco de dados
+2016/07/21 20:11:13: Carregando experiência
+2016/07/21 20:11:13: Exp Máximo: 121 22353256174
+2016/07/21 20:11:13: Carregando guilds.
+2016/07/21 20:11:13: Total : 0 guilds carregados.
+2016/07/21 20:11:13: Carregando membros.
+2016/07/21 20:11:13: Total : 0 membros carregados.
+2016/07/21 20:11:13: Carregando classes
+2016/07/21 20:11:13: Carregando NPC
+2016/07/21 20:11:13: Servidor iniciado
+2016/07/21 20:11:14: Status changed to connected: 127.0.0.1
+2016/07/21 20:11:28: Data From World Server ID: 1 Account: akaruz Char ID: 10 Slot: 3 36CEF50701921C74
+2016/07/21 20:11:29: Status changed to connected: 127.0.0.1
+2016/07/21 20:11:29: Received From Client: 36CEF50701921C74
+2016/07/21 20:11:29: Player Found ID: 10 Name: DragonicK
+2016/07/21 20:12:25: Carregando dados de mysql.
+2016/07/21 20:12:25: ID: #artemis#
+2016/07/21 20:12:25: Name: Canal 1
+2016/07/21 20:12:25: Discovery: Elysium Diamond #1.0.0
+2016/07/21 20:12:25: IP: 127.0.0.1
+2016/07/21 20:12:25: Port: 10120
+2016/07/21 20:12:25: MaximumConnections: 2000
+2016/07/21 20:12:25: Logs: True
+2016/07/21 20:12:25: ClientSerial: #elysium#
+2016/07/21 20:12:25: Sleep: 1
+2016/07/21 20:12:25: TestServer: False
+2016/07/21 20:12:25: WorldServer 1 ID: Artemis
+2016/07/21 20:12:25: WorldServer 2 ID: 
+2016/07/21 20:12:25: WorldServer 3 ID: 
+2016/07/21 20:12:25: WorldServer 4 ID: 
+2016/07/21 20:12:25: WorldServer 5 ID: 
+2016/07/21 20:12:25: Connectado ao banco de dados
+2016/07/21 20:12:25: Carregando experiência
+2016/07/21 20:12:25: Exp Máximo: 121 22353256174
+2016/07/21 20:12:25: Carregando guilds.
+2016/07/21 20:12:25: Total : 0 guilds carregados.
+2016/07/21 20:12:25: Carregando membros.
+2016/07/21 20:12:25: Total : 0 membros carregados.
+2016/07/21 20:12:25: Carregando classes
+2016/07/21 20:12:25: Carregando NPC
+2016/07/21 20:12:26: Servidor iniciado
+2016/07/21 20:12:34: Status changed to connected: 127.0.0.1
+2016/07/21 20:12:52: Data From World Server ID: 1 Account: akaruz Char ID: 10 Slot: 3 DC2ACE8684D6EAA7
+2016/07/21 20:12:53: Status changed to connected: 127.0.0.1
+2016/07/21 20:12:53: Received From Client: DC2ACE8684D6EAA7
+2016/07/21 20:12:53: Player Found ID: 10 Name: DragonicK
+2016/07/21 20:13:25: Carregando dados de mysql.
+2016/07/21 20:13:25: ID: #artemis#
+2016/07/21 20:13:25: Name: Canal 1
+2016/07/21 20:13:25: Discovery: Elysium Diamond #1.0.0
+2016/07/21 20:13:25: IP: 127.0.0.1
+2016/07/21 20:13:25: Port: 10120
+2016/07/21 20:13:25: MaximumConnections: 2000
+2016/07/21 20:13:25: Logs: True
+2016/07/21 20:13:25: ClientSerial: #elysium#
+2016/07/21 20:13:25: Sleep: 1
+2016/07/21 20:13:25: TestServer: False
+2016/07/21 20:13:25: WorldServer 1 ID: Artemis
+2016/07/21 20:13:25: WorldServer 2 ID: 
+2016/07/21 20:13:25: WorldServer 3 ID: 
+2016/07/21 20:13:25: WorldServer 4 ID: 
+2016/07/21 20:13:25: WorldServer 5 ID: 
+2016/07/21 20:13:25: Connectado ao banco de dados
+2016/07/21 20:13:25: Carregando experiência
+2016/07/21 20:13:25: Exp Máximo: 121 22353256174
+2016/07/21 20:13:25: Carregando guilds.
+2016/07/21 20:13:25: Total : 0 guilds carregados.
+2016/07/21 20:13:25: Carregando membros.
+2016/07/21 20:13:25: Total : 0 membros carregados.
+2016/07/21 20:13:25: Carregando classes
+2016/07/21 20:13:25: Carregando NPC
+2016/07/21 20:23:00: Carregando dados de mysql.
+2016/07/21 20:23:00: ID: #artemis#
+2016/07/21 20:23:00: Name: Canal 1
+2016/07/21 20:23:00: Discovery: Elysium Diamond #1.0.0
+2016/07/21 20:23:00: IP: 127.0.0.1
+2016/07/21 20:23:00: Port: 10120
+2016/07/21 20:23:00: MaximumConnections: 2000
+2016/07/21 20:23:00: Logs: True
+2016/07/21 20:23:00: ClientSerial: #elysium#
+2016/07/21 20:23:00: Sleep: 1
+2016/07/21 20:23:00: TestServer: False
+2016/07/21 20:23:00: WorldServer 1 ID: Artemis
+2016/07/21 20:23:00: WorldServer 2 ID: 
+2016/07/21 20:23:00: WorldServer 3 ID: 
+2016/07/21 20:23:00: WorldServer 4 ID: 
+2016/07/21 20:23:00: WorldServer 5 ID: 
+2016/07/21 20:23:00: Connectado ao banco de dados
+2016/07/21 20:23:00: Carregando experiência
+2016/07/21 20:23:00: Exp Máximo: 121 22353256174
+2016/07/21 20:23:00: Carregando guilds.
+2016/07/21 20:23:00: Total : 0 guilds carregados.
+2016/07/21 20:23:00: Carregando membros.
+2016/07/21 20:23:00: Total : 0 membros carregados.
+2016/07/21 20:23:00: Carregando classes
+2016/07/21 20:23:00: Carregando NPC
+2016/07/21 20:23:00: Servidor iniciado
+2016/07/21 20:23:04: Status changed to connected: 127.0.0.1
+2016/07/21 20:23:24: Data From World Server ID: 1 Account: akaruz Char ID: 10 Slot: 3 5B88CF8A1FE131B0
+2016/07/21 20:23:25: Status changed to connected: 127.0.0.1
+2016/07/21 20:23:25: Received From Client: 5B88CF8A1FE131B0
+2016/07/21 20:23:25: Player Found ID: 10 Name: DragonicK
+2016/07/21 20:23:25: DragonicK Dir: 7 X: -1 Y: 0
+2016/07/21 20:23:28: DragonicK Dir: 10 X: 0 Y: 0
+2016/07/21 20:23:29: DragonicK Dir: 10 X: 1 Y: 0
+2016/07/21 20:23:29: DragonicK Dir: 10 X: 2 Y: 0
+2016/07/21 20:23:29: DragonicK Dir: 4 X: 2 Y: 1
+2016/07/21 20:23:29: DragonicK Dir: 4 X: 2 Y: 2
+2016/07/21 20:23:29: DragonicK Dir: 10 X: 3 Y: 2
+2016/07/21 20:23:29: DragonicK Dir: 10 X: 4 Y: 2
+2016/07/21 20:23:30: DragonicK Dir: 4 X: 4 Y: 3
+2016/07/21 20:23:30: DragonicK Dir: 4 X: 4 Y: 4
+2016/07/21 20:23:30: DragonicK Dir: 10 X: 5 Y: 4
+2016/07/21 20:23:30: DragonicK Dir: 10 X: 6 Y: 4
+2016/07/21 20:23:30: DragonicK Dir: 10 X: 7 Y: 4
+2016/07/21 20:23:31: DragonicK Dir: 10 X: 8 Y: 4
+2016/07/21 20:23:31: DragonicK Dir: 10 X: 9 Y: 4
+2016/07/21 20:23:31: DragonicK Dir: 10 X: 10 Y: 4
+2016/07/21 20:23:31: DragonicK Dir: 10 X: 11 Y: 4
+2016/07/21 20:23:31: DragonicK Dir: 10 X: 12 Y: 4
+2016/07/21 20:23:32: DragonicK Dir: 10 X: 13 Y: 4
+2016/07/21 20:23:32: DragonicK Dir: 10 X: 14 Y: 4
+2016/07/21 20:23:32: DragonicK Dir: 10 X: 15 Y: 4
+2016/07/21 20:23:32: DragonicK Dir: 4 X: 15 Y: 5
+2016/07/21 20:23:32: DragonicK Dir: 4 X: 15 Y: 6
+2016/07/21 20:37:27: Carregando dados de mysql.
+2016/07/21 20:37:27: ID: #artemis#
+2016/07/21 20:37:27: Name: Canal 1
+2016/07/21 20:37:27: Discovery: Elysium Diamond #1.0.0
+2016/07/21 20:37:27: IP: 127.0.0.1
+2016/07/21 20:37:27: Port: 10120
+2016/07/21 20:37:27: MaximumConnections: 2000
+2016/07/21 20:37:27: Logs: True
+2016/07/21 20:37:27: ClientSerial: #elysium#
+2016/07/21 20:37:27: Sleep: 1
+2016/07/21 20:37:27: TestServer: False
+2016/07/21 20:37:27: WorldServer 1 ID: Artemis
+2016/07/21 20:37:27: WorldServer 2 ID: 
+2016/07/21 20:37:27: WorldServer 3 ID: 
+2016/07/21 20:37:27: WorldServer 4 ID: 
+2016/07/21 20:37:27: WorldServer 5 ID: 
+2016/07/21 20:37:29: Connectado ao banco de dados
+2016/07/21 20:37:30: Carregando experiência
+2016/07/21 20:37:30: Exp Máximo: 121 22353256174
+2016/07/21 20:37:30: Carregando guilds.
+2016/07/21 20:37:30: Total : 0 guilds carregados.
+2016/07/21 20:37:30: Carregando membros.
+2016/07/21 20:37:30: Total : 0 membros carregados.
+2016/07/21 20:37:30: Carregando classes
+2016/07/21 20:37:30: Carregando NPC
+2016/07/21 20:37:30: Servidor iniciado
+2016/07/21 20:37:34: Status changed to connected: 127.0.0.1
+2016/07/21 20:38:02: Data From World Server ID: 1 Account: akaruz Char ID: 10 Slot: 3 7E14EB91BD103D28
+2016/07/21 20:38:04: Status changed to connected: 127.0.0.1
+2016/07/21 20:38:04: Received From Client: 7E14EB91BD103D28
+2016/07/21 20:38:04: Player Found ID: 10 Name: DragonicK
+2016/07/21 20:38:39: Status changed to disconnected: 127.0.0.1
+2016/07/21 20:40:58: Carregando dados de mysql.
+2016/07/21 20:40:58: ID: #artemis#
+2016/07/21 20:40:58: Name: Canal 1
+2016/07/21 20:40:58: Discovery: Elysium Diamond #1.0.0
+2016/07/21 20:40:58: IP: 127.0.0.1
+2016/07/21 20:40:58: Port: 10120
+2016/07/21 20:40:58: MaximumConnections: 2000
+2016/07/21 20:40:58: Logs: True
+2016/07/21 20:40:58: ClientSerial: #elysium#
+2016/07/21 20:40:58: Sleep: 1
+2016/07/21 20:40:58: TestServer: False
+2016/07/21 20:40:58: WorldServer 1 ID: Artemis
+2016/07/21 20:40:58: WorldServer 2 ID: 
+2016/07/21 20:40:58: WorldServer 3 ID: 
+2016/07/21 20:40:58: WorldServer 4 ID: 
+2016/07/21 20:40:58: WorldServer 5 ID: 
+2016/07/21 20:40:58: Connectado ao banco de dados
+2016/07/21 20:40:58: Carregando experiência
+2016/07/21 20:40:58: Exp Máximo: 121 22353256174
+2016/07/21 20:40:58: Carregando guilds.
+2016/07/21 20:40:58: Total : 0 guilds carregados.
+2016/07/21 20:40:58: Carregando membros.
+2016/07/21 20:40:58: Total : 0 membros carregados.
+2016/07/21 20:40:58: Carregando classes
+2016/07/21 20:40:58: Carregando NPC
+2016/07/21 20:40:59: Servidor iniciado
+2016/07/21 20:41:04: Status changed to connected: 127.0.0.1
+2016/07/21 20:41:51: Carregando dados de mysql.
+2016/07/21 20:41:51: ID: #artemis#
+2016/07/21 20:41:51: Name: Canal 1
+2016/07/21 20:41:51: Discovery: Elysium Diamond #1.0.0
+2016/07/21 20:41:51: IP: 127.0.0.1
+2016/07/21 20:41:51: Port: 10120
+2016/07/21 20:41:51: MaximumConnections: 2000
+2016/07/21 20:41:51: Logs: True
+2016/07/21 20:41:51: ClientSerial: #elysium#
+2016/07/21 20:41:51: Sleep: 1
+2016/07/21 20:41:51: TestServer: False
+2016/07/21 20:41:51: WorldServer 1 ID: Artemis
+2016/07/21 20:41:51: WorldServer 2 ID: 
+2016/07/21 20:41:51: WorldServer 3 ID: 
+2016/07/21 20:41:51: WorldServer 4 ID: 
+2016/07/21 20:41:51: WorldServer 5 ID: 
+2016/07/21 20:41:51: Connectado ao banco de dados
+2016/07/21 20:41:51: Carregando experiência
+2016/07/21 20:41:51: Exp Máximo: 121 22353256174
+2016/07/21 20:41:51: Carregando guilds.
+2016/07/21 20:41:51: Total : 0 guilds carregados.
+2016/07/21 20:41:51: Carregando membros.
+2016/07/21 20:41:51: Total : 0 membros carregados.
+2016/07/21 20:41:51: Carregando classes
+2016/07/21 20:41:51: Carregando NPC
+2016/07/21 20:41:52: Servidor iniciado
+2016/07/21 20:42:14: Status changed to connected: 127.0.0.1
+2016/07/21 20:42:26: Data From World Server ID: 1 Account: akaruz Char ID: 10 Slot: 3 8AA14DCC45546BA6
+2016/07/21 20:42:27: Status changed to connected: 127.0.0.1
+2016/07/21 20:42:27: Received From Client: 8AA14DCC45546BA6
+2016/07/21 20:42:27: Player Found ID: 10 Name: DragonicK
+2016/07/21 21:38:01: Carregando dados de mysql.
+2016/07/21 21:38:01: ID: #artemis#
+2016/07/21 21:38:01: Name: Canal 1
+2016/07/21 21:38:01: Discovery: Elysium Diamond #1.0.0
+2016/07/21 21:38:01: IP: 127.0.0.1
+2016/07/21 21:38:01: Port: 10120
+2016/07/21 21:38:01: MaximumConnections: 2000
+2016/07/21 21:38:01: Logs: True
+2016/07/21 21:38:01: ClientSerial: #elysium#
+2016/07/21 21:38:01: Sleep: 1
+2016/07/21 21:38:01: TestServer: False
+2016/07/21 21:38:01: WorldServer 1 ID: Artemis
+2016/07/21 21:38:01: WorldServer 2 ID: 
+2016/07/21 21:38:01: WorldServer 3 ID: 
+2016/07/21 21:38:01: WorldServer 4 ID: 
+2016/07/21 21:38:01: WorldServer 5 ID: 
+2016/07/21 21:38:02: Connectado ao banco de dados
+2016/07/21 21:38:02: Carregando experiência
+2016/07/21 21:38:02: Exp Máximo: 121 22353256174
+2016/07/21 21:38:02: Carregando guilds.
+2016/07/21 21:38:02: Total : 0 guilds carregados.
+2016/07/21 21:38:02: Carregando membros.
+2016/07/21 21:38:02: Total : 0 membros carregados.
+2016/07/21 21:38:02: Carregando classes
+2016/07/21 21:38:02: Carregando NPC
+2016/07/21 21:38:02: Servidor iniciado
+2016/07/21 21:38:05: Status changed to connected: 127.0.0.1
+2016/07/21 21:39:06: Data From World Server ID: 1 Account: akaruz Char ID: 3 Slot: 2 031E870D94A4D12E
+2016/07/21 21:39:06: Status changed to connected: 127.0.0.1
+2016/07/21 21:39:06: Received From Client: 031E870D94A4D12E
+2016/07/21 21:39:06: Player Found ID: 3 Name: Caronne
+2016/07/21 21:39:09: Caronne Dir: 4 X: 0 Y: 1
+2016/07/21 21:39:09: Caronne Dir: 4 X: 0 Y: 2
+2016/07/21 21:39:09: Caronne Dir: 10 X: 1 Y: 2
+2016/07/21 21:39:09: Caronne Dir: 10 X: 2 Y: 2
+2016/07/21 21:39:09: Caronne Dir: 10 X: 3 Y: 2
+2016/07/21 21:39:10: Caronne Dir: 10 X: 4 Y: 2
+2016/07/21 21:39:10: Caronne Dir: 10 X: 5 Y: 2
+2016/07/21 21:39:10: Caronne Dir: 4 X: 5 Y: 3
+2016/07/21 21:39:10: Caronne Dir: 4 X: 5 Y: 4
+2016/07/21 21:39:31: Caronne Dir: 4 X: 5 Y: 5
+2016/07/21 21:39:31: Caronne Dir: 4 X: 5 Y: 6
+2016/07/21 21:39:31: Caronne Dir: 10 X: 6 Y: 6
+2016/07/21 21:39:31: Caronne Dir: 10 X: 7 Y: 6
+2016/07/21 21:39:31: Caronne Dir: 10 X: 8 Y: 6
+2016/07/21 21:39:32: Caronne Dir: 4 X: 8 Y: 7
+2016/07/21 21:39:32: Caronne Dir: 4 X: 8 Y: 8
+2016/07/21 21:39:39: Data From World Server ID: 2 Account: dragonick Char ID: 11 Slot: 0 30F1FEADE6D9E4E9
+2016/07/21 21:39:40: Status changed to connected: 127.0.0.1
+2016/07/21 21:39:40: Received From Client: 30F1FEADE6D9E4E9
+2016/07/21 21:39:40: Player Found ID: 11 Name: BurgIce
+2016/07/21 21:39:41: BurgIce Dir: 4 X: 0 Y: 1
+2016/07/21 21:39:41: BurgIce Dir: 4 X: 0 Y: 2
+2016/07/21 21:39:42: BurgIce Dir: 10 X: 1 Y: 2
+2016/07/21 21:39:42: BurgIce Dir: 10 X: 2 Y: 2
+2016/07/21 21:39:42: BurgIce Dir: 10 X: 3 Y: 2
+2016/07/21 21:39:42: BurgIce Dir: 4 X: 3 Y: 3
+2016/07/21 21:39:42: BurgIce Dir: 4 X: 3 Y: 4
+2016/07/21 21:39:43: BurgIce Dir: 4 X: 3 Y: 5
+2016/07/21 21:39:43: BurgIce Dir: 4 X: 3 Y: 6
+2016/07/21 21:39:43: BurgIce Dir: 4 X: 3 Y: 7
+2016/07/21 21:39:43: BurgIce Dir: 4 X: 3 Y: 8
+2016/07/21 21:39:43: BurgIce Dir: 10 X: 4 Y: 8
+2016/07/21 21:39:43: BurgIce Dir: 4 X: 4 Y: 9
+2016/07/21 21:39:44: BurgIce Dir: 4 X: 4 Y: 10
+2016/07/21 21:39:56: Caronne Dir: 4 X: 8 Y: 9
+2016/07/21 21:39:56: Caronne Dir: 4 X: 8 Y: 10
+2016/07/21 21:39:56: Caronne Dir: 4 X: 8 Y: 11
+2016/07/21 21:40:43: Carregando dados de mysql.
+2016/07/21 21:40:43: ID: #artemis#
+2016/07/21 21:40:43: Name: Canal 1
+2016/07/21 21:40:43: Discovery: Elysium Diamond #1.0.0
+2016/07/21 21:40:43: IP: 127.0.0.1
+2016/07/21 21:40:43: Port: 10120
+2016/07/21 21:40:43: MaximumConnections: 2000
+2016/07/21 21:40:43: Logs: True
+2016/07/21 21:40:43: ClientSerial: #elysium#
+2016/07/21 21:40:43: Sleep: 1
+2016/07/21 21:40:43: TestServer: False
+2016/07/21 21:40:43: WorldServer 1 ID: Artemis
+2016/07/21 21:40:43: WorldServer 2 ID: 
+2016/07/21 21:40:43: WorldServer 3 ID: 
+2016/07/21 21:40:44: WorldServer 4 ID: 
+2016/07/21 21:40:44: WorldServer 5 ID: 
+2016/07/21 21:40:44: Connectado ao banco de dados
+2016/07/21 21:40:44: Carregando experiência
+2016/07/21 21:40:44: Exp Máximo: 121 22353256174
+2016/07/21 21:40:44: Carregando guilds.
+2016/07/21 21:40:44: Total : 0 guilds carregados.
+2016/07/21 21:40:44: Carregando membros.
+2016/07/21 21:40:44: Total : 0 membros carregados.
+2016/07/21 21:40:44: Carregando classes
+2016/07/21 21:40:44: Carregando NPC
+2016/07/21 21:40:44: Servidor iniciado
+2016/07/21 21:40:45: Status changed to connected: 127.0.0.1
+2016/07/21 21:41:45: Data From World Server ID: 1 Account: akaruz Char ID: 10 Slot: 3 297574D555B47459
+2016/07/21 21:41:47: Status changed to connected: 127.0.0.1
+2016/07/21 21:41:47: Received From Client: 297574D555B47459
+2016/07/21 21:41:47: Player Found ID: 10 Name: DragonicK
+2016/07/21 21:41:49: DragonicK Dir: 4 X: 0 Y: 1
+2016/07/21 21:41:49: DragonicK Dir: 4 X: 0 Y: 2
+2016/07/21 21:41:49: DragonicK Dir: 10 X: 1 Y: 2
+2016/07/21 21:41:49: DragonicK Dir: 10 X: 2 Y: 2
+2016/07/21 21:41:50: DragonicK Dir: 10 X: 3 Y: 2
+2016/07/21 21:41:50: DragonicK Dir: 10 X: 4 Y: 2
+2016/07/21 21:41:50: DragonicK Dir: 4 X: 4 Y: 3
+2016/07/21 21:41:50: DragonicK Dir: 4 X: 4 Y: 4
+2016/07/21 21:41:50: DragonicK Dir: 4 X: 4 Y: 5
+2016/07/21 21:41:51: DragonicK Dir: 4 X: 4 Y: 6
+2016/07/21 21:41:51: DragonicK Dir: 10 X: 5 Y: 6
+2016/07/21 21:41:51: DragonicK Dir: 10 X: 6 Y: 6
+2016/07/21 21:41:51: DragonicK Dir: 10 X: 7 Y: 6
+2016/07/21 21:41:51: DragonicK Dir: 10 X: 8 Y: 6
+2016/07/21 21:41:51: DragonicK Dir: 10 X: 9 Y: 6
+2016/07/21 21:41:52: DragonicK Dir: 10 X: 10 Y: 6
+2016/07/21 21:41:52: DragonicK Dir: 10 X: 11 Y: 6
+2016/07/21 21:41:52: DragonicK Dir: 4 X: 11 Y: 7
+2016/07/21 21:41:52: DragonicK Dir: 4 X: 11 Y: 8
+2016/07/21 21:41:52: DragonicK Dir: 4 X: 11 Y: 9
+2016/07/21 21:42:18: Data From World Server ID: 2 Account: dragonick Char ID: 11 Slot: 0 FE7DDC1C1070827B
+2016/07/21 21:42:20: Status changed to connected: 127.0.0.1
+2016/07/21 21:42:20: Received From Client: FE7DDC1C1070827B
+2016/07/21 21:42:20: Player Found ID: 11 Name: BurgIce
+2016/07/21 21:42:20: BurgIce Dir: 7 X: -1 Y: 0
+2016/07/21 21:42:22: BurgIce Dir: 4 X: -1 Y: 1
+2016/07/21 21:42:22: BurgIce Dir: 4 X: -1 Y: 2
+2016/07/21 21:42:22: BurgIce Dir: 4 X: -1 Y: 3
+2016/07/21 21:42:22: BurgIce Dir: 4 X: -1 Y: 4
+2016/07/21 21:42:22: BurgIce Dir: 10 X: 0 Y: 4
+2016/07/21 21:42:22: BurgIce Dir: 10 X: 1 Y: 4
+2016/07/21 21:42:22: BurgIce Dir: 10 X: 2 Y: 4
+2016/07/21 21:42:22: BurgIce Dir: 10 X: 3 Y: 4
+2016/07/21 21:42:23: BurgIce Dir: 10 X: 4 Y: 4
+2016/07/21 21:42:23: BurgIce Dir: 10 X: 5 Y: 4
+2016/07/21 21:42:23: BurgIce Dir: 10 X: 6 Y: 4
+2016/07/21 21:42:23: BurgIce Dir: 10 X: 7 Y: 4
+2016/07/21 21:42:23: BurgIce Dir: 10 X: 8 Y: 4
+2016/07/21 21:42:23: BurgIce Dir: 10 X: 9 Y: 4
+2016/07/21 21:42:23: BurgIce Dir: 4 X: 9 Y: 5
+2016/07/21 21:42:23: BurgIce Dir: 4 X: 9 Y: 6
+2016/07/21 21:42:23: BurgIce Dir: 4 X: 9 Y: 7
+2016/07/21 21:42:23: BurgIce Dir: 4 X: 9 Y: 8
+2016/07/21 21:42:23: BurgIce Dir: 4 X: 9 Y: 9
+2016/07/21 21:42:23: BurgIce Dir: 4 X: 9 Y: 10
+2016/07/21 21:42:24: BurgIce Dir: 10 X: 10 Y: 10
+2016/07/21 21:42:24: BurgIce Dir: 10 X: 11 Y: 10
+2016/07/21 21:42:24: BurgIce Dir: 10 X: 12 Y: 10
+2016/07/21 21:42:24: BurgIce Dir: 10 X: 13 Y: 10
+2016/07/21 21:42:24: BurgIce Dir: 10 X: 14 Y: 10
+2016/07/21 21:42:24: BurgIce Dir: 10 X: 15 Y: 10
+2016/07/21 21:42:24: BurgIce Dir: 10 X: 16 Y: 10
+2016/07/21 21:42:24: BurgIce Dir: 10 X: 17 Y: 10
+2016/07/21 21:42:24: BurgIce Dir: 10 X: 18 Y: 10
+2016/07/21 21:42:24: BurgIce Dir: 10 X: 19 Y: 10
+2016/07/21 21:42:25: BurgIce Dir: 4 X: 19 Y: 11
+2016/07/21 21:42:25: BurgIce Dir: 4 X: 19 Y: 12
+2016/07/21 21:42:25: BurgIce Dir: 7 X: 18 Y: 12
+2016/07/21 21:42:25: BurgIce Dir: 7 X: 17 Y: 12
+2016/07/21 21:42:25: BurgIce Dir: 7 X: 16 Y: 12
+2016/07/21 21:42:25: BurgIce Dir: 7 X: 15 Y: 12
+2016/07/21 21:42:25: BurgIce Dir: 10 X: 16 Y: 12
+2016/07/21 21:42:25: BurgIce Dir: 10 X: 17 Y: 12
+2016/07/21 21:42:26: BurgIce Dir: 10 X: 18 Y: 12
+2016/07/21 21:42:26: BurgIce Dir: 10 X: 19 Y: 12
+2016/07/21 21:42:26: BurgIce Dir: 10 X: 20 Y: 12
+2016/07/21 21:42:26: BurgIce Dir: 10 X: 21 Y: 12
+2016/07/21 21:42:26: BurgIce Dir: 10 X: 22 Y: 12
+2016/07/21 21:42:26: BurgIce Dir: 10 X: 23 Y: 12
+2016/07/21 21:42:26: BurgIce Dir: 10 X: 24 Y: 12
+2016/07/21 21:42:26: BurgIce Dir: 10 X: 25 Y: 12
+2016/07/21 21:42:26: BurgIce Dir: 4 X: 25 Y: 13
+2016/07/21 21:42:26: BurgIce Dir: 4 X: 25 Y: 14
+2016/07/21 21:42:27: BurgIce Dir: 4 X: 25 Y: 15
+2016/07/21 21:42:27: BurgIce Dir: 4 X: 25 Y: 16
+2016/07/21 21:42:27: BurgIce Dir: 4 X: 25 Y: 17
+2016/07/21 21:42:27: BurgIce Dir: 4 X: 25 Y: 18
+2016/07/21 21:42:27: BurgIce Dir: 10 X: 26 Y: 18
+2016/07/21 21:42:27: BurgIce Dir: 10 X: 27 Y: 18
+2016/07/21 21:42:27: BurgIce Dir: 10 X: 28 Y: 18
+2016/07/21 21:42:27: BurgIce Dir: 10 X: 29 Y: 18
+2016/07/21 21:42:27: BurgIce Dir: 10 X: 30 Y: 18
+2016/07/21 21:42:27: BurgIce Dir: 10 X: 31 Y: 18
+2016/07/21 21:42:27: BurgIce Dir: 10 X: 32 Y: 18
+2016/07/21 21:42:27: BurgIce Dir: 10 X: 33 Y: 18
+2016/07/21 21:42:28: BurgIce Dir: 10 X: 34 Y: 18
+2016/07/21 21:42:28: BurgIce Dir: 10 X: 35 Y: 18
+2016/07/21 21:42:28: BurgIce Dir: 7 X: 34 Y: 18
+2016/07/21 21:42:28: BurgIce Dir: 7 X: 33 Y: 18
+2016/07/21 21:42:28: BurgIce Dir: 7 X: 32 Y: 18
+2016/07/21 21:42:28: BurgIce Dir: 7 X: 31 Y: 18
+2016/07/21 21:42:29: BurgIce Dir: 10 X: 32 Y: 18
+2016/07/21 21:42:29: BurgIce Dir: 10 X: 33 Y: 18
+2016/07/21 21:42:29: BurgIce Dir: 10 X: 34 Y: 18
+2016/07/21 21:42:29: BurgIce Dir: 10 X: 35 Y: 18
+2016/07/21 21:42:29: BurgIce Dir: 10 X: 36 Y: 18
+2016/07/21 21:42:29: BurgIce Dir: 10 X: 37 Y: 18
+2016/07/21 21:42:29: BurgIce Dir: 10 X: 38 Y: 18
+2016/07/21 21:42:29: BurgIce Dir: 10 X: 39 Y: 18
+2016/07/21 21:42:29: BurgIce Dir: 10 X: 40 Y: 18
+2016/07/21 21:42:29: BurgIce Dir: 10 X: 41 Y: 18
+2016/07/21 21:42:30: BurgIce Dir: 7 X: 40 Y: 18
+2016/07/21 21:42:30: BurgIce Dir: 7 X: 39 Y: 18
+2016/07/21 21:42:30: BurgIce Dir: 10 X: 40 Y: 18
+2016/07/21 21:42:30: BurgIce Dir: 10 X: 41 Y: 18
+2016/07/21 21:42:31: BurgIce Dir: 1 X: 41 Y: 17
+2016/07/21 21:42:31: BurgIce Dir: 1 X: 41 Y: 16
+2016/07/21 21:42:31: BurgIce Dir: 1 X: 41 Y: 15
+2016/07/21 21:42:31: BurgIce Dir: 1 X: 41 Y: 14
+2016/07/21 21:42:31: BurgIce Dir: 1 X: 41 Y: 13
+2016/07/21 21:42:31: BurgIce Dir: 1 X: 41 Y: 12
+2016/07/21 21:42:31: BurgIce Dir: 1 X: 41 Y: 11
+2016/07/21 21:42:31: BurgIce Dir: 1 X: 41 Y: 10
+2016/07/21 21:42:31: BurgIce Dir: 7 X: 40 Y: 10
+2016/07/21 21:42:31: BurgIce Dir: 7 X: 39 Y: 10
+2016/07/21 21:42:32: BurgIce Dir: 7 X: 38 Y: 10
+2016/07/21 21:42:32: BurgIce Dir: 7 X: 37 Y: 10
+2016/07/21 21:42:32: BurgIce Dir: 4 X: 37 Y: 11
+2016/07/21 21:42:32: BurgIce Dir: 4 X: 37 Y: 12
+2016/07/21 21:42:32: BurgIce Dir: 4 X: 37 Y: 13
+2016/07/21 21:42:32: BurgIce Dir: 4 X: 37 Y: 14
+2016/07/21 21:42:32: BurgIce Dir: 10 X: 38 Y: 14
+2016/07/21 21:42:32: BurgIce Dir: 10 X: 39 Y: 14
+2016/07/21 21:42:32: BurgIce Dir: 1 X: 39 Y: 13
+2016/07/21 21:42:32: BurgIce Dir: 1 X: 39 Y: 12
+2016/07/21 21:42:33: BurgIce Dir: 7 X: 38 Y: 12
+2016/07/21 21:42:33: BurgIce Dir: 7 X: 37 Y: 12
+2016/07/21 21:42:33: BurgIce Dir: 10 X: 38 Y: 12
+2016/07/21 21:42:33: BurgIce Dir: 10 X: 39 Y: 12
+2016/07/21 21:42:33: BurgIce Dir: 10 X: 40 Y: 12
+2016/07/21 21:42:33: BurgIce Dir: 10 X: 41 Y: 12
+2016/07/21 21:42:33: BurgIce Dir: 1 X: 41 Y: 11
+2016/07/21 21:42:33: BurgIce Dir: 1 X: 41 Y: 10
+2016/07/21 21:42:33: BurgIce Dir: 7 X: 40 Y: 10
+2016/07/21 21:42:33: BurgIce Dir: 7 X: 39 Y: 10
+2016/07/21 21:42:34: BurgIce Dir: 4 X: 39 Y: 11
+2016/07/21 21:42:34: BurgIce Dir: 4 X: 39 Y: 12
+2016/07/21 21:42:34: BurgIce Dir: 10 X: 40 Y: 12
+2016/07/21 21:42:34: BurgIce Dir: 10 X: 41 Y: 12
+2016/07/21 21:46:47: Carregando dados de mysql.
+2016/07/21 21:46:47: ID: #artemis#
+2016/07/21 21:46:47: Name: Canal 1
+2016/07/21 21:46:47: Discovery: Elysium Diamond #1.0.0
+2016/07/21 21:46:47: IP: 127.0.0.1
+2016/07/21 21:46:47: Port: 10120
+2016/07/21 21:46:47: MaximumConnections: 2000
+2016/07/21 21:46:47: Logs: True
+2016/07/21 21:46:47: ClientSerial: #elysium#
+2016/07/21 21:46:47: Sleep: 1
+2016/07/21 21:46:47: TestServer: False
+2016/07/21 21:46:47: WorldServer 1 ID: Artemis
+2016/07/21 21:46:47: WorldServer 2 ID: 
+2016/07/21 21:46:47: WorldServer 3 ID: 
+2016/07/21 21:46:47: WorldServer 4 ID: 
+2016/07/21 21:46:47: WorldServer 5 ID: 
+2016/07/21 21:46:47: Connectado ao banco de dados
+2016/07/21 21:46:47: Carregando experiência
+2016/07/21 21:46:47: Exp Máximo: 121 22353256174
+2016/07/21 21:46:47: Carregando guilds.
+2016/07/21 21:46:47: Total : 0 guilds carregados.
+2016/07/21 21:46:47: Carregando membros.
+2016/07/21 21:46:47: Total : 0 membros carregados.
+2016/07/21 21:46:47: Carregando classes
+2016/07/21 21:46:47: Carregando NPC
+2016/07/21 21:46:47: Servidor iniciado
+2016/07/21 21:46:55: Status changed to connected: 127.0.0.1
+2016/07/21 21:47:33: Data From World Server ID: 2 Account: dragonick Char ID: 11 Slot: 0 342F4854775F1C4A
+2016/07/21 21:47:36: Status changed to connected: 127.0.0.1
+2016/07/21 21:47:36: Received From Client: 342F4854775F1C4A
+2016/07/21 21:47:36: Player Found ID: 11 Name: BurgIce
+2016/07/21 21:47:37: BurgIce Dir: 1 X: 0 Y: -1
+2016/07/21 21:47:37: BurgIce Dir: 1 X: 0 Y: -2
+2016/07/21 21:47:38: BurgIce Dir: 4 X: 0 Y: -1
+2016/07/21 21:47:38: BurgIce Dir: 4 X: 0 Y: 0
+2016/07/21 21:47:38: BurgIce Dir: 4 X: 0 Y: 1
+2016/07/21 21:47:38: BurgIce Dir: 10 X: 1 Y: 1
+2016/07/21 21:47:39: BurgIce Dir: 10 X: 2 Y: 1
+2016/07/21 21:47:39: BurgIce Dir: 4 X: 2 Y: 2
+2016/07/21 21:47:39: BurgIce Dir: 4 X: 2 Y: 3
+2016/07/21 21:47:39: BurgIce Dir: 4 X: 2 Y: 4
+2016/07/21 21:47:39: BurgIce Dir: 10 X: 3 Y: 4
+2016/07/21 21:47:40: BurgIce Dir: 10 X: 4 Y: 4
+2016/07/21 21:47:40: BurgIce Dir: 10 X: 5 Y: 4
+2016/07/21 21:47:40: BurgIce Dir: 4 X: 5 Y: 5
+2016/07/21 21:47:40: BurgIce Dir: 4 X: 5 Y: 6
+2016/07/21 21:47:40: BurgIce Dir: 10 X: 6 Y: 6
+2016/07/21 21:47:41: BurgIce Dir: 10 X: 7 Y: 6
+2016/07/21 21:47:41: BurgIce Dir: 10 X: 8 Y: 6
+2016/07/21 21:47:41: BurgIce Dir: 10 X: 9 Y: 6
+2016/07/21 21:47:41: BurgIce Dir: 10 X: 10 Y: 6
+2016/07/21 21:47:41: BurgIce Dir: 10 X: 11 Y: 6
+2016/07/21 21:47:41: BurgIce Dir: 10 X: 12 Y: 6
+2016/07/21 21:47:42: BurgIce Dir: 10 X: 13 Y: 6
+2016/07/21 21:47:42: BurgIce Dir: 4 X: 13 Y: 7
+2016/07/21 21:47:42: BurgIce Dir: 4 X: 13 Y: 8
+2016/07/21 21:47:42: BurgIce Dir: 4 X: 13 Y: 9
+2016/07/21 21:47:42: BurgIce Dir: 4 X: 13 Y: 10
+2016/07/21 21:47:43: BurgIce Dir: 4 X: 13 Y: 11
+2016/07/21 21:47:47: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 E20CF408B6958F3C
+2016/07/21 21:47:49: Status changed to connected: 127.0.0.1
+2016/07/21 21:47:49: Received From Client: E20CF408B6958F3C
+2016/07/21 21:47:49: Player Found ID: 1 Name: Joanlac
+2016/07/21 21:50:30: Carregando dados de mysql.
+2016/07/21 21:50:30: ID: #artemis#
+2016/07/21 21:50:30: Name: Canal 1
+2016/07/21 21:50:30: Discovery: Elysium Diamond #1.0.0
+2016/07/21 21:50:30: IP: 127.0.0.1
+2016/07/21 21:50:30: Port: 10120
+2016/07/21 21:50:30: MaximumConnections: 2000
+2016/07/21 21:50:30: Logs: True
+2016/07/21 21:50:30: ClientSerial: #elysium#
+2016/07/21 21:50:30: Sleep: 1
+2016/07/21 21:50:30: TestServer: False
+2016/07/21 21:50:30: WorldServer 1 ID: Artemis
+2016/07/21 21:50:30: WorldServer 2 ID: 
+2016/07/21 21:50:30: WorldServer 3 ID: 
+2016/07/21 21:50:30: WorldServer 4 ID: 
+2016/07/21 21:50:30: WorldServer 5 ID: 
+2016/07/21 21:50:30: Connectado ao banco de dados
+2016/07/21 21:50:30: Carregando experiência
+2016/07/21 21:50:30: Exp Máximo: 121 22353256174
+2016/07/21 21:50:30: Carregando guilds.
+2016/07/21 21:50:30: Total : 0 guilds carregados.
+2016/07/21 21:50:30: Carregando membros.
+2016/07/21 21:50:30: Total : 0 membros carregados.
+2016/07/21 21:50:30: Carregando classes
+2016/07/21 21:50:30: Carregando NPC
+2016/07/21 21:50:31: Servidor iniciado
+2016/07/21 21:50:35: Status changed to connected: 127.0.0.1
+2016/07/21 21:50:56: Data From World Server ID: 1 Account: akaruz Char ID: 3 Slot: 2 360874931553FA6E
+2016/07/21 21:50:58: Status changed to connected: 127.0.0.1
+2016/07/21 21:50:58: Received From Client: 360874931553FA6E
+2016/07/21 21:50:58: Player Found ID: 3 Name: Caronne
+2016/07/21 21:51:01: Caronne Dir: 4 X: 0 Y: 1
+2016/07/21 21:51:01: Caronne Dir: 10 X: 1 Y: 1
+2016/07/21 21:51:02: Caronne Dir: 10 X: 2 Y: 1
+2016/07/21 21:51:02: Caronne Dir: 10 X: 3 Y: 1
+2016/07/21 21:51:02: Caronne Dir: 10 X: 4 Y: 1
+2016/07/21 21:51:02: Caronne Dir: 10 X: 5 Y: 1
+2016/07/21 21:51:02: Caronne Dir: 10 X: 6 Y: 1
+2016/07/21 21:51:03: Caronne Dir: 10 X: 7 Y: 1
+2016/07/21 21:51:03: Caronne Dir: 10 X: 8 Y: 1
+2016/07/21 21:51:03: Caronne Dir: 10 X: 9 Y: 1
+2016/07/21 21:51:03: Caronne Dir: 10 X: 10 Y: 1
+2016/07/21 21:51:03: Caronne Dir: 4 X: 10 Y: 2
+2016/07/21 21:51:04: Caronne Dir: 10 X: 11 Y: 2
+2016/07/21 21:51:04: Caronne Dir: 4 X: 11 Y: 3
+2016/07/21 21:51:04: Caronne Dir: 10 X: 12 Y: 3
+2016/07/21 21:51:04: Caronne Dir: 10 X: 13 Y: 3
+2016/07/21 21:51:05: Caronne Dir: 10 X: 14 Y: 3
+2016/07/21 21:51:05: Caronne Dir: 10 X: 15 Y: 3
+2016/07/21 21:51:05: Caronne Dir: 10 X: 16 Y: 3
+2016/07/21 21:51:05: Caronne Dir: 10 X: 17 Y: 3
+2016/07/21 21:51:05: Caronne Dir: 10 X: 18 Y: 3
+2016/07/21 21:51:06: Caronne Dir: 10 X: 19 Y: 3
+2016/07/21 21:51:06: Caronne Dir: 10 X: 20 Y: 3
+2016/07/21 21:51:06: Caronne Dir: 4 X: 20 Y: 4
+2016/07/21 21:51:06: Caronne Dir: 4 X: 20 Y: 5
+2016/07/21 21:51:06: Caronne Dir: 4 X: 20 Y: 6
+2016/07/21 21:51:07: Caronne Dir: 4 X: 20 Y: 7
+2016/07/21 21:51:07: Caronne Dir: 4 X: 20 Y: 8
+2016/07/21 21:51:07: Caronne Dir: 4 X: 20 Y: 9
+2016/07/21 21:51:07: Caronne Dir: 4 X: 20 Y: 10
+2016/07/21 21:51:07: Caronne Dir: 4 X: 20 Y: 11
+2016/07/21 21:51:07: Caronne Dir: 4 X: 20 Y: 12
+2016/07/21 21:51:08: Caronne Dir: 4 X: 20 Y: 13
+2016/07/21 21:51:08: Caronne Dir: 10 X: 21 Y: 13
+2016/07/21 21:51:08: Caronne Dir: 10 X: 22 Y: 13
+2016/07/21 21:51:08: Caronne Dir: 10 X: 23 Y: 13
+2016/07/21 21:51:08: Caronne Dir: 10 X: 24 Y: 13
+2016/07/21 21:51:09: Caronne Dir: 10 X: 25 Y: 13
+2016/07/21 21:51:09: Caronne Dir: 10 X: 26 Y: 13
+2016/07/21 21:51:09: Caronne Dir: 10 X: 27 Y: 13
+2016/07/21 21:51:09: Caronne Dir: 10 X: 28 Y: 13
+2016/07/21 21:51:09: Caronne Dir: 10 X: 29 Y: 13
+2016/07/21 21:51:10: Caronne Dir: 4 X: 29 Y: 14
+2016/07/21 21:51:10: Caronne Dir: 4 X: 29 Y: 15
+2016/07/21 21:51:10: Caronne Dir: 4 X: 29 Y: 16
+2016/07/21 21:51:10: Caronne Dir: 4 X: 29 Y: 17
+2016/07/21 21:51:10: Caronne Dir: 4 X: 29 Y: 18
+2016/07/21 21:51:10: Caronne Dir: 4 X: 29 Y: 19
+2016/07/21 21:51:11: Caronne Dir: 4 X: 29 Y: 20
+2016/07/21 21:51:11: Caronne Dir: 4 X: 29 Y: 21
+2016/07/21 21:51:11: Caronne Dir: 4 X: 29 Y: 22
+2016/07/21 21:51:11: Caronne Dir: 4 X: 29 Y: 23
+2016/07/21 21:51:11: Caronne Dir: 4 X: 29 Y: 24
+2016/07/21 21:51:12: Caronne Dir: 4 X: 29 Y: 25
+2016/07/21 21:51:12: Caronne Dir: 10 X: 30 Y: 25
+2016/07/21 21:51:12: Caronne Dir: 4 X: 30 Y: 26
+2016/07/21 21:51:12: Caronne Dir: 4 X: 30 Y: 27
+2016/07/21 21:51:12: Caronne Dir: 4 X: 30 Y: 28
+2016/07/21 21:51:12: Caronne Dir: 4 X: 30 Y: 29
+2016/07/21 21:51:13: Caronne Dir: 4 X: 30 Y: 30
+2016/07/21 21:51:13: Caronne Dir: 4 X: 30 Y: 31
+2016/07/21 21:51:13: Caronne Dir: 4 X: 30 Y: 32
+2016/07/21 21:51:13: Caronne Dir: 4 X: 30 Y: 33
+2016/07/21 21:51:13: Caronne Dir: 4 X: 30 Y: 34
+2016/07/21 21:51:14: Caronne Dir: 4 X: 30 Y: 35
+2016/07/21 21:51:14: Caronne Dir: 4 X: 30 Y: 36
+2016/07/21 21:51:14: Caronne Dir: 4 X: 30 Y: 37
+2016/07/21 21:51:14: Caronne Dir: 4 X: 30 Y: 38
+2016/07/21 21:51:35: Data From World Server ID: 2 Account: dragonick Char ID: 11 Slot: 0 EAC5CF7FF4E7174B
+2016/07/21 21:51:36: Status changed to connected: 127.0.0.1
+2016/07/21 21:51:36: Received From Client: EAC5CF7FF4E7174B
+2016/07/21 21:51:36: Player Found ID: 11 Name: BurgIce
+2016/07/21 21:51:37: BurgIce Dir: 7 X: -1 Y: 0
+2016/07/21 21:51:48: BurgIce Dir: 10 X: 0 Y: 0
+2016/07/21 21:51:48: BurgIce Dir: 10 X: 1 Y: 0
+2016/07/21 21:51:48: BurgIce Dir: 4 X: 1 Y: 1
+2016/07/21 21:51:49: BurgIce Dir: 4 X: 1 Y: 2
+2016/07/21 21:51:49: BurgIce Dir: 10 X: 2 Y: 2
+2016/07/21 21:51:49: BurgIce Dir: 10 X: 3 Y: 2
+2016/07/21 21:51:49: BurgIce Dir: 4 X: 3 Y: 3
+2016/07/21 21:51:49: BurgIce Dir: 4 X: 3 Y: 4
+2016/07/21 21:51:50: BurgIce Dir: 10 X: 4 Y: 4
+2016/07/21 21:51:50: BurgIce Dir: 10 X: 5 Y: 4
+2016/07/21 21:51:50: BurgIce Dir: 4 X: 5 Y: 5
+2016/07/21 21:51:50: BurgIce Dir: 4 X: 5 Y: 6
+2016/07/21 21:51:50: BurgIce Dir: 4 X: 5 Y: 7
+2016/07/21 21:51:50: BurgIce Dir: 4 X: 5 Y: 8
+2016/07/21 21:51:51: BurgIce Dir: 4 X: 5 Y: 9
+2016/07/21 21:51:51: BurgIce Dir: 10 X: 6 Y: 9
+2016/07/21 21:51:51: BurgIce Dir: 10 X: 7 Y: 9
+2016/07/21 21:51:51: BurgIce Dir: 10 X: 8 Y: 9
+2016/07/21 21:51:51: BurgIce Dir: 4 X: 8 Y: 10
+2016/07/21 21:51:52: BurgIce Dir: 4 X: 8 Y: 11
+2016/07/21 21:51:52: BurgIce Dir: 4 X: 8 Y: 12
+2016/07/21 21:53:05: BurgIce Dir: 4 X: 8 Y: 13
+2016/07/21 21:53:05: BurgIce Dir: 10 X: 9 Y: 13
+2016/07/21 21:53:05: BurgIce Dir: 1 X: 9 Y: 12
+2016/07/21 21:53:06: BurgIce Dir: 7 X: 8 Y: 12
+2016/07/21 21:53:06: BurgIce Dir: 10 X: 9 Y: 12
+2016/07/21 21:53:07: BurgIce Dir: 10 X: 10 Y: 12
+2016/07/21 21:53:07: BurgIce Dir: 10 X: 11 Y: 12
+2016/07/21 21:53:07: BurgIce Dir: 10 X: 12 Y: 12
+2016/07/21 21:53:07: BurgIce Dir: 10 X: 13 Y: 12
+2016/07/21 21:53:07: BurgIce Dir: 10 X: 14 Y: 12
+2016/07/21 21:53:31: Data From World Server ID: 3 Account: nadaila Char ID: 12 Slot: 1 B951A38F37188DA9
+2016/07/21 21:53:32: Status changed to connected: 127.0.0.1
+2016/07/21 21:53:32: Received From Client: B951A38F37188DA9
+2016/07/21 21:53:32: Player Found ID: 12 Name: Nadaila
+2016/07/21 21:53:32: Nadaila Dir: 7 X: -1 Y: 0
+2016/07/21 21:53:36: Nadaila Dir: 4 X: -1 Y: 1
+2016/07/21 21:53:36: Nadaila Dir: 4 X: -1 Y: 2
+2016/07/21 21:53:36: Nadaila Dir: 4 X: -1 Y: 3
+2016/07/21 21:53:36: Nadaila Dir: 4 X: -1 Y: 4
+2016/07/21 21:53:36: Nadaila Dir: 10 X: 0 Y: 4
+2016/07/21 21:53:37: Nadaila Dir: 10 X: 1 Y: 4
+2016/07/21 21:53:37: Nadaila Dir: 4 X: 1 Y: 5

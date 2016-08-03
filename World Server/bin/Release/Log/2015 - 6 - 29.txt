@@ -1,0 +1,9 @@
+29/06/2015 00:20:24: Discovery Response IPEndPoint: 127.0.0.1
+29/06/2015 00:20:24: Status changed to connected: 127.0.0.1
+29/06/2015 00:21:07: Received Data From Login Server: 1 akaruz 826F27B73D41AD6D
+29/06/2015 00:21:08: Discovery Response IPEndPoint: 127.0.0.1
+29/06/2015 00:21:08: Status changed to connected: 127.0.0.1
+29/06/2015 00:21:08: Received Data From Client: 826F27B73D41AD6D
+29/06/2015 00:21:08: Player Found: 1 akaruz 826F27B73D41AD6D
+29/06/2015 00:21:08: Pre-Load: 1 akaruz; Nadaila Akaruz Caronne 
+29/06/2015 00:22:01: Status changed to disconnected: 1 akaruz 127.0.0.1

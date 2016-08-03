@@ -1,0 +1,209 @@
+2015/08/05 10:50:36: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 10:50:36: Status changed to connected: 127.0.0.1
+2015/08/05 10:50:51: Received Data From Login Server: 1 akaruz 313B796CBFA48322
+2015/08/05 10:50:51: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 10:50:51: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 10:50:51: Status changed to connected: 127.0.0.1
+2015/08/05 10:50:51: Received Data From Client: 313B796CBFA48322
+2015/08/05 10:50:51: Player Found: 1 akaruz 313B796CBFA48322
+2015/08/05 10:50:51: Pre-Load: 1 akaruz / Nadaila Akaruz Caronne Thaeo 
+2015/08/05 10:55:53: Unhandled type: WarningMessage
+2015/08/05 10:55:57: Unhandled type: WarningMessage
+2015/08/05 10:56:01: Unhandled type: WarningMessage
+2015/08/05 10:56:05: Unhandled type: WarningMessage
+2015/08/05 10:56:09: Unhandled type: WarningMessage
+2015/08/05 10:56:17: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 10:56:17: Status changed to connected: 127.0.0.1
+2015/08/05 10:56:21: Received Data From Login Server: 1 akaruz 18097E76896797E9
+2015/08/05 10:56:21: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 10:56:21: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 10:56:21: Status changed to connected: 127.0.0.1
+2015/08/05 10:56:22: Received Data From Client: 18097E76896797E9
+2015/08/05 10:56:22: Player Found: 1 akaruz 18097E76896797E9
+2015/08/05 10:56:22: Pre-Load: 1 akaruz / Nadaila Akaruz Caronne Thaeo 
+2015/08/05 10:56:31: Received Data From Login Server: 1 akaruz 18097E76896797E9
+2015/08/05 10:56:31: Status changed to disconnected: 1 akaruz 127.0.0.1
+2015/08/05 10:56:31: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 10:56:31: Status changed to connected: 127.0.0.1
+2015/08/05 10:56:31: Received Data From Client: 18097E76896797E9
+2015/08/05 10:56:31: Player Found: 1 akaruz 18097E76896797E9
+2015/08/05 10:56:31: Pre-Load: 1 akaruz / Nadaila Akaruz Caronne Thaeo 
+2015/08/05 11:15:06: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 11:15:06: Status changed to connected: 127.0.0.1
+2015/08/05 11:15:42: Received Data From Login Server: 1 akaruz C8B3F05D98CD45AD
+2015/08/05 11:15:42: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 11:15:42: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 11:15:42: Status changed to connected: 127.0.0.1
+2015/08/05 11:15:42: Received Data From Client: C8B3F05D98CD45AD
+2015/08/05 11:15:42: Player Found: 1 akaruz C8B3F05D98CD45AD
+2015/08/05 11:15:42: Pre-Load: 1 akaruz / Nadaila Akaruz Caronne Thaeo 
+2015/08/05 11:16:25: Status changed to disconnected: 1 akaruz 127.0.0.1
+2015/08/05 11:18:02: Received Data From Login Server: 1 akaruz 77004A0246A8AF14
+2015/08/05 11:18:02: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 11:18:02: Status changed to connected: 127.0.0.1
+2015/08/05 11:18:02: Received Data From Client: 77004A0246A8AF14
+2015/08/05 11:18:02: Player Found: 1 akaruz 77004A0246A8AF14
+2015/08/05 11:18:02: Pre-Load: 1 akaruz / Nadaila Akaruz Caronne Thaeo 
+2015/08/05 11:18:35: Status changed to disconnected: 1 akaruz 127.0.0.1
+2015/08/05 11:19:50: Received Data From Login Server: 1 akaruz 74CAA4B8D40321F5
+2015/08/05 11:19:50: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 11:19:50: Status changed to connected: 127.0.0.1
+2015/08/05 11:19:50: Received Data From Client: 74CAA4B8D40321F5
+2015/08/05 11:19:50: Player Found: 1 akaruz 74CAA4B8D40321F5
+2015/08/05 11:19:50: Pre-Load: 1 akaruz / Nadaila Akaruz Caronne Thaeo 
+2015/08/05 11:20:25: Status changed to disconnected: 1 akaruz 127.0.0.1
+2015/08/05 11:21:10: Received Data From Login Server: 1 akaruz B868E8F748F1A20A
+2015/08/05 11:21:11: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 11:21:11: Status changed to connected: 127.0.0.1
+2015/08/05 11:21:11: Received Data From Client: B868E8F748F1A20A
+2015/08/05 11:21:11: Player Found: 1 akaruz B868E8F748F1A20A
+2015/08/05 11:21:11: Pre-Load: 1 akaruz / Nadaila Akaruz Caronne Thaeo 
+2015/08/05 11:21:50: Status changed to disconnected: 1 akaruz 127.0.0.1
+2015/08/05 11:22:31: Received Data From Login Server: 1 akaruz BA01E1489A304FAD
+2015/08/05 11:22:31: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 11:22:31: Status changed to connected: 127.0.0.1
+2015/08/05 11:22:31: Received Data From Client: BA01E1489A304FAD
+2015/08/05 11:22:31: Player Found: 1 akaruz BA01E1489A304FAD
+2015/08/05 11:22:31: Pre-Load: 1 akaruz / Nadaila Akaruz Caronne Thaeo 
+2015/08/05 11:23:12: Status changed to disconnected: 1 akaruz 127.0.0.1
+2015/08/05 11:24:47: Received Data From Login Server: 1 akaruz F081DEDE3801266C
+2015/08/05 11:24:47: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 11:24:47: Status changed to connected: 127.0.0.1
+2015/08/05 11:24:47: Received Data From Client: F081DEDE3801266C
+2015/08/05 11:24:47: Player Found: 1 akaruz F081DEDE3801266C
+2015/08/05 11:24:47: Pre-Load: 1 akaruz / Nadaila Akaruz Caronne Thaeo 
+2015/08/05 11:25:14: Status changed to disconnected: 1 akaruz 127.0.0.1
+2015/08/05 11:26:16: Received Data From Login Server: 1 akaruz A5CFA79D8DF40669
+2015/08/05 11:26:17: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 11:26:17: Status changed to connected: 127.0.0.1
+2015/08/05 11:26:17: Received Data From Client: A5CFA79D8DF40669
+2015/08/05 11:26:17: Player Found: 1 akaruz A5CFA79D8DF40669
+2015/08/05 11:26:17: Pre-Load: 1 akaruz / Nadaila Akaruz Caronne Thaeo 
+2015/08/05 11:26:58: Status changed to disconnected: 1 akaruz 127.0.0.1
+2015/08/05 11:27:41: Received Data From Login Server: 1 akaruz C138C8C954661EEE
+2015/08/05 11:27:41: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 11:27:41: Status changed to connected: 127.0.0.1
+2015/08/05 11:27:41: Received Data From Client: C138C8C954661EEE
+2015/08/05 11:27:41: Player Found: 1 akaruz C138C8C954661EEE
+2015/08/05 11:27:41: Pre-Load: 1 akaruz / Nadaila Akaruz Caronne Thaeo 
+2015/08/05 11:28:18: Status changed to disconnected: 1 akaruz 127.0.0.1
+2015/08/05 11:28:42: Received Data From Login Server: 1 akaruz 49CD0526271E84A7
+2015/08/05 11:28:42: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 11:28:42: Status changed to connected: 127.0.0.1
+2015/08/05 11:28:42: Received Data From Client: 49CD0526271E84A7
+2015/08/05 11:28:42: Player Found: 1 akaruz 49CD0526271E84A7
+2015/08/05 11:28:42: Pre-Load: 1 akaruz / Nadaila Akaruz Caronne Thaeo 
+2015/08/05 12:16:31: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 12:16:31: Status changed to connected: 127.0.0.1
+2015/08/05 12:35:47: Received Data From Login Server: 1 akaruz 3BE15DEA30C8344F
+2015/08/05 12:35:47: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 12:35:47: Status changed to connected: 127.0.0.1
+2015/08/05 12:35:47: Received Data From Client: 3BE15DEA30C8344F
+2015/08/05 12:35:47: Player Found: 1 akaruz 3BE15DEA30C8344F
+2015/08/05 12:35:47: Pre-Load: 1 akaruz / Nadaila Akaruz Caronne Thaeo 
+2015/08/05 12:36:20: Character Deleted: From: 1 akaruz Char: 17 Thaeo
+2015/08/05 12:36:56: Status changed to disconnected: 1 akaruz 127.0.0.1
+2015/08/05 12:38:57: Received Data From Login Server: 1 akaruz EC60C8FA92B44678
+2015/08/05 12:38:58: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 12:38:58: Status changed to connected: 127.0.0.1
+2015/08/05 12:38:58: Received Data From Client: EC60C8FA92B44678
+2015/08/05 12:38:58: Player Found: 1 akaruz EC60C8FA92B44678
+2015/08/05 12:38:58: Pre-Load: 1 akaruz / Nadaila Akaruz Caronne 
+2015/08/05 12:39:41: Status changed to disconnected: 1 akaruz 127.0.0.1
+2015/08/05 12:42:25: Received Data From Login Server: 1 akaruz 59366F82BF94E042
+2015/08/05 12:42:25: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 12:42:25: Status changed to connected: 127.0.0.1
+2015/08/05 12:42:25: Received Data From Client: 59366F82BF94E042
+2015/08/05 12:42:25: Player Found: 1 akaruz 59366F82BF94E042
+2015/08/05 12:42:25: Pre-Load: 1 akaruz / Nadaila Akaruz Caronne Thaeo 
+2015/08/05 12:42:29: Character Deleted: From: 1 akaruz Char: 18 Thaeo
+2015/08/05 12:42:50: Received Data From Login Server: 1 akaruz 59366F82BF94E042
+2015/08/05 12:42:50: Status changed to disconnected: 1 akaruz 127.0.0.1
+2015/08/05 12:42:51: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 12:42:51: Status changed to connected: 127.0.0.1
+2015/08/05 12:42:51: Received Data From Client: 59366F82BF94E042
+2015/08/05 12:42:51: Player Found: 1 akaruz 59366F82BF94E042
+2015/08/05 12:42:51: Pre-Load: 1 akaruz / Nadaila Akaruz Caronne Thaeo 
+2015/08/05 12:50:52: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 12:50:52: Status changed to connected: 127.0.0.1
+2015/08/05 12:50:56: Received Data From Login Server: 1 akaruz 68B3E86A6432B7A9
+2015/08/05 12:50:57: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 12:50:57: Status changed to connected: 127.0.0.1
+2015/08/05 12:50:57: Received Data From Client: 68B3E86A6432B7A9
+2015/08/05 12:50:57: Player Found: 1 akaruz 68B3E86A6432B7A9
+2015/08/05 12:50:57: Pre-Load: 1 akaruz / Nadaila Akaruz Caronne Thaeo 
+2015/08/05 12:51:03: Character Deleted: From: 1 akaruz Char: 19 Thaeo
+2015/08/05 12:51:28: Character Deleted: From: 1 akaruz Char: 20 DragonicK
+2015/08/05 17:12:27: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 17:12:27: Status changed to connected: 127.0.0.1
+2015/08/05 17:12:52: Received Data From Login Server: 1 akaruz F6C292E51E21584A
+2015/08/05 17:12:53: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 17:12:53: Status changed to connected: 127.0.0.1
+2015/08/05 17:12:53: Received Data From Client: F6C292E51E21584A
+2015/08/05 17:12:53: Player Found: 1 akaruz F6C292E51E21584A
+2015/08/05 17:12:53: Pre-Load: 1 akaruz / Nadaila Akaruz Caronne Thaeo 
+2015/08/05 17:13:18: Status changed to disconnected: 1 akaruz 127.0.0.1
+2015/08/05 17:13:28: Status changed to disconnected: 127.0.0.1
+2015/08/05 17:15:32: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 17:15:32: Status changed to connected: 127.0.0.1
+2015/08/05 17:16:51: Received Data From Login Server: 1 akaruz 24556D2FBEB200C4
+2015/08/05 17:16:51: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 17:16:51: Status changed to connected: 127.0.0.1
+2015/08/05 17:16:51: Received Data From Client: 24556D2FBEB200C4
+2015/08/05 17:16:51: Player Found: 1 akaruz 24556D2FBEB200C4
+2015/08/05 17:16:51: Pre-Load: 1 akaruz / Nadaila Akaruz Caronne Thaeo 
+2015/08/05 17:17:27: Character Deleted: From: 1 akaruz Char: 21 Thaeo
+2015/08/05 17:32:46: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 17:32:46: Status changed to connected: 127.0.0.1
+2015/08/05 17:34:04: Received Data From Login Server: 1 akaruz 9FF1F8A65C0610C9
+2015/08/05 17:34:06: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 17:34:06: Status changed to connected: 127.0.0.1
+2015/08/05 17:34:06: Received Data From Client: 9FF1F8A65C0610C9
+2015/08/05 17:34:06: Player Found: 1 akaruz 9FF1F8A65C0610C9
+2015/08/05 17:34:06: Pre-Load: 1 akaruz / Nadaila Akaruz Caronne Thaeo 
+2015/08/05 17:35:13: Status changed to disconnected: 1 akaruz 127.0.0.1
+2015/08/05 18:42:51: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 18:42:52: Status changed to connected: 127.0.0.1
+2015/08/05 18:43:15: Received Data From Login Server: 1 akaruz B3B2F2F799C14169
+2015/08/05 18:43:16: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 18:43:16: Status changed to connected: 127.0.0.1
+2015/08/05 18:43:16: Received Data From Client: B3B2F2F799C14169
+2015/08/05 18:43:16: Player Found: 1 akaruz B3B2F2F799C14169
+2015/08/05 18:43:16: Pre-Load: 1 akaruz / Nadaila Akaruz Caronne Thaeo 
+2015/08/05 22:06:28: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 22:06:28: Status changed to connected: 127.0.0.1
+2015/08/05 22:06:48: Received Data From Login Server: 1 akaruz A2CAC2D10D4DC9FB
+2015/08/05 22:06:49: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 22:06:49: Status changed to connected: 127.0.0.1
+2015/08/05 22:06:49: Received Data From Client: A2CAC2D10D4DC9FB
+2015/08/05 22:06:49: Player Found: 1 akaruz A2CAC2D10D4DC9FB
+2015/08/05 22:06:49: Pre-Load: 1 akaruz / Nadaila Akaruz Caronne Thaeo 
+2015/08/05 22:06:56: Received Data From Login Server: 1 akaruz A2CAC2D10D4DC9FB
+2015/08/05 22:06:56: Status changed to disconnected: 1 akaruz 127.0.0.1
+2015/08/05 22:06:57: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 22:06:57: Status changed to connected: 127.0.0.1
+2015/08/05 22:06:57: Received Data From Client: A2CAC2D10D4DC9FB
+2015/08/05 22:06:57: Player Found: 1 akaruz A2CAC2D10D4DC9FB
+2015/08/05 22:06:57: Pre-Load: 1 akaruz / Nadaila Akaruz Caronne Thaeo 
+2015/08/05 22:10:20: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 22:10:20: Status changed to connected: 127.0.0.1
+2015/08/05 22:10:55: Received Data From Login Server: 1 akaruz 47D35BA199A5EE92
+2015/08/05 22:10:56: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 22:10:56: Status changed to connected: 127.0.0.1
+2015/08/05 22:10:56: Received Data From Client: 47D35BA199A5EE92
+2015/08/05 22:10:56: Player Found: 1 akaruz 47D35BA199A5EE92
+2015/08/05 22:10:56: Pre-Load: 1 akaruz / Nadaila Akaruz Caronne Thaeo 
+2015/08/05 22:13:27: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 22:13:27: Status changed to connected: 127.0.0.1
+2015/08/05 22:13:43: Received Data From Login Server ID: 1 Account: akaruz 97350476199EA808
+2015/08/05 22:13:44: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 22:13:44: Status changed to connected: 127.0.0.1
+2015/08/05 22:13:44: Received Data From Client: 97350476199EA808
+2015/08/05 22:13:44: Player Found ID: 1 Account: akaruz 97350476199EA808
+2015/08/05 22:13:44: Pre-Load ID: 1 Account: akaruz Char: Nadaila Akaruz Caronne Thaeo 
+2015/08/05 22:14:40: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 22:14:40: Status changed to connected: 127.0.0.1
+2015/08/05 22:14:40: Data From Client: 97350476199EA808
+2015/08/05 22:14:40: Status changed to disconnected: 127.0.0.1
+2015/08/05 22:14:56: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/05 22:14:56: Status changed to connected: 127.0.0.1

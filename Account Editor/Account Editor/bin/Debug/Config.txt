@@ -1,0 +1,17 @@
+//------------------------------------------------------//
+//		  MYSQL LOGIN_SERVER		        //
+//------------------------------------------------------//
+LS_MySQL_IP    		=    	127.0.0.1
+LS_MySQL_Port 		=    	3306
+LS_MySQL_User  		=    	root
+LS_MySQL_Pass  		=	dwHandle
+LS_MySQL_DB    		=    	elysium_ls
+
+//------------------------------------------------------//
+//		  MYSQL GAME_SERVER		        //
+//------------------------------------------------------//
+GS_MySQL_IP    		=    	127.0.0.1
+GS_MySQL_Port 		=    	3306
+GS_MySQL_User  		=    	root
+GS_MySQL_Pass  		=	dwHandle
+GS_MySQL_DB    		=    	elysium_gs

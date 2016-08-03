@@ -1,0 +1,107 @@
+2016/06/27 14:38:53: Carregando dados de mysql.
+2016/06/27 14:38:53: ID: #artemis#
+2016/06/27 14:38:53: Name: Canal 1
+2016/06/27 14:38:53: Discovery: Elysium Diamond #1.0.0
+2016/06/27 14:38:53: IP: 127.0.0.1
+2016/06/27 14:38:53: Port: 10120
+2016/06/27 14:38:53: MaximumConnections: 2000
+2016/06/27 14:38:53: Logs: True
+2016/06/27 14:38:53: Cryptography: GameEngine
+2016/06/27 14:38:53: ClientSerial: #elysium#
+2016/06/27 14:38:53: Sleep: 2
+2016/06/27 14:38:53: TestServer: False
+2016/06/27 14:38:53: WorldServer 1 ID: Artemis
+2016/06/27 14:38:53: WorldServer 2 ID: 
+2016/06/27 14:38:53: WorldServer 3 ID: 
+2016/06/27 14:38:53: WorldServer 4 ID: 
+2016/06/27 14:38:53: WorldServer 5 ID: 
+2016/06/27 14:38:54: Connectado ao banco de dados
+2016/06/27 14:38:54: Carregando experiência
+2016/06/27 14:38:54: Exp Máximo: 121 22353256174
+2016/06/27 14:38:54: Carregando guilds.
+2016/06/27 14:38:54: Total : 2 guilds carregados.
+2016/06/27 14:38:54: Carregando membros.
+2016/06/27 14:38:54: Total : 2 membros carregados.
+2016/06/27 14:38:54: Carregando classes
+2016/06/27 14:38:54: Carregando NPC
+2016/06/27 14:38:54: Servidor iniciado
+2016/06/27 14:39:02: Status changed to connected: 127.0.0.1
+2016/06/27 14:39:02: Received From Client: artemis
+2016/06/27 14:39:21: Data From World Server ID: 1 Account: akaruz Char ID: 9 Slot: 1 7C7B4083EDBE1A9E
+2016/06/27 14:39:23: Status changed to connected: 127.0.0.1
+2016/06/27 14:39:23: Received From Client: 7C7B4083EDBE1A9E
+2016/06/27 14:39:23: Player Found ID: 9 Name: Ingsan
+2016/06/27 14:39:27: Ingsan Dir: 4 X: 0 Y: 1
+2016/06/27 14:39:27: Ingsan Dir: 4 X: 0 Y: 2
+2016/06/27 14:39:27: Ingsan Dir: 10 X: 1 Y: 2
+2016/06/27 14:39:27: Ingsan Dir: 10 X: 2 Y: 2
+2016/06/27 14:39:27: Ingsan Dir: 4 X: 2 Y: 3
+2016/06/27 14:39:28: Ingsan Dir: 4 X: 2 Y: 4
+2016/06/27 14:39:28: Ingsan Dir: 4 X: 2 Y: 5
+2016/06/27 14:39:28: Ingsan Dir: 10 X: 3 Y: 5
+2016/06/27 14:39:28: Ingsan Dir: 10 X: 4 Y: 5
+2016/06/27 14:39:28: Ingsan Dir: 4 X: 4 Y: 6
+2016/06/27 14:39:29: Ingsan Dir: 4 X: 4 Y: 7
+2016/06/27 14:39:29: Ingsan Dir: 4 X: 4 Y: 8
+2016/06/27 14:39:29: Ingsan Dir: 10 X: 5 Y: 8
+2016/06/27 14:39:29: Ingsan Dir: 10 X: 6 Y: 8
+2016/06/27 14:39:29: Ingsan Dir: 10 X: 7 Y: 8
+2016/06/27 14:39:32: Ingsan Dir: 10 X: 8 Y: 8
+2016/06/27 14:39:32: Ingsan Dir: 10 X: 9 Y: 8
+2016/06/27 14:39:33: Ingsan Dir: 10 X: 10 Y: 8
+2016/06/27 14:39:33: Ingsan Dir: 4 X: 10 Y: 9
+2016/06/27 14:39:33: Ingsan Dir: 4 X: 10 Y: 10
+2016/06/27 14:39:33: Ingsan Dir: 4 X: 10 Y: 11
+2016/06/27 14:39:33: Ingsan Dir: 10 X: 11 Y: 11
+2016/06/27 14:39:34: Ingsan Dir: 10 X: 12 Y: 11
+2016/06/27 14:39:34: Ingsan Dir: 4 X: 12 Y: 12
+2016/06/27 14:39:34: Ingsan Dir: 4 X: 12 Y: 13
+2016/06/27 14:56:37: Carregando dados de mysql.
+2016/06/27 14:56:37: ID: #artemis#
+2016/06/27 14:56:37: Name: Canal 1
+2016/06/27 14:56:37: Discovery: Elysium Diamond #1.0.0
+2016/06/27 14:56:37: IP: 127.0.0.1
+2016/06/27 14:56:37: Port: 10120
+2016/06/27 14:56:37: MaximumConnections: 2000
+2016/06/27 14:56:37: Logs: True
+2016/06/27 14:56:37: Cryptography: GameEngine
+2016/06/27 14:56:37: ClientSerial: #elysium#
+2016/06/27 14:56:37: Sleep: 2
+2016/06/27 14:56:37: TestServer: False
+2016/06/27 14:56:37: WorldServer 1 ID: Artemis
+2016/06/27 14:56:37: WorldServer 2 ID: 
+2016/06/27 14:56:37: WorldServer 3 ID: 
+2016/06/27 14:56:37: WorldServer 4 ID: 
+2016/06/27 14:56:37: WorldServer 5 ID: 
+2016/06/27 14:56:37: Connectado ao banco de dados
+2016/06/27 14:56:37: Carregando experiência
+2016/06/27 14:56:37: Exp Máximo: 121 22353256174
+2016/06/27 14:56:37: Carregando guilds.
+2016/06/27 14:56:37: Total : 2 guilds carregados.
+2016/06/27 14:56:37: Carregando membros.
+2016/06/27 14:56:37: Total : 2 membros carregados.
+2016/06/27 14:56:37: Carregando classes
+2016/06/27 14:56:37: Carregando NPC
+2016/06/27 14:56:38: Servidor iniciado
+2016/06/27 14:56:43: Status changed to connected: 127.0.0.1
+2016/06/27 14:56:43: Received From Client: artemis
+2016/06/27 14:56:56: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 F43CD085F4FE825E
+2016/06/27 14:56:58: Status changed to connected: 127.0.0.1
+2016/06/27 14:56:58: Received From Client: F43CD085F4FE825E
+2016/06/27 14:56:58: Player Found ID: 1 Name: Joanlac
+2016/06/27 14:56:58: Joanlac Dir: 7 X: -1 Y: 0
+2016/06/27 14:56:58: Joanlac Dir: 10 X: 0 Y: 0
+2016/06/27 14:56:59: Joanlac Dir: 10 X: 1 Y: 0
+2016/06/27 14:56:59: Joanlac Dir: 4 X: 1 Y: 1
+2016/06/27 14:56:59: Joanlac Dir: 4 X: 1 Y: 2
+2016/06/27 14:56:59: Joanlac Dir: 4 X: 1 Y: 3
+2016/06/27 14:56:59: Joanlac Dir: 4 X: 1 Y: 4
+2016/06/27 14:57:00: Joanlac Dir: 10 X: 2 Y: 4
+2016/06/27 14:57:00: Joanlac Dir: 10 X: 3 Y: 4
+2016/06/27 14:57:00: Joanlac Dir: 4 X: 3 Y: 5
+2016/06/27 14:57:00: Joanlac Dir: 4 X: 3 Y: 6
+2016/06/27 14:57:00: Joanlac Dir: 4 X: 3 Y: 7
+2016/06/27 14:57:00: Joanlac Dir: 4 X: 3 Y: 8
+2016/06/27 14:57:01: Joanlac Dir: 10 X: 4 Y: 8
+2016/06/27 14:57:01: Joanlac Dir: 4 X: 4 Y: 9
+2016/06/27 14:57:01: Joanlac Dir: 4 X: 4 Y: 10

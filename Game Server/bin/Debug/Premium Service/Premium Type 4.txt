@@ -1,0 +1,20 @@
+//------------------------------------------------------//
+//		  ACCOUNT PREMIUM DIAMOND 		//
+//------------------------------------------------------//
+Exp	 		= 35
+ItemDrop		= 35
+GoldDrop		= 25
+CraftExp		= 25
+SkillExp 		= 25
+GuildExp		= 30
+
+NormalItemDrop 		= 25
+RareItemDrop 		= 25
+HeroItemDrop 		= 25
+EternalItemDrop 	= 20
+LegendaryItemDrop 	= 20
+MysticItemDrop 		= 15
+EtherealItemDrop 	= 15
+
+CraftCriticalSucessRate = 25
+//------------------------------------------------------//

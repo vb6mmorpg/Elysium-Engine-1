@@ -1,0 +1,9 @@
+2015/08/22 12:52:53: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/22 12:52:53: Status changed to connected: 127.0.0.1
+2015/08/22 12:53:02: Data From Login Server ID: 1 Account: akaruz 40AD6F1B433B4746
+2015/08/22 12:53:03: Discovery Response IPEndPoint: 127.0.0.1
+2015/08/22 12:53:03: Status changed to connected: 127.0.0.1
+2015/08/22 12:53:03: Data From Client: 40AD6F1B433B4746
+2015/08/22 12:53:03: Player Found ID: 1 Account: akaruz 40AD6F1B433B4746
+2015/08/22 12:53:03: Pre-Load ID: 1 Account: akaruz Char: Nadaila Akaruz Caronne Thaeo 
+2015/08/22 12:53:42: GameServer Login Attempt: akaruz 127.0.0.1

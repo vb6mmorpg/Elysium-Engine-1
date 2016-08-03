@@ -1,0 +1,9 @@
+27/11/2015 00:11:18: Discovery Response IPEndPoint: 127.0.0.1
+27/11/2015 00:11:18: Status changed to connected: 127.0.0.1
+27/11/2015 00:11:48: Data From Login Server ID: 1 Account: akaruz E87842EA2DC139F3
+27/11/2015 00:11:49: Discovery Response IPEndPoint: 127.0.0.1
+27/11/2015 00:11:49: Status changed to connected: 127.0.0.1
+27/11/2015 00:11:49: Data From Client: E87842EA2DC139F3
+27/11/2015 00:11:49: Player Found ID: 1 Account: akaruz E87842EA2DC139F3
+27/11/2015 00:11:49: Pre-Load ID: 1 Account: akaruz Char: 水色 Akaruz Caronne DragonicK 
+27/11/2015 00:11:56: Character Deleted: From: 1 akaruz Char: 32 DragonicK

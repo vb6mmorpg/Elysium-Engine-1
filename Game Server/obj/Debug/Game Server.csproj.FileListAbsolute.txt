@@ -1,0 +1,23 @@
+C:\Users\julio_000\Desktop\Game Server\bin\Debug\Game Server.exe
+C:\Users\julio_000\Desktop\Game Server\bin\Debug\Game Server.pdb
+C:\Users\julio_000\Desktop\Game Server\obj\Debug\Game Server.csprojResolveAssemblyReference.cache
+C:\Users\julio_000\Desktop\Game Server\obj\Debug\Game_Server.Properties.Resources.resources
+C:\Users\julio_000\Desktop\Game Server\obj\Debug\Game Server.csproj.GenerateResource.Cache
+C:\Users\julio_000\Desktop\Game Server\obj\Debug\Game Server.exe
+C:\Users\julio_000\Desktop\Game Server\obj\Debug\Game Server.pdb
+E:\Programing Files\Elysium Diamond\Game Server\obj\Debug\Game Server.exe
+E:\Programing Files\Elysium Diamond\Game Server\obj\Debug\Game Server.pdb
+E:\Programing Files\Elysium Diamond\Game Server\obj\Debug\Game Server.csprojResolveAssemblyReference.cache
+E:\Programing Files\Elysium Diamond\Game Server\obj\Debug\Game_Server.MainForm.resources
+E:\Programing Files\Elysium Diamond\Game Server\obj\Debug\Game_Server.Properties.Resources.resources
+E:\Programing Files\Elysium Diamond\Game Server\obj\Debug\Game Server.csproj.GenerateResource.Cache
+E:\Programing Files\Elysium Diamond\Game Server\bin\Debug\Game Server.exe
+E:\Programing Files\Elysium Diamond\Game Server\bin\Debug\Game Server.pdb
+D:\Programing Files\Elysium Diamond\Game Server\obj\Debug\Game Server.csproj.GenerateResource.Cache
+D:\Programing Files\Elysium Diamond\Game Server\obj\Debug\Game Server.csprojResolveAssemblyReference.cache
+D:\Programing Files\Elysium Diamond\Game Server\obj\Debug\GameServer.Properties.Resources.resources
+D:\Programing Files\Elysium Diamond\Game Server\obj\Debug\GameServer.MainForm.resources
+D:\Programing Files\Elysium Diamond\Game Server\bin\Debug\GameServer.exe
+D:\Programing Files\Elysium Diamond\Game Server\bin\Debug\GameServer.pdb
+D:\Programing Files\Elysium Diamond\Game Server\obj\Debug\GameServer.exe
+D:\Programing Files\Elysium Diamond\Game Server\obj\Debug\GameServer.pdb

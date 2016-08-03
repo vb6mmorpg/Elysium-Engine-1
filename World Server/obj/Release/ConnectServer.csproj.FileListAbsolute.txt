@@ -1,0 +1,19 @@
+D:\Programing Files\Elysium Diamond\ConnectServer\bin\Release\ConnectServer.exe
+D:\Programing Files\Elysium Diamond\ConnectServer\bin\Release\ConnectServer.pdb
+D:\Programing Files\Elysium Diamond\ConnectServer\bin\Release\Lidgren.Network.dll
+D:\Programing Files\Elysium Diamond\ConnectServer\obj\Release\ConnectServer.csprojResolveAssemblyReference.cache
+D:\Programing Files\Elysium Diamond\ConnectServer\obj\Release\ConnectServer.frmMain.resources
+D:\Programing Files\Elysium Diamond\ConnectServer\obj\Release\ConnectServer.Properties.Resources.resources
+D:\Programing Files\Elysium Diamond\ConnectServer\obj\Release\ConnectServer.csproj.GenerateResource.Cache
+D:\Programing Files\Elysium Diamond\ConnectServer\obj\Release\ConnectServer.exe
+D:\Programing Files\Elysium Diamond\ConnectServer\obj\Release\ConnectServer.pdb
+D:\Programing Files\Elysium Diamond\Connect Server\obj\Release\ConnectServer.exe
+D:\Programing Files\Elysium Diamond\Connect Server\obj\Release\ConnectServer.pdb
+D:\Programing Files\Elysium Diamond\Connect Server\bin\Release\ConnectServer.exe
+D:\Programing Files\Elysium Diamond\Connect Server\bin\Release\ConnectServer.pdb
+D:\Programing Files\Elysium Diamond\Connect Server\obj\Release\ConnectServer.csprojResolveAssemblyReference.cache
+D:\Programing Files\Elysium Diamond\Connect Server\obj\Release\ConnectServer.frmMain.resources
+D:\Programing Files\Elysium Diamond\Connect Server\obj\Release\ConnectServer.Properties.Resources.resources
+D:\Programing Files\Elysium Diamond\Connect Server\obj\Release\ConnectServer.csproj.GenerateResource.Cache
+C:\Users\DragonicK\Desktop\Connect Server\obj\Release\ConnectServer.exe
+C:\Users\DragonicK\Desktop\Connect Server\obj\Release\ConnectServer.pdb

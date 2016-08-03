@@ -1,0 +1,20 @@
+//------------------------------------------------------//
+//		  ACCOUNT PREMIUM GOLD  		//
+//------------------------------------------------------//
+Exp	 		= 20
+ItemDrop		= 20
+GoldDrop		= 20
+CraftExp		= 20
+SkillExp 		= 20
+GuildExp		= 20
+
+NormalItemDrop 		= 15
+RareItemDrop 		= 15
+HeroItemDrop 		= 15
+EternalItemDrop 	= 15
+LegendaryItemDrop 	= 10
+MysticItemDrop 		= 10
+EtherealItemDrop 	= 10
+
+CraftCriticalSucessRate = 15
+//------------------------------------------------------//

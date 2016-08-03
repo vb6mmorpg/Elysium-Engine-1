@@ -1,0 +1,156 @@
+2015/08/28 14:14:22: Carregando dados de mysql.
+2015/08/28 14:14:22: ID: #artemis#
+2015/08/28 14:14:22: Name: Canal 1
+2015/08/28 14:14:22: Discovery: Elysium Diamond #1.0.0
+2015/08/28 14:14:22: IP: 127.0.0.1
+2015/08/28 14:14:22: Port: 10120
+2015/08/28 14:14:22: MaximumConnections: 2000
+2015/08/28 14:14:22: Logs: True
+2015/08/28 14:14:22: Cryptography: GameEngine
+2015/08/28 14:14:22: ClientSerial: #elysium#
+2015/08/28 14:14:22: Sleep: 2
+2015/08/28 14:14:22: TestServer: False
+2015/08/28 14:14:22: WorldServer 1 ID: Artemis
+2015/08/28 14:14:22: WorldServer 2 ID: 
+2015/08/28 14:14:22: WorldServer 3 ID: 
+2015/08/28 14:14:22: WorldServer 4 ID: 
+2015/08/28 14:14:22: WorldServer 5 ID: 
+2015/08/28 14:14:23: Connectado ao banco de dados
+2015/08/28 14:14:23: Carregando experiência
+2015/08/28 14:14:23: Exp Máximo: 121 22353256174
+2015/08/28 14:14:23: Carregando guilds.
+2015/08/28 14:14:24: Total : 2 guilds carregados.
+2015/08/28 14:14:24: Carregando membros.
+2015/08/28 14:14:24: Total : 3 membros carregados.
+2015/08/28 14:14:24: Carregando classes
+2015/08/28 14:14:25: Servidor iniciado
+2015/08/28 17:13:58: Carregando dados de mysql.
+2015/08/28 17:13:58: ID: #artemis#
+2015/08/28 17:13:58: Name: Canal 1
+2015/08/28 17:13:58: Discovery: Elysium Diamond #1.0.0
+2015/08/28 17:13:58: IP: 127.0.0.1
+2015/08/28 17:13:58: Port: 10120
+2015/08/28 17:13:58: MaximumConnections: 2000
+2015/08/28 17:13:58: Logs: True
+2015/08/28 17:13:58: Cryptography: GameEngine
+2015/08/28 17:13:58: ClientSerial: #elysium#
+2015/08/28 17:13:58: Sleep: 2
+2015/08/28 17:13:58: TestServer: False
+2015/08/28 17:13:58: WorldServer 1 ID: Artemis
+2015/08/28 17:13:58: WorldServer 2 ID: 
+2015/08/28 17:13:58: WorldServer 3 ID: 
+2015/08/28 17:13:58: WorldServer 4 ID: 
+2015/08/28 17:13:58: WorldServer 5 ID: 
+2015/08/28 17:14:00: Connectado ao banco de dados
+2015/08/28 17:14:00: Carregando experiência
+2015/08/28 17:14:01: Exp Máximo: 121 22353256174
+2015/08/28 17:14:01: Carregando guilds.
+2015/08/28 17:14:01: Total : 2 guilds carregados.
+2015/08/28 17:14:01: Carregando membros.
+2015/08/28 17:14:01: Total : 3 membros carregados.
+2015/08/28 17:14:01: Carregando classes
+2015/08/28 17:14:02: Servidor iniciado
+2015/08/28 17:15:33: Carregando dados de mysql.
+2015/08/28 17:15:33: ID: #artemis#
+2015/08/28 17:15:33: Name: Canal 1
+2015/08/28 17:15:33: Discovery: Elysium Diamond #1.0.0
+2015/08/28 17:15:33: IP: 127.0.0.1
+2015/08/28 17:15:33: Port: 10120
+2015/08/28 17:15:33: MaximumConnections: 2000
+2015/08/28 17:15:33: Logs: True
+2015/08/28 17:15:33: Cryptography: GameEngine
+2015/08/28 17:15:33: ClientSerial: #elysium#
+2015/08/28 17:15:33: Sleep: 2
+2015/08/28 17:15:33: TestServer: False
+2015/08/28 17:15:33: WorldServer 1 ID: Artemis
+2015/08/28 17:15:33: WorldServer 2 ID: 
+2015/08/28 17:15:33: WorldServer 3 ID: 
+2015/08/28 17:15:33: WorldServer 4 ID: 
+2015/08/28 17:15:33: WorldServer 5 ID: 
+2015/08/28 17:15:33: Connectado ao banco de dados
+2015/08/28 17:15:33: Carregando experiência
+2015/08/28 17:15:33: Exp Máximo: 121 22353256174
+2015/08/28 17:15:33: Carregando guilds.
+2015/08/28 17:15:33: Total : 2 guilds carregados.
+2015/08/28 17:15:33: Carregando membros.
+2015/08/28 17:15:33: Total : 3 membros carregados.
+2015/08/28 17:15:33: Carregando classes
+2015/08/28 17:15:33: Servidor iniciado
+2015/08/28 17:16:05: Carregando dados de mysql.
+2015/08/28 17:16:05: ID: #artemis#
+2015/08/28 17:16:05: Name: Canal 1
+2015/08/28 17:16:05: Discovery: Elysium Diamond #1.0.0
+2015/08/28 17:16:05: IP: 127.0.0.1
+2015/08/28 17:16:05: Port: 10120
+2015/08/28 17:16:05: MaximumConnections: 2000
+2015/08/28 17:16:05: Logs: True
+2015/08/28 17:16:05: Cryptography: GameEngine
+2015/08/28 17:16:05: ClientSerial: #elysium#
+2015/08/28 17:16:05: Sleep: 2
+2015/08/28 17:16:05: TestServer: False
+2015/08/28 17:16:05: WorldServer 1 ID: Artemis
+2015/08/28 17:16:05: WorldServer 2 ID: 
+2015/08/28 17:16:05: WorldServer 3 ID: 
+2015/08/28 17:16:05: WorldServer 4 ID: 
+2015/08/28 17:16:05: WorldServer 5 ID: 
+2015/08/28 17:16:06: Connectado ao banco de dados
+2015/08/28 17:16:06: Carregando experiência
+2015/08/28 17:16:06: Exp Máximo: 121 22353256174
+2015/08/28 17:16:06: Carregando guilds.
+2015/08/28 17:16:06: Total : 2 guilds carregados.
+2015/08/28 17:16:06: Carregando membros.
+2015/08/28 17:16:06: Total : 3 membros carregados.
+2015/08/28 17:16:06: Carregando classes
+2015/08/28 17:16:06: Servidor iniciado
+2015/08/28 17:16:57: Carregando dados de mysql.
+2015/08/28 17:16:57: ID: #artemis#
+2015/08/28 17:16:57: Name: Canal 1
+2015/08/28 17:16:57: Discovery: Elysium Diamond #1.0.0
+2015/08/28 17:16:57: IP: 127.0.0.1
+2015/08/28 17:16:57: Port: 10120
+2015/08/28 17:16:57: MaximumConnections: 2000
+2015/08/28 17:16:57: Logs: True
+2015/08/28 17:16:57: Cryptography: GameEngine
+2015/08/28 17:16:57: ClientSerial: #elysium#
+2015/08/28 17:16:57: Sleep: 2
+2015/08/28 17:16:57: TestServer: False
+2015/08/28 17:16:57: WorldServer 1 ID: Artemis
+2015/08/28 17:16:57: WorldServer 2 ID: 
+2015/08/28 17:16:57: WorldServer 3 ID: 
+2015/08/28 17:16:57: WorldServer 4 ID: 
+2015/08/28 17:16:57: WorldServer 5 ID: 
+2015/08/28 17:16:57: Connectado ao banco de dados
+2015/08/28 17:16:57: Carregando experiência
+2015/08/28 17:16:57: Exp Máximo: 121 22353256174
+2015/08/28 17:16:57: Carregando guilds.
+2015/08/28 17:16:57: Total : 2 guilds carregados.
+2015/08/28 17:16:57: Carregando membros.
+2015/08/28 17:16:57: Total : 3 membros carregados.
+2015/08/28 17:16:57: Carregando classes
+2015/08/28 17:16:57: Servidor iniciado
+2015/08/28 17:19:00: Carregando dados de mysql.
+2015/08/28 17:19:00: ID: #artemis#
+2015/08/28 17:19:00: Name: Canal 1
+2015/08/28 17:19:00: Discovery: Elysium Diamond #1.0.0
+2015/08/28 17:19:00: IP: 127.0.0.1
+2015/08/28 17:19:00: Port: 10120
+2015/08/28 17:19:00: MaximumConnections: 2000
+2015/08/28 17:19:00: Logs: True
+2015/08/28 17:19:00: Cryptography: GameEngine
+2015/08/28 17:19:00: ClientSerial: #elysium#
+2015/08/28 17:19:00: Sleep: 2
+2015/08/28 17:19:00: TestServer: False
+2015/08/28 17:19:00: WorldServer 1 ID: Artemis
+2015/08/28 17:19:00: WorldServer 2 ID: 
+2015/08/28 17:19:00: WorldServer 3 ID: 
+2015/08/28 17:19:00: WorldServer 4 ID: 
+2015/08/28 17:19:00: WorldServer 5 ID: 
+2015/08/28 17:19:00: Connectado ao banco de dados
+2015/08/28 17:19:00: Carregando experiência
+2015/08/28 17:19:00: Exp Máximo: 121 22353256174
+2015/08/28 17:19:00: Carregando guilds.
+2015/08/28 17:19:00: Total : 2 guilds carregados.
+2015/08/28 17:19:00: Carregando membros.
+2015/08/28 17:19:00: Total : 3 membros carregados.
+2015/08/28 17:19:00: Carregando classes
+2015/08/28 17:19:00: Servidor iniciado
