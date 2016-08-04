@@ -44,7 +44,7 @@ namespace WorldServer.GameGuild {
         }
 
         /// <summary>
-        /// 
+        /// x
         /// </summary>
         public Guild() { }
 

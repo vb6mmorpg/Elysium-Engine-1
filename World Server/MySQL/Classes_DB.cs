@@ -17,7 +17,7 @@ namespace WorldServer.MySQL {
             MySqlDataReader reader;
 
 
-            for (var classeID = 0; classeID < maxClasse; classeID++) {           
+            for (var classeID = 0; classeID < maxClasse; classeID++) {
                 varQuery = "SELECT * FROM classes_equipped WHERE classe_id ='" + classeID + "'";
                 cmd.CommandText = varQuery;
                 cmd.Connection = Common_DB.Connection;
@@ -59,7 +59,7 @@ namespace WorldServer.MySQL {
                 list[index].IncrementID = (int)reader["increment_id"];
                 list[index].HP = (int)reader["hp"];
                 list[index].MP = (int)reader["mp"];
-                list[index].SP =(int)reader["sp"];
+                list[index].SP = (int)reader["sp"];
                 list[index].RegenHP = (int)reader["regen_hp"];
                 list[index].RegenMP = (int)reader["regen_mp"];
                 list[index].RegenSP = (int)reader["regen_sp"];
@@ -73,10 +73,10 @@ namespace WorldServer.MySQL {
                 list[index].Intelligence = (int)reader["intelligence"];
                 list[index].Wisdom = (int)reader["wisdom"];
                 list[index].Will = (int)reader["will"];
-                list[index].Mind =(int)reader["mind"];
+                list[index].Mind = (int)reader["mind"];
                 list[index].Charisma = (int)reader["charisma"];
                 list[index].Points = (int)reader["points"];
-                list[index].CriticalRate =(int)reader["critical_rate"];
+                list[index].CriticalRate = (int)reader["critical_rate"];
                 list[index].CriticalDamage = (int)reader["critical_damage"];
                 list[index].SpellCriticalRate = (int)reader["magic_critical_rate"];
                 list[index].SpellCriticalDamage = (int)reader["magic_critical_damage"];
@@ -115,7 +115,7 @@ namespace WorldServer.MySQL {
 
             reader.Close();
         }
-       
+
         /// <summary>
         /// Carrega todos os incrementos de classe.
         /// </summary>
@@ -124,8 +124,8 @@ namespace WorldServer.MySQL {
             var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
             var reader = cmd.ExecuteReader();
             var index = 0;
-            var list = Classes.ClassesIncrement; 
-        
+            var list = Classes.ClassesIncrement;
+
             while (reader.Read()) {
                 list.Add(new ClassesIncrement());
                 list[index].IncrementID = (int)reader["id"];
@@ -181,7 +181,7 @@ namespace WorldServer.MySQL {
 
                 index++;
             }
- 
+
             reader.Close();
         }
     }

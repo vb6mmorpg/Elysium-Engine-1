@@ -2,10 +2,11 @@
 
 namespace WorldServer.Server {
     public class PlayerData : HexaID {
+        const int MAX_CHAR = 4;
         /// <summary>
         /// Dados temporários de personagem.
         /// </summary>
-        public Character[] Character = new Character[4];
+        public Character[] Character = new Character[MAX_CHAR];
 
         /// <summary>
         /// Player Socket.

@@ -26,7 +26,7 @@ namespace WorldServer.LUA {
             if (f != null) f.Call(550);
 
             Settings.CharacterDeleteMaxLevel = Convert.ToInt32(lua["CharacterDeleteMaxLevel"]);
-          //  System.Windows.Forms.MessageBox.Show(Settings.CharacterDeleteMaxLevel + "");
+            //  System.Windows.Forms.MessageBox.Show(Settings.CharacterDeleteMaxLevel + "");
             //      lua.RegisterFunction("Mensagem", this, this.GetType().GetMethod("Mensagem"));
         }
 

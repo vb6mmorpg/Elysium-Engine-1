@@ -5,7 +5,7 @@
     Disconnect = 0x0002,
     Ping = 0x0003,
     AcceptedConnection = 0x0004,
-    ChangeGameState = 0x0005,
+    ChangeGameState = 0x0005,   
     InvalidVersion = 0x0006,
     CantConnectNow = 0x0007,
 

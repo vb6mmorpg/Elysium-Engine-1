@@ -31,6 +31,7 @@ namespace WorldServer.Network {
                 return;
             }
 
+            //nome do personagem 
             var charName = data.ReadString();
 
             // Se o nome existir no banco de dados, envia mensagem de erro
@@ -39,6 +40,7 @@ namespace WorldServer.Network {
                 return; 
             }
 
+            //encontra o usuário para adicionar as informações
             var pData = Authentication.FindByConnection(connection);
 
             var slot = data.ReadByte();
@@ -58,7 +60,8 @@ namespace WorldServer.Network {
             // Character_DB.InsertInitialItems(charName, classe);
 
             // Carrega os personagens
-            for (var n = 0; n < 4; n++) {
+            const int MAX_CHAR = 4;
+            for (var n = 0; n < MAX_CHAR; n++) {
                 pData.Character[n] = new Character() { Name = string.Empty } ;
 
                 Character_DB.PreLoad(pData, n);
@@ -67,6 +70,7 @@ namespace WorldServer.Network {
             // Envia o PreLoad
             WorldServerPacket.PreLoad(pData);
 
+            //game state 3 = seleção de personagem 
             WorldServerPacket.GameState(pData.HexID, 3);
         }
 
@@ -86,12 +90,14 @@ namespace WorldServer.Network {
             var level = Character_DB.GetLevel(pData.AccountID, slot);
 
             // Se o ocorrer algum erro, envia mensagem de erro
+            // level -1, não encontrou dados do personagem
             if (level == -1) {
                 WorldServerPacket.Message(connection, (int)PacketList.Error);
                 return;
             }       
 
             // Se o level não estiver entre a faixa, envia mensagem de erro
+            // não pode ser deletado
             if (level < Settings.CharacterDeleteMinLevel & level > Settings.CharacterDeleteMaxLevel) {
                 WorldServerPacket.Message(connection, (int)PacketList.WorldServer_Client_InvalidLevelToDelete);
                 return;
@@ -111,6 +117,7 @@ namespace WorldServer.Network {
             }
 
             // Envia o PreLoad
+            // pré carregamento do personagem, apenas informações básicas como sprite, level, nome e classe (exibição na seleção de personagem).
             WorldServerPacket.PreLoad(pData);
             WorldServerPacket.Message(connection, (int)PacketList.WorldServer_Client_CharacterDeleted);
         }
@@ -120,7 +127,7 @@ namespace WorldServer.Network {
 
             LogConfig.WriteLog("GameServer Login Attempt: " + pData.Account + " " + pData.IP, System.Drawing.Color.Black); 
             
-            // limpa a memoria
+            // limpa a memoria temporaria
             pData.Character = null;
 
             WorldServerPacket.SendGameServerData(connection, pData.HexID);
@@ -131,7 +138,7 @@ namespace WorldServer.Network {
             if (pData.GuildID > 0) Guild.UpdatePlayerStatus(pData.GuildID, pData.CharacterID, true);
             if (pData.GuildID > 0) WorldServerPacket.SendGuildInfo(pData);
 
-            //Envia os dados de login para o game server n0
+            //Envia os dados de login para o game server numero 0
             GameServerPacket.Login(pData.HexID, 0);
         }
 

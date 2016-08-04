@@ -12,8 +12,8 @@ namespace WorldServer.MySQL {
         /// <param name="pID"></param>
         /// <param name="pName"></param>
         /// <returns></returns>
-        public static int PlayerGuildID(int pID, string pName) {
-            var varQuery = "SELECT guild_id FROM players WHERE id='" + pID + "' and name='" + pName + "'";
+        public static int GetPlayerGuildID(int playerID, string name) {
+            var varQuery = "SELECT guild_id FROM players WHERE id='" + playerID + "' and name='" + name + "'";
             var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
             var reader = cmd.ExecuteReader();
 
@@ -32,10 +32,10 @@ namespace WorldServer.MySQL {
         /// <summary>
         /// Atualiza o ID de guild de personagem.
         /// </summary>
-        /// <param name="pID"></param>
-        /// <param name="gID"></param>
-        public static void UpdatePlayerGuildID(int pID, int gID) {           
-            var varQuery = "UPDATE characters SET guild_id='" + gID + "' WHERE id='" + pID + "'";
+        /// <param name="playerID"></param>
+        /// <param name="guildID"></param>
+        public static void UpdatePlayerGuildID(int playerID, int guildID) {           
+            var varQuery = "UPDATE characters SET guild_id='" + guildID + "' WHERE id='" + playerID + "'";
             var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
             cmd.ExecuteNonQuery();
         }
@@ -45,8 +45,8 @@ namespace WorldServer.MySQL {
         /// </summary>
         /// <param name="gName"></param>
         /// <returns></returns>
-        public static bool ExistGuild(string gName) {
-            var varQuery = "SELECT id FROM guilds WHERE guild_name='" + gName + "'";
+        public static bool ExistGuild(string guildName) {
+            var varQuery = "SELECT id FROM guilds WHERE guild_name='" + guildName + "'";
             var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
             var reader = cmd.ExecuteReader();
 
@@ -64,8 +64,8 @@ namespace WorldServer.MySQL {
         /// </summary>
         /// <param name="gName"></param>
         /// <returns></returns>
-        public static int GuildID(string gName) {
-            var varQuery = "SELECT id FROM guilds WHERE guild_name='" + gName + "'";
+        public static int GetGuildID(string guildName) {
+            var varQuery = "SELECT id FROM guilds WHERE guild_name='" + guildName + "'";
             var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
             var reader = cmd.ExecuteReader();
 

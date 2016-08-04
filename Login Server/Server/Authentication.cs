@@ -12,11 +12,11 @@ namespace LoginServer.Server {
         /// <summary>
         /// Realiza uma busca pelo ID de usuário.
         /// </summary>
-        /// <param name="id"></param>
+        /// <param name="accountID"></param>
         /// <returns></returns>
-        public static PlayerData FindByID(int id) {
+        public static PlayerData FindByID(int accountID) {
             var find_id = from pData in Player
-                          where pData.ID.CompareTo(id) == 0
+                          where pData.ID.CompareTo(accountID) == 0
                           select pData;
 
             return find_id.FirstOrDefault();

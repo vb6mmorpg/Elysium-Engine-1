@@ -1,7 +1,7 @@
 ﻿namespace WorldServer.Server {
     public class HexaID {
         /// <summary>
-        /// Tempo dos dados no servidor.
+        /// Tempo dos dados no servidor. (30 segundos)
         /// </summary>
         public int Time { get; set; }
         public string HexID { get; set; }
@@ -10,7 +10,15 @@
         public int LanguageID { get; set; }
         public int AccessLevel { get; set; }
         public int Cash { get; set; }
+
+        /// <summary>
+        /// Senha de segurança dos personagens.
+        /// </summary>
         public string Pin { get; set; }
+
+        /// <summary>
+        /// Serviços de conta de usuário.
+        /// </summary>
         public PlayerService Service { get; set; }
 
         public HexaID() {

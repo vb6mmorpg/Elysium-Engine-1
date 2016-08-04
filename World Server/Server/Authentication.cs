@@ -112,6 +112,7 @@ namespace WorldServer.Server {
 
                 LogConfig.WriteLog("Player Found ID: " + pData.AccountID + " Account: " + pData.Account + " " + pData.HexID, Color.Black);
 
+                //inicia o processo de login
                 PlayerLogin.Login(pData);
             }
         }
@@ -120,6 +121,7 @@ namespace WorldServer.Server {
         /// Percorre todos os hexid e verifica o estado atual.
         /// </summary>
         public static void VerifyHexID() {
+            //se algum dado estiver mais que 30 segundos no sistema, é removido da lista.
             foreach (var hexID in HexID) {
                 if (Environment.TickCount > hexID.Time + 30000) {
                     LogConfig.WriteLog("Removed HexID: " + hexID.HexID + " " + hexID.Account, Color.Coral);
@@ -146,11 +148,11 @@ namespace WorldServer.Server {
         /// <summary>
         /// Realiza uma busca pelo ID de usuário.
         /// </summary>
-        /// <param name="pID"></param>
+        /// <param name="id"></param>
         /// <returns></returns>
-        public static PlayerData FindByID(int pID) {
+        public static PlayerData FindByID(int accountID) {
             var find_id = from pData in Player
-                          where pData.AccountID.CompareTo(pID) == 0
+                          where pData.AccountID.CompareTo(accountID) == 0
                           select pData;
 
             return find_id.FirstOrDefault();

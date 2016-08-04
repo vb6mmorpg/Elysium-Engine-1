@@ -3,6 +3,11 @@ using System.Collections.Generic;
 
 namespace WorldServer.Common {
     public static class Settings {
+        
+        /// <summary>
+        /// Quantidade de servidores. 
+        /// </summary>
+        public const int MAX_SERVER = 5;
         /// <summary>
         /// Chave para criptografia.
         /// </summary>

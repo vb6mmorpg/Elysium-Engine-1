@@ -1,5 +1,4 @@
-﻿namespace WorldServer.Items
-{
+﻿namespace WorldServer.Items {
     public class Item {
         /// <summary>
         /// ID de item.
@@ -34,7 +33,7 @@
         /// <summary>
         /// ID de socket.
         /// </summary>
-        public string Slots { get; set; } 
+        public string Slots { get; set; }
 
         /// <summary>
         /// Tempo limite

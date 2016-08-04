@@ -92,7 +92,7 @@ namespace WorldServer.Network {
         }
 
         /// <summary>
-        /// Envia a resposta para o login se o usuario foi encontrado.
+        /// Envia a resposta para o login server se o usuario foi encontrado.
         /// </summary>
         /// <param name="connection"></param>
         /// <param name="value"></param>
