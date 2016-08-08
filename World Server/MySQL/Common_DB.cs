@@ -17,11 +17,7 @@ namespace WorldServer.MySQL {
         /// <param name="error"></param>
         /// <returns></returns>
         public static bool Connect(out string message) {
-            var varQuery = "Server=" + Server + ";";
-            varQuery += "Port=" + Port + ";";
-            varQuery += "Database=" + Database + ";";
-            varQuery += "User ID=" + Username + ";";
-            varQuery += "Password=" + Password + ";";
+            var varQuery = $"Server={Server};Port={ Port};Database={Database};User ID={Username};Password={Password};";
 
             try {
                 Connection = new MySqlConnection();

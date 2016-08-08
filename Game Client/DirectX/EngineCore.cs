@@ -109,7 +109,6 @@ namespace Elysium_Diamond.DirectX
                 Personagem.Draw();
 
                 foreach (EngineCharacter playerData in GameLogic.PlayerList.Player) {
-                    playerData.Enabled = false;
                     playerData.Draw();
                  }
                  
@@ -119,6 +118,8 @@ namespace Elysium_Diamond.DirectX
 
                 EngineBar.Draw(CurrentPlayerData.Exp + "/" + Experience.Data[CurrentPlayerData.Level + 1]);
                 EngineFont.DrawText(null, "X: " + Personagem.Coordinate.X + " Y: " + Personagem.Coordinate.Y, 900, 32, Color.Coral, EngineFontStyle.Bold);
+                EngineFont.DrawText(null, "X: " + Personagem.PositionX + " Y: " + Personagem.PositionY, 850, 75, Color.Coral, EngineFontStyle.Bold);
+                EngineFont.DrawText(null, "X: " + Personagem.OffSetX + " Y: " + Personagem.OffSetY, 850, 115, Color.Coral, EngineFontStyle.Bold);
                 WindowGuild.Draw();
             }
 

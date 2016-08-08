@@ -14,7 +14,7 @@ namespace WorldServer.Network {
         /// <summary>
         /// Cliente de conexão com o game server.
         /// </summary>
-        public static NetworkClient[] GameServer = new NetworkClient[5];
+        public static NetworkClient[] GameServer = new NetworkClient[Settings.MAX_SERVER];
 
         /// <summary>
         /// Inicializa e configura as 5 conexões com GameServer

@@ -65,12 +65,12 @@ namespace WorldServer.Network {
                 switch (incMsg.MessageType) {
                     case NetIncomingMessageType.DiscoveryResponse:
                         Socket.Connect(incMsg.SenderEndPoint);
-                        Program.WorldForm.WriteLog("Conectado ao Game Server #" + Settings.GameServer[index].Name, System.Drawing.Color.Green);
+                        Program.WorldForm.WriteLog($"Conectado ao Game Server #{Settings.GameServer[index].Name}", System.Drawing.Color.Green);
                         break;
                     case NetIncomingMessageType.StatusChanged:
                         NetConnectionStatus status = (NetConnectionStatus)incMsg.ReadByte();
                         if (status == NetConnectionStatus.Disconnected) {
-                            Program.WorldForm.WriteLog("Game Server #" + Settings.GameServer[index].Name + " desconectado", System.Drawing.Color.Green);
+                            Program.WorldForm.WriteLog($"Game Server #{Settings.GameServer[index].Name} desconectado", System.Drawing.Color.Green);
                         }
                         break;
                     case NetIncomingMessageType.Data:

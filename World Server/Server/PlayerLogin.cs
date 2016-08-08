@@ -15,7 +15,7 @@ namespace WorldServer.Server {
                 Character_DB.PreLoad(pData, n);
             }
 
-            LogConfig.WriteLog("PreLoad ID: " + pData.AccountID + " Account: " + pData.Account, System.Drawing.Color.Black);
+            LogConfig.WriteLog($"PreLoad ID: {pData.AccountID} Account: {pData.Account}", System.Drawing.Color.Black);
 
             // Envia o PreLoad
             WorldServerPacket.PreLoad(pData);

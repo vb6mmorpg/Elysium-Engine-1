@@ -105,23 +105,11 @@ namespace GameServer.Network {
             buffer.Write(pData.Sprite);
             buffer.Write(pData.Level);
             buffer.Write(pData.Exp);
+            buffer.Write(pData.Direction);
             buffer.Write(pData.PosX);
             buffer.Write(pData.PosY);
 
             GameServerNetwork.SendDataTo(hexID, buffer, NetDeliveryMethod.ReliableOrdered);
-        }
-
-        public static void SendMapPlayer(NetConnection connection, int playerID, string name, int sprite, int x, int y) {
-            var buffer = GameServerNetwork.sSock.CreateMessage();
-            buffer.Write((int)PacketList.GameServer_Client_GetMapPlayer);
-            buffer.Write(playerID);
-            buffer.Write(name);
-            buffer.Write(sprite);
-            buffer.Write(x);
-            buffer.Write(y);
-
-            GameServerNetwork.SendDataTo(connection, buffer, NetDeliveryMethod.ReliableOrdered);
-           
         }
     }
 }

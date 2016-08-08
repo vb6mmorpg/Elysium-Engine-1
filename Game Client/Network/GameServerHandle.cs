@@ -35,21 +35,50 @@ namespace Elysium_Diamond.Network
                 case (int)PacketList.GameServer_Client_PlayerData: GeneralServerData.PlayerData(data); break;
                 // case (int)PacketList.GameServer_SendNpc: GeneralServerData.ReceiveNpc(data); break;
                 case (int)PacketList.GameServer_Client_GetMapPlayer: GetPlayerOnMap(data); break;
+                case (int)PacketList.GameServer_Client_PlayerMapMove: PlayerMapMove(data); break;
+
 
             }
         }
 
         public static void GetPlayerOnMap(NetIncomingMessage data) {
             var pData = new EngineCharacter();
-            pData.GuildName  = data.ReadInt32() + "";
+            pData.ID  = data.ReadInt32();
             pData.Name = data.ReadString();
             pData.Sprite = data.ReadInt32();
+            pData.Dir = (EngineCharacter.Direction)data.ReadInt32();
             pData.PositionX = data.ReadInt32() * 16;
             pData.PositionY = data.ReadInt32() * 16;
             pData.Enabled = false;
 
             PlayerList.Player.Add(pData);
         }
+
+        public static void PlayerMapMove(NetIncomingMessage data) {
+            var pData = PlayerList.FindByID(data.ReadInt32());
+            
+            pData.Dir = (EngineCharacter.Direction)data.ReadInt32();
+
+            if (pData.Dir == EngineCharacter.Direction.Up) {
+                pData.OffSetY =+ 16;
+            }
+
+            if (pData.Dir == EngineCharacter.Direction.Down) {
+                pData.OffSetY =+ -16;
+            }
+
+            if (pData.Dir == EngineCharacter.Direction.Left) {
+                pData.OffSetX =+ 16;
+            }
+
+            if (pData.Dir == EngineCharacter.Direction.Right) {
+                pData.OffSetX =+ -16;
+            }
+
+            pData.Move = true;
+        }
+
+      
 
 
         public static void Ping() {

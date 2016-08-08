@@ -106,8 +106,8 @@ namespace WorldServer.Server {
         /// <returns></returns>
         public string ServiceTime(int id) {
             var date = Convert.ToDateTime(service[id]);
-            // DIA, MES, ANO, HORA, MINUTO (Somente para exibição)
-            return id + "-" + date.Day + "/" + date.Month + "/" + date.Year + " " + date.Hour + ":" + date.Minute;
+            // DIA, MES, ANO, HORA, MINUTO
+            return $"{id}-{date.Day}/{date.Month}/{date.Year} {date.Hour}:{date.Minute}";
         }
     }
 }

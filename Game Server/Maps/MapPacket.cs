@@ -23,5 +23,28 @@ namespace GameServer.Maps {
 
             GameServerNetwork.SendDataTo(connection, buffer, NetDeliveryMethod.ReliableOrdered);
         }
+
+        public static void SendMapPlayer(NetConnection connection, int playerID, string name, int sprite, int direction, int x, int y) {
+            var buffer = GameServerNetwork.sSock.CreateMessage();
+            buffer.Write((int)PacketList.GameServer_Client_GetMapPlayer);
+            buffer.Write(playerID);
+            buffer.Write(name);
+            buffer.Write(sprite);
+            buffer.Write(direction);
+            buffer.Write(x);
+            buffer.Write(y);
+
+            GameServerNetwork.SendDataTo(connection, buffer, NetDeliveryMethod.ReliableOrdered);
+
+        }
+
+        public static void SendPlayerMapMove(NetConnection connection, int playerID, int direction) {
+            var buffer = GameServerNetwork.sSock.CreateMessage();
+            buffer.Write((int)PacketList.GameServer_Client_PlayerMapMove);
+            buffer.Write(playerID);
+            buffer.Write(direction);
+
+            GameServerNetwork.SendDataTo(connection, buffer, NetDeliveryMethod.ReliableSequenced);
+        }
     }
 }

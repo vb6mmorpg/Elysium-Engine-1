@@ -59,5 +59,6 @@
     //2000 game server to client
     GameServer_Client_NeedHexID = 0x07D0,
     GameServer_Client_PlayerData = 0x07D1,
-    GameServer_Client_GetMapPlayer = 0x07D2
+    GameServer_Client_GetMapPlayer = 0x07D2,
+    GameServer_Client_PlayerMapMove = 0x07D3
 }

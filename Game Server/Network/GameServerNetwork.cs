@@ -71,16 +71,6 @@ namespace GameServer.Network {
                         if (status == NetConnectionStatus.Connected) {
                             LogConfig.WriteLog("Status changed to connected: " + msg.SenderEndPoint.Address, System.Drawing.Color.Coral);
 
-                            // if (Settings.LogSystem == true) 
-                            // {
-                            //       LogConfig.WriteLog("Status changed to connected: " + msg.SenderEndPoint.Address);
-                            //  }
-
-                            //  if (Program.ConnectForm.Logs.Checked == false)
-                            //  {
-                            //      Program.ConnectForm.WriteLog("Status changed to connected: " + msg.SenderEndPoint.Address, Color.Coral); 
-                            //  }
-
                             Authentication.Player.Add(new PlayerData(msg.SenderConnection, string.Empty, msg.SenderEndPoint.Address.ToString()));
 
                             GameServerPacket.NeedHexID(msg.SenderConnection);
@@ -90,14 +80,9 @@ namespace GameServer.Network {
                         #region StatusChanged : Disconnected
                         if (status == NetConnectionStatus.Disconnected) {
 
-                            LogConfig.WriteLog("Status changed to disconnected: " + msg.SenderEndPoint.Address, System.Drawing.Color.Coral);
-
-                            //    if (Program.ConnectForm.Logs.Checked == false)
-                            //   {
-                            //        Program.ConnectForm.WriteLog("Status changed to disconnected: " + msg.SenderEndPoint.Address, Color.Coral);
-                            //     }
-
-                            pData = Authentication.FindByConnection(msg.SenderConnection);
+                            LogConfig.WriteLog($"ID: {pData.CharacterID} {pData.CharacterName} Status changed to disconnected: " + msg.SenderEndPoint.Address, System.Drawing.Color.Coral);
+        
+                            MySQL.Character_DB.Save(pData);
 
                             pData.Clear();
 

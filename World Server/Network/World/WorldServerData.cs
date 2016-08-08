@@ -104,7 +104,7 @@ namespace WorldServer.Network {
             }
 
             //Pega o nome do personagem e salva no log
-            LogConfig.WriteLog("Character Deleted: From: " + pData.AccountID + " " + pData.Account + " Char: " + Character_DB.GetName(pData.AccountID, slot), System.Drawing.Color.Magenta);
+            LogConfig.WriteLog($"Character Deleted: From: {pData.AccountID} {pData.Account} Char: {Character_DB.GetName(pData.AccountID, slot)}", System.Drawing.Color.Magenta);
 
             // Deleta o personagem
             Character_DB.Delete(pData.AccountID, slot);
@@ -125,7 +125,7 @@ namespace WorldServer.Network {
         public static void StartGame(NetConnection connection, byte slot) {
             var pData = Authentication.FindByConnection(connection);
 
-            LogConfig.WriteLog("GameServer Login Attempt: " + pData.Account + " " + pData.IP, System.Drawing.Color.Black); 
+            LogConfig.WriteLog($"GameServer Login Attempt: {pData.Account} {pData.IP}", System.Drawing.Color.Black); 
             
             // limpa a memoria temporaria
             pData.Character = null;
@@ -162,6 +162,8 @@ namespace WorldServer.Network {
             pData.Connection.Disconnect("");
 
             ///temporario, precisa salvar o jogador antes
+        
+
             Authentication.Player.Remove(pData);
         }
     }

@@ -11,7 +11,7 @@ namespace WorldServer.MySQL {
         /// <param name="name"></param>
         /// <returns></returns>
         public static int ID(string name) {
-            var varQuery = "SELECT id FROM players WHERE name='" + name + "'";
+            var varQuery = $"SELECT id FROM players WHERE name='{name}'";
             var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
             var reader = cmd.ExecuteReader();
 
@@ -33,7 +33,7 @@ namespace WorldServer.MySQL {
         /// <param name="name"></param>
         /// <returns></returns>
         public static bool Exist(string name) {
-            var varQuery = "SELECT id FROM players WHERE name='" + name + "'";
+            var varQuery = $"SELECT id FROM players WHERE name='{name}'";
             var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
             var reader = cmd.ExecuteReader();
 
@@ -50,7 +50,7 @@ namespace WorldServer.MySQL {
         /// <param name="charSlot"></param>
         /// <returns></returns>
         public static string GetName(int accountID, int charSlot) {
-            var varQuery = "SELECT name FROM players WHERE account_id='" + accountID + "' and char_slot='" + charSlot + "'";
+            var varQuery = $"SELECT name FROM players WHERE account_id='{accountID}' and char_slot='{charSlot}'";
             var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
             var reader = cmd.ExecuteReader();
 
@@ -73,7 +73,7 @@ namespace WorldServer.MySQL {
         /// <param name="chatSlot"></param>
         /// <returns></returns>
         public static int GetLevel(int accountID, int chatSlot) {
-            var varQuery = "SELECT level FROM players WHERE account_id='" + accountID + "' and char_slot='" + chatSlot + "'";
+            var varQuery = $"SELECT level FROM players WHERE account_id='{accountID}' and char_slot='{chatSlot}'";
             var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
             var reader = cmd.ExecuteReader();
 
@@ -95,7 +95,7 @@ namespace WorldServer.MySQL {
         /// <param name="accountID"></param>
         /// <param name="charSlot"></param>
         public static void Delete(int accountID, int charSlot) {
-            var varQuery = "DELETE FROM players WHERE account_id='" + accountID + "' and char_slot='" + charSlot + "'";
+            var varQuery = $"DELETE FROM players WHERE account_id='{accountID}' and char_slot='{charSlot}'";
             var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
             cmd.ExecuteNonQuery();
         }
@@ -106,7 +106,7 @@ namespace WorldServer.MySQL {
         /// <param name="pData"></param>
         /// <param name="charSlot"></param>
         public static void PreLoad(PlayerData pData, int charSlot) {
-            var varQuery = "SELECT name, sprite, level, class_id FROM players WHERE account_id='" + pData.AccountID + "' and char_slot='" + charSlot + "'";
+            var varQuery = $"SELECT name, sprite, level, class_id FROM players WHERE account_id='{pData.AccountID}' and char_slot='{charSlot}'";
             var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
             var reader = cmd.ExecuteReader();
 
@@ -130,7 +130,7 @@ namespace WorldServer.MySQL {
         /// <param name="pData"></param>
         /// <param name="charSlot"></param>
         public static void Load(PlayerData pData, int charSlot) {
-            var varQuery = "SELECT id, guild_id, name, world_id, region_id FROM players WHERE account_id='" + pData.AccountID + "' and char_slot='" + charSlot + "'";
+            var varQuery = $"SELECT id, guild_id, name, world_id, region_id FROM players WHERE account_id='{pData.AccountID}' and char_slot='{charSlot}'";
             var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
             var reader = cmd.ExecuteReader();
 
@@ -166,26 +166,26 @@ namespace WorldServer.MySQL {
             varQuery.Append("INSERT INTO players (account_id, class_id, char_slot, name, level, gender, sprite, hp, mp, sp,");
             varQuery.Append("strenght, dexterity, agility, constitution, intelligence, wisdom, will, mind, charisma, statpoints)");
             varQuery.Append("VALUES ("); 
-            varQuery.Append("'" + pData.AccountID + "', ");
-            varQuery.Append("'" + classeID + "', ");
-            varQuery.Append("'" + charSlot + "', ");
-            varQuery.Append("'" + name + "', ");
-            varQuery.Append("'" + Classes.GetStat(Stats.Level, classeID) + "', ");
-            varQuery.Append("'" + gender + "', ");           
-            varQuery.Append("'" + sprite + "', ");
-            varQuery.Append("'" + Classes.GetStat(Stats.MaxHP, classeID) + "', ");
-            varQuery.Append("'" + Classes.GetStat(Stats.MaxMP, classeID) + "', ");
-            varQuery.Append("'" + Classes.GetStat(Stats.MaxSP, classeID) + "', ");
-            varQuery.Append("'" + Classes.GetStat(Stats.Strenght, classeID) + "', ");
-            varQuery.Append("'" + Classes.GetStat(Stats.Dexterity, classeID) + "', ");
-            varQuery.Append("'" + Classes.GetStat(Stats.Agility, classeID) + "', ");
-            varQuery.Append("'" + Classes.GetStat(Stats.Constitution, classeID) + "', ");
-            varQuery.Append("'" + Classes.GetStat(Stats.Intelligence, classeID) + "', ");
-            varQuery.Append("'" + Classes.GetStat(Stats.Wisdom, classeID) + "', ");
-            varQuery.Append("'" + Classes.GetStat(Stats.Will, classeID) + "', ");
-            varQuery.Append("'" + Classes.GetStat(Stats.Mind, classeID) + "', ");
-            varQuery.Append("'" + Classes.GetStat(Stats.Charisma, classeID) + "', ");
-            varQuery.Append("'" + Classes.GetStat(Stats.Point, classeID) + "')");
+            varQuery.Append($"'{pData.AccountID}', ");
+            varQuery.Append($"'{classeID}', ");
+            varQuery.Append($"'{charSlot}', ");
+            varQuery.Append($"'{name}', ");
+            varQuery.Append($"'{Classes.GetStat(Stats.Level, classeID)}', ");
+            varQuery.Append($"'{gender}', ");           
+            varQuery.Append($"'{sprite}', ");
+            varQuery.Append($"'{Classes.GetStat(Stats.MaxHP, classeID)}', ");
+            varQuery.Append($"'{Classes.GetStat(Stats.MaxMP, classeID)}', ");
+            varQuery.Append($"'{Classes.GetStat(Stats.MaxSP, classeID)}', ");
+            varQuery.Append($"'{Classes.GetStat(Stats.Strenght, classeID)}', ");
+            varQuery.Append($"'{Classes.GetStat(Stats.Dexterity, classeID)}', ");
+            varQuery.Append($"'{Classes.GetStat(Stats.Agility, classeID)}', ");
+            varQuery.Append($"'{Classes.GetStat(Stats.Constitution, classeID)}', ");
+            varQuery.Append($"'{Classes.GetStat(Stats.Intelligence, classeID)}', ");
+            varQuery.Append($"'{Classes.GetStat(Stats.Wisdom, classeID)}', ");
+            varQuery.Append($"'{Classes.GetStat(Stats.Will, classeID)}', ");
+            varQuery.Append($"'{Classes.GetStat(Stats.Mind, classeID)}', ");
+            varQuery.Append($"'{Classes.GetStat(Stats.Charisma, classeID)}', ");
+            varQuery.Append($"'{Classes.GetStat(Stats.Point, classeID)}')");
 
             var cmd = new MySqlCommand(varQuery.ToString(), Common_DB.Connection);
             cmd.ExecuteNonQuery(); 
@@ -209,17 +209,17 @@ namespace WorldServer.MySQL {
                 varQuery.Append("item_id, item_unique_id, item_count, enchant, item_element, durability, slots, expire_time, ");
                 varQuery.Append("is_soul_bound, is_equipped) ");
                 varQuery.Append("VALUES (");
-                varQuery.Append("'" + charID + "', ");
-                varQuery.Append("'" + inv +"', ");
-                varQuery.Append("'" + Classes.ClassesItem[index].Equipped[inv].ID + "', ");
-                varQuery.Append("'" + Classes.ClassesItem[index].Equipped[inv].UniqueID + "', ");
+                varQuery.Append($"'{charID}', ");
+                varQuery.Append($"'{inv}', ");
+                varQuery.Append($"'{Classes.ClassesItem[index].Equipped[inv].ID}', ");
+                varQuery.Append($"'{Classes.ClassesItem[index].Equipped[inv].UniqueID}', ");
                 varQuery.Append("'1', "); //quantidade
-                varQuery.Append("'" + Classes.ClassesItem[index].Equipped[inv].Enchant + "', ");
-                varQuery.Append("'" + Classes.ClassesItem[index].Equipped[inv].Element + "', ");
-                varQuery.Append("'" + Classes.ClassesItem[index].Equipped[inv].Durability + "', ");
-                varQuery.Append("'" + Classes.ClassesItem[index].Equipped[inv].Slots + "', ");
-                varQuery.Append("'" + Classes.ClassesItem[index].Equipped[inv].ExpireTime + "', ");
-                varQuery.Append("'" + Classes.ClassesItem[index].Equipped[inv].IsSoulBound + "', ");
+                varQuery.Append($"'{Classes.ClassesItem[index].Equipped[inv].Enchant}', ");
+                varQuery.Append($"'{Classes.ClassesItem[index].Equipped[inv].Element}', ");
+                varQuery.Append($"'{Classes.ClassesItem[index].Equipped[inv].Durability}', ");
+                varQuery.Append($"'{Classes.ClassesItem[index].Equipped[inv].Slots}', ");
+                varQuery.Append($"'{Classes.ClassesItem[index].Equipped[inv].ExpireTime}', ");
+                varQuery.Append($"'{Classes.ClassesItem[index].Equipped[inv].IsSoulBound}', ");
                 varQuery.Append("'1')"); //equipado
 
                 var cmd = new MySqlCommand(varQuery.ToString(), Common_DB.Connection);

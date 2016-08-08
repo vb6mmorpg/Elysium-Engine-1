@@ -1,4 +1,5 @@
 ﻿using Lidgren.Network;
+using LoginServer.Common;
 
 namespace LoginServer.Server {
     public class PlayerData {
@@ -70,7 +71,7 @@ namespace LoginServer.Server {
         /// <summary>
         /// Resultado de busca em cada world server.
         /// </summary>
-        public bool[] WorldResult { get; set; } = new bool[5];
+        public bool[] WorldResult { get; set; } = new bool[Settings.MAX_SERVER];
 
         /// <summary>
         /// Quantidade de resultados.

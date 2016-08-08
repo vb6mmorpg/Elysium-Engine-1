@@ -18,7 +18,7 @@ namespace WorldServer.MySQL {
 
 
             for (var classeID = 0; classeID < maxClasse; classeID++) {
-                varQuery = "SELECT * FROM classes_equipped WHERE classe_id ='" + classeID + "'";
+                varQuery = $"SELECT * FROM classes_equipped WHERE classe_id ='{classeID}'";
                 cmd.CommandText = varQuery;
                 cmd.Connection = Common_DB.Connection;
 

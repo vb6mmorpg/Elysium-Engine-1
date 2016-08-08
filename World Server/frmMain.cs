@@ -74,31 +74,31 @@ namespace WorldServer {
 
             // CARREGA TODAS AS INFORMAÇÕES DE CONFIURAÇÃO 
             Settings.WorldServerName = Configuration.GetString("WorldServerName");
-            WriteLog("WorldServerName: " + Settings.WorldServerName, Color.CornflowerBlue);
+            WriteLog($"WorldServerName: {Settings.WorldServerName}", Color.CornflowerBlue);
             this.Text = "World Server @ " + Settings.WorldServerName;
             
             Settings.Discovery = Configuration.GetString("Discovery");
-            WriteLog("Discovery: " + Settings.Discovery, Color.Black);
+            WriteLog($"Discovery: {Settings.Discovery}", Color.Black);
 
             Settings.IP = Configuration.GetString("IP");
-            WriteLog("IP: " + Settings.IP, Color.Black);
+            WriteLog($"IP: {Settings.IP}", Color.Black);
 
             Settings.Port = Configuration.GetInt32("Port");
-            WriteLog("Port: " + Settings.Port, Color.Black);
+            WriteLog($"Port: {Settings.Port}", Color.Black);
 
             Settings.MaxConnection = Configuration.GetInt32("MaximumConnections");
-            WriteLog("MaxConnection: " + Settings.MaxConnection, Color.Black);
+            WriteLog($"MaxConnection: {Settings.MaxConnection}", Color.Black);
 
             Settings.LogSystem = Configuration.GetBoolean("LogSystem");
-            WriteLog("LogSystem: " + Settings.LogSystem, Color.Black);
+            WriteLog($"LogSystem: {Settings.LogSystem}", Color.Black);
 
             Settings.Sleep = Configuration.GetInt32("Sleep");
-            WriteLog("Sleep: " + Settings.Sleep, Color.Black);
+            WriteLog($"Sleep: {Settings.Sleep}", Color.Black);
 
             LuaConfig.InitializeConfig();
 
-            WriteLog("Create Character: " + Settings.CharacterCreation, Color.MediumVioletRed);
-            WriteLog("Delete Character: " + Settings.CharacterDelete, Color.MediumVioletRed);
+            WriteLog($"Create Character: {Settings.CharacterCreation}", Color.MediumVioletRed);
+            WriteLog($"Delete Character: {Settings.CharacterDelete}", Color.MediumVioletRed);
 
             InitializeServerConfig();
 
@@ -152,7 +152,7 @@ namespace WorldServer {
             general_textbox.SelectionLength = 0;
 
             general_textbox.SelectionColor = color;
-            general_textbox.AppendText(DateTime.Now + ": " + log + Environment.NewLine);
+            general_textbox.AppendText($"{DateTime.Now}: {log}{Environment.NewLine}");
             general_textbox.SelectionColor = color;
 
             general_textbox.ScrollToCaret();
@@ -192,7 +192,7 @@ namespace WorldServer {
             Settings.GameServer = new List<ServerData>();
             var enabled = 0;
 
-            for (var i = 0; i < 5; i++) {
+            for (var i = 0; i < Settings.MAX_SERVER; i++) {
                 Settings.GameServer.Add(new ServerData());              
 
                 enabled = Configuration.GetInt32((i + 1) + "_Enabled");
@@ -208,7 +208,7 @@ namespace WorldServer {
                     Settings.GameServer[i].GameServerPort = Configuration.GetInt32((i + 1) + "_GameServerPort");
                     Settings.GameServer[i].Status = Configuration.GetString((i + 1) + "_Status");
 
-                    WriteLog("Game Server: " + Settings.GameServer[i].Name + " " + Settings.GameServer[i].Region + " " + Settings.GameServer[i].Status, Color.Coral);
+                    WriteLog($"Game Server: {Settings.GameServer[i].Name} {Settings.GameServer[i].Region} {Settings.GameServer[i].Status}", Color.Coral);
                 }
             }
         }

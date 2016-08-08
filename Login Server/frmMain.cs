@@ -64,28 +64,28 @@ namespace LoginServer
             trayIcon = new NotifyIcon();
             trayMenu = new ContextMenu();
 
-            Configuration.ParseConfigFile(Environment.CurrentDirectory + @"\"+ Settings.FileConfig);
+            Configuration.ParseConfigFile($"{Environment.CurrentDirectory}\\{Settings.FileConfig}");
 
             Settings.Discovery = Configuration.GetString("Discovery");
-            WriteLog("Discovery: " + Settings.Discovery, Color.Black);
+            WriteLog($"Discovery: {Settings.Discovery}", Color.Black);
 
             Settings.IP = Configuration.GetString("IP");
-            WriteLog("IP: " + Settings.IP, Color.Black);
+            WriteLog($"IP: {Settings.IP}", Color.Black);
 
             Settings.Port = Configuration.GetInt32("Port");
-            WriteLog("Port: " + Settings.Port, Color.Black);
+            WriteLog($"Port: {Settings.Port}", Color.Black);
 
             Settings.MaxConnection = Configuration.GetInt32("MaximumConnections");
-            WriteLog("MaxConnection: " + Settings.MaxConnection, Color.Black);
+            WriteLog($"MaxConnection: {Settings.MaxConnection}", Color.Black);
 
             Settings.LogSystem = Configuration.GetByte("LogSystem");
-            WriteLog("LogSystem: " + Settings.LogSystem, Color.Black);
+            WriteLog($"LogSystem: {Settings.LogSystem}", Color.Black);
 
             Settings.Sleep = Configuration.GetInt32("Sleep");
-            WriteLog("Sleep: " + Settings.Sleep, Color.Black);
+            WriteLog($"Sleep: {Settings.Sleep}", Color.Black);
 
             Settings.Version = Configuration.GetString("CheckVersion");
-            WriteLog("Version: " + Settings.Version, Color.Black);
+            WriteLog($"Version: {Settings.Version}", Color.Black);
 
             if (Settings.LogSystem == 1) {
                 WriteLog("LogSystem - Ativado.", Color.Green);
@@ -133,7 +133,7 @@ namespace LoginServer
             general_textbox.SelectionLength = 0;
 
             general_textbox.SelectionColor = color;
-            general_textbox.AppendText(DateTime.Now + ": " + log + Environment.NewLine);
+            general_textbox.AppendText($"{DateTime.Now}: {log}{Environment.NewLine}");
             general_textbox.SelectionColor = color;
 
             general_textbox.ScrollToCaret();
@@ -168,9 +168,9 @@ namespace LoginServer
         }
 
         private void reloadVersion_MenuItem_Click(object sender, EventArgs e) {
-            Configuration.ParseConfigFile(Environment.CurrentDirectory + @"\" + Settings.FileConfig);
+            Configuration.ParseConfigFile($"{Environment.CurrentDirectory}\\{Settings.FileConfig}");
             Settings.Version = Configuration.GetString("CheckVersion");
-            WriteLog("Version: " + Settings.Version, Color.Black);
+            WriteLog($"Version: {Settings.Version}", Color.Black);
         }
 
         private void disableLogin_MenuItem_Click(object sender, EventArgs e) {
@@ -205,7 +205,7 @@ namespace LoginServer
         /// </summary>
         public static void InitializeServerConfig() {
             var enabled = 0;
-            for (var i = 0; i < 5; i++) {
+            for (var i = 0; i < Settings.MAX_SERVER; i++) {
                 Settings.Server.Add(new ServerData());
 
                 enabled = Configuration.GetInt32((i + 1) + "_Enabled");
@@ -225,7 +225,7 @@ namespace LoginServer
                     Settings.Server[i].WorldServerPort = Configuration.GetInt32((i + 1) + "_WorldServerPort");
                     Settings.Server[i].Status = Configuration.GetString((i + 1) + "_Status");
 
-                    LogConfig.WriteLog("Servidor adicionado: " + Settings.Server[i].Name + " " + Settings.Server[i].Region + " " + Settings.Server[i].Status, System.Drawing.Color.Coral);
+                    LogConfig.WriteLog($"Servidor adicionado: {Settings.Server[i].Name} {Settings.Server[i].Region} {Settings.Server[i].Status}", System.Drawing.Color.Coral);
                 }
             }
         }

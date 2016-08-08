@@ -18,6 +18,9 @@ namespace Elysium_Diamond.DirectX {
             Right = 10
         }
 
+        //temp
+        public int ID { get; set; }
+
         public Direction Dir { get; set; }
         public string Name { get; set; }
         public string GuildName { get; set; }
@@ -38,10 +41,12 @@ namespace Elysium_Diamond.DirectX {
         public SpriteFlags SpriteFlags { get; set; }
         public Rectangle SourceRect { get; set; }
 
+        public bool Move { get; set; }
+
         public event EventHandler MouseUp, MouseDown, MouseMove, MouseLeave;
 
         private int anim, animTime, moveTime, step;
-        private bool move, mov, click;
+        private bool moveButton,  click;
 
         public EngineCharacter() {
             Visible = true;
@@ -84,7 +89,7 @@ namespace Elysium_Diamond.DirectX {
         public void ProcessAnimation() {
             anim = (int)Dir;
 
-            if (mov) {
+            if (Move) {
                 if (step == 0) {
                     if (Environment.TickCount >= animTime + 200) {
                         step = 1;
@@ -107,7 +112,7 @@ namespace Elysium_Diamond.DirectX {
         }
 
         public void ProcessMovement() {
-            if (!mov) { return; }
+            if (!Move) { return; }
 
             if (Environment.TickCount >= this.moveTime + 35) {
                 moveTime = Environment.TickCount;
@@ -117,7 +122,8 @@ namespace Elysium_Diamond.DirectX {
                         PositionY -= 4;
                         OffSetY -= 4;
                         if (OffSetY <= 0) {
-                            mov = false;
+                           // OffSetY = 0;
+                            Move = false;
                             Coordinate = new Point(Coordinate.X, Coordinate.Y - 1);
                         }
                         break;
@@ -126,7 +132,8 @@ namespace Elysium_Diamond.DirectX {
                         PositionY += 4;
                         OffSetY += 4;
                         if (OffSetY >= 0) {
-                            mov = false;
+                           // OffSetY = 0;
+                            Move = false;
                             Coordinate = new Point(Coordinate.X, Coordinate.Y + 1);
                         }
                         break;
@@ -135,7 +142,8 @@ namespace Elysium_Diamond.DirectX {
                         PositionX -= 4;
                         OffSetX -= 4;
                         if (OffSetX <= 0) {
-                            mov = false;
+                           // OffSetX = 0;
+                            Move = false;
                             Coordinate = new Point(Coordinate.X - 1, Coordinate.Y);
                         }
                         break;
@@ -144,7 +152,8 @@ namespace Elysium_Diamond.DirectX {
                         PositionX += 4;
                         OffSetX += 4;
                         if (OffSetX >= 0) {
-                            mov = false;
+                           // OffSetX = 0;
+                            Move = false;
                             Coordinate = new Point(Coordinate.X + 1, Coordinate.Y);
                         }
                         break;
@@ -154,41 +163,41 @@ namespace Elysium_Diamond.DirectX {
 
         public void KeyState() {
             if (!Enabled) { return; }
-            if (Program.graphicsDisplay.Focused == false) { return; }
+            if (!Program.graphicsDisplay.Focused) { return; }
 
             if (GetAsyncKeyState((short)Keys.W) < 0) {
                 Program.graphicsDisplay.Text = GetAsyncKeyState((int)Keys.W) + "";
-                if (mov == false) {
+                if (Move == false) {
                     OffSetY = 16;
                     Dir = Direction.Up;
-                    mov = true;
+                    Move = true;
                     GeneralServerPacket.PlayerMove(Dir);
                 }
             }
 
             if (GetAsyncKeyState((short)Keys.S) < 0) {
-                if (mov == false) {
+                if (Move == false) {
                     OffSetY = -16;
                     Dir = Direction.Down;
-                    mov = true;
+                    Move = true;
                     GeneralServerPacket.PlayerMove(Dir);
                 }
             }
 
             if (GetAsyncKeyState((short)Keys.A) < 0) {
-                if (mov == false) {
+                if (Move == false) {
                     OffSetX = 16;
                     Dir = Direction.Left;
-                    mov = true;
+                    Move = true;
                     GeneralServerPacket.PlayerMove(Dir);
                 }
             }
 
             if (GetAsyncKeyState((short)Keys.D) < 0) {
-                if (mov == false) {
+                if (Move == false) {
                     OffSetX = -16;
                     Dir = Direction.Right;
-                    mov = true;
+                    Move = true;
                     GeneralServerPacket.PlayerMove(Dir);
                 }
             }
@@ -197,8 +206,8 @@ namespace Elysium_Diamond.DirectX {
         public void MouseButtons() {
             if (Enabled) {
                 if (InsideButton()) {
-                    if (!move) {
-                        move = true;
+                    if (!moveButton) {
+                        moveButton = true;
                         MouseMove?.Invoke(this, EventArgs.Empty);
                     }
 
@@ -216,8 +225,8 @@ namespace Elysium_Diamond.DirectX {
                     }
                 }
                 else {
-                    if (move) {
-                        move = false;
+                    if (moveButton) {
+                        moveButton = false;
                         MouseLeave?.Invoke(this, EventArgs.Empty);
                     }
                 }

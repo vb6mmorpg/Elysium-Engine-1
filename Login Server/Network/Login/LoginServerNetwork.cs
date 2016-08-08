@@ -57,11 +57,11 @@ namespace LoginServer.Network {
                         #endregion
 
                         LoginServerNetwork.Socket.SendDiscoveryResponse(null, msg.SenderEndPoint);
-                        LogConfig.WriteLog("Discovery Response IPEndPoint: " + msg.SenderEndPoint.Address, Color.Coral); 
+                        LogConfig.WriteLog($"Discovery Response IPEndPoint: {msg.SenderEndPoint.Address}", Color.Coral); 
                         break;
 
                     case NetIncomingMessageType.ErrorMessage:
-                        LogConfig.WriteLog("Error: " + msg.ReadString(), Color.Coral);
+                        LogConfig.WriteLog($"Error: {msg.ReadString()}", Color.Coral);
                         break;
   
                     case NetIncomingMessageType.StatusChanged:
@@ -69,7 +69,7 @@ namespace LoginServer.Network {
                         NetConnectionStatus status = (NetConnectionStatus)msg.ReadByte();
 
                         if (status == NetConnectionStatus.Connected) {
-                            LogConfig.WriteLog("Status changed to connected: " + msg.SenderEndPoint.Address, Color.Coral);
+                            LogConfig.WriteLog($"Status changed to connected: {msg.SenderEndPoint.Address}", Color.Coral);
                             Authentication.Player.Add(new PlayerData(msg.SenderConnection, NetUtility.ToHexString(msg.SenderConnection.RemoteUniqueIdentifier), msg.SenderEndPoint.Address.ToString()));
                         }
                         #endregion
@@ -79,8 +79,8 @@ namespace LoginServer.Network {
                             pData = Authentication.FindByHexID(NetUtility.ToHexString(msg.SenderConnection.RemoteUniqueIdentifier));
 
                             //1 - enabled, 0 - disabled
-                            if (Settings.LogSystem == 1) { LogConfig.WriteLog("Status changed to disconnected: " + pData?.ID + " " + pData?.Account + " " + msg.SenderEndPoint.Address); }
-                            if (!Settings.LogSystemScreen) { LogConfig.WriteLog("Status changed to disconnected: " + pData?.ID + " " + pData?.Account + " " + msg.SenderEndPoint.Address, Color.Coral); }
+                            if (Settings.LogSystem == 1) { LogConfig.WriteLog($"Status changed to disconnected: {pData?.ID} {pData?.Account} {msg.SenderEndPoint.Address}"); }
+                            if (!Settings.LogSystemScreen) { LogConfig.WriteLog($"Status changed to disconnected: {pData?.ID} {pData?.Account} {msg.SenderEndPoint.Address}", Color.Coral); }
 
                             Accounts_DB.UpdateLastIP(pData.Account, pData.IP);
                             Accounts_DB.UpdateLoggedIn(pData.Account, 0);
@@ -96,7 +96,7 @@ namespace LoginServer.Network {
 
                     default:
                         //Registra qualquer mensagem invalida
-                        LogConfig.WriteLog("Unhandled type: " + msg.MessageType, Color.DarkRed);
+                        LogConfig.WriteLog($"Unhandled type: {msg.MessageType}", Color.DarkRed);
                         break;
                 }
 

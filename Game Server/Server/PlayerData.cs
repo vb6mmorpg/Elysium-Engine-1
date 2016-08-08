@@ -25,6 +25,7 @@ namespace GameServer.Server {
         public int StatPoint { get; set; }
         public int WorldID { get; set; }
         public int RegionID { get; set; }
+        public int Direction { get; set; }
         public short PosX { get; set; }
         public short PosY { get; set; }
         public PlayerService Service { get; set; }

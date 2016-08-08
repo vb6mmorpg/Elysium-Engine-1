@@ -14,7 +14,7 @@ namespace LoginServer.Server {
         /// </summary>
         /// <param name="accountID"></param>
         /// <returns></returns>
-        public static PlayerData FindByID(int accountID) {
+        public static PlayerData FindByAccountID(int accountID) {
             var find_id = from pData in Player
                           where pData.ID.CompareTo(accountID) == 0
                           select pData;

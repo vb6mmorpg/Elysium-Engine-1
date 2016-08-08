@@ -28,6 +28,8 @@ namespace GameServer.Network {
         public static void PlayerMove(NetConnection connection, int dir) {
             var pData = Authentication.FindByConnection(connection);
 
+            pData.Direction = dir;
+
             switch (dir) {
                 case (int)Direction.Up:
                     pData.PosY--;
@@ -42,6 +44,8 @@ namespace GameServer.Network {
                     pData.PosX++;
                     break;
             }
+
+            Maps.MapGeneral.Map.SendPlayerMove(pData, dir);
 
             LogConfig.WriteLog(pData.CharacterName + " Dir: " + dir + " X: " + pData.PosX + " Y: " + pData.PosY, System.Drawing.Color.Blue);
         }

@@ -101,6 +101,7 @@
     <Compile Include="Common\Stat.cs" />
     <Compile Include="Maps\MapData.cs" />
     <Compile Include="Maps\MapGeneral.cs" />
+    <Compile Include="Maps\MapLimit.cs" />
     <Compile Include="Maps\MapPacket.cs" />
     <Compile Include="Maps\MapRegion.cs" />
     <Compile Include="MySQL\Classes_DB.cs" />
@@ -111,6 +112,7 @@
     <Compile Include="Network\GameServerData.cs" />
     <Compile Include="Network\GameServerNetwork.cs" />
     <Compile Include="Network\GameServerPacket.cs" />
+    <Compile Include="Network\Packet\PlayerPacket.cs" />
     <Compile Include="Npcs\NpcGeneral.cs" />
     <Compile Include="Npcs\NpcData.cs" />
     <Compile Include="Server\Authentication.cs" />

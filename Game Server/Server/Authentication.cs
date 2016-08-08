@@ -127,10 +127,13 @@ namespace GameServer.Server {
                 GameServerPacket.SendPlayerData(pData.HexID);
 
                 // adiciona o jogador ao mapa
-                MapGeneral.Map.Player.Add(pData.AccountID);
+                MapGeneral.Map.PlayerID.Add(pData.AccountID);
 
                 //envia outros jogadores do mapa
-                MapGeneral.Map.GetPlayersOnMap(pData);
+                MapGeneral.Map.GetPlayerOnMap(pData);
+
+                //envia jogador para outros jogadores do mapa
+                MapGeneral.Map.SendPlayerToMap(pData);
 
                 //########################
                 //####  GET MAP DATA  ####
@@ -175,7 +178,7 @@ namespace GameServer.Server {
         /// </summary>
         /// <param name="pID"></param>
         /// <returns></returns>
-        public static PlayerData FindByID(int pID) {
+        public static PlayerData FindByAccountID(int pID) {
             var find_id = from pData in Player
                           where pData.AccountID.CompareTo(pID) == 0
                           select pData;

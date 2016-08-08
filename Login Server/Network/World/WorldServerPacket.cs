@@ -33,9 +33,9 @@ namespace LoginServer.Network {
 
             WorldServerNetwork.WorldServer[worldID].SendData(buffer);
 
-            LogConfig.WriteLog("World Server Login Attempt: " + pData.Account + " " + pData.IP); 
-            LogConfig.WriteLog("World Server Login Attempt: " + pData.Account + " " + pData.IP, System.Drawing.Color.Black); 
-        }
+            LogConfig.WriteLog($"World Server Login Attempt: {pData.Account} {pData.IP}"); 
+            LogConfig.WriteLog($"World Server Login Attempt: {pData.Account} {pData.IP}", System.Drawing.Color.Black); 
+        } 
 
         /// <summary>
         /// Verifica se o usuário já está conectado em algum outro servidor.

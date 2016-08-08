@@ -42,14 +42,14 @@ namespace WorldServer.Network {
                 switch (msg.MessageType) {
                     case NetIncomingMessageType.DiscoveryRequest:
                          Socket.SendDiscoveryResponse(null, msg.SenderEndPoint);
-                         LogConfig.WriteLog("Discovery Response IPEndPoint: " + msg.SenderEndPoint.Address, Color.Coral);
+                         LogConfig.WriteLog($"Discovery Response IPEndPoint: {msg.SenderEndPoint.Address}", Color.Coral);
 
                         break;
                     case NetIncomingMessageType.ErrorMessage:
                         #region ErrorMessage
                         var error = msg.ReadString();
 
-                        LogConfig.WriteLog("Error: " + error, Color.Coral);
+                        LogConfig.WriteLog($"Error: {error}", Color.Coral);
 
                         #endregion
 
@@ -59,7 +59,7 @@ namespace WorldServer.Network {
                         #region StatusChanged : Connected
                         NetConnectionStatus status = (NetConnectionStatus)msg.ReadByte();
                         if (status == NetConnectionStatus.Connected) {
-                            LogConfig.WriteLog("Status changed to connected: " + msg.SenderEndPoint.Address, Color.Coral);
+                            LogConfig.WriteLog($"Status changed to connected: {msg.SenderEndPoint.Address}", Color.Coral);
                             Authentication.Player.Add(new PlayerData(msg.SenderConnection, string.Empty, msg.SenderEndPoint.Address.ToString()));
                             WorldServerPacket.NeedHexID(msg.SenderConnection);
                         }
@@ -69,7 +69,7 @@ namespace WorldServer.Network {
                         if (status == NetConnectionStatus.Disconnected) {
                             pData = Authentication.FindByConnection(msg.SenderConnection);
 
-                            LogConfig.WriteLog("Status changed to disconnected: " + pData.AccountID + " " + pData?.Account + " " + msg.SenderEndPoint.Address, Color.Coral);
+                            LogConfig.WriteLog($"Status changed to disconnected: {pData.AccountID} {pData?.Account} {msg.SenderEndPoint.Address}", Color.Coral);
                
                             pData.Clear();
                             Authentication.Player.Remove(pData);
@@ -83,9 +83,9 @@ namespace WorldServer.Network {
                         break;
             
                     default:
-                        if (Settings.LogSystem) { LogConfig.WriteLog("Unhandled type: " + msg.MessageType); }
+                        if (Settings.LogSystem) { LogConfig.WriteLog($"Unhandled type: {msg.MessageType}"); }
 
-                        Program.WorldForm.WriteLog("Unhandled type: " + msg.MessageType, Color.DarkRed);
+                        Program.WorldForm.WriteLog($"Unhandled type: {msg.MessageType}", Color.DarkRed);
                         break;
                 }
 

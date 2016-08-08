@@ -1,0 +1,2630 @@
+08/08/2016 12:32:16: Carregando dados de mysql.
+08/08/2016 12:32:16: ID: #artemis#
+08/08/2016 12:32:16: Name: Canal 1
+08/08/2016 12:32:16: Discovery: Elysium Diamond #1.0.0
+08/08/2016 12:32:16: IP: 127.0.0.1
+08/08/2016 12:32:16: Port: 10120
+08/08/2016 12:32:16: MaximumConnections: 2000
+08/08/2016 12:32:16: Logs: True
+08/08/2016 12:32:16: ClientSerial: #elysium#
+08/08/2016 12:32:16: Sleep: 1
+08/08/2016 12:32:16: TestServer: False
+08/08/2016 12:32:16: WorldServer 1 ID: Artemis
+08/08/2016 12:32:16: WorldServer 2 ID: 
+08/08/2016 12:32:16: WorldServer 3 ID: 
+08/08/2016 12:32:16: WorldServer 4 ID: 
+08/08/2016 12:32:16: WorldServer 5 ID: 
+08/08/2016 12:32:16: Connectado ao banco de dados
+08/08/2016 12:32:16: Carregando experiência
+08/08/2016 12:32:16: Exp Máximo: 121 22353256174
+08/08/2016 12:32:16: Carregando guilds.
+08/08/2016 12:32:16: Total : 0 guilds carregados.
+08/08/2016 12:32:16: Carregando membros.
+08/08/2016 12:32:16: Total : 0 membros carregados.
+08/08/2016 12:32:16: Carregando classes
+08/08/2016 12:32:16: Carregando NPC
+08/08/2016 12:32:17: Servidor iniciado
+08/08/2016 12:32:25: Status changed to connected: 127.0.0.1
+08/08/2016 12:33:52: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 D4D8677674549768
+08/08/2016 12:33:52: Status changed to connected: 127.0.0.1
+08/08/2016 12:33:53: Received From Client: D4D8677674549768
+08/08/2016 12:33:53: Player Found ID: 1 Name: Joanlac
+08/08/2016 12:33:54: Joanlac Dir: 4 X: 0 Y: 1
+08/08/2016 12:33:54: Joanlac Dir: 4 X: 0 Y: 2
+08/08/2016 12:33:54: Joanlac Dir: 10 X: 1 Y: 2
+08/08/2016 12:33:54: Joanlac Dir: 10 X: 2 Y: 2
+08/08/2016 12:33:54: Joanlac Dir: 10 X: 3 Y: 2
+08/08/2016 12:33:54: Joanlac Dir: 4 X: 3 Y: 3
+08/08/2016 12:33:55: Joanlac Dir: 4 X: 3 Y: 4
+08/08/2016 12:33:55: Joanlac Dir: 4 X: 3 Y: 5
+08/08/2016 12:33:55: Joanlac Dir: 10 X: 4 Y: 5
+08/08/2016 12:33:55: Joanlac Dir: 10 X: 5 Y: 5
+08/08/2016 12:33:55: Joanlac Dir: 10 X: 6 Y: 5
+08/08/2016 12:33:56: Joanlac Dir: 4 X: 6 Y: 6
+08/08/2016 12:33:56: Joanlac Dir: 4 X: 6 Y: 7
+08/08/2016 12:33:56: Joanlac Dir: 4 X: 6 Y: 8
+08/08/2016 12:33:56: Joanlac Dir: 4 X: 6 Y: 9
+08/08/2016 12:33:57: Joanlac Dir: 4 X: 6 Y: 10
+08/08/2016 12:33:57: Joanlac Dir: 4 X: 6 Y: 11
+08/08/2016 12:33:57: Joanlac Dir: 10 X: 7 Y: 11
+08/08/2016 12:33:58: Joanlac Dir: 7 X: 6 Y: 11
+08/08/2016 12:33:58: Joanlac Dir: 4 X: 6 Y: 12
+08/08/2016 12:33:58: Joanlac Dir: 4 X: 6 Y: 13
+08/08/2016 12:33:58: Joanlac Dir: 4 X: 6 Y: 14
+08/08/2016 12:33:59: Joanlac Dir: 4 X: 6 Y: 15
+08/08/2016 12:33:59: Joanlac Dir: 4 X: 6 Y: 16
+08/08/2016 12:33:59: Joanlac Dir: 4 X: 6 Y: 17
+08/08/2016 12:33:59: Joanlac Dir: 4 X: 6 Y: 18
+08/08/2016 12:34:00: Joanlac Dir: 10 X: 7 Y: 18
+08/08/2016 12:34:01: Joanlac Dir: 10 X: 8 Y: 18
+08/08/2016 12:34:01: Joanlac Dir: 10 X: 9 Y: 18
+08/08/2016 12:34:16: Data From World Server ID: 2 Account: dragonick Char ID: 10 Slot: 0 8CB476F2F8BE21D6
+08/08/2016 12:34:19: Status changed to connected: 127.0.0.1
+08/08/2016 12:34:19: Received From Client: 8CB476F2F8BE21D6
+08/08/2016 12:34:19: Player Found ID: 10 Name: sacizenta
+08/08/2016 12:34:20: sacizenta Dir: 4 X: 0 Y: 1
+08/08/2016 12:34:21: sacizenta Dir: 4 X: 0 Y: 2
+08/08/2016 12:34:21: sacizenta Dir: 4 X: 0 Y: 3
+08/08/2016 12:34:21: sacizenta Dir: 4 X: 0 Y: 4
+08/08/2016 12:34:21: sacizenta Dir: 10 X: 1 Y: 4
+08/08/2016 12:34:21: sacizenta Dir: 10 X: 2 Y: 4
+08/08/2016 12:34:22: sacizenta Dir: 10 X: 3 Y: 4
+08/08/2016 12:34:22: sacizenta Dir: 4 X: 3 Y: 5
+08/08/2016 12:34:22: sacizenta Dir: 4 X: 3 Y: 6
+08/08/2016 12:34:22: sacizenta Dir: 4 X: 3 Y: 7
+08/08/2016 12:34:23: sacizenta Dir: 4 X: 3 Y: 8
+08/08/2016 12:34:23: sacizenta Dir: 4 X: 3 Y: 9
+08/08/2016 12:34:24: sacizenta Dir: 10 X: 4 Y: 9
+08/08/2016 12:34:24: sacizenta Dir: 10 X: 5 Y: 9
+08/08/2016 12:34:24: sacizenta Dir: 1 X: 5 Y: 8
+08/08/2016 12:34:24: sacizenta Dir: 7 X: 4 Y: 8
+08/08/2016 12:34:25: sacizenta Dir: 7 X: 3 Y: 8
+08/08/2016 12:34:25: sacizenta Dir: 10 X: 4 Y: 8
+08/08/2016 12:34:25: sacizenta Dir: 4 X: 4 Y: 9
+08/08/2016 12:34:25: sacizenta Dir: 4 X: 4 Y: 10
+08/08/2016 12:34:25: sacizenta Dir: 4 X: 4 Y: 11
+08/08/2016 12:34:26: sacizenta Dir: 10 X: 5 Y: 11
+08/08/2016 12:34:26: sacizenta Dir: 10 X: 6 Y: 11
+08/08/2016 12:34:26: sacizenta Dir: 7 X: 5 Y: 11
+08/08/2016 12:34:26: sacizenta Dir: 7 X: 4 Y: 11
+08/08/2016 12:34:27: sacizenta Dir: 10 X: 5 Y: 11
+08/08/2016 12:34:27: sacizenta Dir: 10 X: 6 Y: 11
+08/08/2016 12:34:27: sacizenta Dir: 7 X: 5 Y: 11
+08/08/2016 12:34:27: sacizenta Dir: 10 X: 6 Y: 11
+08/08/2016 12:34:28: sacizenta Dir: 1 X: 6 Y: 10
+08/08/2016 12:34:28: sacizenta Dir: 4 X: 6 Y: 11
+08/08/2016 12:34:28: sacizenta Dir: 10 X: 7 Y: 11
+08/08/2016 12:34:28: sacizenta Dir: 7 X: 6 Y: 11
+08/08/2016 12:34:28: sacizenta Dir: 1 X: 6 Y: 10
+08/08/2016 12:34:29: sacizenta Dir: 7 X: 5 Y: 10
+08/08/2016 12:34:29: sacizenta Dir: 4 X: 5 Y: 11
+08/08/2016 12:34:29: sacizenta Dir: 10 X: 6 Y: 11
+08/08/2016 12:51:31: Carregando dados de mysql.
+08/08/2016 12:51:31: ID: #artemis#
+08/08/2016 12:51:31: Name: Canal 1
+08/08/2016 12:51:31: Discovery: Elysium Diamond #1.0.0
+08/08/2016 12:51:31: IP: 127.0.0.1
+08/08/2016 12:51:31: Port: 10120
+08/08/2016 12:51:31: MaximumConnections: 2000
+08/08/2016 12:51:31: Logs: True
+08/08/2016 12:51:31: ClientSerial: #elysium#
+08/08/2016 12:51:31: Sleep: 1
+08/08/2016 12:51:31: TestServer: False
+08/08/2016 12:51:31: WorldServer 1 ID: Artemis
+08/08/2016 12:51:31: WorldServer 2 ID: 
+08/08/2016 12:51:31: WorldServer 3 ID: 
+08/08/2016 12:51:31: WorldServer 4 ID: 
+08/08/2016 12:51:31: WorldServer 5 ID: 
+08/08/2016 12:51:32: Connectado ao banco de dados
+08/08/2016 12:51:32: Carregando experiência
+08/08/2016 12:51:32: Exp Máximo: 121 22353256174
+08/08/2016 12:51:32: Carregando guilds.
+08/08/2016 12:51:32: Total : 0 guilds carregados.
+08/08/2016 12:51:32: Carregando membros.
+08/08/2016 12:51:32: Total : 0 membros carregados.
+08/08/2016 12:51:32: Carregando classes
+08/08/2016 12:51:32: Carregando NPC
+08/08/2016 12:51:34: Servidor iniciado
+08/08/2016 12:51:36: Status changed to connected: 127.0.0.1
+08/08/2016 12:53:05: Data From World Server ID: 1 Account: akaruz Char ID: 3 Slot: 2 9E19C123EB4D41B3
+08/08/2016 12:53:06: Status changed to connected: 127.0.0.1
+08/08/2016 12:53:06: Received From Client: 9E19C123EB4D41B3
+08/08/2016 12:53:06: Player Found ID: 3 Name: 地区
+08/08/2016 12:53:07: 地区 Dir: 4 X: 0 Y: 1
+08/08/2016 12:53:07: 地区 Dir: 4 X: 0 Y: 2
+08/08/2016 12:53:08: 地区 Dir: 4 X: 0 Y: 3
+08/08/2016 12:53:08: 地区 Dir: 10 X: 1 Y: 3
+08/08/2016 12:53:08: 地区 Dir: 10 X: 2 Y: 3
+08/08/2016 12:53:08: 地区 Dir: 10 X: 3 Y: 3
+08/08/2016 12:53:08: 地区 Dir: 10 X: 4 Y: 3
+08/08/2016 12:53:09: 地区 Dir: 10 X: 5 Y: 3
+08/08/2016 12:53:09: 地区 Dir: 4 X: 5 Y: 4
+08/08/2016 12:53:09: 地区 Dir: 4 X: 5 Y: 5
+08/08/2016 12:53:09: 地区 Dir: 4 X: 5 Y: 6
+08/08/2016 12:53:09: 地区 Dir: 10 X: 6 Y: 6
+08/08/2016 12:53:09: 地区 Dir: 10 X: 7 Y: 6
+08/08/2016 12:53:10: 地区 Dir: 10 X: 8 Y: 6
+08/08/2016 12:53:10: 地区 Dir: 10 X: 9 Y: 6
+08/08/2016 12:53:10: 地区 Dir: 10 X: 10 Y: 6
+08/08/2016 12:53:10: 地区 Dir: 10 X: 11 Y: 6
+08/08/2016 12:53:10: 地区 Dir: 10 X: 12 Y: 6
+08/08/2016 12:53:11: 地区 Dir: 4 X: 12 Y: 7
+08/08/2016 12:53:11: 地区 Dir: 4 X: 12 Y: 8
+08/08/2016 12:53:11: 地区 Dir: 4 X: 12 Y: 9
+08/08/2016 12:53:11: 地区 Dir: 10 X: 13 Y: 9
+08/08/2016 12:53:11: 地区 Dir: 10 X: 14 Y: 9
+08/08/2016 12:53:12: 地区 Dir: 10 X: 15 Y: 9
+08/08/2016 12:53:12: 地区 Dir: 10 X: 16 Y: 9
+08/08/2016 12:53:12: 地区 Dir: 10 X: 17 Y: 9
+08/08/2016 12:53:12: 地区 Dir: 10 X: 18 Y: 9
+08/08/2016 12:53:12: 地区 Dir: 10 X: 19 Y: 9
+08/08/2016 12:53:12: 地区 Dir: 10 X: 20 Y: 9
+08/08/2016 12:53:13: 地区 Dir: 4 X: 20 Y: 10
+08/08/2016 12:53:13: 地区 Dir: 4 X: 20 Y: 11
+08/08/2016 12:53:13: 地区 Dir: 4 X: 20 Y: 12
+08/08/2016 12:53:13: 地区 Dir: 4 X: 20 Y: 13
+08/08/2016 12:53:14: 地区 Dir: 4 X: 20 Y: 14
+08/08/2016 12:53:14: 地区 Dir: 4 X: 20 Y: 15
+08/08/2016 12:53:20: 地区 Dir: 10 X: 21 Y: 15
+08/08/2016 12:53:20: 地区 Dir: 10 X: 22 Y: 15
+08/08/2016 12:53:20: 地区 Dir: 10 X: 23 Y: 15
+08/08/2016 12:53:21: 地区 Dir: 10 X: 24 Y: 15
+08/08/2016 12:53:21: 地区 Dir: 10 X: 25 Y: 15
+08/08/2016 12:53:21: 地区 Dir: 10 X: 26 Y: 15
+08/08/2016 12:53:21: 地区 Dir: 1 X: 26 Y: 14
+08/08/2016 12:53:21: 地区 Dir: 1 X: 26 Y: 13
+08/08/2016 12:53:22: 地区 Dir: 1 X: 26 Y: 12
+08/08/2016 12:53:22: 地区 Dir: 1 X: 26 Y: 11
+08/08/2016 12:53:22: 地区 Dir: 10 X: 27 Y: 11
+08/08/2016 12:53:22: 地区 Dir: 10 X: 28 Y: 11
+08/08/2016 12:53:22: 地区 Dir: 10 X: 29 Y: 11
+08/08/2016 12:53:22: 地区 Dir: 10 X: 30 Y: 11
+08/08/2016 12:53:23: 地区 Dir: 10 X: 31 Y: 11
+08/08/2016 12:53:23: 地区 Dir: 4 X: 31 Y: 12
+08/08/2016 12:53:23: 地区 Dir: 4 X: 31 Y: 13
+08/08/2016 12:53:23: 地区 Dir: 4 X: 31 Y: 14
+08/08/2016 12:53:23: 地区 Dir: 4 X: 31 Y: 15
+08/08/2016 12:53:38: Data From World Server ID: 2 Account: dragonick Char ID: 10 Slot: 0 69FD581F7E8489EC
+08/08/2016 12:53:39: Status changed to connected: 127.0.0.1
+08/08/2016 12:53:39: Received From Client: 69FD581F7E8489EC
+08/08/2016 12:53:39: Player Found ID: 10 Name: sacizenta
+08/08/2016 12:53:41: sacizenta Dir: 4 X: 0 Y: 1
+08/08/2016 12:53:41: sacizenta Dir: 10 X: 1 Y: 1
+08/08/2016 12:53:41: sacizenta Dir: 10 X: 2 Y: 1
+08/08/2016 12:53:41: sacizenta Dir: 10 X: 3 Y: 1
+08/08/2016 12:53:42: sacizenta Dir: 10 X: 4 Y: 1
+08/08/2016 12:53:42: sacizenta Dir: 10 X: 5 Y: 1
+08/08/2016 12:53:42: sacizenta Dir: 10 X: 6 Y: 1
+08/08/2016 12:53:42: sacizenta Dir: 4 X: 6 Y: 2
+08/08/2016 12:53:43: sacizenta Dir: 4 X: 6 Y: 3
+08/08/2016 12:53:46: sacizenta Dir: 4 X: 6 Y: 4
+08/08/2016 12:53:46: sacizenta Dir: 4 X: 6 Y: 5
+08/08/2016 12:53:46: sacizenta Dir: 4 X: 6 Y: 6
+08/08/2016 12:53:46: sacizenta Dir: 4 X: 6 Y: 7
+08/08/2016 12:53:46: sacizenta Dir: 4 X: 6 Y: 8
+08/08/2016 12:53:47: sacizenta Dir: 4 X: 6 Y: 9
+08/08/2016 12:53:47: sacizenta Dir: 4 X: 6 Y: 10
+08/08/2016 12:53:47: sacizenta Dir: 4 X: 6 Y: 11
+08/08/2016 12:53:47: sacizenta Dir: 4 X: 6 Y: 12
+08/08/2016 12:53:48: sacizenta Dir: 4 X: 6 Y: 13
+08/08/2016 12:53:48: sacizenta Dir: 4 X: 6 Y: 14
+08/08/2016 12:53:49: sacizenta Dir: 10 X: 7 Y: 14
+08/08/2016 12:53:49: sacizenta Dir: 10 X: 8 Y: 14
+08/08/2016 12:53:49: sacizenta Dir: 10 X: 9 Y: 14
+08/08/2016 12:53:49: sacizenta Dir: 10 X: 10 Y: 14
+08/08/2016 12:53:49: sacizenta Dir: 10 X: 11 Y: 14
+08/08/2016 12:53:50: sacizenta Dir: 10 X: 12 Y: 14
+08/08/2016 12:53:50: sacizenta Dir: 10 X: 13 Y: 14
+08/08/2016 12:53:50: sacizenta Dir: 10 X: 14 Y: 14
+08/08/2016 12:53:50: sacizenta Dir: 10 X: 15 Y: 14
+08/08/2016 12:53:51: sacizenta Dir: 10 X: 16 Y: 14
+08/08/2016 12:53:51: sacizenta Dir: 10 X: 17 Y: 14
+08/08/2016 12:53:51: sacizenta Dir: 4 X: 17 Y: 15
+08/08/2016 12:53:52: sacizenta Dir: 10 X: 18 Y: 15
+08/08/2016 12:53:52: sacizenta Dir: 10 X: 19 Y: 15
+08/08/2016 12:53:52: sacizenta Dir: 10 X: 20 Y: 15
+08/08/2016 12:53:52: sacizenta Dir: 10 X: 21 Y: 15
+08/08/2016 12:53:53: sacizenta Dir: 10 X: 22 Y: 15
+08/08/2016 12:53:53: sacizenta Dir: 10 X: 23 Y: 15
+08/08/2016 12:53:53: sacizenta Dir: 10 X: 24 Y: 15
+08/08/2016 12:53:53: sacizenta Dir: 10 X: 25 Y: 15
+08/08/2016 12:53:53: sacizenta Dir: 10 X: 26 Y: 15
+08/08/2016 12:53:54: sacizenta Dir: 10 X: 27 Y: 15
+08/08/2016 12:53:54: sacizenta Dir: 10 X: 28 Y: 15
+08/08/2016 12:53:54: sacizenta Dir: 10 X: 29 Y: 15
+08/08/2016 12:53:54: sacizenta Dir: 10 X: 30 Y: 15
+08/08/2016 12:53:55: sacizenta Dir: 10 X: 31 Y: 15
+08/08/2016 12:53:56: sacizenta Dir: 7 X: 30 Y: 15
+08/08/2016 12:53:56: sacizenta Dir: 10 X: 31 Y: 15
+08/08/2016 12:54:09: sacizenta Dir: 4 X: 31 Y: 16
+08/08/2016 12:54:10: sacizenta Dir: 1 X: 31 Y: 15
+08/08/2016 12:54:10: sacizenta Dir: 10 X: 32 Y: 15
+08/08/2016 12:54:11: sacizenta Dir: 10 X: 33 Y: 15
+08/08/2016 12:54:15: sacizenta Dir: 7 X: 32 Y: 15
+08/08/2016 12:54:16: sacizenta Dir: 7 X: 31 Y: 15
+08/08/2016 12:54:19: sacizenta Dir: 10 X: 32 Y: 15
+08/08/2016 12:54:19: sacizenta Dir: 10 X: 33 Y: 15
+08/08/2016 12:54:19: sacizenta Dir: 10 X: 34 Y: 15
+08/08/2016 12:54:19: sacizenta Dir: 10 X: 35 Y: 15
+08/08/2016 12:54:20: sacizenta Dir: 7 X: 34 Y: 15
+08/08/2016 12:54:20: sacizenta Dir: 7 X: 33 Y: 15
+08/08/2016 12:54:20: sacizenta Dir: 7 X: 32 Y: 15
+08/08/2016 12:54:20: sacizenta Dir: 7 X: 31 Y: 15
+08/08/2016 12:54:21: sacizenta Dir: 7 X: 30 Y: 15
+08/08/2016 12:54:21: sacizenta Dir: 7 X: 29 Y: 15
+08/08/2016 12:54:21: sacizenta Dir: 7 X: 28 Y: 15
+08/08/2016 12:54:21: sacizenta Dir: 7 X: 27 Y: 15
+08/08/2016 12:54:22: sacizenta Dir: 7 X: 26 Y: 15
+08/08/2016 12:54:22: sacizenta Dir: 10 X: 27 Y: 15
+08/08/2016 12:54:22: sacizenta Dir: 10 X: 28 Y: 15
+08/08/2016 12:54:23: sacizenta Dir: 7 X: 27 Y: 15
+08/08/2016 12:54:23: sacizenta Dir: 7 X: 26 Y: 15
+08/08/2016 12:54:24: 地区 Dir: 7 X: 30 Y: 15
+08/08/2016 12:54:25: 地区 Dir: 7 X: 29 Y: 15
+08/08/2016 12:54:25: 地区 Dir: 7 X: 28 Y: 15
+08/08/2016 12:54:25: 地区 Dir: 7 X: 27 Y: 15
+08/08/2016 12:54:25: 地区 Dir: 7 X: 26 Y: 15
+08/08/2016 12:54:35: sacizenta Dir: 7 X: 25 Y: 15
+08/08/2016 12:54:35: sacizenta Dir: 7 X: 24 Y: 15
+08/08/2016 12:54:36: sacizenta Dir: 7 X: 23 Y: 15
+08/08/2016 12:54:36: sacizenta Dir: 7 X: 22 Y: 15
+08/08/2016 12:54:36: sacizenta Dir: 1 X: 22 Y: 14
+08/08/2016 12:54:36: sacizenta Dir: 1 X: 22 Y: 13
+08/08/2016 12:54:36: sacizenta Dir: 1 X: 22 Y: 12
+08/08/2016 12:54:37: sacizenta Dir: 1 X: 22 Y: 11
+08/08/2016 12:54:37: sacizenta Dir: 1 X: 22 Y: 10
+08/08/2016 12:54:37: sacizenta Dir: 1 X: 22 Y: 9
+08/08/2016 12:54:37: sacizenta Dir: 1 X: 22 Y: 8
+08/08/2016 12:54:38: sacizenta Dir: 1 X: 22 Y: 7
+08/08/2016 12:54:38: sacizenta Dir: 1 X: 22 Y: 6
+08/08/2016 12:54:38: sacizenta Dir: 1 X: 22 Y: 5
+08/08/2016 12:54:38: sacizenta Dir: 7 X: 21 Y: 5
+08/08/2016 12:54:38: sacizenta Dir: 7 X: 20 Y: 5
+08/08/2016 12:54:39: sacizenta Dir: 7 X: 19 Y: 5
+08/08/2016 12:54:39: sacizenta Dir: 7 X: 18 Y: 5
+08/08/2016 12:54:39: sacizenta Dir: 7 X: 17 Y: 5
+08/08/2016 12:54:39: sacizenta Dir: 7 X: 16 Y: 5
+08/08/2016 12:54:40: sacizenta Dir: 7 X: 15 Y: 5
+08/08/2016 12:54:41: 地区 Dir: 7 X: 25 Y: 15
+08/08/2016 12:54:41: 地区 Dir: 7 X: 24 Y: 15
+08/08/2016 12:54:41: 地区 Dir: 7 X: 23 Y: 15
+08/08/2016 12:54:41: 地区 Dir: 7 X: 22 Y: 15
+08/08/2016 12:54:42: 地区 Dir: 1 X: 22 Y: 14
+08/08/2016 12:54:42: 地区 Dir: 1 X: 22 Y: 13
+08/08/2016 12:54:42: 地区 Dir: 1 X: 22 Y: 12
+08/08/2016 12:54:42: 地区 Dir: 1 X: 22 Y: 11
+08/08/2016 12:54:42: 地区 Dir: 1 X: 22 Y: 10
+08/08/2016 12:54:43: 地区 Dir: 1 X: 22 Y: 9
+08/08/2016 12:54:43: 地区 Dir: 1 X: 22 Y: 8
+08/08/2016 12:54:43: 地区 Dir: 1 X: 22 Y: 7
+08/08/2016 12:54:43: 地区 Dir: 1 X: 22 Y: 6
+08/08/2016 12:54:43: 地区 Dir: 7 X: 21 Y: 6
+08/08/2016 12:54:44: 地区 Dir: 7 X: 20 Y: 6
+08/08/2016 12:54:44: 地区 Dir: 7 X: 19 Y: 6
+08/08/2016 12:54:44: 地区 Dir: 7 X: 18 Y: 6
+08/08/2016 12:54:44: 地区 Dir: 1 X: 18 Y: 5
+08/08/2016 12:54:45: 地区 Dir: 1 X: 18 Y: 4
+08/08/2016 12:54:45: 地区 Dir: 7 X: 17 Y: 4
+08/08/2016 12:54:45: 地区 Dir: 7 X: 16 Y: 4
+08/08/2016 12:54:45: 地区 Dir: 7 X: 15 Y: 4
+08/08/2016 12:54:45: 地区 Dir: 7 X: 14 Y: 4
+08/08/2016 12:54:46: 地区 Dir: 7 X: 13 Y: 4
+08/08/2016 12:54:46: 地区 Dir: 7 X: 12 Y: 4
+08/08/2016 12:54:50: sacizenta Dir: 10 X: 16 Y: 5
+08/08/2016 12:54:51: sacizenta Dir: 4 X: 16 Y: 6
+08/08/2016 12:54:51: sacizenta Dir: 7 X: 15 Y: 6
+08/08/2016 12:54:54: 地区 Dir: 1 X: 12 Y: 3
+08/08/2016 12:54:55: 地区 Dir: 4 X: 12 Y: 4
+08/08/2016 12:54:55: 地区 Dir: 4 X: 12 Y: 5
+08/08/2016 12:54:58: sacizenta Dir: 7 X: 14 Y: 6
+08/08/2016 12:54:59: sacizenta Dir: 10 X: 15 Y: 6
+08/08/2016 12:54:59: sacizenta Dir: 10 X: 16 Y: 6
+08/08/2016 12:55:00: sacizenta Dir: 10 X: 17 Y: 6
+08/08/2016 12:55:00: sacizenta Dir: 10 X: 18 Y: 6
+08/08/2016 12:55:00: sacizenta Dir: 7 X: 17 Y: 6
+08/08/2016 12:55:01: sacizenta Dir: 7 X: 16 Y: 6
+08/08/2016 12:55:01: sacizenta Dir: 7 X: 15 Y: 6
+08/08/2016 12:55:01: sacizenta Dir: 7 X: 14 Y: 6
+08/08/2016 12:55:01: sacizenta Dir: 7 X: 13 Y: 6
+08/08/2016 12:55:02: sacizenta Dir: 7 X: 12 Y: 6
+08/08/2016 12:55:02: sacizenta Dir: 7 X: 11 Y: 6
+08/08/2016 12:55:02: sacizenta Dir: 10 X: 12 Y: 6
+08/08/2016 13:01:50: Carregando dados de mysql.
+08/08/2016 13:01:50: ID: #artemis#
+08/08/2016 13:01:50: Name: Canal 1
+08/08/2016 13:01:50: Discovery: Elysium Diamond #1.0.0
+08/08/2016 13:01:50: IP: 127.0.0.1
+08/08/2016 13:01:50: Port: 10120
+08/08/2016 13:01:50: MaximumConnections: 2000
+08/08/2016 13:01:50: Logs: True
+08/08/2016 13:01:50: ClientSerial: #elysium#
+08/08/2016 13:01:50: Sleep: 1
+08/08/2016 13:01:50: TestServer: False
+08/08/2016 13:01:50: WorldServer 1 ID: Artemis
+08/08/2016 13:01:50: WorldServer 2 ID: 
+08/08/2016 13:01:50: WorldServer 3 ID: 
+08/08/2016 13:01:50: WorldServer 4 ID: 
+08/08/2016 13:01:50: WorldServer 5 ID: 
+08/08/2016 13:01:51: Connectado ao banco de dados
+08/08/2016 13:01:51: Carregando experiência
+08/08/2016 13:01:51: Exp Máximo: 121 22353256174
+08/08/2016 13:01:51: Carregando guilds.
+08/08/2016 13:01:51: Total : 0 guilds carregados.
+08/08/2016 13:01:51: Carregando membros.
+08/08/2016 13:01:51: Total : 0 membros carregados.
+08/08/2016 13:01:51: Carregando classes
+08/08/2016 13:01:51: Carregando NPC
+08/08/2016 13:01:52: Servidor iniciado
+08/08/2016 13:01:57: Status changed to connected: 127.0.0.1
+08/08/2016 13:02:23: Data From World Server ID: 1 Account: akaruz Char ID: 3 Slot: 2 9675408FD3F74290
+08/08/2016 13:02:24: Status changed to connected: 127.0.0.1
+08/08/2016 13:02:24: Received From Client: 9675408FD3F74290
+08/08/2016 13:02:24: Player Found ID: 3 Name: 地区
+08/08/2016 13:02:51: Data From World Server ID: 2 Account: dragonick Char ID: 10 Slot: 0 AC8EB3D660D06333
+08/08/2016 13:02:52: Status changed to connected: 127.0.0.1
+08/08/2016 13:02:52: Received From Client: AC8EB3D660D06333
+08/08/2016 13:02:52: Player Found ID: 10 Name: sacizenta
+08/08/2016 13:02:56: sacizenta Dir: 10 X: 1 Y: 0
+08/08/2016 13:02:58: sacizenta Dir: 10 X: 2 Y: 0
+08/08/2016 13:02:59: sacizenta Dir: 10 X: 3 Y: 0
+08/08/2016 13:02:59: sacizenta Dir: 10 X: 4 Y: 0
+08/08/2016 13:02:59: sacizenta Dir: 10 X: 5 Y: 0
+08/08/2016 13:03:00: sacizenta Dir: 10 X: 6 Y: 0
+08/08/2016 13:03:00: sacizenta Dir: 10 X: 7 Y: 0
+08/08/2016 13:03:01: sacizenta Dir: 10 X: 8 Y: 0
+08/08/2016 13:03:01: sacizenta Dir: 10 X: 9 Y: 0
+08/08/2016 13:03:02: sacizenta Dir: 10 X: 10 Y: 0
+08/08/2016 13:03:06: 地区 Dir: 10 X: 1 Y: 0
+08/08/2016 13:03:07: 地区 Dir: 10 X: 2 Y: 0
+08/08/2016 13:03:08: 地区 Dir: 10 X: 3 Y: 0
+08/08/2016 13:03:09: 地区 Dir: 10 X: 4 Y: 0
+08/08/2016 13:03:09: 地区 Dir: 10 X: 5 Y: 0
+08/08/2016 13:03:10: 地区 Dir: 10 X: 6 Y: 0
+08/08/2016 13:03:10: 地区 Dir: 10 X: 7 Y: 0
+08/08/2016 13:03:11: 地区 Dir: 10 X: 8 Y: 0
+08/08/2016 13:03:12: 地区 Dir: 10 X: 9 Y: 0
+08/08/2016 13:03:22: 地区 Dir: 10 X: 10 Y: 0
+08/08/2016 13:03:22: 地区 Dir: 7 X: 9 Y: 0
+08/08/2016 13:03:23: 地区 Dir: 10 X: 10 Y: 0
+08/08/2016 13:03:24: 地区 Dir: 7 X: 9 Y: 0
+08/08/2016 13:03:24: 地区 Dir: 7 X: 8 Y: 0
+08/08/2016 13:03:24: 地区 Dir: 7 X: 7 Y: 0
+08/08/2016 13:03:25: 地区 Dir: 7 X: 6 Y: 0
+08/08/2016 13:03:25: 地区 Dir: 7 X: 5 Y: 0
+08/08/2016 13:03:25: 地区 Dir: 7 X: 4 Y: 0
+08/08/2016 13:03:26: 地区 Dir: 7 X: 3 Y: 0
+08/08/2016 13:03:26: 地区 Dir: 7 X: 2 Y: 0
+08/08/2016 13:03:26: 地区 Dir: 7 X: 1 Y: 0
+08/08/2016 13:03:26: 地区 Dir: 7 X: 0 Y: 0
+08/08/2016 13:03:28: 地区 Dir: 1 X: 0 Y: -1
+08/08/2016 13:03:29: 地区 Dir: 4 X: 0 Y: 0
+08/08/2016 13:03:30: 地区 Dir: 10 X: 1 Y: 0
+08/08/2016 13:03:30: 地区 Dir: 10 X: 2 Y: 0
+08/08/2016 13:03:30: 地区 Dir: 10 X: 3 Y: 0
+08/08/2016 13:03:30: 地区 Dir: 10 X: 4 Y: 0
+08/08/2016 13:03:31: 地区 Dir: 10 X: 5 Y: 0
+08/08/2016 13:03:31: 地区 Dir: 10 X: 6 Y: 0
+08/08/2016 13:03:31: 地区 Dir: 10 X: 7 Y: 0
+08/08/2016 13:03:31: 地区 Dir: 10 X: 8 Y: 0
+08/08/2016 13:03:32: 地区 Dir: 10 X: 9 Y: 0
+08/08/2016 13:03:37: 地区 Dir: 10 X: 10 Y: 0
+08/08/2016 13:03:38: 地区 Dir: 10 X: 11 Y: 0
+08/08/2016 13:03:38: 地区 Dir: 7 X: 10 Y: 0
+08/08/2016 13:03:38: 地区 Dir: 7 X: 9 Y: 0
+08/08/2016 13:03:39: 地区 Dir: 7 X: 8 Y: 0
+08/08/2016 13:03:39: 地区 Dir: 10 X: 9 Y: 0
+08/08/2016 13:03:39: 地区 Dir: 10 X: 10 Y: 0
+08/08/2016 13:03:39: 地区 Dir: 10 X: 11 Y: 0
+08/08/2016 13:03:40: 地区 Dir: 10 X: 12 Y: 0
+08/08/2016 13:03:40: 地区 Dir: 10 X: 13 Y: 0
+08/08/2016 13:03:40: 地区 Dir: 10 X: 14 Y: 0
+08/08/2016 13:03:40: 地区 Dir: 10 X: 15 Y: 0
+08/08/2016 13:03:40: 地区 Dir: 10 X: 16 Y: 0
+08/08/2016 13:03:41: 地区 Dir: 10 X: 17 Y: 0
+08/08/2016 13:03:41: 地区 Dir: 10 X: 18 Y: 0
+08/08/2016 13:03:42: 地区 Dir: 7 X: 17 Y: 0
+08/08/2016 13:03:42: 地区 Dir: 7 X: 16 Y: 0
+08/08/2016 13:03:43: 地区 Dir: 7 X: 15 Y: 0
+08/08/2016 13:03:43: 地区 Dir: 7 X: 14 Y: 0
+08/08/2016 13:03:43: 地区 Dir: 7 X: 13 Y: 0
+08/08/2016 13:03:44: 地区 Dir: 7 X: 12 Y: 0
+08/08/2016 13:03:44: 地区 Dir: 7 X: 11 Y: 0
+08/08/2016 13:03:45: 地区 Dir: 10 X: 12 Y: 0
+08/08/2016 13:03:45: 地区 Dir: 7 X: 11 Y: 0
+08/08/2016 13:03:46: 地区 Dir: 10 X: 12 Y: 0
+08/08/2016 13:03:47: 地区 Dir: 7 X: 11 Y: 0
+08/08/2016 13:03:47: 地区 Dir: 7 X: 10 Y: 0
+08/08/2016 13:03:47: 地区 Dir: 7 X: 9 Y: 0
+08/08/2016 13:03:48: 地区 Dir: 7 X: 8 Y: 0
+08/08/2016 13:03:48: 地区 Dir: 7 X: 7 Y: 0
+08/08/2016 13:03:48: 地区 Dir: 7 X: 6 Y: 0
+08/08/2016 13:03:48: 地区 Dir: 7 X: 5 Y: 0
+08/08/2016 13:03:49: 地区 Dir: 7 X: 4 Y: 0
+08/08/2016 13:03:49: 地区 Dir: 7 X: 3 Y: 0
+08/08/2016 13:03:49: 地区 Dir: 7 X: 2 Y: 0
+08/08/2016 13:03:49: 地区 Dir: 7 X: 1 Y: 0
+08/08/2016 13:03:50: 地区 Dir: 7 X: 0 Y: 0
+08/08/2016 13:03:50: 地区 Dir: 10 X: 1 Y: 0
+08/08/2016 13:03:51: 地区 Dir: 10 X: 2 Y: 0
+08/08/2016 13:03:51: 地区 Dir: 10 X: 3 Y: 0
+08/08/2016 13:03:52: 地区 Dir: 10 X: 4 Y: 0
+08/08/2016 13:03:52: 地区 Dir: 10 X: 5 Y: 0
+08/08/2016 13:03:52: 地区 Dir: 10 X: 6 Y: 0
+08/08/2016 13:03:53: 地区 Dir: 10 X: 7 Y: 0
+08/08/2016 13:03:53: 地区 Dir: 10 X: 8 Y: 0
+08/08/2016 13:03:53: 地区 Dir: 10 X: 9 Y: 0
+08/08/2016 13:03:53: 地区 Dir: 10 X: 10 Y: 0
+08/08/2016 13:03:54: 地区 Dir: 7 X: 9 Y: 0
+08/08/2016 13:03:54: 地区 Dir: 10 X: 10 Y: 0
+08/08/2016 13:03:55: 地区 Dir: 7 X: 9 Y: 0
+08/08/2016 13:03:56: 地区 Dir: 10 X: 10 Y: 0
+08/08/2016 13:03:58: sacizenta Dir: 7 X: 9 Y: 0
+08/08/2016 13:03:58: sacizenta Dir: 7 X: 8 Y: 0
+08/08/2016 13:03:58: sacizenta Dir: 7 X: 7 Y: 0
+08/08/2016 13:03:59: sacizenta Dir: 7 X: 6 Y: 0
+08/08/2016 13:03:59: sacizenta Dir: 10 X: 7 Y: 0
+08/08/2016 13:03:59: sacizenta Dir: 10 X: 8 Y: 0
+08/08/2016 13:04:00: sacizenta Dir: 10 X: 9 Y: 0
+08/08/2016 13:04:01: sacizenta Dir: 7 X: 8 Y: 0
+08/08/2016 13:04:03: sacizenta Dir: 10 X: 9 Y: 0
+08/08/2016 13:04:03: sacizenta Dir: 10 X: 10 Y: 0
+08/08/2016 13:04:03: sacizenta Dir: 4 X: 10 Y: 1
+08/08/2016 13:04:04: sacizenta Dir: 4 X: 10 Y: 2
+08/08/2016 13:04:04: sacizenta Dir: 4 X: 10 Y: 3
+08/08/2016 13:04:04: sacizenta Dir: 7 X: 9 Y: 3
+08/08/2016 13:04:04: sacizenta Dir: 7 X: 8 Y: 3
+08/08/2016 13:04:04: sacizenta Dir: 7 X: 7 Y: 3
+08/08/2016 13:04:05: sacizenta Dir: 1 X: 7 Y: 2
+08/08/2016 13:04:05: sacizenta Dir: 1 X: 7 Y: 1
+08/08/2016 13:04:05: sacizenta Dir: 10 X: 8 Y: 1
+08/08/2016 13:04:06: sacizenta Dir: 1 X: 8 Y: 0
+08/08/2016 13:04:06: sacizenta Dir: 4 X: 8 Y: 1
+08/08/2016 13:04:06: sacizenta Dir: 4 X: 8 Y: 2
+08/08/2016 13:04:07: sacizenta Dir: 4 X: 8 Y: 3
+08/08/2016 13:04:07: sacizenta Dir: 4 X: 8 Y: 4
+08/08/2016 13:04:07: sacizenta Dir: 10 X: 9 Y: 4
+08/08/2016 13:04:08: sacizenta Dir: 1 X: 9 Y: 3
+08/08/2016 13:04:08: sacizenta Dir: 1 X: 9 Y: 2
+08/08/2016 13:04:08: sacizenta Dir: 1 X: 9 Y: 1
+08/08/2016 13:04:10: sacizenta Dir: 7 X: 8 Y: 1
+08/08/2016 13:04:11: sacizenta Dir: 1 X: 8 Y: 0
+08/08/2016 13:04:11: sacizenta Dir: 4 X: 8 Y: 1
+08/08/2016 13:04:16: 地区 Dir: 4 X: 10 Y: 1
+08/08/2016 13:04:16: 地区 Dir: 4 X: 10 Y: 2
+08/08/2016 13:04:16: 地区 Dir: 4 X: 10 Y: 3
+08/08/2016 13:04:16: 地区 Dir: 7 X: 9 Y: 3
+08/08/2016 13:04:17: 地区 Dir: 1 X: 9 Y: 2
+08/08/2016 13:04:17: 地区 Dir: 7 X: 8 Y: 2
+08/08/2016 13:04:17: 地区 Dir: 4 X: 8 Y: 3
+08/08/2016 13:04:17: 地区 Dir: 4 X: 8 Y: 4
+08/08/2016 13:04:18: 地区 Dir: 7 X: 7 Y: 4
+08/08/2016 13:04:18: 地区 Dir: 1 X: 7 Y: 3
+08/08/2016 13:04:19: 地区 Dir: 10 X: 8 Y: 3
+08/08/2016 13:04:19: 地区 Dir: 1 X: 8 Y: 2
+08/08/2016 13:04:19: 地区 Dir: 1 X: 8 Y: 1
+08/08/2016 13:04:19: 地区 Dir: 7 X: 7 Y: 1
+08/08/2016 13:04:20: 地区 Dir: 1 X: 7 Y: 0
+08/08/2016 13:04:20: 地区 Dir: 10 X: 8 Y: 0
+08/08/2016 13:04:21: 地区 Dir: 4 X: 8 Y: 1
+08/08/2016 13:04:21: 地区 Dir: 4 X: 8 Y: 2
+08/08/2016 13:04:22: sacizenta Dir: 4 X: 8 Y: 2
+08/08/2016 13:04:22: sacizenta Dir: 4 X: 8 Y: 3
+08/08/2016 13:04:22: sacizenta Dir: 4 X: 8 Y: 4
+08/08/2016 13:04:22: sacizenta Dir: 4 X: 8 Y: 5
+08/08/2016 13:04:22: sacizenta Dir: 7 X: 7 Y: 5
+08/08/2016 13:04:23: sacizenta Dir: 10 X: 8 Y: 5
+08/08/2016 13:04:24: sacizenta Dir: 10 X: 9 Y: 5
+08/08/2016 13:04:24: sacizenta Dir: 10 X: 10 Y: 5
+08/08/2016 13:04:24: sacizenta Dir: 10 X: 11 Y: 5
+08/08/2016 13:04:24: sacizenta Dir: 10 X: 12 Y: 5
+08/08/2016 13:04:25: sacizenta Dir: 7 X: 11 Y: 5
+08/08/2016 13:04:25: sacizenta Dir: 7 X: 10 Y: 5
+08/08/2016 13:04:25: sacizenta Dir: 7 X: 9 Y: 5
+08/08/2016 13:04:25: sacizenta Dir: 7 X: 8 Y: 5
+08/08/2016 13:04:25: sacizenta Dir: 7 X: 7 Y: 5
+08/08/2016 13:04:26: sacizenta Dir: 1 X: 7 Y: 4
+08/08/2016 13:04:26: sacizenta Dir: 1 X: 7 Y: 3
+08/08/2016 13:04:26: sacizenta Dir: 1 X: 7 Y: 2
+08/08/2016 13:04:26: sacizenta Dir: 7 X: 6 Y: 2
+08/08/2016 13:04:27: sacizenta Dir: 7 X: 5 Y: 2
+08/08/2016 13:04:27: sacizenta Dir: 7 X: 4 Y: 2
+08/08/2016 13:04:28: sacizenta Dir: 7 X: 3 Y: 2
+08/08/2016 13:04:28: sacizenta Dir: 7 X: 2 Y: 2
+08/08/2016 13:04:29: sacizenta Dir: 7 X: 1 Y: 2
+08/08/2016 13:04:29: sacizenta Dir: 1 X: 1 Y: 1
+08/08/2016 13:04:29: sacizenta Dir: 1 X: 1 Y: 0
+08/08/2016 13:04:29: sacizenta Dir: 7 X: 0 Y: 0
+08/08/2016 13:04:31: 地区 Dir: 7 X: 7 Y: 2
+08/08/2016 13:04:31: 地区 Dir: 7 X: 6 Y: 2
+08/08/2016 13:04:31: 地区 Dir: 7 X: 5 Y: 2
+08/08/2016 13:04:32: 地区 Dir: 1 X: 5 Y: 1
+08/08/2016 13:04:32: 地区 Dir: 1 X: 5 Y: 0
+08/08/2016 13:04:32: 地区 Dir: 7 X: 4 Y: 0
+08/08/2016 13:04:32: 地区 Dir: 7 X: 3 Y: 0
+08/08/2016 13:04:33: 地区 Dir: 1 X: 3 Y: -1
+08/08/2016 13:04:33: 地区 Dir: 7 X: 2 Y: -1
+08/08/2016 13:04:33: 地区 Dir: 7 X: 1 Y: -1
+08/08/2016 13:04:33: 地区 Dir: 7 X: 0 Y: -1
+08/08/2016 13:04:34: 地区 Dir: 7 X: -1 Y: -1
+08/08/2016 13:04:35: 地区 Dir: 10 X: 0 Y: -1
+08/08/2016 13:04:35: 地区 Dir: 4 X: 0 Y: 0
+08/08/2016 13:04:36: 地区 Dir: 10 X: 1 Y: 0
+08/08/2016 13:04:37: 地区 Dir: 7 X: 0 Y: 0
+08/08/2016 13:04:38: 地区 Dir: 1 X: 0 Y: -1
+08/08/2016 13:04:39: 地区 Dir: 4 X: 0 Y: 0
+08/08/2016 13:04:41: 地区 Dir: 10 X: 1 Y: 0
+08/08/2016 13:04:41: 地区 Dir: 10 X: 2 Y: 0
+08/08/2016 13:04:41: 地区 Dir: 10 X: 3 Y: 0
+08/08/2016 13:04:41: 地区 Dir: 10 X: 4 Y: 0
+08/08/2016 13:04:42: 地区 Dir: 10 X: 5 Y: 0
+08/08/2016 13:04:42: 地区 Dir: 10 X: 6 Y: 0
+08/08/2016 13:04:42: 地区 Dir: 10 X: 7 Y: 0
+08/08/2016 13:04:42: 地区 Dir: 10 X: 8 Y: 0
+08/08/2016 13:04:42: 地区 Dir: 10 X: 9 Y: 0
+08/08/2016 13:04:43: 地区 Dir: 10 X: 10 Y: 0
+08/08/2016 13:04:44: 地区 Dir: 10 X: 11 Y: 0
+08/08/2016 13:04:44: 地区 Dir: 10 X: 12 Y: 0
+08/08/2016 13:04:44: 地区 Dir: 10 X: 13 Y: 0
+08/08/2016 13:04:44: 地区 Dir: 10 X: 14 Y: 0
+08/08/2016 13:04:45: 地区 Dir: 10 X: 15 Y: 0
+08/08/2016 13:04:45: 地区 Dir: 10 X: 16 Y: 0
+08/08/2016 13:04:45: 地区 Dir: 10 X: 17 Y: 0
+08/08/2016 13:04:45: 地区 Dir: 4 X: 17 Y: 1
+08/08/2016 13:04:46: 地区 Dir: 4 X: 17 Y: 2
+08/08/2016 13:04:46: 地区 Dir: 4 X: 17 Y: 3
+08/08/2016 13:04:46: 地区 Dir: 7 X: 16 Y: 3
+08/08/2016 13:04:46: 地区 Dir: 7 X: 15 Y: 3
+08/08/2016 13:04:46: 地区 Dir: 7 X: 14 Y: 3
+08/08/2016 13:04:47: 地区 Dir: 7 X: 13 Y: 3
+08/08/2016 13:04:47: 地区 Dir: 7 X: 12 Y: 3
+08/08/2016 13:04:47: 地区 Dir: 7 X: 11 Y: 3
+08/08/2016 13:04:55: 地区 Dir: 7 X: 10 Y: 3
+08/08/2016 13:05:04: 地区 Dir: 7 X: 9 Y: 3
+08/08/2016 13:05:05: 地区 Dir: 7 X: 8 Y: 3
+08/08/2016 13:05:06: 地区 Dir: 7 X: 7 Y: 3
+08/08/2016 13:05:06: 地区 Dir: 7 X: 6 Y: 3
+08/08/2016 13:05:07: 地区 Dir: 7 X: 5 Y: 3
+08/08/2016 13:05:08: 地区 Dir: 7 X: 4 Y: 3
+08/08/2016 13:05:08: 地区 Dir: 7 X: 3 Y: 3
+08/08/2016 13:05:10: 地区 Dir: 10 X: 4 Y: 3
+08/08/2016 13:05:13: 地区 Dir: 7 X: 3 Y: 3
+08/08/2016 13:05:14: 地区 Dir: 7 X: 2 Y: 3
+08/08/2016 13:05:15: 地区 Dir: 7 X: 1 Y: 3
+08/08/2016 13:05:16: 地区 Dir: 7 X: 0 Y: 3
+08/08/2016 13:05:20: sacizenta Dir: 4 X: 0 Y: 1
+08/08/2016 13:05:21: sacizenta Dir: 4 X: 0 Y: 2
+08/08/2016 13:05:22: sacizenta Dir: 4 X: 0 Y: 3
+08/08/2016 13:05:22: sacizenta Dir: 4 X: 0 Y: 4
+08/08/2016 13:05:23: sacizenta Dir: 1 X: 0 Y: 3
+08/08/2016 13:05:23: sacizenta Dir: 1 X: 0 Y: 2
+08/08/2016 13:05:23: sacizenta Dir: 1 X: 0 Y: 1
+08/08/2016 13:05:24: sacizenta Dir: 10 X: 1 Y: 1
+08/08/2016 13:05:24: sacizenta Dir: 10 X: 2 Y: 1
+08/08/2016 13:05:24: sacizenta Dir: 10 X: 3 Y: 1
+08/08/2016 13:05:25: sacizenta Dir: 10 X: 4 Y: 1
+08/08/2016 13:05:25: sacizenta Dir: 10 X: 5 Y: 1
+08/08/2016 13:05:25: sacizenta Dir: 10 X: 6 Y: 1
+08/08/2016 13:05:25: sacizenta Dir: 10 X: 7 Y: 1
+08/08/2016 13:05:26: sacizenta Dir: 10 X: 8 Y: 1
+08/08/2016 13:05:26: sacizenta Dir: 10 X: 9 Y: 1
+08/08/2016 13:05:26: sacizenta Dir: 10 X: 10 Y: 1
+08/08/2016 13:05:26: sacizenta Dir: 10 X: 11 Y: 1
+08/08/2016 13:05:26: sacizenta Dir: 10 X: 12 Y: 1
+08/08/2016 13:05:27: sacizenta Dir: 10 X: 13 Y: 1
+08/08/2016 13:05:27: sacizenta Dir: 10 X: 14 Y: 1
+08/08/2016 13:05:27: sacizenta Dir: 10 X: 15 Y: 1
+08/08/2016 13:05:27: sacizenta Dir: 10 X: 16 Y: 1
+08/08/2016 13:05:28: sacizenta Dir: 10 X: 17 Y: 1
+08/08/2016 13:05:28: sacizenta Dir: 10 X: 18 Y: 1
+08/08/2016 13:05:28: sacizenta Dir: 10 X: 19 Y: 1
+08/08/2016 13:05:28: sacizenta Dir: 10 X: 20 Y: 1
+08/08/2016 13:05:29: sacizenta Dir: 10 X: 21 Y: 1
+08/08/2016 13:05:29: sacizenta Dir: 10 X: 22 Y: 1
+08/08/2016 13:05:29: sacizenta Dir: 10 X: 23 Y: 1
+08/08/2016 13:05:29: sacizenta Dir: 10 X: 24 Y: 1
+08/08/2016 13:05:29: sacizenta Dir: 10 X: 25 Y: 1
+08/08/2016 13:05:30: sacizenta Dir: 10 X: 26 Y: 1
+08/08/2016 13:05:30: sacizenta Dir: 10 X: 27 Y: 1
+08/08/2016 13:05:30: sacizenta Dir: 10 X: 28 Y: 1
+08/08/2016 13:05:30: sacizenta Dir: 10 X: 29 Y: 1
+08/08/2016 13:05:30: sacizenta Dir: 10 X: 30 Y: 1
+08/08/2016 13:05:31: sacizenta Dir: 10 X: 31 Y: 1
+08/08/2016 13:05:31: sacizenta Dir: 10 X: 32 Y: 1
+08/08/2016 13:05:31: sacizenta Dir: 10 X: 33 Y: 1
+08/08/2016 13:05:31: sacizenta Dir: 10 X: 34 Y: 1
+08/08/2016 13:05:32: sacizenta Dir: 10 X: 35 Y: 1
+08/08/2016 13:05:32: sacizenta Dir: 10 X: 36 Y: 1
+08/08/2016 13:05:32: sacizenta Dir: 10 X: 37 Y: 1
+08/08/2016 13:05:32: sacizenta Dir: 10 X: 38 Y: 1
+08/08/2016 13:05:33: sacizenta Dir: 10 X: 39 Y: 1
+08/08/2016 13:05:38: sacizenta Dir: 10 X: 40 Y: 1
+08/08/2016 13:05:38: sacizenta Dir: 10 X: 41 Y: 1
+08/08/2016 13:05:38: sacizenta Dir: 10 X: 42 Y: 1
+08/08/2016 13:05:39: sacizenta Dir: 10 X: 43 Y: 1
+08/08/2016 13:05:39: sacizenta Dir: 10 X: 44 Y: 1
+08/08/2016 13:05:39: sacizenta Dir: 10 X: 45 Y: 1
+08/08/2016 13:05:40: sacizenta Dir: 10 X: 46 Y: 1
+08/08/2016 13:05:40: sacizenta Dir: 10 X: 47 Y: 1
+08/08/2016 13:05:40: sacizenta Dir: 10 X: 48 Y: 1
+08/08/2016 13:05:40: sacizenta Dir: 10 X: 49 Y: 1
+08/08/2016 13:05:40: sacizenta Dir: 10 X: 50 Y: 1
+08/08/2016 13:05:41: sacizenta Dir: 10 X: 51 Y: 1
+08/08/2016 13:05:41: sacizenta Dir: 10 X: 52 Y: 1
+08/08/2016 13:05:41: sacizenta Dir: 10 X: 53 Y: 1
+08/08/2016 13:05:41: sacizenta Dir: 10 X: 54 Y: 1
+08/08/2016 13:05:42: sacizenta Dir: 10 X: 55 Y: 1
+08/08/2016 13:05:42: sacizenta Dir: 10 X: 56 Y: 1
+08/08/2016 13:05:42: sacizenta Dir: 10 X: 57 Y: 1
+08/08/2016 13:05:42: sacizenta Dir: 10 X: 58 Y: 1
+08/08/2016 13:05:43: sacizenta Dir: 10 X: 59 Y: 1
+08/08/2016 13:05:43: sacizenta Dir: 10 X: 60 Y: 1
+08/08/2016 13:05:44: sacizenta Dir: 4 X: 60 Y: 2
+08/08/2016 13:05:44: sacizenta Dir: 4 X: 60 Y: 3
+08/08/2016 13:05:44: sacizenta Dir: 4 X: 60 Y: 4
+08/08/2016 13:05:44: sacizenta Dir: 4 X: 60 Y: 5
+08/08/2016 13:05:45: sacizenta Dir: 7 X: 59 Y: 5
+08/08/2016 13:05:45: sacizenta Dir: 7 X: 58 Y: 5
+08/08/2016 13:05:45: sacizenta Dir: 7 X: 57 Y: 5
+08/08/2016 13:05:45: sacizenta Dir: 7 X: 56 Y: 5
+08/08/2016 13:05:46: sacizenta Dir: 7 X: 55 Y: 5
+08/08/2016 13:05:46: sacizenta Dir: 7 X: 54 Y: 5
+08/08/2016 13:05:46: sacizenta Dir: 7 X: 53 Y: 5
+08/08/2016 13:05:46: sacizenta Dir: 7 X: 52 Y: 5
+08/08/2016 13:05:46: sacizenta Dir: 7 X: 51 Y: 5
+08/08/2016 13:05:47: sacizenta Dir: 7 X: 50 Y: 5
+08/08/2016 13:05:47: sacizenta Dir: 7 X: 49 Y: 5
+08/08/2016 13:05:47: sacizenta Dir: 7 X: 48 Y: 5
+08/08/2016 13:05:47: sacizenta Dir: 7 X: 47 Y: 5
+08/08/2016 13:05:48: sacizenta Dir: 7 X: 46 Y: 5
+08/08/2016 13:05:48: sacizenta Dir: 7 X: 45 Y: 5
+08/08/2016 13:05:48: sacizenta Dir: 7 X: 44 Y: 5
+08/08/2016 13:05:48: sacizenta Dir: 7 X: 43 Y: 5
+08/08/2016 13:05:48: sacizenta Dir: 10 X: 44 Y: 5
+08/08/2016 13:05:49: sacizenta Dir: 10 X: 45 Y: 5
+08/08/2016 13:05:49: sacizenta Dir: 7 X: 44 Y: 5
+08/08/2016 13:05:55: sacizenta Dir: 7 X: 43 Y: 5
+08/08/2016 13:05:55: sacizenta Dir: 7 X: 42 Y: 5
+08/08/2016 13:05:55: sacizenta Dir: 7 X: 41 Y: 5
+08/08/2016 13:05:56: sacizenta Dir: 7 X: 40 Y: 5
+08/08/2016 13:05:56: sacizenta Dir: 7 X: 39 Y: 5
+08/08/2016 13:05:56: sacizenta Dir: 7 X: 38 Y: 5
+08/08/2016 13:05:56: sacizenta Dir: 7 X: 37 Y: 5
+08/08/2016 13:05:56: sacizenta Dir: 7 X: 36 Y: 5
+08/08/2016 13:05:57: sacizenta Dir: 7 X: 35 Y: 5
+08/08/2016 13:05:57: sacizenta Dir: 7 X: 34 Y: 5
+08/08/2016 13:05:57: sacizenta Dir: 7 X: 33 Y: 5
+08/08/2016 13:06:21: Status changed to disconnected: 127.0.0.1
+08/08/2016 13:06:21: Status changed to disconnected: 127.0.0.1
+08/08/2016 13:12:34: Carregando dados de mysql.
+08/08/2016 13:12:34: ID: #artemis#
+08/08/2016 13:12:34: Name: Canal 1
+08/08/2016 13:12:34: Discovery: Elysium Diamond #1.0.0
+08/08/2016 13:12:34: IP: 127.0.0.1
+08/08/2016 13:12:34: Port: 10120
+08/08/2016 13:12:35: MaximumConnections: 2000
+08/08/2016 13:12:35: Logs: True
+08/08/2016 13:12:35: ClientSerial: #elysium#
+08/08/2016 13:12:35: Sleep: 1
+08/08/2016 13:12:35: TestServer: False
+08/08/2016 13:12:35: WorldServer 1 ID: Artemis
+08/08/2016 13:12:35: WorldServer 2 ID: 
+08/08/2016 13:12:35: WorldServer 3 ID: 
+08/08/2016 13:12:35: WorldServer 4 ID: 
+08/08/2016 13:12:35: WorldServer 5 ID: 
+08/08/2016 13:12:35: Connectado ao banco de dados
+08/08/2016 13:12:35: Carregando experiência
+08/08/2016 13:12:35: Exp Máximo: 121 22353256174
+08/08/2016 13:12:35: Carregando guilds.
+08/08/2016 13:12:35: Total : 0 guilds carregados.
+08/08/2016 13:12:35: Carregando membros.
+08/08/2016 13:12:35: Total : 0 membros carregados.
+08/08/2016 13:12:35: Carregando classes
+08/08/2016 13:12:35: Carregando NPC
+08/08/2016 13:12:35: Servidor iniciado
+08/08/2016 13:12:37: Status changed to connected: 127.0.0.1
+08/08/2016 13:12:55: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 5ED67B0DE409EA20
+08/08/2016 13:12:57: Status changed to connected: 127.0.0.1
+08/08/2016 13:12:57: Received From Client: 5ED67B0DE409EA20
+08/08/2016 13:12:57: Player Found ID: 1 Name: Joanlac
+08/08/2016 13:13:00: Joanlac Dir: 4 X: 0 Y: 1
+08/08/2016 13:13:01: Joanlac Dir: 4 X: 0 Y: 2
+08/08/2016 13:13:01: Joanlac Dir: 4 X: 0 Y: 3
+08/08/2016 13:13:01: Joanlac Dir: 4 X: 0 Y: 4
+08/08/2016 13:13:01: Joanlac Dir: 4 X: 0 Y: 5
+08/08/2016 13:13:02: Joanlac Dir: 4 X: 0 Y: 6
+08/08/2016 13:13:03: Joanlac Dir: 10 X: 1 Y: 6
+08/08/2016 13:13:03: Joanlac Dir: 10 X: 2 Y: 6
+08/08/2016 13:13:03: Joanlac Dir: 10 X: 3 Y: 6
+08/08/2016 13:13:03: Joanlac Dir: 10 X: 4 Y: 6
+08/08/2016 13:13:03: Joanlac Dir: 10 X: 5 Y: 6
+08/08/2016 13:13:03: Joanlac Dir: 10 X: 6 Y: 6
+08/08/2016 13:13:04: Joanlac Dir: 7 X: 5 Y: 6
+08/08/2016 13:13:04: Joanlac Dir: 7 X: 4 Y: 6
+08/08/2016 13:13:05: Joanlac Dir: 10 X: 5 Y: 6
+08/08/2016 13:13:05: Joanlac Dir: 10 X: 6 Y: 6
+08/08/2016 13:13:05: Joanlac Dir: 10 X: 7 Y: 6
+08/08/2016 13:13:05: Joanlac Dir: 10 X: 8 Y: 6
+08/08/2016 13:13:06: Joanlac Dir: 10 X: 9 Y: 6
+08/08/2016 13:13:06: Joanlac Dir: 10 X: 10 Y: 6
+08/08/2016 13:13:06: Joanlac Dir: 10 X: 11 Y: 6
+08/08/2016 13:13:06: Joanlac Dir: 10 X: 12 Y: 6
+08/08/2016 13:13:07: Joanlac Dir: 10 X: 13 Y: 6
+08/08/2016 13:13:07: Joanlac Dir: 10 X: 14 Y: 6
+08/08/2016 13:13:07: Joanlac Dir: 10 X: 15 Y: 6
+08/08/2016 13:13:07: Joanlac Dir: 10 X: 16 Y: 6
+08/08/2016 13:13:08: Joanlac Dir: 10 X: 17 Y: 6
+08/08/2016 13:13:08: Joanlac Dir: 10 X: 18 Y: 6
+08/08/2016 13:13:08: Joanlac Dir: 10 X: 19 Y: 6
+08/08/2016 13:13:08: Joanlac Dir: 10 X: 20 Y: 6
+08/08/2016 13:13:08: Joanlac Dir: 10 X: 21 Y: 6
+08/08/2016 13:13:08: Joanlac Dir: 10 X: 22 Y: 6
+08/08/2016 13:13:09: Joanlac Dir: 10 X: 23 Y: 6
+08/08/2016 13:13:09: Joanlac Dir: 7 X: 22 Y: 6
+08/08/2016 13:13:09: Joanlac Dir: 7 X: 21 Y: 6
+08/08/2016 13:13:10: Joanlac Dir: 7 X: 20 Y: 6
+08/08/2016 13:13:10: Joanlac Dir: 7 X: 19 Y: 6
+08/08/2016 13:13:10: Joanlac Dir: 7 X: 18 Y: 6
+08/08/2016 13:13:11: Joanlac Dir: 7 X: 17 Y: 6
+08/08/2016 13:13:11: Joanlac Dir: 7 X: 16 Y: 6
+08/08/2016 13:13:12: Joanlac Dir: 7 X: 15 Y: 6
+08/08/2016 13:13:12: Joanlac Dir: 7 X: 14 Y: 6
+08/08/2016 13:13:12: Joanlac Dir: 7 X: 13 Y: 6
+08/08/2016 13:13:12: Joanlac Dir: 7 X: 12 Y: 6
+08/08/2016 13:13:12: Joanlac Dir: 7 X: 11 Y: 6
+08/08/2016 13:13:12: Joanlac Dir: 7 X: 10 Y: 6
+08/08/2016 13:13:13: Joanlac Dir: 1 X: 10 Y: 5
+08/08/2016 13:13:13: Joanlac Dir: 7 X: 9 Y: 5
+08/08/2016 13:13:13: Joanlac Dir: 7 X: 8 Y: 5
+08/08/2016 13:13:14: Joanlac Dir: 7 X: 7 Y: 5
+08/08/2016 13:13:14: Joanlac Dir: 1 X: 7 Y: 4
+08/08/2016 13:13:14: Joanlac Dir: 1 X: 7 Y: 3
+08/08/2016 13:13:14: Joanlac Dir: 1 X: 7 Y: 2
+08/08/2016 13:13:15: Joanlac Dir: 7 X: 6 Y: 2
+08/08/2016 13:13:15: Joanlac Dir: 7 X: 5 Y: 2
+08/08/2016 13:13:15: Joanlac Dir: 7 X: 4 Y: 2
+08/08/2016 13:13:16: Joanlac Dir: 7 X: 3 Y: 2
+08/08/2016 13:13:16: Joanlac Dir: 7 X: 2 Y: 2
+08/08/2016 13:13:16: Joanlac Dir: 1 X: 2 Y: 1
+08/08/2016 13:13:16: Joanlac Dir: 7 X: 1 Y: 1
+08/08/2016 13:13:17: Joanlac Dir: 7 X: 0 Y: 1
+08/08/2016 13:13:18: Joanlac Dir: 1 X: 0 Y: 0
+08/08/2016 13:13:19: Joanlac Dir: 4 X: 0 Y: 1
+08/08/2016 13:13:20: Joanlac Dir: 4 X: 0 Y: 2
+08/08/2016 13:13:20: Joanlac Dir: 4 X: 0 Y: 3
+08/08/2016 13:13:21: Joanlac Dir: 4 X: 0 Y: 4
+08/08/2016 13:13:21: Joanlac Dir: 4 X: 0 Y: 5
+08/08/2016 13:13:22: Joanlac Dir: 4 X: 0 Y: 6
+08/08/2016 13:13:22: Joanlac Dir: 4 X: 0 Y: 7
+08/08/2016 13:13:22: Joanlac Dir: 4 X: 0 Y: 8
+08/08/2016 13:13:23: Joanlac Dir: 1 X: 0 Y: 7
+08/08/2016 13:13:23: Joanlac Dir: 1 X: 0 Y: 6
+08/08/2016 13:13:23: Joanlac Dir: 1 X: 0 Y: 5
+08/08/2016 13:13:23: Joanlac Dir: 1 X: 0 Y: 4
+08/08/2016 13:13:23: Joanlac Dir: 1 X: 0 Y: 3
+08/08/2016 13:13:24: Joanlac Dir: 1 X: 0 Y: 2
+08/08/2016 13:13:24: Joanlac Dir: 1 X: 0 Y: 1
+08/08/2016 13:13:24: Joanlac Dir: 1 X: 0 Y: 0
+08/08/2016 13:13:47: Data From World Server ID: 2 Account: dragonick Char ID: 10 Slot: 0 B9119E02EBC0B67B
+08/08/2016 13:13:48: Status changed to connected: 127.0.0.1
+08/08/2016 13:13:48: Received From Client: B9119E02EBC0B67B
+08/08/2016 13:13:48: Player Found ID: 10 Name: sacizenta
+08/08/2016 13:13:52: sacizenta Dir: 4 X: 0 Y: 1
+08/08/2016 13:13:52: sacizenta Dir: 10 X: 1 Y: 1
+08/08/2016 13:13:52: sacizenta Dir: 10 X: 2 Y: 1
+08/08/2016 13:13:53: sacizenta Dir: 10 X: 3 Y: 1
+08/08/2016 13:13:54: sacizenta Dir: 10 X: 4 Y: 1
+08/08/2016 13:13:55: sacizenta Dir: 10 X: 5 Y: 1
+08/08/2016 13:13:55: sacizenta Dir: 10 X: 6 Y: 1
+08/08/2016 13:13:55: sacizenta Dir: 10 X: 7 Y: 1
+08/08/2016 13:13:55: sacizenta Dir: 10 X: 8 Y: 1
+08/08/2016 13:13:56: sacizenta Dir: 10 X: 9 Y: 1
+08/08/2016 13:13:56: sacizenta Dir: 10 X: 10 Y: 1
+08/08/2016 13:13:56: sacizenta Dir: 10 X: 11 Y: 1
+08/08/2016 13:13:57: sacizenta Dir: 10 X: 12 Y: 1
+08/08/2016 13:13:57: sacizenta Dir: 10 X: 13 Y: 1
+08/08/2016 13:13:58: sacizenta Dir: 10 X: 14 Y: 1
+08/08/2016 13:13:58: sacizenta Dir: 10 X: 15 Y: 1
+08/08/2016 13:13:58: sacizenta Dir: 10 X: 16 Y: 1
+08/08/2016 13:13:58: sacizenta Dir: 10 X: 17 Y: 1
+08/08/2016 13:13:59: sacizenta Dir: 10 X: 18 Y: 1
+08/08/2016 13:13:59: sacizenta Dir: 10 X: 19 Y: 1
+08/08/2016 13:13:59: sacizenta Dir: 10 X: 20 Y: 1
+08/08/2016 13:13:59: sacizenta Dir: 10 X: 21 Y: 1
+08/08/2016 13:14:00: sacizenta Dir: 10 X: 22 Y: 1
+08/08/2016 13:14:00: sacizenta Dir: 10 X: 23 Y: 1
+08/08/2016 13:14:00: sacizenta Dir: 10 X: 24 Y: 1
+08/08/2016 13:14:00: sacizenta Dir: 10 X: 25 Y: 1
+08/08/2016 13:14:00: sacizenta Dir: 10 X: 26 Y: 1
+08/08/2016 13:14:01: sacizenta Dir: 10 X: 27 Y: 1
+08/08/2016 13:14:01: sacizenta Dir: 10 X: 28 Y: 1
+08/08/2016 13:14:01: sacizenta Dir: 10 X: 29 Y: 1
+08/08/2016 13:14:01: sacizenta Dir: 10 X: 30 Y: 1
+08/08/2016 13:14:01: sacizenta Dir: 10 X: 31 Y: 1
+08/08/2016 13:14:02: sacizenta Dir: 10 X: 32 Y: 1
+08/08/2016 13:14:02: sacizenta Dir: 10 X: 33 Y: 1
+08/08/2016 13:14:02: sacizenta Dir: 10 X: 34 Y: 1
+08/08/2016 13:14:03: sacizenta Dir: 10 X: 35 Y: 1
+08/08/2016 13:14:03: sacizenta Dir: 10 X: 36 Y: 1
+08/08/2016 13:14:03: sacizenta Dir: 10 X: 37 Y: 1
+08/08/2016 13:14:03: sacizenta Dir: 10 X: 38 Y: 1
+08/08/2016 13:14:04: sacizenta Dir: 10 X: 39 Y: 1
+08/08/2016 13:14:04: sacizenta Dir: 10 X: 40 Y: 1
+08/08/2016 13:14:04: sacizenta Dir: 10 X: 41 Y: 1
+08/08/2016 13:14:05: sacizenta Dir: 10 X: 42 Y: 1
+08/08/2016 13:14:05: sacizenta Dir: 10 X: 43 Y: 1
+08/08/2016 13:14:05: sacizenta Dir: 10 X: 44 Y: 1
+08/08/2016 13:14:05: sacizenta Dir: 10 X: 45 Y: 1
+08/08/2016 13:14:06: sacizenta Dir: 10 X: 46 Y: 1
+08/08/2016 13:14:06: sacizenta Dir: 10 X: 47 Y: 1
+08/08/2016 13:14:07: sacizenta Dir: 10 X: 48 Y: 1
+08/08/2016 13:14:07: sacizenta Dir: 10 X: 49 Y: 1
+08/08/2016 13:14:08: sacizenta Dir: 10 X: 50 Y: 1
+08/08/2016 13:14:08: sacizenta Dir: 10 X: 51 Y: 1
+08/08/2016 13:14:08: sacizenta Dir: 10 X: 52 Y: 1
+08/08/2016 13:14:09: sacizenta Dir: 10 X: 53 Y: 1
+08/08/2016 13:14:09: sacizenta Dir: 10 X: 54 Y: 1
+08/08/2016 13:14:10: sacizenta Dir: 10 X: 55 Y: 1
+08/08/2016 13:14:10: sacizenta Dir: 10 X: 56 Y: 1
+08/08/2016 13:14:12: sacizenta Dir: 7 X: 55 Y: 1
+08/08/2016 13:14:13: sacizenta Dir: 10 X: 56 Y: 1
+08/08/2016 13:14:13: sacizenta Dir: 10 X: 57 Y: 1
+08/08/2016 13:14:13: sacizenta Dir: 7 X: 56 Y: 1
+08/08/2016 13:14:15: sacizenta Dir: 7 X: 55 Y: 1
+08/08/2016 13:14:16: sacizenta Dir: 10 X: 56 Y: 1
+08/08/2016 13:14:16: sacizenta Dir: 7 X: 55 Y: 1
+08/08/2016 13:14:16: sacizenta Dir: 7 X: 54 Y: 1
+08/08/2016 13:14:17: sacizenta Dir: 7 X: 53 Y: 1
+08/08/2016 13:14:17: sacizenta Dir: 7 X: 52 Y: 1
+08/08/2016 13:14:17: sacizenta Dir: 10 X: 53 Y: 1
+08/08/2016 13:14:18: sacizenta Dir: 10 X: 54 Y: 1
+08/08/2016 13:14:18: sacizenta Dir: 10 X: 55 Y: 1
+08/08/2016 13:14:18: sacizenta Dir: 10 X: 56 Y: 1
+08/08/2016 13:14:19: sacizenta Dir: 10 X: 57 Y: 1
+08/08/2016 13:14:19: sacizenta Dir: 7 X: 56 Y: 1
+08/08/2016 13:14:20: sacizenta Dir: 7 X: 55 Y: 1
+08/08/2016 13:14:21: sacizenta Dir: 10 X: 56 Y: 1
+08/08/2016 13:14:21: sacizenta Dir: 7 X: 55 Y: 1
+08/08/2016 13:14:21: sacizenta Dir: 7 X: 54 Y: 1
+08/08/2016 13:14:22: sacizenta Dir: 7 X: 53 Y: 1
+08/08/2016 13:14:22: sacizenta Dir: 7 X: 52 Y: 1
+08/08/2016 13:14:22: sacizenta Dir: 7 X: 51 Y: 1
+08/08/2016 13:14:22: sacizenta Dir: 7 X: 50 Y: 1
+08/08/2016 13:14:23: sacizenta Dir: 7 X: 49 Y: 1
+08/08/2016 13:14:23: sacizenta Dir: 7 X: 48 Y: 1
+08/08/2016 13:14:23: sacizenta Dir: 7 X: 47 Y: 1
+08/08/2016 13:14:23: sacizenta Dir: 7 X: 46 Y: 1
+08/08/2016 13:14:24: sacizenta Dir: 7 X: 45 Y: 1
+08/08/2016 13:14:24: sacizenta Dir: 7 X: 44 Y: 1
+08/08/2016 13:14:24: sacizenta Dir: 7 X: 43 Y: 1
+08/08/2016 13:14:24: sacizenta Dir: 7 X: 42 Y: 1
+08/08/2016 13:14:25: sacizenta Dir: 7 X: 41 Y: 1
+08/08/2016 13:14:25: sacizenta Dir: 7 X: 40 Y: 1
+08/08/2016 13:14:25: sacizenta Dir: 7 X: 39 Y: 1
+08/08/2016 13:14:25: sacizenta Dir: 7 X: 38 Y: 1
+08/08/2016 13:14:26: sacizenta Dir: 7 X: 37 Y: 1
+08/08/2016 13:14:26: sacizenta Dir: 7 X: 36 Y: 1
+08/08/2016 13:14:26: sacizenta Dir: 7 X: 35 Y: 1
+08/08/2016 13:14:26: sacizenta Dir: 7 X: 34 Y: 1
+08/08/2016 13:14:26: sacizenta Dir: 7 X: 33 Y: 1
+08/08/2016 13:14:27: sacizenta Dir: 7 X: 32 Y: 1
+08/08/2016 13:14:27: sacizenta Dir: 7 X: 31 Y: 1
+08/08/2016 13:14:27: sacizenta Dir: 7 X: 30 Y: 1
+08/08/2016 13:14:27: sacizenta Dir: 7 X: 29 Y: 1
+08/08/2016 13:14:28: sacizenta Dir: 7 X: 28 Y: 1
+08/08/2016 13:14:28: sacizenta Dir: 7 X: 27 Y: 1
+08/08/2016 13:14:28: sacizenta Dir: 7 X: 26 Y: 1
+08/08/2016 13:14:28: sacizenta Dir: 7 X: 25 Y: 1
+08/08/2016 13:14:29: sacizenta Dir: 7 X: 24 Y: 1
+08/08/2016 13:14:29: sacizenta Dir: 7 X: 23 Y: 1
+08/08/2016 13:14:29: sacizenta Dir: 7 X: 22 Y: 1
+08/08/2016 13:14:29: sacizenta Dir: 7 X: 21 Y: 1
+08/08/2016 13:14:30: sacizenta Dir: 7 X: 20 Y: 1
+08/08/2016 13:14:30: sacizenta Dir: 7 X: 19 Y: 1
+08/08/2016 13:14:30: sacizenta Dir: 7 X: 18 Y: 1
+08/08/2016 13:14:31: sacizenta Dir: 7 X: 17 Y: 1
+08/08/2016 13:14:31: sacizenta Dir: 7 X: 16 Y: 1
+08/08/2016 13:14:31: sacizenta Dir: 7 X: 15 Y: 1
+08/08/2016 13:14:31: sacizenta Dir: 7 X: 14 Y: 1
+08/08/2016 13:14:32: sacizenta Dir: 7 X: 13 Y: 1
+08/08/2016 13:14:32: sacizenta Dir: 7 X: 12 Y: 1
+08/08/2016 13:14:32: sacizenta Dir: 7 X: 11 Y: 1
+08/08/2016 13:14:32: sacizenta Dir: 7 X: 10 Y: 1
+08/08/2016 13:14:33: sacizenta Dir: 7 X: 9 Y: 1
+08/08/2016 13:14:33: sacizenta Dir: 7 X: 8 Y: 1
+08/08/2016 13:14:33: sacizenta Dir: 7 X: 7 Y: 1
+08/08/2016 13:14:34: sacizenta Dir: 7 X: 6 Y: 1
+08/08/2016 13:14:34: sacizenta Dir: 7 X: 5 Y: 1
+08/08/2016 13:14:35: sacizenta Dir: 7 X: 4 Y: 1
+08/08/2016 13:14:35: sacizenta Dir: 7 X: 3 Y: 1
+08/08/2016 13:14:35: sacizenta Dir: 7 X: 2 Y: 1
+08/08/2016 13:14:35: sacizenta Dir: 7 X: 1 Y: 1
+08/08/2016 13:14:36: sacizenta Dir: 7 X: 0 Y: 1
+08/08/2016 13:14:39: sacizenta Dir: 7 X: -1 Y: 1
+08/08/2016 13:14:40: sacizenta Dir: 10 X: 0 Y: 1
+08/08/2016 13:14:40: sacizenta Dir: 1 X: 0 Y: 0
+08/08/2016 13:14:46: Joanlac Dir: 10 X: 1 Y: 0
+08/08/2016 13:14:46: Joanlac Dir: 10 X: 2 Y: 0
+08/08/2016 13:14:53: Joanlac Dir: 10 X: 3 Y: 0
+08/08/2016 13:14:53: Joanlac Dir: 10 X: 4 Y: 0
+08/08/2016 13:14:54: Joanlac Dir: 7 X: 3 Y: 0
+08/08/2016 13:14:54: Joanlac Dir: 7 X: 2 Y: 0
+08/08/2016 13:14:54: Joanlac Dir: 7 X: 1 Y: 0
+08/08/2016 13:14:54: Joanlac Dir: 7 X: 0 Y: 0
+08/08/2016 13:14:55: Joanlac Dir: 10 X: 1 Y: 0
+08/08/2016 13:14:55: Joanlac Dir: 10 X: 2 Y: 0
+08/08/2016 13:14:55: Joanlac Dir: 10 X: 3 Y: 0
+08/08/2016 13:14:56: Joanlac Dir: 10 X: 4 Y: 0
+08/08/2016 13:14:56: Joanlac Dir: 10 X: 5 Y: 0
+08/08/2016 13:14:56: Joanlac Dir: 10 X: 6 Y: 0
+08/08/2016 13:14:56: Joanlac Dir: 10 X: 7 Y: 0
+08/08/2016 13:14:57: Joanlac Dir: 10 X: 8 Y: 0
+08/08/2016 13:14:57: Joanlac Dir: 10 X: 9 Y: 0
+08/08/2016 13:14:57: Joanlac Dir: 10 X: 10 Y: 0
+08/08/2016 13:14:57: Joanlac Dir: 10 X: 11 Y: 0
+08/08/2016 13:14:58: Joanlac Dir: 10 X: 12 Y: 0
+08/08/2016 13:14:58: Joanlac Dir: 10 X: 13 Y: 0
+08/08/2016 13:14:58: Joanlac Dir: 10 X: 14 Y: 0
+08/08/2016 13:14:58: Joanlac Dir: 10 X: 15 Y: 0
+08/08/2016 13:14:59: Joanlac Dir: 10 X: 16 Y: 0
+08/08/2016 13:14:59: Joanlac Dir: 10 X: 17 Y: 0
+08/08/2016 13:14:59: Joanlac Dir: 10 X: 18 Y: 0
+08/08/2016 13:14:59: Joanlac Dir: 10 X: 19 Y: 0
+08/08/2016 13:14:59: Joanlac Dir: 10 X: 20 Y: 0
+08/08/2016 13:15:00: Joanlac Dir: 10 X: 21 Y: 0
+08/08/2016 13:15:00: Joanlac Dir: 10 X: 22 Y: 0
+08/08/2016 13:15:00: Joanlac Dir: 10 X: 23 Y: 0
+08/08/2016 13:15:00: Joanlac Dir: 10 X: 24 Y: 0
+08/08/2016 13:15:01: Joanlac Dir: 10 X: 25 Y: 0
+08/08/2016 13:15:01: Joanlac Dir: 10 X: 26 Y: 0
+08/08/2016 13:15:01: Joanlac Dir: 10 X: 27 Y: 0
+08/08/2016 13:15:01: Joanlac Dir: 10 X: 28 Y: 0
+08/08/2016 13:15:01: Joanlac Dir: 10 X: 29 Y: 0
+08/08/2016 13:15:02: Joanlac Dir: 10 X: 30 Y: 0
+08/08/2016 13:15:02: Joanlac Dir: 10 X: 31 Y: 0
+08/08/2016 13:15:02: Joanlac Dir: 10 X: 32 Y: 0
+08/08/2016 13:15:02: Joanlac Dir: 10 X: 33 Y: 0
+08/08/2016 13:15:02: Joanlac Dir: 10 X: 34 Y: 0
+08/08/2016 13:15:03: Joanlac Dir: 10 X: 35 Y: 0
+08/08/2016 13:15:03: Joanlac Dir: 10 X: 36 Y: 0
+08/08/2016 13:15:03: Joanlac Dir: 10 X: 37 Y: 0
+08/08/2016 13:15:03: Joanlac Dir: 10 X: 38 Y: 0
+08/08/2016 13:15:03: Joanlac Dir: 10 X: 39 Y: 0
+08/08/2016 13:15:04: Joanlac Dir: 10 X: 40 Y: 0
+08/08/2016 13:15:04: Joanlac Dir: 4 X: 40 Y: 1
+08/08/2016 13:15:04: Joanlac Dir: 10 X: 41 Y: 1
+08/08/2016 13:15:05: Joanlac Dir: 10 X: 42 Y: 1
+08/08/2016 13:15:05: Joanlac Dir: 10 X: 43 Y: 1
+08/08/2016 13:15:05: Joanlac Dir: 10 X: 44 Y: 1
+08/08/2016 13:15:05: Joanlac Dir: 10 X: 45 Y: 1
+08/08/2016 13:15:06: Joanlac Dir: 10 X: 46 Y: 1
+08/08/2016 13:15:06: Joanlac Dir: 10 X: 47 Y: 1
+08/08/2016 13:15:06: Joanlac Dir: 10 X: 48 Y: 1
+08/08/2016 13:15:06: Joanlac Dir: 10 X: 49 Y: 1
+08/08/2016 13:15:07: Joanlac Dir: 10 X: 50 Y: 1
+08/08/2016 13:15:08: Joanlac Dir: 10 X: 51 Y: 1
+08/08/2016 13:15:08: Joanlac Dir: 10 X: 52 Y: 1
+08/08/2016 13:15:09: Joanlac Dir: 10 X: 53 Y: 1
+08/08/2016 13:15:09: Joanlac Dir: 10 X: 54 Y: 1
+08/08/2016 13:15:10: Joanlac Dir: 1 X: 54 Y: 0
+08/08/2016 13:15:10: Joanlac Dir: 10 X: 55 Y: 0
+08/08/2016 13:15:11: Joanlac Dir: 10 X: 56 Y: 0
+08/08/2016 13:15:11: Joanlac Dir: 10 X: 57 Y: 0
+08/08/2016 13:15:12: Joanlac Dir: 10 X: 58 Y: 0
+08/08/2016 13:15:12: Joanlac Dir: 10 X: 59 Y: 0
+08/08/2016 13:15:12: Joanlac Dir: 10 X: 60 Y: 0
+08/08/2016 13:15:14: Joanlac Dir: 7 X: 59 Y: 0
+08/08/2016 13:15:14: Joanlac Dir: 7 X: 58 Y: 0
+08/08/2016 13:15:14: Joanlac Dir: 7 X: 57 Y: 0
+08/08/2016 13:15:14: Joanlac Dir: 7 X: 56 Y: 0
+08/08/2016 13:15:15: Joanlac Dir: 7 X: 55 Y: 0
+08/08/2016 13:15:15: Joanlac Dir: 10 X: 56 Y: 0
+08/08/2016 13:15:16: Joanlac Dir: 7 X: 55 Y: 0
+08/08/2016 13:15:16: Joanlac Dir: 7 X: 54 Y: 0
+08/08/2016 13:15:16: Joanlac Dir: 7 X: 53 Y: 0
+08/08/2016 13:15:16: Joanlac Dir: 7 X: 52 Y: 0
+08/08/2016 13:15:17: Joanlac Dir: 7 X: 51 Y: 0
+08/08/2016 13:15:17: Joanlac Dir: 7 X: 50 Y: 0
+08/08/2016 13:15:17: Joanlac Dir: 7 X: 49 Y: 0
+08/08/2016 13:15:17: Joanlac Dir: 7 X: 48 Y: 0
+08/08/2016 13:15:17: Joanlac Dir: 7 X: 47 Y: 0
+08/08/2016 13:15:18: Joanlac Dir: 7 X: 46 Y: 0
+08/08/2016 13:15:18: Joanlac Dir: 7 X: 45 Y: 0
+08/08/2016 13:15:18: Joanlac Dir: 7 X: 44 Y: 0
+08/08/2016 13:15:18: Joanlac Dir: 7 X: 43 Y: 0
+08/08/2016 13:15:19: Joanlac Dir: 10 X: 44 Y: 0
+08/08/2016 13:15:19: Joanlac Dir: 10 X: 45 Y: 0
+08/08/2016 13:15:19: Joanlac Dir: 10 X: 46 Y: 0
+08/08/2016 13:15:19: Joanlac Dir: 10 X: 47 Y: 0
+08/08/2016 13:15:20: Joanlac Dir: 10 X: 48 Y: 0
+08/08/2016 13:15:20: Joanlac Dir: 10 X: 49 Y: 0
+08/08/2016 13:15:20: Joanlac Dir: 10 X: 50 Y: 0
+08/08/2016 13:15:22: Joanlac Dir: 10 X: 51 Y: 0
+08/08/2016 13:15:22: Joanlac Dir: 10 X: 52 Y: 0
+08/08/2016 13:15:23: Joanlac Dir: 10 X: 53 Y: 0
+08/08/2016 13:15:23: Joanlac Dir: 10 X: 54 Y: 0
+08/08/2016 13:15:23: Joanlac Dir: 10 X: 55 Y: 0
+08/08/2016 13:15:23: Joanlac Dir: 10 X: 56 Y: 0
+08/08/2016 13:15:25: Joanlac Dir: 4 X: 56 Y: 1
+08/08/2016 13:15:25: Joanlac Dir: 4 X: 56 Y: 2
+08/08/2016 13:15:25: Joanlac Dir: 4 X: 56 Y: 3
+08/08/2016 13:15:26: Joanlac Dir: 7 X: 55 Y: 3
+08/08/2016 13:15:26: Joanlac Dir: 7 X: 54 Y: 3
+08/08/2016 13:15:26: Joanlac Dir: 1 X: 54 Y: 2
+08/08/2016 13:15:27: Joanlac Dir: 10 X: 55 Y: 2
+08/08/2016 13:15:27: Joanlac Dir: 1 X: 55 Y: 1
+08/08/2016 13:15:27: Joanlac Dir: 10 X: 56 Y: 1
+08/08/2016 13:15:28: Joanlac Dir: 7 X: 55 Y: 1
+08/08/2016 13:15:28: Joanlac Dir: 7 X: 54 Y: 1
+08/08/2016 13:15:28: Joanlac Dir: 1 X: 54 Y: 0
+08/08/2016 13:15:28: Joanlac Dir: 10 X: 55 Y: 0
+08/08/2016 13:15:29: Joanlac Dir: 7 X: 54 Y: 0
+08/08/2016 13:15:29: Joanlac Dir: 7 X: 53 Y: 0
+08/08/2016 13:15:29: Joanlac Dir: 7 X: 52 Y: 0
+08/08/2016 13:15:29: Joanlac Dir: 7 X: 51 Y: 0
+08/08/2016 13:15:29: Joanlac Dir: 4 X: 51 Y: 1
+08/08/2016 13:15:30: Joanlac Dir: 4 X: 51 Y: 2
+08/08/2016 13:15:30: Joanlac Dir: 7 X: 50 Y: 2
+08/08/2016 13:15:30: Joanlac Dir: 1 X: 50 Y: 1
+08/08/2016 13:15:30: Joanlac Dir: 10 X: 51 Y: 1
+08/08/2016 13:15:31: Joanlac Dir: 10 X: 52 Y: 1
+08/08/2016 13:15:31: Joanlac Dir: 10 X: 53 Y: 1
+08/08/2016 13:15:31: Joanlac Dir: 10 X: 54 Y: 1
+08/08/2016 13:15:32: Joanlac Dir: 10 X: 55 Y: 1
+08/08/2016 13:15:34: Joanlac Dir: 7 X: 54 Y: 1
+08/08/2016 13:15:34: Joanlac Dir: 7 X: 53 Y: 1
+08/08/2016 13:15:34: Joanlac Dir: 7 X: 52 Y: 1
+08/08/2016 13:15:34: Joanlac Dir: 7 X: 51 Y: 1
+08/08/2016 13:15:34: Joanlac Dir: 7 X: 50 Y: 1
+08/08/2016 13:15:35: Joanlac Dir: 7 X: 49 Y: 1
+08/08/2016 13:15:35: Joanlac Dir: 7 X: 48 Y: 1
+08/08/2016 13:15:35: Joanlac Dir: 7 X: 47 Y: 1
+08/08/2016 13:15:35: Joanlac Dir: 7 X: 46 Y: 1
+08/08/2016 13:15:36: Joanlac Dir: 7 X: 45 Y: 1
+08/08/2016 13:15:36: Joanlac Dir: 7 X: 44 Y: 1
+08/08/2016 13:15:37: Joanlac Dir: 7 X: 43 Y: 1
+08/08/2016 13:15:37: Joanlac Dir: 7 X: 42 Y: 1
+08/08/2016 13:15:37: Joanlac Dir: 7 X: 41 Y: 1
+08/08/2016 13:15:37: Joanlac Dir: 7 X: 40 Y: 1
+08/08/2016 13:15:37: Joanlac Dir: 7 X: 39 Y: 1
+08/08/2016 13:15:38: Joanlac Dir: 7 X: 38 Y: 1
+08/08/2016 13:15:38: Joanlac Dir: 7 X: 37 Y: 1
+08/08/2016 13:15:39: Joanlac Dir: 7 X: 36 Y: 1
+08/08/2016 13:15:39: Joanlac Dir: 7 X: 35 Y: 1
+08/08/2016 13:15:39: Joanlac Dir: 7 X: 34 Y: 1
+08/08/2016 13:15:39: Joanlac Dir: 7 X: 33 Y: 1
+08/08/2016 13:15:39: Joanlac Dir: 7 X: 32 Y: 1
+08/08/2016 13:15:40: Joanlac Dir: 7 X: 31 Y: 1
+08/08/2016 13:15:40: Joanlac Dir: 7 X: 30 Y: 1
+08/08/2016 13:15:40: Joanlac Dir: 7 X: 29 Y: 1
+08/08/2016 13:15:40: Joanlac Dir: 7 X: 28 Y: 1
+08/08/2016 13:15:40: Joanlac Dir: 7 X: 27 Y: 1
+08/08/2016 13:15:41: Joanlac Dir: 7 X: 26 Y: 1
+08/08/2016 13:15:41: Joanlac Dir: 7 X: 25 Y: 1
+08/08/2016 13:15:41: Joanlac Dir: 7 X: 24 Y: 1
+08/08/2016 13:15:41: Joanlac Dir: 7 X: 23 Y: 1
+08/08/2016 13:15:42: Joanlac Dir: 7 X: 22 Y: 1
+08/08/2016 13:15:42: Joanlac Dir: 7 X: 21 Y: 1
+08/08/2016 13:15:42: Joanlac Dir: 7 X: 20 Y: 1
+08/08/2016 13:15:42: Joanlac Dir: 7 X: 19 Y: 1
+08/08/2016 13:15:42: Joanlac Dir: 7 X: 18 Y: 1
+08/08/2016 13:15:43: Joanlac Dir: 7 X: 17 Y: 1
+08/08/2016 13:15:43: Joanlac Dir: 7 X: 16 Y: 1
+08/08/2016 13:15:43: Joanlac Dir: 7 X: 15 Y: 1
+08/08/2016 13:15:43: Joanlac Dir: 7 X: 14 Y: 1
+08/08/2016 13:15:43: Joanlac Dir: 7 X: 13 Y: 1
+08/08/2016 13:15:44: Joanlac Dir: 7 X: 12 Y: 1
+08/08/2016 13:15:44: Joanlac Dir: 7 X: 11 Y: 1
+08/08/2016 13:15:44: Joanlac Dir: 7 X: 10 Y: 1
+08/08/2016 13:15:44: Joanlac Dir: 7 X: 9 Y: 1
+08/08/2016 13:15:45: Joanlac Dir: 7 X: 8 Y: 1
+08/08/2016 13:15:45: Joanlac Dir: 7 X: 7 Y: 1
+08/08/2016 13:15:45: Joanlac Dir: 7 X: 6 Y: 1
+08/08/2016 13:15:45: Joanlac Dir: 7 X: 5 Y: 1
+08/08/2016 13:15:45: Joanlac Dir: 7 X: 4 Y: 1
+08/08/2016 13:15:46: Joanlac Dir: 7 X: 3 Y: 1
+08/08/2016 13:15:46: Joanlac Dir: 7 X: 2 Y: 1
+08/08/2016 13:15:46: Joanlac Dir: 7 X: 1 Y: 1
+08/08/2016 13:15:47: Joanlac Dir: 7 X: 0 Y: 1
+08/08/2016 13:15:47: Joanlac Dir: 1 X: 0 Y: 0
+08/08/2016 13:15:48: Joanlac Dir: 7 X: -1 Y: 0
+08/08/2016 13:15:49: Joanlac Dir: 10 X: 0 Y: 0
+08/08/2016 13:15:52: sacizenta Dir: 4 X: 0 Y: 1
+08/08/2016 13:15:52: sacizenta Dir: 1 X: 0 Y: 0
+08/08/2016 13:22:49: Carregando dados de mysql.
+08/08/2016 13:22:50: ID: #artemis#
+08/08/2016 13:22:50: Name: Canal 1
+08/08/2016 13:22:50: Discovery: Elysium Diamond #1.0.0
+08/08/2016 13:22:50: IP: 127.0.0.1
+08/08/2016 13:22:50: Port: 10120
+08/08/2016 13:22:50: MaximumConnections: 2000
+08/08/2016 13:22:50: Logs: True
+08/08/2016 13:22:50: ClientSerial: #elysium#
+08/08/2016 13:22:50: Sleep: 1
+08/08/2016 13:22:50: TestServer: False
+08/08/2016 13:22:50: WorldServer 1 ID: Artemis
+08/08/2016 13:22:50: WorldServer 2 ID: 
+08/08/2016 13:22:50: WorldServer 3 ID: 
+08/08/2016 13:22:50: WorldServer 4 ID: 
+08/08/2016 13:22:50: WorldServer 5 ID: 
+08/08/2016 13:22:50: Connectado ao banco de dados
+08/08/2016 13:22:50: Carregando experiência
+08/08/2016 13:22:50: Exp Máximo: 121 22353256174
+08/08/2016 13:22:50: Carregando guilds.
+08/08/2016 13:22:50: Total : 0 guilds carregados.
+08/08/2016 13:22:50: Carregando membros.
+08/08/2016 13:22:50: Total : 0 membros carregados.
+08/08/2016 13:22:50: Carregando classes
+08/08/2016 13:22:50: Carregando NPC
+08/08/2016 13:22:51: Servidor iniciado
+08/08/2016 13:22:58: Status changed to connected: 127.0.0.1
+08/08/2016 13:26:24: Carregando dados de mysql.
+08/08/2016 13:26:24: ID: #artemis#
+08/08/2016 13:26:24: Name: Canal 1
+08/08/2016 13:26:24: Discovery: Elysium Diamond #1.0.0
+08/08/2016 13:26:24: IP: 127.0.0.1
+08/08/2016 13:26:24: Port: 10120
+08/08/2016 13:26:24: MaximumConnections: 2000
+08/08/2016 13:26:24: Logs: True
+08/08/2016 13:26:24: ClientSerial: #elysium#
+08/08/2016 13:26:24: Sleep: 1
+08/08/2016 13:26:24: TestServer: False
+08/08/2016 13:26:24: WorldServer 1 ID: Artemis
+08/08/2016 13:26:24: WorldServer 2 ID: 
+08/08/2016 13:26:24: WorldServer 3 ID: 
+08/08/2016 13:26:24: WorldServer 4 ID: 
+08/08/2016 13:26:24: WorldServer 5 ID: 
+08/08/2016 13:26:25: Connectado ao banco de dados
+08/08/2016 13:26:25: Carregando experiência
+08/08/2016 13:26:25: Exp Máximo: 121 22353256174
+08/08/2016 13:26:25: Carregando guilds.
+08/08/2016 13:26:25: Total : 0 guilds carregados.
+08/08/2016 13:26:25: Carregando membros.
+08/08/2016 13:26:25: Total : 0 membros carregados.
+08/08/2016 13:26:25: Carregando classes
+08/08/2016 13:26:25: Carregando NPC
+08/08/2016 13:26:25: Servidor iniciado
+08/08/2016 13:26:28: Status changed to connected: 127.0.0.1
+08/08/2016 13:26:42: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 2921FA3B81B84874
+08/08/2016 13:26:44: Status changed to connected: 127.0.0.1
+08/08/2016 13:26:44: Received From Client: 2921FA3B81B84874
+08/08/2016 13:26:44: Player Found ID: 1 Name: Joanlac
+08/08/2016 13:26:47: Joanlac Dir: 4 X: 0 Y: 1
+08/08/2016 13:26:48: Joanlac Dir: 4 X: 0 Y: 2
+08/08/2016 13:26:48: Joanlac Dir: 10 X: 1 Y: 2
+08/08/2016 13:26:48: Joanlac Dir: 10 X: 2 Y: 2
+08/08/2016 13:26:48: Joanlac Dir: 10 X: 3 Y: 2
+08/08/2016 13:26:48: Joanlac Dir: 10 X: 4 Y: 2
+08/08/2016 13:26:49: Joanlac Dir: 10 X: 5 Y: 2
+08/08/2016 13:26:49: Joanlac Dir: 10 X: 6 Y: 2
+08/08/2016 13:26:49: Joanlac Dir: 10 X: 7 Y: 2
+08/08/2016 13:26:49: Joanlac Dir: 10 X: 8 Y: 2
+08/08/2016 13:26:49: Joanlac Dir: 10 X: 9 Y: 2
+08/08/2016 13:26:49: Joanlac Dir: 10 X: 10 Y: 2
+08/08/2016 13:26:50: Joanlac Dir: 10 X: 11 Y: 2
+08/08/2016 13:26:50: Joanlac Dir: 10 X: 12 Y: 2
+08/08/2016 13:26:50: Joanlac Dir: 10 X: 13 Y: 2
+08/08/2016 13:26:50: Joanlac Dir: 10 X: 14 Y: 2
+08/08/2016 13:26:50: Joanlac Dir: 10 X: 15 Y: 2
+08/08/2016 13:26:51: Joanlac Dir: 10 X: 16 Y: 2
+08/08/2016 13:26:51: Joanlac Dir: 10 X: 17 Y: 2
+08/08/2016 13:26:51: Joanlac Dir: 10 X: 18 Y: 2
+08/08/2016 13:26:51: Joanlac Dir: 10 X: 19 Y: 2
+08/08/2016 13:26:51: Joanlac Dir: 10 X: 20 Y: 2
+08/08/2016 13:26:52: Joanlac Dir: 10 X: 21 Y: 2
+08/08/2016 13:26:52: Joanlac Dir: 10 X: 22 Y: 2
+08/08/2016 13:26:52: Joanlac Dir: 10 X: 23 Y: 2
+08/08/2016 13:26:52: Joanlac Dir: 10 X: 24 Y: 2
+08/08/2016 13:26:52: Joanlac Dir: 10 X: 25 Y: 2
+08/08/2016 13:26:52: Joanlac Dir: 10 X: 26 Y: 2
+08/08/2016 13:26:53: Joanlac Dir: 10 X: 27 Y: 2
+08/08/2016 13:26:53: Joanlac Dir: 10 X: 28 Y: 2
+08/08/2016 13:26:53: Joanlac Dir: 10 X: 29 Y: 2
+08/08/2016 13:26:53: Joanlac Dir: 10 X: 30 Y: 2
+08/08/2016 13:26:54: Joanlac Dir: 10 X: 31 Y: 2
+08/08/2016 13:26:54: Joanlac Dir: 10 X: 32 Y: 2
+08/08/2016 13:26:54: Joanlac Dir: 10 X: 33 Y: 2
+08/08/2016 13:26:54: Joanlac Dir: 10 X: 34 Y: 2
+08/08/2016 13:26:54: Joanlac Dir: 10 X: 35 Y: 2
+08/08/2016 13:26:55: Joanlac Dir: 10 X: 36 Y: 2
+08/08/2016 13:26:55: Joanlac Dir: 10 X: 37 Y: 2
+08/08/2016 13:26:55: Joanlac Dir: 10 X: 38 Y: 2
+08/08/2016 13:26:55: Joanlac Dir: 10 X: 39 Y: 2
+08/08/2016 13:26:55: Joanlac Dir: 10 X: 40 Y: 2
+08/08/2016 13:26:55: Joanlac Dir: 10 X: 41 Y: 2
+08/08/2016 13:26:56: Joanlac Dir: 10 X: 42 Y: 2
+08/08/2016 13:26:56: Joanlac Dir: 10 X: 43 Y: 2
+08/08/2016 13:26:56: Joanlac Dir: 1 X: 43 Y: 1
+08/08/2016 13:26:56: Joanlac Dir: 10 X: 44 Y: 1
+08/08/2016 13:26:56: Joanlac Dir: 10 X: 45 Y: 1
+08/08/2016 13:26:57: Joanlac Dir: 10 X: 46 Y: 1
+08/08/2016 13:26:57: Joanlac Dir: 10 X: 47 Y: 1
+08/08/2016 13:26:57: Joanlac Dir: 1 X: 47 Y: 0
+08/08/2016 13:26:57: Joanlac Dir: 10 X: 48 Y: 0
+08/08/2016 13:26:57: Joanlac Dir: 10 X: 49 Y: 0
+08/08/2016 13:26:57: Joanlac Dir: 10 X: 50 Y: 0
+08/08/2016 13:26:58: Joanlac Dir: 10 X: 51 Y: 0
+08/08/2016 13:26:58: Joanlac Dir: 10 X: 52 Y: 0
+08/08/2016 13:26:58: Joanlac Dir: 10 X: 53 Y: 0
+08/08/2016 13:26:58: Joanlac Dir: 10 X: 54 Y: 0
+08/08/2016 13:26:58: Joanlac Dir: 10 X: 55 Y: 0
+08/08/2016 13:26:59: Joanlac Dir: 10 X: 56 Y: 0
+08/08/2016 13:27:26: Data From World Server ID: 2 Account: dragonick Char ID: 10 Slot: 0 9217F3E7867EB157
+08/08/2016 13:27:28: Status changed to connected: 127.0.0.1
+08/08/2016 13:27:28: Received From Client: 9217F3E7867EB157
+08/08/2016 13:27:28: Player Found ID: 10 Name: sacizenta
+08/08/2016 13:27:32: sacizenta Dir: 10 X: 1 Y: 0
+08/08/2016 13:27:32: sacizenta Dir: 10 X: 2 Y: 0
+08/08/2016 13:27:33: sacizenta Dir: 10 X: 3 Y: 0
+08/08/2016 13:27:33: sacizenta Dir: 10 X: 4 Y: 0
+08/08/2016 13:27:33: sacizenta Dir: 10 X: 5 Y: 0
+08/08/2016 13:27:33: sacizenta Dir: 10 X: 6 Y: 0
+08/08/2016 13:27:34: sacizenta Dir: 10 X: 7 Y: 0
+08/08/2016 13:27:34: sacizenta Dir: 10 X: 8 Y: 0
+08/08/2016 13:27:34: sacizenta Dir: 10 X: 9 Y: 0
+08/08/2016 13:27:34: sacizenta Dir: 10 X: 10 Y: 0
+08/08/2016 13:27:35: sacizenta Dir: 10 X: 11 Y: 0
+08/08/2016 13:27:35: sacizenta Dir: 10 X: 12 Y: 0
+08/08/2016 13:27:35: sacizenta Dir: 10 X: 13 Y: 0
+08/08/2016 13:27:35: sacizenta Dir: 10 X: 14 Y: 0
+08/08/2016 13:27:35: sacizenta Dir: 10 X: 15 Y: 0
+08/08/2016 13:27:36: sacizenta Dir: 10 X: 16 Y: 0
+08/08/2016 13:27:36: sacizenta Dir: 10 X: 17 Y: 0
+08/08/2016 13:27:36: sacizenta Dir: 10 X: 18 Y: 0
+08/08/2016 13:27:36: sacizenta Dir: 10 X: 19 Y: 0
+08/08/2016 13:27:37: sacizenta Dir: 10 X: 20 Y: 0
+08/08/2016 13:27:37: sacizenta Dir: 10 X: 21 Y: 0
+08/08/2016 13:27:37: sacizenta Dir: 10 X: 22 Y: 0
+08/08/2016 13:27:37: sacizenta Dir: 10 X: 23 Y: 0
+08/08/2016 13:27:38: sacizenta Dir: 10 X: 24 Y: 0
+08/08/2016 13:27:38: sacizenta Dir: 10 X: 25 Y: 0
+08/08/2016 13:27:38: sacizenta Dir: 10 X: 26 Y: 0
+08/08/2016 13:27:38: sacizenta Dir: 10 X: 27 Y: 0
+08/08/2016 13:27:39: sacizenta Dir: 10 X: 28 Y: 0
+08/08/2016 13:27:39: sacizenta Dir: 10 X: 29 Y: 0
+08/08/2016 13:27:39: sacizenta Dir: 10 X: 30 Y: 0
+08/08/2016 13:27:40: sacizenta Dir: 10 X: 31 Y: 0
+08/08/2016 13:27:40: sacizenta Dir: 10 X: 32 Y: 0
+08/08/2016 13:27:40: sacizenta Dir: 10 X: 33 Y: 0
+08/08/2016 13:27:40: sacizenta Dir: 10 X: 34 Y: 0
+08/08/2016 13:27:41: sacizenta Dir: 10 X: 35 Y: 0
+08/08/2016 13:27:41: sacizenta Dir: 10 X: 36 Y: 0
+08/08/2016 13:27:41: sacizenta Dir: 10 X: 37 Y: 0
+08/08/2016 13:27:41: sacizenta Dir: 10 X: 38 Y: 0
+08/08/2016 13:27:42: sacizenta Dir: 10 X: 39 Y: 0
+08/08/2016 13:27:42: sacizenta Dir: 10 X: 40 Y: 0
+08/08/2016 13:27:42: sacizenta Dir: 10 X: 41 Y: 0
+08/08/2016 13:27:42: sacizenta Dir: 10 X: 42 Y: 0
+08/08/2016 13:27:43: sacizenta Dir: 10 X: 43 Y: 0
+08/08/2016 13:27:43: sacizenta Dir: 10 X: 44 Y: 0
+08/08/2016 13:27:43: sacizenta Dir: 10 X: 45 Y: 0
+08/08/2016 13:27:43: sacizenta Dir: 10 X: 46 Y: 0
+08/08/2016 13:27:43: sacizenta Dir: 10 X: 47 Y: 0
+08/08/2016 13:27:44: sacizenta Dir: 10 X: 48 Y: 0
+08/08/2016 13:27:44: sacizenta Dir: 10 X: 49 Y: 0
+08/08/2016 13:27:44: sacizenta Dir: 10 X: 50 Y: 0
+08/08/2016 13:27:45: sacizenta Dir: 10 X: 51 Y: 0
+08/08/2016 13:27:45: sacizenta Dir: 10 X: 52 Y: 0
+08/08/2016 13:27:45: sacizenta Dir: 10 X: 53 Y: 0
+08/08/2016 13:27:45: sacizenta Dir: 10 X: 54 Y: 0
+08/08/2016 13:27:46: sacizenta Dir: 10 X: 55 Y: 0
+08/08/2016 13:28:13: Status changed to disconnected: 127.0.0.1
+08/08/2016 13:28:19: Data From World Server ID: 2 Account: dragonick Char ID: 10 Slot: 0 AB74626B865F0813
+08/08/2016 13:28:21: Status changed to connected: 127.0.0.1
+08/08/2016 13:28:21: Received From Client: AB74626B865F0813
+08/08/2016 13:28:21: Player Found ID: 10 Name: sacizenta
+08/08/2016 13:28:23: sacizenta Dir: 10 X: 1 Y: 0
+08/08/2016 13:28:39: Joanlac Dir: 7 X: 55 Y: 0
+08/08/2016 13:28:41: Joanlac Dir: 7 X: 54 Y: 0
+08/08/2016 13:28:43: Joanlac Dir: 7 X: 53 Y: 0
+08/08/2016 13:28:45: Joanlac Dir: 7 X: 52 Y: 0
+08/08/2016 13:28:47: Joanlac Dir: 7 X: 51 Y: 0
+08/08/2016 13:28:49: Joanlac Dir: 7 X: 50 Y: 0
+08/08/2016 13:28:50: Joanlac Dir: 7 X: 49 Y: 0
+08/08/2016 13:28:52: Joanlac Dir: 7 X: 48 Y: 0
+08/08/2016 13:28:54: Joanlac Dir: 7 X: 47 Y: 0
+08/08/2016 13:28:55: Joanlac Dir: 7 X: 46 Y: 0
+08/08/2016 13:28:56: Joanlac Dir: 7 X: 45 Y: 0
+08/08/2016 13:28:57: Joanlac Dir: 7 X: 44 Y: 0
+08/08/2016 13:28:58: Joanlac Dir: 7 X: 43 Y: 0
+08/08/2016 13:29:00: Joanlac Dir: 7 X: 42 Y: 0
+08/08/2016 13:29:01: Joanlac Dir: 7 X: 41 Y: 0
+08/08/2016 13:29:02: Joanlac Dir: 7 X: 40 Y: 0
+08/08/2016 13:29:03: Joanlac Dir: 7 X: 39 Y: 0
+08/08/2016 13:29:04: Joanlac Dir: 7 X: 38 Y: 0
+08/08/2016 13:29:06: Joanlac Dir: 7 X: 37 Y: 0
+08/08/2016 13:29:07: Joanlac Dir: 7 X: 36 Y: 0
+08/08/2016 13:29:08: Joanlac Dir: 7 X: 35 Y: 0
+08/08/2016 13:29:10: Joanlac Dir: 7 X: 34 Y: 0
+08/08/2016 13:29:11: Joanlac Dir: 7 X: 33 Y: 0
+08/08/2016 13:29:13: Joanlac Dir: 7 X: 32 Y: 0
+08/08/2016 13:29:14: Joanlac Dir: 7 X: 31 Y: 0
+08/08/2016 13:29:15: Joanlac Dir: 7 X: 30 Y: 0
+08/08/2016 13:29:16: Joanlac Dir: 7 X: 29 Y: 0
+08/08/2016 13:29:18: Joanlac Dir: 7 X: 28 Y: 0
+08/08/2016 13:29:19: Joanlac Dir: 7 X: 27 Y: 0
+08/08/2016 13:29:21: Joanlac Dir: 7 X: 26 Y: 0
+08/08/2016 13:29:22: Joanlac Dir: 7 X: 25 Y: 0
+08/08/2016 13:29:24: Joanlac Dir: 7 X: 24 Y: 0
+08/08/2016 13:29:25: Joanlac Dir: 7 X: 23 Y: 0
+08/08/2016 13:29:26: Joanlac Dir: 7 X: 22 Y: 0
+08/08/2016 13:29:28: Joanlac Dir: 7 X: 21 Y: 0
+08/08/2016 13:29:29: Joanlac Dir: 7 X: 20 Y: 0
+08/08/2016 13:29:30: Joanlac Dir: 7 X: 19 Y: 0
+08/08/2016 13:29:32: Joanlac Dir: 7 X: 18 Y: 0
+08/08/2016 13:29:33: Joanlac Dir: 7 X: 17 Y: 0
+08/08/2016 13:29:35: Joanlac Dir: 7 X: 16 Y: 0
+08/08/2016 13:29:36: Joanlac Dir: 7 X: 15 Y: 0
+08/08/2016 13:29:38: Joanlac Dir: 7 X: 14 Y: 0
+08/08/2016 13:29:39: Joanlac Dir: 7 X: 13 Y: 0
+08/08/2016 13:29:41: Joanlac Dir: 7 X: 12 Y: 0
+08/08/2016 13:29:42: Joanlac Dir: 7 X: 11 Y: 0
+08/08/2016 13:29:44: Joanlac Dir: 7 X: 10 Y: 0
+08/08/2016 13:29:45: Joanlac Dir: 7 X: 9 Y: 0
+08/08/2016 13:29:51: Joanlac Dir: 7 X: 8 Y: 0
+08/08/2016 13:29:52: Joanlac Dir: 7 X: 7 Y: 0
+08/08/2016 13:29:54: Joanlac Dir: 7 X: 6 Y: 0
+08/08/2016 13:29:55: Joanlac Dir: 7 X: 5 Y: 0
+08/08/2016 13:29:57: Joanlac Dir: 7 X: 4 Y: 0
+08/08/2016 13:30:01: Joanlac Dir: 7 X: 3 Y: 0
+08/08/2016 13:30:03: Joanlac Dir: 7 X: 2 Y: 0
+08/08/2016 13:30:05: Joanlac Dir: 7 X: 1 Y: 0
+08/08/2016 13:30:06: Joanlac Dir: 7 X: 0 Y: 0
+08/08/2016 13:30:07: Joanlac Dir: 1 X: 0 Y: -1
+08/08/2016 13:30:09: Joanlac Dir: 1 X: 0 Y: -2
+08/08/2016 13:30:10: Joanlac Dir: 4 X: 0 Y: -1
+08/08/2016 13:30:11: Joanlac Dir: 4 X: 0 Y: 0
+08/08/2016 13:30:11: Joanlac Dir: 4 X: 0 Y: 1
+08/08/2016 13:30:11: Joanlac Dir: 4 X: 0 Y: 2
+08/08/2016 13:30:11: Joanlac Dir: 4 X: 0 Y: 3
+08/08/2016 13:30:12: Joanlac Dir: 4 X: 0 Y: 4
+08/08/2016 13:30:12: Joanlac Dir: 4 X: 0 Y: 5
+08/08/2016 13:30:12: Joanlac Dir: 10 X: 1 Y: 5
+08/08/2016 13:30:12: Joanlac Dir: 10 X: 2 Y: 5
+08/08/2016 13:30:13: Joanlac Dir: 10 X: 3 Y: 5
+08/08/2016 13:30:13: Joanlac Dir: 10 X: 4 Y: 5
+08/08/2016 13:30:13: Joanlac Dir: 10 X: 5 Y: 5
+08/08/2016 13:30:13: Joanlac Dir: 10 X: 6 Y: 5
+08/08/2016 13:30:13: Joanlac Dir: 10 X: 7 Y: 5
+08/08/2016 13:30:14: Joanlac Dir: 10 X: 8 Y: 5
+08/08/2016 13:30:14: Joanlac Dir: 10 X: 9 Y: 5
+08/08/2016 13:30:14: Joanlac Dir: 10 X: 10 Y: 5
+08/08/2016 13:30:14: Joanlac Dir: 10 X: 11 Y: 5
+08/08/2016 13:30:14: Joanlac Dir: 10 X: 12 Y: 5
+08/08/2016 13:30:15: Joanlac Dir: 10 X: 13 Y: 5
+08/08/2016 13:30:15: Joanlac Dir: 10 X: 14 Y: 5
+08/08/2016 13:30:15: Joanlac Dir: 10 X: 15 Y: 5
+08/08/2016 13:30:15: Joanlac Dir: 10 X: 16 Y: 5
+08/08/2016 13:30:21: Joanlac Dir: 10 X: 17 Y: 5
+08/08/2016 13:30:21: Joanlac Dir: 10 X: 18 Y: 5
+08/08/2016 13:30:21: Joanlac Dir: 10 X: 19 Y: 5
+08/08/2016 13:30:21: Joanlac Dir: 10 X: 20 Y: 5
+08/08/2016 13:30:22: Joanlac Dir: 10 X: 21 Y: 5
+08/08/2016 13:30:22: Joanlac Dir: 10 X: 22 Y: 5
+08/08/2016 13:30:22: Joanlac Dir: 10 X: 23 Y: 5
+08/08/2016 13:30:22: Joanlac Dir: 10 X: 24 Y: 5
+08/08/2016 13:30:22: Joanlac Dir: 10 X: 25 Y: 5
+08/08/2016 13:30:23: Joanlac Dir: 10 X: 26 Y: 5
+08/08/2016 13:30:23: Joanlac Dir: 10 X: 27 Y: 5
+08/08/2016 13:30:24: Joanlac Dir: 10 X: 28 Y: 5
+08/08/2016 13:30:24: Joanlac Dir: 10 X: 29 Y: 5
+08/08/2016 13:30:24: Joanlac Dir: 10 X: 30 Y: 5
+08/08/2016 13:30:24: Joanlac Dir: 10 X: 31 Y: 5
+08/08/2016 13:30:24: Joanlac Dir: 10 X: 32 Y: 5
+08/08/2016 13:30:25: Joanlac Dir: 10 X: 33 Y: 5
+08/08/2016 13:30:25: Joanlac Dir: 10 X: 34 Y: 5
+08/08/2016 13:30:25: Joanlac Dir: 10 X: 35 Y: 5
+08/08/2016 13:30:25: Joanlac Dir: 10 X: 36 Y: 5
+08/08/2016 13:30:25: Joanlac Dir: 10 X: 37 Y: 5
+08/08/2016 13:30:26: Joanlac Dir: 10 X: 38 Y: 5
+08/08/2016 13:30:26: Joanlac Dir: 10 X: 39 Y: 5
+08/08/2016 13:30:26: Joanlac Dir: 10 X: 40 Y: 5
+08/08/2016 13:30:26: Joanlac Dir: 10 X: 41 Y: 5
+08/08/2016 13:30:27: Joanlac Dir: 10 X: 42 Y: 5
+08/08/2016 13:30:27: Joanlac Dir: 10 X: 43 Y: 5
+08/08/2016 13:30:27: Joanlac Dir: 10 X: 44 Y: 5
+08/08/2016 13:30:27: Joanlac Dir: 10 X: 45 Y: 5
+08/08/2016 13:30:27: Joanlac Dir: 10 X: 46 Y: 5
+08/08/2016 13:30:28: Joanlac Dir: 10 X: 47 Y: 5
+08/08/2016 13:30:28: Joanlac Dir: 10 X: 48 Y: 5
+08/08/2016 13:30:28: Joanlac Dir: 10 X: 49 Y: 5
+08/08/2016 13:30:29: Joanlac Dir: 10 X: 50 Y: 5
+08/08/2016 13:30:29: Joanlac Dir: 1 X: 50 Y: 4
+08/08/2016 13:30:29: Joanlac Dir: 1 X: 50 Y: 3
+08/08/2016 13:30:30: Joanlac Dir: 1 X: 50 Y: 2
+08/08/2016 13:30:30: Joanlac Dir: 1 X: 50 Y: 1
+08/08/2016 13:30:30: Joanlac Dir: 7 X: 49 Y: 1
+08/08/2016 13:30:30: Joanlac Dir: 7 X: 48 Y: 1
+08/08/2016 13:30:31: Joanlac Dir: 7 X: 47 Y: 1
+08/08/2016 13:30:31: Joanlac Dir: 7 X: 46 Y: 1
+08/08/2016 13:30:31: Joanlac Dir: 7 X: 45 Y: 1
+08/08/2016 13:30:31: Joanlac Dir: 7 X: 44 Y: 1
+08/08/2016 13:30:31: Joanlac Dir: 7 X: 43 Y: 1
+08/08/2016 13:30:32: Joanlac Dir: 7 X: 42 Y: 1
+08/08/2016 13:30:32: Joanlac Dir: 7 X: 41 Y: 1
+08/08/2016 13:30:32: Joanlac Dir: 7 X: 40 Y: 1
+08/08/2016 13:30:32: Joanlac Dir: 7 X: 39 Y: 1
+08/08/2016 13:30:33: Joanlac Dir: 7 X: 38 Y: 1
+08/08/2016 13:30:33: Joanlac Dir: 7 X: 37 Y: 1
+08/08/2016 13:30:33: Joanlac Dir: 7 X: 36 Y: 1
+08/08/2016 13:30:33: Joanlac Dir: 7 X: 35 Y: 1
+08/08/2016 13:30:33: Joanlac Dir: 7 X: 34 Y: 1
+08/08/2016 13:30:34: Joanlac Dir: 7 X: 33 Y: 1
+08/08/2016 13:30:34: Joanlac Dir: 7 X: 32 Y: 1
+08/08/2016 13:30:34: Joanlac Dir: 7 X: 31 Y: 1
+08/08/2016 13:30:34: Joanlac Dir: 7 X: 30 Y: 1
+08/08/2016 13:30:34: Joanlac Dir: 7 X: 29 Y: 1
+08/08/2016 13:30:35: Joanlac Dir: 7 X: 28 Y: 1
+08/08/2016 13:30:36: Joanlac Dir: 7 X: 27 Y: 1
+08/08/2016 13:30:36: Joanlac Dir: 7 X: 26 Y: 1
+08/08/2016 13:30:36: Joanlac Dir: 7 X: 25 Y: 1
+08/08/2016 13:30:36: Joanlac Dir: 7 X: 24 Y: 1
+08/08/2016 13:30:37: Joanlac Dir: 7 X: 23 Y: 1
+08/08/2016 13:30:37: Joanlac Dir: 7 X: 22 Y: 1
+08/08/2016 13:30:37: Joanlac Dir: 7 X: 21 Y: 1
+08/08/2016 13:30:38: Joanlac Dir: 7 X: 20 Y: 1
+08/08/2016 13:30:38: Joanlac Dir: 7 X: 19 Y: 1
+08/08/2016 13:30:38: Joanlac Dir: 7 X: 18 Y: 1
+08/08/2016 13:30:38: Joanlac Dir: 7 X: 17 Y: 1
+08/08/2016 13:30:39: Joanlac Dir: 7 X: 16 Y: 1
+08/08/2016 13:30:39: Joanlac Dir: 7 X: 15 Y: 1
+08/08/2016 13:30:39: Joanlac Dir: 7 X: 14 Y: 1
+08/08/2016 13:30:39: Joanlac Dir: 7 X: 13 Y: 1
+08/08/2016 13:30:39: Joanlac Dir: 7 X: 12 Y: 1
+08/08/2016 13:30:40: Joanlac Dir: 7 X: 11 Y: 1
+08/08/2016 13:30:40: Joanlac Dir: 7 X: 10 Y: 1
+08/08/2016 13:30:40: Joanlac Dir: 7 X: 9 Y: 1
+08/08/2016 13:30:40: Joanlac Dir: 7 X: 8 Y: 1
+08/08/2016 13:30:40: Joanlac Dir: 7 X: 7 Y: 1
+08/08/2016 13:30:41: Joanlac Dir: 7 X: 6 Y: 1
+08/08/2016 13:30:41: Joanlac Dir: 7 X: 5 Y: 1
+08/08/2016 13:30:41: Joanlac Dir: 7 X: 4 Y: 1
+08/08/2016 13:30:41: Joanlac Dir: 7 X: 3 Y: 1
+08/08/2016 13:30:42: Joanlac Dir: 7 X: 2 Y: 1
+08/08/2016 13:30:42: Joanlac Dir: 7 X: 1 Y: 1
+08/08/2016 13:30:42: Joanlac Dir: 7 X: 0 Y: 1
+08/08/2016 13:30:43: Joanlac Dir: 1 X: 0 Y: 0
+08/08/2016 13:30:44: Joanlac Dir: 1 X: 0 Y: -1
+08/08/2016 13:30:45: Joanlac Dir: 4 X: 0 Y: 0
+08/08/2016 13:30:45: Joanlac Dir: 4 X: 0 Y: 1
+08/08/2016 13:30:45: Joanlac Dir: 10 X: 1 Y: 1
+08/08/2016 13:30:45: Joanlac Dir: 10 X: 2 Y: 1
+08/08/2016 13:30:45: Joanlac Dir: 10 X: 3 Y: 1
+08/08/2016 13:30:46: Joanlac Dir: 10 X: 4 Y: 1
+08/08/2016 13:30:46: Joanlac Dir: 10 X: 5 Y: 1
+08/08/2016 13:30:46: Joanlac Dir: 10 X: 6 Y: 1
+08/08/2016 13:30:46: Joanlac Dir: 10 X: 7 Y: 1
+08/08/2016 13:30:47: Joanlac Dir: 10 X: 8 Y: 1
+08/08/2016 13:30:47: Joanlac Dir: 10 X: 9 Y: 1
+08/08/2016 13:30:47: Joanlac Dir: 10 X: 10 Y: 1
+08/08/2016 13:30:47: Joanlac Dir: 10 X: 11 Y: 1
+08/08/2016 13:30:47: Joanlac Dir: 10 X: 12 Y: 1
+08/08/2016 13:30:48: Joanlac Dir: 10 X: 13 Y: 1
+08/08/2016 13:30:48: Joanlac Dir: 10 X: 14 Y: 1
+08/08/2016 13:30:48: Joanlac Dir: 10 X: 15 Y: 1
+08/08/2016 13:30:48: Joanlac Dir: 10 X: 16 Y: 1
+08/08/2016 13:30:49: Joanlac Dir: 10 X: 17 Y: 1
+08/08/2016 13:30:49: Joanlac Dir: 10 X: 18 Y: 1
+08/08/2016 13:30:50: Joanlac Dir: 10 X: 19 Y: 1
+08/08/2016 13:30:50: Joanlac Dir: 10 X: 20 Y: 1
+08/08/2016 13:30:50: Joanlac Dir: 10 X: 21 Y: 1
+08/08/2016 13:30:50: Joanlac Dir: 10 X: 22 Y: 1
+08/08/2016 13:30:51: Joanlac Dir: 10 X: 23 Y: 1
+08/08/2016 13:30:51: Joanlac Dir: 10 X: 24 Y: 1
+08/08/2016 13:30:51: Joanlac Dir: 10 X: 25 Y: 1
+08/08/2016 13:30:54: Joanlac Dir: 10 X: 26 Y: 1
+08/08/2016 13:30:54: Joanlac Dir: 10 X: 27 Y: 1
+08/08/2016 13:30:54: Joanlac Dir: 10 X: 28 Y: 1
+08/08/2016 13:30:54: Joanlac Dir: 10 X: 29 Y: 1
+08/08/2016 13:30:54: Joanlac Dir: 10 X: 30 Y: 1
+08/08/2016 13:30:55: Joanlac Dir: 10 X: 31 Y: 1
+08/08/2016 13:30:55: Joanlac Dir: 10 X: 32 Y: 1
+08/08/2016 13:30:55: Joanlac Dir: 10 X: 33 Y: 1
+08/08/2016 13:30:55: Joanlac Dir: 10 X: 34 Y: 1
+08/08/2016 13:30:56: Joanlac Dir: 10 X: 35 Y: 1
+08/08/2016 13:30:56: Joanlac Dir: 10 X: 36 Y: 1
+08/08/2016 13:30:56: Joanlac Dir: 10 X: 37 Y: 1
+08/08/2016 13:30:56: Joanlac Dir: 10 X: 38 Y: 1
+08/08/2016 13:30:56: Joanlac Dir: 10 X: 39 Y: 1
+08/08/2016 13:30:57: Joanlac Dir: 10 X: 40 Y: 1
+08/08/2016 13:30:57: Joanlac Dir: 10 X: 41 Y: 1
+08/08/2016 13:30:57: Joanlac Dir: 10 X: 42 Y: 1
+08/08/2016 13:30:57: Joanlac Dir: 10 X: 43 Y: 1
+08/08/2016 13:30:58: Joanlac Dir: 10 X: 44 Y: 1
+08/08/2016 13:30:58: Joanlac Dir: 10 X: 45 Y: 1
+08/08/2016 13:30:58: Joanlac Dir: 10 X: 46 Y: 1
+08/08/2016 13:30:58: Joanlac Dir: 10 X: 47 Y: 1
+08/08/2016 13:30:58: Joanlac Dir: 10 X: 48 Y: 1
+08/08/2016 13:30:59: Joanlac Dir: 10 X: 49 Y: 1
+08/08/2016 13:30:59: Joanlac Dir: 10 X: 50 Y: 1
+08/08/2016 13:30:59: Joanlac Dir: 10 X: 51 Y: 1
+08/08/2016 13:30:59: Joanlac Dir: 10 X: 52 Y: 1
+08/08/2016 13:31:00: Joanlac Dir: 10 X: 53 Y: 1
+08/08/2016 13:31:00: Joanlac Dir: 10 X: 54 Y: 1
+08/08/2016 13:31:00: Joanlac Dir: 10 X: 55 Y: 1
+08/08/2016 13:31:00: Joanlac Dir: 10 X: 56 Y: 1
+08/08/2016 13:31:01: Joanlac Dir: 1 X: 56 Y: 0
+08/08/2016 13:31:03: Joanlac Dir: 7 X: 55 Y: 0
+08/08/2016 13:31:03: Joanlac Dir: 7 X: 54 Y: 0
+08/08/2016 13:31:03: Joanlac Dir: 7 X: 53 Y: 0
+08/08/2016 13:31:04: Joanlac Dir: 7 X: 52 Y: 0
+08/08/2016 13:31:04: Joanlac Dir: 7 X: 51 Y: 0
+08/08/2016 13:31:04: Joanlac Dir: 7 X: 50 Y: 0
+08/08/2016 13:31:04: Joanlac Dir: 7 X: 49 Y: 0
+08/08/2016 13:31:04: Joanlac Dir: 7 X: 48 Y: 0
+08/08/2016 13:31:05: Joanlac Dir: 7 X: 47 Y: 0
+08/08/2016 13:31:05: Joanlac Dir: 7 X: 46 Y: 0
+08/08/2016 13:31:05: Joanlac Dir: 7 X: 45 Y: 0
+08/08/2016 13:31:05: Joanlac Dir: 7 X: 44 Y: 0
+08/08/2016 13:31:05: Joanlac Dir: 7 X: 43 Y: 0
+08/08/2016 13:31:06: Joanlac Dir: 7 X: 42 Y: 0
+08/08/2016 13:31:06: Joanlac Dir: 7 X: 41 Y: 0
+08/08/2016 13:31:06: Joanlac Dir: 7 X: 40 Y: 0
+08/08/2016 13:31:06: Joanlac Dir: 7 X: 39 Y: 0
+08/08/2016 13:35:12: Carregando dados de mysql.
+08/08/2016 13:35:12: ID: #artemis#
+08/08/2016 13:35:12: Name: Canal 1
+08/08/2016 13:35:12: Discovery: Elysium Diamond #1.0.0
+08/08/2016 13:35:12: IP: 127.0.0.1
+08/08/2016 13:35:12: Port: 10120
+08/08/2016 13:35:12: MaximumConnections: 2000
+08/08/2016 13:35:12: Logs: True
+08/08/2016 13:35:12: ClientSerial: #elysium#
+08/08/2016 13:35:12: Sleep: 1
+08/08/2016 13:35:12: TestServer: False
+08/08/2016 13:35:12: WorldServer 1 ID: Artemis
+08/08/2016 13:35:12: WorldServer 2 ID: 
+08/08/2016 13:35:12: WorldServer 3 ID: 
+08/08/2016 13:35:12: WorldServer 4 ID: 
+08/08/2016 13:35:12: WorldServer 5 ID: 
+08/08/2016 13:35:13: Connectado ao banco de dados
+08/08/2016 13:35:13: Carregando experiência
+08/08/2016 13:35:13: Exp Máximo: 121 22353256174
+08/08/2016 13:35:13: Carregando guilds.
+08/08/2016 13:35:13: Total : 0 guilds carregados.
+08/08/2016 13:35:13: Carregando membros.
+08/08/2016 13:35:13: Total : 0 membros carregados.
+08/08/2016 13:35:13: Carregando classes
+08/08/2016 13:35:13: Carregando NPC
+08/08/2016 13:35:14: Servidor iniciado
+08/08/2016 13:35:18: Status changed to connected: 127.0.0.1
+08/08/2016 13:35:38: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 367736A92517A7E8
+08/08/2016 13:35:38: Status changed to connected: 127.0.0.1
+08/08/2016 13:35:38: Received From Client: 367736A92517A7E8
+08/08/2016 13:35:38: Player Found ID: 1 Name: Joanlac
+08/08/2016 13:35:43: Joanlac Dir: 4 X: 0 Y: 1
+08/08/2016 13:35:43: Joanlac Dir: 4 X: 0 Y: 2
+08/08/2016 13:35:43: Joanlac Dir: 10 X: 1 Y: 2
+08/08/2016 13:35:43: Joanlac Dir: 10 X: 2 Y: 2
+08/08/2016 13:35:43: Joanlac Dir: 10 X: 3 Y: 2
+08/08/2016 13:35:43: Joanlac Dir: 4 X: 3 Y: 3
+08/08/2016 13:35:44: Joanlac Dir: 10 X: 4 Y: 3
+08/08/2016 13:35:44: Joanlac Dir: 10 X: 5 Y: 3
+08/08/2016 13:36:12: Data From World Server ID: 2 Account: dragonick Char ID: 10 Slot: 0 E084B49C6F29CBB4
+08/08/2016 13:36:13: Status changed to connected: 127.0.0.1
+08/08/2016 13:36:13: Received From Client: E084B49C6F29CBB4
+08/08/2016 13:36:13: Player Found ID: 10 Name: sacizenta
+08/08/2016 13:36:15: sacizenta Dir: 4 X: 0 Y: 1
+08/08/2016 13:36:15: sacizenta Dir: 4 X: 0 Y: 2
+08/08/2016 13:36:16: sacizenta Dir: 4 X: 0 Y: 3
+08/08/2016 13:36:16: sacizenta Dir: 4 X: 0 Y: 4
+08/08/2016 13:36:16: sacizenta Dir: 10 X: 1 Y: 4
+08/08/2016 13:36:17: sacizenta Dir: 10 X: 2 Y: 4
+08/08/2016 13:36:17: sacizenta Dir: 10 X: 3 Y: 4
+08/08/2016 13:36:17: sacizenta Dir: 10 X: 4 Y: 4
+08/08/2016 13:36:18: sacizenta Dir: 10 X: 5 Y: 4
+08/08/2016 13:36:19: sacizenta Dir: 1 X: 5 Y: 3
+08/08/2016 13:36:20: sacizenta Dir: 4 X: 5 Y: 4
+08/08/2016 13:36:21: sacizenta Dir: 10 X: 6 Y: 4
+08/08/2016 13:36:21: sacizenta Dir: 10 X: 7 Y: 4
+08/08/2016 13:36:21: sacizenta Dir: 10 X: 8 Y: 4
+08/08/2016 13:36:22: sacizenta Dir: 10 X: 9 Y: 4
+08/08/2016 13:36:22: sacizenta Dir: 10 X: 10 Y: 4
+08/08/2016 13:36:22: sacizenta Dir: 10 X: 11 Y: 4
+08/08/2016 13:36:22: sacizenta Dir: 10 X: 12 Y: 4
+08/08/2016 13:36:22: sacizenta Dir: 10 X: 13 Y: 4
+08/08/2016 13:36:23: sacizenta Dir: 10 X: 14 Y: 4
+08/08/2016 13:36:23: sacizenta Dir: 10 X: 15 Y: 4
+08/08/2016 13:36:24: sacizenta Dir: 10 X: 16 Y: 4
+08/08/2016 13:36:24: sacizenta Dir: 10 X: 17 Y: 4
+08/08/2016 13:36:25: sacizenta Dir: 10 X: 18 Y: 4
+08/08/2016 13:36:25: sacizenta Dir: 10 X: 19 Y: 4
+08/08/2016 13:36:25: sacizenta Dir: 10 X: 20 Y: 4
+08/08/2016 13:36:26: sacizenta Dir: 10 X: 21 Y: 4
+08/08/2016 13:36:26: sacizenta Dir: 7 X: 20 Y: 4
+08/08/2016 13:36:26: sacizenta Dir: 7 X: 19 Y: 4
+08/08/2016 13:36:27: sacizenta Dir: 10 X: 20 Y: 4
+08/08/2016 13:36:27: sacizenta Dir: 10 X: 21 Y: 4
+08/08/2016 13:36:27: sacizenta Dir: 10 X: 22 Y: 4
+08/08/2016 13:36:27: sacizenta Dir: 10 X: 23 Y: 4
+08/08/2016 13:36:28: sacizenta Dir: 10 X: 24 Y: 4
+08/08/2016 13:36:28: sacizenta Dir: 10 X: 25 Y: 4
+08/08/2016 13:36:28: sacizenta Dir: 10 X: 26 Y: 4
+08/08/2016 13:36:28: sacizenta Dir: 10 X: 27 Y: 4
+08/08/2016 13:36:28: sacizenta Dir: 10 X: 28 Y: 4
+08/08/2016 13:36:29: sacizenta Dir: 1 X: 28 Y: 3
+08/08/2016 13:36:29: sacizenta Dir: 1 X: 28 Y: 2
+08/08/2016 13:36:29: sacizenta Dir: 1 X: 28 Y: 1
+08/08/2016 13:36:29: sacizenta Dir: 10 X: 29 Y: 1
+08/08/2016 13:36:30: sacizenta Dir: 10 X: 30 Y: 1
+08/08/2016 13:36:30: sacizenta Dir: 1 X: 30 Y: 0
+08/08/2016 13:36:30: sacizenta Dir: 10 X: 31 Y: 0
+08/08/2016 13:36:30: sacizenta Dir: 10 X: 32 Y: 0
+08/08/2016 13:36:31: sacizenta Dir: 10 X: 33 Y: 0
+08/08/2016 13:36:31: sacizenta Dir: 10 X: 34 Y: 0
+08/08/2016 13:36:31: sacizenta Dir: 10 X: 35 Y: 0
+08/08/2016 13:36:31: sacizenta Dir: 10 X: 36 Y: 0
+08/08/2016 13:36:32: sacizenta Dir: 10 X: 37 Y: 0
+08/08/2016 13:36:32: sacizenta Dir: 10 X: 38 Y: 0
+08/08/2016 13:36:32: sacizenta Dir: 10 X: 39 Y: 0
+08/08/2016 13:36:32: sacizenta Dir: 10 X: 40 Y: 0
+08/08/2016 13:36:32: sacizenta Dir: 10 X: 41 Y: 0
+08/08/2016 13:36:33: sacizenta Dir: 10 X: 42 Y: 0
+08/08/2016 13:36:33: sacizenta Dir: 10 X: 43 Y: 0
+08/08/2016 13:36:33: sacizenta Dir: 10 X: 44 Y: 0
+08/08/2016 13:36:33: sacizenta Dir: 10 X: 45 Y: 0
+08/08/2016 13:36:34: sacizenta Dir: 10 X: 46 Y: 0
+08/08/2016 13:36:34: sacizenta Dir: 10 X: 47 Y: 0
+08/08/2016 13:36:34: sacizenta Dir: 10 X: 48 Y: 0
+08/08/2016 13:36:34: sacizenta Dir: 10 X: 49 Y: 0
+08/08/2016 13:36:35: sacizenta Dir: 10 X: 50 Y: 0
+08/08/2016 13:36:35: sacizenta Dir: 10 X: 51 Y: 0
+08/08/2016 13:36:35: sacizenta Dir: 10 X: 52 Y: 0
+08/08/2016 13:36:35: sacizenta Dir: 10 X: 53 Y: 0
+08/08/2016 13:36:36: sacizenta Dir: 10 X: 54 Y: 0
+08/08/2016 13:36:36: sacizenta Dir: 10 X: 55 Y: 0
+08/08/2016 13:36:37: sacizenta Dir: 10 X: 56 Y: 0
+08/08/2016 13:36:38: sacizenta Dir: 4 X: 56 Y: 1
+08/08/2016 13:36:38: sacizenta Dir: 7 X: 55 Y: 1
+08/08/2016 13:36:38: sacizenta Dir: 7 X: 54 Y: 1
+08/08/2016 13:36:39: sacizenta Dir: 4 X: 54 Y: 2
+08/08/2016 13:36:39: sacizenta Dir: 10 X: 55 Y: 2
+08/08/2016 13:36:39: sacizenta Dir: 7 X: 54 Y: 2
+08/08/2016 13:36:39: sacizenta Dir: 7 X: 53 Y: 2
+08/08/2016 13:36:40: sacizenta Dir: 7 X: 52 Y: 2
+08/08/2016 13:36:40: sacizenta Dir: 7 X: 51 Y: 2
+08/08/2016 13:36:40: sacizenta Dir: 10 X: 52 Y: 2
+08/08/2016 13:36:40: sacizenta Dir: 10 X: 53 Y: 2
+08/08/2016 13:36:41: sacizenta Dir: 10 X: 54 Y: 2
+08/08/2016 13:36:41: sacizenta Dir: 10 X: 55 Y: 2
+08/08/2016 13:36:42: sacizenta Dir: 7 X: 54 Y: 2
+08/08/2016 13:36:42: sacizenta Dir: 7 X: 53 Y: 2
+08/08/2016 13:36:42: sacizenta Dir: 10 X: 54 Y: 2
+08/08/2016 13:36:43: sacizenta Dir: 10 X: 55 Y: 2
+08/08/2016 13:36:43: sacizenta Dir: 7 X: 54 Y: 2
+08/08/2016 13:36:43: sacizenta Dir: 7 X: 53 Y: 2
+08/08/2016 13:36:44: sacizenta Dir: 7 X: 52 Y: 2
+08/08/2016 13:36:44: sacizenta Dir: 7 X: 51 Y: 2
+08/08/2016 13:36:44: sacizenta Dir: 7 X: 50 Y: 2
+08/08/2016 13:36:44: sacizenta Dir: 7 X: 49 Y: 2
+08/08/2016 13:36:45: sacizenta Dir: 7 X: 48 Y: 2
+08/08/2016 13:36:45: sacizenta Dir: 4 X: 48 Y: 3
+08/08/2016 13:36:45: sacizenta Dir: 4 X: 48 Y: 4
+08/08/2016 13:36:45: sacizenta Dir: 4 X: 48 Y: 5
+08/08/2016 13:36:46: sacizenta Dir: 7 X: 47 Y: 5
+08/08/2016 13:36:46: sacizenta Dir: 7 X: 46 Y: 5
+08/08/2016 13:36:46: sacizenta Dir: 7 X: 45 Y: 5
+08/08/2016 13:36:46: sacizenta Dir: 7 X: 44 Y: 5
+08/08/2016 13:36:46: sacizenta Dir: 7 X: 43 Y: 5
+08/08/2016 13:36:47: sacizenta Dir: 7 X: 42 Y: 5
+08/08/2016 13:36:47: sacizenta Dir: 7 X: 41 Y: 5
+08/08/2016 13:36:47: sacizenta Dir: 7 X: 40 Y: 5
+08/08/2016 13:36:47: sacizenta Dir: 7 X: 39 Y: 5
+08/08/2016 13:36:48: sacizenta Dir: 1 X: 39 Y: 4
+08/08/2016 13:36:48: sacizenta Dir: 1 X: 39 Y: 3
+08/08/2016 13:36:48: sacizenta Dir: 10 X: 40 Y: 3
+08/08/2016 13:36:48: sacizenta Dir: 10 X: 41 Y: 3
+08/08/2016 13:36:49: sacizenta Dir: 10 X: 42 Y: 3
+08/08/2016 13:36:49: sacizenta Dir: 10 X: 43 Y: 3
+08/08/2016 13:36:49: sacizenta Dir: 10 X: 44 Y: 3
+08/08/2016 13:36:50: sacizenta Dir: 10 X: 45 Y: 3
+08/08/2016 13:36:50: sacizenta Dir: 10 X: 46 Y: 3
+08/08/2016 13:36:51: sacizenta Dir: 10 X: 47 Y: 3
+08/08/2016 13:36:51: sacizenta Dir: 10 X: 48 Y: 3
+08/08/2016 13:36:51: sacizenta Dir: 10 X: 49 Y: 3
+08/08/2016 13:36:51: sacizenta Dir: 10 X: 50 Y: 3
+08/08/2016 13:36:52: sacizenta Dir: 10 X: 51 Y: 3
+08/08/2016 13:36:52: sacizenta Dir: 10 X: 52 Y: 3
+08/08/2016 13:36:52: sacizenta Dir: 10 X: 53 Y: 3
+08/08/2016 13:36:52: sacizenta Dir: 1 X: 53 Y: 2
+08/08/2016 13:36:53: sacizenta Dir: 10 X: 54 Y: 2
+08/08/2016 13:36:53: sacizenta Dir: 10 X: 55 Y: 2
+08/08/2016 13:36:54: sacizenta Dir: 7 X: 54 Y: 2
+08/08/2016 13:36:54: sacizenta Dir: 10 X: 55 Y: 2
+08/08/2016 13:36:55: sacizenta Dir: 7 X: 54 Y: 2
+08/08/2016 13:36:55: sacizenta Dir: 7 X: 53 Y: 2
+08/08/2016 13:36:55: sacizenta Dir: 7 X: 52 Y: 2
+08/08/2016 13:36:56: sacizenta Dir: 10 X: 53 Y: 2
+08/08/2016 13:36:56: sacizenta Dir: 10 X: 54 Y: 2
+08/08/2016 13:36:57: sacizenta Dir: 10 X: 55 Y: 2
+08/08/2016 13:36:58: sacizenta Dir: 1 X: 55 Y: 1
+08/08/2016 13:36:58: sacizenta Dir: 1 X: 55 Y: 0
+08/08/2016 13:36:58: sacizenta Dir: 10 X: 56 Y: 0
+08/08/2016 13:36:59: sacizenta Dir: 7 X: 55 Y: 0
+08/08/2016 13:36:59: sacizenta Dir: 7 X: 54 Y: 0
+08/08/2016 13:36:59: sacizenta Dir: 7 X: 53 Y: 0
+08/08/2016 13:37:00: sacizenta Dir: 4 X: 53 Y: 1
+08/08/2016 13:37:00: sacizenta Dir: 4 X: 53 Y: 2
+08/08/2016 13:37:24: Status changed to disconnected: 127.0.0.1
+08/08/2016 13:37:25: Status changed to disconnected: 127.0.0.1
+08/08/2016 13:41:43: Carregando dados de mysql.
+08/08/2016 13:41:43: ID: #artemis#
+08/08/2016 13:41:43: Name: Canal 1
+08/08/2016 13:41:43: Discovery: Elysium Diamond #1.0.0
+08/08/2016 13:41:43: IP: 127.0.0.1
+08/08/2016 13:41:43: Port: 10120
+08/08/2016 13:41:43: MaximumConnections: 2000
+08/08/2016 13:41:43: Logs: True
+08/08/2016 13:41:43: ClientSerial: #elysium#
+08/08/2016 13:41:43: Sleep: 1
+08/08/2016 13:41:43: TestServer: False
+08/08/2016 13:41:43: WorldServer 1 ID: Artemis
+08/08/2016 13:41:43: WorldServer 2 ID: 
+08/08/2016 13:41:43: WorldServer 3 ID: 
+08/08/2016 13:41:43: WorldServer 4 ID: 
+08/08/2016 13:41:43: WorldServer 5 ID: 
+08/08/2016 13:41:44: Connectado ao banco de dados
+08/08/2016 13:41:44: Carregando experiência
+08/08/2016 13:41:44: Exp Máximo: 121 22353256174
+08/08/2016 13:41:44: Carregando guilds.
+08/08/2016 13:41:44: Total : 0 guilds carregados.
+08/08/2016 13:41:44: Carregando membros.
+08/08/2016 13:41:44: Total : 0 membros carregados.
+08/08/2016 13:41:44: Carregando classes
+08/08/2016 13:41:44: Carregando NPC
+08/08/2016 13:41:44: Servidor iniciado
+08/08/2016 13:41:49: Status changed to connected: 127.0.0.1
+08/08/2016 13:42:12: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 5AF474B9C950DC81
+08/08/2016 13:42:15: Status changed to connected: 127.0.0.1
+08/08/2016 13:42:15: Received From Client: 5AF474B9C950DC81
+08/08/2016 13:42:15: Player Found ID: 1 Name: Joanlac
+08/08/2016 13:42:40: Data From World Server ID: 2 Account: dragonick Char ID: 10 Slot: 0 7181367FD6C6CF6C
+08/08/2016 13:42:41: Status changed to connected: 127.0.0.1
+08/08/2016 13:42:41: Received From Client: 7181367FD6C6CF6C
+08/08/2016 13:42:41: Player Found ID: 10 Name: sacizenta
+08/08/2016 13:42:46: sacizenta Dir: 4 X: 0 Y: 1
+08/08/2016 13:42:46: sacizenta Dir: 4 X: 0 Y: 2
+08/08/2016 13:42:47: sacizenta Dir: 4 X: 0 Y: 3
+08/08/2016 13:42:47: sacizenta Dir: 10 X: 1 Y: 3
+08/08/2016 13:42:47: sacizenta Dir: 10 X: 2 Y: 3
+08/08/2016 13:42:48: sacizenta Dir: 10 X: 3 Y: 3
+08/08/2016 13:42:48: sacizenta Dir: 10 X: 4 Y: 3
+08/08/2016 13:42:48: sacizenta Dir: 10 X: 5 Y: 3
+08/08/2016 13:42:49: sacizenta Dir: 10 X: 6 Y: 3
+08/08/2016 13:42:49: sacizenta Dir: 10 X: 7 Y: 3
+08/08/2016 13:42:49: sacizenta Dir: 10 X: 8 Y: 3
+08/08/2016 13:42:49: sacizenta Dir: 10 X: 9 Y: 3
+08/08/2016 13:42:50: sacizenta Dir: 10 X: 10 Y: 3
+08/08/2016 13:42:50: sacizenta Dir: 10 X: 11 Y: 3
+08/08/2016 13:42:50: sacizenta Dir: 10 X: 12 Y: 3
+08/08/2016 13:42:50: sacizenta Dir: 10 X: 13 Y: 3
+08/08/2016 13:42:51: sacizenta Dir: 10 X: 14 Y: 3
+08/08/2016 13:42:51: sacizenta Dir: 10 X: 15 Y: 3
+08/08/2016 13:42:51: sacizenta Dir: 10 X: 16 Y: 3
+08/08/2016 13:42:52: sacizenta Dir: 1 X: 16 Y: 2
+08/08/2016 13:42:52: sacizenta Dir: 1 X: 16 Y: 1
+08/08/2016 13:42:52: sacizenta Dir: 10 X: 17 Y: 1
+08/08/2016 13:42:53: sacizenta Dir: 10 X: 18 Y: 1
+08/08/2016 13:42:53: sacizenta Dir: 10 X: 19 Y: 1
+08/08/2016 13:42:53: sacizenta Dir: 1 X: 19 Y: 0
+08/08/2016 13:42:53: sacizenta Dir: 10 X: 20 Y: 0
+08/08/2016 13:42:54: sacizenta Dir: 10 X: 21 Y: 0
+08/08/2016 13:42:54: sacizenta Dir: 10 X: 22 Y: 0
+08/08/2016 13:42:54: sacizenta Dir: 10 X: 23 Y: 0
+08/08/2016 13:42:54: sacizenta Dir: 4 X: 23 Y: 1
+08/08/2016 13:42:55: sacizenta Dir: 10 X: 24 Y: 1
+08/08/2016 13:42:55: sacizenta Dir: 10 X: 25 Y: 1
+08/08/2016 13:42:55: sacizenta Dir: 10 X: 26 Y: 1
+08/08/2016 13:42:55: sacizenta Dir: 10 X: 27 Y: 1
+08/08/2016 13:42:56: sacizenta Dir: 10 X: 28 Y: 1
+08/08/2016 13:42:56: sacizenta Dir: 10 X: 29 Y: 1
+08/08/2016 13:42:56: sacizenta Dir: 10 X: 30 Y: 1
+08/08/2016 13:42:56: sacizenta Dir: 10 X: 31 Y: 1
+08/08/2016 13:42:57: sacizenta Dir: 10 X: 32 Y: 1
+08/08/2016 13:42:57: sacizenta Dir: 10 X: 33 Y: 1
+08/08/2016 13:42:58: sacizenta Dir: 10 X: 34 Y: 1
+08/08/2016 13:42:58: sacizenta Dir: 10 X: 35 Y: 1
+08/08/2016 13:42:58: sacizenta Dir: 10 X: 36 Y: 1
+08/08/2016 13:42:58: sacizenta Dir: 10 X: 37 Y: 1
+08/08/2016 13:42:58: sacizenta Dir: 10 X: 38 Y: 1
+08/08/2016 13:42:59: sacizenta Dir: 10 X: 39 Y: 1
+08/08/2016 13:42:59: sacizenta Dir: 10 X: 40 Y: 1
+08/08/2016 13:43:00: sacizenta Dir: 10 X: 41 Y: 1
+08/08/2016 13:43:00: sacizenta Dir: 10 X: 42 Y: 1
+08/08/2016 13:43:00: sacizenta Dir: 1 X: 42 Y: 0
+08/08/2016 13:43:01: sacizenta Dir: 10 X: 43 Y: 0
+08/08/2016 13:43:01: sacizenta Dir: 10 X: 44 Y: 0
+08/08/2016 13:43:01: sacizenta Dir: 10 X: 45 Y: 0
+08/08/2016 13:43:01: sacizenta Dir: 10 X: 46 Y: 0
+08/08/2016 13:43:01: sacizenta Dir: 10 X: 47 Y: 0
+08/08/2016 13:43:02: sacizenta Dir: 10 X: 48 Y: 0
+08/08/2016 13:43:02: sacizenta Dir: 10 X: 49 Y: 0
+08/08/2016 13:43:02: sacizenta Dir: 10 X: 50 Y: 0
+08/08/2016 13:43:02: sacizenta Dir: 10 X: 51 Y: 0
+08/08/2016 13:43:02: sacizenta Dir: 10 X: 52 Y: 0
+08/08/2016 13:43:03: sacizenta Dir: 10 X: 53 Y: 0
+08/08/2016 13:43:03: sacizenta Dir: 10 X: 54 Y: 0
+08/08/2016 13:43:04: sacizenta Dir: 10 X: 55 Y: 0
+08/08/2016 13:43:04: sacizenta Dir: 10 X: 56 Y: 0
+08/08/2016 13:43:05: sacizenta Dir: 7 X: 55 Y: 0
+08/08/2016 13:43:05: sacizenta Dir: 7 X: 54 Y: 0
+08/08/2016 13:43:05: sacizenta Dir: 4 X: 54 Y: 1
+08/08/2016 13:43:06: sacizenta Dir: 4 X: 54 Y: 2
+08/08/2016 13:43:06: sacizenta Dir: 10 X: 55 Y: 2
+08/08/2016 13:43:07: sacizenta Dir: 7 X: 54 Y: 2
+08/08/2016 13:43:07: sacizenta Dir: 7 X: 53 Y: 2
+08/08/2016 13:43:07: sacizenta Dir: 7 X: 52 Y: 2
+08/08/2016 13:43:07: sacizenta Dir: 7 X: 51 Y: 2
+08/08/2016 13:43:08: sacizenta Dir: 4 X: 51 Y: 3
+08/08/2016 13:43:08: sacizenta Dir: 4 X: 51 Y: 4
+08/08/2016 13:43:09: sacizenta Dir: 10 X: 52 Y: 4
+08/08/2016 13:43:09: sacizenta Dir: 10 X: 53 Y: 4
+08/08/2016 13:43:09: sacizenta Dir: 10 X: 54 Y: 4
+08/08/2016 13:43:09: sacizenta Dir: 10 X: 55 Y: 4
+08/08/2016 13:43:10: sacizenta Dir: 7 X: 54 Y: 4
+08/08/2016 13:43:10: sacizenta Dir: 7 X: 53 Y: 4
+08/08/2016 13:43:10: sacizenta Dir: 10 X: 54 Y: 4
+08/08/2016 13:43:11: sacizenta Dir: 10 X: 55 Y: 4
+08/08/2016 13:43:11: sacizenta Dir: 10 X: 56 Y: 4
+08/08/2016 13:43:11: sacizenta Dir: 10 X: 57 Y: 4
+08/08/2016 13:43:11: sacizenta Dir: 10 X: 58 Y: 4
+08/08/2016 13:43:12: sacizenta Dir: 10 X: 59 Y: 4
+08/08/2016 13:43:12: sacizenta Dir: 10 X: 60 Y: 4
+08/08/2016 13:43:13: sacizenta Dir: 1 X: 60 Y: 3
+08/08/2016 13:43:13: sacizenta Dir: 10 X: 61 Y: 3
+08/08/2016 13:43:13: sacizenta Dir: 1 X: 61 Y: 2
+08/08/2016 13:43:13: sacizenta Dir: 1 X: 61 Y: 1
+08/08/2016 13:43:14: sacizenta Dir: 1 X: 61 Y: 0
+08/08/2016 13:43:14: sacizenta Dir: 7 X: 60 Y: 0
+08/08/2016 13:43:14: sacizenta Dir: 7 X: 59 Y: 0
+08/08/2016 13:43:15: sacizenta Dir: 7 X: 58 Y: 0
+08/08/2016 13:43:15: sacizenta Dir: 7 X: 57 Y: 0
+08/08/2016 13:43:15: sacizenta Dir: 7 X: 56 Y: 0
+08/08/2016 13:43:16: sacizenta Dir: 7 X: 55 Y: 0
+08/08/2016 13:43:16: sacizenta Dir: 7 X: 54 Y: 0
+08/08/2016 13:43:16: sacizenta Dir: 7 X: 53 Y: 0
+08/08/2016 13:43:16: sacizenta Dir: 7 X: 52 Y: 0
+08/08/2016 13:43:17: sacizenta Dir: 7 X: 51 Y: 0
+08/08/2016 13:43:17: sacizenta Dir: 7 X: 50 Y: 0
+08/08/2016 13:43:17: sacizenta Dir: 7 X: 49 Y: 0
+08/08/2016 13:43:17: sacizenta Dir: 7 X: 48 Y: 0
+08/08/2016 13:43:17: sacizenta Dir: 7 X: 47 Y: 0
+08/08/2016 13:43:18: sacizenta Dir: 7 X: 46 Y: 0
+08/08/2016 13:43:18: sacizenta Dir: 7 X: 45 Y: 0
+08/08/2016 13:43:18: sacizenta Dir: 7 X: 44 Y: 0
+08/08/2016 13:43:18: sacizenta Dir: 7 X: 43 Y: 0
+08/08/2016 13:43:19: sacizenta Dir: 7 X: 42 Y: 0
+08/08/2016 13:43:19: sacizenta Dir: 7 X: 41 Y: 0
+08/08/2016 13:43:19: sacizenta Dir: 7 X: 40 Y: 0
+08/08/2016 13:43:19: sacizenta Dir: 7 X: 39 Y: 0
+08/08/2016 13:43:20: sacizenta Dir: 7 X: 38 Y: 0
+08/08/2016 13:43:20: sacizenta Dir: 7 X: 37 Y: 0
+08/08/2016 13:43:20: sacizenta Dir: 7 X: 36 Y: 0
+08/08/2016 13:43:20: sacizenta Dir: 7 X: 35 Y: 0
+08/08/2016 13:43:21: sacizenta Dir: 7 X: 34 Y: 0
+08/08/2016 13:43:21: sacizenta Dir: 7 X: 33 Y: 0
+08/08/2016 13:43:21: sacizenta Dir: 7 X: 32 Y: 0
+08/08/2016 13:43:21: sacizenta Dir: 7 X: 31 Y: 0
+08/08/2016 13:43:22: sacizenta Dir: 7 X: 30 Y: 0
+08/08/2016 13:43:22: sacizenta Dir: 7 X: 29 Y: 0
+08/08/2016 13:43:22: sacizenta Dir: 7 X: 28 Y: 0
+08/08/2016 13:43:22: sacizenta Dir: 7 X: 27 Y: 0
+08/08/2016 13:43:22: sacizenta Dir: 7 X: 26 Y: 0
+08/08/2016 13:43:23: sacizenta Dir: 7 X: 25 Y: 0
+08/08/2016 13:43:23: sacizenta Dir: 7 X: 24 Y: 0
+08/08/2016 13:43:23: sacizenta Dir: 7 X: 23 Y: 0
+08/08/2016 13:43:23: sacizenta Dir: 7 X: 22 Y: 0
+08/08/2016 13:43:24: sacizenta Dir: 7 X: 21 Y: 0
+08/08/2016 13:43:24: sacizenta Dir: 7 X: 20 Y: 0
+08/08/2016 13:43:24: sacizenta Dir: 4 X: 20 Y: 1
+08/08/2016 13:43:24: sacizenta Dir: 7 X: 19 Y: 1
+08/08/2016 13:43:24: sacizenta Dir: 7 X: 18 Y: 1
+08/08/2016 13:43:25: sacizenta Dir: 7 X: 17 Y: 1
+08/08/2016 13:43:25: sacizenta Dir: 7 X: 16 Y: 1
+08/08/2016 13:43:25: sacizenta Dir: 4 X: 16 Y: 2
+08/08/2016 13:43:25: sacizenta Dir: 7 X: 15 Y: 2
+08/08/2016 13:43:26: sacizenta Dir: 4 X: 15 Y: 3
+08/08/2016 13:43:26: sacizenta Dir: 4 X: 15 Y: 4
+08/08/2016 13:43:26: sacizenta Dir: 4 X: 15 Y: 5
+08/08/2016 13:43:26: sacizenta Dir: 7 X: 14 Y: 5
+08/08/2016 13:43:27: sacizenta Dir: 4 X: 14 Y: 6
+08/08/2016 13:43:27: sacizenta Dir: 4 X: 14 Y: 7
+08/08/2016 13:43:27: sacizenta Dir: 4 X: 14 Y: 8
+08/08/2016 13:43:27: sacizenta Dir: 4 X: 14 Y: 9
+08/08/2016 13:43:27: sacizenta Dir: 10 X: 15 Y: 9
+08/08/2016 13:43:28: sacizenta Dir: 10 X: 16 Y: 9
+08/08/2016 13:43:28: sacizenta Dir: 7 X: 15 Y: 9
+08/08/2016 13:43:28: sacizenta Dir: 4 X: 15 Y: 10
+08/08/2016 13:43:29: sacizenta Dir: 7 X: 14 Y: 10
+08/08/2016 13:43:29: sacizenta Dir: 1 X: 14 Y: 9
+08/08/2016 13:43:29: sacizenta Dir: 7 X: 13 Y: 9
+08/08/2016 13:43:29: sacizenta Dir: 4 X: 13 Y: 10
+08/08/2016 13:43:30: sacizenta Dir: 7 X: 12 Y: 10
+08/08/2016 13:43:30: sacizenta Dir: 7 X: 11 Y: 10
+08/08/2016 13:43:30: sacizenta Dir: 1 X: 11 Y: 9
+08/08/2016 13:43:30: sacizenta Dir: 1 X: 11 Y: 8
+08/08/2016 13:43:30: sacizenta Dir: 4 X: 11 Y: 9
+08/08/2016 13:43:31: sacizenta Dir: 7 X: 10 Y: 9
+08/08/2016 13:43:31: sacizenta Dir: 7 X: 9 Y: 9
+08/08/2016 13:43:31: sacizenta Dir: 7 X: 8 Y: 9
+08/08/2016 13:43:31: sacizenta Dir: 1 X: 8 Y: 8
+08/08/2016 13:43:32: sacizenta Dir: 1 X: 8 Y: 7
+08/08/2016 13:43:32: sacizenta Dir: 7 X: 7 Y: 7
+08/08/2016 13:43:32: sacizenta Dir: 7 X: 6 Y: 7
+08/08/2016 13:43:32: sacizenta Dir: 4 X: 6 Y: 8
+08/08/2016 13:43:33: sacizenta Dir: 4 X: 6 Y: 9
+08/08/2016 13:43:33: sacizenta Dir: 7 X: 5 Y: 9
+08/08/2016 13:43:33: sacizenta Dir: 7 X: 4 Y: 9
+08/08/2016 13:43:33: sacizenta Dir: 7 X: 3 Y: 9
+08/08/2016 13:43:33: sacizenta Dir: 1 X: 3 Y: 8
+08/08/2016 13:43:34: sacizenta Dir: 1 X: 3 Y: 7
+08/08/2016 13:43:34: sacizenta Dir: 1 X: 3 Y: 6
+08/08/2016 13:43:34: sacizenta Dir: 1 X: 3 Y: 5
+08/08/2016 13:43:34: sacizenta Dir: 1 X: 3 Y: 4
+08/08/2016 13:43:35: sacizenta Dir: 1 X: 3 Y: 3
+08/08/2016 13:43:35: sacizenta Dir: 7 X: 2 Y: 3
+08/08/2016 13:43:35: sacizenta Dir: 1 X: 2 Y: 2
+08/08/2016 13:43:35: sacizenta Dir: 1 X: 2 Y: 1
+08/08/2016 13:43:36: sacizenta Dir: 7 X: 1 Y: 1
+08/08/2016 13:43:36: sacizenta Dir: 1 X: 1 Y: 0
+08/08/2016 13:43:36: sacizenta Dir: 7 X: 0 Y: 0
+08/08/2016 13:43:38: sacizenta Dir: 4 X: 0 Y: 1
+08/08/2016 13:43:38: sacizenta Dir: 4 X: 0 Y: 2
+08/08/2016 13:43:38: sacizenta Dir: 4 X: 0 Y: 3
+08/08/2016 13:43:38: sacizenta Dir: 10 X: 1 Y: 3
+08/08/2016 13:43:38: sacizenta Dir: 10 X: 2 Y: 3
+08/08/2016 13:44:02: Status changed to disconnected: 127.0.0.1
+08/08/2016 13:44:04: Status changed to disconnected: 127.0.0.1
+08/08/2016 13:52:52: Carregando dados de mysql.
+08/08/2016 13:52:52: ID: #artemis#
+08/08/2016 13:52:52: Name: Canal 1
+08/08/2016 13:52:52: Discovery: Elysium Diamond #1.0.0
+08/08/2016 13:52:52: IP: 127.0.0.1
+08/08/2016 13:52:52: Port: 10120
+08/08/2016 13:52:52: MaximumConnections: 2000
+08/08/2016 13:52:52: Logs: True
+08/08/2016 13:52:52: ClientSerial: #elysium#
+08/08/2016 13:52:52: Sleep: 1
+08/08/2016 13:52:52: TestServer: False
+08/08/2016 13:52:52: WorldServer 1 ID: Artemis
+08/08/2016 13:52:52: WorldServer 2 ID: 
+08/08/2016 13:52:52: WorldServer 3 ID: 
+08/08/2016 13:52:52: WorldServer 4 ID: 
+08/08/2016 13:52:52: WorldServer 5 ID: 
+08/08/2016 13:52:53: Connectado ao banco de dados
+08/08/2016 13:52:53: Carregando experiência
+08/08/2016 13:52:53: Exp Máximo: 121 22353256174
+08/08/2016 13:52:53: Carregando guilds.
+08/08/2016 13:52:53: Total : 0 guilds carregados.
+08/08/2016 13:52:53: Carregando membros.
+08/08/2016 13:52:53: Total : 0 membros carregados.
+08/08/2016 13:52:53: Carregando classes
+08/08/2016 13:52:53: Carregando NPC
+08/08/2016 13:52:53: Servidor iniciado
+08/08/2016 13:52:59: Status changed to connected: 127.0.0.1
+08/08/2016 13:53:46: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 9BFBA08BE1E5D7A6
+08/08/2016 13:53:48: Status changed to connected: 127.0.0.1
+08/08/2016 13:53:48: Received From Client: 9BFBA08BE1E5D7A6
+08/08/2016 13:53:48: Player Found ID: 1 Name: Joanlac
+08/08/2016 13:54:03: Data From World Server ID: 2 Account: dragonick Char ID: 10 Slot: 0 4CED1B5E11E5CFE2
+08/08/2016 13:54:04: Status changed to connected: 127.0.0.1
+08/08/2016 13:54:04: Received From Client: 4CED1B5E11E5CFE2
+08/08/2016 13:54:04: Player Found ID: 10 Name: sacizenta
+08/08/2016 13:54:06: sacizenta Dir: 4 X: 0 Y: 1
+08/08/2016 13:54:06: sacizenta Dir: 4 X: 0 Y: 2
+08/08/2016 13:54:07: sacizenta Dir: 4 X: 0 Y: 3
+08/08/2016 13:54:07: sacizenta Dir: 10 X: 1 Y: 3
+08/08/2016 13:54:07: sacizenta Dir: 10 X: 2 Y: 3
+08/08/2016 13:54:07: sacizenta Dir: 10 X: 3 Y: 3
+08/08/2016 13:54:08: sacizenta Dir: 10 X: 4 Y: 3
+08/08/2016 13:54:08: sacizenta Dir: 10 X: 5 Y: 3
+08/08/2016 13:54:08: sacizenta Dir: 1 X: 5 Y: 2
+08/08/2016 13:54:08: sacizenta Dir: 1 X: 5 Y: 1
+08/08/2016 13:54:08: sacizenta Dir: 1 X: 5 Y: 0
+08/08/2016 13:54:09: sacizenta Dir: 7 X: 4 Y: 0
+08/08/2016 13:54:09: sacizenta Dir: 7 X: 3 Y: 0
+08/08/2016 13:54:10: sacizenta Dir: 7 X: 2 Y: 0
+08/08/2016 13:54:10: sacizenta Dir: 7 X: 1 Y: 0
+08/08/2016 13:54:11: sacizenta Dir: 7 X: 0 Y: 0
+08/08/2016 13:54:12: sacizenta Dir: 10 X: 1 Y: 0
+08/08/2016 13:54:13: sacizenta Dir: 7 X: 0 Y: 0
+08/08/2016 13:54:14: sacizenta Dir: 4 X: 0 Y: 1
+08/08/2016 13:54:14: sacizenta Dir: 4 X: 0 Y: 2
+08/08/2016 13:54:14: sacizenta Dir: 1 X: 0 Y: 1
+08/08/2016 13:54:15: sacizenta Dir: 1 X: 0 Y: 0
+08/08/2016 13:54:16: sacizenta Dir: 10 X: 1 Y: 0
+08/08/2016 13:54:16: sacizenta Dir: 10 X: 2 Y: 0
+08/08/2016 13:54:16: sacizenta Dir: 10 X: 3 Y: 0
+08/08/2016 13:54:16: sacizenta Dir: 10 X: 4 Y: 0
+08/08/2016 13:54:17: sacizenta Dir: 10 X: 5 Y: 0
+08/08/2016 13:54:17: sacizenta Dir: 10 X: 6 Y: 0
+08/08/2016 13:54:17: sacizenta Dir: 10 X: 7 Y: 0
+08/08/2016 13:54:17: sacizenta Dir: 10 X: 8 Y: 0
+08/08/2016 13:54:17: sacizenta Dir: 10 X: 9 Y: 0
+08/08/2016 13:54:18: sacizenta Dir: 4 X: 9 Y: 1
+08/08/2016 13:54:18: sacizenta Dir: 4 X: 9 Y: 2
+08/08/2016 13:54:18: sacizenta Dir: 4 X: 9 Y: 3
+08/08/2016 13:54:19: sacizenta Dir: 7 X: 8 Y: 3
+08/08/2016 13:54:19: sacizenta Dir: 7 X: 7 Y: 3
+08/08/2016 13:54:19: sacizenta Dir: 7 X: 6 Y: 3
+08/08/2016 13:54:19: sacizenta Dir: 7 X: 5 Y: 3
+08/08/2016 13:54:19: sacizenta Dir: 7 X: 4 Y: 3
+08/08/2016 13:54:20: sacizenta Dir: 7 X: 3 Y: 3
+08/08/2016 13:54:20: sacizenta Dir: 7 X: 2 Y: 3
+08/08/2016 13:54:20: sacizenta Dir: 7 X: 1 Y: 3
+08/08/2016 13:54:21: sacizenta Dir: 1 X: 1 Y: 2
+08/08/2016 13:54:21: sacizenta Dir: 1 X: 1 Y: 1
+08/08/2016 13:54:21: sacizenta Dir: 7 X: 0 Y: 1
+08/08/2016 13:54:21: sacizenta Dir: 1 X: 0 Y: 0
+08/08/2016 13:54:22: sacizenta Dir: 10 X: 1 Y: 0
+08/08/2016 13:54:23: sacizenta Dir: 10 X: 2 Y: 0
+08/08/2016 13:54:23: sacizenta Dir: 10 X: 3 Y: 0
+08/08/2016 13:54:23: sacizenta Dir: 10 X: 4 Y: 0
+08/08/2016 13:54:23: sacizenta Dir: 10 X: 5 Y: 0
+08/08/2016 13:54:23: sacizenta Dir: 10 X: 6 Y: 0
+08/08/2016 13:54:24: sacizenta Dir: 10 X: 7 Y: 0
+08/08/2016 13:54:24: sacizenta Dir: 10 X: 8 Y: 0
+08/08/2016 13:54:24: sacizenta Dir: 10 X: 9 Y: 0
+08/08/2016 13:54:24: sacizenta Dir: 10 X: 10 Y: 0
+08/08/2016 13:54:25: sacizenta Dir: 10 X: 11 Y: 0
+08/08/2016 13:54:25: sacizenta Dir: 10 X: 12 Y: 0
+08/08/2016 13:54:25: sacizenta Dir: 10 X: 13 Y: 0
+08/08/2016 13:54:25: sacizenta Dir: 10 X: 14 Y: 0
+08/08/2016 13:54:25: sacizenta Dir: 10 X: 15 Y: 0
+08/08/2016 13:54:26: sacizenta Dir: 10 X: 16 Y: 0
+08/08/2016 13:54:26: sacizenta Dir: 10 X: 17 Y: 0
+08/08/2016 13:54:26: sacizenta Dir: 10 X: 18 Y: 0
+08/08/2016 13:54:26: sacizenta Dir: 10 X: 19 Y: 0
+08/08/2016 13:54:27: sacizenta Dir: 10 X: 20 Y: 0
+08/08/2016 13:54:27: sacizenta Dir: 10 X: 21 Y: 0
+08/08/2016 13:54:27: sacizenta Dir: 10 X: 22 Y: 0
+08/08/2016 13:54:27: sacizenta Dir: 10 X: 23 Y: 0
+08/08/2016 13:54:28: sacizenta Dir: 10 X: 24 Y: 0
+08/08/2016 13:54:28: sacizenta Dir: 10 X: 25 Y: 0
+08/08/2016 13:54:28: sacizenta Dir: 10 X: 26 Y: 0
+08/08/2016 13:54:28: sacizenta Dir: 10 X: 27 Y: 0
+08/08/2016 13:54:29: sacizenta Dir: 10 X: 28 Y: 0
+08/08/2016 13:54:29: sacizenta Dir: 10 X: 29 Y: 0
+08/08/2016 13:54:29: sacizenta Dir: 10 X: 30 Y: 0
+08/08/2016 13:54:29: sacizenta Dir: 10 X: 31 Y: 0
+08/08/2016 13:54:29: sacizenta Dir: 10 X: 32 Y: 0
+08/08/2016 13:54:30: sacizenta Dir: 10 X: 33 Y: 0
+08/08/2016 13:54:30: sacizenta Dir: 10 X: 34 Y: 0
+08/08/2016 13:54:30: sacizenta Dir: 10 X: 35 Y: 0
+08/08/2016 13:54:31: sacizenta Dir: 10 X: 36 Y: 0
+08/08/2016 13:54:31: sacizenta Dir: 10 X: 37 Y: 0
+08/08/2016 13:54:31: sacizenta Dir: 10 X: 38 Y: 0
+08/08/2016 13:54:32: sacizenta Dir: 10 X: 39 Y: 0
+08/08/2016 13:54:33: sacizenta Dir: 10 X: 40 Y: 0
+08/08/2016 13:54:33: sacizenta Dir: 10 X: 41 Y: 0
+08/08/2016 13:54:33: sacizenta Dir: 10 X: 42 Y: 0
+08/08/2016 13:54:33: sacizenta Dir: 10 X: 43 Y: 0
+08/08/2016 13:54:33: sacizenta Dir: 10 X: 44 Y: 0
+08/08/2016 13:54:34: sacizenta Dir: 10 X: 45 Y: 0
+08/08/2016 13:54:34: sacizenta Dir: 10 X: 46 Y: 0
+08/08/2016 13:54:34: sacizenta Dir: 10 X: 47 Y: 0
+08/08/2016 13:54:35: sacizenta Dir: 10 X: 48 Y: 0
+08/08/2016 13:54:35: sacizenta Dir: 10 X: 49 Y: 0
+08/08/2016 13:54:35: sacizenta Dir: 10 X: 50 Y: 0
+08/08/2016 13:54:35: sacizenta Dir: 10 X: 51 Y: 0
+08/08/2016 13:54:35: sacizenta Dir: 10 X: 52 Y: 0
+08/08/2016 13:54:36: sacizenta Dir: 10 X: 53 Y: 0
+08/08/2016 13:54:36: sacizenta Dir: 10 X: 54 Y: 0
+08/08/2016 13:54:36: sacizenta Dir: 10 X: 55 Y: 0
+08/08/2016 13:54:37: sacizenta Dir: 10 X: 56 Y: 0
+08/08/2016 13:54:38: sacizenta Dir: 7 X: 55 Y: 0
+08/08/2016 13:54:38: sacizenta Dir: 7 X: 54 Y: 0
+08/08/2016 13:54:38: sacizenta Dir: 7 X: 53 Y: 0
+08/08/2016 13:54:38: sacizenta Dir: 10 X: 54 Y: 0
+08/08/2016 13:54:38: sacizenta Dir: 10 X: 55 Y: 0
+08/08/2016 13:54:39: sacizenta Dir: 4 X: 55 Y: 1
+08/08/2016 17:34:08: Carregando dados de mysql.
+08/08/2016 17:34:08: ID: #artemis#
+08/08/2016 17:34:08: Name: Canal 1
+08/08/2016 17:34:08: Discovery: Elysium Diamond #1.0.0
+08/08/2016 17:34:08: IP: 127.0.0.1
+08/08/2016 17:34:08: Port: 10120
+08/08/2016 17:34:08: MaximumConnections: 2000
+08/08/2016 17:34:08: Logs: True
+08/08/2016 17:34:08: ClientSerial: #elysium#
+08/08/2016 17:34:08: Sleep: 1
+08/08/2016 17:34:08: TestServer: False
+08/08/2016 17:34:08: WorldServer 1 ID: Artemis
+08/08/2016 17:34:08: WorldServer 2 ID: 
+08/08/2016 17:34:08: WorldServer 3 ID: 
+08/08/2016 17:34:08: WorldServer 4 ID: 
+08/08/2016 17:34:08: WorldServer 5 ID: 
+08/08/2016 17:34:08: Connectado ao banco de dados
+08/08/2016 17:34:08: Carregando experiência
+08/08/2016 17:34:08: Exp Máximo: 121 22353256174
+08/08/2016 17:34:08: Carregando guilds.
+08/08/2016 17:34:08: Total : 0 guilds carregados.
+08/08/2016 17:34:08: Carregando membros.
+08/08/2016 17:34:08: Total : 0 membros carregados.
+08/08/2016 17:34:08: Carregando classes
+08/08/2016 17:34:08: Carregando NPC
+08/08/2016 17:34:09: Servidor iniciado
+08/08/2016 17:34:16: Status changed to connected: 127.0.0.1
+08/08/2016 17:37:28: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 C1DFB740F752E2E4
+08/08/2016 17:37:29: Status changed to connected: 127.0.0.1
+08/08/2016 17:37:29: Received From Client: C1DFB740F752E2E4
+08/08/2016 17:37:29: Player Found ID: 1 Name: Joanlac
+08/08/2016 17:37:34: Joanlac Dir: 10 X: 1 Y: 0
+08/08/2016 17:37:34: Joanlac Dir: 10 X: 2 Y: 0
+08/08/2016 17:37:35: Joanlac Dir: 10 X: 3 Y: 0
+08/08/2016 17:37:35: Joanlac Dir: 10 X: 4 Y: 0
+08/08/2016 17:37:36: Joanlac Dir: 10 X: 5 Y: 0
+08/08/2016 17:37:36: Joanlac Dir: 10 X: 6 Y: 0
+08/08/2016 17:37:36: Joanlac Dir: 10 X: 7 Y: 0
+08/08/2016 17:37:37: Joanlac Dir: 10 X: 8 Y: 0
+08/08/2016 17:37:37: Joanlac Dir: 10 X: 9 Y: 0
+08/08/2016 17:37:37: Joanlac Dir: 10 X: 10 Y: 0
+08/08/2016 17:37:37: Joanlac Dir: 10 X: 11 Y: 0
+08/08/2016 17:37:37: Joanlac Dir: 10 X: 12 Y: 0
+08/08/2016 17:37:38: Joanlac Dir: 10 X: 13 Y: 0
+08/08/2016 17:37:38: Joanlac Dir: 10 X: 14 Y: 0
+08/08/2016 17:37:38: Joanlac Dir: 10 X: 15 Y: 0
+08/08/2016 17:37:38: Joanlac Dir: 10 X: 16 Y: 0
+08/08/2016 17:37:38: Joanlac Dir: 10 X: 17 Y: 0
+08/08/2016 17:37:39: Joanlac Dir: 10 X: 18 Y: 0
+08/08/2016 17:37:39: Joanlac Dir: 10 X: 19 Y: 0
+08/08/2016 17:37:39: Joanlac Dir: 10 X: 20 Y: 0
+08/08/2016 17:37:39: Joanlac Dir: 10 X: 21 Y: 0
+08/08/2016 17:37:40: Joanlac Dir: 7 X: 20 Y: 0
+08/08/2016 17:37:49: Data From World Server ID: 2 Account: dragonick Char ID: 10 Slot: 0 4ECE018ABD842360
+08/08/2016 17:37:50: Status changed to connected: 127.0.0.1
+08/08/2016 17:37:50: Received From Client: 4ECE018ABD842360
+08/08/2016 17:37:50: Player Found ID: 10 Name: sacizenta
+08/08/2016 17:37:55: sacizenta Dir: 10 X: 1 Y: 0
+08/08/2016 17:37:56: sacizenta Dir: 10 X: 2 Y: 0
+08/08/2016 17:37:57: sacizenta Dir: 10 X: 3 Y: 0
+08/08/2016 17:37:58: sacizenta Dir: 10 X: 4 Y: 0
+08/08/2016 17:37:59: sacizenta Dir: 10 X: 5 Y: 0
+08/08/2016 17:38:00: sacizenta Dir: 10 X: 6 Y: 0
+08/08/2016 17:38:01: sacizenta Dir: 10 X: 7 Y: 0
+08/08/2016 17:38:02: sacizenta Dir: 10 X: 8 Y: 0
+08/08/2016 17:38:03: sacizenta Dir: 10 X: 9 Y: 0
+08/08/2016 17:38:04: sacizenta Dir: 10 X: 10 Y: 0
+08/08/2016 17:38:05: sacizenta Dir: 10 X: 11 Y: 0
+08/08/2016 17:38:06: sacizenta Dir: 10 X: 12 Y: 0
+08/08/2016 17:38:07: sacizenta Dir: 10 X: 13 Y: 0
+08/08/2016 17:38:08: sacizenta Dir: 10 X: 14 Y: 0
+08/08/2016 17:38:09: sacizenta Dir: 10 X: 15 Y: 0
+08/08/2016 17:38:10: sacizenta Dir: 10 X: 16 Y: 0
+08/08/2016 17:38:11: sacizenta Dir: 10 X: 17 Y: 0
+08/08/2016 17:38:12: sacizenta Dir: 10 X: 18 Y: 0
+08/08/2016 17:38:13: sacizenta Dir: 10 X: 19 Y: 0
+08/08/2016 17:38:14: sacizenta Dir: 10 X: 20 Y: 0
+08/08/2016 17:38:22: sacizenta Dir: 4 X: 20 Y: 1
+08/08/2016 17:38:23: sacizenta Dir: 4 X: 20 Y: 2
+08/08/2016 17:38:24: sacizenta Dir: 10 X: 21 Y: 2
+08/08/2016 17:38:25: sacizenta Dir: 7 X: 20 Y: 2
+08/08/2016 17:38:33: Joanlac Dir: 4 X: 20 Y: 1
+08/08/2016 17:38:35: Joanlac Dir: 4 X: 20 Y: 2
+08/08/2016 17:38:41: sacizenta Dir: 10 X: 21 Y: 2
+08/08/2016 17:38:41: sacizenta Dir: 10 X: 22 Y: 2
+08/08/2016 17:38:42: sacizenta Dir: 7 X: 21 Y: 2
+08/08/2016 17:38:42: sacizenta Dir: 10 X: 22 Y: 2
+08/08/2016 17:38:43: sacizenta Dir: 7 X: 21 Y: 2
+08/08/2016 17:38:43: sacizenta Dir: 7 X: 20 Y: 2
+08/08/2016 17:38:45: Joanlac Dir: 7 X: 19 Y: 2
+08/08/2016 17:38:45: Joanlac Dir: 7 X: 18 Y: 2
+08/08/2016 17:38:45: Joanlac Dir: 7 X: 17 Y: 2
+08/08/2016 17:38:45: Joanlac Dir: 4 X: 17 Y: 3
+08/08/2016 17:38:46: Joanlac Dir: 10 X: 18 Y: 3
+08/08/2016 17:38:46: Joanlac Dir: 10 X: 19 Y: 3
+08/08/2016 17:38:46: Joanlac Dir: 10 X: 20 Y: 3
+08/08/2016 17:38:47: Joanlac Dir: 10 X: 21 Y: 3
+08/08/2016 17:38:47: Joanlac Dir: 10 X: 22 Y: 3
+08/08/2016 17:38:56: Joanlac Dir: 4 X: 22 Y: 4
+08/08/2016 17:38:56: Joanlac Dir: 7 X: 21 Y: 4
+08/08/2016 17:38:58: sacizenta Dir: 4 X: 20 Y: 3
+08/08/2016 17:38:59: sacizenta Dir: 4 X: 20 Y: 4
+08/08/2016 17:38:59: sacizenta Dir: 10 X: 21 Y: 4
+08/08/2016 17:39:01: Joanlac Dir: 10 X: 22 Y: 4
+08/08/2016 17:39:02: Joanlac Dir: 10 X: 23 Y: 4
+08/08/2016 17:39:02: Joanlac Dir: 10 X: 24 Y: 4
+08/08/2016 17:39:03: Joanlac Dir: 10 X: 25 Y: 4
+08/08/2016 17:39:03: Joanlac Dir: 10 X: 26 Y: 4
+08/08/2016 17:39:03: Joanlac Dir: 4 X: 26 Y: 5
+08/08/2016 17:39:03: Joanlac Dir: 7 X: 25 Y: 5
+08/08/2016 17:39:04: Joanlac Dir: 7 X: 24 Y: 5
+08/08/2016 17:39:04: Joanlac Dir: 7 X: 23 Y: 5
+08/08/2016 17:39:04: Joanlac Dir: 7 X: 22 Y: 5
+08/08/2016 17:39:05: Joanlac Dir: 7 X: 21 Y: 5
+08/08/2016 17:39:05: Joanlac Dir: 7 X: 20 Y: 5
+08/08/2016 17:39:05: Joanlac Dir: 7 X: 19 Y: 5
+08/08/2016 17:39:05: Joanlac Dir: 7 X: 18 Y: 5
+08/08/2016 17:39:08: sacizenta Dir: 7 X: 20 Y: 4
+08/08/2016 17:39:08: sacizenta Dir: 7 X: 19 Y: 4
+08/08/2016 17:39:08: sacizenta Dir: 7 X: 18 Y: 4
+08/08/2016 17:39:09: sacizenta Dir: 4 X: 18 Y: 5
+08/08/2016 17:39:11: sacizenta Dir: 7 X: 17 Y: 5
+08/08/2016 17:39:11: sacizenta Dir: 7 X: 16 Y: 5
+08/08/2016 17:39:12: sacizenta Dir: 7 X: 15 Y: 5
+08/08/2016 17:39:12: sacizenta Dir: 7 X: 14 Y: 5
+08/08/2016 17:39:12: sacizenta Dir: 7 X: 13 Y: 5
+08/08/2016 17:39:13: sacizenta Dir: 7 X: 12 Y: 5
+08/08/2016 17:39:13: sacizenta Dir: 7 X: 11 Y: 5
+08/08/2016 17:39:14: sacizenta Dir: 7 X: 10 Y: 5
+08/08/2016 17:39:14: sacizenta Dir: 7 X: 9 Y: 5
+08/08/2016 17:39:14: sacizenta Dir: 7 X: 8 Y: 5
+08/08/2016 17:39:14: sacizenta Dir: 7 X: 7 Y: 5
+08/08/2016 17:39:15: sacizenta Dir: 7 X: 6 Y: 5
+08/08/2016 17:39:15: Joanlac Dir: 7 X: 17 Y: 5
+08/08/2016 17:39:16: Joanlac Dir: 7 X: 16 Y: 5
+08/08/2016 17:39:16: Joanlac Dir: 7 X: 15 Y: 5
+08/08/2016 17:39:17: Joanlac Dir: 7 X: 14 Y: 5
+08/08/2016 17:39:17: Joanlac Dir: 7 X: 13 Y: 5
+08/08/2016 17:39:18: Joanlac Dir: 7 X: 12 Y: 5
+08/08/2016 17:39:18: Joanlac Dir: 7 X: 11 Y: 5
+08/08/2016 17:39:19: Joanlac Dir: 7 X: 10 Y: 5
+08/08/2016 17:39:19: Joanlac Dir: 7 X: 9 Y: 5
+08/08/2016 17:39:19: Joanlac Dir: 7 X: 8 Y: 5
+08/08/2016 17:39:20: Joanlac Dir: 7 X: 7 Y: 5
+08/08/2016 17:39:20: Joanlac Dir: 7 X: 6 Y: 5
+08/08/2016 17:59:37: Carregando dados de mysql.
+08/08/2016 17:59:37: ID: #artemis#
+08/08/2016 17:59:37: Name: Canal 1
+08/08/2016 17:59:37: Discovery: Elysium Diamond #1.0.0
+08/08/2016 17:59:37: IP: 127.0.0.1
+08/08/2016 17:59:37: Port: 10120
+08/08/2016 17:59:37: MaximumConnections: 2000
+08/08/2016 17:59:37: Logs: True
+08/08/2016 17:59:37: ClientSerial: #elysium#
+08/08/2016 17:59:37: Sleep: 1
+08/08/2016 17:59:37: TestServer: False
+08/08/2016 17:59:37: WorldServer 1 ID: Artemis
+08/08/2016 17:59:37: WorldServer 2 ID: 
+08/08/2016 17:59:37: WorldServer 3 ID: 
+08/08/2016 17:59:37: WorldServer 4 ID: 
+08/08/2016 17:59:37: WorldServer 5 ID: 
+08/08/2016 17:59:37: Connectado ao banco de dados
+08/08/2016 17:59:37: Carregando experiência
+08/08/2016 17:59:37: Exp Máximo: 121 22353256174
+08/08/2016 17:59:37: Carregando guilds.
+08/08/2016 17:59:37: Total : 0 guilds carregados.
+08/08/2016 17:59:37: Carregando membros.
+08/08/2016 17:59:37: Total : 0 membros carregados.
+08/08/2016 17:59:37: Carregando classes
+08/08/2016 17:59:37: Carregando NPC
+08/08/2016 17:59:37: Servidor iniciado
+08/08/2016 17:59:47: Status changed to connected: 127.0.0.1
+08/08/2016 18:00:07: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 9564C2DE3515B468
+08/08/2016 18:00:09: Status changed to connected: 127.0.0.1
+08/08/2016 18:00:09: Received From Client: 9564C2DE3515B468
+08/08/2016 18:00:09: Player Found ID: 1 Name: Joanlac
+08/08/2016 18:00:11: Joanlac Dir: 4 X: 0 Y: 1
+08/08/2016 18:00:11: Joanlac Dir: 4 X: 0 Y: 2
+08/08/2016 18:00:12: Joanlac Dir: 10 X: 1 Y: 2
+08/08/2016 18:00:12: Joanlac Dir: 10 X: 2 Y: 2
+08/08/2016 18:00:12: Joanlac Dir: 10 X: 3 Y: 2
+08/08/2016 18:00:12: Joanlac Dir: 10 X: 4 Y: 2
+08/08/2016 18:00:12: Joanlac Dir: 10 X: 5 Y: 2
+08/08/2016 18:00:12: Joanlac Dir: 4 X: 5 Y: 3
+08/08/2016 18:00:13: Joanlac Dir: 4 X: 5 Y: 4
+08/08/2016 18:00:13: Joanlac Dir: 4 X: 5 Y: 5
+08/08/2016 18:00:13: Joanlac Dir: 10 X: 6 Y: 5
+08/08/2016 18:00:13: Joanlac Dir: 10 X: 7 Y: 5
+08/08/2016 18:00:27: Data From World Server ID: 2 Account: dragonick Char ID: 10 Slot: 0 28D389B6B3597E84
+08/08/2016 18:00:29: Status changed to connected: 127.0.0.1
+08/08/2016 18:00:29: Received From Client: 28D389B6B3597E84
+08/08/2016 18:00:29: Player Found ID: 10 Name: sacizenta
+08/08/2016 18:00:31: sacizenta Dir: 4 X: 0 Y: 1
+08/08/2016 18:00:31: sacizenta Dir: 4 X: 0 Y: 2
+08/08/2016 18:00:31: sacizenta Dir: 4 X: 0 Y: 3
+08/08/2016 18:00:31: sacizenta Dir: 4 X: 0 Y: 4
+08/08/2016 18:00:32: sacizenta Dir: 10 X: 1 Y: 4
+08/08/2016 18:00:32: sacizenta Dir: 4 X: 1 Y: 5
+08/08/2016 18:00:33: sacizenta Dir: 10 X: 2 Y: 5
+08/08/2016 18:00:33: sacizenta Dir: 10 X: 3 Y: 5
+08/08/2016 18:00:33: sacizenta Dir: 10 X: 4 Y: 5
+08/08/2016 18:00:33: sacizenta Dir: 4 X: 4 Y: 6
+08/08/2016 18:00:33: sacizenta Dir: 4 X: 4 Y: 7
+08/08/2016 18:00:34: sacizenta Dir: 4 X: 4 Y: 8
+08/08/2016 18:00:34: sacizenta Dir: 10 X: 5 Y: 8
+08/08/2016 18:00:34: sacizenta Dir: 10 X: 6 Y: 8
+08/08/2016 18:00:34: sacizenta Dir: 10 X: 7 Y: 8
+08/08/2016 18:00:34: sacizenta Dir: 10 X: 8 Y: 8
+08/08/2016 18:00:35: sacizenta Dir: 10 X: 9 Y: 8
+08/08/2016 18:00:35: sacizenta Dir: 7 X: 8 Y: 8
+08/08/2016 18:00:35: sacizenta Dir: 1 X: 8 Y: 7
+08/08/2016 18:00:35: sacizenta Dir: 1 X: 8 Y: 6
+08/08/2016 18:00:36: sacizenta Dir: 1 X: 8 Y: 5
+08/08/2016 18:00:36: sacizenta Dir: 7 X: 7 Y: 5
+08/08/2016 18:00:37: sacizenta Dir: 10 X: 8 Y: 5
+08/08/2016 18:00:37: sacizenta Dir: 10 X: 9 Y: 5
+08/08/2016 18:00:37: sacizenta Dir: 10 X: 10 Y: 5
+08/08/2016 18:00:37: sacizenta Dir: 10 X: 11 Y: 5
+08/08/2016 18:00:37: sacizenta Dir: 10 X: 12 Y: 5
+08/08/2016 18:00:37: sacizenta Dir: 10 X: 13 Y: 5
+08/08/2016 18:00:38: sacizenta Dir: 10 X: 14 Y: 5
+08/08/2016 18:00:38: sacizenta Dir: 10 X: 15 Y: 5
+08/08/2016 18:00:38: sacizenta Dir: 10 X: 16 Y: 5
+08/08/2016 18:00:38: sacizenta Dir: 10 X: 17 Y: 5
+08/08/2016 18:00:39: sacizenta Dir: 10 X: 18 Y: 5
+08/08/2016 18:00:39: sacizenta Dir: 10 X: 19 Y: 5
+08/08/2016 18:00:39: sacizenta Dir: 10 X: 20 Y: 5
+08/08/2016 18:00:39: sacizenta Dir: 10 X: 21 Y: 5
+08/08/2016 18:00:39: sacizenta Dir: 10 X: 22 Y: 5
+08/08/2016 18:00:40: sacizenta Dir: 10 X: 23 Y: 5
+08/08/2016 18:00:40: sacizenta Dir: 10 X: 24 Y: 5
+08/08/2016 18:00:40: sacizenta Dir: 10 X: 25 Y: 5
+08/08/2016 18:00:40: sacizenta Dir: 7 X: 24 Y: 5
+08/08/2016 18:00:40: sacizenta Dir: 7 X: 23 Y: 5
+08/08/2016 18:00:41: sacizenta Dir: 7 X: 22 Y: 5
+08/08/2016 18:00:41: sacizenta Dir: 7 X: 21 Y: 5
+08/08/2016 18:00:41: sacizenta Dir: 7 X: 20 Y: 5
+08/08/2016 18:00:41: sacizenta Dir: 7 X: 19 Y: 5
+08/08/2016 18:00:41: sacizenta Dir: 7 X: 18 Y: 5
+08/08/2016 18:00:42: sacizenta Dir: 7 X: 17 Y: 5
+08/08/2016 18:00:42: sacizenta Dir: 7 X: 16 Y: 5
+08/08/2016 18:00:42: sacizenta Dir: 7 X: 15 Y: 5
+08/08/2016 18:00:42: sacizenta Dir: 7 X: 14 Y: 5
+08/08/2016 18:00:43: sacizenta Dir: 7 X: 13 Y: 5
+08/08/2016 18:00:43: sacizenta Dir: 7 X: 12 Y: 5
+08/08/2016 18:00:43: sacizenta Dir: 7 X: 11 Y: 5
+08/08/2016 18:00:43: sacizenta Dir: 7 X: 10 Y: 5
+08/08/2016 18:00:43: sacizenta Dir: 7 X: 9 Y: 5
+08/08/2016 18:00:44: sacizenta Dir: 7 X: 8 Y: 5
+08/08/2016 18:00:44: sacizenta Dir: 7 X: 7 Y: 5
+08/08/2016 18:00:44: sacizenta Dir: 1 X: 7 Y: 4
+08/08/2016 18:00:45: sacizenta Dir: 1 X: 7 Y: 3
+08/08/2016 18:00:45: sacizenta Dir: 10 X: 8 Y: 3
+08/08/2016 18:00:45: sacizenta Dir: 10 X: 9 Y: 3
+08/08/2016 18:00:45: sacizenta Dir: 4 X: 9 Y: 4
+08/08/2016 18:00:45: sacizenta Dir: 4 X: 9 Y: 5
+08/08/2016 18:00:46: sacizenta Dir: 7 X: 8 Y: 5
+08/08/2016 18:00:46: sacizenta Dir: 7 X: 7 Y: 5
+08/08/2016 18:00:48: sacizenta Dir: 1 X: 7 Y: 4
+08/08/2016 18:00:48: sacizenta Dir: 1 X: 7 Y: 3
+08/08/2016 18:00:48: sacizenta Dir: 1 X: 7 Y: 2
+08/08/2016 18:00:48: sacizenta Dir: 10 X: 8 Y: 2
+08/08/2016 18:00:49: sacizenta Dir: 10 X: 9 Y: 2
+08/08/2016 18:00:49: sacizenta Dir: 10 X: 10 Y: 2
+08/08/2016 18:00:49: sacizenta Dir: 10 X: 11 Y: 2
+08/08/2016 18:00:49: sacizenta Dir: 10 X: 12 Y: 2
+08/08/2016 18:00:49: sacizenta Dir: 10 X: 13 Y: 2
+08/08/2016 18:00:49: sacizenta Dir: 10 X: 14 Y: 2
+08/08/2016 18:00:50: sacizenta Dir: 10 X: 15 Y: 2
+08/08/2016 18:00:50: sacizenta Dir: 10 X: 16 Y: 2
+08/08/2016 18:00:50: sacizenta Dir: 10 X: 17 Y: 2
+08/08/2016 18:00:50: sacizenta Dir: 10 X: 18 Y: 2
+08/08/2016 18:00:50: sacizenta Dir: 10 X: 19 Y: 2
+08/08/2016 18:00:51: sacizenta Dir: 1 X: 19 Y: 1
+08/08/2016 18:00:51: sacizenta Dir: 10 X: 20 Y: 1
+08/08/2016 18:00:51: sacizenta Dir: 10 X: 21 Y: 1
+08/08/2016 18:00:51: sacizenta Dir: 10 X: 22 Y: 1
+08/08/2016 18:00:51: sacizenta Dir: 10 X: 23 Y: 1
+08/08/2016 18:00:52: sacizenta Dir: 10 X: 24 Y: 1
+08/08/2016 18:00:52: sacizenta Dir: 10 X: 25 Y: 1
+08/08/2016 18:00:52: sacizenta Dir: 10 X: 26 Y: 1
+08/08/2016 18:00:52: sacizenta Dir: 10 X: 27 Y: 1
+08/08/2016 18:00:52: sacizenta Dir: 10 X: 28 Y: 1
+08/08/2016 18:00:53: sacizenta Dir: 10 X: 29 Y: 1
+08/08/2016 18:00:53: sacizenta Dir: 10 X: 30 Y: 1
+08/08/2016 18:00:53: sacizenta Dir: 10 X: 31 Y: 1
+08/08/2016 18:00:53: sacizenta Dir: 10 X: 32 Y: 1
+08/08/2016 18:00:53: sacizenta Dir: 10 X: 33 Y: 1
+08/08/2016 18:00:53: sacizenta Dir: 10 X: 34 Y: 1
+08/08/2016 18:00:54: sacizenta Dir: 10 X: 35 Y: 1
+08/08/2016 18:00:54: sacizenta Dir: 10 X: 36 Y: 1
+08/08/2016 18:00:54: sacizenta Dir: 10 X: 37 Y: 1
+08/08/2016 18:00:54: sacizenta Dir: 10 X: 38 Y: 1
+08/08/2016 18:00:54: sacizenta Dir: 10 X: 39 Y: 1
+08/08/2016 18:00:55: sacizenta Dir: 10 X: 40 Y: 1
+08/08/2016 18:00:55: sacizenta Dir: 10 X: 41 Y: 1
+08/08/2016 18:00:55: sacizenta Dir: 10 X: 42 Y: 1
+08/08/2016 18:00:55: sacizenta Dir: 10 X: 43 Y: 1
+08/08/2016 18:00:55: sacizenta Dir: 10 X: 44 Y: 1
+08/08/2016 18:00:56: sacizenta Dir: 10 X: 45 Y: 1
+08/08/2016 18:00:56: sacizenta Dir: 10 X: 46 Y: 1
+08/08/2016 18:00:56: sacizenta Dir: 10 X: 47 Y: 1
+08/08/2016 18:00:56: sacizenta Dir: 10 X: 48 Y: 1
+08/08/2016 18:00:56: sacizenta Dir: 10 X: 49 Y: 1
+08/08/2016 18:00:56: sacizenta Dir: 10 X: 50 Y: 1
+08/08/2016 18:00:57: sacizenta Dir: 10 X: 51 Y: 1
+08/08/2016 18:00:57: sacizenta Dir: 10 X: 52 Y: 1
+08/08/2016 18:00:57: sacizenta Dir: 1 X: 52 Y: 0
+08/08/2016 18:00:57: sacizenta Dir: 10 X: 53 Y: 0
+08/08/2016 18:00:57: sacizenta Dir: 10 X: 54 Y: 0
+08/08/2016 18:00:58: sacizenta Dir: 10 X: 55 Y: 0
+08/08/2016 18:00:58: sacizenta Dir: 10 X: 56 Y: 0
+08/08/2016 18:00:58: sacizenta Dir: 10 X: 57 Y: 0
+08/08/2016 18:00:59: sacizenta Dir: 7 X: 56 Y: 0
+08/08/2016 18:01:01: sacizenta Dir: 7 X: 55 Y: 0
+08/08/2016 18:01:01: sacizenta Dir: 7 X: 54 Y: 0
+08/08/2016 18:01:01: sacizenta Dir: 7 X: 53 Y: 0
+08/08/2016 18:01:01: sacizenta Dir: 4 X: 53 Y: 1
+08/08/2016 18:01:02: sacizenta Dir: 10 X: 54 Y: 1
+08/08/2016 18:01:03: sacizenta Dir: 4 X: 54 Y: 2
+08/08/2016 18:01:04: sacizenta Dir: 10 X: 55 Y: 2
+08/08/2016 18:01:05: sacizenta Dir: 7 X: 54 Y: 2
+08/08/2016 18:01:05: sacizenta Dir: 7 X: 53 Y: 2
+08/08/2016 18:01:05: sacizenta Dir: 7 X: 52 Y: 2
+08/08/2016 18:01:06: sacizenta Dir: 7 X: 51 Y: 2
+08/08/2016 18:01:06: sacizenta Dir: 7 X: 50 Y: 2
+08/08/2016 18:01:06: sacizenta Dir: 7 X: 49 Y: 2
+08/08/2016 18:01:06: sacizenta Dir: 7 X: 48 Y: 2
+08/08/2016 18:01:06: sacizenta Dir: 7 X: 47 Y: 2
+08/08/2016 18:01:07: sacizenta Dir: 7 X: 46 Y: 2
+08/08/2016 18:01:07: sacizenta Dir: 7 X: 45 Y: 2
+08/08/2016 18:01:07: sacizenta Dir: 7 X: 44 Y: 2
+08/08/2016 18:01:07: sacizenta Dir: 7 X: 43 Y: 2
+08/08/2016 18:01:07: sacizenta Dir: 7 X: 42 Y: 2
+08/08/2016 18:01:07: sacizenta Dir: 7 X: 41 Y: 2
+08/08/2016 18:01:08: sacizenta Dir: 7 X: 40 Y: 2
+08/08/2016 18:01:08: sacizenta Dir: 7 X: 39 Y: 2
+08/08/2016 18:01:08: sacizenta Dir: 7 X: 38 Y: 2
+08/08/2016 18:01:08: sacizenta Dir: 7 X: 37 Y: 2
+08/08/2016 18:01:08: sacizenta Dir: 7 X: 36 Y: 2
+08/08/2016 18:01:09: sacizenta Dir: 7 X: 35 Y: 2
+08/08/2016 18:01:09: sacizenta Dir: 7 X: 34 Y: 2
+08/08/2016 18:01:09: sacizenta Dir: 7 X: 33 Y: 2
+08/08/2016 18:01:09: sacizenta Dir: 7 X: 32 Y: 2
+08/08/2016 18:01:09: sacizenta Dir: 7 X: 31 Y: 2
+08/08/2016 18:01:10: sacizenta Dir: 7 X: 30 Y: 2
+08/08/2016 18:01:10: sacizenta Dir: 7 X: 29 Y: 2
+08/08/2016 18:01:10: sacizenta Dir: 7 X: 28 Y: 2
+08/08/2016 18:01:10: sacizenta Dir: 7 X: 27 Y: 2
+08/08/2016 18:01:10: sacizenta Dir: 7 X: 26 Y: 2
+08/08/2016 18:01:10: sacizenta Dir: 7 X: 25 Y: 2
+08/08/2016 18:01:11: sacizenta Dir: 7 X: 24 Y: 2
+08/08/2016 18:01:11: sacizenta Dir: 7 X: 23 Y: 2
+08/08/2016 18:01:11: sacizenta Dir: 7 X: 22 Y: 2
+08/08/2016 18:01:11: sacizenta Dir: 7 X: 21 Y: 2
+08/08/2016 18:01:11: sacizenta Dir: 7 X: 20 Y: 2
+08/08/2016 18:01:12: sacizenta Dir: 7 X: 19 Y: 2
+08/08/2016 18:01:12: sacizenta Dir: 7 X: 18 Y: 2
+08/08/2016 18:01:12: sacizenta Dir: 4 X: 18 Y: 3
+08/08/2016 18:01:12: sacizenta Dir: 4 X: 18 Y: 4
+08/08/2016 18:01:12: sacizenta Dir: 7 X: 17 Y: 4
+08/08/2016 18:01:13: sacizenta Dir: 7 X: 16 Y: 4
+08/08/2016 18:01:13: sacizenta Dir: 7 X: 15 Y: 4
+08/08/2016 18:01:13: sacizenta Dir: 7 X: 14 Y: 4
+08/08/2016 18:01:13: sacizenta Dir: 4 X: 14 Y: 5
+08/08/2016 18:01:13: sacizenta Dir: 4 X: 14 Y: 6
+08/08/2016 18:01:13: sacizenta Dir: 7 X: 13 Y: 6
+08/08/2016 18:01:14: sacizenta Dir: 7 X: 12 Y: 6
+08/08/2016 18:01:14: sacizenta Dir: 7 X: 11 Y: 6
+08/08/2016 18:01:14: sacizenta Dir: 1 X: 11 Y: 5
+08/08/2016 18:01:14: sacizenta Dir: 7 X: 10 Y: 5
+08/08/2016 18:01:14: sacizenta Dir: 7 X: 9 Y: 5
+08/08/2016 18:01:15: sacizenta Dir: 7 X: 8 Y: 5
+08/08/2016 18:01:15: sacizenta Dir: 7 X: 7 Y: 5
+08/08/2016 18:01:16: sacizenta Dir: 1 X: 7 Y: 4
+08/08/2016 18:01:17: sacizenta Dir: 4 X: 7 Y: 5
+08/08/2016 18:01:42: Status changed to disconnected: 127.0.0.1
+08/08/2016 18:02:45: Carregando dados de mysql.
+08/08/2016 18:02:45: ID: #artemis#
+08/08/2016 18:02:45: Name: Canal 1
+08/08/2016 18:02:45: Discovery: Elysium Diamond #1.0.0
+08/08/2016 18:02:45: IP: 127.0.0.1
+08/08/2016 18:02:45: Port: 10120
+08/08/2016 18:02:45: MaximumConnections: 2000
+08/08/2016 18:02:45: Logs: True
+08/08/2016 18:02:45: ClientSerial: #elysium#
+08/08/2016 18:02:45: Sleep: 1
+08/08/2016 18:02:45: TestServer: False
+08/08/2016 18:02:45: WorldServer 1 ID: Artemis
+08/08/2016 18:02:45: WorldServer 2 ID: 
+08/08/2016 18:02:45: WorldServer 3 ID: 
+08/08/2016 18:02:45: WorldServer 4 ID: 
+08/08/2016 18:02:45: WorldServer 5 ID: 
+08/08/2016 18:02:46: Connectado ao banco de dados
+08/08/2016 18:02:46: Carregando experiência
+08/08/2016 18:02:46: Exp Máximo: 121 22353256174
+08/08/2016 18:02:46: Carregando guilds.
+08/08/2016 18:02:46: Total : 0 guilds carregados.
+08/08/2016 18:02:46: Carregando membros.
+08/08/2016 18:02:46: Total : 0 membros carregados.
+08/08/2016 18:02:46: Carregando classes
+08/08/2016 18:02:46: Carregando NPC
+08/08/2016 18:02:46: Servidor iniciado
+08/08/2016 18:02:47: Status changed to connected: 127.0.0.1
+08/08/2016 18:03:01: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 85FB50C02EAE64D1
+08/08/2016 18:03:02: Status changed to connected: 127.0.0.1
+08/08/2016 18:03:02: Received From Client: 85FB50C02EAE64D1
+08/08/2016 18:03:02: Player Found ID: 1 Name: Joanlac
+08/08/2016 18:03:04: Joanlac Dir: 4 X: 0 Y: 1
+08/08/2016 18:03:04: Joanlac Dir: 4 X: 0 Y: 2
+08/08/2016 18:03:05: Joanlac Dir: 4 X: 0 Y: 3
+08/08/2016 18:03:05: Joanlac Dir: 10 X: 1 Y: 3
+08/08/2016 18:03:05: Joanlac Dir: 10 X: 2 Y: 3
+08/08/2016 18:03:05: Joanlac Dir: 10 X: 3 Y: 3
+08/08/2016 18:03:05: Joanlac Dir: 10 X: 4 Y: 3
+08/08/2016 18:03:05: Joanlac Dir: 10 X: 5 Y: 3
+08/08/2016 18:03:06: Joanlac Dir: 10 X: 6 Y: 3
+08/08/2016 18:03:06: Joanlac Dir: 10 X: 7 Y: 3
+08/08/2016 18:03:06: Joanlac Dir: 10 X: 8 Y: 3
+08/08/2016 18:03:06: Joanlac Dir: 10 X: 9 Y: 3
+08/08/2016 18:03:06: Joanlac Dir: 4 X: 9 Y: 4
+08/08/2016 18:03:07: Joanlac Dir: 4 X: 9 Y: 5
+08/08/2016 18:03:07: Joanlac Dir: 4 X: 9 Y: 6
+08/08/2016 18:03:07: Joanlac Dir: 4 X: 9 Y: 7
+08/08/2016 18:03:07: Joanlac Dir: 4 X: 9 Y: 8
+08/08/2016 18:03:07: Joanlac Dir: 4 X: 9 Y: 9
+08/08/2016 18:03:08: Joanlac Dir: 4 X: 9 Y: 10
+08/08/2016 18:03:08: Joanlac Dir: 4 X: 9 Y: 11
+08/08/2016 18:03:08: Joanlac Dir: 4 X: 9 Y: 12
+08/08/2016 18:03:08: Joanlac Dir: 4 X: 9 Y: 13
+08/08/2016 18:03:08: Joanlac Dir: 4 X: 9 Y: 14
+08/08/2016 18:03:08: Joanlac Dir: 4 X: 9 Y: 15
+08/08/2016 18:03:09: Joanlac Dir: 10 X: 10 Y: 15
+08/08/2016 18:03:09: Joanlac Dir: 10 X: 11 Y: 15
+08/08/2016 18:03:09: Joanlac Dir: 10 X: 12 Y: 15
+08/08/2016 18:03:09: Joanlac Dir: 4 X: 12 Y: 16
+08/08/2016 18:03:09: Joanlac Dir: 4 X: 12 Y: 17
+08/08/2016 18:03:10: Joanlac Dir: 4 X: 12 Y: 18
+08/08/2016 18:03:35: Status changed to disconnected: 127.0.0.1
+08/08/2016 18:03:53: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 2860FA81C12B7A9C
+08/08/2016 18:03:54: Status changed to connected: 127.0.0.1
+08/08/2016 18:03:54: Received From Client: 2860FA81C12B7A9C
+08/08/2016 18:03:54: Player Found ID: 1 Name: Joanlac
+08/08/2016 18:13:45: Carregando dados de mysql.
+08/08/2016 18:13:45: ID: #artemis#
+08/08/2016 18:13:45: Name: Canal 1
+08/08/2016 18:13:45: Discovery: Elysium Diamond #1.0.0
+08/08/2016 18:13:45: IP: 127.0.0.1
+08/08/2016 18:13:45: Port: 10120
+08/08/2016 18:13:45: MaximumConnections: 2000
+08/08/2016 18:13:45: Logs: True
+08/08/2016 18:13:45: ClientSerial: #elysium#
+08/08/2016 18:13:45: Sleep: 1
+08/08/2016 18:13:45: TestServer: False
+08/08/2016 18:13:45: WorldServer 1 ID: Artemis
+08/08/2016 18:13:45: WorldServer 2 ID: 
+08/08/2016 18:13:45: WorldServer 3 ID: 
+08/08/2016 18:13:45: WorldServer 4 ID: 
+08/08/2016 18:13:45: WorldServer 5 ID: 
+08/08/2016 18:13:46: Connectado ao banco de dados
+08/08/2016 18:13:46: Carregando experiência
+08/08/2016 18:13:46: Exp Máximo: 121 22353256174
+08/08/2016 18:13:46: Carregando guilds.
+08/08/2016 18:13:46: Total : 0 guilds carregados.
+08/08/2016 18:13:46: Carregando membros.
+08/08/2016 18:13:46: Total : 0 membros carregados.
+08/08/2016 18:13:46: Carregando classes
+08/08/2016 18:13:46: Carregando NPC
+08/08/2016 18:13:46: Servidor iniciado
+08/08/2016 18:13:48: Status changed to connected: 127.0.0.1
+08/08/2016 18:14:01: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 B8F0FD1502B35046
+08/08/2016 18:14:03: Status changed to connected: 127.0.0.1
+08/08/2016 18:14:03: Received From Client: B8F0FD1502B35046
+08/08/2016 18:14:04: Player Found ID: 1 Name: Joanlac
+08/08/2016 18:14:05: Joanlac Dir: 4 X: 12 Y: 19
+08/08/2016 18:14:05: Joanlac Dir: 4 X: 12 Y: 20
+08/08/2016 18:14:05: Joanlac Dir: 10 X: 13 Y: 20
+08/08/2016 18:14:06: Joanlac Dir: 10 X: 14 Y: 20
+08/08/2016 18:14:06: Joanlac Dir: 10 X: 15 Y: 20
+08/08/2016 18:14:06: Joanlac Dir: 10 X: 16 Y: 20
+08/08/2016 18:14:06: Joanlac Dir: 10 X: 17 Y: 20
+08/08/2016 18:14:06: Joanlac Dir: 10 X: 18 Y: 20
+08/08/2016 18:14:06: Joanlac Dir: 10 X: 19 Y: 20
+08/08/2016 18:14:07: Joanlac Dir: 1 X: 19 Y: 19
+08/08/2016 18:14:07: Joanlac Dir: 1 X: 19 Y: 18
+08/08/2016 18:14:07: Joanlac Dir: 1 X: 19 Y: 17
+08/08/2016 18:14:07: Joanlac Dir: 1 X: 19 Y: 16
+08/08/2016 18:14:07: Joanlac Dir: 1 X: 19 Y: 15
+08/08/2016 18:14:08: Joanlac Dir: 1 X: 19 Y: 14
+08/08/2016 18:14:08: Joanlac Dir: 1 X: 19 Y: 13
+08/08/2016 18:14:08: Joanlac Dir: 1 X: 19 Y: 12
+08/08/2016 18:14:08: Joanlac Dir: 1 X: 19 Y: 11
+08/08/2016 18:14:08: Joanlac Dir: 1 X: 19 Y: 10
+08/08/2016 18:14:09: Joanlac Dir: 1 X: 19 Y: 9
+08/08/2016 18:14:09: Joanlac Dir: 1 X: 19 Y: 8
+08/08/2016 18:14:09: Joanlac Dir: 1 X: 19 Y: 7
+08/08/2016 18:14:09: Joanlac Dir: 1 X: 19 Y: 6
+08/08/2016 18:14:09: Joanlac Dir: 1 X: 19 Y: 5
+08/08/2016 18:14:09: Joanlac Dir: 1 X: 19 Y: 4
+08/08/2016 18:14:10: Joanlac Dir: 10 X: 20 Y: 4
+08/08/2016 18:14:10: Joanlac Dir: 10 X: 21 Y: 4
+08/08/2016 18:14:10: Joanlac Dir: 10 X: 22 Y: 4
+08/08/2016 18:14:10: Joanlac Dir: 10 X: 23 Y: 4
+08/08/2016 18:14:10: Joanlac Dir: 10 X: 24 Y: 4
+08/08/2016 18:14:11: Joanlac Dir: 10 X: 25 Y: 4
+08/08/2016 18:14:11: Joanlac Dir: 10 X: 26 Y: 4
+08/08/2016 18:14:12: Joanlac Dir: 1 X: 26 Y: 3
+08/08/2016 18:14:12: Joanlac Dir: 1 X: 26 Y: 2
+08/08/2016 18:14:12: Joanlac Dir: 1 X: 26 Y: 1
+08/08/2016 18:14:12: Joanlac Dir: 10 X: 27 Y: 1
+08/08/2016 18:14:39: ID: 1 Joanlac Status changed to disconnected: 127.0.0.1

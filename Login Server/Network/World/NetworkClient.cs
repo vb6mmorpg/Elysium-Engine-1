@@ -114,15 +114,15 @@ namespace LoginServer.Network {
                 switch (incMsg.MessageType) {
                     case NetIncomingMessageType.DiscoveryResponse:
                         Socket.Connect(incMsg.SenderEndPoint);
-                        LogConfig.WriteLog("Connected World Server #" + Settings.Server[index].Name);            
-                        LogConfig.WriteLog("Connected World Server #" + Settings.Server[index].Name, System.Drawing.Color.Green);
+                        LogConfig.WriteLog($"Connected World Server #{Settings.Server[index].Name}");            
+                        LogConfig.WriteLog($"Connected World Server #{Settings.Server[index].Name}", System.Drawing.Color.Green);
                         break;
 
                     case NetIncomingMessageType.StatusChanged:
                         NetConnectionStatus status = (NetConnectionStatus)incMsg.ReadByte();
                         if (status == NetConnectionStatus.Disconnected) {
-                            LogConfig.WriteLog("World Server #" + Settings.Server[index].Name + " disconnected"); 
-                            LogConfig.WriteLog("World Server #" + Settings.Server[index].Name + " disconnected", System.Drawing.Color.Green);
+                            LogConfig.WriteLog($"World Server #{Settings.Server[index].Name} disconnected"); 
+                            LogConfig.WriteLog($"World Server #{Settings.Server[index].Name} disconnected", System.Drawing.Color.Green);
                         }
                         break;
 

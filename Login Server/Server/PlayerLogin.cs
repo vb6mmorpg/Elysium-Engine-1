@@ -128,8 +128,8 @@ namespace LoginServer.Server {
             pData.Account = pData.Username;
             pData.Username = string.Empty;
 
-            LogConfig.WriteLog("User Login: " + pData.Account + " " + pData.IP); 
-            LogConfig.WriteLog("User Login: " + pData.Account + " " + pData.IP, System.Drawing.Color.Black); 
+            LogConfig.WriteLog($"User Login: {pData.Account} {pData.IP}"); 
+            LogConfig.WriteLog($"User Login: {pData.Account} {pData.IP}", System.Drawing.Color.Black); 
 
             //obtem o id de usuario
             pData.ID = Accounts_DB.GetID(pData.Account);

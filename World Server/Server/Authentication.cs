@@ -54,7 +54,7 @@ namespace WorldServer.Server {
 
             HexID.Add(hexID);
 
-            LogConfig.WriteLog("Data From Login Server ID: " + hexID.AccountID + " Account: " + hexID.Account + " " + hexID.HexID, Color.Black);
+            LogConfig.WriteLog($"Data From Login Server ID: {hexID.AccountID} Account: {hexID.Account} {hexID.HexID}", Color.Black);
         }
 
         /// <summary>
@@ -66,7 +66,7 @@ namespace WorldServer.Server {
             var pData = FindByConnection(connection);
             pData.HexID = hexID;
 
-            LogConfig.WriteLog("Data From Client: " + hexID, Color.Black);
+            LogConfig.WriteLog($"Data From Client: {hexID}", Color.Black);
         }
 
         /// <summary>
@@ -110,7 +110,7 @@ namespace WorldServer.Server {
                 //Aceita o hexID e permite a conexão
                 Authentication.AcceptHexID(pData.Connection, hexID);
 
-                LogConfig.WriteLog("Player Found ID: " + pData.AccountID + " Account: " + pData.Account + " " + pData.HexID, Color.Black);
+                LogConfig.WriteLog($"Player Found ID: {pData.AccountID} Account: {pData.Account} {pData.HexID}", Color.Black);
 
                 //inicia o processo de login
                 PlayerLogin.Login(pData);
@@ -124,7 +124,7 @@ namespace WorldServer.Server {
             //se algum dado estiver mais que 30 segundos no sistema, é removido da lista.
             foreach (var hexID in HexID) {
                 if (Environment.TickCount > hexID.Time + 30000) {
-                    LogConfig.WriteLog("Removed HexID: " + hexID.HexID + " " + hexID.Account, Color.Coral);
+                    LogConfig.WriteLog($"Removed HexID: {hexID.HexID} {hexID.Account}", Color.Coral);
                     HexID.Remove(hexID); 
                 }
             }
@@ -150,7 +150,7 @@ namespace WorldServer.Server {
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
-        public static PlayerData FindByID(int accountID) {
+        public static PlayerData FindByAccountID(int accountID) {
             var find_id = from pData in Player
                           where pData.AccountID.CompareTo(accountID) == 0
                           select pData;

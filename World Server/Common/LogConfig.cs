@@ -6,7 +6,7 @@ namespace WorldServer.Common {
         /// <summary>
         /// Destino do arquivo.
         /// </summary>
-        static string fileLog = DateTime.Today.Year + " - " + DateTime.Today.Month + " - " + DateTime.Today.Day + ".txt";
+        static string fileLog = $"{DateTime.Today.Year} - {DateTime.Today.Month} - {DateTime.Today.Day}.txt";
         static FileStream pcFile;
         static StreamWriter writer;
 
@@ -14,7 +14,7 @@ namespace WorldServer.Common {
         /// Abre o arquivo de logs.
         /// </summary>
         public static void OpenFileLog() {
-            pcFile = new FileStream(Environment.CurrentDirectory + @"\Log\" + fileLog, FileMode.Append, FileAccess.Write);
+            pcFile = new FileStream($"{Environment.CurrentDirectory}\\Log\\{fileLog}", FileMode.Append, FileAccess.Write);
             writer = new StreamWriter(pcFile);
         }
 

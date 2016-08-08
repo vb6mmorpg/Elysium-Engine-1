@@ -5,7 +5,7 @@ namespace GameServer.GameLogic.Character {
     public static class CharacterLogic {
 
         public static void UpdateCharacterStats(int playerID) {
-            var pData = Authentication.FindByID(playerID);
+            var pData = Authentication.FindByAccountID(playerID);
             var classID = pData.ClasseID;
 
             //items stat value

@@ -6,7 +6,7 @@ namespace LoginServer.Common {
         const int ENABLED = 1;
         const int DISABLED = 0;
 
-        static string fileLog = DateTime.Today.Year + " - " + DateTime.Today.Month + " - " + DateTime.Today.Day + ".txt";
+        static string fileLog = $"{DateTime.Today.Year} - {DateTime.Today.Month} - {DateTime.Today.Day}.txt";
         static FileStream file;
         static StreamWriter writer;
 
@@ -14,7 +14,7 @@ namespace LoginServer.Common {
         /// Abre o arquivo no modo de escrita.
         /// </summary>
         public static void OpenFileLog() {
-            file = new FileStream(Environment.CurrentDirectory + @"\Log\" + fileLog, FileMode.Append, FileAccess.Write);
+            file = new FileStream(Environment.CurrentDirectory + $@"\Log\{fileLog}", FileMode.Append, FileAccess.Write);
             writer = new StreamWriter(file);
         }
 
@@ -32,7 +32,7 @@ namespace LoginServer.Common {
         /// <param name="text"></param>
         public static void WriteLog(string text) {
             if (Settings.LogSystem == DISABLED) { return; }
-            writer.WriteLine(DateTime.Now + ": " + text);
+            writer.WriteLine($"{DateTime.Now}: {text}");
             writer.Flush();
         }  
 

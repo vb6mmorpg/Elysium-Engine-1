@@ -64,6 +64,7 @@ namespace WorldServer.Classe {
             sValue[8] = ClassesBase[classeIndex].Mind;
             sValue[9] = ClassesBase[classeIndex].Charisma;
 
+            //stats base + level * incremento por level
             switch (stat) {
                 case Stats.Strenght: return ClassesBase[classeIndex].Strenght + (ClassesBase[classeIndex].Level * ClassesIncrement[incrementIndex].Strenght);
                 case Stats.Dexterity: return ClassesBase[classeIndex].Dexterity + (ClassesBase[classeIndex].Level * ClassesIncrement[incrementIndex].Dexterity);

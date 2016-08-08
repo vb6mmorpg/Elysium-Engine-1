@@ -19,11 +19,7 @@ namespace LoginServer.MySQL {
         /// <param name="error"></param>
         /// <returns></returns>
         public static bool Connect(out string message) {
-            var varCon = "Server=" + Server + ";";
-            varCon += "Port=" + Port + ";";
-            varCon += "Database=" + Database + ";";
-            varCon += "User ID=" + Username + ";";
-            varCon += "Password=" + Password + ";";
+            var varCon = $"Server={ Server};Port={ Port};Database={Database};User ID={Username};Password={Password};";
 
             try {
                 SQLConnection = new MySqlConnection();
