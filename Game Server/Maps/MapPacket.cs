@@ -9,7 +9,7 @@ using Lidgren.Network;
 namespace GameServer.Maps {
     public class MapPacket {
         public static void SendNpc(NetConnection connection, int index) {
-            var buffer = GameServerNetwork.sSock.CreateMessage();
+            var buffer = GameServerNetwork.Socket.CreateMessage();
         //    buffer.Write((int)PacketList.GameServer_SendNpc);
             buffer.Write(MapGeneral.Map.Npc.Count);
 
@@ -25,7 +25,7 @@ namespace GameServer.Maps {
         }
 
         public static void SendMapPlayer(NetConnection connection, int playerID, string name, int sprite, int direction, int x, int y) {
-            var buffer = GameServerNetwork.sSock.CreateMessage();
+            var buffer = GameServerNetwork.Socket.CreateMessage();
             buffer.Write((int)PacketList.GameServer_Client_GetMapPlayer);
             buffer.Write(playerID);
             buffer.Write(name);
@@ -39,12 +39,12 @@ namespace GameServer.Maps {
         }
 
         public static void SendPlayerMapMove(NetConnection connection, int playerID, int direction) {
-            var buffer = GameServerNetwork.sSock.CreateMessage();
+            var buffer = GameServerNetwork.Socket.CreateMessage();
             buffer.Write((int)PacketList.GameServer_Client_PlayerMapMove);
             buffer.Write(playerID);
             buffer.Write(direction);
 
-            GameServerNetwork.SendDataTo(connection, buffer, NetDeliveryMethod.ReliableSequenced);
+            GameServerNetwork.SendDataTo(connection, buffer, NetDeliveryMethod.ReliableOrdered);
         }
     }
 }

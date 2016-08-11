@@ -5,9 +5,8 @@ namespace WorldServer.GameGuild {
     public partial class Guild {
 
         public static void UpdatePlayerStatus(int gID, int pID, bool online) {
-            GuildMember gMember = FindGuildByID(gID).FindMemberByID(pID);         
-            gMember.Status = online;
-
+                GuildMember gMember = FindGuildByID(gID).FindMemberByID(pID);
+                gMember.Status = online;
             //sendtoall 
         }
 

@@ -36,7 +36,7 @@ namespace GameServer.MySQL {
                 list[index].Will = (int)reader["will"];
                 list[index].Mind = (int)reader["mind"];
                 list[index].Charisma = (int)reader["charisma"];
-                list[index].Points = (int)reader["points"];
+                list[index].StatPoint = (int)reader["points"];
                 list[index].CriticalRate = (int)reader["critical_rate"];
                 list[index].CriticalDamage = (int)reader["critical_damage"];
                 list[index].MagicCriticalRate = (int)reader["magic_critical_rate"];

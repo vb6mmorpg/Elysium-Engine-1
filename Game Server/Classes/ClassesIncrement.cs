@@ -16,8 +16,7 @@ namespace GameServer.Classe {
         public int Mind { get; set; }
         public int Charisma { get; set; }
         public int Points { get; set; }
-
-
+        
         private const int MAX_STATS = 10;
         private int[] inc_MaxHP = new int[MAX_STATS];
         private int[] inc_MaxMP = new int[MAX_STATS];

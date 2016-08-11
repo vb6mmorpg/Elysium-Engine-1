@@ -21,8 +21,8 @@ namespace WorldServer.Server {
                 // Percorre todos os hexid de jogadores, se ambos hexid estiverem corretos, aceita a conexão
                 Authentication.VerifyPlayerHexID();
             }
-            catch (Exception e) {
-                throw new Exception("Ocorreu um erro", e);
+            catch (Exception ex) {
+                throw new Exception("Ocorreu um erro", ex);
             }
         }
     }

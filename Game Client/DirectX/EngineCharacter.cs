@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using System.Collections.Generic;
 using Elysium_Diamond.Resource;
 using Elysium_Diamond.Network;
 using SharpDX;
@@ -20,6 +21,7 @@ namespace Elysium_Diamond.DirectX {
 
         //temp
         public int ID { get; set; }
+        public Queue<int> DirectionList { get; set; } = new Queue<int>();
 
         public Direction Dir { get; set; }
         public string Name { get; set; }
@@ -112,6 +114,30 @@ namespace Elysium_Diamond.DirectX {
         }
 
         public void ProcessMovement() {
+            if (DirectionList.Count > 0) {
+                if (!Move) {
+                    Dir = (Direction)DirectionList.Dequeue();
+
+                    if (Dir == Direction.Up) {
+                        OffSetY = 16;
+                    }
+
+                    if (Dir == Direction.Down) {
+                        OffSetY = -16;
+                    }
+
+                    if (Dir == Direction.Left) {
+                        OffSetX = 16;
+                    }
+
+                    if (Dir == Direction.Right) {
+                        OffSetX = -16;
+                    }
+
+                    Move = true;
+                }
+            }
+
             if (!Move) { return; }
 
             if (Environment.TickCount >= this.moveTime + 35) {
@@ -122,7 +148,6 @@ namespace Elysium_Diamond.DirectX {
                         PositionY -= 4;
                         OffSetY -= 4;
                         if (OffSetY <= 0) {
-                           // OffSetY = 0;
                             Move = false;
                             Coordinate = new Point(Coordinate.X, Coordinate.Y - 1);
                         }
@@ -132,7 +157,6 @@ namespace Elysium_Diamond.DirectX {
                         PositionY += 4;
                         OffSetY += 4;
                         if (OffSetY >= 0) {
-                           // OffSetY = 0;
                             Move = false;
                             Coordinate = new Point(Coordinate.X, Coordinate.Y + 1);
                         }
@@ -142,7 +166,6 @@ namespace Elysium_Diamond.DirectX {
                         PositionX -= 4;
                         OffSetX -= 4;
                         if (OffSetX <= 0) {
-                           // OffSetX = 0;
                             Move = false;
                             Coordinate = new Point(Coordinate.X - 1, Coordinate.Y);
                         }
@@ -152,7 +175,6 @@ namespace Elysium_Diamond.DirectX {
                         PositionX += 4;
                         OffSetX += 4;
                         if (OffSetX >= 0) {
-                           // OffSetX = 0;
                             Move = false;
                             Coordinate = new Point(Coordinate.X + 1, Coordinate.Y);
                         }
@@ -166,7 +188,6 @@ namespace Elysium_Diamond.DirectX {
             if (!Program.graphicsDisplay.Focused) { return; }
 
             if (GetAsyncKeyState((short)Keys.W) < 0) {
-                Program.graphicsDisplay.Text = GetAsyncKeyState((int)Keys.W) + "";
                 if (Move == false) {
                     OffSetY = 16;
                     Dir = Direction.Up;

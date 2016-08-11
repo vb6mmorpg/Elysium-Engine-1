@@ -20,7 +20,7 @@ namespace GameServer.Network {
             }
         }
         public static void Ping(NetConnection connection) {
-            var buffer = GameServerNetwork.sSock.CreateMessage();
+            var buffer = GameServerNetwork.Socket.CreateMessage();
             buffer.Write((int)PacketList.Ping);
             GameServerNetwork.SendDataTo(connection, buffer, NetDeliveryMethod.ReliableUnordered);
         }

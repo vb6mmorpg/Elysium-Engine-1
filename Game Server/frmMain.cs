@@ -73,7 +73,7 @@ namespace GameServer
         public void Initialize() {
             var error = string.Empty;
 
-            Configuration.ParseConfigFile(Settings.FileConfig);
+            Configuration.ParseConfigFile(Settings.FILE_CONFIG);
 
             LogConfig.OpenFileLog();
             LogConfig.WriteLog("Carregando dados de mysql.", Color.Black);
@@ -141,11 +141,9 @@ namespace GameServer
             // Carrega todos os dados de guild
             LogConfig.WriteLog("Carregando guilds.", Color.Black);
             Guild_DB.GuildInfo();
-            LogConfig.WriteLog("Total : " + Settings.ResultGuild + " guilds carregados.", Color.BlueViolet);
 
             Guild_DB.MemberInfo();
             LogConfig.WriteLog("Carregando membros.", Color.Black);
-            LogConfig.WriteLog("Total : " + Settings.ResultMember + " membros carregados.", Color.BlueViolet);
 
             // Classes
             Classes.ClassesBase = new List<ClassesBase>();

@@ -12,7 +12,10 @@ namespace GameServer.Server {
         public void Add(string fullDateTime) {
             var data = fullDateTime.Split('-');
 
-            Add(int.Parse(data[0]), data[1]);
+            const int ID = 0;
+            const int DATE = 1;
+
+            Add(int.Parse(data[ID]), data[DATE]);
         }
 
         /// <summary>
@@ -21,10 +24,20 @@ namespace GameServer.Server {
         /// <param name="id"></param>
         /// <param name="dateTime"></param>
         public void Add(int id, string dateTime) {
+            //por problemas de 'formato de datas', mantenho esse padrão
+            const int YEAR = 2;
+            const int MONTH = 1;
+            const int DAY = 0;
+
+            const int HOUR = 0;
+            const int MINUTE = 1;
+            const int SECONDS = 0;
+
             var fulldate = dateTime.Split(' ');
-            var date = fulldate[0].Split('/');
-            var hour = fulldate[1].Split(':');
-            service.Add(id, new DateTime(int.Parse(date[2]), int.Parse(date[1]), int.Parse(date[0]), int.Parse(hour[0]), int.Parse(hour[1]), 0));
+            var date = fulldate[0].Split('/'); //quebra para pegar a data
+            var hour = fulldate[1].Split(':'); //quebra para pegar a hora e minuto
+
+            service.Add(id, new DateTime(int.Parse(date[YEAR]), int.Parse(date[MONTH]), int.Parse(date[DAY]), int.Parse(hour[HOUR]), int.Parse(hour[MINUTE]), SECONDS));
         }
 
         /// <summary>
@@ -93,7 +106,8 @@ namespace GameServer.Server {
         /// <returns></returns>
         public string ServiceTime(int id) {
             var date = Convert.ToDateTime(service[id]);
-            return id + "-" + date.Day + "/" + date.Month + "/" + date.Year + " " + date.Hour + ":" + date.Minute;
+            // DIA, MES, ANO, HORA, MINUTO
+            return $"{id}-{date.Day}/{date.Month}/{date.Year} {date.Hour}:{date.Minute}";
         }
     }
 }

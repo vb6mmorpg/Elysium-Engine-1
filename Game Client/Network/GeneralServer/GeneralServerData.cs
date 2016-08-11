@@ -27,8 +27,6 @@ namespace Elysium_Diamond.Network
             EngineCore.Personagem.PositionX = CurrentPlayerData.PosX * 16;
             EngineCore.Personagem.PositionY = CurrentPlayerData.PosY * 16;
 
-            System.Windows.Forms.MessageBox.Show(EngineCore.Personagem.PositionX + "");
-
             EngineCore.Personagem.Coordinate = new SharpDX.Point(CurrentPlayerData.PosX, CurrentPlayerData.PosY);
 
             EngineCore.EngineBar.Percentage = Convert.ToInt32(CurrentPlayerData.Exp * 100 / Experience.Data[CurrentPlayerData.Level + 1]);

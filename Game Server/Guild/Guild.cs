@@ -3,8 +3,20 @@ using System.Linq;
 
 namespace GameServer.GameGuild {
     public partial class Guild {
+
+        /// <summary>
+        /// Lista de membros.
+        /// </summary>
         public HashSet<GuildMember> Member { get; set; }
+
+        /// <summary>
+        /// Histórico de alterações.
+        /// </summary>
         public HashSet<GuildHistory> History { get; set; }
+
+        /// <summary>
+        /// Configuação e informação de level.
+        /// </summary>
         public static List<GuildData> Data { get; set; }
         /// <summary>
         /// Número de identificação

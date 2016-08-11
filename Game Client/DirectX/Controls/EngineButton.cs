@@ -180,7 +180,7 @@ namespace Elysium_Diamond.DirectX
                 if (InsideButton()) {
                     if (!move) { 
                         move = true;
-                        if (MouseMove != null) { MouseMove(this, EventArgs.Empty); }
+                        MouseMove?.Invoke(this, EventArgs.Empty);
                     }
 
                     State = 1;
@@ -189,13 +189,12 @@ namespace Elysium_Diamond.DirectX
                         State = 2;
 
                         if (!click) {
-                            if (MouseDown != null) { MouseDown(this, EventArgs.Empty); }
-                            click = true;
+                            MouseDown?.Invoke(this, EventArgs.Empty); click = true;
                         }
                     }
                     else {
                         if (click) {
-                            if (MouseUp != null) { MouseUp(this, EventArgs.Empty); }
+                            MouseUp?.Invoke(this, EventArgs.Empty);
                         }
                         click = false;   
                         State = 1;
@@ -204,7 +203,7 @@ namespace Elysium_Diamond.DirectX
                 else {
                     if (move) {
                         move = false;
-                        if (MouseLeave != null) { MouseLeave(this, EventArgs.Empty); }
+                        MouseLeave?.Invoke(this, EventArgs.Empty);
                     }
                 }
             }

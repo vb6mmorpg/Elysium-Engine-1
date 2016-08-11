@@ -61,7 +61,6 @@ namespace GameServer.Maps {
             }
         }
 
-
         public void SendPlayerMove(PlayerData pData, int dir) {
             foreach (int playerID in PlayerID) {
                 //procura o jogador pelo ID

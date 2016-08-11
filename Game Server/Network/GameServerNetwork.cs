@@ -6,7 +6,7 @@ namespace GameServer.Network {
     public static class GameServerNetwork {
         // TCP Client //
         public static bool ClientStatus;
-        public static NetServer sSock;
+        public static NetServer Socket;
         private static NetOutgoingMessage outgoingPacket;
 
         public static void initServerTCP() {
@@ -27,23 +27,23 @@ namespace GameServer.Network {
 
             //SimulatedMinimumLatency, SimulatedRandomLatency
 
-            sSock = new NetServer(config);
-            sSock.Start();
-            sSock.Socket.Blocking = false;
+            Socket = new NetServer(config);
+            Socket.Start();
+            Socket.Socket.Blocking = false;
         }
 
         public static void ReceiveData() {
-            if (sSock == null) { return; }
+            if (Socket == null) { return; }
             NetIncomingMessage msg;
 
-            while ((msg = sSock.ReadMessage()) != null) {
+            while ((msg = Socket.ReadMessage()) != null) {
                 var pData = Authentication.FindByConnection(msg.SenderConnection);
 
                 switch (msg.MessageType) {
                     case NetIncomingMessageType.DiscoveryRequest:
                         string ip = msg.SenderEndPoint.Address.ToString();
 
-                        sSock.SendDiscoveryResponse(null, msg.SenderEndPoint);
+                        Socket.SendDiscoveryResponse(null, msg.SenderEndPoint);
 
                         //   if (Program.ConnectForm.Logs.Checked == false)
                         //   {
@@ -69,23 +69,17 @@ namespace GameServer.Network {
                         var status = (NetConnectionStatus)msg.ReadByte();
 
                         if (status == NetConnectionStatus.Connected) {
-                            LogConfig.WriteLog("Status changed to connected: " + msg.SenderEndPoint.Address, System.Drawing.Color.Coral);
-
+                            LogConfig.WriteLog($"Status changed to connected: {msg.SenderEndPoint.Address}", System.Drawing.Color.Coral);
                             Authentication.Player.Add(new PlayerData(msg.SenderConnection, string.Empty, msg.SenderEndPoint.Address.ToString()));
-
                             GameServerPacket.NeedHexID(msg.SenderConnection);
                         }
                         #endregion
 
                         #region StatusChanged : Disconnected
                         if (status == NetConnectionStatus.Disconnected) {
-
                             LogConfig.WriteLog($"ID: {pData.CharacterID} {pData.CharacterName} Status changed to disconnected: " + msg.SenderEndPoint.Address, System.Drawing.Color.Coral);
-        
                             MySQL.Character_DB.Save(pData);
-
                             pData.Clear();
-
                             Authentication.Player.Remove(pData);
                         }
                         #endregion
@@ -103,7 +97,7 @@ namespace GameServer.Network {
                         break;
                 }
 
-                sSock.Recycle(msg);
+                Socket.Recycle(msg);
             }
         }
 
@@ -124,17 +118,25 @@ namespace GameServer.Network {
         public static void SendDataTo(string hexID, NetOutgoingMessage data, NetDeliveryMethod deliveryMethod) {
             if (Authentication.Player.Count == 0) { return; }
 
-            outgoingPacket = sSock.CreateMessage(data.LengthBytes);
+            outgoingPacket = Socket.CreateMessage(data.LengthBytes);
             outgoingPacket.Write(data);
-            sSock.SendMessage(outgoingPacket, Authentication.FindByHexID(hexID).Connection, deliveryMethod);
+            Socket.SendMessage(outgoingPacket, Authentication.FindByHexID(hexID).Connection, deliveryMethod);
         }
 
         public static void SendDataTo(NetConnection connection, NetOutgoingMessage data, NetDeliveryMethod deliveryMethod) {
             if (Authentication.Player.Count == 0) { return; }
 
-            outgoingPacket = sSock.CreateMessage(data.LengthBytes);
+            outgoingPacket = Socket.CreateMessage(data.LengthBytes);
             outgoingPacket.Write(data);
-            sSock.SendMessage(outgoingPacket, connection, deliveryMethod);
+            Socket.SendMessage(outgoingPacket, connection, deliveryMethod);
+        }
+
+        public static void SendDataTo(NetConnection connection, NetOutgoingMessage data, NetDeliveryMethod deliveryMethod, int channel) {
+            if (Authentication.Player.Count == 0) { return; }
+
+            outgoingPacket = Socket.CreateMessage(data.LengthBytes);
+            outgoingPacket.Write(data);
+            Socket.SendMessage(outgoingPacket, connection, deliveryMethod, channel);
         }
 
         public static void SendDataToAll(NetOutgoingMessage data, NetDeliveryMethod deliveryMethod) {

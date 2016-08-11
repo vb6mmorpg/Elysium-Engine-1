@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace GameServer.GameGuild {
+﻿namespace GameServer.GameGuild {
     public class GuildData {
         /// <summary>
         /// Limite de level.

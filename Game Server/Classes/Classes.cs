@@ -3,7 +3,14 @@ using GameServer.Server;
 
 namespace GameServer.Classe {
     public class Classes {
+        /// <summary>
+        /// Stats base de cada classe.
+        /// </summary>
         public static List<ClassesBase> ClassesBase { get; set; }
+
+        /// <summary>
+        /// Incremento de cada classe.
+        /// </summary>
         public static List<ClassesIncrement> ClassesIncrement { get; set; }
 
         /// <summary>
@@ -71,7 +78,7 @@ namespace GameServer.Classe {
                 case Stats.Will: return ClassesBase[classeIndex].Will + (pData.Level * ClassesIncrement[incrementIndex].Will);
                 case Stats.Mind: return ClassesBase[classeIndex].Mind + (pData.Level * ClassesIncrement[incrementIndex].Mind);
                 case Stats.Charisma: return ClassesBase[classeIndex].Charisma + (pData.Level * ClassesIncrement[incrementIndex].Charisma);
-                case Stats.Point: return ClassesBase[classeIndex].Points + (pData.Level * ClassesIncrement[incrementIndex].Points);
+                case Stats.Point: return ClassesBase[classeIndex].StatPoint + (pData.Level * ClassesIncrement[incrementIndex].Points);
                 case Stats.Level: return ClassesBase[classeIndex].Level;
                 case Stats.MaxHP: return ClassesBase[classeIndex].HP + ClassesIncrement[incrementIndex].GetIncrementStat(Stats.MaxHP, sValue);
                 case Stats.MaxMP: return ClassesBase[classeIndex].MP + ClassesIncrement[incrementIndex].GetIncrementStat(Stats.MaxMP, sValue);

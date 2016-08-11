@@ -2628,3 +2628,157 @@
 08/08/2016 18:14:12: Joanlac Dir: 1 X: 26 Y: 1
 08/08/2016 18:14:12: Joanlac Dir: 10 X: 27 Y: 1
 08/08/2016 18:14:39: ID: 1 Joanlac Status changed to disconnected: 127.0.0.1
+08/08/2016 22:45:29: Carregando dados de mysql.
+08/08/2016 22:45:29: ID: #artemis#
+08/08/2016 22:45:29: Name: Canal 1
+08/08/2016 22:45:29: Discovery: Elysium Diamond #1.0.0
+08/08/2016 22:45:29: IP: 127.0.0.1
+08/08/2016 22:45:29: Port: 10120
+08/08/2016 22:45:29: MaximumConnections: 2000
+08/08/2016 22:45:29: Logs: True
+08/08/2016 22:45:29: ClientSerial: #elysium#
+08/08/2016 22:45:29: Sleep: 1
+08/08/2016 22:45:29: TestServer: False
+08/08/2016 22:45:29: WorldServer 1 ID: Artemis
+08/08/2016 22:45:29: WorldServer 2 ID: 
+08/08/2016 22:45:29: WorldServer 3 ID: 
+08/08/2016 22:45:29: WorldServer 4 ID: 
+08/08/2016 22:45:29: WorldServer 5 ID: 
+08/08/2016 22:45:30: Connectado ao banco de dados
+08/08/2016 22:45:30: Carregando experiência
+08/08/2016 22:45:30: Exp Máximo: 121 22353256174
+08/08/2016 22:45:30: Carregando guilds.
+08/08/2016 22:45:30: Carregando membros.
+08/08/2016 22:45:30: Carregando classes
+08/08/2016 22:45:30: Carregando NPC
+08/08/2016 22:45:31: Servidor iniciado
+08/08/2016 22:45:35: Status changed to connected: 127.0.0.1
+08/08/2016 22:45:57: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 0D7DED75AA845689
+08/08/2016 22:45:59: Status changed to connected: 127.0.0.1
+08/08/2016 22:45:59: Received From Client: 0D7DED75AA845689
+08/08/2016 22:45:59: Player Found ID: 1 Name: Joanlac
+08/08/2016 22:46:04: Joanlac Dir: 4 X: 27 Y: 2
+08/08/2016 22:46:04: Joanlac Dir: 4 X: 27 Y: 3
+08/08/2016 22:46:04: Joanlac Dir: 4 X: 27 Y: 4
+08/08/2016 22:46:05: Joanlac Dir: 4 X: 27 Y: 5
+08/08/2016 22:46:05: Joanlac Dir: 4 X: 27 Y: 6
+08/08/2016 22:46:07: Joanlac Dir: 4 X: 27 Y: 7
+08/08/2016 22:46:07: Joanlac Dir: 4 X: 27 Y: 8
+08/08/2016 22:46:07: Joanlac Dir: 4 X: 27 Y: 9
+08/08/2016 22:46:07: Joanlac Dir: 4 X: 27 Y: 10
+08/08/2016 22:46:07: Joanlac Dir: 4 X: 27 Y: 11
+08/08/2016 22:46:08: Joanlac Dir: 4 X: 27 Y: 12
+08/08/2016 22:46:08: Joanlac Dir: 4 X: 27 Y: 13
+08/08/2016 22:46:08: Joanlac Dir: 4 X: 27 Y: 14
+08/08/2016 22:46:08: Joanlac Dir: 4 X: 27 Y: 15
+08/08/2016 22:46:08: Joanlac Dir: 4 X: 27 Y: 16
+08/08/2016 22:46:08: Joanlac Dir: 4 X: 27 Y: 17
+08/08/2016 22:46:09: Joanlac Dir: 4 X: 27 Y: 18
+08/08/2016 22:46:09: Joanlac Dir: 7 X: 26 Y: 18
+08/08/2016 22:46:09: Joanlac Dir: 7 X: 25 Y: 18
+08/08/2016 22:46:09: Joanlac Dir: 7 X: 24 Y: 18
+08/08/2016 22:46:09: Joanlac Dir: 7 X: 23 Y: 18
+08/08/2016 22:46:10: Joanlac Dir: 7 X: 22 Y: 18
+08/08/2016 22:46:10: Joanlac Dir: 7 X: 21 Y: 18
+08/08/2016 22:46:10: Joanlac Dir: 7 X: 20 Y: 18
+08/08/2016 22:46:10: Joanlac Dir: 7 X: 19 Y: 18
+08/08/2016 22:46:10: Joanlac Dir: 7 X: 18 Y: 18
+08/08/2016 22:46:11: Joanlac Dir: 7 X: 17 Y: 18
+08/08/2016 22:46:11: Joanlac Dir: 7 X: 16 Y: 18
+08/08/2016 22:46:11: Joanlac Dir: 4 X: 16 Y: 19
+08/08/2016 22:46:11: Joanlac Dir: 4 X: 16 Y: 20
+08/08/2016 22:46:11: Joanlac Dir: 4 X: 16 Y: 21
+08/08/2016 22:46:11: Joanlac Dir: 4 X: 16 Y: 22
+08/08/2016 22:46:12: Joanlac Dir: 4 X: 16 Y: 23
+08/08/2016 22:46:12: Joanlac Dir: 4 X: 16 Y: 24
+08/08/2016 22:46:12: Joanlac Dir: 4 X: 16 Y: 25
+08/08/2016 22:46:12: Joanlac Dir: 4 X: 16 Y: 26
+08/08/2016 22:46:12: Joanlac Dir: 4 X: 16 Y: 27
+08/08/2016 22:46:13: Joanlac Dir: 7 X: 15 Y: 27
+08/08/2016 22:46:13: Joanlac Dir: 7 X: 14 Y: 27
+08/08/2016 22:46:14: Joanlac Dir: 4 X: 14 Y: 28
+08/08/2016 22:46:14: Joanlac Dir: 4 X: 14 Y: 29
+08/08/2016 22:47:05: ID: 1 Joanlac Status changed to disconnected: 127.0.0.1
+08/08/2016 22:47:12: Status changed to connected: 127.0.0.1
+08/08/2016 22:47:12: Received From Client: FB45FD3881187FAA
+08/08/2016 22:47:12: ID: 0  Status changed to disconnected: 127.0.0.1
+08/08/2016 22:47:45: ID: 0  Status changed to disconnected: 127.0.0.1
+08/08/2016 22:48:19: Status changed to connected: 127.0.0.1
+08/08/2016 22:48:44: Status changed to connected: 127.0.0.1
+08/08/2016 22:48:44: Received From Client: D6589AD927046D6A
+08/08/2016 22:48:44: ID: 0  Status changed to disconnected: 127.0.0.1
+08/08/2016 22:49:09: ID: 0  Status changed to disconnected: 127.0.0.1
+08/08/2016 22:50:57: Status changed to connected: 127.0.0.1
+08/08/2016 22:51:22: Status changed to connected: 127.0.0.1
+08/08/2016 22:51:22: Received From Client: 213EC382E0E2AF4A
+08/08/2016 22:51:22: ID: 0  Status changed to disconnected: 127.0.0.1
+08/08/2016 22:51:23: Data From World Server ID: 1 Account: akaruz Char ID: 3 Slot: 2 213EC382E0E2AF4A
+08/08/2016 22:53:54: Carregando dados de mysql.
+08/08/2016 22:53:54: ID: #artemis#
+08/08/2016 22:53:54: Name: Canal 1
+08/08/2016 22:53:54: Discovery: Elysium Diamond #1.0.0
+08/08/2016 22:53:54: IP: 127.0.0.1
+08/08/2016 22:53:54: Port: 10120
+08/08/2016 22:53:54: MaximumConnections: 2000
+08/08/2016 22:53:54: Logs: True
+08/08/2016 22:53:54: ClientSerial: #elysium#
+08/08/2016 22:53:54: Sleep: 1
+08/08/2016 22:53:54: TestServer: False
+08/08/2016 22:53:54: WorldServer 1 ID: Artemis
+08/08/2016 22:53:54: WorldServer 2 ID: 
+08/08/2016 22:53:54: WorldServer 3 ID: 
+08/08/2016 22:53:54: WorldServer 4 ID: 
+08/08/2016 22:53:54: WorldServer 5 ID: 
+08/08/2016 22:53:54: Connectado ao banco de dados
+08/08/2016 22:53:54: Carregando experiência
+08/08/2016 22:53:54: Exp Máximo: 121 22353256174
+08/08/2016 22:53:54: Carregando guilds.
+08/08/2016 22:53:54: Carregando membros.
+08/08/2016 22:53:54: Carregando classes
+08/08/2016 22:53:55: Carregando NPC
+08/08/2016 22:53:55: Servidor iniciado
+08/08/2016 22:55:54: Status changed to connected: 127.0.0.1
+08/08/2016 22:56:11: Data From World Server ID: 1 Account: akaruz Char ID: 3 Slot: 2 DCFAA5FC5F9335EE
+08/08/2016 22:56:12: Status changed to connected: 127.0.0.1
+08/08/2016 22:56:12: Received From Client: DCFAA5FC5F9335EE
+08/08/2016 22:56:12: Player Found ID: 3 Name: 地区
+08/08/2016 22:56:15: 地区 Dir: 4 X: 0 Y: 1
+08/08/2016 22:56:15: 地区 Dir: 4 X: 0 Y: 2
+08/08/2016 22:56:16: 地区 Dir: 10 X: 1 Y: 2
+08/08/2016 22:56:16: 地区 Dir: 10 X: 2 Y: 2
+08/08/2016 22:56:16: 地区 Dir: 10 X: 3 Y: 2
+08/08/2016 22:56:16: 地区 Dir: 4 X: 3 Y: 3
+08/08/2016 22:56:16: 地区 Dir: 4 X: 3 Y: 4
+08/08/2016 22:56:16: 地区 Dir: 4 X: 3 Y: 5
+08/08/2016 22:56:17: 地区 Dir: 10 X: 4 Y: 5
+08/08/2016 22:56:17: 地区 Dir: 10 X: 5 Y: 5
+08/08/2016 22:56:17: 地区 Dir: 10 X: 6 Y: 5
+08/08/2016 22:56:17: 地区 Dir: 10 X: 7 Y: 5
+08/08/2016 22:56:17: 地区 Dir: 10 X: 8 Y: 5
+08/08/2016 22:56:18: 地区 Dir: 10 X: 9 Y: 5
+08/08/2016 22:56:18: 地区 Dir: 10 X: 10 Y: 5
+08/08/2016 22:56:18: 地区 Dir: 4 X: 10 Y: 6
+08/08/2016 22:56:18: 地区 Dir: 4 X: 10 Y: 7
+08/08/2016 22:56:18: 地区 Dir: 4 X: 10 Y: 8
+08/08/2016 22:56:19: 地区 Dir: 4 X: 10 Y: 9
+08/08/2016 22:56:19: 地区 Dir: 10 X: 11 Y: 9
+08/08/2016 22:56:20: 地区 Dir: 4 X: 11 Y: 10
+08/08/2016 22:56:20: 地区 Dir: 4 X: 11 Y: 11
+08/08/2016 22:56:20: 地区 Dir: 10 X: 12 Y: 11
+08/08/2016 22:56:20: 地区 Dir: 10 X: 13 Y: 11
+08/08/2016 22:56:21: 地区 Dir: 10 X: 14 Y: 11
+08/08/2016 22:56:21: 地区 Dir: 10 X: 15 Y: 11
+08/08/2016 22:56:21: 地区 Dir: 10 X: 16 Y: 11
+08/08/2016 22:56:21: 地区 Dir: 4 X: 16 Y: 12
+08/08/2016 22:56:21: 地区 Dir: 4 X: 16 Y: 13
+08/08/2016 22:56:21: 地区 Dir: 4 X: 16 Y: 14
+08/08/2016 22:56:22: 地区 Dir: 4 X: 16 Y: 15
+08/08/2016 22:56:22: 地区 Dir: 10 X: 17 Y: 15
+08/08/2016 22:56:22: 地区 Dir: 10 X: 18 Y: 15
+08/08/2016 22:56:22: 地区 Dir: 10 X: 19 Y: 15
+08/08/2016 22:56:22: 地区 Dir: 4 X: 19 Y: 16
+08/08/2016 22:56:23: 地区 Dir: 4 X: 19 Y: 17
+08/08/2016 22:56:23: 地区 Dir: 4 X: 19 Y: 18
+08/08/2016 22:56:23: 地区 Dir: 4 X: 19 Y: 19
+08/08/2016 22:56:23: 地区 Dir: 4 X: 19 Y: 20
+08/08/2016 22:56:50: ID: 3 地区 Status changed to disconnected: 127.0.0.1

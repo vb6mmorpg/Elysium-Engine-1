@@ -14,7 +14,7 @@ namespace GameServer.Network {
         /// </summary>
         /// <param name="index"></param>
         public static void NeedHexID(NetConnection connection) {
-            var buffer = GameServerNetwork.sSock.CreateMessage(4);
+            var buffer = GameServerNetwork.Socket.CreateMessage(4);
             buffer.Write((int)PacketList.GameServer_Client_NeedHexID);
             GameServerNetwork.SendDataTo(connection, buffer, NetDeliveryMethod.ReliableOrdered);
         }
@@ -25,13 +25,13 @@ namespace GameServer.Network {
         /// <param name="index"></param>
         /// <param name="value"></param>
         public static void Message(string hexID, int value) {
-            var buffer = GameServerNetwork.sSock.CreateMessage(8);
+            var buffer = GameServerNetwork.Socket.CreateMessage(8);
             buffer.Write(value);
             GameServerNetwork.SendDataTo(hexID, buffer, NetDeliveryMethod.ReliableOrdered);
         }
 
         public static void Message(NetConnection connection, int value) {
-            var buffer = GameServerNetwork.sSock.CreateMessage(4);
+            var buffer = GameServerNetwork.Socket.CreateMessage(4);
             buffer.Write(value);
             GameServerNetwork.SendDataTo(connection, buffer, NetDeliveryMethod.ReliableOrdered);
         }
@@ -42,7 +42,7 @@ namespace GameServer.Network {
         /// <param name="index"></param>
         /// <param name="value"></param>
         public static void GameState(string hexID, int value) {
-            var buffer = GameServerNetwork.sSock.CreateMessage(8);
+            var buffer = GameServerNetwork.Socket.CreateMessage(8);
             buffer.Write((int)PacketList.ChangeGameState);
             buffer.Write(value);
             GameServerNetwork.SendDataTo(hexID, buffer, NetDeliveryMethod.ReliableOrdered);
@@ -59,7 +59,7 @@ namespace GameServer.Network {
 
             var gData = Guild.FindGuildByID(pData.GuildID);
 
-            var buffer = GameServerNetwork.sSock.CreateMessage();
+            var buffer = GameServerNetwork.Socket.CreateMessage();
             buffer.Write((int)PacketList.WorldServer_Client_GuildInfo);
             buffer.Write(gData.OwnerName);
             buffer.Write(gData.Name);
@@ -81,7 +81,7 @@ namespace GameServer.Network {
 
             var gData = Guild.FindGuildByID(pData.GuildID);
 
-            var buffer = GameServerNetwork.sSock.CreateMessage();
+            var buffer = GameServerNetwork.Socket.CreateMessage();
             buffer.Write((int)PacketList.WorldServer_Client_GuildMemberInfo);
 
             buffer.Write(gData.Member.Count - 1);
@@ -91,23 +91,6 @@ namespace GameServer.Network {
                 buffer.Write(mData.SelfIntro);
                 buffer.Write(mData.Status);
             }
-
-            GameServerNetwork.SendDataTo(hexID, buffer, NetDeliveryMethod.ReliableOrdered);
-        }
-
-        public static void SendPlayerData(string hexID) {
-            var pData = Authentication.FindByHexID(hexID);
-
-            var buffer = GameServerNetwork.sSock.CreateMessage();
-            buffer.Write((int)PacketList.GameServer_Client_PlayerData);
-            buffer.Write(pData.CharacterName);
-            buffer.Write(Guild.FindGuildByID(pData.GuildID)?.Name ?? string.Empty);
-            buffer.Write(pData.Sprite);
-            buffer.Write(pData.Level);
-            buffer.Write(pData.Exp);
-            buffer.Write(pData.Direction);
-            buffer.Write(pData.PosX);
-            buffer.Write(pData.PosY);
 
             GameServerNetwork.SendDataTo(hexID, buffer, NetDeliveryMethod.ReliableOrdered);
         }

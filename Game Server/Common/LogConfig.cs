@@ -7,15 +7,15 @@ namespace GameServer.Common {
         // Main Form
         public static frmMain mainForm;
 
-        static string fileLog = DateTime.Today.Year + " - " + DateTime.Today.Month + " - " + DateTime.Today.Day + ".txt";
-        public static FileStream pcFile;
-        public static StreamWriter writer;
+        static string fileLog = $"{DateTime.Today.Year} - {DateTime.Today.Month} - {DateTime.Today.Day}.txt";
+        static FileStream pcFile;
+        static StreamWriter writer;
 
         /// <summary>
         /// Abre o arquivo de logs.
         /// </summary>
         public static void OpenFileLog() {
-            pcFile = new FileStream(Environment.CurrentDirectory + @"\Log\" + fileLog, FileMode.Append, FileAccess.Write);
+            pcFile = new FileStream($"{Environment.CurrentDirectory}\\Log\\{fileLog}", FileMode.Append, FileAccess.Write);
             writer = new StreamWriter(pcFile);
         }
 
@@ -32,7 +32,7 @@ namespace GameServer.Common {
         /// </summary>
         /// <param name="text"></param>
         public static void WriteLog(string text) {
-            writer.WriteLine(DateTime.Now + ": " + text);
+            writer.WriteLine($"{DateTime.Now}: {text}");
             writer.Flush();
         }
 
@@ -41,13 +41,11 @@ namespace GameServer.Common {
             mainForm.general_textbox.SelectionLength = 0;
 
             mainForm.general_textbox.SelectionColor = color;
-            mainForm.general_textbox.AppendText(DateTime.Now + ": " + log + Environment.NewLine);
+            mainForm.general_textbox.AppendText($"{DateTime.Now}: {log}{Environment.NewLine}");
             mainForm.general_textbox.SelectionColor = color;
 
             mainForm.general_textbox.ScrollToCaret();
-
-            writer.WriteLine(DateTime.Now + ": " + log);
-            writer.Flush();
+            WriteLog(log);
         }
     }
 }

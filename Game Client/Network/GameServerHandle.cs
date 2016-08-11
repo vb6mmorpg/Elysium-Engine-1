@@ -57,25 +57,7 @@ namespace Elysium_Diamond.Network
         public static void PlayerMapMove(NetIncomingMessage data) {
             var pData = PlayerList.FindByID(data.ReadInt32());
             
-            pData.Dir = (EngineCharacter.Direction)data.ReadInt32();
-
-            if (pData.Dir == EngineCharacter.Direction.Up) {
-                pData.OffSetY =+ 16;
-            }
-
-            if (pData.Dir == EngineCharacter.Direction.Down) {
-                pData.OffSetY =+ -16;
-            }
-
-            if (pData.Dir == EngineCharacter.Direction.Left) {
-                pData.OffSetX =+ 16;
-            }
-
-            if (pData.Dir == EngineCharacter.Direction.Right) {
-                pData.OffSetX =+ -16;
-            }
-
-            pData.Move = true;
+            pData.DirectionList.Enqueue(data.ReadInt32());
         }
 
       

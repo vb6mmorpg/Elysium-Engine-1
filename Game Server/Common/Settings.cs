@@ -2,7 +2,7 @@
     public class Settings {
         public const int MAX_SERVER = 5;
 
-        public const string FileConfig = "ServerConfig.txt";
+        public const string FILE_CONFIG = "ServerConfig.txt";
 
         public static bool IsTestServer { get; set; }
         /// <summary>
@@ -77,9 +77,5 @@
         public static bool Logs { get; set; }
 
         public static int Sleep { get; set; }
-
-        public static int ResultGuild { get; set; }
-        public static int ResultMember { get; set; }
-
     }
 }

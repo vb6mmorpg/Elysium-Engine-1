@@ -1,0 +1,31 @@
+09/08/2016 00:09:27: Connected World Server #火星
+09/08/2016 00:14:21: User Login: akaruz 127.0.0.1
+09/08/2016 00:14:22: World Server Login Attempt: akaruz 127.0.0.1
+09/08/2016 00:15:17: User Login: dragonick 127.0.0.1
+09/08/2016 00:15:18: World Server Login Attempt: dragonick 127.0.0.1
+09/08/2016 00:16:56: Status changed to disconnected: 1 akaruz 127.0.0.1
+09/08/2016 00:16:58: Status changed to disconnected: 2 dragonick 127.0.0.1
+09/08/2016 00:38:20: Status changed to disconnected: 0  127.0.0.1
+09/08/2016 00:38:29: User Login: akaruz 127.0.0.1
+09/08/2016 00:38:30: World Server Login Attempt: akaruz 127.0.0.1
+09/08/2016 00:39:03: User Login: dragonick 127.0.0.1
+09/08/2016 00:39:04: World Server Login Attempt: dragonick 127.0.0.1
+09/08/2016 00:39:50: Status changed to disconnected: 2 dragonick 127.0.0.1
+09/08/2016 00:39:51: Status changed to disconnected: 1 akaruz 127.0.0.1
+09/08/2016 00:41:50: User Login: akaruz 127.0.0.1
+09/08/2016 00:41:51: World Server Login Attempt: akaruz 127.0.0.1
+09/08/2016 00:43:36: Status changed to disconnected: 0  127.0.0.1
+09/08/2016 00:43:36: Status changed to disconnected: 1 akaruz 127.0.0.1
+09/08/2016 00:44:01: User Login: akaruz 127.0.0.1
+09/08/2016 00:44:02: World Server Login Attempt: akaruz 127.0.0.1
+09/08/2016 00:44:56: User Login: dragonick 127.0.0.1
+09/08/2016 00:44:57: World Server Login Attempt: dragonick 127.0.0.1
+09/08/2016 00:46:10: Status changed to disconnected: 1 akaruz 127.0.0.1
+09/08/2016 00:46:12: Status changed to disconnected: 2 dragonick 127.0.0.1
+09/08/2016 19:52:04: Connected World Server #火星
+09/08/2016 19:52:25: User Login: akaruz 127.0.0.1
+09/08/2016 19:52:26: World Server Login Attempt: akaruz 127.0.0.1
+09/08/2016 19:54:58: Status changed to disconnected: 1 akaruz 127.0.0.1
+09/08/2016 19:59:09: User Login: akaruz 127.0.0.1
+09/08/2016 19:59:12: World Server Login Attempt: akaruz 127.0.0.1
+09/08/2016 20:03:43: Status changed to disconnected: 1 akaruz 127.0.0.1

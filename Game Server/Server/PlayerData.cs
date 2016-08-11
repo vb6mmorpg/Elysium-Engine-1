@@ -2,7 +2,7 @@
 using GameServer.Common;
 
 namespace GameServer.Server {   
-    public class PlayerData : Stat {
+    public partial class PlayerData : Stat {
         public NetConnection Connection { get; set; }
         public string IP { get; set; }
         public string HexID { get; set; }
@@ -16,13 +16,13 @@ namespace GameServer.Server {
         public int AccessLevel { get; set; }
         public string Pin { get; set; }
         public int GuildID { get; set; }
+        public string GuildName { get; set; } = string.Empty;
         public int ClasseID { get; set; }
         public int Sprite { get; set; }
         public int MaxHP { get; set; }
         public int MaxMP { get; set; }
         public int MaxSP { get; set; }
         public long Exp { get; set; }
-        public int StatPoint { get; set; }
         public int WorldID { get; set; }
         public int RegionID { get; set; }
         public int Direction { get; set; }

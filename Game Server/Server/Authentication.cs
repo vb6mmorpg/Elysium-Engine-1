@@ -42,12 +42,7 @@ namespace GameServer.Server {
 
             HexID.Add(hexID);
 
-            LogConfig.WriteLog("Data From World Server ID: " + hexID.AccountID + 
-                " Account: " + hexID.Account + 
-                " Char ID: " + hexID.CharacterID + 
-                " Slot: " + hexID.CharSlot + " " + 
-                hexID.HexID, 
-                System.Drawing.Color.Black);
+            LogConfig.WriteLog($"Data From World Server ID: {hexID.AccountID} Account: {hexID.Account} Char ID: {hexID.CharacterID} Slot: {hexID.CharSlot} {hexID.HexID}", System.Drawing.Color.Black);
         }
 
         /// <summary>
@@ -59,7 +54,7 @@ namespace GameServer.Server {
             PlayerData pData = FindByConnection(connection);
             pData.HexID = hexID;
 
-            LogConfig.WriteLog("Received From Client: " + hexID, System.Drawing.Color.Black);
+            LogConfig.WriteLog($"Received From Client: {hexID}", System.Drawing.Color.Black);
         }
 
         /// <summary>
@@ -116,15 +111,22 @@ namespace GameServer.Server {
 
                 // Carrega dados do personagem
                 Character_DB.Load(pData.HexID, pData.CharSlot);
-                LogConfig.WriteLog("Player Found ID: " + pData.CharacterID + " Name: " + pData.CharacterName, System.Drawing.Color.Black);
+                LogConfig.WriteLog($"Player Found ID: {pData.CharacterID} Name: {pData.CharacterName}", System.Drawing.Color.Black);
 
                 //Create Character
                 CharacterLogic.UpdateCharacterStats(pData.AccountID);
 
+                //atualiza os dados
+                pData.GuildName = GameGuild.Guild.FindGuildByID(pData.GuildID)?.Name;
+        
                 //Aceita a conexão
                 GameServerPacket.Message(pData.Connection, (int)PacketList.AcceptedConnection);
+
                 //Envia dados para o jogador
-                GameServerPacket.SendPlayerData(pData.HexID);
+                pData.SendData();
+        
+                GameServerPacket.SendGuild(pData.HexID);
+                GameServerPacket.SendMember(pData.HexID);
 
                 // adiciona o jogador ao mapa
                 MapGeneral.Map.PlayerID.Add(pData.AccountID);
@@ -152,7 +154,7 @@ namespace GameServer.Server {
         public static void VerifyHexID() {
             foreach (HexaID hexID in HexID) {
                 if (Environment.TickCount > hexID.Time + 45000) {
-                    LogConfig.WriteLog("Removed HexID: " + hexID.HexID + " " + hexID.Account, System.Drawing.Color.Coral);
+                    LogConfig.WriteLog($"Removed HexID: {hexID.HexID} {hexID.Account}", System.Drawing.Color.Coral);
                     HexID.Remove(hexID); 
                 }
             }
