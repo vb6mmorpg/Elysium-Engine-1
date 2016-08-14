@@ -1,16 +1,16 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : local
-Source Server Version : 50626
+Source Server         : Connection
+Source Server Version : 50617
 Source Host           : localhost:3306
 Source Database       : elysium_gs
 
 Target Server Type    : MYSQL
-Target Server Version : 50626
+Target Server Version : 50617
 File Encoding         : 65001
 
-Date: 2016-04-21 16:45:23
+Date: 2016-08-14 08:41:53
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -517,7 +517,7 @@ CREATE TABLE `guilds` (
 -- ----------------------------
 -- Records of guilds
 -- ----------------------------
-INSERT INTO `guilds` VALUES ('1', '109', 'カロンネ', 'H.O.T.Aw', '1', '7', '768', '1', '日本語で一つ目のメッセージテスト');
+INSERT INTO `guilds` VALUES ('1', '3', '地区', 'H.O.T.Aw', '1', '7', '768', '1', '日本語で一つ目のメッセージテスト');
 INSERT INTO `guilds` VALUES ('2', '110', '나무', 'B地区', '1', '7', '768', '1', '日本語で二つ目のメッセージテスト');
 INSERT INTO `guilds` VALUES ('14', '30', '水色', '銀魂', '1', '7', '768', '1', '日本語で三つ目のメッセージテスト');
 
@@ -623,7 +623,8 @@ CREATE TABLE `guilds_member` (
 -- ----------------------------
 -- Records of guilds_member
 -- ----------------------------
-INSERT INTO `guilds_member` VALUES ('14', '16', 'Isabele', '1, 1, 1, 1', 'Seu pai', '0', '1');
+INSERT INTO `guilds_member` VALUES ('1', '1', 'Joanlac', '1, 1, 1, 1', 'Seu pai', '0', '1');
+INSERT INTO `guilds_member` VALUES ('1', '3', '地区', '1, 1, 1, 1', 'sou guei', '0', '1');
 INSERT INTO `guilds_member` VALUES ('14', '30', '水色', '1, 1, 1, 1', 'Mensagem 3', '0', '1');
 
 -- ----------------------------
@@ -782,18 +783,20 @@ CREATE TABLE `players` (
   `statpoints` int(10) DEFAULT '0',
   `world_id` int(10) DEFAULT '0',
   `region_id` int(10) DEFAULT '0',
+  `direction` mediumint(3) DEFAULT '1',
   `posx` mediumint(5) DEFAULT '0',
   `posy` mediumint(5) DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of players
 -- ----------------------------
-INSERT INTO `players` VALUES ('1', '1', '0', '0', '0', 'Joanlac', '0', '6', '160', '80', '20', '1', '0', '10', '5', '5', '8', '1', '0', '0', '1', '0', '5', '0', '0', '0', '0');
-INSERT INTO `players` VALUES ('3', '1', '0', '0', '2', 'Caronne', '0', '11', '160', '80', '20', '1', '0', '10', '5', '5', '8', '1', '0', '0', '1', '0', '5', '0', '0', '0', '0');
-INSERT INTO `players` VALUES ('6', '1', '0', '0', '3', 'DragonicK', '0', '12', '160', '80', '20', '1', '0', '10', '5', '5', '8', '1', '0', '0', '1', '0', '5', '0', '0', '0', '0');
-INSERT INTO `players` VALUES ('9', '1', '1', '0', '1', 'Ingsan', '0', '11', '1500', '1500', '1500', '1', '0', '20', '20', '20', '20', '20', '20', '20', '20', '20', '20', '0', '0', '0', '0');
+INSERT INTO `players` VALUES ('1', '1', '0', '1', '0', 'Joanlac', '0', '6', '160', '80', '20', '1', '0', '10', '5', '5', '8', '1', '0', '0', '1', '0', '5', '0', '0', '4', '29', '18');
+INSERT INTO `players` VALUES ('3', '1', '0', '1', '2', '地区', '0', '11', '160', '80', '20', '1', '0', '10', '5', '5', '8', '1', '0', '0', '1', '0', '5', '0', '0', '4', '19', '20');
+INSERT INTO `players` VALUES ('6', '1', '0', '0', '3', 'DragonicK', '0', '12', '160', '80', '20', '1', '0', '10', '5', '5', '8', '1', '0', '0', '1', '0', '5', '0', '0', '1', '0', '0');
+INSERT INTO `players` VALUES ('9', '1', '1', '0', '1', 'Ingsan', '0', '11', '1500', '1500', '1500', '1', '0', '20', '20', '20', '20', '20', '20', '20', '20', '20', '20', '0', '0', '10', '34', '28');
+INSERT INTO `players` VALUES ('10', '2', '0', '0', '0', 'sacizenta', '0', '15', '1546', '1546', '1546', '1', '0', '20', '20', '20', '20', '20', '20', '20', '20', '20', '20', '0', '0', '4', '7', '7');
 
 -- ----------------------------
 -- Table structure for player_inventory
