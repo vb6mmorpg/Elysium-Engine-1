@@ -26,12 +26,12 @@ namespace WorldServer.Server {
         /// <summary>
         /// HexID recebido pelo login server.
         /// </summary>
-        public static HashSet<HexaID> HexID { get; set; }
+        public static HashSet<HexaID> HexID { get; set; } 
 
         /// <summary>
         /// Conexões e jogadores.
         /// </summary>
-        public static HashSet<PlayerData> Player { get; set; }
+        public static HashSet<PlayerData> Player { get; set; } 
 
         /// <summary>
         /// Adiciona os dados recebido do login server.
@@ -164,8 +164,6 @@ namespace WorldServer.Server {
         /// <param name="hexID"></param>
         /// <returns></returns>
         public static PlayerData FindByHexID(string hexID) {
-            if (Player.Count == 0) { return null; }
-
             var find_hexID = from pData in Player
                              where pData.HexID.CompareTo(hexID) == 0
                              select pData;
@@ -179,8 +177,6 @@ namespace WorldServer.Server {
         /// <param name="account"></param>
         /// <returns></returns>
         public static PlayerData FindByAccount(string account) {
-            if (Player.Count == 0) { return null; }
-
             var find_account = from pData in Player
                                where pData.Account.CompareTo(account) == 0
                                select pData;
@@ -194,7 +190,6 @@ namespace WorldServer.Server {
         /// <param name="connection"></param>
         /// <returns></returns>
         public static PlayerData FindByConnection(NetConnection connection) {
-            if (Player.Count == 0) { return null; }
             if (Equals(null, connection)) { return null; }
 
             var find_connection = from pData in Player
@@ -210,8 +205,6 @@ namespace WorldServer.Server {
         /// <param name="account"></param>
         /// <returns></returns>
         public static bool IsConnected(string account) {
-            if (Player.Count == 0) { return false; }
-
             var find_account = from pData in Player
                                where pData.Account.CompareTo(account) == 0
                                select pData;

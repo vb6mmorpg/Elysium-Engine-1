@@ -16,11 +16,6 @@ namespace LoginServer.Common {
         public static string Discovery { get; set; }
 
         /// <summary>
-        /// IP de Login.
-        /// </summary>
-        public static string IP { get; set; }
-
-        /// <summary>
         /// Porta de Login.
         /// </summary>
         public static int Port { get; set; }
@@ -29,6 +24,11 @@ namespace LoginServer.Common {
         /// Quantidade máxima de conexões.
         /// </summary>
         public static int MaxConnection { get; set; }
+
+        /// <summary>
+        /// Tempo limite de conexão.
+        /// </summary>
+        public static int ConnectionTimeOut { get; set; }
 
         /// <summary>
         /// Ativa ou desativa o sistema de logs.

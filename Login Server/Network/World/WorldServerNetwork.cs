@@ -32,7 +32,7 @@ namespace LoginServer.Network {
         /// Faz a conexão com WorldServer.
         /// </summary>
         public static void WorldServerConnect() {
-            // Faz a descoberta de rede a cada 10 segundos.
+            // faz a descoberta de rede a cada 10 segundos.
             if (Environment.TickCount >= (tick + 10000)) {
                 
                 tick = Environment.TickCount;
@@ -41,7 +41,7 @@ namespace LoginServer.Network {
                 for (var n = 0; n < Settings.MAX_SERVER; n++) {
                     WorldServer[n].DiscoverServer();
 
-                    //Verifica se há algum servidor online
+                    // verifica se há algum servidor online
                     if (WorldServer[n].Connected()) {
                         Settings.Server[n].Online = true;
                         counter++;

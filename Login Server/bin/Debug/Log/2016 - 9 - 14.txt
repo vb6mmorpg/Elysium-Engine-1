@@ -1,0 +1,42 @@
+09/14/2016 08:49:03: Status changed to disconnected: 0  127.0.0.1
+09/14/2016 08:49:51: User Login: akaruz 127.0.0.1
+09/14/2016 09:26:40: Connected World Server #火星
+09/14/2016 09:27:41: User Login: akaruz 127.0.0.1
+09/14/2016 09:27:43: World Server Login Attempt: akaruz 127.0.0.1
+09/14/2016 09:28:24: Status changed to disconnected: 1 akaruz 127.0.0.1
+09/14/2016 09:35:30: User Login: akaruz 127.0.0.1
+09/14/2016 09:35:32: World Server Login Attempt: akaruz 127.0.0.1
+09/14/2016 09:36:01: Status changed to disconnected: 1 akaruz 127.0.0.1
+09/14/2016 09:39:38: User Login: akaruz 127.0.0.1
+09/14/2016 09:39:39: World Server Login Attempt: akaruz 127.0.0.1
+09/14/2016 09:40:08: Status changed to disconnected: 1 akaruz 127.0.0.1
+09/14/2016 09:41:38: Status changed to disconnected: 0  127.0.0.1
+09/14/2016 09:43:52: Status changed to disconnected: 0  127.0.0.1
+09/14/2016 09:44:45: Status changed to disconnected: 0  127.0.0.1
+09/14/2016 10:10:57: User Login: akaruz 127.0.0.1
+09/14/2016 10:10:58: World Server Login Attempt: akaruz 127.0.0.1
+09/14/2016 10:11:41: Status changed to disconnected: 1 akaruz 127.0.0.1
+09/14/2016 10:55:06: Connected World Server #火星
+09/14/2016 10:55:09: User Login: akaruz 127.0.0.1
+09/14/2016 10:55:11: World Server Login Attempt: akaruz 127.0.0.1
+09/14/2016 10:55:51: Status changed to disconnected: 1 akaruz 127.0.0.1
+09/14/2016 10:58:03: Status changed to disconnected: 0  127.0.0.1
+09/14/2016 10:58:11: Status changed to disconnected: 0  127.0.0.1
+09/14/2016 10:59:17: Status changed to disconnected: 0  127.0.0.1
+09/14/2016 11:00:10: Status changed to disconnected: 0  127.0.0.1
+09/14/2016 11:01:00: Status changed to disconnected: 0  127.0.0.1
+09/14/2016 11:02:51: User Login: akaruz 127.0.0.1
+09/14/2016 11:03:19: Status changed to disconnected: 0  127.0.0.1
+09/14/2016 11:05:01: Status changed to disconnected: 0  127.0.0.1
+09/14/2016 11:05:18: User Login: akaruz 127.0.0.1
+09/14/2016 11:05:19: World Server Login Attempt: akaruz 127.0.0.1
+09/14/2016 11:06:01: Status changed to disconnected: 1 akaruz 127.0.0.1
+09/14/2016 11:07:51: User Login: akaruz 127.0.0.1
+09/14/2016 11:07:52: World Server Login Attempt: akaruz 127.0.0.1
+09/14/2016 11:08:23: Status changed to disconnected: 1 akaruz 127.0.0.1
+09/14/2016 11:09:48: User Login: akaruz 127.0.0.1
+09/14/2016 11:09:49: World Server Login Attempt: akaruz 127.0.0.1
+09/14/2016 11:10:48: Status changed to disconnected: 0  127.0.0.1
+09/14/2016 11:11:13: Status changed to disconnected: 0  127.0.0.1
+09/14/2016 11:11:53: Status changed to disconnected: 0  127.0.0.1
+09/14/2016 11:12:21: Status changed to disconnected: 0  127.0.0.1

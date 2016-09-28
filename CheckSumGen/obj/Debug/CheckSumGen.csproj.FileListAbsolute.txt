@@ -1,0 +1,8 @@
+C:\Users\DragonicK\Desktop\CheckSumGen\obj\Debug\CheckSumGen.csprojResolveAssemblyReference.cache
+C:\Users\DragonicK\Desktop\CheckSumGen\obj\Debug\CheckSumGen.Form1.resources
+C:\Users\DragonicK\Desktop\CheckSumGen\obj\Debug\CheckSumGen.Properties.Resources.resources
+C:\Users\DragonicK\Desktop\CheckSumGen\obj\Debug\CheckSumGen.csproj.GenerateResource.Cache
+C:\Users\DragonicK\Desktop\CheckSumGen\bin\Debug\CheckSumGen.exe
+C:\Users\DragonicK\Desktop\CheckSumGen\bin\Debug\CheckSumGen.pdb
+C:\Users\DragonicK\Desktop\CheckSumGen\obj\Debug\CheckSumGen.exe
+C:\Users\DragonicK\Desktop\CheckSumGen\obj\Debug\CheckSumGen.pdb

@@ -8,10 +8,6 @@ namespace WorldServer.Common {
         /// Quantidade de servidores. 
         /// </summary>
         public const int MAX_SERVER = 5;
-        /// <summary>
-        /// Chave para criptografia.
-        /// </summary>
-        public static string Key { get; set; }
 
         /// <summary>
         /// Descoberta de conexão.
@@ -24,14 +20,14 @@ namespace WorldServer.Common {
         public static string WorldServerName { get; set; }
 
         /// <summary>
-        /// IP de World.
+        /// Porta de World.
         /// </summary>
-        public static string IP { get; set; }
+        public static int Port { get; set; }
 
         /// <summary>
         /// Porta de World.
         /// </summary>
-        public static int Port { get; set; }
+        public static int ConnectionTimeOut { get; set; }
 
         /// <summary>
         /// Quantidade máxima de conexões.

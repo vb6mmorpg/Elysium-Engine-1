@@ -14,7 +14,6 @@ D:\Programing Files\Elysium Diamond\World Server\bin\Debug\WorldServer.exe
 D:\Programing Files\Elysium Diamond\World Server\bin\Debug\WorldServer.pdb
 D:\Programing Files\Elysium Diamond\World Server\bin\Debug\Lidgren.Network.dll
 D:\Programing Files\Elysium Diamond\World Server\bin\Debug\MySql.Data.dll
-D:\Programing Files\Elysium Diamond\World Server\obj\Debug\WorldServer.csprojResolveAssemblyReference.cache
 D:\Programing Files\Elysium Diamond\World Server\obj\Debug\WorldServer.frmMain.resources
 D:\Programing Files\Elysium Diamond\World Server\obj\Debug\WorldServer.Properties.Resources.resources
 D:\Programing Files\Elysium Diamond\World Server\obj\Debug\WorldServer.csproj.GenerateResource.Cache
@@ -32,3 +31,4 @@ D:\Elysium Diamond\World Server\obj\Debug\WorldServer.csprojResolveAssemblyRefer
 D:\Elysium Diamond\World Server\obj\Debug\WorldServer.frmMain.resources
 D:\Elysium Diamond\World Server\obj\Debug\WorldServer.Properties.Resources.resources
 D:\Elysium Diamond\World Server\obj\Debug\WorldServer.csproj.GenerateResource.Cache
+D:\Programing Files\Elysium Diamond\World Server\obj\Debug\WorldServer.csprojResolveAssemblyReference.cache

@@ -1,0 +1,25 @@
+2016/09/01 13:42:17: Carregando dados de mysql.
+2016/09/01 13:42:17: ID: #artemis#
+2016/09/01 13:42:17: Name: Canal 1
+2016/09/01 13:42:17: Discovery: Elysium Diamond #1.0.0
+2016/09/01 13:42:17: IP: 127.0.0.1
+2016/09/01 13:42:17: Port: 10120
+2016/09/01 13:42:17: MaximumConnections: 2000
+2016/09/01 13:42:17: Logs: True
+2016/09/01 13:42:17: ClientSerial: #elysium#
+2016/09/01 13:42:17: Sleep: 1
+2016/09/01 13:42:17: TestServer: False
+2016/09/01 13:42:17: WorldServer 1 ID: Artemis
+2016/09/01 13:42:17: WorldServer 2 ID: 
+2016/09/01 13:42:17: WorldServer 3 ID: 
+2016/09/01 13:42:17: WorldServer 4 ID: 
+2016/09/01 13:42:17: WorldServer 5 ID: 
+2016/09/01 13:42:24: Connectado ao banco de dados
+2016/09/01 13:42:24: Carregando experiência
+2016/09/01 13:42:24: Exp Máximo: 121 22353256174
+2016/09/01 13:42:24: Carregando guilds.
+2016/09/01 13:42:25: Carregando membros.
+2016/09/01 13:42:25: Carregando classes
+2016/09/01 13:42:25: Carregando NPC
+2016/09/01 13:42:25: Servidor iniciado
+2016/09/01 13:42:34: Status changed to connected: 127.0.0.1

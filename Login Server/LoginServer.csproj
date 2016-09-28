@@ -56,6 +56,10 @@
     <StartupObject>LoginServer.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="KopiLua, Version=1.3.5449.31779, Culture=neutral, PublicKeyToken=e25f4af1e4f7b31c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\KopiLua.dll</HintPath>
+    </Reference>
     <Reference Include="Lidgren.Network, Version=2012.1.7.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Release\Lidgren.Network.dll</HintPath>
@@ -63,6 +67,10 @@
     <Reference Include="MySql.Data, Version=1.0.10.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Release\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="NLua, Version=1.3.2.0, Culture=neutral, PublicKeyToken=8df2ab518030ea95, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\NLua.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -77,6 +85,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common\Configuration.cs" />
+    <Compile Include="LuaScript\LuaConfig.cs" />
+    <Compile Include="Server\CheckSum.cs" />
     <Compile Include="Server\PlayerService.cs" />
     <Compile Include="Enumeration\PacketList.cs" />
     <Compile Include="Common\ServerData.cs" />

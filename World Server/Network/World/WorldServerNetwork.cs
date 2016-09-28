@@ -20,7 +20,7 @@ namespace WorldServer.Network {
             config.AutoFlushSendQueue = true;
             config.AcceptIncomingConnections = true;
             config.MaximumConnections = Settings.MaxConnection;
-            config.ConnectionTimeout = 25.0f;
+            config.ConnectionTimeout = (float)Settings.ConnectionTimeOut;
             config.PingInterval = 2.0f;
             config.UseMessageRecycling = true;
             config.DisableMessageType(NetIncomingMessageType.ConnectionApproval | NetIncomingMessageType.UnconnectedData | NetIncomingMessageType.VerboseDebugMessage | NetIncomingMessageType.ConnectionLatencyUpdated);
@@ -69,7 +69,7 @@ namespace WorldServer.Network {
                         if (status == NetConnectionStatus.Disconnected) {
                             pData = Authentication.FindByConnection(msg.SenderConnection);
 
-                            LogConfig.WriteLog($"Status changed to disconnected: {pData.AccountID} {pData?.Account} {msg.SenderEndPoint.Address}", Color.Coral);
+                            LogConfig.WriteLog($"Status changed to disconnected: {pData.AccountID} {pData?.Account} {msg.SenderEndPoint.Address} {pData.HexID}", Color.Coral);
                
                             pData.Clear();
                             Authentication.Player.Remove(pData);

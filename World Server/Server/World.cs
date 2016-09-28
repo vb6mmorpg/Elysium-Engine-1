@@ -22,7 +22,7 @@ namespace WorldServer.Server {
                 Authentication.VerifyPlayerHexID();
             }
             catch (Exception ex) {
-                throw new Exception("Ocorreu um erro", ex);
+                throw new Exception($"Ocorreu um erro: {ex.Message}", ex);
             }
         }
     }

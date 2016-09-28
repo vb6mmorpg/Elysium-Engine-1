@@ -1,6 +1,4 @@
-﻿using System;
-using SD = System.Drawing;
-using SharpDX;
+﻿using SharpDX;
 using SharpDX.Direct3D9;
 using Color = SharpDX.Color;
 

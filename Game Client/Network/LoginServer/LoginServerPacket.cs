@@ -11,6 +11,7 @@ namespace Elysium_Diamond.Network {
             var buffer = LoginServerNetwork.Instance.TCPClient.CreateMessage();
             buffer.Write((int)PacketList.Client_LoginServer_Login);
             buffer.Write(Settings.Version);
+            buffer.Write(Settings.CheckSumClient);
             buffer.Write(username);
             buffer.Write(password);
             LoginServerNetwork.Instance.SendData(buffer);

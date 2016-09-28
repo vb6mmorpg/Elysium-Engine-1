@@ -17,14 +17,20 @@ namespace LoginServer.Server {
                 return;
             }
 
-            //Verifica a versão do jogo
+            //Verifica a versão do jogo; se invalido, envia mensagem de erro
             var version = data.ReadString();
-            //Quando 0, versão não especificada
-            const string NO_VERSION = "0";
-            if (Settings.Version.CompareTo(NO_VERSION) != 0 && Settings.Version.CompareTo(version) != 0) {
-                    LoginServerPacket.Message(hexID, (int)PacketList.InvalidVersion);
-                    return;
+            if (Settings.Version.CompareTo(version) != 0) {
+                LoginServerPacket.Message(hexID, (int)PacketList.InvalidVersion);
+                return;
             }
+
+            //verifica o checksum do cliente; se invalido, envia mensagem de erro
+            var checksum = data.ReadString();
+            if (CheckSum.Enabled)
+                if (!CheckSum.Compare(version, checksum)) {
+                    LoginServerPacket.Message(hexID, (int)PacketList.CantConnectNow);
+                    return;
+                }
 
             var pData = FindByHexID(hexID);
             pData.Username = data.ReadString().ToLower();     //lê o nome de usuário em uma variavel temporaria
@@ -42,7 +48,7 @@ namespace LoginServer.Server {
                 return;
             }
 
-            //Verifica se o usuário está ativo
+            //Verifica se o usuário está ativo, caso falso, envia mensagem de erro
             if (!Accounts_DB.IsActive(pData.Username)) { 
                 LoginServerPacket.Message(pData.HexID, (int)PacketList.LoginServer_Client_AccountDisabled);
                 return;
@@ -84,9 +90,9 @@ namespace LoginServer.Server {
 
                 //se achar o usuario conectado em algum lugar, muda result para true
                 for (var n = 0; n < Settings.MAX_SERVER; n++) {
-                    if (pData.WorldResult[index]) { result = true; }            
+                    if (pData.WorldResult[n]) { result = true; }
                 }
-                
+
                 //zera a contagem
                 pData.WorldResultCount = 0;
 
@@ -104,15 +110,15 @@ namespace LoginServer.Server {
             var pData = FindByUsername(username);
 
             //se nao achar em outro lugar, verifica no proprio login server
-            if (!result) {
+            if (!result) { //(se falso), check login server
                 //Verifica se o usuário já está conectado, caso verdadeiro, envia mensagem de erro
                 if (Authentication.IsConnected(pData.Username)) {
                     pData.LoginAttempt++;
                     TryingToAccess(pData);
                     return;
                 }
-            } 
-            else { 
+            }
+            else {
                 pData.LoginAttempt++;
                 TryingToAccess(pData);
                 return;
@@ -142,12 +148,12 @@ namespace LoginServer.Server {
             pData.Service.VerifyServices(pData.ID);
 
             Accounts_DB.UpdateDateLasteLogin(pData.Account);
-            Accounts_DB.UpdateCurrentIP(pData.Account, pData.IP);
+            Accounts_DB.UpdateCurrentIP(pData.Account, pData.IP); 
             Accounts_DB.UpdateLoggedIn(pData.Account, 1);  //1 = true
 
             //envia a lista de servidores e muda a tela no cliente
             LoginServerPacket.ServerList(pData.HexID);
-            LoginServerPacket.GameState(pData.HexID, 2); //tela 2
+            LoginServerPacket.GameState(pData.HexID, 2); //tela 2, lista de servidor
         }
 
         /// <summary>
@@ -168,23 +174,30 @@ namespace LoginServer.Server {
         /// </summary>
         /// <param name="pData"></param>
         public static void TryingToAccess(PlayerData pData) {
-            // se realizar mais que 2 tentativas de login, desconecta o usuário que já está logado e permite que o novo se conecte
-            if (pData.LoginAttempt > 2) {
+            const int MAX_ATTEMPT = 3;
+
+            // se realizar 3 tentativas de login, desconecta o usuário que já está logado e permite que o novo se conecte
+            if (pData.LoginAttempt >= MAX_ATTEMPT) {
 
                 //Desconecta o usuario em todos os servidores
-                WorldServerPacket.PlayerDisconnect(pData.Username);
-                //Desconecta o usuario no servidor de login (se houver)
+                WorldServerPacket.PlayerDisconnect(pData);
+
+                // ##################### MUDAR PARA WORLD SERVER #####################
+                //Desconecta o usuario no servidor de login (se houver) pelo cliente
                 LoginServerPacket.Message(Authentication.FindByAccount(pData.Username).HexID, (int)PacketList.Disconnect);
+                //######################################################################
 
-                //limpa os dados do usuario conectado da lista para o novo login
-                var playerData = Authentication.FindByAccount(pData.Username);
-                playerData.Clear();
+                //se conectado ao login server, limpa os dados do usuario conectado da lista para o novo login
+                if (Authentication.IsConnected(pData.Username)) {
+                    var playerData = Authentication.FindByAccount(pData.Username);
+                    playerData.Clear();
+                }                
 
-                // envia msg na terceira tentativa e limpa o contador
-                if (pData.LoginAttempt == 3) {
-                    pData.LoginAttempt = 0;
-                    LoginServerPacket.Message(pData.HexID, (int)PacketList.LoginServer_Client_AlreadyLoggedIn);
-                }
+                //reseta o contador
+                pData.LoginAttempt = 0;
+
+                // envia msg 
+                LoginServerPacket.Message(pData.HexID, (int)PacketList.LoginServer_Client_AlreadyLoggedIn);
             }
             else {
                 // Envia mensagem que o usuário já está conectado

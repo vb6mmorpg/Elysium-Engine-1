@@ -62,21 +62,21 @@ namespace Elysium_Diamond.DirectX
             Visible = false;
             Text = string.Empty;
             Transparency = 255;
-            Position = new Point(294, 15);
+            Position = new Point(272, 15);
             Enabled = true;
 
             MessageImage = new EngineObject();
-            MessageImage.Texture = EngineTexture.TextureFromFile(Settings.GamePath + @"\Data\Graphics\Window_Server_2.png", 450, 90);
-            MessageImage.Size = new Size2(450, 90);
-            MessageImage.SourceRect = new Rectangle(0, 0, 450, 90);
+            MessageImage.Texture = EngineTexture.TextureFromFile(Settings.GamePath + @"\Data\Graphics\msgbox.png", 480, 128);
+            MessageImage.Size = new Size2(480, 128);
+            MessageImage.SourceRect = new Rectangle(0, 0, 480, 120);
             MessageImage.Position = Position;
             MessageImage.Visible = true;
 
-            Button = new EngineButton(Language.Portuguese, Settings.GamePath, "OK", 103, 30);
-            Button.Position = new Point(Position.X + 173, Position.Y + 45);
-            Button.Size = new Size2(103, 30);
-            Button.BorderRect = new Rectangle(9, 2, 86, 26);
-            Button.SourceRect = new Rectangle(0, 0, 103, 30);
+            Button = new EngineButton(Language.Portuguese, Settings.GamePath, "ok", 128, 32);
+            Button.Position = new Point(Position.X + 173, Position.Y + 55);
+            Button.Size = new Size2(128, 32);
+            Button.BorderRect = new Rectangle(20, 2, 86, 26);
+            Button.SourceRect = new Rectangle(0, 0, 128, 32);
             Button.MouseUp += Button_MouseUp;
         }
 
@@ -112,7 +112,7 @@ namespace Elysium_Diamond.DirectX
 
             MessageImage.Draw();
 
-            EngineFont.DrawText(null, Text, new Size2(450, 80), new Point(Position.X, Position.Y - 10), new SharpDX.Color(Color.White.R, Color.White.G, Color.White.B, Transparency), EngineFontStyle.Regular, FontDrawFlags.Left);
+            EngineFont.DrawText(null, Text, new Size2(480, 80), new Point(Position.X, Position.Y - 1), new SharpDX.Color(Color.White.R, Color.White.G, Color.White.B, Transparency), EngineFontStyle.Regular, FontDrawFlags.Left);
             Button.Draw();
         }
 

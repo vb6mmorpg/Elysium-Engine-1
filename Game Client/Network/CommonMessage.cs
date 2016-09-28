@@ -9,9 +9,10 @@ namespace Elysium_Diamond.Network {
                 case PacketList.Disconnect:
                     Settings.Disconnected = true;
                     EngineMessageBox.Enabled = true;
-                    EngineMessageBox.Show("Desconectado");
-                    GameServerNetwork.Instance.TCPClient.Disconnect("dc");
-                    if (WorldServerNetwork.Instance.TCPClient != null) { WorldServerNetwork.Instance.TCPClient.Disconnect("dc"); }
+                    EngineMessageBox.Show("Desconectado");     
+                    if (LoginServerNetwork.Instance.TCPClient != null)  LoginServerNetwork.Instance.TCPClient.Disconnect("dc"); 
+                    if (WorldServerNetwork.Instance.TCPClient != null)  WorldServerNetwork.Instance.TCPClient.Disconnect("dc"); 
+                    if (GameServerNetwork.Instance.TCPClient != null) GameServerNetwork.Instance.TCPClient.Disconnect("dc");
                     break;
 
                 case PacketList.LoginServer_Client_AccountDisabled:

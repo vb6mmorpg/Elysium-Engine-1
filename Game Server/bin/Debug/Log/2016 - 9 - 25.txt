@@ -1,0 +1,234 @@
+2016/09/25 12:01:48: Carregando dados de mysql.
+2016/09/25 12:01:48: ID: #artemis#
+2016/09/25 12:01:48: Name: Canal 1
+2016/09/25 12:01:48: Discovery: Elysium Diamond #1.0.0
+2016/09/25 12:01:48: IP: 127.0.0.1
+2016/09/25 12:01:48: Port: 10120
+2016/09/25 12:01:48: MaximumConnections: 2000
+2016/09/25 12:01:48: Logs: True
+2016/09/25 12:01:48: ClientSerial: #elysium#
+2016/09/25 12:01:48: Sleep: 1
+2016/09/25 12:01:49: TestServer: False
+2016/09/25 12:01:49: WorldServer 1 ID: Artemis
+2016/09/25 12:01:49: WorldServer 2 ID: 
+2016/09/25 12:01:49: WorldServer 3 ID: 
+2016/09/25 12:01:49: WorldServer 4 ID: 
+2016/09/25 12:01:49: WorldServer 5 ID: 
+2016/09/25 12:01:49: Connectado ao banco de dados
+2016/09/25 12:01:49: Carregando experiência
+2016/09/25 12:01:49: Exp Máximo: 121 22353256174
+2016/09/25 12:01:49: Carregando guilds.
+2016/09/25 12:01:49: Carregando membros.
+2016/09/25 12:01:49: Carregando classes
+2016/09/25 12:01:49: Carregando NPC
+2016/09/25 12:01:50: Servidor iniciado
+2016/09/25 12:01:54: Status changed to connected: 127.0.0.1
+2016/09/25 12:02:34: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 CC14ADEECA14BA6C
+2016/09/25 12:02:35: Status changed to connected: 127.0.0.1
+2016/09/25 12:02:35: Received From Client: CC14ADEECA14BA6C
+2016/09/25 12:02:35: Player Found ID: 1 Name: Joanlac
+2016/09/25 12:02:46: Joanlac Dir: 10 X: 20 Y: 16
+2016/09/25 12:02:46: Joanlac Dir: 10 X: 21 Y: 16
+2016/09/25 12:02:47: Joanlac Dir: 4 X: 21 Y: 17
+2016/09/25 12:02:47: Joanlac Dir: 4 X: 21 Y: 18
+2016/09/25 12:02:47: Joanlac Dir: 4 X: 21 Y: 19
+2016/09/25 12:02:47: Joanlac Dir: 4 X: 21 Y: 20
+2016/09/25 12:02:48: Joanlac Dir: 7 X: 20 Y: 20
+2016/09/25 12:02:48: Joanlac Dir: 1 X: 20 Y: 19
+2016/09/25 12:02:48: Joanlac Dir: 1 X: 20 Y: 18
+2016/09/25 12:02:48: Joanlac Dir: 1 X: 20 Y: 17
+2016/09/25 12:02:48: Joanlac Dir: 7 X: 19 Y: 17
+2016/09/25 12:02:49: Joanlac Dir: 7 X: 18 Y: 17
+2016/09/25 12:02:49: Joanlac Dir: 7 X: 17 Y: 17
+2016/09/25 12:02:49: Joanlac Dir: 1 X: 17 Y: 16
+2016/09/25 12:02:49: Joanlac Dir: 1 X: 17 Y: 15
+2016/09/25 12:02:49: Joanlac Dir: 1 X: 17 Y: 14
+2016/09/25 12:02:49: Joanlac Dir: 1 X: 17 Y: 13
+2016/09/25 12:02:50: Joanlac Dir: 1 X: 17 Y: 12
+2016/09/25 12:02:50: Joanlac Dir: 1 X: 17 Y: 11
+2016/09/25 12:02:50: Joanlac Dir: 1 X: 17 Y: 10
+2016/09/25 12:02:50: Joanlac Dir: 1 X: 17 Y: 9
+2016/09/25 12:02:51: Joanlac Dir: 7 X: 16 Y: 9
+2016/09/25 12:02:51: Joanlac Dir: 7 X: 15 Y: 9
+2016/09/25 12:02:52: Joanlac Dir: 10 X: 16 Y: 9
+2016/09/25 12:02:52: Joanlac Dir: 10 X: 17 Y: 9
+2016/09/25 12:02:52: Joanlac Dir: 10 X: 18 Y: 9
+2016/09/25 12:02:52: Joanlac Dir: 4 X: 18 Y: 10
+2016/09/25 12:02:53: Joanlac Dir: 4 X: 18 Y: 11
+2016/09/25 12:02:53: Joanlac Dir: 4 X: 18 Y: 12
+2016/09/25 12:02:54: Joanlac Dir: 4 X: 18 Y: 13
+2016/09/25 12:02:54: Joanlac Dir: 4 X: 18 Y: 14
+2016/09/25 12:02:54: Joanlac Dir: 4 X: 18 Y: 15
+2016/09/25 12:02:54: Joanlac Dir: 10 X: 19 Y: 15
+2016/09/25 12:02:54: Joanlac Dir: 10 X: 20 Y: 15
+2016/09/25 12:02:54: Joanlac Dir: 1 X: 20 Y: 14
+2016/09/25 12:02:55: Joanlac Dir: 1 X: 20 Y: 13
+2016/09/25 12:02:55: Joanlac Dir: 7 X: 19 Y: 13
+2016/09/25 12:02:55: Joanlac Dir: 7 X: 18 Y: 13
+2016/09/25 12:02:55: Joanlac Dir: 1 X: 18 Y: 12
+2016/09/25 12:02:56: Joanlac Dir: 1 X: 18 Y: 11
+2016/09/25 12:02:56: Joanlac Dir: 1 X: 18 Y: 10
+2016/09/25 12:02:56: Joanlac Dir: 1 X: 18 Y: 9
+2016/09/25 12:02:56: Joanlac Dir: 1 X: 18 Y: 8
+2016/09/25 12:02:56: Joanlac Dir: 1 X: 18 Y: 7
+2016/09/25 12:02:57: Joanlac Dir: 1 X: 18 Y: 6
+2016/09/25 12:02:57: Joanlac Dir: 4 X: 18 Y: 7
+2016/09/25 12:02:58: Joanlac Dir: 4 X: 18 Y: 8
+2016/09/25 12:02:58: Joanlac Dir: 4 X: 18 Y: 9
+2016/09/25 12:02:58: Joanlac Dir: 4 X: 18 Y: 10
+2016/09/25 12:02:58: Joanlac Dir: 4 X: 18 Y: 11
+2016/09/25 12:03:26: ID: 1 Joanlac Status changed to disconnected: 127.0.0.1
+2016/09/25 12:04:22: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 822FF6056ADA9E8F
+2016/09/25 12:04:22: Status changed to connected: 127.0.0.1
+2016/09/25 12:04:22: Received From Client: 822FF6056ADA9E8F
+2016/09/25 12:04:22: Player Found ID: 1 Name: Joanlac
+2016/09/25 12:04:24: Joanlac Dir: 4 X: 18 Y: 12
+2016/09/25 12:04:24: Joanlac Dir: 4 X: 18 Y: 13
+2016/09/25 12:04:24: Joanlac Dir: 4 X: 18 Y: 14
+2016/09/25 12:04:24: Joanlac Dir: 10 X: 19 Y: 14
+2016/09/25 12:04:24: Joanlac Dir: 10 X: 20 Y: 14
+2016/09/25 12:04:25: Joanlac Dir: 10 X: 21 Y: 14
+2016/09/25 12:04:25: Joanlac Dir: 10 X: 22 Y: 14
+2016/09/25 12:04:25: Joanlac Dir: 4 X: 22 Y: 15
+2016/09/25 12:04:25: Joanlac Dir: 4 X: 22 Y: 16
+2016/09/25 12:04:25: Joanlac Dir: 4 X: 22 Y: 17
+2016/09/25 12:04:26: Joanlac Dir: 7 X: 21 Y: 17
+2016/09/25 12:04:51: ID: 1 Joanlac Status changed to disconnected: 127.0.0.1
+2016/09/25 13:36:07: Carregando dados de mysql.
+2016/09/25 13:36:07: ID: #artemis#
+2016/09/25 13:36:07: Name: Canal 1
+2016/09/25 13:36:07: Discovery: Elysium Diamond #1.0.0
+2016/09/25 13:36:07: IP: 127.0.0.1
+2016/09/25 13:36:07: Port: 10120
+2016/09/25 13:36:07: MaximumConnections: 2000
+2016/09/25 13:36:07: Logs: True
+2016/09/25 13:36:07: ClientSerial: #elysium#
+2016/09/25 13:36:07: Sleep: 1
+2016/09/25 13:36:07: TestServer: False
+2016/09/25 13:36:07: WorldServer 1 ID: Artemis
+2016/09/25 13:36:07: WorldServer 2 ID: 
+2016/09/25 13:36:07: WorldServer 3 ID: 
+2016/09/25 13:36:07: WorldServer 4 ID: 
+2016/09/25 13:36:07: WorldServer 5 ID: 
+2016/09/25 13:36:07: Connectado ao banco de dados
+2016/09/25 13:36:07: Carregando experiência
+2016/09/25 13:36:07: Exp Máximo: 121 22353256174
+2016/09/25 13:36:07: Carregando guilds.
+2016/09/25 13:36:07: Carregando membros.
+2016/09/25 13:36:07: Carregando classes
+2016/09/25 13:36:07: Carregando NPC
+2016/09/25 13:36:07: Servidor iniciado
+2016/09/25 13:36:14: Status changed to connected: 127.0.0.1
+2016/09/25 13:36:26: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 506ECCEC0374B026
+2016/09/25 13:36:26: Status changed to connected: 127.0.0.1
+2016/09/25 13:36:26: Received From Client: 506ECCEC0374B026
+2016/09/25 13:36:26: Player Found ID: 1 Name: Joanlac
+2016/09/25 13:36:49: Data From World Server ID: 2 Account: dragonick Char ID: 10 Slot: 0 42F984BB0C563854
+2016/09/25 13:36:51: Status changed to connected: 127.0.0.1
+2016/09/25 13:36:51: Received From Client: 42F984BB0C563854
+2016/09/25 13:36:51: Player Found ID: 10 Name: sacizenta
+2016/09/25 13:36:53: sacizenta Dir: 4 X: 7 Y: 8
+2016/09/25 13:36:53: sacizenta Dir: 4 X: 7 Y: 9
+2016/09/25 13:36:54: sacizenta Dir: 4 X: 7 Y: 10
+2016/09/25 13:36:54: sacizenta Dir: 10 X: 8 Y: 10
+2016/09/25 13:36:54: sacizenta Dir: 4 X: 8 Y: 11
+2016/09/25 13:36:55: sacizenta Dir: 4 X: 8 Y: 12
+2016/09/25 13:36:55: sacizenta Dir: 10 X: 9 Y: 12
+2016/09/25 13:36:55: sacizenta Dir: 10 X: 10 Y: 12
+2016/09/25 13:36:55: sacizenta Dir: 10 X: 11 Y: 12
+2016/09/25 13:36:55: sacizenta Dir: 10 X: 12 Y: 12
+2016/09/25 13:36:55: sacizenta Dir: 10 X: 13 Y: 12
+2016/09/25 13:36:56: sacizenta Dir: 10 X: 14 Y: 12
+2016/09/25 13:36:56: sacizenta Dir: 10 X: 15 Y: 12
+2016/09/25 13:36:56: sacizenta Dir: 10 X: 16 Y: 12
+2016/09/25 13:36:56: sacizenta Dir: 10 X: 17 Y: 12
+2016/09/25 13:36:56: sacizenta Dir: 4 X: 17 Y: 13
+2016/09/25 13:36:57: sacizenta Dir: 4 X: 17 Y: 14
+2016/09/25 13:36:57: sacizenta Dir: 4 X: 17 Y: 15
+2016/09/25 13:36:57: sacizenta Dir: 10 X: 18 Y: 15
+2016/09/25 13:36:57: sacizenta Dir: 10 X: 19 Y: 15
+2016/09/25 13:36:57: sacizenta Dir: 10 X: 20 Y: 15
+2016/09/25 13:36:58: sacizenta Dir: 10 X: 21 Y: 15
+2016/09/25 13:36:58: sacizenta Dir: 4 X: 21 Y: 16
+2016/09/25 13:36:58: sacizenta Dir: 4 X: 21 Y: 17
+2016/09/25 13:36:59: sacizenta Dir: 4 X: 21 Y: 18
+2016/09/25 13:36:59: sacizenta Dir: 1 X: 21 Y: 17
+2016/09/25 13:37:00: sacizenta Dir: 1 X: 21 Y: 16
+2016/09/25 13:37:00: sacizenta Dir: 4 X: 21 Y: 17
+2016/09/25 13:37:01: sacizenta Dir: 7 X: 20 Y: 17
+2016/09/25 13:37:02: sacizenta Dir: 10 X: 21 Y: 17
+2016/09/25 13:37:02: sacizenta Dir: 7 X: 20 Y: 17
+2016/09/25 13:37:03: sacizenta Dir: 7 X: 19 Y: 17
+2016/09/25 13:37:03: sacizenta Dir: 10 X: 20 Y: 17
+2016/09/25 13:37:03: sacizenta Dir: 10 X: 21 Y: 17
+2016/09/25 13:37:03: sacizenta Dir: 10 X: 22 Y: 17
+2016/09/25 13:37:04: sacizenta Dir: 7 X: 21 Y: 17
+2016/09/25 13:37:04: sacizenta Dir: 7 X: 20 Y: 17
+2016/09/25 13:37:04: sacizenta Dir: 7 X: 19 Y: 17
+2016/09/25 13:37:05: sacizenta Dir: 4 X: 19 Y: 18
+2016/09/25 13:37:05: sacizenta Dir: 10 X: 20 Y: 18
+2016/09/25 13:37:05: sacizenta Dir: 10 X: 21 Y: 18
+2016/09/25 13:37:07: sacizenta Dir: 1 X: 21 Y: 17
+2016/09/25 13:37:07: sacizenta Dir: 1 X: 21 Y: 16
+2016/09/25 13:37:10: sacizenta Dir: 4 X: 21 Y: 17
+2016/09/25 13:37:10: sacizenta Dir: 7 X: 20 Y: 17
+2016/09/25 13:37:10: sacizenta Dir: 1 X: 20 Y: 16
+2016/09/25 13:37:11: sacizenta Dir: 10 X: 21 Y: 16
+2016/09/25 13:37:12: sacizenta Dir: 10 X: 22 Y: 16
+2016/09/25 13:37:12: sacizenta Dir: 7 X: 21 Y: 16
+2016/09/25 13:37:17: sacizenta Dir: 4 X: 21 Y: 17
+2016/09/25 13:37:17: sacizenta Dir: 4 X: 21 Y: 18
+2016/09/25 13:37:17: sacizenta Dir: 4 X: 21 Y: 19
+2016/09/25 13:37:17: sacizenta Dir: 1 X: 21 Y: 18
+2016/09/25 13:37:18: sacizenta Dir: 1 X: 21 Y: 17
+2016/09/25 13:37:18: sacizenta Dir: 1 X: 21 Y: 16
+2016/09/25 13:37:18: sacizenta Dir: 1 X: 21 Y: 15
+2016/09/25 13:37:18: sacizenta Dir: 4 X: 21 Y: 16
+2016/09/25 13:37:22: sacizenta Dir: 4 X: 21 Y: 17
+2016/09/25 13:37:23: sacizenta Dir: 7 X: 20 Y: 17
+2016/09/25 13:37:23: sacizenta Dir: 10 X: 21 Y: 17
+2016/09/25 13:37:23: sacizenta Dir: 10 X: 22 Y: 17
+2016/09/25 13:37:23: sacizenta Dir: 7 X: 21 Y: 17
+2016/09/25 13:37:23: sacizenta Dir: 7 X: 20 Y: 17
+2016/09/25 13:37:24: sacizenta Dir: 7 X: 19 Y: 17
+2016/09/25 13:37:24: sacizenta Dir: 10 X: 20 Y: 17
+2016/09/25 13:37:24: sacizenta Dir: 1 X: 20 Y: 16
+2016/09/25 13:37:24: sacizenta Dir: 10 X: 21 Y: 16
+2016/09/25 13:37:25: sacizenta Dir: 10 X: 22 Y: 16
+2016/09/25 13:37:25: sacizenta Dir: 7 X: 21 Y: 16
+2016/09/25 13:37:27: sacizenta Dir: 7 X: 20 Y: 16
+2016/09/25 13:37:27: sacizenta Dir: 7 X: 19 Y: 16
+2016/09/25 13:37:27: sacizenta Dir: 10 X: 20 Y: 16
+2016/09/25 13:37:28: sacizenta Dir: 10 X: 21 Y: 16
+2016/09/25 13:37:29: sacizenta Dir: 4 X: 21 Y: 17
+2016/09/25 13:37:29: sacizenta Dir: 4 X: 21 Y: 18
+2016/09/25 13:37:29: sacizenta Dir: 4 X: 21 Y: 19
+2016/09/25 13:37:30: sacizenta Dir: 1 X: 21 Y: 18
+2016/09/25 13:37:30: sacizenta Dir: 7 X: 20 Y: 18
+2016/09/25 13:37:30: sacizenta Dir: 10 X: 21 Y: 18
+2016/09/25 13:37:31: sacizenta Dir: 7 X: 20 Y: 18
+2016/09/25 13:37:32: sacizenta Dir: 1 X: 20 Y: 17
+2016/09/25 13:37:32: sacizenta Dir: 10 X: 21 Y: 17
+2016/09/25 13:37:33: sacizenta Dir: 4 X: 21 Y: 18
+2016/09/25 13:37:33: sacizenta Dir: 7 X: 20 Y: 18
+2016/09/25 13:37:34: sacizenta Dir: 10 X: 21 Y: 18
+2016/09/25 13:37:34: sacizenta Dir: 10 X: 22 Y: 18
+2016/09/25 13:37:35: sacizenta Dir: 1 X: 22 Y: 17
+2016/09/25 13:37:35: sacizenta Dir: 7 X: 21 Y: 17
+2016/09/25 13:37:35: sacizenta Dir: 7 X: 20 Y: 17
+2016/09/25 13:37:36: sacizenta Dir: 1 X: 20 Y: 16
+2016/09/25 13:37:36: sacizenta Dir: 10 X: 21 Y: 16
+2016/09/25 13:37:37: sacizenta Dir: 10 X: 22 Y: 16
+2016/09/25 13:37:37: sacizenta Dir: 7 X: 21 Y: 16
+2016/09/25 13:37:38: sacizenta Dir: 7 X: 20 Y: 16
+2016/09/25 13:37:38: sacizenta Dir: 4 X: 20 Y: 17
+2016/09/25 13:37:38: sacizenta Dir: 10 X: 21 Y: 17
+2016/09/25 13:37:39: sacizenta Dir: 10 X: 22 Y: 17
+2016/09/25 13:37:39: sacizenta Dir: 7 X: 21 Y: 17
+2016/09/25 13:37:39: sacizenta Dir: 7 X: 20 Y: 17
+2016/09/25 13:37:39: sacizenta Dir: 4 X: 20 Y: 18
+2016/09/25 13:37:40: sacizenta Dir: 10 X: 21 Y: 18
+2016/09/25 13:37:40: sacizenta Dir: 10 X: 22 Y: 18
+2016/09/25 13:37:40: sacizenta Dir: 7 X: 21 Y: 18
+2016/09/25 13:38:04: ID: 10 sacizenta Status changed to disconnected: 127.0.0.1
+2016/09/25 13:38:05: ID: 1 Joanlac Status changed to disconnected: 127.0.0.1

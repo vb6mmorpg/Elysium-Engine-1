@@ -74,14 +74,14 @@ namespace Elysium_Diamond.GameWindow
            
         public static void Initialize()
         {
-            position = new Point(223, 220);
+            position = new Point(208, 220);
 
             // Configuração imagem de fundo
             backgroundImage = new EngineObject();
             backgroundImage.Position = position;
-            backgroundImage.Texture = EngineTexture.TextureFromFile(Settings.GamePath + @"\Data\Graphics\Window_5.png", 578, 270);
-            backgroundImage.Size = new Size2(578, 270);
-            backgroundImage.SourceRect = new Rectangle(0, 0, 578, 270);
+            backgroundImage.Texture = EngineTexture.TextureFromFile(Settings.GamePath + @"\Data\Graphics\win_char.png", 608, 288);
+            backgroundImage.Size = new Size2(608, 288);
+            backgroundImage.SourceRect = new Rectangle(0, 0, 608, 288);
 
             // Configuração imagem de fundo personagem
             for (int n = 0; n < charBackgroundImage.Length; n++)
@@ -93,43 +93,44 @@ namespace Elysium_Diamond.GameWindow
                 charBackgroundImage[n].Size = new Size2(127, 134);
                 charBackgroundImage[n].SourceRect = new Rectangle(0, 0, 127, 134);
                 charBackgroundImage[n].MouseUp += Select_MouseUp;
+                charBackgroundImage[n].BorderRect = new Rectangle(0, 0, 127, 134);
 
                 selectedBackground[n] = new EngineObject();
                 selectedBackground[n].Texture = EngineTexture.TextureFromFile(Settings.GamePath + @"\Data\Graphics\selectchar_selected.png", 127, 134);
                 selectedBackground[n].Size = new Size2(127, 134);
                 selectedBackground[n].SourceRect = new Rectangle(0, 0, 127, 134);
-    
-                charBackgroundImage[n].Position = new Point((position.X + 35) + (n * 127), position.Y + 70);
-                selectedBackground[n].Position = new Point((position.X + 35) + (n * 127), position.Y + 70);
+
+                charBackgroundImage[n].Position = new Point((position.X + 49) + (n * 127), position.Y + 70);
+                selectedBackground[n].Position = new Point((position.X + 49) + (n * 127), position.Y + 70);
             }
 
             // Configuração botões
-            button[0] = new EngineButton(Settings.lang, Settings.GamePath, "Start", 103, 30);
+            button[0] = new EngineButton(Settings.lang, Settings.GamePath, "start", 128, 32);
             button[0].Position = new Point(position.X + 135, position.Y + 215);
-            button[0].BorderRect = new Rectangle(9, 2, 86, 26);
-            button[0].Size = new Size2(103, 30);
-            button[0].SourceRect = new Rectangle(0, 0, 103, 30);
+            button[0].BorderRect = new Rectangle(20, 2, 86, 26);
+            button[0].Size = new Size2(128, 32);
+            button[0].SourceRect = new Rectangle(0, 0, 128, 32);
             button[0].MouseUp += Start_MouseUp;
 
-            button[1] = new EngineButton(Settings.lang, Settings.GamePath, "Create", 103, 30);
+            button[1] = new EngineButton(Settings.lang, Settings.GamePath, "create", 128, 32);
             button[1].Position = new Point(position.X + 242, position.Y + 215);
-            button[1].BorderRect = new Rectangle(9, 2, 86, 26);
-            button[1].Size = new Size2(103, 30);
-            button[1].SourceRect = new Rectangle(0, 0, 103, 30);
+            button[1].BorderRect = new Rectangle(20, 2, 86, 26);
+            button[1].Size = new Size2(128, 32);
+            button[1].SourceRect = new Rectangle(0, 0, 128, 32);
             button[1].MouseUp += Create_MouseUp;
 
-            button[2] = new EngineButton(Settings.lang, Settings.GamePath, "Delete", 103, 30);
+            button[2] = new EngineButton(Settings.lang, Settings.GamePath, "delete", 128, 32);
             button[2].Position = new Point(position.X + 349, position.Y + 215);
-            button[2].BorderRect = new Rectangle(9, 2, 86, 26);
-            button[2].Size = new Size2(103, 30);
-            button[2].SourceRect = new Rectangle(0, 0, 103, 30);
+            button[2].BorderRect = new Rectangle(20, 2, 86, 26);
+            button[2].Size = new Size2(128, 32);
+            button[2].SourceRect = new Rectangle(0, 0, 128, 32);
             button[2].MouseUp += Delete_MouseUp;
 
-            button[3] = new EngineButton(Settings.lang, Settings.GamePath, "Server", 103, 30);
+            button[3] = new EngineButton(Settings.lang, Settings.GamePath, "server", 128, 32);
             button[3].Position = new Point(position.X + 240, position.Y + 30);
-            button[3].BorderRect = new Rectangle(9, 2, 86, 26);
-            button[3].Size = new Size2(103, 30);
-            button[3].SourceRect = new Rectangle(0, 0, 103, 30);
+            button[3].BorderRect = new Rectangle(20, 2, 86, 26);
+            button[3].Size = new Size2(128, 32);
+            button[3].SourceRect = new Rectangle(0, 0, 128, 32);
             button[3].MouseUp += Server_MouseUp;
             
             //Configuração personagens
@@ -197,12 +198,12 @@ namespace Elysium_Diamond.GameWindow
             if (PlayerData[index].Sprite <= 0) { return; }
              
             EngineCore.SpriteDevice.Begin(SpriteFlags.AlphaBlend);
-            EngineCore.SpriteDevice.Draw(ResourceSprite.FindByID(PlayerData[index].Sprite), new ColorBGRA(255, 255, 255, PlayerData[index].Transparency), new Rectangle(128, 0, 32, 32), new Vector3(0, 0, 0), new Vector3(position.X + 80 + x, position.Y + 110, 0));
+            EngineCore.SpriteDevice.Draw(ResourceSprite.FindByID(PlayerData[index].Sprite), new ColorBGRA(255, 255, 255, PlayerData[index].Transparency), new Rectangle(128, 0, 32, 32), new Vector3(0, 0, 0), new Vector3(position.X + 94 + x, position.Y + 110, 0));
             EngineCore.SpriteDevice.End();
 
-            EngineFont.DrawText(null, PlayerData[index].Name, new Size2(127, 134), new Point(position.X + 35 + x, position.Y + 30), Color.DarkViolet, EngineFontStyle.Regular, FontDrawFlags.Center);
-            EngineFont.DrawText(null, PlayerData[index].Class, new Size2(127, 134), new Point(position.X + 35 + x, position.Y + 100), Color.Coral, EngineFontStyle.Regular, FontDrawFlags.Center);
-            EngineFont.DrawText(null, "Lv. " + PlayerData[index].Level, new Size2(127, 134), new Point(position.X + 35 + x, position.Y + 120), Color.RoyalBlue, EngineFontStyle.Regular, FontDrawFlags.Center); 
+            EngineFont.DrawText(null, PlayerData[index].Name, new Size2(127, 134), new Point(position.X + 49 + x, position.Y + 30), Color.DarkViolet, EngineFontStyle.Regular, FontDrawFlags.Center);
+            EngineFont.DrawText(null, PlayerData[index].Class, new Size2(127, 134), new Point(position.X + 49 + x, position.Y + 100), Color.Coral, EngineFontStyle.Regular, FontDrawFlags.Center);
+            EngineFont.DrawText(null, "Lv. " + PlayerData[index].Level, new Size2(127, 134), new Point(position.X + 49 + x, position.Y + 120), Color.RoyalBlue, EngineFontStyle.Regular, FontDrawFlags.Center); 
         }
 
         private static void DrawWind(int x)
@@ -247,7 +248,7 @@ namespace Elysium_Diamond.GameWindow
             }
 
             EngineCore.SpriteDevice.Begin(SpriteFlags.AlphaBlend);
-            EngineCore.SpriteDevice.Draw(cast[castFrameIndex], Color.White, new Rectangle(0, 0, 192, 192), new Vector3(0, 0, 0), new Vector3(position.X - 2 + x, position.Y + 30, 0));
+            EngineCore.SpriteDevice.Draw(cast[castFrameIndex], Color.White, new Rectangle(0, 0, 192, 192), new Vector3(0, 0, 0), new Vector3(position.X + 14 + x, position.Y + 30, 0));
             EngineCore.SpriteDevice.End();
         }
 

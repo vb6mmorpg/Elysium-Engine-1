@@ -20,7 +20,7 @@ namespace LoginServer.Server {
                 WorldServerNetwork.WorldServerReceiveData();
             }
             catch (Exception e) {
-                throw new Exception("Ocorreu um erro", e);
+                throw new Exception($"Ocorreu um erro: {e.Message}" , e);
             }        
         }
 

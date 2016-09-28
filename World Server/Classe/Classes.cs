@@ -2,8 +2,19 @@
 
 namespace WorldServer.Classe {
     public static class Classes {
+        /// <summary>
+        /// Atributos base de classe
+        /// </summary>
         public static List<ClassesBase> ClassesBase { get; set; }
+
+        /// <summary>
+        /// Atributos de incremento
+        /// </summary>
         public static List<ClassesIncrement> ClassesIncrement { get; set; }
+
+        /// <summary>
+        /// Items de inicio, criação de personagem
+        /// </summary>
         public static List<ClassesItem> ClassesItem { get; set; }
 
         /// <summary>
@@ -39,16 +50,16 @@ namespace WorldServer.Classe {
         /// <param name="cID"></param>
         /// <returns></returns>
         public static int GetStat(Stats stat, int classeID) {
-            // Pega o index da classe
+            // pega o index da classe
             var classeIndex = FindIndexByClasseID(classeID);
 
-            // Se não houver nada, retorna 0
+            // se não houver nada, retorna 0
             if (classeIndex <= -1) { return 0; }
 
-            // Pega o index do incremento de classe
+            // pega o index do incremento de classe
             var incrementIndex = FindIndexByIncrementID(ClassesBase[classeIndex].IncrementID);
             
-            // Se não houver nada, retorna 0
+            // se não houver nada, retorna 0
             if (incrementIndex <= -1) { return 0; }
 
             // Pega os valores para calculo

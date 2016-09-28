@@ -14,6 +14,7 @@ namespace WorldServer.LUA {
         /// </summary>
         public static void InitializeConfig() {
             lua = new Lua();
+            //lua.LoadCLRPackage();
             lua.DoFile(@"Script\Character.lua");
 
             Settings.CharacterCreation = (bool)lua["CharacterCreation"];
@@ -26,8 +27,8 @@ namespace WorldServer.LUA {
             if (f != null) f.Call(550);
 
             Settings.CharacterDeleteMaxLevel = Convert.ToInt32(lua["CharacterDeleteMaxLevel"]);
-            //  System.Windows.Forms.MessageBox.Show(Settings.CharacterDeleteMaxLevel + "");
-            //      lua.RegisterFunction("Mensagem", this, this.GetType().GetMethod("Mensagem"));
+        //    System.Windows.Forms.MessageBox.Show(Settings.CharacterDeleteMaxLevel + "");
+           //      lua.RegisterFunction("Mensagem", this, this.GetType().GetMethod("Mensagem"));
         }
 
     }

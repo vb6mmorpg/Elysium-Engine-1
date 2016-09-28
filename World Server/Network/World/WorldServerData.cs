@@ -117,7 +117,7 @@ namespace WorldServer.Network {
             }
 
             // Envia o PreLoad
-            // pré carregamento do personagem, apenas informações básicas como sprite, level, nome e classe (exibição na seleção de personagem).
+            // pré carregamento do personagem, apenas informações básicas sprite, level, nome e classe (exibição na seleção de personagem).
             WorldServerPacket.PreLoad(pData);
             WorldServerPacket.Message(connection, (int)PacketList.WorldServer_Client_CharacterDeleted);
         }
@@ -156,15 +156,17 @@ namespace WorldServer.Network {
         /// </summary>
         /// <param name="username"></param>
         public static void PlayerDisconnect(string username) {
+            if (!Authentication.IsConnected(username)) { return; }
+            
             var pData = Authentication.FindByAccount(username);
+           
+          //  LoginServerPacket.Message(Authentication.FindByAccount(pData.Username).HexID, (int)PacketList.Disconnect);
+          
+            pData.Connection.Disconnect("-");
 
-            if (pData.Equals(null)) { return; }
-            pData.Connection.Disconnect("");
+            LogConfig.WriteLog($"Disconnected by login server: {username}", System.Drawing.Color.Black);
 
             ///temporario, precisa salvar o jogador antes
-        
-
-            Authentication.Player.Remove(pData);
         }
     }
 }

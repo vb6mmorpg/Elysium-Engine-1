@@ -15,7 +15,6 @@ D:\Programing Files\Elysium Diamond\Game Client\obj\Debug\Elysium_Diamond.Proper
 D:\Programing Files\Elysium Diamond\Game Client\obj\Debug\Elysium Diamond.csproj.GenerateResource.Cache
 D:\Programing Files\Elysium Diamond\Game Client\bin\Debug\Elysium Diamond.exe
 D:\Programing Files\Elysium Diamond\Game Client\bin\Debug\Elysium Diamond.pdb
-D:\Programing Files\Elysium Diamond\Game Client\obj\Debug\Elysium Diamond.csprojResolveAssemblyReference.cache
 D:\Elysium Diamond\Game Client\obj\Debug\Elysium Diamond.exe
 D:\Elysium Diamond\Game Client\obj\Debug\Elysium Diamond.pdb
 D:\Elysium Diamond\Game Client\bin\Debug\Elysium Diamond.exe
@@ -24,3 +23,4 @@ D:\Elysium Diamond\Game Client\obj\Debug\Elysium Diamond.csprojResolveAssemblyRe
 D:\Elysium Diamond\Game Client\obj\Debug\Elysium_Diamond.CreateDevice.resources
 D:\Elysium Diamond\Game Client\obj\Debug\Elysium_Diamond.Properties.Resources.resources
 D:\Elysium Diamond\Game Client\obj\Debug\Elysium Diamond.csproj.GenerateResource.Cache
+D:\Programing Files\Elysium Diamond\Game Client\obj\Debug\Elysium Diamond.csprojResolveAssemblyReference.cache

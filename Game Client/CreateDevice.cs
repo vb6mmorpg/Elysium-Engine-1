@@ -13,6 +13,9 @@ using Elysium_Diamond.GameWindow;
 using Elysium_Diamond.Resource;
 using Microsoft.VisualBasic;
 
+using System.IO;
+using System.Security.Cryptography;
+
 namespace Elysium_Diamond
 {
     public partial class CreateDevice : Form
@@ -273,7 +276,11 @@ namespace Elysium_Diamond
 
         private void CreateDevice_Load(object sender, EventArgs e)
         {
-            m_hImc = ImmGetContext(this.Handle);       
+            m_hImc = ImmGetContext(this.Handle);
+
+            var md5 = MD5.Create();
+
+            Common.Settings.CheckSumClient = BitConverter.ToString(md5.ComputeHash(File.ReadAllBytes("Elysium Diamond.exe")));
         }
  
         private void CreateDevice_KeyPress(object sender, KeyPressEventArgs e)

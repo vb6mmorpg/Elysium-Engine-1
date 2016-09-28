@@ -36,15 +36,15 @@ namespace Elysium_Diamond.GameWindow
         /// </summary>
         public static void Initialize() {
             BackgroundImage = new EngineObject();
-            BackgroundImage.Position = new Point(Position.X - 65, Position.Y);
-            BackgroundImage.Size = new Size2(450, 200);
-            BackgroundImage.Texture = EngineTexture.TextureFromFile(Settings.GamePath + @"\Data\Graphics\Window_Server_2.png", 450, 200);
-            BackgroundImage.SourceRect = new Rectangle(0, 0, 450, 200);
+            BackgroundImage.Position = new Point(Position.X - 140, Position.Y);
+            BackgroundImage.Size = new Size2(608, 224);
+            BackgroundImage.Texture = EngineTexture.TextureFromFile(Settings.GamePath + @"\Data\Graphics\window_login.png");
+            BackgroundImage.SourceRect = new Rectangle(0, 0, 608, 224);
             BackgroundImage.Transparency = 255;
-
-            TextBox[0] = new EngineTextBox(Settings.GamePath + @"\Data\Graphics\textbox.png", 255, 25);
-            TextBox[0].Size = new Size2(255, 25);
-            TextBox[0].SourceRect = new Rectangle(0, 0, 255, 25);
+             
+            TextBox[0] = new EngineTextBox(Settings.GamePath + @"\Data\Graphics\textbox.png", 256, 32);
+            TextBox[0].Size = new Size2(256, 32);
+            TextBox[0].SourceRect = new Rectangle(0, 0, 256, 32);
             TextBox[0].Position = new Point(Position.X + 32, Position.Y + 50);
             TextBox[0].CursorEnabled = true;
             TextBox[0].Enabled = true;
@@ -53,9 +53,9 @@ namespace Elysium_Diamond.GameWindow
             TextBox[0].MouseUp += Textbox_1_MouseUp;
             TextBox[0].TextFormat = FontDrawFlags.Center;
 
-            TextBox[1] = new EngineTextBox(Settings.GamePath + @"\Data\Graphics\textbox.png", 255, 25);
-            TextBox[1].Size = new Size2(255, 25);
-            TextBox[1].SourceRect = new Rectangle(0, 0, 255, 25);
+            TextBox[1] = new EngineTextBox(Settings.GamePath + @"\Data\Graphics\textbox.png", 256, 32);
+            TextBox[1].Size = new Size2(256, 32);
+            TextBox[1].SourceRect = new Rectangle(0, 0, 256, 32);
             TextBox[1].Position = new Point(Position.X + 32, Position.Y + 80);
             TextBox[1].Password = true;
             TextBox[1].Transparency = 220;
@@ -64,18 +64,18 @@ namespace Elysium_Diamond.GameWindow
             TextBox[1].MouseUp += Textbox_2_MouseUp;
             TextBox[1].TextFormat = FontDrawFlags.Center;
 
-            Button[0] = new EngineButton(Settings.lang, Settings.GamePath, "Login");
-            Button[0].Position = new Point(Position.X + 55, Position.Y + 120);
-            Button[0].BorderRect = new Rectangle(9, 2, 86, 26);
-            Button[0].SourceRect = new Rectangle(0, 0, 103, 30);
-            Button[0].Size = new Size2(103, 30);
+            Button[0] = new EngineButton(Settings.lang, Settings.GamePath, "login");
+            Button[0].Position = new Point(Position.X + 42, Position.Y + 120);
+            Button[0].BorderRect = new Rectangle(20, 2, 86, 26);
+            Button[0].SourceRect = new Rectangle(0, 0, 128, 32);
+            Button[0].Size = new Size2(128, 32);
             Button[0].MouseUp += LoginButton_MouseDown;
 
-            Button[1] = new EngineButton(Settings.lang, Settings.GamePath, "End");
-            Button[1].Position = new Point(Position.X + 165, Position.Y + 120);
-            Button[1].BorderRect = new Rectangle(9, 2, 86, 26);
-            Button[1].SourceRect = new Rectangle(0, 0, 103, 30);
-            Button[1].Size = new Size2(103, 30);
+            Button[1] = new EngineButton(Settings.lang, Settings.GamePath, "end");
+            Button[1].Position = new Point(Position.X + 152, Position.Y + 120);
+            Button[1].BorderRect = new Rectangle(20, 2, 86, 26);
+            Button[1].SourceRect = new Rectangle(0, 0, 128, 32);
+            Button[1].Size = new Size2(128, 32);
             Button[1].MouseUp += ExitButton_MouseDown;
         }
 

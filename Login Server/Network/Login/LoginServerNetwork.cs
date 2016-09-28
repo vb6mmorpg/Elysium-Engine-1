@@ -20,7 +20,7 @@ namespace LoginServer.Network {
             config.AutoFlushSendQueue = true;
             config.AcceptIncomingConnections = true;
             config.MaximumConnections = Settings.MaxConnection;
-            config.ConnectionTimeout = 25.0f;
+            config.ConnectionTimeout = (float)Settings.ConnectionTimeOut;
             config.PingInterval = 2.0f;
             config.UseMessageRecycling = true;
             config.DisableMessageType(NetIncomingMessageType.ConnectionApproval | NetIncomingMessageType.UnconnectedData | NetIncomingMessageType.VerboseDebugMessage | NetIncomingMessageType.ConnectionLatencyUpdated);
@@ -79,11 +79,12 @@ namespace LoginServer.Network {
                             pData = Authentication.FindByHexID(NetUtility.ToHexString(msg.SenderConnection.RemoteUniqueIdentifier));
 
                             //1 - enabled, 0 - disabled
-                            if (Settings.LogSystem == 1) { LogConfig.WriteLog($"Status changed to disconnected: {pData?.ID} {pData?.Account} {msg.SenderEndPoint.Address}"); }
-                            if (!Settings.LogSystemScreen) { LogConfig.WriteLog($"Status changed to disconnected: {pData?.ID} {pData?.Account} {msg.SenderEndPoint.Address}", Color.Coral); }
+                            if (Settings.LogSystem == 1) { LogConfig.WriteLog($"Status changed to disconnected: {pData?.ID} {pData?.Account} {msg.SenderEndPoint.Address} {pData.HexID}"); }
+                            if (!Settings.LogSystemScreen) { LogConfig.WriteLog($"Status changed to disconnected: {pData?.ID} {pData?.Account} {msg.SenderEndPoint.Address} {pData.HexID}", Color.Coral); }
 
                             Accounts_DB.UpdateLastIP(pData.Account, pData.IP);
-                            Accounts_DB.UpdateLoggedIn(pData.Account, 0);
+                            Accounts_DB.UpdateLoggedIn(pData.Account, 0); //0 disconnect
+                            Accounts_DB.UpdateCurrentIP(pData.Account, "");
 
                             Authentication.Player.Remove(pData);
                         }

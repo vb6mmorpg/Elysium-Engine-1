@@ -56,35 +56,35 @@ namespace Elysium_Diamond.GameWindow
             backgroundImage.Size = new Size2(450, 340);
             backgroundImage.SourceRect = new Rectangle(0, 0, 450, 340);
 
-            button[0] = new EngineButton(Settings.lang, Settings.GamePath, "Previous", 103, 30);
+            button[0] = new EngineButton(Settings.lang, Settings.GamePath, "Previous", 128, 32);
             button[0].Position = new Point(Position.X + 60, Position.Y + 40);
-            button[0].BorderRect = new Rectangle(9, 2, 86, 26);
-            button[0].Size = new Size2(103, 30);
-            button[0].SourceRect = new Rectangle(0, 0, 103, 30);
+            button[0].BorderRect = new Rectangle(20, 2, 86, 26);
+            button[0].Size = new Size2(128, 32);
+            button[0].SourceRect = new Rectangle(0, 0, 128, 32);
             button[0].Index = 0;
             button[0].MouseUp += PreviousClass_Click;
 
-            button[1] = new EngineButton(Settings.lang, Settings.GamePath, "Next", 103, 30);
+            button[1] = new EngineButton(Settings.lang, Settings.GamePath, "next", 128, 32);
             button[1].Position = new Point(Position.X + 290, Position.Y + 40);
-            button[1].BorderRect = new Rectangle(9, 2, 86, 26);
-            button[1].Size = new Size2(103, 30);
-            button[1].SourceRect = new Rectangle(0, 0, 103, 30);
+            button[1].BorderRect = new Rectangle(20, 2, 86, 26);
+            button[1].Size = new Size2(128, 32);
+            button[1].SourceRect = new Rectangle(0, 0, 128, 32);
             button[1].Index = 1;
             button[1].MouseUp += NextClass_Click;
 
-            button[2] = new EngineButton(Settings.lang, Settings.GamePath, "OK", 103, 30);
+            button[2] = new EngineButton(Settings.lang, Settings.GamePath, "ok", 128, 32);
             button[2].Position = new Point(Position.X + 110, Position.Y + 280);
-            button[2].BorderRect = new Rectangle(9, 2, 86, 26);
-            button[2].SourceRect = new Rectangle(0, 0, 103, 30);
-            button[2].Size = new Size2(103, 30);
+            button[2].BorderRect = new Rectangle(20, 2, 86, 26);
+            button[2].SourceRect = new Rectangle(0, 0, 128, 32);
+            button[2].Size = new Size2(128, 32);
             button[2].Index = 2;
             button[2].MouseUp += OK_Click;
 
-            button[3] = new EngineButton(Settings.lang, Settings.GamePath, "Back", 103, 30);
+            button[3] = new EngineButton(Settings.lang, Settings.GamePath, "back", 128, 32);
             button[3].Position = new Point(Position.X + 235, Position.Y + 280);
-            button[3].BorderRect = new Rectangle(9, 2, 86, 26);
-            button[3].SourceRect = new Rectangle(0, 0, 103, 30);
-            button[3].Size = new Size2(103, 30);
+            button[3].BorderRect = new Rectangle(20, 2, 86, 26);
+            button[3].SourceRect = new Rectangle(0, 0, 128, 32);
+            button[3].Size = new Size2(128, 32);
             button[3].Index = 3;
             button[3].MouseUp += Back_Click;
 

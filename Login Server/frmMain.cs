@@ -64,19 +64,21 @@ namespace LoginServer
             trayIcon = new NotifyIcon();
             trayMenu = new ContextMenu();
 
+            LuaScript.LuaConfig.InitializeConfig();
+
             Configuration.ParseConfigFile($"{Environment.CurrentDirectory}\\{Settings.FileConfig}");
 
             Settings.Discovery = Configuration.GetString("Discovery");
             WriteLog($"Discovery: {Settings.Discovery}", Color.Black);
-
-            Settings.IP = Configuration.GetString("IP");
-            WriteLog($"IP: {Settings.IP}", Color.Black);
 
             Settings.Port = Configuration.GetInt32("Port");
             WriteLog($"Port: {Settings.Port}", Color.Black);
 
             Settings.MaxConnection = Configuration.GetInt32("MaximumConnections");
             WriteLog($"MaxConnection: {Settings.MaxConnection}", Color.Black);
+
+            Settings.ConnectionTimeOut = Configuration.GetInt32("ConnectionTimeOut");
+            WriteLog($"ConnectionTimeOut: {Settings.ConnectionTimeOut}", Color.Black);
 
             Settings.LogSystem = Configuration.GetByte("LogSystem");
             WriteLog($"LogSystem: {Settings.LogSystem}", Color.Black);

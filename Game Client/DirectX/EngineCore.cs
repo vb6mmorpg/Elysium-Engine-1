@@ -47,8 +47,11 @@ namespace Elysium_Diamond.DirectX
 
                 DirectXDevice.SetRenderState(RenderState.SourceBlendAlpha, true);
                 DirectXDevice.SetRenderState(RenderState.DestinationBlendAlpha, true);
+                
 
-                BackGround = new EngineObject(Environment.CurrentDirectory + @"\Data\background.png");
+                BackGround = new EngineObject(Environment.CurrentDirectory + @"\Data\background.png", 1024, 768);
+                BackGround.Size = new Size2(1024, 768);
+                BackGround.SourceRect = new Rectangle(0, 0, 1024, 768);
 
                 EngineBar = new EngineExpBar(519, 36);
                 EngineBar.Position = new Point(245, 639);

@@ -42,8 +42,9 @@ namespace Elysium_Diamond.GameWindow
             BackgroundImage = new EngineObject();
             BackgroundImage.Enabled = true;
             BackgroundImage.Transparency = 255;
-            BackgroundImage.Size = new Size2(350, 35);
-            BackgroundImage.SourceRect = new Rectangle(0, 0, 350, 35);
+            BackgroundImage.Size = new Size2(384, 64);
+            BackgroundImage.SourceRect = new Rectangle(0, 0, 384, 64);
+            BackgroundImage.BorderRect = new Rectangle(14, 8, 360, 35);
             BackgroundImage.Position = position;
             BackgroundImage.MouseUp += BackgroundImage_MouseUp;
             this.Position = position;
@@ -57,8 +58,8 @@ namespace Elysium_Diamond.GameWindow
         }
 
         public static void Initialize() {
-            texture[0] = EngineTexture.TextureFromFile(Settings.GamePath + @"\Data\Graphics\Window_Row.png", 350, 35);
-            texture[1] = EngineTexture.TextureFromFile(Settings.GamePath + @"\Data\Graphics\Window_Row_Gold.png", 350, 35);
+            texture[0] = EngineTexture.TextureFromFile(Settings.GamePath + @"\Data\Graphics\row1.png", 384, 64);  //350, 35
+            texture[1] = EngineTexture.TextureFromFile(Settings.GamePath + @"\Data\Graphics\row2.png", 384, 64);
         }
 
         public void BackgroundImage_MouseUp(object sender, EventArgs e) {
@@ -90,7 +91,7 @@ namespace Elysium_Diamond.GameWindow
 
             BackgroundImage.Draw(texture[index]);
 
-            EngineFont.DrawText(null, Name + " " + Region + " " + Status, new Size2(350, 0), new Point(Position.X, Position.Y + 20), color, EngineFontStyle.Regular, FontDrawFlags.Center, false);
+            EngineFont.DrawText(null, Name + " " + Region + " " + Status, new Size2(384, 0), new Point(Position.X, Position.Y + 30), color, EngineFontStyle.Regular, FontDrawFlags.Center, false);
         }
 
         #region "IDisposable"

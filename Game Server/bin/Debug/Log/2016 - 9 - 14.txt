@@ -1,0 +1,124 @@
+2016/09/14 10:10:35: Carregando dados de mysql.
+2016/09/14 10:10:40: ID: #artemis#
+2016/09/14 10:10:40: Name: Canal 1
+2016/09/14 10:10:40: Discovery: Elysium Diamond #1.0.0
+2016/09/14 10:10:40: IP: 127.0.0.1
+2016/09/14 10:10:40: Port: 10120
+2016/09/14 10:10:40: MaximumConnections: 2000
+2016/09/14 10:10:40: Logs: True
+2016/09/14 10:10:40: ClientSerial: #elysium#
+2016/09/14 10:10:40: Sleep: 1
+2016/09/14 10:10:40: TestServer: False
+2016/09/14 10:10:40: WorldServer 1 ID: Artemis
+2016/09/14 10:10:40: WorldServer 2 ID: 
+2016/09/14 10:10:40: WorldServer 3 ID: 
+2016/09/14 10:10:40: WorldServer 4 ID: 
+2016/09/14 10:10:40: WorldServer 5 ID: 
+2016/09/14 10:10:40: Connectado ao banco de dados
+2016/09/14 10:10:40: Carregando experiência
+2016/09/14 10:10:40: Exp Máximo: 121 22353256174
+2016/09/14 10:10:40: Carregando guilds.
+2016/09/14 10:10:40: Carregando membros.
+2016/09/14 10:10:40: Carregando classes
+2016/09/14 10:10:40: Carregando NPC
+2016/09/14 10:10:41: Servidor iniciado
+2016/09/14 10:10:49: Status changed to connected: 127.0.0.1
+2016/09/14 10:11:02: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 B549C7253B731EBD
+2016/09/14 10:11:04: Status changed to connected: 127.0.0.1
+2016/09/14 10:11:04: Received From Client: B549C7253B731EBD
+2016/09/14 10:11:04: Player Found ID: 1 Name: Joanlac
+2016/09/14 10:11:05: Joanlac Dir: 7 X: 28 Y: 18
+2016/09/14 10:11:06: Joanlac Dir: 7 X: 27 Y: 18
+2016/09/14 10:11:06: Joanlac Dir: 4 X: 27 Y: 19
+2016/09/14 10:11:06: Joanlac Dir: 10 X: 28 Y: 19
+2016/09/14 10:11:06: Joanlac Dir: 10 X: 29 Y: 19
+2016/09/14 10:11:06: Joanlac Dir: 7 X: 28 Y: 19
+2016/09/14 10:11:06: Joanlac Dir: 7 X: 27 Y: 19
+2016/09/14 10:11:07: Joanlac Dir: 10 X: 28 Y: 19
+2016/09/14 10:11:07: Joanlac Dir: 1 X: 28 Y: 18
+2016/09/14 10:11:07: Joanlac Dir: 1 X: 28 Y: 17
+2016/09/14 10:11:07: Joanlac Dir: 7 X: 27 Y: 17
+2016/09/14 10:11:07: Joanlac Dir: 7 X: 26 Y: 17
+2016/09/14 10:11:08: Joanlac Dir: 7 X: 25 Y: 17
+2016/09/14 10:11:08: Joanlac Dir: 7 X: 24 Y: 17
+2016/09/14 10:11:08: Joanlac Dir: 7 X: 23 Y: 17
+2016/09/14 10:11:08: Joanlac Dir: 7 X: 22 Y: 17
+2016/09/14 10:11:08: Joanlac Dir: 7 X: 21 Y: 17
+2016/09/14 10:11:09: Joanlac Dir: 7 X: 20 Y: 17
+2016/09/14 10:11:09: Joanlac Dir: 1 X: 20 Y: 16
+2016/09/14 10:11:09: Joanlac Dir: 1 X: 20 Y: 15
+2016/09/14 10:11:09: Joanlac Dir: 1 X: 20 Y: 14
+2016/09/14 10:11:09: Joanlac Dir: 1 X: 20 Y: 13
+2016/09/14 10:11:09: Joanlac Dir: 1 X: 20 Y: 12
+2016/09/14 10:11:10: Joanlac Dir: 1 X: 20 Y: 11
+2016/09/14 10:11:10: Joanlac Dir: 1 X: 20 Y: 10
+2016/09/14 10:11:10: Joanlac Dir: 1 X: 20 Y: 9
+2016/09/14 10:11:10: Joanlac Dir: 1 X: 20 Y: 8
+2016/09/14 10:11:10: Joanlac Dir: 1 X: 20 Y: 7
+2016/09/14 10:11:11: Joanlac Dir: 4 X: 20 Y: 8
+2016/09/14 10:11:11: Joanlac Dir: 4 X: 20 Y: 9
+2016/09/14 10:11:11: Joanlac Dir: 10 X: 21 Y: 9
+2016/09/14 10:11:11: Joanlac Dir: 10 X: 22 Y: 9
+2016/09/14 10:11:11: Joanlac Dir: 10 X: 23 Y: 9
+2016/09/14 10:11:12: Joanlac Dir: 10 X: 24 Y: 9
+2016/09/14 10:11:12: Joanlac Dir: 10 X: 25 Y: 9
+2016/09/14 10:11:12: Joanlac Dir: 4 X: 25 Y: 10
+2016/09/14 10:11:12: Joanlac Dir: 7 X: 24 Y: 10
+2016/09/14 10:11:13: Joanlac Dir: 7 X: 23 Y: 10
+2016/09/14 10:11:13: Joanlac Dir: 7 X: 22 Y: 10
+2016/09/14 10:11:13: Joanlac Dir: 7 X: 21 Y: 10
+2016/09/14 10:11:13: Joanlac Dir: 7 X: 20 Y: 10
+2016/09/14 10:11:14: Joanlac Dir: 7 X: 19 Y: 10
+2016/09/14 10:11:14: Joanlac Dir: 7 X: 18 Y: 10
+2016/09/14 10:11:14: Joanlac Dir: 7 X: 17 Y: 10
+2016/09/14 10:11:14: Joanlac Dir: 7 X: 16 Y: 10
+2016/09/14 10:11:14: Joanlac Dir: 7 X: 15 Y: 10
+2016/09/14 10:11:41: ID: 1 Joanlac Status changed to disconnected: 127.0.0.1
+2016/09/14 10:55:05: Carregando dados de mysql.
+2016/09/14 10:55:05: ID: #artemis#
+2016/09/14 10:55:05: Name: Canal 1
+2016/09/14 10:55:06: Discovery: Elysium Diamond #1.0.0
+2016/09/14 10:55:06: IP: 127.0.0.1
+2016/09/14 10:55:06: Port: 10120
+2016/09/14 10:55:06: MaximumConnections: 2000
+2016/09/14 10:55:06: Logs: True
+2016/09/14 10:55:06: ClientSerial: #elysium#
+2016/09/14 10:55:06: Sleep: 1
+2016/09/14 10:55:06: TestServer: False
+2016/09/14 10:55:06: WorldServer 1 ID: Artemis
+2016/09/14 10:55:06: WorldServer 2 ID: 
+2016/09/14 10:55:06: WorldServer 3 ID: 
+2016/09/14 10:55:06: WorldServer 4 ID: 
+2016/09/14 10:55:06: WorldServer 5 ID: 
+2016/09/14 10:55:06: Connectado ao banco de dados
+2016/09/14 10:55:06: Carregando experiência
+2016/09/14 10:55:06: Exp Máximo: 121 22353256174
+2016/09/14 10:55:06: Carregando guilds.
+2016/09/14 10:55:06: Carregando membros.
+2016/09/14 10:55:06: Carregando classes
+2016/09/14 10:55:06: Carregando NPC
+2016/09/14 10:55:06: Servidor iniciado
+2016/09/14 10:55:11: Status changed to connected: 127.0.0.1
+2016/09/14 10:55:20: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 9AE6969F84536C18
+2016/09/14 10:55:22: Status changed to connected: 127.0.0.1
+2016/09/14 10:55:22: Received From Client: 9AE6969F84536C18
+2016/09/14 10:55:22: Player Found ID: 1 Name: Joanlac
+2016/09/14 10:55:23: Joanlac Dir: 4 X: 15 Y: 11
+2016/09/14 10:55:24: Joanlac Dir: 4 X: 15 Y: 12
+2016/09/14 10:55:24: Joanlac Dir: 10 X: 16 Y: 12
+2016/09/14 10:55:24: Joanlac Dir: 1 X: 16 Y: 11
+2016/09/14 10:55:24: Joanlac Dir: 7 X: 15 Y: 11
+2016/09/14 10:55:24: Joanlac Dir: 4 X: 15 Y: 12
+2016/09/14 10:55:25: Joanlac Dir: 10 X: 16 Y: 12
+2016/09/14 10:55:25: Joanlac Dir: 1 X: 16 Y: 11
+2016/09/14 10:55:25: Joanlac Dir: 4 X: 16 Y: 12
+2016/09/14 10:55:25: Joanlac Dir: 4 X: 16 Y: 13
+2016/09/14 10:55:25: Joanlac Dir: 4 X: 16 Y: 14
+2016/09/14 10:55:26: Joanlac Dir: 10 X: 17 Y: 14
+2016/09/14 10:55:26: Joanlac Dir: 10 X: 18 Y: 14
+2016/09/14 10:55:26: Joanlac Dir: 10 X: 19 Y: 14
+2016/09/14 10:55:26: Joanlac Dir: 4 X: 19 Y: 15
+2016/09/14 10:55:26: Joanlac Dir: 4 X: 19 Y: 16
+2016/09/14 10:55:26: Joanlac Dir: 4 X: 19 Y: 17
+2016/09/14 10:55:27: Joanlac Dir: 1 X: 19 Y: 16
+2016/09/14 10:55:51: ID: 1 Joanlac Status changed to disconnected: 127.0.0.1

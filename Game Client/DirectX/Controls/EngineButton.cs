@@ -110,9 +110,9 @@ namespace Elysium_Diamond.DirectX
                     break;
             }
 
-            Texture[0] = EngineTexture.TextureFromFile(file + @"\Data\Graphics\" + lang_path + @"\" + name + "_Inactive.png", out size); 
-            Texture[1] = EngineTexture.TextureFromFile(file + @"\Data\Graphics\" + lang_path + @"\" + name + "_Hover.png", out size); 
-            Texture[2] = EngineTexture.TextureFromFile(file + @"\Data\Graphics\" + lang_path + @"\" + name + "_Active.png", out size);
+            Texture[0] = EngineTexture.TextureFromFile(file + @"\Data\Graphics\" + lang_path + @"\" + name + "_inactive.png", out size); 
+            Texture[1] = EngineTexture.TextureFromFile(file + @"\Data\Graphics\" + lang_path + @"\" + name + "_hover.png", out size); 
+            Texture[2] = EngineTexture.TextureFromFile(file + @"\Data\Graphics\" + lang_path + @"\" + name + "_active.png", out size);
 
             Size = size;
             SourceRect = new Rectangle(0, 0, Size.Width, Size.Height);
@@ -156,9 +156,9 @@ namespace Elysium_Diamond.DirectX
                     break;
             }
 
-            Texture[0] = EngineTexture.TextureFromFile(file + @"\Data\Graphics\" + lang_path + @"\" + name + "_Inactive.png", width, height);
-            Texture[1] = EngineTexture.TextureFromFile(file + @"\Data\Graphics\" + lang_path + @"\" + name + "_Hover.png", width, height);
-            Texture[2] = EngineTexture.TextureFromFile(file + @"\Data\Graphics\" + lang_path + @"\" + name + "_Active.png", width, height);
+            Texture[0] = EngineTexture.TextureFromFile(file + @"\Data\Graphics\" + lang_path + @"\" + name + "_inactive.png", width, height);
+            Texture[1] = EngineTexture.TextureFromFile(file + @"\Data\Graphics\" + lang_path + @"\" + name + "_hover.png", width, height);
+            Texture[2] = EngineTexture.TextureFromFile(file + @"\Data\Graphics\" + lang_path + @"\" + name + "_active.png", width, height);
         }
 
         /// <summary>

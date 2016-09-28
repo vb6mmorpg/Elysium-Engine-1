@@ -42,7 +42,12 @@ namespace Elysium_Diamond.DirectX
         /// Obtem ou altera a area de cópia da textura.
         /// </summary>
         public Rectangle SourceRect { get; set; }
- 
+
+        /// <summary>
+        /// Obtem ou altera a area de borda da intersecção com o mouse.
+        /// </summary>
+        public Rectangle BorderRect { get; set; } = new Rectangle(0, 0, 0, 0);
+
         /// <summary>
         /// Obtem ou altera o nome do controle.
         /// </summary>
@@ -146,6 +151,7 @@ namespace Elysium_Diamond.DirectX
 
             EngineCore.SpriteDevice.Begin(SpriteFlags);
             EngineCore.SpriteDevice.Draw(Texture, new Color(Color.R, Color.G, Color.B, Transparency), SourceRect, new Vector3(0, 0, 0), new Vector3(Position.X, Position.Y, 0));
+           // EngineCore.SpriteDevice.Draw(Texture, Color.White, null, null, new Vector3(Position.X, Position.Y, 0));
             EngineCore.SpriteDevice.End();
         }
 
@@ -216,8 +222,8 @@ namespace Elysium_Diamond.DirectX
             if (!Program.graphicsDisplay.Focused) { return false; }
             if (Program.graphicsDisplay.WindowState == System.Windows.Forms.FormWindowState.Minimized) { return false; }
 
-            if ((EngineCore.MousePosition.X >= Position.X) && (EngineCore.MousePosition.X <= (Size.Width + Position.X))) { 
-                if ((EngineCore.MousePosition.Y >= Position.Y) && (EngineCore.MousePosition.Y <= (Position.Y + Size.Height))) { return true; }
+            if ((EngineCore.MousePosition.X >= (Position.X + BorderRect.X) && (EngineCore.MousePosition.X <= ((Position.X + BorderRect.X) + BorderRect.Width)))) {
+                if ((EngineCore.MousePosition.Y >= (Position.Y + BorderRect.Y) && (EngineCore.MousePosition.Y <= ((Position.Y + BorderRect.Y) + BorderRect.Height)))) { return true; }
             }
 
             return false;

@@ -93,9 +93,6 @@ namespace GameServer
             Settings.Discovery = Configuration.GetString("Discovery");
             LogConfig.WriteLog("Discovery: " + Settings.Discovery, Color.Black);
 
-            Settings.IP = Configuration.GetString("IP");
-            LogConfig.WriteLog("IP: " + Settings.IP, Color.Black);
-
             Settings.Port = Configuration.GetInt32("Port");
             LogConfig.WriteLog("Port: " + Settings.Port, Color.Black);
 
@@ -167,7 +164,7 @@ namespace GameServer
             GameServerNetwork.initServerTCP();
             LogConfig.WriteLog("Servidor iniciado", Color.Black);
 
-            ServerLoop.tick = Environment.TickCount;
+          //  ServerLoop.tick = Environment.TickCount;
         }
 
         public void Exit() {

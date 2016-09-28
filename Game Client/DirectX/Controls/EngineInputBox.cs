@@ -37,28 +37,28 @@ namespace Elysium_Diamond.DirectX
             MessageImage.SourceRect = new Rectangle(0, 0, 400, 140);
             MessageImage.Visible = true;
 
-            TextBox = new EngineTextBox(Settings.GamePath + @"\Data\Graphics\textbox.png", 220, 25);
-            TextBox.Size = new Size2(220, 25);
+            TextBox = new EngineTextBox(Settings.GamePath + @"\Data\Graphics\textbox.png", 256, 32);
+            TextBox.Size = new Size2(256, 32);
             TextBox.Position = new Point(Position.X + 90, Position.Y + 50);
-            TextBox.SourceRect = new Rectangle(0, 0, 220, 25);
+            TextBox.SourceRect = new Rectangle(0, 0, 256, 32);
             TextBox.CursorEnabled = true;
             TextBox.TextTransparency = 255;
             TextBox.Enabled = true;
             TextBox.MouseUp += Textbox_MouseUp;
             TextBox.TextFormat = FontDrawFlags.Center;
 
-            Button[0] = new EngineButton(Language.Portuguese, Settings.GamePath, "OK", 103, 30);
+            Button[0] = new EngineButton(Language.Portuguese, Settings.GamePath, "ok", 128, 32);
             Button[0].Position = new Point(Position.X + 90, Position.Y + 85);
-            Button[0].Size = new Size2(103, 30);
-            Button[0].SourceRect = new Rectangle(0, 0, 103, 30);
-            Button[0].BorderRect = new Rectangle(9, 2, 86, 26);
+            Button[0].Size = new Size2(128, 32);
+            Button[0].SourceRect = new Rectangle(0, 0, 128, 32);
+            Button[0].BorderRect = new Rectangle(20, 2, 86, 26);
             Button[0].MouseUp += OK_MouseUp;
 
-            Button[1] = new EngineButton(Language.Portuguese, Settings.GamePath, "Cancel", 103, 30);
+            Button[1] = new EngineButton(Language.Portuguese, Settings.GamePath, "Cancel", 128, 32);
             Button[1].Position = new Point(Position.X + 205, Position.Y + 85);
-            Button[1].Size = new Size2(103, 30);
-            Button[1].SourceRect = new Rectangle(0, 0, 103, 30);
-            Button[1].BorderRect = new Rectangle(9, 2, 86, 26);
+            Button[1].Size = new Size2(128, 32);
+            Button[1].SourceRect = new Rectangle(0, 0, 128, 32);
+            Button[1].BorderRect = new Rectangle(20, 2, 86, 26);
             Button[1].MouseUp += Cancel_MouseUp;
         }
 

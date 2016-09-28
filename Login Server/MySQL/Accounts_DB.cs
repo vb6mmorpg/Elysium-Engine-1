@@ -60,18 +60,17 @@ namespace LoginServer.MySQL {
             var varQuery = $"SELECT id, service_id, end_time, expire FROM account_service WHERE account_id='{pData.ID}'";
             var cmd = new MySqlCommand(varQuery, Common_DB.SQLConnection);
             var reader = cmd.ExecuteReader();
-            
-            //inicia a var
-            var expire = 0;
+
+            // 1 = expirado
+            // 0 = ainda ativo
+            var value = 0;
             const int EXPIRED = 1;
 
             while (reader.Read()) {
-                expire = (int)reader["expire"];
+                value = (int)reader["expire"];
 
-                // 1 = expirado
-                // 0 = ainda ativo
                 //Se o tempo já expirou, move para o próximo
-                if (expire == EXPIRED) { continue; }
+                if (value == EXPIRED) { continue; }
 
                 pData.Service.Add((int)reader["service_id"], (string)reader["end_time"]);
             }
@@ -106,12 +105,12 @@ namespace LoginServer.MySQL {
             }
 
             const int EXPIRED = 1;
-            var expire = (int)reader["expire"];
+            var value = (int)reader["expire"];
 
             // 1 = expirado
             // 0 = ainda ativo
             //Se o tempo já expirou, retorna falso
-            if (expire == EXPIRED) {
+            if (value == EXPIRED) {
                 reader.Close();
                 return false; 
             }
@@ -286,17 +285,6 @@ namespace LoginServer.MySQL {
         }
 
         /// <summary>
-        /// Altera o ID de idioma.
-        /// </summary>
-        /// <param name="username">nome de usuário</param>
-        /// <param name="langID">ID de idioma</param>
-        public static void UpdateLanguageID(string username, int langID) {
-            var varQuery = $"UPDATE account SET language_id='{langID}' WHERE account='{username}'";
-            var cmd = new MySqlCommand(varQuery, Common_DB.SQLConnection);
-            cmd.ExecuteNonQuery();
-        }
-
-        /// <summary>
         /// Atualiza com a data do último acesso. 
         /// </summary>
         /// <param name="username"></param>
@@ -337,10 +325,10 @@ namespace LoginServer.MySQL {
             var varQuery = $"SELECT active FROM account WHERE account='{username}'";
             var cmd = new MySqlCommand(varQuery, Common_DB.SQLConnection);
             var reader = cmd.ExecuteReader();
-            var tempvar = reader.Read();
+            var temp = reader.Read();
             reader.Close();
 
-            return tempvar;
+            return temp;
         }
 
         /// <summary>

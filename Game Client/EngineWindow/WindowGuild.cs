@@ -47,44 +47,44 @@ namespace Elysium_Diamond.GameWindow
             guild_panel.Color = Color.White;
             guild_panel.Transparency = 255;
 
-            button[0] = new EngineButton(Settings.lang, Settings.GamePath, "Detail", 103, 30);
+            button[0] = new EngineButton(Settings.lang, Settings.GamePath, "detail", 128, 32);
             button[0].Position = new Point(posx + 62, posy + 50);
-            button[0].BorderRect = new Rectangle(9, 2, 86, 26);
+            button[0].BorderRect = new Rectangle(20, 2, 86, 26);
             button[0].Enabled = true;
-            button[0].Size = new Size2(103, 30);
-            button[0].SourceRect = new Rectangle(0, 0, 103, 30);
+            button[0].Size = new Size2(128, 32);
+            button[0].SourceRect = new Rectangle(0, 0, 128, 32);
             button[0].MouseUp += Detail_MouseUp;
 
-            button[1] = new EngineButton(Settings.lang, Settings.GamePath, "Quest", 103, 30);
+            button[1] = new EngineButton(Settings.lang, Settings.GamePath, "quest", 128, 32);
             button[1].Position = new Point(posx + 165, posy + 50);
-            button[1].BorderRect = new Rectangle(9, 2, 86, 26);
+            button[1].BorderRect = new Rectangle(20, 2, 86, 26);
             button[1].Enabled = true;
-            button[1].Size = new Size2(103, 30);
-            button[1].SourceRect = new Rectangle(0, 0, 103, 30);
+            button[1].Size = new Size2(128, 32);
+            button[1].SourceRect = new Rectangle(0, 0, 128, 32);
             button[1].MouseUp += Quest_MouseUp;
 
-            button[2] = new EngineButton(Settings.lang, Settings.GamePath, "Member", 103, 30);
+            button[2] = new EngineButton(Settings.lang, Settings.GamePath, "member", 128, 32);
             button[2].Position = new Point(posx + 270, posy + 50);
-            button[2].BorderRect = new Rectangle(9, 2, 86, 26);
+            button[2].BorderRect = new Rectangle(20, 2, 86, 26);
             button[2].Enabled = true;
-            button[2].Size = new Size2(103, 30);
-            button[2].SourceRect = new Rectangle(0, 0, 103, 30);
+            button[2].Size = new Size2(128, 32);
+            button[2].SourceRect = new Rectangle(0, 0, 128, 32);
             button[2].MouseUp += Member_MouseUp;
 
-            button[3] = new EngineButton(Settings.lang, Settings.GamePath, "Invite", 103, 30);
+            button[3] = new EngineButton(Settings.lang, Settings.GamePath, "invite", 128, 32);
             button[3].Position = new Point(posx + 165, posy + 210);
-            button[3].BorderRect = new Rectangle(9, 2, 86, 26);
+            button[3].BorderRect = new Rectangle(20, 2, 86, 26);
             button[3].Enabled = true;
-            button[3].Size = new Size2(103, 30);
-            button[3].SourceRect = new Rectangle(0, 0, 103, 30);
+            button[3].Size = new Size2(128, 32);
+            button[3].SourceRect = new Rectangle(0, 0, 128, 32);
             button[3].MouseUp += Member_MouseUp;
 
-            button[4] = new EngineButton(Settings.lang, Settings.GamePath, "Panel", 103, 30);
+            button[4] = new EngineButton(Settings.lang, Settings.GamePath, "panel", 128, 32);
             button[4].Position = new Point(posx + 270, posy + 210);
-            button[4].BorderRect = new Rectangle(9, 2, 86, 26);
+            button[4].BorderRect = new Rectangle(20, 2, 86, 26);
             button[4].Enabled = true;
-            button[4].Size = new Size2(103, 30);
-            button[4].SourceRect = new Rectangle(0, 0, 103, 30);
+            button[4].Size = new Size2(128, 32);
+            button[4].SourceRect = new Rectangle(0, 0, 128, 32);
             button[4].MouseUp += Member_MouseUp;
         }
 

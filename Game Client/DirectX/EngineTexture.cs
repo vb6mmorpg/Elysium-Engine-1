@@ -27,7 +27,7 @@ namespace Elysium_Diamond.DirectX
                 buffer = ms.ToArray();
             }
 
-           return Texture.FromFile(EngineCore.DirectXDevice, file, width, height, 0, Usage.None, Format.Unknown, Pool.Managed, Filter.Linear, Filter.Default, 0);
+           return Texture.FromFile(EngineCore.DirectXDevice, file, width, height, 0, Usage.None, Format.Unknown, Pool.Managed, Filter.None, Filter.None, 0);
         }
 
         /// <summary>
@@ -51,7 +51,7 @@ namespace Elysium_Diamond.DirectX
                 buffer = ms.ToArray();
             }
 
-            return Texture.FromFile(EngineCore.DirectXDevice, file, width, height, 0, Usage.None, Format.A16B16G16R16, Pool.Managed, Filter.Linear, Filter.Default, 0);     
+            return Texture.FromFile(EngineCore.DirectXDevice, file, width, height, 0, Usage.None, Format.A16B16G16R16, Pool.Managed, Filter.None, Filter.None, 0);     
         }
 
         /// <summary>
@@ -62,7 +62,7 @@ namespace Elysium_Diamond.DirectX
         /// <param name="height">Altura</param>
         /// <returns></returns>
         public static Texture TextureFromFile(string file, int width, int height) {
-            return Texture.FromFile(EngineCore.DirectXDevice, file, width, height, 0, Usage.None, Format.A16B16G16R16, Pool.Managed, Filter.Linear, Filter.Default, 0);
+            return Texture.FromFile(EngineCore.DirectXDevice, file, width, height, 0, Usage.None, Format.A16B16G16R16, Pool.Managed, Filter.None, Filter.None, 0);
         }
         
         /// <summary>
@@ -74,7 +74,7 @@ namespace Elysium_Diamond.DirectX
         /// <param name="color">Cor de transparência</param>
         /// <returns></returns>
         public static Texture TextureFromFile(string file, int width, int height, SharpDX.Color color) {
-            return Texture.FromFile(EngineCore.DirectXDevice, file, width, height, 0, Usage.None, Format.A16B16G16R16, Pool.Managed, Filter.Linear, Filter.Default, color.ToAbgr());
+            return Texture.FromFile(EngineCore.DirectXDevice, file, width, height, 0, Usage.None, Format.A16B16G16R16, Pool.Managed, Filter.None, Filter.None, color.ToAbgr());
         } 
 
         /// <summary>
@@ -92,7 +92,7 @@ namespace Elysium_Diamond.DirectX
                 buffer = ms.ToArray();
             }
 
-            return Texture.FromMemory(EngineCore.DirectXDevice, buffer, width, height, 0, Usage.None, Format.A16B16G16R16, Pool.Managed, Filter.Linear, Filter.Default, 0);
+            return Texture.FromMemory(EngineCore.DirectXDevice, buffer, width, height, 0, Usage.None, Format.A16B16G16R16, Pool.Managed, Filter.None, Filter.None, 0);
         }
     }
    

@@ -28,13 +28,13 @@ namespace LoginServer.Network {
             var servicesID = pData.Service.ServicesID();
             buffer.Write(servicesID.Length);
 
-            //escreve cada um no buffer
+            //escreve cada serviço no buffer
             foreach (var id in servicesID) buffer.Write(pData.Service.ServiceTime(id));
 
             WorldServerNetwork.WorldServer[worldID].SendData(buffer);
 
-            LogConfig.WriteLog($"World Server Login Attempt: {pData.Account} {pData.IP}"); 
-            LogConfig.WriteLog($"World Server Login Attempt: {pData.Account} {pData.IP}", System.Drawing.Color.Black); 
+            LogConfig.WriteLog($"World Server {Settings.Server[worldID].Name} Login Attempt: {pData.Account} {pData.IP}"); 
+            LogConfig.WriteLog($"World Server {Settings.Server[worldID].Name} Login Attempt: {pData.Account} {pData.IP}", System.Drawing.Color.Black); 
         } 
 
         /// <summary>
@@ -57,15 +57,14 @@ namespace LoginServer.Network {
         /// Desconecta o jogador em outros servidores.
         /// </summary>
         /// <param name="username"></param>
-        public static void PlayerDisconnect(string username) {
-            var pData = Authentication.FindByAccount(username);
+        public static void PlayerDisconnect(PlayerData pData) {
             NetOutgoingMessage buffer;
 
             for (var n = 0; n < Settings.MAX_SERVER; n++) {
                 if (pData.WorldResult[n]) {
                     buffer = WorldServerNetwork.WorldServer[n].Socket.CreateMessage();
                     buffer.Write((int)PacketList.LoginServer_WorldServer_DisconnectPlayer);
-                    buffer.Write(username);
+                    buffer.Write(pData.Username);
 
                     WorldServerNetwork.WorldServer[n].SendData(buffer);
                 }               

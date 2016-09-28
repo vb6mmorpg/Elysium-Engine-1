@@ -88,7 +88,6 @@
     <Compile Include="Classe\ClassesIncrement.cs" />
     <Compile Include="Enumeration\Stats.cs" />
     <Compile Include="Common\Configuration.cs" />
-    <Compile Include="Common\Cryptography.cs" />
     <Compile Include="Enumeration\PacketList.cs" />
     <Compile Include="Common\GameServerData.cs" />
     <Compile Include="Common\ServerData.cs" />

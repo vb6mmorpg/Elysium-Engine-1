@@ -10,9 +10,6 @@ namespace GameServer.Network {
         private static NetOutgoingMessage outgoingPacket;
 
         public static void initServerTCP() {
-            // Parse IP //
-            var ip = System.Net.IPAddress.Parse(Settings.IP);
-
             // SERVER TCP CONFIG //
             var config = new NetPeerConfiguration(Settings.Discovery);
             config.Port = Settings.Port;

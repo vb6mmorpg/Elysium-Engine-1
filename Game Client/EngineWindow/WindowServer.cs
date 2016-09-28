@@ -36,34 +36,33 @@ namespace Elysium_Diamond.GameWindow
         /// Inicia e configura os controles
         /// </summary>
         static public void Initialize() {
-            Position = new Point(287, 150);
+            Position = new Point(272, 150);
 
-            BackgroundImage = new EngineObject(Settings.GamePath + @"\Data\Graphics\Window_Server_1.png", 455, 360);
+            BackgroundImage = new EngineObject(Settings.GamePath + @"\Data\Graphics\window_select.png", 480, 384);
             BackgroundImage.Position = Position;
             BackgroundImage.Transparency = 230;
-            BackgroundImage.Size = new Size2(455, 360);
-            BackgroundImage.SourceRect = new Rectangle(0, 0, 455, 360);
+            BackgroundImage.Size = new Size2(480, 384);
+            BackgroundImage.SourceRect = new Rectangle(0, 0, 480, 384);
 
-            Button = new EngineButton(Language.Portuguese, Settings.GamePath, "Back", 103, 30);
-            Button.Size = new Size2(103, 30);
+            Button = new EngineButton(Language.Portuguese, Settings.GamePath, "back", 128, 32);
             Button.Position = new Point(Position.X + 175, Position.Y + 300);
-            Button.SourceRect = new Rectangle(0, 0, 103, 30);
-            Button.BorderRect = new Rectangle(9, 2, 86, 26);
-            Button.Size = new Size2(103, 30);
+            Button.SourceRect = new Rectangle(0, 0, 128, 32);
+            Button.BorderRect = new Rectangle(20, 2, 86, 26);
+            Button.Size = new Size2(128, 32);
             Button.MouseUp += BackButton_MouseUp;
 
             WindowServerRow.Initialize();
 
             Server = new List<WindowServerRow>();
-            Server.Add(new WindowServerRow(new Point(Position.X + 52, Position.Y + 50)));
+            Server.Add(new WindowServerRow(new Point(Position.X + 50, Position.Y + 50)));
             Server[0].Index = 0;
-            Server.Add(new WindowServerRow(new Point(Position.X + 52, Position.Y + 99)));
+            Server.Add(new WindowServerRow(new Point(Position.X + 50, Position.Y + 99)));
             Server[1].Index = 1;
-            Server.Add(new WindowServerRow(new Point(Position.X + 52, Position.Y + 148)));
+            Server.Add(new WindowServerRow(new Point(Position.X + 50, Position.Y + 148)));
             Server[2].Index = 2;
-            Server.Add(new WindowServerRow(new Point(Position.X + 52, Position.Y + 197)));
+            Server.Add(new WindowServerRow(new Point(Position.X + 50, Position.Y + 197)));
             Server[3].Index = 3;
-            Server.Add(new WindowServerRow(new Point(Position.X + 52, Position.Y + 246)));
+            Server.Add(new WindowServerRow(new Point(Position.X + 50, Position.Y + 246)));
             Server[4].Index = 4;
         }
 

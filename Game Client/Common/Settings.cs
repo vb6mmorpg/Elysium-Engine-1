@@ -8,6 +8,8 @@ namespace Elysium_Diamond.Common
 {
     public class Settings
     {
+
+        public static string CheckSumClient { get; set; }
         public static string LoginServerIP = "127.0.0.1";
         public static int LoginServerPort = 44405;
 
@@ -16,8 +18,6 @@ namespace Elysium_Diamond.Common
 
         public static string WorldServerIP { get; set; }
         public static int WorldServerPort { get; set; }
-
-        public static string clientSerial = "#elysium#";
 
         public const string Version = "1.0.155";
 
