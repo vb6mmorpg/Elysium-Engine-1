@@ -1,4 +1,5 @@
 ﻿using System;
+using WorldServer.Common;
 
 namespace WorldServer.Classe {
     public class ClassesIncrement {
@@ -14,46 +15,45 @@ namespace WorldServer.Classe {
         public int Charisma { get; set; }
         public int Points { get; set; }
 
-        private const int MAX_STATS = 10;
-        private int[] inc_MaxHP = new int[MAX_STATS];
-        private int[] inc_MaxMP = new int[MAX_STATS];
-        private int[] inc_MaxSP = new int[MAX_STATS];
-        private int[] inc_RegenHP = new int[MAX_STATS];
-        private int[] inc_RegenMP = new int[MAX_STATS];
-        private int[] inc_RegenSP = new int[MAX_STATS];
-        private int[] inc_DamageSuppression = new int[MAX_STATS];
-        private int[] inc_Enmity = new int[MAX_STATS];
-        private int[] inc_AdditionalDamage = new int[MAX_STATS];
-        private int[] inc_HealingPower = new int[MAX_STATS];
-        private int[] inc_Concentration = new int[MAX_STATS];
-        private int[] inc_AttackSpeed = new int[MAX_STATS];
-        private int[] inc_CastSpeed = new int[MAX_STATS];
-        private int[] inc_Attack = new int[MAX_STATS];
-        private int[] inc_Accuracy = new int[MAX_STATS];
-        private int[] inc_Defense = new int[MAX_STATS];
-        private int[] inc_Evasion = new int[MAX_STATS];
-        private int[] inc_Block = new int[MAX_STATS];
-        private int[] inc_Parry = new int[MAX_STATS];
-        private int[] inc_CriticalRate = new int[MAX_STATS];
-        private int[] inc_CriticalDamage = new int[MAX_STATS];
-        private int[] inc_MagicAttack = new int[MAX_STATS];
-        private int[] inc_MagicAccuracy = new int[MAX_STATS];
-        private int[] inc_MagicDefense = new int[MAX_STATS];
-        private int[] inc_MagicResist = new int[MAX_STATS];
-        private int[] inc_MagicCriticalRate = new int[MAX_STATS];
-        private int[] inc_MagicCriticalDamage = new int[MAX_STATS];
-        private int[] inc_AttributeFire = new int[MAX_STATS];
-        private int[] inc_AttributeWater = new int[MAX_STATS];
-        private int[] inc_AttributeEarth = new int[MAX_STATS];
-        private int[] inc_AttributeWind = new int[MAX_STATS];
-        private int[] inc_ResistStun = new int[MAX_STATS];
-        private int[] inc_ResistBlind = new int[MAX_STATS];
-        private int[] inc_ResistParalysis = new int[MAX_STATS];
-        private int[] inc_ResistSilence = new int[MAX_STATS];
-        private int[] inc_ResistCriticalRate = new int[MAX_STATS];
-        private int[] inc_ResistCriticalDamage = new int[MAX_STATS];
-        private int[] inc_ResistMagicCriticalRate = new int[MAX_STATS];
-        private int[] inc_ResistMagicCriticalDamage = new int[MAX_STATS];
+        private int[] inc_MaxHP = new int[Constant.MAX_STATS];
+        private int[] inc_MaxMP = new int[Constant.MAX_STATS];
+        private int[] inc_MaxSP = new int[Constant.MAX_STATS];
+        private int[] inc_RegenHP = new int[Constant.MAX_STATS];
+        private int[] inc_RegenMP = new int[Constant.MAX_STATS];
+        private int[] inc_RegenSP = new int[Constant.MAX_STATS];
+        private int[] inc_DamageSuppression = new int[Constant.MAX_STATS];
+        private int[] inc_Enmity = new int[Constant.MAX_STATS];
+        private int[] inc_AdditionalDamage = new int[Constant.MAX_STATS];
+        private int[] inc_HealingPower = new int[Constant.MAX_STATS];
+        private int[] inc_Concentration = new int[Constant.MAX_STATS];
+        private int[] inc_AttackSpeed = new int[Constant.MAX_STATS];
+        private int[] inc_CastSpeed = new int[Constant.MAX_STATS];
+        private int[] inc_Attack = new int[Constant.MAX_STATS];
+        private int[] inc_Accuracy = new int[Constant.MAX_STATS];
+        private int[] inc_Defense = new int[Constant.MAX_STATS];
+        private int[] inc_Evasion = new int[Constant.MAX_STATS];
+        private int[] inc_Block = new int[Constant.MAX_STATS];
+        private int[] inc_Parry = new int[Constant.MAX_STATS];
+        private int[] inc_CriticalRate = new int[Constant.MAX_STATS];
+        private int[] inc_CriticalDamage = new int[Constant.MAX_STATS];
+        private int[] inc_MagicAttack = new int[Constant.MAX_STATS];
+        private int[] inc_MagicAccuracy = new int[Constant.MAX_STATS];
+        private int[] inc_MagicDefense = new int[Constant.MAX_STATS];
+        private int[] inc_MagicResist = new int[Constant.MAX_STATS];
+        private int[] inc_MagicCriticalRate = new int[Constant.MAX_STATS];
+        private int[] inc_MagicCriticalDamage = new int[Constant.MAX_STATS];
+        private int[] inc_AttributeFire = new int[Constant.MAX_STATS];
+        private int[] inc_AttributeWater = new int[Constant.MAX_STATS];
+        private int[] inc_AttributeEarth = new int[Constant.MAX_STATS];
+        private int[] inc_AttributeWind = new int[Constant.MAX_STATS];
+        private int[] inc_ResistStun = new int[Constant.MAX_STATS];
+        private int[] inc_ResistBlind = new int[Constant.MAX_STATS];
+        private int[] inc_ResistParalysis = new int[Constant.MAX_STATS];
+        private int[] inc_ResistSilence = new int[Constant.MAX_STATS];
+        private int[] inc_ResistCriticalRate = new int[Constant.MAX_STATS];
+        private int[] inc_ResistCriticalDamage = new int[Constant.MAX_STATS];
+        private int[] inc_ResistMagicCriticalRate = new int[Constant.MAX_STATS];
+        private int[] inc_ResistMagicCriticalDamage = new int[Constant.MAX_STATS];
 
         /// <summary>
         /// Altera determinado 'stat'.
@@ -280,45 +280,45 @@ namespace WorldServer.Classe {
         /// </summary>
         public void Clear() {
             Strenght = Dexterity = Agility = Constitution = Intelligence = Wisdom = Will = Mind = Charisma = Points = 0;
-            Array.Clear(inc_MaxHP, 0, MAX_STATS);
-            Array.Clear(inc_MaxMP, 0, MAX_STATS);
-            Array.Clear(inc_MaxSP, 0, MAX_STATS);
-            Array.Clear(inc_RegenHP, 0, MAX_STATS);
-            Array.Clear(inc_RegenMP, 0, MAX_STATS);
-            Array.Clear(inc_RegenSP, 0, MAX_STATS);
-            Array.Clear(inc_DamageSuppression, 0, MAX_STATS);
-            Array.Clear(inc_Enmity, 0, MAX_STATS);
-            Array.Clear(inc_AdditionalDamage, 0, MAX_STATS);
-            Array.Clear(inc_HealingPower, 0, MAX_STATS);
-            Array.Clear(inc_Concentration, 0, MAX_STATS);
-            Array.Clear(inc_AttackSpeed, 0, MAX_STATS);
-            Array.Clear(inc_CastSpeed, 0, MAX_STATS);
-            Array.Clear(inc_Attack, 0, MAX_STATS);
-            Array.Clear(inc_Accuracy, 0, MAX_STATS);
-            Array.Clear(inc_Defense, 0, MAX_STATS);
-            Array.Clear(inc_Evasion, 0, MAX_STATS);
-            Array.Clear(inc_Block, 0, MAX_STATS);
-            Array.Clear(inc_Parry, 0, MAX_STATS);
-            Array.Clear(inc_CriticalRate, 0, MAX_STATS);
-            Array.Clear(inc_CriticalDamage, 0, MAX_STATS);
-            Array.Clear(inc_MagicAttack, 0, MAX_STATS);
-            Array.Clear(inc_MagicAccuracy, 0, MAX_STATS);
-            Array.Clear(inc_MagicDefense, 0, MAX_STATS);
-            Array.Clear(inc_MagicResist, 0, MAX_STATS);
-            Array.Clear(inc_MagicCriticalRate, 0, MAX_STATS);
-            Array.Clear(inc_MagicCriticalDamage, 0, MAX_STATS);
-            Array.Clear(inc_AttributeFire, 0, MAX_STATS);
-            Array.Clear(inc_AttributeWater, 0, MAX_STATS);
-            Array.Clear(inc_AttributeEarth, 0, MAX_STATS);
-            Array.Clear(inc_AttributeWind, 0, MAX_STATS);
-            Array.Clear(inc_ResistStun, 0, MAX_STATS);
-            Array.Clear(inc_ResistParalysis, 0, MAX_STATS);
-            Array.Clear(inc_ResistSilence, 0, MAX_STATS);
-            Array.Clear(inc_ResistBlind, 0, MAX_STATS);
-            Array.Clear(inc_ResistCriticalRate, 0, MAX_STATS);
-            Array.Clear(inc_ResistCriticalDamage, 0, MAX_STATS);
-            Array.Clear(inc_ResistMagicCriticalRate, 0, MAX_STATS);
-            Array.Clear(inc_ResistMagicCriticalDamage, 0, MAX_STATS);
+            Array.Clear(inc_MaxHP, 0, Constant.MAX_STATS);
+            Array.Clear(inc_MaxMP, 0, Constant.MAX_STATS);
+            Array.Clear(inc_MaxSP, 0, Constant.MAX_STATS);
+            Array.Clear(inc_RegenHP, 0, Constant.MAX_STATS);
+            Array.Clear(inc_RegenMP, 0, Constant.MAX_STATS);
+            Array.Clear(inc_RegenSP, 0, Constant.MAX_STATS);
+            Array.Clear(inc_DamageSuppression, 0, Constant.MAX_STATS);
+            Array.Clear(inc_Enmity, 0, Constant.MAX_STATS);
+            Array.Clear(inc_AdditionalDamage, 0, Constant.MAX_STATS);
+            Array.Clear(inc_HealingPower, 0, Constant.MAX_STATS);
+            Array.Clear(inc_Concentration, 0, Constant.MAX_STATS);
+            Array.Clear(inc_AttackSpeed, 0, Constant.MAX_STATS);
+            Array.Clear(inc_CastSpeed, 0, Constant.MAX_STATS);
+            Array.Clear(inc_Attack, 0, Constant.MAX_STATS);
+            Array.Clear(inc_Accuracy, 0, Constant.MAX_STATS);
+            Array.Clear(inc_Defense, 0, Constant.MAX_STATS);
+            Array.Clear(inc_Evasion, 0, Constant.MAX_STATS);
+            Array.Clear(inc_Block, 0, Constant.MAX_STATS);
+            Array.Clear(inc_Parry, 0, Constant.MAX_STATS);
+            Array.Clear(inc_CriticalRate, 0, Constant.MAX_STATS);
+            Array.Clear(inc_CriticalDamage, 0, Constant.MAX_STATS);
+            Array.Clear(inc_MagicAttack, 0, Constant.MAX_STATS);
+            Array.Clear(inc_MagicAccuracy, 0, Constant.MAX_STATS);
+            Array.Clear(inc_MagicDefense, 0, Constant.MAX_STATS);
+            Array.Clear(inc_MagicResist, 0, Constant.MAX_STATS);
+            Array.Clear(inc_MagicCriticalRate, 0, Constant.MAX_STATS);
+            Array.Clear(inc_MagicCriticalDamage, 0, Constant.MAX_STATS);
+            Array.Clear(inc_AttributeFire, 0, Constant.MAX_STATS);
+            Array.Clear(inc_AttributeWater, 0, Constant.MAX_STATS);
+            Array.Clear(inc_AttributeEarth, 0, Constant.MAX_STATS);
+            Array.Clear(inc_AttributeWind, 0, Constant.MAX_STATS);
+            Array.Clear(inc_ResistStun, 0, Constant.MAX_STATS);
+            Array.Clear(inc_ResistParalysis, 0, Constant.MAX_STATS);
+            Array.Clear(inc_ResistSilence, 0, Constant.MAX_STATS);
+            Array.Clear(inc_ResistBlind, 0, Constant.MAX_STATS);
+            Array.Clear(inc_ResistCriticalRate, 0, Constant.MAX_STATS);
+            Array.Clear(inc_ResistCriticalDamage, 0, Constant.MAX_STATS);
+            Array.Clear(inc_ResistMagicCriticalRate, 0, Constant.MAX_STATS);
+            Array.Clear(inc_ResistMagicCriticalDamage, 0, Constant.MAX_STATS);
         }
     }
 }

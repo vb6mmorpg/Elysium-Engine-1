@@ -84,9 +84,9 @@
     <Compile Include="Classes\Classes.cs" />
     <Compile Include="Classes\ClassesBase.cs" />
     <Compile Include="Classes\ClassesIncrement.cs" />
+    <Compile Include="Common\Constant.cs" />
     <Compile Include="Enumeration\Stats.cs" />
     <Compile Include="Common\Configuration.cs" />
-    <Compile Include="Common\Cryptography.cs" />
     <Compile Include="Enumeration\Enumeration.cs" />
     <Compile Include="Common\LogConfig.cs" />
     <Compile Include="Enumeration\PacketList.cs" />
@@ -115,6 +115,8 @@
     <Compile Include="Npcs\NpcGeneral.cs" />
     <Compile Include="Npcs\NpcData.cs" />
     <Compile Include="Server\Authentication.cs" />
+    <Compile Include="Server\Experience.cs" />
+    <Compile Include="Server\GameData.cs" />
     <Compile Include="Server\HexID.cs" />
     <Compile Include="Server\PlayerData.cs" />
     <Compile Include="Common\Settings.cs" />

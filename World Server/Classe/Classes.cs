@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using WorldServer.Common;
 
 namespace WorldServer.Classe {
     public static class Classes {
@@ -63,7 +64,7 @@ namespace WorldServer.Classe {
             if (incrementIndex <= -1) { return 0; }
 
             // Pega os valores para calculo
-            int[] sValue = new int[10];
+            int[] sValue = new int[Constant.MAX_STATS];
             sValue[0] = ClassesBase[classeIndex].Level;
             sValue[1] = ClassesBase[classeIndex].Strenght;
             sValue[2] = ClassesBase[classeIndex].Dexterity;

@@ -1,0 +1,3 @@
+09/29/2016 00:35:34: Connected World Server #火星
+09/29/2016 00:36:27: World Server #火星 disconnected
+09/29/2016 00:37:24: Connected World Server #火星

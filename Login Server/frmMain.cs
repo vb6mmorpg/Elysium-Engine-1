@@ -87,7 +87,7 @@ namespace LoginServer
             WriteLog($"Sleep: {Settings.Sleep}", Color.Black);
 
             Settings.Version = Configuration.GetString("CheckVersion");
-            WriteLog($"Version: {Settings.Version}", Color.Black);
+            WriteLog($"Version: {Settings.Version}", Color.BlueViolet);
 
             if (Settings.LogSystem == 1) {
                 WriteLog("LogSystem - Ativado.", Color.Green);

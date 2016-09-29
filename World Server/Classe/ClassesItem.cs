@@ -1,16 +1,17 @@
 ﻿using WorldServer.Items;
+using WorldServer.Common;
 
 namespace WorldServer.Classe  {
     public class ClassesItem {
         //15 = max item
-        public Item[] Equipped { get; set; } = new Item[15];
+        public Item[] Equipped { get; set; } = new Item[Constant.MAX_ITEM];
 
         /// <summary>
         /// Construtor
         /// </summary>
         public ClassesItem() {
             //15 = max_item
-            for(var index = 0; index < 15; index++) {
+            for(var index = 0; index < Constant.MAX_ITEM; index++) {
                 Equipped[index] = new Item();
             }
         }

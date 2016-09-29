@@ -43,7 +43,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.general_textbox.BackColor = System.Drawing.Color.White;
-            this.general_textbox.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.general_textbox.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.general_textbox.Location = new System.Drawing.Point(12, 35);
             this.general_textbox.Name = "general_textbox";
             this.general_textbox.ReadOnly = true;

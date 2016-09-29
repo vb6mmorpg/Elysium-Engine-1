@@ -33,7 +33,12 @@ namespace WorldServer.Network {
 
             //nome do personagem 
             var charName = data.ReadString();
-
+            //se encontrar nome nao permitido, envia mensagem de erro
+            if (!ProhibitedNames.Compare(charName)) {
+                WorldServerPacket.Message(connection, (int)PacketList.WorldServer_Client_CharNameInUse);
+                return;
+            }
+            
             // Se o nome existir no banco de dados, envia mensagem de erro
             if (Character_DB.Exist(charName)) {
                 WorldServerPacket.Message(connection, (int)PacketList.WorldServer_Client_CharNameInUse);
@@ -60,8 +65,7 @@ namespace WorldServer.Network {
             // Character_DB.InsertInitialItems(charName, classe);
 
             // Carrega os personagens
-            const int MAX_CHAR = 4;
-            for (var n = 0; n < MAX_CHAR; n++) {
+            for (var n = 0; n < Constant.MAX_CHAR; n++) {
                 pData.Character[n] = new Character() { Name = string.Empty } ;
 
                 Character_DB.PreLoad(pData, n);
@@ -91,7 +95,7 @@ namespace WorldServer.Network {
 
             // Se o ocorrer algum erro, envia mensagem de erro
             // level -1, não encontrou dados do personagem
-            if (level == -1) {
+            if (level <= 0) {
                 WorldServerPacket.Message(connection, (int)PacketList.Error);
                 return;
             }       
@@ -109,7 +113,7 @@ namespace WorldServer.Network {
             // Deleta o personagem
             Character_DB.Delete(pData.AccountID, slot);
 
-            for (var n = 0; n < 4; n++) {
+            for (var n = 0; n < Constant.MAX_CHAR; n++) {
                 pData.Character[n] = new Character() { Name = string.Empty };
 
                 //Carrega os personagens (preload)

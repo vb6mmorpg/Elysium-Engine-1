@@ -57,7 +57,7 @@ namespace WorldServer.Network {
             var buffer = WorldServerNetwork.Socket.CreateMessage();
             buffer.Write((int)PacketList.WorldServer_Client_CharacterPreLoad);
 
-            for (var n = 0; n < 4; n++) {
+            for (var n = 0; n < Constant.MAX_CHAR; n++) {
                 buffer.Write(pData.Character[n].Name);
                 buffer.Write(pData.Character[n].Class);
                 buffer.Write(pData.Character[n].Sprite);

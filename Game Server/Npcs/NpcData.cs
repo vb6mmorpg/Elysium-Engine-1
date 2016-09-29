@@ -1,10 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace GameServer.Npcs { 
-    public class NpcData : ICloneable  {
-        private const int MAX_SHOP = 5;
-        private const int MAX_QUEST = 10;
-        private const int MAX_SKILL = 10;
+    public class NpcData : ICloneable {
 
         public int ID { get; set; }
         public int Type { get; set; }
@@ -45,9 +43,9 @@ namespace GameServer.Npcs {
         public int X { get; set; }
         public int Y { get; set; }
 
-        public int[] Shop { get; set; } = new int[MAX_SHOP];
-        public int[] Skill { get; set; } = new int[MAX_SKILL];
-        public int[] Quest { get; set; } = new int[MAX_QUEST];
+        public HashSet<int> Shop { get; set; } = new HashSet<int>();
+        public HashSet<int> Skill { get; set; } = new HashSet<int>();
+        public HashSet<int> Quest { get; set; } = new HashSet<int>();
 
         public object Clone() {
             return this.MemberwiseClone();
@@ -62,7 +60,7 @@ namespace GameServer.Npcs {
             var lenght = data.Length;
 
             for (var n = 0; n < lenght; n++) {
-                Quest[n] = Convert.ToInt32(data[n]);
+                Quest.Add(Convert.ToInt32(data[n]));
             }
         }
 
@@ -75,7 +73,7 @@ namespace GameServer.Npcs {
             var lenght = data.Length;
 
             for (var n = 0; n < lenght; n++) {
-                Skill[n] = Convert.ToInt32(data[n]);
+                Skill.Add(Convert.ToInt32(data[n]));
             }
         }
 
@@ -88,7 +86,7 @@ namespace GameServer.Npcs {
             var lenght = data.Length;
 
             for (var n = 0; n < lenght; n++) {
-                Shop[n] = Convert.ToInt32(data[n]);
+                Shop.Add(Convert.ToInt32(data[n]));
             }
         }
     }

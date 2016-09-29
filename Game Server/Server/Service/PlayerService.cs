@@ -5,6 +5,15 @@ namespace GameServer.Server {
     public class PlayerService {
         Hashtable service = new Hashtable();
 
+        //por problemas de 'formato de datas', mantenho esse padrão
+        const int YEAR = 2;
+        const int MONTH = 1;
+        const int DAY = 0;
+
+        const int HOUR = 0;
+        const int MINUTE = 1;
+        const int SECONDS = 0;
+
         /// <summary>
         /// Adiciona um novo serviço de usuário com data e ID.
         /// </summary>
@@ -24,15 +33,6 @@ namespace GameServer.Server {
         /// <param name="id"></param>
         /// <param name="dateTime"></param>
         public void Add(int id, string dateTime) {
-            //por problemas de 'formato de datas', mantenho esse padrão
-            const int YEAR = 2;
-            const int MONTH = 1;
-            const int DAY = 0;
-
-            const int HOUR = 0;
-            const int MINUTE = 1;
-            const int SECONDS = 0;
-
             var fulldate = dateTime.Split(' ');
             var date = fulldate[0].Split('/'); //quebra para pegar a data
             var hour = fulldate[1].Split(':'); //quebra para pegar a hora e minuto

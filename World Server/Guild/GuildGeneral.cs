@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using WorldServer.Common;
-using WorldServer.MySQL;
-using WorldServer.Network;
 
 namespace WorldServer.GameGuild {
     public partial class Guild {

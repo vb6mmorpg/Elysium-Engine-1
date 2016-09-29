@@ -4,6 +4,10 @@ using System.Threading;
 
 namespace GameServer.Server{
     public class ServerLoop {
+
+        public static void Initialize() {
+
+        }
     
         public static void Loop() {
             // Percorre todos os hexid e verifica se o tempo limite já foi ultrapassado ...
@@ -17,6 +21,10 @@ namespace GameServer.Server{
             GameServerNetwork.ReceiveData();
 
             if (Settings.Sleep > 0) { Thread.Sleep(Settings.Sleep); }          
+        }
+
+        public static void Close() {
+
         }
     }
 }

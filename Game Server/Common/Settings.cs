@@ -1,10 +1,5 @@
 ﻿namespace GameServer.Common {
     public class Settings {
-        public const int MAX_SERVER = 5;
-
-        public const string FILE_CONFIG = "ServerConfig.txt";
-
-        public static bool IsTestServer { get; set; }
         /// <summary>
         /// 
         /// </summary>
@@ -29,6 +24,7 @@
         /// Connect Server Port
         /// </summary>
         public static int LoginServerPort { get; set; }
+
 
         public static string[] WorldServerID { get; set; }
         /// <summary>
@@ -59,17 +55,11 @@
         /// <summary>
         /// 
         /// </summary>
+        public static int ConnectionTimeOut { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
         public static byte OnlinePlayer { get; set; }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        public static string ClientSerial { get; set; }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        public static string Key { get; set; }
 
         /// <summary>
         /// 

@@ -6,10 +6,8 @@ namespace WorldServer.Server {
     public class PlayerLogin {
         public static void Login(PlayerData pData) {
             // Carrega os personagens para aprensetar ao cliente.
-            //4 = max_character
-            const int MAX_CHAR = 4;
 
-            for (var n = 0; n < MAX_CHAR; n++) {
+            for (var n = 0; n < Constant.MAX_CHAR; n++) {
                 pData.Character[n] = new Character() { Name = string.Empty } ;
                                               
                 Character_DB.PreLoad(pData, n);
@@ -26,6 +24,5 @@ namespace WorldServer.Server {
             // Muda de janela
             WorldServerPacket.GameState(pData.HexID, 3);
         }
-
     }
 }

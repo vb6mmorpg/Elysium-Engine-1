@@ -1,5 +1,6 @@
 ﻿using System;
 using WorldServer.Network;
+using WorldServer.Common;
 
 namespace WorldServer.Server {
     public class World {
@@ -24,6 +25,10 @@ namespace WorldServer.Server {
             catch (Exception ex) {
                 throw new Exception($"Ocorreu um erro: {ex.Message}", ex);
             }
+        }
+
+        public static void Close() {
+            ProhibitedNames.Clear();
         }
     }
 

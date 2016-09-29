@@ -12,7 +12,7 @@ namespace GameServer.MySQL {
         /// Carrega todos os NPC.
         /// </summary>
         public static void InitializeNpc() {
-            var varQuery = "SELECT * FROM data_npc";
+            var varQuery = "SELECT * FROM npc_data";
             var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
             var reader = cmd.ExecuteReader();
             NpcData npc;

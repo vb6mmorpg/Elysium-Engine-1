@@ -86,6 +86,7 @@
     <Compile Include="Classe\ClassesBase.cs" />
     <Compile Include="Classe\Classes.cs" />
     <Compile Include="Classe\ClassesIncrement.cs" />
+    <Compile Include="Common\Constant.cs" />
     <Compile Include="Enumeration\Stats.cs" />
     <Compile Include="Common\Configuration.cs" />
     <Compile Include="Enumeration\PacketList.cs" />
@@ -95,14 +96,15 @@
     <Compile Include="Guild\GuildFunction.cs" />
     <Compile Include="Items\Item.cs" />
     <Compile Include="Enumeration\Item.cs" />
-    <Compile Include="Lua\LuaConfig.cs" />
+    <Compile Include="LuaScritp\LuaConfig.cs" />
     <Compile Include="MySQL\Character_DB.cs" />
     <Compile Include="MySQL\Classes_DB.cs" />
-    <Compile Include="Network\Game\GameServerHandleData.cs" />
+    <Compile Include="Network\Game\GameServerData.cs" />
     <Compile Include="Network\Game\GameServerPacket.cs" />
     <Compile Include="Network\Game\NetworkClient.cs" />
     <Compile Include="Network\Game\GameServerNetwork.cs" />
     <Compile Include="Server\AuthenticationFunction.cs" />
+    <Compile Include="Server\ProhibitedNames.cs" />
     <Compile Include="Server\Character.cs" />
     <Compile Include="Server\HexID.cs" />
     <Compile Include="Common\Settings.cs" />

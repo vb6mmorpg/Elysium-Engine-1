@@ -10,7 +10,7 @@ using WorldServer.Classe;
 using WorldServer.GameGuild;
 using System.Runtime.InteropServices;
 using System.Threading;
-using WorldServer.LUA;
+using WorldServer.LuaScript;
 
 namespace WorldServer {        
     public partial class frmMain : Form {
@@ -70,12 +70,12 @@ namespace WorldServer {
             trayIcon = new NotifyIcon();
             trayMenu = new ContextMenu();
 
-            Configuration.ParseConfigFile(Settings.FileConfig);
+            Configuration.ParseConfigFile(Constant.FILE_CONFIG);
 
             // CARREGA TODAS AS INFORMAÇÕES DE CONFIURAÇÃO 
             Settings.WorldServerName = Configuration.GetString("WorldServerName");
-            WriteLog($"WorldServerName: {Settings.WorldServerName}", Color.CornflowerBlue);
-            this.Text = "World Server @ " + Settings.WorldServerName;
+            WriteLog($"World Server Name: {Settings.WorldServerName}", Color.CornflowerBlue);
+            this.Text = $"World Server @ {Settings.WorldServerName}";
             
             Settings.Discovery = Configuration.GetString("Discovery");
             WriteLog($"Discovery: {Settings.Discovery}", Color.Black);
@@ -192,7 +192,7 @@ namespace WorldServer {
             Settings.GameServer = new List<ServerData>();
             var enabled = 0;
 
-            for (var i = 0; i < Settings.MAX_SERVER; i++) {
+            for (var i = 0; i < Constant.MAX_SERVER; i++) {
                 Settings.GameServer.Add(new ServerData());              
 
                 enabled = Configuration.GetInt32((i + 1) + "_Enabled");

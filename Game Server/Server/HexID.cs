@@ -8,7 +8,10 @@
         public int CharSlot { get; set; }
         public int LanguageID { get; set; }
         public int AccessLevel { get; set; }
-        public string Pin { get; set; } // nao usado
+        /// <summary>
+        /// 使用はない
+        /// </summary>
+        public string Pin { get; set; } 
         public PlayerService Service { get; set; }
 
         public HexaID() {

@@ -2,13 +2,7 @@
 using System.Collections.Generic;
 
 namespace WorldServer.Common {
-    public static class Settings {
-        
-        /// <summary>
-        /// Quantidade de servidores. 
-        /// </summary>
-        public const int MAX_SERVER = 5;
-
+    public static class Settings {      
         /// <summary>
         /// Descoberta de conexão.
         /// </summary>
@@ -53,11 +47,6 @@ namespace WorldServer.Common {
         /// Caminho do executável.
         /// </summary>
         public static string ServerPath { get; } = Environment.CurrentDirectory;
-
-        /// <summary>
-        /// Arquivo de configuração.
-        /// </summary>
-        public const string FileConfig = "WorldConfig.txt";
 
         public static bool CharacterCreation { get; set; }
         public static bool CharacterDelete { get; set; }

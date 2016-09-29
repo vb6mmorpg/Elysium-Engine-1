@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using WorldServer.Common;
 
 namespace WorldServer.Network {
@@ -14,13 +11,13 @@ namespace WorldServer.Network {
         /// <summary>
         /// Cliente de conexão com o game server.
         /// </summary>
-        public static NetworkClient[] GameServer = new NetworkClient[Settings.MAX_SERVER];
+        public static NetworkClient[] GameServer = new NetworkClient[Constant.MAX_SERVER];
 
         /// <summary>
         /// Inicializa e configura as 5 conexões com GameServer
         /// </summary>
         public static void InitializeGameServer() {
-            for (var n = 0; n < Settings.MAX_SERVER; n++) {
+            for (var n = 0; n < Constant.MAX_SERVER; n++) {
                 GameServer[n] = new NetworkClient();
 
                 //se possível, manter a conexão do game server em rede local para maior desempenho.
@@ -38,7 +35,7 @@ namespace WorldServer.Network {
             if (Environment.TickCount >= (tick + 10000)) {
                 tick = Environment.TickCount;
 
-                for (var n = 0; n < Settings.MAX_SERVER; n++) {
+                for (var n = 0; n < Constant.MAX_SERVER; n++) {
                     GameServer[n].DiscoverServer();
                 }
             }
@@ -48,7 +45,7 @@ namespace WorldServer.Network {
         /// Recebe os dados de cada GameServer
         /// </summary>
         public static void GameServerReceiveData() {
-            for (var n = 0; n < Settings.MAX_SERVER; n++) {
+            for (var n = 0; n < Constant.MAX_SERVER; n++) {
                 GameServer[n].ReceiveData(n);
             }
         }

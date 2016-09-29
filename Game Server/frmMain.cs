@@ -3,7 +3,6 @@ using System.Runtime.InteropServices;
 using System.Collections.Generic;
 using System.Windows.Forms;
 using System.Drawing;
-using System.IO;
 using GameServer.Common;
 using GameServer.MySQL;
 using GameServer.Server;
@@ -70,13 +69,40 @@ namespace GameServer
             general_textbox.Text = string.Empty;
         }
 
-        public void Initialize() {
+        public void InitializeServer() {
             var error = string.Empty;
 
-            Configuration.ParseConfigFile(Settings.FILE_CONFIG);
-
             LogConfig.OpenFileLog();
-            LogConfig.WriteLog("Carregando dados de mysql.", Color.Black);
+            Configuration.ParseConfigFile(Constant.FILE_CONFIG);
+
+            Settings.Name = Configuration.GetString("Name");
+            LogConfig.WriteLog($"Game Server Name: {Settings.Name}", Color.CornflowerBlue);
+            this.Text = $"Game Server @ {Settings.Name}";
+
+            Settings.Discovery = Configuration.GetString("Discovery");
+            LogConfig.WriteLog($"Discovery: {Settings.Discovery}", Color.Black);
+
+            Settings.Port = Configuration.GetInt32("Port");
+            LogConfig.WriteLog($"Port: {Settings.Port}", Color.Black);
+
+            Settings.MaxConnection = Configuration.GetInt32("MaximumConnections");
+            LogConfig.WriteLog($"MaximumConnections: {Settings.MaxConnection}", Color.Black);
+
+            Settings.ConnectionTimeOut = Configuration.GetInt32("ConnectionTimeOut");
+            LogConfig.WriteLog($"ConnectionTimeOut: {Settings.ConnectionTimeOut}", Color.Black);
+
+            Settings.Logs = Convert.ToBoolean(Configuration.GetInt32("LogSystem"));
+            LogConfig.WriteLog($"Logs: {Settings.Logs}", Color.Black);
+
+            Settings.Sleep = Configuration.GetInt32("Sleep");
+            LogConfig.WriteLog($"Sleep: {Settings.Sleep}", Color.Black);
+
+            Settings.ID = Configuration.GetString("ID");
+            LogConfig.WriteLog($"Game Server ID: {Settings.ID}", Color.Black);
+
+            Settings.WorldServerID = new string[Constant.MAX_SERVER];
+
+            LogConfig.WriteLog("Carregando config mysql", Color.Black);
 
             Common_DB.Server = Configuration.GetString("MySQL_IP");
             Common_DB.Port = Configuration.GetInt32("MySQL_Port");
@@ -84,70 +110,44 @@ namespace GameServer
             Common_DB.Password = Configuration.GetString("MySQL_Pass");
             Common_DB.Database = Configuration.GetString("MySQL_DB");
 
-            Settings.ID = Configuration.GetString("ID");
-            LogConfig.WriteLog("ID: " + Settings.ID, Color.Black);
-
-            Settings.Name = Configuration.GetString("Name");
-            LogConfig.WriteLog("Name: " + Settings.Name, Color.Black);
-
-            Settings.Discovery = Configuration.GetString("Discovery");
-            LogConfig.WriteLog("Discovery: " + Settings.Discovery, Color.Black);
-
-            Settings.Port = Configuration.GetInt32("Port");
-            LogConfig.WriteLog("Port: " + Settings.Port, Color.Black);
-
-            Settings.MaxConnection = Configuration.GetInt32("MaximumConnections");
-            LogConfig.WriteLog("MaximumConnections: " + Settings.MaxConnection, Color.Black);
-
-            Settings.Logs = Convert.ToBoolean(Configuration.GetInt32("LogSystem"));
-            LogConfig.WriteLog("Logs: " + Settings.Logs, Color.Black);
-
-            Settings.ClientSerial = Configuration.GetString("ClientSerial");
-            LogConfig.WriteLog("ClientSerial: " + Settings.ClientSerial, Color.Black);
-
-            Settings.Sleep = Configuration.GetInt32("Sleep");
-            LogConfig.WriteLog("Sleep: " + Settings.Sleep, Color.Black);
-
-            Settings.IsTestServer = Convert.ToBoolean(Configuration.GetInt32("IsTestServer"));
-            LogConfig.WriteLog("TestServer: " + Settings.IsTestServer, Color.Coral);
-            
-            Settings.WorldServerID = new string[Settings.MAX_SERVER];
-
-            for (int n = 0; n < Settings.MAX_SERVER; n++) {
-                Settings.WorldServerID[n] = Configuration.GetString((n + 1) + "_WorldID");
-                LogConfig.WriteLog("WorldServer " + (n + 1) + " ID: " + Settings.WorldServerID[n], Color.Coral);
-            }
-
             // Tenta se conectar ao banco de dados
-            if (!Common_DB.Connect(out error)) {   
+            if (!Common_DB.Connect(out error)) {
                 LogConfig.WriteLog(error, Color.Red);
-            } else {
+            }
+            else {
                 LogConfig.WriteLog("Connectado ao banco de dados", Color.Green);
             }
 
             if (!string.IsNullOrEmpty(error)) { LogConfig.WriteLog(error, Color.Red); }
 
+            for (int n = 0; n < Constant.MAX_SERVER; n++) {
+                Settings.WorldServerID[n] = Configuration.GetString($"{n + 1}_WorldID");
+                LogConfig.WriteLog($"WorldServer {n + 1}  ID: {Settings.WorldServerID[n]}", Color.Coral);
+            }
+
             LogConfig.WriteLog("Carregando experiência", Color.Black);
             ServerData_DB.LoadExperience();
-            LogConfig.WriteLog("Exp Máximo: " + (ServerData_DB.Experience.Count - 1) + " " + ServerData_DB.Experience[ServerData_DB.Experience.Count - 1], Color.Black);
+            LogConfig.WriteLog($"Level Max: {GameData.Level.LevelMax}", Color.BlueViolet);
+            LogConfig.WriteLog($"Exp Max: {GameData.Level[GameData.Level.LevelMax]}", Color.BlueViolet);
 
             Guild.Guilds = null;
             // Prepara as classes para receber dados
             Guild.Guilds = new HashSet<Guild>();
 
             // Carrega todos os dados de guild
-            LogConfig.WriteLog("Carregando guilds.", Color.Black);
+            LogConfig.WriteLog("Carregando guilds", Color.Black);
             Guild_DB.GuildInfo();
 
             Guild_DB.MemberInfo();
-            LogConfig.WriteLog("Carregando membros.", Color.Black);
+            LogConfig.WriteLog("Carregando membros", Color.Black);
 
             // Classes
             Classes.ClassesBase = new List<ClassesBase>();
             Classes.ClassesIncrement = new List<ClassesIncrement>();
 
-            LogConfig.WriteLog("Carregando classes", Color.Black);
+            LogConfig.WriteLog("Carregando classe(s) base", Color.MediumVioletRed);
             Classes_DB.GetClasseBase();
+            LogConfig.WriteLog("Carregando classe(s) incremento", Color.MediumVioletRed);
             Classes_DB.GetClasseIncrement();
 
             ///npc
@@ -162,9 +162,7 @@ namespace GameServer
             Authentication.Player = new HashSet<PlayerData>();
 
             GameServerNetwork.initServerTCP();
-            LogConfig.WriteLog("Servidor iniciado", Color.Black);
-
-          //  ServerLoop.tick = Environment.TickCount;
+            LogConfig.WriteLog("Game Server Start", Color.Green);
         }
 
         public void Exit() {

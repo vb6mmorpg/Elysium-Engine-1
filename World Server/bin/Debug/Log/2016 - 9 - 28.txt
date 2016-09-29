@@ -1,0 +1,15 @@
+09/28/2016 21:13:18: Discovery Response IPEndPoint: 127.0.0.1
+09/28/2016 21:13:48: Discovery Response IPEndPoint: 127.0.0.1
+09/28/2016 21:13:48: Status changed to connected: 127.0.0.1
+09/28/2016 21:14:48: Discovery Response IPEndPoint: 127.0.0.1
+09/28/2016 21:14:48: Status changed to connected: 127.0.0.1
+09/28/2016 21:16:28: Discovery Response IPEndPoint: 127.0.0.1
+09/28/2016 21:16:28: Status changed to connected: 127.0.0.1
+09/28/2016 22:54:23: Unhandled type: WarningMessage
+09/28/2016 22:54:27: Unhandled type: WarningMessage
+09/28/2016 22:54:31: Unhandled type: WarningMessage
+09/28/2016 22:54:35: Unhandled type: WarningMessage
+09/28/2016 22:54:39: Unhandled type: WarningMessage
+09/28/2016 22:54:49: Discovery Response IPEndPoint: 127.0.0.1
+09/28/2016 22:54:49: Status changed to connected: 127.0.0.1
+09/29/2016 00:32:33: Status changed to disconnected: 0  127.0.0.1 

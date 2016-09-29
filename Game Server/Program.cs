@@ -21,7 +21,7 @@ namespace GameServer
 
             Application.Idle += new EventHandler(LogConfig.mainForm.OnApplicationIdle);
 
-            LogConfig.mainForm.Initialize();
+            LogConfig.mainForm.InitializeServer();
 
             Application.Run(LogConfig.mainForm);
         }
