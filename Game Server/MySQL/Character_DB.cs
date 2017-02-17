@@ -24,37 +24,31 @@ namespace GameServer.MySQL {
                 return;
             }
 
-            var classID = (int)reader["class_id"];
-
             pData.CharSlot = slot;
-            pData.ClasseID = classID;
+            pData.ClasseID = (int)reader["class_id"]; ;
             pData.CharacterID = (int)reader["id"];    
             pData.GuildID = (int)reader["guild_id"];
             pData.CharacterName = (string)reader["name"];
             pData.Gender = Convert.ToByte(reader["gender"]);
-            pData.Sprite = (int)reader["sprite"];
+            pData.Sprite = Convert.ToInt16(reader["sprite"]);
             pData.HP = (int)reader["hp"];
             pData.MP = (int)reader["mp"];
             pData.SP = (int)reader["sp"];
             pData.Level = (int)reader["level"];
             pData.Exp = (long)reader["exp"];
-
-            pData.Strenght = (int)reader["strenght"];
-            pData.Dexterity = (int)reader["dexterity"];
-            pData.Agility = (int)reader["agility"];
-            pData.Constitution = (int)reader["constitution"];
-            pData.Intelligence = (int)reader["intelligence"];
-            pData.Wisdom = (int)reader["wisdom"];
-            pData.Will = (int)reader["will"];
-            pData.Mind = (int)reader["mind"];
-            pData.Charisma = (int)reader["charisma"];
-
-            pData.StatPoint = (int)reader["statpoints"];
-
+            pData.BaseStrenght = (int)reader["strenght"];
+            pData.BaseDexterity = (int)reader["dexterity"];
+            pData.BaseAgility = (int)reader["agility"];
+            pData.BaseConstitution = (int)reader["constitution"];
+            pData.BaseIntelligence = (int)reader["intelligence"];
+            pData.BaseWisdom = (int)reader["wisdom"];
+            pData.BaseWill = (int)reader["will"];
+            pData.BaseMind = (int)reader["mind"];
+            pData.BaseCharisma = (int)reader["charisma"];
+            pData.Points = (int)reader["statpoints"];
             pData.WorldID = (int)reader["world_id"];
             pData.RegionID = (int)reader["region_id"];
-
-            pData.Direction = Convert.ToInt32(reader["direction"]);
+            pData.Direction = Convert.ToInt16(reader["direction"]);
             pData.PosX = Convert.ToInt16(reader["posx"]);
             pData.PosY = Convert.ToInt16(reader["posy"]);
 
@@ -69,8 +63,6 @@ namespace GameServer.MySQL {
         public static void Save(PlayerData pData) {
             if (Common_DB.Connection == null) { return; }
 
-           //var pData = Authentication.FindByHexID(hexID);
-
             StringBuilder varQuery = new StringBuilder();
             varQuery.Append("UPDATE players SET ");
             varQuery.Append($"hp='{pData.HP}', ");
@@ -78,16 +70,16 @@ namespace GameServer.MySQL {
             varQuery.Append($"sp='{pData.SP}', ");
             varQuery.Append($"level='{pData.Level}', ");
             varQuery.Append($"exp='{pData.Exp}', ");
-            varQuery.Append($"strenght='{pData.Strenght}', ");
-            varQuery.Append($"dexterity='{pData.Dexterity}', ");
-            varQuery.Append($"agility='{pData.Agility}', ");
-            varQuery.Append($"constitution='{pData.Constitution}', ");
-            varQuery.Append($"intelligence='{pData.Intelligence}', ");
-            varQuery.Append($"wisdom='{pData.Wisdom}', ");
-            varQuery.Append($"will='{pData.Will}', ");
-            varQuery.Append($"mind='{pData.Mind}', ");
-            varQuery.Append($"charisma='{pData.Charisma}', ");
-            varQuery.Append($"statpoints='{pData.StatPoint}', ");
+            varQuery.Append($"strenght='{pData.BaseStrenght}', ");
+            varQuery.Append($"dexterity='{pData.BaseDexterity}', ");
+            varQuery.Append($"agility='{pData.BaseAgility}', ");
+            varQuery.Append($"constitution='{pData.BaseConstitution}', ");
+            varQuery.Append($"intelligence='{pData.BaseIntelligence}', ");
+            varQuery.Append($"wisdom='{pData.BaseWisdom}', ");
+            varQuery.Append($"will='{pData.BaseWill}', ");
+            varQuery.Append($"mind='{pData.BaseMind}', ");
+            varQuery.Append($"charisma='{pData.BaseCharisma}', ");
+            varQuery.Append($"statpoints='{pData.Points}', ");
             varQuery.Append($"world_id='{pData.WorldID}', ");
             varQuery.Append($"region_id='{pData.RegionID}', ");
             varQuery.Append($"direction='{pData.Direction}', ");

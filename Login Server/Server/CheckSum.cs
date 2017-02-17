@@ -32,5 +32,13 @@ namespace LoginServer.Server {
             if (string.CompareOrdinal(checkSum, (string)checksum[version]) == 0) return true;
             return false;
         }
+
+        /// <summary>
+        /// Limpa os dados e libera a memoria.
+        /// </summary>
+        public static void Clear() {
+            checksum.Clear();
+            checksum = null;
+        }
     }
 }

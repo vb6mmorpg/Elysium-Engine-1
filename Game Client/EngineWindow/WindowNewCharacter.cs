@@ -10,8 +10,7 @@ using SharpDX;
 using SharpDX.Direct3D9;
 using Color = SharpDX.Color;
 
-namespace Elysium_Diamond.GameWindow
-{
+namespace Elysium_Diamond.EngineWindow {
     public class WindowNewCharacter
     {
         /// <summary>
@@ -51,12 +50,12 @@ namespace Elysium_Diamond.GameWindow
             Position = new Point(270, 150);
 
             // Configuração imagem de fundo
-            backgroundImage = new EngineObject(Settings.GamePath + @"\Data\Graphics\Window_5.png", 450, 340);
+            backgroundImage = new EngineObject(Common.Configuration.GamePath + @"\Data\Graphics\Window_5.png", 450, 340);
             backgroundImage.Position = Position;
             backgroundImage.Size = new Size2(450, 340);
             backgroundImage.SourceRect = new Rectangle(0, 0, 450, 340);
 
-            button[0] = new EngineButton(Settings.lang, Settings.GamePath, "Previous", 128, 32);
+            button[0] = new EngineButton("Previous", 128, 32);
             button[0].Position = new Point(Position.X + 60, Position.Y + 40);
             button[0].BorderRect = new Rectangle(20, 2, 86, 26);
             button[0].Size = new Size2(128, 32);
@@ -64,7 +63,7 @@ namespace Elysium_Diamond.GameWindow
             button[0].Index = 0;
             button[0].MouseUp += PreviousClass_Click;
 
-            button[1] = new EngineButton(Settings.lang, Settings.GamePath, "next", 128, 32);
+            button[1] = new EngineButton("next", 128, 32);
             button[1].Position = new Point(Position.X + 290, Position.Y + 40);
             button[1].BorderRect = new Rectangle(20, 2, 86, 26);
             button[1].Size = new Size2(128, 32);
@@ -72,7 +71,7 @@ namespace Elysium_Diamond.GameWindow
             button[1].Index = 1;
             button[1].MouseUp += NextClass_Click;
 
-            button[2] = new EngineButton(Settings.lang, Settings.GamePath, "ok", 128, 32);
+            button[2] = new EngineButton("ok", 128, 32);
             button[2].Position = new Point(Position.X + 110, Position.Y + 280);
             button[2].BorderRect = new Rectangle(20, 2, 86, 26);
             button[2].SourceRect = new Rectangle(0, 0, 128, 32);
@@ -80,7 +79,7 @@ namespace Elysium_Diamond.GameWindow
             button[2].Index = 2;
             button[2].MouseUp += OK_Click;
 
-            button[3] = new EngineButton(Settings.lang, Settings.GamePath, "back", 128, 32);
+            button[3] = new EngineButton("back", 128, 32);
             button[3].Position = new Point(Position.X + 235, Position.Y + 280);
             button[3].BorderRect = new Rectangle(20, 2, 86, 26);
             button[3].SourceRect = new Rectangle(0, 0, 128, 32);
@@ -88,7 +87,7 @@ namespace Elysium_Diamond.GameWindow
             button[3].Index = 3;
             button[3].MouseUp += Back_Click;
 
-            textbox = new EngineTextBox(Settings.GamePath + @"\Data\Graphics\textbox.png", 190, 25);
+            textbox = new EngineTextBox("textbox", 190, 25);
             textbox.Size = new Size2(190, 25);
             textbox.SourceRect = new Rectangle(0, 0, 190, 25);
             textbox.Position = new Point(Position.X + 130, Position.Y + 245);
@@ -112,24 +111,31 @@ namespace Elysium_Diamond.GameWindow
             person[3].Transparency = 255;
 
             person[0].Position = new Point(Position.X + 70, Position.Y + 190);
+            person[0].BorderRect = new Rectangle(0, 0, 32, 32);
             person[0].Index = 6;
 
             person[1].Position = new Point(Position.X + 110, Position.Y + 190);
+            person[1].BorderRect = new Rectangle(0, 0, 32, 32);
             person[1].Index = 7;
 
             person[2].Position = new Point(Position.X + 150, Position.Y + 190);
+            person[2].BorderRect = new Rectangle(0, 0, 32, 32);
             person[2].Index = 9;
 
             person[3].Position = new Point(Position.X + 210, Position.Y + 190);
+            person[3].BorderRect = new Rectangle(0, 0, 32, 32);
             person[3].Index = 15;
 
             person[4].Position = new Point(Position.X + 270, Position.Y + 190);
+            person[4].BorderRect = new Rectangle(0, 0, 32, 32);
             person[4].Index = 10;
 
             person[5].Position = new Point(Position.X + 310, Position.Y + 190);
+            person[5].BorderRect = new Rectangle(0, 0, 32, 32);
             person[5].Index = 11;
 
             person[6].Position = new Point(Position.X + 350, Position.Y + 190);
+            person[6].BorderRect = new Rectangle(0, 0, 32, 32);
             person[6].Index = 12;
 
             Classe[0] = "Guerreiro";
@@ -155,20 +161,20 @@ namespace Elysium_Diamond.GameWindow
             textbox.Draw();
             textbox.DrawTextMesured();
 
-            person[0].Draw(ResourceSprite.FindByID(6));
-            person[1].Draw(ResourceSprite.FindByID(7));
-            person[2].Draw(ResourceSprite.FindByID(9));
+            person[0].Draw(SpriteManage.FindByID(6));
+            person[1].Draw(SpriteManage.FindByID(7));
+            person[2].Draw(SpriteManage.FindByID(9));
 
-            person[3].Draw(ResourceSprite.FindByID(15));
+            person[3].Draw(SpriteManage.FindByID(15));
 
-            person[4].Draw(ResourceSprite.FindByID(10));
-            person[5].Draw(ResourceSprite.FindByID(11));
-            person[6].Draw(ResourceSprite.FindByID(12));
+            person[4].Draw(SpriteManage.FindByID(10));
+            person[5].Draw(SpriteManage.FindByID(11));
+            person[6].Draw(SpriteManage.FindByID(12));
         }
 
         public static void Person_Click(object sender, EventArgs e)
         {
-            if (Settings.Disconnected) { return; }
+            if (Common.Configuration.Disconnected) { return; }
             if (EngineMessageBox.Visible) { return; }
 
             EngineMultimedia.Play(EngineSoundEnum.Click);
@@ -186,7 +192,7 @@ namespace Elysium_Diamond.GameWindow
 
         public static void NextClass_Click(object sender, EventArgs e)
         {
-            if (Settings.Disconnected) { return; }
+            if (Common.Configuration.Disconnected) { return; }
             if (EngineMessageBox.Visible) { return; }
 
             EngineMultimedia.Play(EngineSoundEnum.Click);
@@ -196,7 +202,7 @@ namespace Elysium_Diamond.GameWindow
 
         public static void PreviousClass_Click(object sender, EventArgs e)
         {
-            if (Settings.Disconnected) { return; }
+            if (Common.Configuration.Disconnected) { return; }
             if (EngineMessageBox.Visible) { return; }
 
             EngineMultimedia.Play(EngineSoundEnum.Click);
@@ -206,7 +212,7 @@ namespace Elysium_Diamond.GameWindow
 
         public static void OK_Click(object sender, EventArgs e)
         {
-            if (Settings.Disconnected) { return; }
+            if (Common.Configuration.Disconnected) { return; }
             if (EngineMessageBox.Visible) { return; }
 
             EngineMultimedia.Play(EngineSoundEnum.Click);
@@ -220,7 +226,7 @@ namespace Elysium_Diamond.GameWindow
 
         public static void Back_Click(object sender, EventArgs e)
         {
-            if (Settings.Disconnected) { return; }
+            if (Common.Configuration.Disconnected) { return; }
             if (EngineMessageBox.Visible) { return; }
 
             EngineMultimedia.Play(EngineSoundEnum.Click);

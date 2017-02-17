@@ -1,18 +1,13 @@
-﻿using System;
-using System.Text;
-using System.Drawing.Text;
+﻿using System.Drawing.Text;
 using SharpDX;
 using SharpDX.Direct3D9;
 using Color = SharpDX.Color;
 using SD = System.Drawing;
 
-// Refatorado 2015-08-13
-
-namespace Elysium_Diamond.DirectX
-{
+namespace Elysium_Diamond.DirectX {
     public static class EngineFont {
         private static Font regular, bold, italic;
-        private static Rectangle rec;
+        private static Rectangle rect;
 
         /// <summary>
         /// Inicialização da font.
@@ -23,7 +18,7 @@ namespace Elysium_Diamond.DirectX
             var fCollection = new PrivateFontCollection();
 
             var fontName = "Georgia";
-            var size = 16f;          
+            var size = 16f;
 
             #region Multi Font
             /* if (File.Exists(fontName)) {
@@ -38,15 +33,16 @@ namespace Elysium_Diamond.DirectX
             #endregion
 
             var font = new SD.Font(fontName, size, SD.FontStyle.Regular, SD.GraphicsUnit.Pixel);
-            regular = new Font(EngineCore.DirectXDevice, font);
+            regular = new Font(EngineCore.Device, font);
 
-            font = new System.Drawing.Font(fontName, size, SD.FontStyle.Bold, SD.GraphicsUnit.Pixel);
-            bold = new Font(EngineCore.DirectXDevice, font);
+            font = new SD.Font(fontName, size, SD.FontStyle.Bold, SD.GraphicsUnit.Pixel);
+            bold = new Font(EngineCore.Device, font);
 
-            font = new System.Drawing.Font(fontName, size, SD.FontStyle.Italic, SD.GraphicsUnit.Pixel);
-            italic = new Font(EngineCore.DirectXDevice, font);
+            font = new SD.Font(fontName, size, SD.FontStyle.Italic, SD.GraphicsUnit.Pixel);
+            italic = new Font(EngineCore.Device, font);
 
             font.Dispose();
+            font = null;
         }
 
         /// <summary>
@@ -59,33 +55,32 @@ namespace Elysium_Diamond.DirectX
         /// <param name="style">Estilo</param>
         /// <param name="textformat">Formato</param>
         /// <param name="preload">Pré Carregamento</param>
-        public static void DrawText(Sprite sprite, string text, Size2 size, Point point, Color color, EngineFontStyle style, FontDrawFlags textformat, bool preload = false)
-        {
+        public static void DrawText(Sprite sprite, string text, Size2 size, Point point, Color color, EngineFontStyle style, FontDrawFlags textformat, bool preload = false) {
             if (string.IsNullOrEmpty(text)) { return; }
 
             if (style == EngineFontStyle.Regular) {
-                rec = regular.MeasureText(sprite, text, textformat);
+                rect = regular.MeasureText(sprite, text, textformat);
                 if (preload) { regular.PreloadText(text); }
-                regular.DrawText(sprite, text, point.X + (size.Width - rec.Width) / 2, (point.Y - 5) + (size.Height - rec.Height) / 2, color);
+                regular.DrawText(sprite, text, point.X + (size.Width - rect.Width) / 2, (point.Y - 5) + (size.Height - rect.Height) / 2, color);
                 return;
             }
 
             if (style == EngineFontStyle.Bold) {
-                rec = bold.MeasureText(sprite, text, textformat);
+                rect = bold.MeasureText(sprite, text, textformat);
                 if (preload) { bold.PreloadText(text); }
-                bold.DrawText(sprite, text, point.X + (size.Width - rec.Width) / 2, (point.Y - 5) + (size.Height - rec.Height) / 2, color);
+                bold.DrawText(sprite, text, point.X + (size.Width - rect.Width) / 2, (point.Y - 5) + (size.Height - rect.Height) / 2, color);
                 return;
             }
 
             if (style == EngineFontStyle.Italic) {
-                rec = italic.MeasureText(sprite, text, textformat);
+                rect = italic.MeasureText(sprite, text, textformat);
                 if (preload) { italic.PreloadText(text); }
-                italic.DrawText(sprite, text, point.X + (size.Width - rec.Width) / 2, (point.Y - 5) + (size.Height - rec.Height) / 2, color);
+                italic.DrawText(sprite, text, point.X + (size.Width - rect.Width) / 2, (point.Y - 5) + (size.Height - rect.Height) / 2, color);
             }
         }
 
         /// <summary>
-        /// Mede e retorn o comprimento e altura de um texto.
+        /// Mede e retorna o comprimento e altura de um texto.
         /// </summary>
         /// <param name="style">Estilo</param>
         /// <param name="text">Texto</param>
@@ -108,7 +103,7 @@ namespace Elysium_Diamond.DirectX
         }
 
         /// <summary>
-        /// Desenha o texto na coordenada especificada com o dispositivo.
+        /// Desenha o texto na coordenada especificada.
         /// </summary>
         /// <param name="sprite">Dispositivo</param>
         /// <param name="text">Texto</param>

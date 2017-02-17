@@ -10,7 +10,7 @@ using System.Linq;
 
 namespace LoginServer.Common {
     public static class Configuration {
-        static Hashtable cache = new Hashtable();
+        private static Hashtable cache = new Hashtable();
 
         /// <summary>
         /// Lê o arquivo de configuração e armazena as informações.
@@ -81,6 +81,14 @@ namespace LoginServer.Common {
             if (cache[key] == null) return "command not found";
                
             return cache[key].ToString();
+        }
+    
+        /// <summary>
+        /// Limpa e libera os recursos.
+        /// </summary>
+        public static void Clear() {
+            cache.Clear();
+            cache = null;
         }
     }
 }

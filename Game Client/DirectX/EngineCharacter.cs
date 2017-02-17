@@ -12,6 +12,7 @@ namespace Elysium_Diamond.DirectX {
     public class EngineCharacter {
         [DllImport("user32")]
         public static extern Int16 GetAsyncKeyState(Int16 vKey);
+
         public enum Direction {
             Up = 1,
             Down = 4,
@@ -21,7 +22,7 @@ namespace Elysium_Diamond.DirectX {
 
         //temp
         public int ID { get; set; }
-        public Queue<int> DirectionList { get; set; } = new Queue<int>();
+        public Queue<int> DirectionQueue { get; set; } = new Queue<int>();
 
         public Direction Dir { get; set; }
         public string Name { get; set; }
@@ -76,7 +77,7 @@ namespace Elysium_Diamond.DirectX {
             ProcessAnimation();
 
             EngineCore.SpriteDevice.Begin(SpriteFlags);
-            EngineCore.SpriteDevice.Draw(ResourceSprite.FindByID(Sprite), new Color(Color.R, Color.G, Color.B, Transparency), SourceRect, new Vector3(0, 0, 0), new Vector3(PositionX, PositionY, 0));
+            EngineCore.SpriteDevice.Draw(SpriteManage.FindByID(Sprite), new Color(Color.R, Color.G, Color.B, Transparency), SourceRect, new Vector3(0, 0, 0), new Vector3(PositionX, PositionY, 0));
             EngineCore.SpriteDevice.End();
 
             //Shadow
@@ -114,9 +115,9 @@ namespace Elysium_Diamond.DirectX {
         }
 
         public void ProcessMovement() {
-            if (DirectionList.Count > 0) {
+            if (DirectionQueue.Count > 0) {
                 if (!Move) {
-                    Dir = (Direction)DirectionList.Dequeue();
+                    Dir = (Direction)DirectionQueue.Dequeue();
 
                     if (Dir == Direction.Up) {
                         OffSetY = 16;
@@ -185,14 +186,14 @@ namespace Elysium_Diamond.DirectX {
 
         public void KeyState() {
             if (!Enabled) { return; }
-            if (!Program.graphicsDisplay.Focused) { return; }
+            if (!Program.GraphicsDisplay.Focused) { return; }
 
             if (GetAsyncKeyState((short)Keys.W) < 0) {
                 if (Move == false) {
                     OffSetY = 16;
                     Dir = Direction.Up;
                     Move = true;
-                    GeneralServerPacket.PlayerMove(Dir);
+                    GameServerPacket.PlayerMove(Dir);
                 }
             }
 
@@ -201,7 +202,7 @@ namespace Elysium_Diamond.DirectX {
                     OffSetY = -16;
                     Dir = Direction.Down;
                     Move = true;
-                    GeneralServerPacket.PlayerMove(Dir);
+                    GameServerPacket.PlayerMove(Dir);
                 }
             }
 
@@ -210,7 +211,7 @@ namespace Elysium_Diamond.DirectX {
                     OffSetX = 16;
                     Dir = Direction.Left;
                     Move = true;
-                    GeneralServerPacket.PlayerMove(Dir);
+                    GameServerPacket.PlayerMove(Dir);
                 }
             }
 
@@ -219,11 +220,12 @@ namespace Elysium_Diamond.DirectX {
                     OffSetX = -16;
                     Dir = Direction.Right;
                     Move = true;
-                    GeneralServerPacket.PlayerMove(Dir);
+                    GameServerPacket.PlayerMove(Dir);
                 }
             }
         }
 
+ 
         public void MouseButtons() {
             if (Enabled) {
                 if (InsideButton()) {
@@ -260,8 +262,8 @@ namespace Elysium_Diamond.DirectX {
         public bool InsideButton() {
             if (!Enabled) { return false; }
             if (!Visible) { return false; }
-            if (!Program.graphicsDisplay.Focused) { return false; }
-            if (Program.graphicsDisplay.WindowState == FormWindowState.Minimized) { return false; }
+            if (!Program.GraphicsDisplay.Focused) { return false; }
+            if (Program.GraphicsDisplay.WindowState == FormWindowState.Minimized) { return false; }
 
             if ((EngineCore.MousePosition.X >= PositionX) && (EngineCore.MousePosition.X <= (Size.Width + PositionX))) {
                 if ((EngineCore.MousePosition.Y >= PositionY) && (EngineCore.MousePosition.Y <= (PositionY + Size.Height))) { return true; }

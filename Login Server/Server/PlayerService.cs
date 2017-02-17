@@ -7,24 +7,14 @@ namespace LoginServer.Server {
         Hashtable service = new Hashtable();
 
         const int EXPIRED = 1;
-        const int YEAR = 2;
-        const int MONTH = 1;
-        const int DAY = 0;
-        const int HOUR = 0;
-        const int MINUTE = 1;
-        const int SECOND = 0;
 
         /// <summary>
         /// Adiciona um novo serviço de usuário.
         /// </summary>
         /// <param name="id"></param>
         /// <param name="dateTime"></param>
-        public void Add(int id, string dateTime) {
-            var fulldate = dateTime.Split(' ');
-            var date = fulldate[0].Split('/');
-            var hour = fulldate[1].Split(':');
-
-            service.Add(id, new DateTime(int.Parse(date[YEAR]), int.Parse(date[MONTH]), int.Parse(date[DAY]), int.Parse(hour[HOUR]), int.Parse(hour[MINUTE]), SECOND));
+        public void Add(int id, DateTime dateTime) {
+            service.Add(id, dateTime);
         }
 
         /// <summary>
@@ -36,12 +26,18 @@ namespace LoginServer.Server {
         }
 
         /// <summary>
-        /// Pega a hora atual do sistema.
+        /// Quantidade de serviços.
         /// </summary>
         /// <returns></returns>
-        private static DateTime Now() {
-            var now = DateTime.Now;
-            return new DateTime(now.Year, now.Month, now.Day, now.Hour, now.Minute, 0);
+        public int Count() {
+            return service.Count;
+        }
+
+        /// <summary>
+        /// Limpa todos os dados.
+        /// </summary>
+        public void Clear() {
+            service.Clear();
         }
 
         /// <summary>
@@ -50,7 +46,7 @@ namespace LoginServer.Server {
         /// <param name="dateTime"></param>
         /// <returns></returns>
         private bool ServiceExpired(int id) {
-            return Now().CompareTo(Convert.ToDateTime(service[id])) == EXPIRED ? true : false;
+            return DateTime.Now.CompareTo(Convert.ToDateTime(service[id])) == EXPIRED ? true : false;
         }
 
         /// <summary>
@@ -93,8 +89,7 @@ namespace LoginServer.Server {
         /// <returns></returns>
         public string ServiceTime(int id) {
             var date = Convert.ToDateTime(service[id]);
-            return $"{id}-{date.Day}/{date.Month}/{date.Year} {date.Hour}:{date.Minute}";
+            return $"{id}-{date.ToString()}";
         }
-
     }
 }

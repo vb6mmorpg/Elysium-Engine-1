@@ -1,15 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using SharpDX;
-using SharpDX.Direct3D9;
-using Color = SharpDX.Color;
 using Elysium_Diamond.DirectX;
-using Elysium_Diamond.Common;
 using Elysium_Diamond.Network;
 
 // Refatorado 2015-08-13
 
-namespace Elysium_Diamond.GameWindow 
+namespace Elysium_Diamond.EngineWindow 
 {
     public static class WindowServer {
         /// <summary>
@@ -38,13 +35,13 @@ namespace Elysium_Diamond.GameWindow
         static public void Initialize() {
             Position = new Point(272, 150);
 
-            BackgroundImage = new EngineObject(Settings.GamePath + @"\Data\Graphics\window_select.png", 480, 384);
+            BackgroundImage = new EngineObject(Common.Configuration.GamePath + @"\Data\Graphics\window_select.png", 480, 384);
             BackgroundImage.Position = Position;
             BackgroundImage.Transparency = 230;
             BackgroundImage.Size = new Size2(480, 384);
             BackgroundImage.SourceRect = new Rectangle(0, 0, 480, 384);
 
-            Button = new EngineButton(Language.Portuguese, Settings.GamePath, "back", 128, 32);
+            Button = new EngineButton("back", 128, 32);
             Button.Position = new Point(Position.X + 175, Position.Y + 300);
             Button.SourceRect = new Rectangle(0, 0, 128, 32);
             Button.BorderRect = new Rectangle(20, 2, 86, 26);
@@ -80,19 +77,19 @@ namespace Elysium_Diamond.GameWindow
         }
 
         public static void BackButton_MouseUp(object sender, EventArgs e) {
-            if (EngineMessageBox.Visible || Settings.Disconnected) { return; }
+            if (EngineMessageBox.Visible || Common.Configuration.Disconnected) { return; }
 
             EngineMultimedia.Play(EngineSoundEnum.Click);
 
             LoginServerPacket.BackToLogin();
-            GameServerNetwork.Instance.DiscoverServer();
+            NetworkSocket.DiscoverServer(NetworkSocketEnum.GameServer);
 
             WindowLogin.TextBox[0].CursorEnabled = true;
             WindowLogin.TextBox[1].CursorEnabled = false;
             WindowLogin.TextBox[0].Clear();
             WindowLogin.TextBox[1].Clear();
 
-            Settings.HexID = string.Empty;
+            Common.Configuration.HexID = string.Empty;
 
             EngineCore.GameState = 1;
         }

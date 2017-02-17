@@ -12,11 +12,11 @@ namespace GameServer.MySQL {
             var counter = 1;
  
             while (reader.Read()) {
-                GameData.Level.Add(counter, Convert.ToInt64(reader["exp_to_reach_lvl"]));
+                Experience.Level.Add(counter, Convert.ToInt64(reader["exp_to_reach_lvl"]));
                 counter++;
             }
 
-            GameData.Level.LevelMax = counter - 1;
+            Experience.Level.LevelMax = counter - 1;
 
             reader.Close();
         } 

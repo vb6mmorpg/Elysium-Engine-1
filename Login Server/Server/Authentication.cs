@@ -88,5 +88,13 @@ namespace LoginServer.Server {
 
             return (find_account.FirstOrDefault() == null) ? false : true;
         }
+
+        /// <summary>
+        /// Limpa os dados e libera a memoria.
+        /// </summary>
+        public static void Clear() {
+            Player.Clear();
+            Player = null;
+        }
     }
 }

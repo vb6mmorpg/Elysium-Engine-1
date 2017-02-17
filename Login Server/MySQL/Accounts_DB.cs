@@ -1,8 +1,7 @@
 ﻿using System;
 using MySql.Data.MySqlClient;
 using LoginServer.Server;
-using System.Globalization;
-using System.Threading;
+using LoginServer.Common;
 
 namespace LoginServer.MySQL {
     public static class Accounts_DB {
@@ -13,7 +12,7 @@ namespace LoginServer.MySQL {
         /// <returns></returns>
         public static int GetID(string username) {
             var varQuery = $"SELECT id FROM account WHERE account='{username}'";
-            var cmd = new MySqlCommand(varQuery, Common_DB.SQLConnection);          
+            var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
             var reader = cmd.ExecuteReader();
 
             if (!reader.Read()) {
@@ -35,7 +34,7 @@ namespace LoginServer.MySQL {
         /// <returns></returns>
         public static void AccountData(PlayerData pData) {
             var varQuery = $"SELECT pin, cash, language_id, access_level FROM account WHERE id='{pData.ID}'";
-            var cmd = new MySqlCommand(varQuery, Common_DB.SQLConnection);
+            var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
             var reader = cmd.ExecuteReader();
 
             if (!reader.Read()) {
@@ -45,8 +44,8 @@ namespace LoginServer.MySQL {
 
             pData.Pin = (string)reader["pin"];
             pData.Cash = (int)reader["cash"];
-            pData.LanguageID = Convert.ToInt32(reader["language_id"]);
-            pData.AccessLevel = (int)reader["access_level"];
+            pData.LanguageID = Convert.ToByte(reader["language_id"]);
+            pData.AccessLevel = Convert.ToInt16(reader["access_level"]);
 
             reader.Close();
         }
@@ -58,21 +57,21 @@ namespace LoginServer.MySQL {
         /// <param name="id"></param>
         public static void AccountService(PlayerData pData) {
             var varQuery = $"SELECT id, service_id, end_time, expire FROM account_service WHERE account_id='{pData.ID}'";
-            var cmd = new MySqlCommand(varQuery, Common_DB.SQLConnection);
+            var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
             var reader = cmd.ExecuteReader();
 
             // 1 = expirado
             // 0 = ainda ativo
-            var value = 0;
-            const int EXPIRED = 1;
+            byte value = 0;
+            const byte EXPIRED = 1;
 
             while (reader.Read()) {
-                value = (int)reader["expire"];
+                value = Convert.ToByte(reader["expire"]);
 
                 //Se o tempo já expirou, move para o próximo
                 if (value == EXPIRED) { continue; }
 
-                pData.Service.Add((int)reader["service_id"], (string)reader["end_time"]);
+                pData.Service.Add((int)reader["service_id"], Convert.ToDateTime(reader["end_time"]));
             }
 
             reader.Close();
@@ -85,7 +84,7 @@ namespace LoginServer.MySQL {
         /// <param name="value"></param>
         public static void UpdateService(int accountID, int serviceID, int updateValue) {
             var varQuery = $"UPDATE account_service SET expire ='{updateValue}' WHERE account_id='{accountID}' and service_id='{serviceID}'";
-            var cmd = new MySqlCommand(varQuery, Common_DB.SQLConnection);
+            var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
             cmd.ExecuteNonQuery();
         }
 
@@ -96,7 +95,7 @@ namespace LoginServer.MySQL {
         /// <returns></returns>
         public static bool BannedAccount(int id) {
             var varQuery = $"SELECT id, expire, end_time FROM account_ban WHERE account_id='{id}'";
-            var cmd = new MySqlCommand(varQuery, Common_DB.SQLConnection);
+            var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
             var reader = cmd.ExecuteReader();
 
             if (!reader.Read()) {
@@ -105,31 +104,26 @@ namespace LoginServer.MySQL {
             }
 
             const int EXPIRED = 1;
-            var value = (int)reader["expire"];
+            var value = Convert.ToByte(reader["expire"]);
 
             // 1 = expirado
             // 0 = ainda ativo
             //Se o tempo já expirou, retorna falso
             if (value == EXPIRED) {
                 reader.Close();
-                return false; 
+                return false;
             }
 
-            const int YEAR = 2;
-            const int MONTH = 1;
-            const int DAY = 0;
-            //Verifica se o tempo já expirou
-            string[] date = reader["end_time"].ToString().Split('/');
-            var end_time = new DateTime(Convert.ToInt32(date[YEAR]), Convert.ToInt32(date[MONTH]), Convert.ToInt32(date[DAY]));
+            var end_time = Convert.ToDateTime(reader["end_time"]);
 
             //Se expirou, atualiza o valor no registro da db.  
-            if (DateTime.Today.Date.CompareTo(end_time.Date) == EXPIRED) {
+            if (DateTime.Now.CompareTo(end_time) == EXPIRED) {
                 var ban_id = (int)reader["id"];
                 reader.Close();
                 UpdateBan(ban_id, EXPIRED);
                 return false;
             }
-            
+
             reader.Close();
             return true;
         }
@@ -139,9 +133,9 @@ namespace LoginServer.MySQL {
         /// </summary>
         /// <param name="banID"></param>
         /// <param name="value"></param>
-        public static void UpdateBan(int banID, int value) {
-            var varQuery = $"UPDATE account_ban SET expire=@value WHERE id='{banID}'";
-            var cmd = new MySqlCommand(varQuery, Common_DB.SQLConnection);
+        public static void UpdateBan(int banID, byte value) {
+            var varQuery = $"UPDATE account_ban SET expire={value} WHERE id='{banID}'";
+            var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
             cmd.ExecuteNonQuery();
         }
 
@@ -152,26 +146,20 @@ namespace LoginServer.MySQL {
         /// <returns></returns>
         public static bool BannedIP(string address) {
             var varQuery = $"SELECT id, end_time FROM banned_ip WHERE address='{address}'";
-            var cmd = new MySqlCommand(varQuery, Common_DB.SQLConnection);
+            var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
             var reader = cmd.ExecuteReader();
-            
+
             if (!reader.Read()) {
                 reader.Close();
                 return false;
             }
-
-            const int YEAR = 2;
-            const int MONTH = 1;
-            const int DAY = 0;
-
-            //pega a data na db
-            string[] date = reader["end_time"].ToString().Split('/');
-            var end_time = new DateTime(Convert.ToInt32(date[YEAR]), Convert.ToInt32(date[MONTH]), Convert.ToInt32(date[DAY]));
+            
+            var end_time = Convert.ToDateTime(reader["end_time"]);
 
             const int EXPIRED = 1; //1 = expirado
 
             //Compara as datas, Se expirou, atualiza o registro na db.
-            if (DateTime.Today.Date.CompareTo(end_time.Date) == EXPIRED) {
+            if (DateTime.Now.CompareTo(end_time) == EXPIRED) {
                 var ban_id = (int)reader["id"];
                 reader.Close();
                 //retira o ban se expirado
@@ -189,7 +177,7 @@ namespace LoginServer.MySQL {
         /// <param name="id"></param>
         public static void RemoveBannedIP(int banID) {
             var varQuery = $"DELETE from banned_ip WHERE id='{banID}'";
-            var cmd = new MySqlCommand(varQuery, Common_DB.SQLConnection);
+            var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
             cmd.ExecuteNonQuery();
         }
 
@@ -200,7 +188,7 @@ namespace LoginServer.MySQL {
         /// <returns></returns>
         public static bool ExistAccount(string username) {
             var varQuery = $"SELECT id FROM account WHERE account='{username}'";
-            var cmd = new MySqlCommand(varQuery, Common_DB.SQLConnection);          
+            var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
             var reader = cmd.ExecuteReader();
             var tempvar = reader.Read();
             reader.Close();
@@ -216,7 +204,7 @@ namespace LoginServer.MySQL {
         /// <returns></returns>
         public static bool ExistPassword(string username, string password) {
             var varQuery = $"SELECT password FROM account WHERE account ='{username}'";
-            var cmd = new MySqlCommand(varQuery, Common_DB.SQLConnection);
+            var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
             var reader = cmd.ExecuteReader();
 
             if (!reader.Read()) {
@@ -226,12 +214,13 @@ namespace LoginServer.MySQL {
 
             //  if (string.CompareOrdinal(tempVar, Cryptography.Encrypt(password)) == 0)
             // 0 string igual
-            if (string.CompareOrdinal(reader["password"].ToString(), password) == 0) {
-                reader.Close();
+            var pass = reader["password"].ToString();
+            reader.Close();
+
+            if (string.CompareOrdinal(pass, Hash.Compute(password)) == 0) {
                 return true;
             }
 
-            reader.Close();
             return false;
         }
 
@@ -243,7 +232,7 @@ namespace LoginServer.MySQL {
         /// <returns></returns>
         public static bool ExistPin(string username, string password) {
             var varQuery = $"SELECT pin FROM account WHERE account='{username}'";
-            var cmd = new MySqlCommand(varQuery, Common_DB.SQLConnection);
+            var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
             var reader = cmd.ExecuteReader();
 
             if (!reader.Read()) {
@@ -252,13 +241,14 @@ namespace LoginServer.MySQL {
             }
 
             //  if (string.CompareOrdinal(tempVar, Cryptography.Encrypt(password)) == 0)
+            var pin = reader["pin"].ToString();
+            reader.Close();
+
             // 0 = string igual
-            if (string.CompareOrdinal(reader["pin"].ToString(), password) == 0) {
-                reader.Close();
+            if (string.CompareOrdinal(pin, password) == 0) {
                 return true;
             }
 
-            reader.Close();
             return false;
         }
 
@@ -269,7 +259,7 @@ namespace LoginServer.MySQL {
         /// <param name="password">pin de usuário</param>
         public static void UpdatePin(string username, string password) {
             var varQuery = $"UPDATE account SET pin='{password}' WHERE account='{username}'";
-            var cmd = new MySqlCommand(varQuery, Common_DB.SQLConnection);
+            var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
             cmd.ExecuteNonQuery();
         }
 
@@ -280,7 +270,7 @@ namespace LoginServer.MySQL {
         /// <param name="value">verdadeiro (1) ou falso (0)</param>
         public static void UpdateLoggedIn(string username, int updateValue) {
             var varQuery = $"UPDATE account SET logged_in='{updateValue}' WHERE account='{username}'";
-            var cmd = new MySqlCommand(varQuery, Common_DB.SQLConnection);
+            var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
             cmd.ExecuteNonQuery();
         }
 
@@ -289,8 +279,8 @@ namespace LoginServer.MySQL {
         /// </summary>
         /// <param name="username"></param>
         public static void UpdateDateLasteLogin(string username) {
-            var varQuery = $"UPDATE account SET date_last_login='{DateTime.Now}' WHERE account='{username}'";
-            var cmd = new MySqlCommand(varQuery, Common_DB.SQLConnection);
+            var varQuery = $"UPDATE account SET date_last_login='{DateTime.Now.ToString("yyyy/M/d hh:mm:ss")}' WHERE account='{username}'";
+            var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
             cmd.ExecuteNonQuery();
         }
 
@@ -300,8 +290,8 @@ namespace LoginServer.MySQL {
         /// <param name="username"></param>
         /// <param name="ip"></param>
         public static void UpdateLastIP(string username, string ip) {
-            var varQuery = $"UPDATE account SET last_ip='{ip}', current_ip=' ' WHERE account='{username}'";
-            var cmd = new MySqlCommand(varQuery, Common_DB.SQLConnection);
+            var varQuery = $"UPDATE account SET last_ip='{ip}', current_ip='' WHERE account='{username}'";
+            var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
             cmd.ExecuteNonQuery();
         }
 
@@ -312,7 +302,7 @@ namespace LoginServer.MySQL {
         /// <param name="ip"></param>
         public static void UpdateCurrentIP(string username, string ip) {
             var varQuery = $"UPDATE account SET current_ip='{ip}' WHERE account='{username}'";
-            var cmd = new MySqlCommand(varQuery, Common_DB.SQLConnection);
+            var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
             cmd.ExecuteNonQuery();
         }
 
@@ -323,7 +313,7 @@ namespace LoginServer.MySQL {
         /// <returns></returns>
         public static bool IsActive(string username) {
             var varQuery = $"SELECT active FROM account WHERE account='{username}'";
-            var cmd = new MySqlCommand(varQuery, Common_DB.SQLConnection);
+            var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
             var reader = cmd.ExecuteReader();
             var temp = reader.Read();
             reader.Close();
@@ -338,7 +328,7 @@ namespace LoginServer.MySQL {
         /// <param name="value">valor</param>
         public static void UpdateCash(string username, int value) {
             var varQuery = $"UPDATE account SET cash='{value}' WHERE account='{username}'";
-            var cmd = new MySqlCommand(varQuery, Common_DB.SQLConnection);
+            var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
             cmd.ExecuteNonQuery();
         }
     }

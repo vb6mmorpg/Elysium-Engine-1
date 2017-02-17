@@ -1,14 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
 using SharpDX;
 using SharpDX.Direct3D9;
 using Color = SharpDX.Color;
 using Elysium_Diamond.DirectX;
-using Elysium_Diamond.Common;
 using Elysium_Diamond.Network;
 
 
-namespace Elysium_Diamond.GameWindow
+namespace Elysium_Diamond.EngineWindow
 {
     public class WindowServerRow : IDisposable {
         public Point Position { get; set; }
@@ -58,8 +56,8 @@ namespace Elysium_Diamond.GameWindow
         }
 
         public static void Initialize() {
-            texture[0] = EngineTexture.TextureFromFile(Settings.GamePath + @"\Data\Graphics\row1.png", 384, 64);  //350, 35
-            texture[1] = EngineTexture.TextureFromFile(Settings.GamePath + @"\Data\Graphics\row2.png", 384, 64);
+            texture[0] = EngineTexture.TextureFromFile(Common.Configuration.GamePath + @"\Data\Graphics\row1.png", 384, 64);  //350, 35
+            texture[1] = EngineTexture.TextureFromFile(Common.Configuration.GamePath + @"\Data\Graphics\row2.png", 384, 64);
         }
 
         public void BackgroundImage_MouseUp(object sender, EventArgs e) {
@@ -67,14 +65,12 @@ namespace Elysium_Diamond.GameWindow
 
             EngineMultimedia.Play(EngineSoundEnum.Click);
 
-            WorldServerNetwork.Instance.TCPClient.Disconnect("0");
+            NetworkSocket.Disconnect(NetworkSocketEnum.WorldServer);
 
-            Settings.WorldServerIP = IP;
-            Settings.WorldServerPort = Port;
+            Common.Configuration.IPAddress[(int)NetworkSocketEnum.WorldServer] = new IPAddress(IP, Port);
 
             LoginServerPacket.ConnectWorldServer(Index);
 
-            EngineMessageBox.Tick = Environment.TickCount;
             EngineMessageBox.Enabled = false;
             EngineMessageBox.Show("Aguardando conexão");
         }

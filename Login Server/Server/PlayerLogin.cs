@@ -13,14 +13,14 @@ namespace LoginServer.Server {
         public static void Login(string hexID, NetIncomingMessage data) {
             //Se o bloqueio de login estiver ativo, envia mensagem de erro para o cliente
             if (Settings.CantConnectNow) {
-                LoginServerPacket.Message(hexID, (int)PacketList.LoginServer_Client_Maintenance);
+                LoginPacket.Message(hexID, (int)PacketList.LoginServer_Client_Maintenance);
                 return;
             }
 
             //Verifica a versão do jogo; se invalido, envia mensagem de erro
             var version = data.ReadString();
             if (Settings.Version.CompareTo(version) != 0) {
-                LoginServerPacket.Message(hexID, (int)PacketList.InvalidVersion);
+                LoginPacket.Message(hexID, (int)PacketList.InvalidVersion);
                 return;
             }
 
@@ -28,7 +28,7 @@ namespace LoginServer.Server {
             var checksum = data.ReadString();
             if (CheckSum.Enabled)
                 if (!CheckSum.Compare(version, checksum)) {
-                    LoginServerPacket.Message(hexID, (int)PacketList.CantConnectNow);
+                    LoginPacket.Message(hexID, (int)PacketList.CantConnectNow);
                     return;
                 }
 
@@ -38,25 +38,25 @@ namespace LoginServer.Server {
 
             //Verifica se o usuário está na lista de banidos, caso verdadeiro, envia mensagem de erro
             if (Accounts_DB.BannedAccount(Accounts_DB.GetID(pData.Username))) {
-                LoginServerPacket.Message(pData.HexID, (int)PacketList.LoginServer_Client_AccountBanned);
+                LoginPacket.Message(pData.HexID, (int)PacketList.LoginServer_Client_AccountBanned);
                 return;
             }
 
             //Verifica se o nome existe no banco de dados, caso falso, envia a mensagem de erro
             if (!Accounts_DB.ExistAccount(pData.Username)) {
-                LoginServerPacket.Message(pData.HexID, (int)PacketList.LoginServer_Client_InvalidNamePass);
+                LoginPacket.Message(pData.HexID, (int)PacketList.LoginServer_Client_InvalidNamePass);
                 return;
             }
 
             //Verifica se o usuário está ativo, caso falso, envia mensagem de erro
             if (!Accounts_DB.IsActive(pData.Username)) { 
-                LoginServerPacket.Message(pData.HexID, (int)PacketList.LoginServer_Client_AccountDisabled);
+                LoginPacket.Message(pData.HexID, (int)PacketList.LoginServer_Client_AccountDisabled);
                 return;
             }
 
             //Envia mensagem para outros servidores para saber se há algum usuario com o mesmo nome online
-            if (WorldServerNetwork.IsWorldServerConnected())
-                WorldServerPacket.IsPlayerConnected(pData.Username);
+            if (WorldNetwork.IsWorldServerConnected())
+                WorldPacket.IsPlayerConnected(pData.Username);
             else //se não há nenhum servidor conectado, continua para o próximo método
                 Login(false, pData.Username);
         }
@@ -85,7 +85,7 @@ namespace LoginServer.Server {
             pData.WorldResultCount++;
 
             //se a quantidade de respostas for o mesmo que servidores connectados
-            if (pData.WorldResultCount == WorldServerNetwork.TotalOnline) {
+            if (pData.WorldResultCount == WorldNetwork.TotalOnline) {
                 var result = false;
 
                 //se achar o usuario conectado em algum lugar, muda result para true
@@ -126,7 +126,7 @@ namespace LoginServer.Server {
 
             //Verifica se os campos estão corretos, caso falso, envia mensagem de erro
             if (!Accounts_DB.ExistPassword(pData.Username, pData.Password)) {
-                LoginServerPacket.Message(pData.HexID, (int)PacketList.LoginServer_Client_InvalidNamePass);
+                LoginPacket.Message(pData.HexID, (int)PacketList.LoginServer_Client_InvalidNamePass);
                 return;
             }
 
@@ -134,8 +134,8 @@ namespace LoginServer.Server {
             pData.Account = pData.Username;
             pData.Username = string.Empty;
 
-            LogConfig.WriteLog($"User Login: {pData.Account} {pData.IP}"); 
-            LogConfig.WriteLog($"User Login: {pData.Account} {pData.IP}", System.Drawing.Color.Black); 
+            FileLog.WriteLog($"User Login: {pData.Account} {pData.IP}"); 
+            FileLog.WriteLog($"User Login: {pData.Account} {pData.IP}", System.Drawing.Color.Black); 
 
             //obtem o id de usuario
             pData.ID = Accounts_DB.GetID(pData.Account);
@@ -152,8 +152,8 @@ namespace LoginServer.Server {
             Accounts_DB.UpdateLoggedIn(pData.Account, 1);  //1 = true
 
             //envia a lista de servidores e muda a tela no cliente
-            LoginServerPacket.ServerList(pData.HexID);
-            LoginServerPacket.GameState(pData.HexID, 2); //tela 2, lista de servidor
+            LoginPacket.ServerList(pData.HexID);
+            LoginPacket.GameState(pData.HexID, 2); //tela 2, lista de servidor
         }
 
         /// <summary>
@@ -180,11 +180,11 @@ namespace LoginServer.Server {
             if (pData.LoginAttempt >= MAX_ATTEMPT) {
 
                 //Desconecta o usuario em todos os servidores
-                WorldServerPacket.PlayerDisconnect(pData);
+                WorldPacket.PlayerDisconnect(pData);
 
                 // ##################### MUDAR PARA WORLD SERVER #####################
                 //Desconecta o usuario no servidor de login (se houver) pelo cliente
-                LoginServerPacket.Message(Authentication.FindByAccount(pData.Username).HexID, (int)PacketList.Disconnect);
+                LoginPacket.Message(Authentication.FindByAccount(pData.Username).HexID, (int)PacketList.Disconnect);
                 //######################################################################
 
                 //se conectado ao login server, limpa os dados do usuario conectado da lista para o novo login
@@ -197,11 +197,11 @@ namespace LoginServer.Server {
                 pData.LoginAttempt = 0;
 
                 // envia msg 
-                LoginServerPacket.Message(pData.HexID, (int)PacketList.LoginServer_Client_AlreadyLoggedIn);
+                LoginPacket.Message(pData.HexID, (int)PacketList.LoginServer_Client_AlreadyLoggedIn);
             }
             else {
                 // Envia mensagem que o usuário já está conectado
-                LoginServerPacket.Message(pData.HexID, (int)PacketList.LoginServer_Client_AlreadyLoggedIn);
+                LoginPacket.Message(pData.HexID, (int)PacketList.LoginServer_Client_AlreadyLoggedIn);
             }
         }
     }

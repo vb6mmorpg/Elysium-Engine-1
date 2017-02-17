@@ -7,7 +7,7 @@ using GameServer.Common;
 using GameServer.MySQL;
 using GameServer.Server;
 using GameServer.Network;
-using GameServer.Classe;
+using GameServer.ClasseData;
 using GameServer.GameGuild;
 using GameServer.Npcs;
 
@@ -127,8 +127,8 @@ namespace GameServer
 
             LogConfig.WriteLog("Carregando experiência", Color.Black);
             ServerData_DB.LoadExperience();
-            LogConfig.WriteLog($"Level Max: {GameData.Level.LevelMax}", Color.BlueViolet);
-            LogConfig.WriteLog($"Exp Max: {GameData.Level[GameData.Level.LevelMax]}", Color.BlueViolet);
+            LogConfig.WriteLog($"Level Max: {Experience.Level.LevelMax}", Color.BlueViolet);
+            LogConfig.WriteLog($"Exp Max: {Experience.Level.GetMaxExp()}", Color.BlueViolet);
 
             Guild.Guilds = null;
             // Prepara as classes para receber dados
@@ -142,13 +142,7 @@ namespace GameServer
             LogConfig.WriteLog("Carregando membros", Color.Black);
 
             // Classes
-            Classes.ClassesBase = new List<ClassesBase>();
-            Classes.ClassesIncrement = new List<ClassesIncrement>();
-
-            LogConfig.WriteLog("Carregando classe(s) base", Color.MediumVioletRed);
-            Classes_DB.GetClasseBase();
-            LogConfig.WriteLog("Carregando classe(s) incremento", Color.MediumVioletRed);
-            Classes_DB.GetClasseIncrement();
+            InitializeClasse();
 
             ///npc
             LogConfig.WriteLog("Carregando NPC", Color.Black);
@@ -161,13 +155,31 @@ namespace GameServer
             Authentication.HexID = new HashSet<HexaID>();
             Authentication.Player = new HashSet<PlayerData>();
 
-            GameServerNetwork.initServerTCP();
+            GameServerNetwork.InitializeServer();
             LogConfig.WriteLog("Game Server Start", Color.Green);
+        }
+
+        public void InitializeClasse() {
+            Classe.Classes = new List<Classe>();
+
+            LogConfig.WriteLog("Carregando classe(s) base", Color.MediumVioletRed);
+            Classes_DB.GetClasseStatsBase();
+
+            LogConfig.WriteLog("Carregando classe(s) incremento", Color.MediumVioletRed);
+
+            for (var index = 0; index < Classe.Classes.Count; index++) {
+                Classes_DB.GetClasseStatsIncrement(index, Classe.Classes[index].IncrementID);
+            }
         }
 
         public void Exit() {
             LogConfig.CloseFileLog();
             Application.Exit();
+        }
+
+        private void button1_Click(object sender, EventArgs e) {
+
+           
         }
     }
 }

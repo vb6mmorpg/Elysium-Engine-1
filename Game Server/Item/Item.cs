@@ -1,7 +1,8 @@
 ﻿using GameServer.Common;
+using GameServer.ClasseData;
 
 namespace GameServer.Item {
-    public class Item : Stat {
+    public class Item : StatsBase {
         public int ID { get; set; }
         public string Version { get; set; }
         public bool Useable { get; set; }

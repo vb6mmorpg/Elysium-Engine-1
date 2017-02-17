@@ -97,7 +97,7 @@ namespace Elysium_Diamond.DirectX {
             ProcessAnimation();
 
             EngineCore.SpriteDevice.Begin(SpriteFlags);
-            EngineCore.SpriteDevice.Draw(ResourceSprite.FindByID(Sprite), new Color(Color.R, Color.G, Color.B, Transparency), SourceRect, new Vector3(0, 0, 0), new Vector3(PositionX, PositionY, 0));
+            EngineCore.SpriteDevice.Draw(SpriteManage.FindByID(Sprite), new Color(Color.R, Color.G, Color.B, Transparency), SourceRect, new Vector3(0, 0, 0), new Vector3(PositionX, PositionY, 0));
             EngineCore.SpriteDevice.End();
 
             //Shadow
@@ -217,8 +217,8 @@ namespace Elysium_Diamond.DirectX {
         public bool InsideButton() {
             if (!Enabled) { return false; }
             if (!Visible) { return false; }
-            if (!Program.graphicsDisplay.Focused) { return false; }
-            if (Program.graphicsDisplay.WindowState == System.Windows.Forms.FormWindowState.Minimized) { return false; }
+            if (!Program.GraphicsDisplay.Focused) { return false; }
+            if (Program.GraphicsDisplay.WindowState == System.Windows.Forms.FormWindowState.Minimized) { return false; }
 
             if ((EngineCore.MousePosition.X >= PositionX) && (EngineCore.MousePosition.X <= (Size.Width + PositionX))) {
                 if ((EngineCore.MousePosition.Y >= PositionY) && (EngineCore.MousePosition.Y <= (PositionY + Size.Height))) { return true; }

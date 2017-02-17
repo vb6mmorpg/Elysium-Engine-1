@@ -81,6 +81,14 @@ namespace WorldServer.Common {
 
             return cache[key].ToString();
         }
+
+        /// <summary>
+        /// Limpa os dados.
+        /// </summary>
+        public static void Clear() {
+            cache.Clear();
+            cache = null;
+        }
     }
 }
 

@@ -9,7 +9,7 @@ using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using Elysium_Diamond.DirectX;
 using Elysium_Diamond.Network;
-using Elysium_Diamond.GameWindow;
+using Elysium_Diamond.EngineWindow;
 using Elysium_Diamond.Resource;
 using Microsoft.VisualBasic;
 
@@ -258,19 +258,26 @@ namespace Elysium_Diamond
 
             if (EngineCore.GameState == 6)
             {
-                if (WindowGuild.GuildName.CompareTo(string.Empty) == 0) { return; }
-
-                if (e.KeyCode == Keys.G)
-                {
-                    if (WindowGuild.Visible) 
-                    { 
-                        WindowGuild.Visible = false; 
+                if (e.KeyCode == Keys.C) {
+                    if (WindowCharacterStatus.Visible) {
+                        WindowCharacterStatus.Visible = false;
                     }
-                    else
-                    {
-                        WindowGuild.Visible = true; 
+                    else {
+                        WindowCharacterStatus.Visible = true;
                     }
                 }
+
+
+                if (WindowGuild.GuildName.CompareTo(string.Empty) == 0) { return; }
+
+                if (e.KeyCode == Keys.G) {
+                    if (WindowGuild.Visible) {
+                        WindowGuild.Visible = false;
+                    }
+                    else {
+                        WindowGuild.Visible = true;
+                    }
+                }    
             }
         }
 
@@ -280,7 +287,7 @@ namespace Elysium_Diamond
 
             var md5 = MD5.Create();
 
-            Common.Settings.CheckSumClient = BitConverter.ToString(md5.ComputeHash(File.ReadAllBytes("Elysium Diamond.exe")));
+            Common.Configuration.ClientSerial = BitConverter.ToString(md5.ComputeHash(File.ReadAllBytes("Elysium Diamond.exe")));
         }
  
         private void CreateDevice_KeyPress(object sender, KeyPressEventArgs e)
@@ -387,6 +394,9 @@ namespace Elysium_Diamond
                 return;
             }
             #endregion
+
+   
+
 
         }
 

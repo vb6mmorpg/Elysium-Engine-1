@@ -7,7 +7,7 @@ namespace GameServer.Npcs {
         public int ID { get; set; }
         public int Type { get; set; }
         public int Sprite { get; set; }
-        public int Elite { get; set; }
+        public int Elit { get; set; }
         public int Experience { get; set; }
         public int HP { get; set; }
         public int MaxHP { get; set; }
@@ -43,51 +43,8 @@ namespace GameServer.Npcs {
         public int X { get; set; }
         public int Y { get; set; }
 
-        public HashSet<int> Shop { get; set; } = new HashSet<int>();
-        public HashSet<int> Skill { get; set; } = new HashSet<int>();
-        public HashSet<int> Quest { get; set; } = new HashSet<int>();
-
         public object Clone() {
             return this.MemberwiseClone();
-        }
-
-        /// <summary>
-        /// Quebra a string e distribui os valores.
-        /// </summary>
-        /// <param name="value"></param>
-        public void ParseQuest(string value) {
-            string[] data = value.Split(';');
-            var lenght = data.Length;
-
-            for (var n = 0; n < lenght; n++) {
-                Quest.Add(Convert.ToInt32(data[n]));
-            }
-        }
-
-        /// <summary>
-        /// Quebra a string e distribui os valores.
-        /// </summary>
-        /// <param name="value"></param>
-        public void ParseSkill(string value) {
-            string[] data = value.Split(';');
-            var lenght = data.Length;
-
-            for (var n = 0; n < lenght; n++) {
-                Skill.Add(Convert.ToInt32(data[n]));
-            }
-        }
-
-        /// <summary>
-        /// Quebra a string e distribui os valores.
-        /// </summary>
-        /// <param name="value"></param>
-        public void ParseShop(string value) {
-            string[] data = value.Split(';');
-            var lenght = data.Length;
-
-            for (var n = 0; n < lenght; n++) {
-                Shop.Add(Convert.ToInt32(data[n]));
-            }
-        }
+        }    
     }
 }

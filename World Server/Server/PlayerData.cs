@@ -47,7 +47,7 @@ namespace WorldServer.Server {
         /// ID de região.
         /// </summary>
         public int RegionID { get; set; }
-        
+
         /// <summary>
         /// Construtor
         /// </summary>
@@ -59,6 +59,23 @@ namespace WorldServer.Server {
             HexID = hexID;
             IP = ip;
             Account = string.Empty;
+            Service = new PlayerService();
+
+            //Inicializa os personagens
+            for (var n = 0; n < Constant.MAX_CHAR; n++) {
+                Character[n] = new Character() { Name = string.Empty };
+            }
+        }
+
+        /// <summary>
+        /// Destrutor
+        /// </summary>
+        ~PlayerData() {
+            Clear();
+            Connection.Disconnect("");
+            Connection = null;
+            Service.Clear();
+            Service = null;
         }
 
         /// <summary>
@@ -67,6 +84,15 @@ namespace WorldServer.Server {
         public void Clear() {
             AccountID = 0;
             Account = IP = string.Empty;
+
+            if (Character == null) { return; }
+            ClearCharacter();
+        }
+
+        public void ClearCharacter() {
+            for (var n = 0; n < Constant.MAX_CHAR; n++) {
+                Character[n].Clear();
+            }
         }
     }
 }

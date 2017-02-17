@@ -59,7 +59,5 @@ namespace WorldServer.Server {
             Names.Clear();
             Names = null;
         }
-
-
     }
 }

@@ -14,7 +14,7 @@
         public string GameServerLocalIP { get; set; }
 
         /// <summary>
-        ///
+        /// Porta de servidor.
         /// </summary>
         public int GameServerPort { get; set; }
 
@@ -33,7 +33,9 @@
         /// </summary>
         public string Status { get; set; }
 
-
+        /// <summary>
+        /// Limpa todos os dados.
+        /// </summary>
         public void Clear() {
             Name = string.Empty;
             GameServerIP = string.Empty;

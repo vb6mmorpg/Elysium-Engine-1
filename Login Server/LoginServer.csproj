@@ -85,13 +85,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common\Configuration.cs" />
+    <Compile Include="Common\Hash.cs" />
     <Compile Include="LuaScript\LuaConfig.cs" />
     <Compile Include="Server\CheckSum.cs" />
     <Compile Include="Server\PlayerService.cs" />
     <Compile Include="Enumeration\PacketList.cs" />
     <Compile Include="Common\ServerData.cs" />
     <Compile Include="Common\Settings.cs" />
-    <Compile Include="Common\LogConfig.cs" />
+    <Compile Include="Common\FileLog.cs" />
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,12 +102,12 @@
     <Compile Include="MySQL\Accounts_DB.cs" />
     <Compile Include="MySQL\Common_DB.cs" />
     <Compile Include="Network\World\NetworkClient.cs" />
-    <Compile Include="Network\Login\LoginServerNetwork.cs" />
-    <Compile Include="Network\Login\LoginServerData.cs" />
-    <Compile Include="Network\Login\LoginServerPacket.cs" />
-    <Compile Include="Network\World\WorldServerData.cs" />
-    <Compile Include="Network\World\WorldServerNetwork.cs" />
-    <Compile Include="Network\World\WorldServerPacket.cs" />
+    <Compile Include="Network\Login\LoginNetwork.cs" />
+    <Compile Include="Network\Login\LoginData.cs" />
+    <Compile Include="Network\Login\LoginPacket.cs" />
+    <Compile Include="Network\World\WorldData.cs" />
+    <Compile Include="Network\World\WorldNetwork.cs" />
+    <Compile Include="Network\World\WorldPacket.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Server\Authentication.cs" />

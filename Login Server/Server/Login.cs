@@ -11,17 +11,17 @@ namespace LoginServer.Server {
         public static void Loop() {
             try {
                 // Recebe os dados do login server
-                LoginServerNetwork.ReceivedData();
+                LoginNetwork.ReceivedData();
 
                 // Verifica e tenta uma nova conexão com o world server
-                WorldServerNetwork.WorldServerConnect();
+                WorldNetwork.WorldServerConnect();
 
                 // Recebe os dados do world server
-                WorldServerNetwork.WorldServerReceiveData();
+                WorldNetwork.WorldServerReceiveData();
             }
             catch (Exception e) {
-                throw new Exception($"Ocorreu um erro: {e.Message}" , e);
-            }        
+                throw new Exception($"Ocorreu um erro: {e.Message}", e);
+            }
         }
 
         /// <summary>
@@ -32,17 +32,16 @@ namespace LoginServer.Server {
             Settings.CantConnectNow = true;
             Settings.Server = null;
 
-            //Fecha a db
-            Common_DB.Disconnect();
-
-            //Fecha os servidores world.
-            WorldServerNetwork.Shutdown();
-
-            //Fecha o servidor de login.
-            LoginServerNetwork.Shutdown();
+            //Limpa as configurações
+            Configuration.Clear();
+            Authentication.Clear();
+            LoginNetwork.Shutdown();
+            WorldNetwork.Shutdown();
+            CheckSum.Clear();
 
             //Fecha o arquivo de logs
-            LogConfig.CloseFileLog();
+            FileLog.CloseFileLog();
+            Common_DB.Close();       
         }
     }
 }

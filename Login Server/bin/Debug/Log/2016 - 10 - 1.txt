@@ -1,0 +1,4 @@
+10/01/2016 15:36:50: User Login: akaruz 127.0.0.1
+10/01/2016 15:36:52: World Server 火星 Login Attempt: akaruz 127.0.0.1
+10/01/2016 15:37:15: Connected World Server #火星
+10/01/2016 15:37:25: World Server 火星 Login Attempt: akaruz 127.0.0.1

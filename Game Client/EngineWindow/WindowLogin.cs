@@ -1,15 +1,11 @@
 ﻿using System;
 using Elysium_Diamond.DirectX;
 using Elysium_Diamond.Network;
-using Elysium_Diamond.Common;
 using SharpDX;
 using SharpDX.Direct3D9;
 using Color = SharpDX.Color;
 
-// Refatorado 2015-08-13
-
-namespace Elysium_Diamond.GameWindow
-{
+namespace Elysium_Diamond.EngineWindow {
     public static class WindowLogin {
         /// <summary>
         /// Botões de Login e End
@@ -38,40 +34,40 @@ namespace Elysium_Diamond.GameWindow
             BackgroundImage = new EngineObject();
             BackgroundImage.Position = new Point(Position.X - 140, Position.Y);
             BackgroundImage.Size = new Size2(608, 224);
-            BackgroundImage.Texture = EngineTexture.TextureFromFile(Settings.GamePath + @"\Data\Graphics\window_login.png");
+            BackgroundImage.Texture = EngineTexture.TextureFromFile(Common.Configuration.GamePath + @"\Data\Graphics\window_login.png");
             BackgroundImage.SourceRect = new Rectangle(0, 0, 608, 224);
             BackgroundImage.Transparency = 255;
-             
-            TextBox[0] = new EngineTextBox(Settings.GamePath + @"\Data\Graphics\textbox.png", 256, 32);
+
+            TextBox[0] = new EngineTextBox("textbox", 256, 32);
             TextBox[0].Size = new Size2(256, 32);
             TextBox[0].SourceRect = new Rectangle(0, 0, 256, 32);
+            TextBox[0].BorderRect = new Rectangle(0, 0, 256, 32);
             TextBox[0].Position = new Point(Position.X + 32, Position.Y + 50);
             TextBox[0].CursorEnabled = true;
-            TextBox[0].Enabled = true;
             TextBox[0].Transparency = 220;
             TextBox[0].TextTransparency = 255;
             TextBox[0].MouseUp += Textbox_1_MouseUp;
             TextBox[0].TextFormat = FontDrawFlags.Center;
 
-            TextBox[1] = new EngineTextBox(Settings.GamePath + @"\Data\Graphics\textbox.png", 256, 32);
+            TextBox[1] = new EngineTextBox("textbox", 256, 32);
             TextBox[1].Size = new Size2(256, 32);
             TextBox[1].SourceRect = new Rectangle(0, 0, 256, 32);
+            TextBox[1].BorderRect = new Rectangle(0, 0, 256, 32);
             TextBox[1].Position = new Point(Position.X + 32, Position.Y + 80);
             TextBox[1].Password = true;
             TextBox[1].Transparency = 220;
             TextBox[1].TextTransparency = 255;
-            TextBox[1].Enabled = true;
             TextBox[1].MouseUp += Textbox_2_MouseUp;
             TextBox[1].TextFormat = FontDrawFlags.Center;
 
-            Button[0] = new EngineButton(Settings.lang, Settings.GamePath, "login");
+            Button[0] = new EngineButton("login", 128, 32);
             Button[0].Position = new Point(Position.X + 42, Position.Y + 120);
             Button[0].BorderRect = new Rectangle(20, 2, 86, 26);
             Button[0].SourceRect = new Rectangle(0, 0, 128, 32);
             Button[0].Size = new Size2(128, 32);
             Button[0].MouseUp += LoginButton_MouseDown;
 
-            Button[1] = new EngineButton(Settings.lang, Settings.GamePath, "end");
+            Button[1] = new EngineButton("end", 128, 32);
             Button[1].Position = new Point(Position.X + 152, Position.Y + 120);
             Button[1].BorderRect = new Rectangle(20, 2, 86, 26);
             Button[1].SourceRect = new Rectangle(0, 0, 128, 32);
@@ -84,8 +80,10 @@ namespace Elysium_Diamond.GameWindow
         /// </summary>
         public static void Draw() {
             BackgroundImage.Draw();
+            TextBox[0].MouseButtons();
             TextBox[0].Draw();
             TextBox[0].DrawTextMesured();
+            TextBox[1].MouseButtons();
             TextBox[1].Draw();
             TextBox[1].DrawTextMesured();
 
@@ -109,12 +107,12 @@ namespace Elysium_Diamond.GameWindow
         /// Executa o login.
         /// </summary>
         public static void Login() {
-            if (Settings.Disconnected) { return; }
+            if (Common.Configuration.Disconnected) { return; }
             if (EngineMessageBox.Visible) { return; }
 
             EngineMultimedia.Play(EngineSoundEnum.Click);
 
-            if (LoginServerNetwork.Instance.Connected() == false) {
+            if (NetworkSocket.Connected(NetworkSocketEnum.LoginServer) == false) {
                 EngineMessageBox.Enabled = true;
                 EngineMessageBox.Show("Sem conexão com o servidor");
                 return;
@@ -140,7 +138,7 @@ namespace Elysium_Diamond.GameWindow
             Login();
         }
 
-        public static void ExitButton_MouseDown(object sender, EventArgs e) { 
+        public static void ExitButton_MouseDown(object sender, EventArgs e) {
             if (EngineMessageBox.Visible) { return; }
 
             EngineMultimedia.Play(EngineSoundEnum.Click);
@@ -164,6 +162,7 @@ namespace Elysium_Diamond.GameWindow
             TextBox[1].CursorEnabled = true;
         }
 
+
         #endregion
-    }    
+    }
 }

@@ -1,0 +1,235 @@
+02/12/2017 01:58:47: User Login: akaruz 127.0.0.1
+02/12/2017 01:58:49: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 03:17:57: Connected World Server #火星
+02/12/2017 03:18:20: User Login: akaruz 127.0.0.1
+02/12/2017 03:20:00: Connected World Server #火星
+02/12/2017 03:20:07: User Login: akaruz 127.0.0.1
+02/12/2017 03:23:13: Connected World Server #火星
+02/12/2017 03:23:21: User Login: akaruz 127.0.0.1
+02/12/2017 03:23:22: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 03:23:46: World Server #火星 disconnected
+02/12/2017 03:25:33: Connected World Server #火星
+02/12/2017 03:25:39: User Login: akaruz 
+02/12/2017 03:26:49: Connected World Server #火星
+02/12/2017 03:26:51: User Login: akaruz 127.0.0.1
+02/12/2017 03:26:52: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 03:27:14: World Server #火星 disconnected
+02/12/2017 03:31:31: Connected World Server #火星
+02/12/2017 03:31:39: User Login: akaruz 
+02/12/2017 03:31:40: World Server 火星 Login Attempt: akaruz 
+02/12/2017 03:32:04: World Server #火星 disconnected
+02/12/2017 03:32:51: Connected World Server #火星
+02/12/2017 03:33:00: User Login: akaruz 
+02/12/2017 03:33:12: Connected World Server #火星
+02/12/2017 03:33:34: User Login: akaruz 127.0.0.1
+02/12/2017 03:33:36: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 03:35:22: Connected World Server #火星
+02/12/2017 03:35:28: User Login: akaruz 
+02/12/2017 03:35:29: World Server 火星 Login Attempt: akaruz 
+02/12/2017 03:35:51: World Server #火星 disconnected
+02/12/2017 03:36:58: Connected World Server #火星
+02/12/2017 03:37:00: World Server 火星 Login Attempt:  127.0.0.1
+02/12/2017 03:37:03: Status changed to disconnected: 0  127.0.0.1 6ECDE79C00114ED1
+02/12/2017 03:37:15: User Login: akaruz 127.0.0.1
+02/12/2017 03:37:16: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 03:37:43: World Server #火星 disconnected
+02/12/2017 03:37:48: Connected World Server #火星
+02/12/2017 03:37:54: User Login: akaruz 
+02/12/2017 03:39:39: Connected World Server #火星
+02/12/2017 03:39:49: User Login: akaruz 127.0.0.1
+02/12/2017 03:40:42: Connected World Server #火星
+02/12/2017 03:40:47: User Login: akaruz 127.0.0.1
+02/12/2017 03:40:55: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 03:42:43: Connected World Server #火星
+02/12/2017 03:42:45: User Login: akaruz 
+02/12/2017 03:42:46: World Server 火星 Login Attempt: akaruz 
+02/12/2017 03:43:32: Status changed to disconnected: 0  127.0.0.1 06C05855C62D58FB
+02/12/2017 03:43:40: World Server #火星 disconnected
+02/12/2017 03:43:43: Connected World Server #火星
+02/12/2017 03:43:46: User Login: akaruz 127.0.0.1
+02/12/2017 03:43:47: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 03:45:02: User Login: dragonick 127.0.0.1
+02/12/2017 03:45:03: World Server 火星 Login Attempt: dragonick 127.0.0.1
+02/12/2017 03:47:11: Connected World Server #火星
+02/12/2017 03:47:14: User Login: akaruz 127.0.0.1
+02/12/2017 03:47:16: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 03:49:10: Connected World Server #火星
+02/12/2017 03:49:11: User Login: akaruz 127.0.0.1
+02/12/2017 03:49:12: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 03:49:46: World Server Event Server Test Login Attempt: akaruz 127.0.0.1
+02/12/2017 03:50:07: World Server #火星 disconnected
+02/12/2017 19:54:39: Connected World Server #火星
+02/12/2017 19:58:04: World Server #火星 disconnected
+02/12/2017 20:09:59: Connected World Server #火星
+02/12/2017 20:10:24: User Login: akaruz 127.0.0.1
+02/12/2017 20:10:25: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 20:11:00: Status changed to disconnected: 1 akaruz 127.0.0.1 9D815829166170CB
+02/12/2017 20:11:08: World Server #火星 disconnected
+02/12/2017 20:17:29: Connected World Server #火星
+02/12/2017 20:23:42: User Login: akaruz 127.0.0.1
+02/12/2017 20:23:43: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 20:24:18: Status changed to disconnected: 1 akaruz 127.0.0.1 174859AF93E116F4
+02/12/2017 20:35:43: World Server #火星 disconnected
+02/12/2017 20:35:49: Connected World Server #火星
+02/12/2017 20:41:10: World Server #火星 disconnected
+02/12/2017 20:41:49: Connected World Server #火星
+02/12/2017 21:14:55: User Login: akaruz 127.0.0.1
+02/12/2017 21:14:57: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 21:15:26: Status changed to disconnected: 1 akaruz 127.0.0.1 74DEAD646B0131C7
+02/12/2017 21:16:55: User Login: akaruz 127.0.0.1
+02/12/2017 21:16:56: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 21:17:24: Status changed to disconnected: 1 akaruz 127.0.0.1 CB6394876998967F
+02/12/2017 21:17:41: User Login: akaruz 127.0.0.1
+02/12/2017 21:17:42: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 21:18:35: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 21:19:05: World Server #火星 disconnected
+02/12/2017 21:19:09: Connected World Server #火星
+02/12/2017 21:19:09: User Login: akaruz 
+02/12/2017 21:19:10: World Server 火星 Login Attempt: akaruz 
+02/12/2017 21:19:16: World Server 火星 Login Attempt: akaruz 
+02/12/2017 21:19:20: World Server 火星 Login Attempt: akaruz 
+02/12/2017 21:19:24: Status changed to disconnected: 1 akaruz 127.0.0.1 6379792DB6738512
+02/12/2017 21:19:52: World Server #火星 disconnected
+02/12/2017 21:21:49: Connected World Server #火星
+02/12/2017 21:22:08: User Login: akaruz 127.0.0.1
+02/12/2017 21:22:09: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 21:22:21: Status changed to disconnected: 1 akaruz 127.0.0.1 DFAB29D245636569
+02/12/2017 21:22:46: World Server #火星 disconnected
+02/12/2017 21:23:39: Connected World Server #火星
+02/12/2017 21:23:41: User Login: akaruz 127.0.0.1
+02/12/2017 21:23:42: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 21:23:52: Status changed to disconnected: 1 akaruz 127.0.0.1 E5BB2646F3E6817C
+02/12/2017 21:24:24: World Server #火星 disconnected
+02/12/2017 21:24:59: Connected World Server #火星
+02/12/2017 21:25:41: User Login: akaruz 127.0.0.1
+02/12/2017 21:25:42: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 21:25:44: Status changed to disconnected: 1 akaruz 127.0.0.1 3C5EE008915CC35B
+02/12/2017 21:26:28: World Server #火星 disconnected
+02/12/2017 21:32:39: Connected World Server #火星
+02/12/2017 21:32:50: User Login: akaruz 127.0.0.1
+02/12/2017 21:32:51: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 21:32:54: Status changed to disconnected: 1 akaruz 127.0.0.1 9D24CA1DE9770E70
+02/12/2017 21:33:28: World Server #火星 disconnected
+02/12/2017 21:35:29: Connected World Server #火星
+02/12/2017 21:36:27: World Server #火星 disconnected
+02/12/2017 21:37:29: Connected World Server #火星
+02/12/2017 21:37:58: World Server #火星 disconnected
+02/12/2017 21:38:59: Connected World Server #火星
+02/12/2017 21:39:08: User Login: akaruz 127.0.0.1
+02/12/2017 21:39:10: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 21:39:55: Status changed to disconnected: 1 akaruz 127.0.0.1 A8E8DFC58DA734A1
+02/12/2017 21:40:28: World Server #火星 disconnected
+02/12/2017 21:42:19: Connected World Server #火星
+02/12/2017 22:16:19: Status changed to disconnected: 0  127.0.0.1 9996E31116065A36
+02/12/2017 22:16:53: Status changed to disconnected: 0  127.0.0.1 0190AF4196B05049
+02/12/2017 22:37:29: Status changed to disconnected: 0  127.0.0.1 BF3549028081E013
+02/12/2017 23:04:00: User Login: akaruz 127.0.0.1
+02/12/2017 23:04:01: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 23:04:29: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 23:05:33: Status changed to disconnected: 1 akaruz 127.0.0.1 E6FB8625243B3BD3
+02/12/2017 23:14:16: User Login: akaruz 127.0.0.1
+02/12/2017 23:14:17: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 23:14:57: Status changed to disconnected: 1 akaruz 127.0.0.1 36CB0CB059A1A205
+02/12/2017 23:15:14: User Login: akaruz 127.0.0.1
+02/12/2017 23:15:15: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 23:15:53: User Login: akaruz 127.0.0.1
+02/12/2017 23:15:54: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 23:15:57: Status changed to disconnected: 0  127.0.0.1 E0BF1021DBCFB430
+02/12/2017 23:16:21: User Login: akaruz 127.0.0.1
+02/12/2017 23:16:22: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 23:16:23: Status changed to disconnected: 0  127.0.0.1 EC634A1B8850C5E0
+02/12/2017 23:16:51: Status changed to disconnected: 1 akaruz 127.0.0.1 C471F68147A90FDC
+02/12/2017 23:16:52: User Login: akaruz 127.0.0.1
+02/12/2017 23:16:53: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 23:17:27: Status changed to disconnected: 1 akaruz 127.0.0.1 A286B68E317D1716
+02/12/2017 23:17:43: User Login: akaruz 127.0.0.1
+02/12/2017 23:17:44: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 23:18:17: Status changed to disconnected: 1 akaruz 127.0.0.1 7074F3F181831752
+02/12/2017 23:19:27: User Login: akaruz 127.0.0.1
+02/12/2017 23:19:28: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 23:19:57: Status changed to disconnected: 1 akaruz 127.0.0.1 94A154A304903D43
+02/12/2017 23:20:11: User Login: akaruz 127.0.0.1
+02/12/2017 23:20:12: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 23:20:49: Status changed to disconnected: 1 akaruz 127.0.0.1 5F53EAEB586FB160
+02/12/2017 23:21:12: User Login: akaruz 127.0.0.1
+02/12/2017 23:21:13: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 23:21:47: Status changed to disconnected: 1 akaruz 127.0.0.1 3F6A4271B204641A
+02/12/2017 23:21:55: User Login: akaruz 127.0.0.1
+02/12/2017 23:21:56: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 23:22:45: Status changed to disconnected: 1 akaruz 127.0.0.1 20B0970BA1F36144
+02/12/2017 23:23:42: User Login: akaruz 127.0.0.1
+02/12/2017 23:23:43: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 23:24:22: Status changed to disconnected: 1 akaruz 127.0.0.1 5240991BFF7F71DD
+02/12/2017 23:37:32: User Login: akaruz 127.0.0.1
+02/12/2017 23:37:32: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 23:41:28: Status changed to disconnected: 1 akaruz 127.0.0.1 40C72F08DA4942DE
+02/12/2017 23:42:58: User Login: akaruz 127.0.0.1
+02/12/2017 23:42:59: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 23:43:45: Status changed to disconnected: 1 akaruz 127.0.0.1 9AD8453FC2E0D481
+02/12/2017 23:44:19: User Login: akaruz 127.0.0.1
+02/12/2017 23:44:20: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 23:45:26: Status changed to disconnected: 1 akaruz 127.0.0.1 B0957AC3FC41AA74
+02/12/2017 23:49:39: User Login: akaruz 127.0.0.1
+02/12/2017 23:49:41: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 23:50:31: Status changed to disconnected: 1 akaruz 127.0.0.1 2498774482B52177
+02/12/2017 23:53:09: User Login: akaruz 127.0.0.1
+02/12/2017 23:53:10: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 23:54:12: Status changed to disconnected: 1 akaruz 127.0.0.1 ABF040D9E1365F3C
+02/12/2017 23:54:45: Connected World Server #火星
+02/12/2017 23:55:02: User Login: akaruz 127.0.0.1
+02/12/2017 23:55:03: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 23:55:15: Status changed to disconnected: 0  127.0.0.1 7F6B2522B7706067
+02/12/2017 23:56:19: Status changed to disconnected: 1 akaruz 127.0.0.1 1AACDA299039766F
+02/12/2017 23:56:51: User Login: akaruz 127.0.0.1
+02/12/2017 23:56:52: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 23:57:29: Status changed to disconnected: 1 akaruz 127.0.0.1 C7AF03D40A9C3B0F
+02/12/2017 23:57:42: User Login: akaruz 127.0.0.1
+02/12/2017 23:57:43: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 23:58:25: Status changed to disconnected: 1 akaruz 127.0.0.1 627ABB77327FFAE9
+02/12/2017 23:58:38: User Login: akaruz 127.0.0.1
+02/12/2017 23:58:40: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/12/2017 23:59:37: Status changed to disconnected: 1 akaruz 127.0.0.1 846D09EA77868F8B
+02/12/2017 23:59:55: User Login: akaruz 127.0.0.1
+02/12/2017 23:59:56: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/13/2017 00:00:41: Status changed to disconnected: 1 akaruz 127.0.0.1 4679EB1A88B4BDF6
+02/13/2017 00:03:28: User Login: akaruz 127.0.0.1
+02/13/2017 00:03:29: World Server 木星 Login Attempt: akaruz 127.0.0.1
+02/13/2017 00:03:40: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/13/2017 00:04:15: Status changed to disconnected: 1 akaruz 127.0.0.1 76CFF93679F8F922
+02/13/2017 00:04:21: User Login: akaruz 127.0.0.1
+02/13/2017 00:04:22: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/13/2017 00:05:03: Status changed to disconnected: 1 akaruz 127.0.0.1 A03CCC0421D7A96A
+02/13/2017 00:05:54: User Login: akaruz 127.0.0.1
+02/13/2017 00:05:55: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/13/2017 00:06:30: Status changed to disconnected: 1 akaruz 127.0.0.1 7EC267BF8B3227A0
+02/13/2017 00:06:46: User Login: akaruz 127.0.0.1
+02/13/2017 00:06:47: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/13/2017 00:07:24: Status changed to disconnected: 1 akaruz 127.0.0.1 DB71C3FD22665A30
+02/13/2017 00:07:27: User Login: akaruz 127.0.0.1
+02/13/2017 00:07:28: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/13/2017 00:08:15: Status changed to disconnected: 1 akaruz 127.0.0.1 D9BB305100BBBD35
+02/13/2017 00:16:22: User Login: akaruz 127.0.0.1
+02/13/2017 00:16:23: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/13/2017 00:16:55: Status changed to disconnected: 1 akaruz 127.0.0.1 EDE1ED27BCA4FF22
+02/13/2017 00:17:09: User Login: akaruz 127.0.0.1
+02/13/2017 00:17:09: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/13/2017 00:17:45: Status changed to disconnected: 1 akaruz 127.0.0.1 F935F6A8E701EFDC
+02/13/2017 00:25:55: User Login: akaruz 127.0.0.1
+02/13/2017 00:25:56: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/13/2017 00:27:02: Status changed to disconnected: 1 akaruz 127.0.0.1 F274FA6BF466C24E
+02/13/2017 00:27:20: User Login: akaruz 127.0.0.1
+02/13/2017 00:27:21: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/13/2017 00:28:10: Status changed to disconnected: 1 akaruz 127.0.0.1 37D304ADA97D4375
+02/13/2017 00:29:44: User Login: akaruz 127.0.0.1
+02/13/2017 00:29:45: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/13/2017 00:30:25: Status changed to disconnected: 1 akaruz 127.0.0.1 F2B5381E6ED39EB9
+02/13/2017 00:30:30: World Server #火星 disconnected
+02/13/2017 00:33:25: Connected World Server #火星
+02/13/2017 00:33:26: User Login: akaruz 127.0.0.1
+02/13/2017 00:33:32: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/13/2017 00:34:05: Status changed to disconnected: 1 akaruz 127.0.0.1 526B77AEEC1FB0FF
+02/13/2017 00:35:05: User Login: akaruz 127.0.0.1
+02/13/2017 00:35:06: World Server 火星 Login Attempt: akaruz 127.0.0.1
+02/13/2017 00:35:41: Status changed to disconnected: 1 akaruz 127.0.0.1 F960F1D213B873D7
+02/13/2017 00:35:42: User Login: akaruz 127.0.0.1
+02/13/2017 00:35:43: World Server 火星 Login Attempt: akaruz 127.0.0.1

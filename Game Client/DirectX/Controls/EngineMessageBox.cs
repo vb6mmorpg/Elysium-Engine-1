@@ -1,25 +1,10 @@
 ﻿using System;
-using Elysium_Diamond.Network;
-using Elysium_Diamond.Common;
 using SharpDX;
 using SharpDX.Direct3D9;
 using Color = SharpDX.Color;
 
-// Refatorado 2015-08-13
-
-namespace Elysium_Diamond.DirectX
-{
-    public static class EngineMessageBox {
-        /// <summary>
-        /// Imagem de fundo.
-        /// </summary>
-        private static EngineObject MessageImage { get; set; }
-
-        /// <summary>
-        /// Botão de confirmação (OK).
-        /// </summary>
-        private static EngineButton Button { get; set; }
-
+namespace Elysium_Diamond.DirectX {
+    public static class EngineMessageBox  {
         /// <summary>
         /// Obtem ou altera o valor de transparência do controle.
         /// </summary>
@@ -50,10 +35,9 @@ namespace Elysium_Diamond.DirectX
         /// </summary>
         public static bool Enabled { get; set; }
 
-        /// <summary>
-        /// Obtem ou altera o 'tick'.
-        /// </summary>
-        public static int Tick { get; set; }
+        static int tick;
+        static EngineObject background;
+        static EngineButton button;
 
         /// <summary>
         /// Inicializa a caixa de mensagem carregando as texturas.
@@ -65,19 +49,20 @@ namespace Elysium_Diamond.DirectX
             Position = new Point(272, 15);
             Enabled = true;
 
-            MessageImage = new EngineObject();
-            MessageImage.Texture = EngineTexture.TextureFromFile(Settings.GamePath + @"\Data\Graphics\msgbox.png", 480, 128);
-            MessageImage.Size = new Size2(480, 128);
-            MessageImage.SourceRect = new Rectangle(0, 0, 480, 120);
-            MessageImage.Position = Position;
-            MessageImage.Visible = true;
+            background = new EngineObject();
+            background.Texture = EngineTexture.TextureFromFile(Common.Configuration.GamePath + @"\Data\Graphics\msgbox.png", 480, 128);
+            background.Enabled = false;
+            background.Size = new Size2(480, 128);
+            background.SourceRect = new Rectangle(0, 0, 480, 120);
+            background.Position = Position;
+            background.Visible = true;
 
-            Button = new EngineButton(Language.Portuguese, Settings.GamePath, "ok", 128, 32);
-            Button.Position = new Point(Position.X + 173, Position.Y + 55);
-            Button.Size = new Size2(128, 32);
-            Button.BorderRect = new Rectangle(20, 2, 86, 26);
-            Button.SourceRect = new Rectangle(0, 0, 128, 32);
-            Button.MouseUp += Button_MouseUp;
+            button = new EngineButton("ok", 128, 32);
+            button.Position = new Point(Position.X + 173, Position.Y + 55);
+            button.Size = new Size2(128, 32);
+            button.BorderRect = new Rectangle(20, 2, 86, 26);
+            button.SourceRect = new Rectangle(0, 0, 128, 32);
+            button.MouseUp += Button_MouseUp;
         }
 
         /// <summary>
@@ -85,6 +70,7 @@ namespace Elysium_Diamond.DirectX
         /// </summary>
         /// <param name="text">Texto</param>
         public static void Show(string text) {
+            tick = Environment.TickCount;
             Text = text;
             Visible = true;
         }
@@ -95,25 +81,23 @@ namespace Elysium_Diamond.DirectX
         public static void Draw() {
             if (!Visible) { return; }
 
-            if (Enabled == false)
-            {
-                if (Environment.TickCount >= Tick + 10000)
-                {
+            if (Enabled == false) {
+                if (Environment.TickCount >= tick + 10000) {
                     Text = "Sem conexão";
                     Enabled = true;
-                    Settings.HexID = "";
-                    Settings.GameServerIP = string.Empty;
-                    Settings.GameServerPort = 0;
+                    Common.Configuration.HexID = "";
+                    Common.Configuration.IPAddress[(int)NetworkSocketEnum.GameServer] = new IPAddress(string.Empty, 0);
+
                 }
             }
 
-            MessageImage.Transparency = Transparency;
-            Button.Transparency = Transparency;
+            background.Transparency = Transparency;
+            button.Transparency = Transparency;
 
-            MessageImage.Draw();
+            background.Draw();
 
             EngineFont.DrawText(null, Text, new Size2(480, 80), new Point(Position.X, Position.Y - 1), new SharpDX.Color(Color.White.R, Color.White.G, Color.White.B, Transparency), EngineFontStyle.Regular, FontDrawFlags.Left);
-            Button.Draw();
+            button.Draw();
         }
 
         /// <summary>
@@ -127,7 +111,7 @@ namespace Elysium_Diamond.DirectX
             EngineMultimedia.Play(EngineSoundEnum.Click);
             Visible = false;
 
-            if (Settings.Disconnected) { Environment.Exit(0); }
+            if (Common.Configuration.Disconnected) { Environment.Exit(0); }
         }
     }
 }

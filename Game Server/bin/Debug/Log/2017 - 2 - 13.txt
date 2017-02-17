@@ -1,0 +1,1624 @@
+2017/02/13 0:29:13: Game Server Name: Canal 1
+2017/02/13 0:29:13: Discovery: Elysium Diamond #1.0.0
+2017/02/13 0:29:13: Port: 10120
+2017/02/13 0:29:13: MaximumConnections: 2000
+2017/02/13 0:29:13: ConnectionTimeOut: 25
+2017/02/13 0:29:13: Logs: True
+2017/02/13 0:29:13: Sleep: 1
+2017/02/13 0:29:13: Game Server ID: gameserver_1
+2017/02/13 0:29:13: Carregando config mysql
+2017/02/13 0:29:13: Connectado ao banco de dados
+2017/02/13 0:29:13: WorldServer 1  ID: Artemis
+2017/02/13 0:29:13: WorldServer 2  ID: 
+2017/02/13 0:29:13: WorldServer 3  ID: 
+2017/02/13 0:29:13: WorldServer 4  ID: 
+2017/02/13 0:29:13: WorldServer 5  ID: 
+2017/02/13 0:29:13: Carregando experiência
+2017/02/13 0:29:13: Level Max: 121
+2017/02/13 0:29:13: Exp Max: 22353256174
+2017/02/13 0:29:13: Carregando guilds
+2017/02/13 0:29:13: Carregando membros
+2017/02/13 0:29:13: Carregando classe(s) base
+2017/02/13 0:29:13: Carregando classe(s) incremento
+2017/02/13 0:29:13: Carregando NPC
+2017/02/13 0:29:13: Game Server Start
+2017/02/13 0:29:19: Status changed to connected: 127.0.0.1
+2017/02/13 0:29:47: Data From World Server ID: 1 Account: akaruz Char ID: 9 Slot: 1 F2B5381E6ED39EB9
+2017/02/13 0:29:47: Status changed to connected: 127.0.0.1
+2017/02/13 0:29:47: Received From Client: F2B5381E6ED39EB9
+2017/02/13 0:29:47: Player Found ID: 9 Name: Ingsan
+2017/02/13 0:33:16: Game Server Name: Canal 1
+2017/02/13 0:33:16: Discovery: Elysium Diamond #1.0.0
+2017/02/13 0:33:16: Port: 10120
+2017/02/13 0:33:16: MaximumConnections: 2000
+2017/02/13 0:33:16: ConnectionTimeOut: 25
+2017/02/13 0:33:16: Logs: True
+2017/02/13 0:33:16: Sleep: 1
+2017/02/13 0:33:16: Game Server ID: gameserver_1
+2017/02/13 0:33:16: Carregando config mysql
+2017/02/13 0:33:16: Connectado ao banco de dados
+2017/02/13 0:33:16: WorldServer 1  ID: Artemis
+2017/02/13 0:33:16: WorldServer 2  ID: 
+2017/02/13 0:33:16: WorldServer 3  ID: 
+2017/02/13 0:33:16: WorldServer 4  ID: 
+2017/02/13 0:33:16: WorldServer 5  ID: 
+2017/02/13 0:33:16: Carregando experiência
+2017/02/13 0:33:16: Level Max: 121
+2017/02/13 0:33:16: Exp Max: 22353256174
+2017/02/13 0:33:16: Carregando guilds
+2017/02/13 0:33:16: Carregando membros
+2017/02/13 0:33:16: Carregando classe(s) base
+2017/02/13 0:33:16: Carregando classe(s) incremento
+2017/02/13 0:33:16: Carregando NPC
+2017/02/13 0:33:17: Game Server Start
+2017/02/13 0:33:21: Status changed to connected: 127.0.0.1
+2017/02/13 0:33:33: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 526B77AEEC1FB0FF
+2017/02/13 0:33:34: Status changed to connected: 127.0.0.1
+2017/02/13 0:33:34: Received From Client: 526B77AEEC1FB0FF
+2017/02/13 0:33:34: Player Found ID: 1 Name: Joanlac
+2017/02/13 0:33:37: Joanlac Dir: 1 X: 14 Y: 18
+2017/02/13 0:33:37: Joanlac Dir: 7 X: 13 Y: 18
+2017/02/13 0:33:37: Joanlac Dir: 10 X: 14 Y: 18
+2017/02/13 0:33:38: Joanlac Dir: 10 X: 15 Y: 18
+2017/02/13 0:33:38: Joanlac Dir: 10 X: 16 Y: 18
+2017/02/13 0:33:38: Joanlac Dir: 10 X: 17 Y: 18
+2017/02/13 0:33:39: Joanlac Dir: 10 X: 18 Y: 18
+2017/02/13 0:33:39: Joanlac Dir: 10 X: 19 Y: 18
+2017/02/13 0:33:39: Joanlac Dir: 4 X: 19 Y: 19
+2017/02/13 0:33:39: Joanlac Dir: 4 X: 19 Y: 20
+2017/02/13 0:34:05: ID: 1 Joanlac Status changed to disconnected: 127.0.0.1
+2017/02/13 0:35:07: Data From World Server ID: 1 Account: akaruz Char ID: 9 Slot: 1 F960F1D213B873D7
+2017/02/13 0:35:08: Status changed to connected: 127.0.0.1
+2017/02/13 0:35:08: Received From Client: F960F1D213B873D7
+2017/02/13 0:35:08: Player Found ID: 9 Name: Ingsan
+2017/02/13 0:35:09: Ingsan Dir: 10 X: 21 Y: 12
+2017/02/13 0:35:09: Ingsan Dir: 10 X: 22 Y: 12
+2017/02/13 0:35:09: Ingsan Dir: 4 X: 22 Y: 13
+2017/02/13 0:35:09: Ingsan Dir: 4 X: 22 Y: 14
+2017/02/13 0:35:11: Ingsan Dir: 7 X: 21 Y: 14
+2017/02/13 0:35:11: Ingsan Dir: 10 X: 22 Y: 14
+2017/02/13 0:35:14: Ingsan Dir: 10 X: 23 Y: 14
+2017/02/13 0:35:14: Ingsan Dir: 10 X: 24 Y: 14
+2017/02/13 0:35:14: Ingsan Dir: 10 X: 25 Y: 14
+2017/02/13 0:35:14: Ingsan Dir: 4 X: 25 Y: 15
+2017/02/13 0:35:14: Ingsan Dir: 4 X: 25 Y: 16
+2017/02/13 0:35:16: Ingsan Dir: 1 X: 25 Y: 15
+2017/02/13 0:35:16: Ingsan Dir: 1 X: 25 Y: 14
+2017/02/13 0:35:41: ID: 9 Ingsan Status changed to disconnected: 127.0.0.1
+2017/02/13 0:35:44: Data From World Server ID: 1 Account: akaruz Char ID: 9 Slot: 1 F3CC295F67DB6847
+2017/02/13 0:35:45: Status changed to connected: 127.0.0.1
+2017/02/13 0:35:45: Received From Client: F3CC295F67DB6847
+2017/02/13 0:35:45: Player Found ID: 9 Name: Ingsan
+2017/02/13 0:35:46: Ingsan Dir: 4 X: 25 Y: 15
+2017/02/13 0:35:46: Ingsan Dir: 4 X: 25 Y: 16
+2017/02/13 0:35:47: Ingsan Dir: 10 X: 26 Y: 16
+2017/02/13 0:35:47: Ingsan Dir: 10 X: 27 Y: 16
+2017/02/13 0:35:47: Ingsan Dir: 10 X: 28 Y: 16
+2017/02/13 0:35:47: Ingsan Dir: 10 X: 29 Y: 16
+2017/02/13 0:35:47: Ingsan Dir: 10 X: 30 Y: 16
+2017/02/13 0:35:48: Ingsan Dir: 10 X: 31 Y: 16
+2017/02/13 0:35:49: Ingsan Dir: 7 X: 30 Y: 16
+2017/02/13 0:35:53: Ingsan Dir: 1 X: 30 Y: 15
+2017/02/13 0:35:53: Ingsan Dir: 1 X: 30 Y: 14
+2017/02/13 0:35:53: Ingsan Dir: 1 X: 30 Y: 13
+2017/02/13 0:35:54: Ingsan Dir: 1 X: 30 Y: 12
+2017/02/13 0:35:54: Ingsan Dir: 10 X: 31 Y: 12
+2017/02/13 0:35:54: Ingsan Dir: 10 X: 32 Y: 12
+2017/02/13 0:35:54: Ingsan Dir: 10 X: 33 Y: 12
+2017/02/13 0:35:54: Ingsan Dir: 10 X: 34 Y: 12
+2017/02/13 0:36:00: Ingsan Dir: 4 X: 34 Y: 13
+2017/02/13 0:36:01: Ingsan Dir: 4 X: 34 Y: 14
+2017/02/13 0:36:01: Ingsan Dir: 4 X: 34 Y: 15
+2017/02/13 0:36:02: Ingsan Dir: 4 X: 34 Y: 16
+2017/02/13 0:36:02: Ingsan Dir: 4 X: 34 Y: 17
+2017/02/13 1:42:15: Game Server Name: Canal 1
+2017/02/13 1:42:15: Discovery: Elysium Diamond #1.0.0
+2017/02/13 1:42:15: Port: 10120
+2017/02/13 1:42:15: MaximumConnections: 2000
+2017/02/13 1:42:15: ConnectionTimeOut: 25
+2017/02/13 1:42:15: Logs: True
+2017/02/13 1:42:15: Sleep: 1
+2017/02/13 1:42:15: Game Server ID: gameserver_1
+2017/02/13 1:42:15: Carregando config mysql
+2017/02/13 1:42:15: Connectado ao banco de dados
+2017/02/13 1:42:15: WorldServer 1  ID: Artemis
+2017/02/13 1:42:15: WorldServer 2  ID: 
+2017/02/13 1:42:15: WorldServer 3  ID: 
+2017/02/13 1:42:15: WorldServer 4  ID: 
+2017/02/13 1:42:15: WorldServer 5  ID: 
+2017/02/13 1:42:15: Carregando experiência
+2017/02/13 1:42:15: Level Max: 121
+2017/02/13 1:42:15: Exp Max: 22353256174
+2017/02/13 1:42:15: Carregando guilds
+2017/02/13 1:42:15: Carregando membros
+2017/02/13 1:42:15: Carregando classe(s) base
+2017/02/13 1:42:15: Carregando classe(s) incremento
+2017/02/13 1:42:15: Carregando NPC
+2017/02/13 1:42:15: Game Server Start
+2017/02/13 1:42:22: Status changed to connected: 127.0.0.1
+2017/02/13 1:42:48: Data From World Server ID: 1 Account: akaruz Char ID: 9 Slot: 1 8F0C8BF39C5822F0
+2017/02/13 1:42:48: Status changed to connected: 127.0.0.1
+2017/02/13 1:42:48: Received From Client: 8F0C8BF39C5822F0
+2017/02/13 1:42:48: Player Found ID: 9 Name: Ingsan
+2017/02/13 1:42:49: Ingsan Dir: 4 X: 25 Y: 15
+2017/02/13 1:42:50: Ingsan Dir: 4 X: 25 Y: 16
+2017/02/13 1:42:50: Ingsan Dir: 4 X: 25 Y: 17
+2017/02/13 1:42:50: Ingsan Dir: 4 X: 25 Y: 18
+2017/02/13 1:42:50: Ingsan Dir: 10 X: 26 Y: 18
+2017/02/13 1:42:50: Ingsan Dir: 10 X: 27 Y: 18
+2017/02/13 1:42:51: Ingsan Dir: 1 X: 27 Y: 17
+2017/02/13 1:42:51: Ingsan Dir: 1 X: 27 Y: 16
+2017/02/13 1:42:51: Ingsan Dir: 7 X: 26 Y: 16
+2017/02/13 1:42:52: Ingsan Dir: 4 X: 26 Y: 17
+2017/02/13 1:43:47: ID: 9 Ingsan Status changed to disconnected: 127.0.0.1
+2017/02/13 1:44:42: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 3A8B0BE021A503AD
+2017/02/13 1:44:42: Status changed to connected: 127.0.0.1
+2017/02/13 1:44:42: Received From Client: 3A8B0BE021A503AD
+2017/02/13 1:44:43: Player Found ID: 1 Name: Joanlac
+2017/02/13 1:44:44: Joanlac Dir: 4 X: 19 Y: 21
+2017/02/13 1:44:44: Joanlac Dir: 4 X: 19 Y: 22
+2017/02/13 1:44:44: Joanlac Dir: 4 X: 19 Y: 23
+2017/02/13 1:44:44: Joanlac Dir: 10 X: 20 Y: 23
+2017/02/13 1:44:44: Joanlac Dir: 10 X: 21 Y: 23
+2017/02/13 1:44:44: Joanlac Dir: 10 X: 22 Y: 23
+2017/02/13 1:44:45: Joanlac Dir: 7 X: 21 Y: 23
+2017/02/13 1:45:16: ID: 1 Joanlac Status changed to disconnected: 127.0.0.1
+2017/02/13 1:47:16: Data From World Server ID: 1 Account: akaruz Char ID: 9 Slot: 1 57616EADFDD9091F
+2017/02/13 1:47:17: Status changed to connected: 127.0.0.1
+2017/02/13 1:47:17: Received From Client: 57616EADFDD9091F
+2017/02/13 1:47:17: Player Found ID: 9 Name: Ingsan
+2017/02/13 1:47:18: Ingsan Dir: 4 X: 26 Y: 18
+2017/02/13 1:47:18: Ingsan Dir: 4 X: 26 Y: 19
+2017/02/13 1:47:19: Ingsan Dir: 4 X: 26 Y: 20
+2017/02/13 1:47:19: Ingsan Dir: 4 X: 26 Y: 21
+2017/02/13 1:47:19: Ingsan Dir: 1 X: 26 Y: 20
+2017/02/13 1:47:19: Ingsan Dir: 1 X: 26 Y: 19
+2017/02/13 1:47:30: Ingsan Dir: 1 X: 26 Y: 18
+2017/02/13 1:47:30: Ingsan Dir: 1 X: 26 Y: 17
+2017/02/13 1:47:30: Ingsan Dir: 1 X: 26 Y: 16
+2017/02/13 1:47:31: Ingsan Dir: 7 X: 25 Y: 16
+2017/02/13 1:47:31: Ingsan Dir: 7 X: 24 Y: 16
+2017/02/13 1:47:31: Ingsan Dir: 4 X: 24 Y: 17
+2017/02/13 1:47:31: Ingsan Dir: 4 X: 24 Y: 18
+2017/02/13 1:47:31: Ingsan Dir: 4 X: 24 Y: 19
+2017/02/13 1:47:32: Ingsan Dir: 10 X: 25 Y: 19
+2017/02/13 1:47:32: Ingsan Dir: 10 X: 26 Y: 19
+2017/02/13 1:47:32: Ingsan Dir: 10 X: 27 Y: 19
+2017/02/13 1:47:32: Ingsan Dir: 10 X: 28 Y: 19
+2017/02/13 1:47:32: Ingsan Dir: 10 X: 29 Y: 19
+2017/02/13 1:47:32: Ingsan Dir: 10 X: 30 Y: 19
+2017/02/13 1:47:33: Ingsan Dir: 10 X: 31 Y: 19
+2017/02/13 1:47:33: Ingsan Dir: 1 X: 31 Y: 18
+2017/02/13 1:47:33: Ingsan Dir: 1 X: 31 Y: 17
+2017/02/13 1:47:33: Ingsan Dir: 1 X: 31 Y: 16
+2017/02/13 1:47:33: Ingsan Dir: 1 X: 31 Y: 15
+2017/02/13 1:47:34: Ingsan Dir: 1 X: 31 Y: 14
+2017/02/13 1:48:22: ID: 9 Ingsan Status changed to disconnected: 127.0.0.1
+2017/02/13 1:48:25: Data From World Server ID: 1 Account: akaruz Char ID: 9 Slot: 1 DD9FD4AAC76F907B
+2017/02/13 1:48:25: Status changed to connected: 127.0.0.1
+2017/02/13 1:48:25: Received From Client: DD9FD4AAC76F907B
+2017/02/13 1:48:25: Player Found ID: 9 Name: Ingsan
+2017/02/13 1:48:26: Ingsan Dir: 4 X: 31 Y: 15
+2017/02/13 1:48:26: Ingsan Dir: 4 X: 31 Y: 16
+2017/02/13 1:49:06: ID: 9 Ingsan Status changed to disconnected: 127.0.0.1
+2017/02/13 1:49:23: Data From World Server ID: 1 Account: akaruz Char ID: 9 Slot: 1 BCB3E456C6945643
+2017/02/13 1:49:23: Status changed to connected: 127.0.0.1
+2017/02/13 1:49:23: Received From Client: BCB3E456C6945643
+2017/02/13 1:49:23: Player Found ID: 9 Name: Ingsan
+2017/02/13 1:49:23: Ingsan Dir: 4 X: 31 Y: 17
+2017/02/13 1:49:24: Ingsan Dir: 4 X: 31 Y: 18
+2017/02/13 1:49:24: Ingsan Dir: 4 X: 31 Y: 19
+2017/02/13 1:49:24: Ingsan Dir: 4 X: 31 Y: 20
+2017/02/13 1:49:24: Ingsan Dir: 1 X: 31 Y: 19
+2017/02/13 1:49:25: Ingsan Dir: 1 X: 31 Y: 18
+2017/02/13 1:49:25: Ingsan Dir: 1 X: 31 Y: 17
+2017/02/13 1:49:25: Ingsan Dir: 1 X: 31 Y: 16
+2017/02/13 1:49:25: Ingsan Dir: 1 X: 31 Y: 15
+2017/02/13 1:49:26: Ingsan Dir: 4 X: 31 Y: 16
+2017/02/13 1:49:30: Ingsan Dir: 1 X: 31 Y: 15
+2017/02/13 1:49:30: Ingsan Dir: 1 X: 31 Y: 14
+2017/02/13 1:49:31: Ingsan Dir: 1 X: 31 Y: 13
+2017/02/13 1:49:31: Ingsan Dir: 7 X: 30 Y: 13
+2017/02/13 1:49:31: Ingsan Dir: 7 X: 29 Y: 13
+2017/02/13 1:49:31: Ingsan Dir: 7 X: 28 Y: 13
+2017/02/13 1:49:31: Ingsan Dir: 4 X: 28 Y: 14
+2017/02/13 1:49:32: Ingsan Dir: 4 X: 28 Y: 15
+2017/02/13 1:49:32: Ingsan Dir: 4 X: 28 Y: 16
+2017/02/13 1:49:32: Ingsan Dir: 4 X: 28 Y: 17
+2017/02/13 1:49:32: Ingsan Dir: 4 X: 28 Y: 18
+2017/02/13 1:49:32: Ingsan Dir: 4 X: 28 Y: 19
+2017/02/13 1:49:33: Ingsan Dir: 4 X: 28 Y: 20
+2017/02/13 1:49:33: Ingsan Dir: 4 X: 28 Y: 21
+2017/02/13 1:49:34: Ingsan Dir: 1 X: 28 Y: 20
+2017/02/13 1:49:34: Ingsan Dir: 1 X: 28 Y: 19
+2017/02/13 1:49:34: Ingsan Dir: 1 X: 28 Y: 18
+2017/02/13 1:49:34: Ingsan Dir: 1 X: 28 Y: 17
+2017/02/13 1:49:36: Ingsan Dir: 10 X: 29 Y: 17
+2017/02/13 1:52:16: Game Server Name: Canal 1
+2017/02/13 1:52:16: Discovery: Elysium Diamond #1.0.0
+2017/02/13 1:52:16: Port: 10120
+2017/02/13 1:52:16: MaximumConnections: 2000
+2017/02/13 1:52:16: ConnectionTimeOut: 25
+2017/02/13 1:52:16: Logs: True
+2017/02/13 1:52:16: Sleep: 1
+2017/02/13 1:52:16: Game Server ID: gameserver_1
+2017/02/13 1:52:16: Carregando config mysql
+2017/02/13 1:52:16: Connectado ao banco de dados
+2017/02/13 1:52:16: WorldServer 1  ID: Artemis
+2017/02/13 1:52:16: WorldServer 2  ID: 
+2017/02/13 1:52:16: WorldServer 3  ID: 
+2017/02/13 1:52:16: WorldServer 4  ID: 
+2017/02/13 1:52:16: WorldServer 5  ID: 
+2017/02/13 1:52:16: Carregando experiência
+2017/02/13 1:52:16: Level Max: 121
+2017/02/13 1:52:16: Exp Max: 22353256174
+2017/02/13 1:52:16: Carregando guilds
+2017/02/13 1:52:16: Carregando membros
+2017/02/13 1:52:16: Carregando classe(s) base
+2017/02/13 1:52:16: Carregando classe(s) incremento
+2017/02/13 1:52:16: Carregando NPC
+2017/02/13 1:52:16: Game Server Start
+2017/02/13 1:52:22: Status changed to connected: 127.0.0.1
+2017/02/13 1:52:31: Data From World Server ID: 1 Account: akaruz Char ID: 9 Slot: 1 135C1A93B75E0577
+2017/02/13 1:52:32: Status changed to connected: 127.0.0.1
+2017/02/13 1:52:32: Received From Client: 135C1A93B75E0577
+2017/02/13 1:52:32: Player Found ID: 9 Name: Ingsan
+2017/02/13 1:52:34: Ingsan Dir: 4 X: 31 Y: 17
+2017/02/13 1:52:34: Ingsan Dir: 4 X: 31 Y: 18
+2017/02/13 1:52:34: Ingsan Dir: 4 X: 31 Y: 19
+2017/02/13 1:52:34: Ingsan Dir: 4 X: 31 Y: 20
+2017/02/13 1:52:35: Ingsan Dir: 1 X: 31 Y: 19
+2017/02/13 1:52:35: Ingsan Dir: 1 X: 31 Y: 18
+2017/02/13 1:52:35: Ingsan Dir: 1 X: 31 Y: 17
+2017/02/13 1:52:41: Ingsan Dir: 4 X: 31 Y: 18
+2017/02/13 1:52:41: Ingsan Dir: 4 X: 31 Y: 19
+2017/02/13 1:54:35: Game Server Name: Canal 1
+2017/02/13 1:54:35: Discovery: Elysium Diamond #1.0.0
+2017/02/13 1:54:35: Port: 10120
+2017/02/13 1:54:35: MaximumConnections: 2000
+2017/02/13 1:54:35: ConnectionTimeOut: 25
+2017/02/13 1:54:35: Logs: True
+2017/02/13 1:54:35: Sleep: 1
+2017/02/13 1:54:35: Game Server ID: gameserver_1
+2017/02/13 1:54:35: Carregando config mysql
+2017/02/13 1:54:35: Connectado ao banco de dados
+2017/02/13 1:54:35: WorldServer 1  ID: Artemis
+2017/02/13 1:54:35: WorldServer 2  ID: 
+2017/02/13 1:54:35: WorldServer 3  ID: 
+2017/02/13 1:54:35: WorldServer 4  ID: 
+2017/02/13 1:54:35: WorldServer 5  ID: 
+2017/02/13 1:54:35: Carregando experiência
+2017/02/13 1:54:35: Level Max: 121
+2017/02/13 1:54:35: Exp Max: 22353256174
+2017/02/13 1:54:35: Carregando guilds
+2017/02/13 1:54:35: Carregando membros
+2017/02/13 1:54:35: Carregando classe(s) base
+2017/02/13 1:54:35: Carregando classe(s) incremento
+2017/02/13 1:54:35: Carregando NPC
+2017/02/13 1:54:35: Game Server Start
+2017/02/13 1:54:42: Status changed to connected: 127.0.0.1
+2017/02/13 1:54:48: Data From World Server ID: 1 Account: akaruz Char ID: 9 Slot: 1 CB044F06D9D69893
+2017/02/13 1:54:49: Status changed to connected: 127.0.0.1
+2017/02/13 1:54:49: Received From Client: CB044F06D9D69893
+2017/02/13 1:54:49: Player Found ID: 9 Name: Ingsan
+2017/02/13 1:54:57: Ingsan Dir: 4 X: 31 Y: 17
+2017/02/13 1:54:57: Ingsan Dir: 4 X: 31 Y: 18
+2017/02/13 1:54:57: Ingsan Dir: 4 X: 31 Y: 19
+2017/02/13 1:54:57: Ingsan Dir: 1 X: 31 Y: 18
+2017/02/13 1:55:03: Ingsan Dir: 4 X: 31 Y: 19
+2017/02/13 1:55:03: Ingsan Dir: 4 X: 31 Y: 20
+2017/02/13 1:55:30: ID: 9 Ingsan Status changed to disconnected: 127.0.0.1
+2017/02/13 1:57:13: Game Server Name: Canal 1
+2017/02/13 1:57:13: Discovery: Elysium Diamond #1.0.0
+2017/02/13 1:57:13: Port: 10120
+2017/02/13 1:57:13: MaximumConnections: 2000
+2017/02/13 1:57:13: ConnectionTimeOut: 25
+2017/02/13 1:57:13: Logs: True
+2017/02/13 1:57:13: Sleep: 1
+2017/02/13 1:57:13: Game Server ID: gameserver_1
+2017/02/13 1:57:13: Carregando config mysql
+2017/02/13 1:57:13: Connectado ao banco de dados
+2017/02/13 1:57:13: WorldServer 1  ID: Artemis
+2017/02/13 1:57:13: WorldServer 2  ID: 
+2017/02/13 1:57:13: WorldServer 3  ID: 
+2017/02/13 1:57:13: WorldServer 4  ID: 
+2017/02/13 1:57:13: WorldServer 5  ID: 
+2017/02/13 1:57:13: Carregando experiência
+2017/02/13 1:57:13: Level Max: 121
+2017/02/13 1:57:13: Exp Max: 22353256174
+2017/02/13 1:57:13: Carregando guilds
+2017/02/13 1:57:13: Carregando membros
+2017/02/13 1:57:13: Carregando classe(s) base
+2017/02/13 1:57:13: Carregando classe(s) incremento
+2017/02/13 1:57:13: Carregando NPC
+2017/02/13 1:57:13: Game Server Start
+2017/02/13 1:57:22: Status changed to connected: 127.0.0.1
+2017/02/13 1:57:28: Data From World Server ID: 1 Account: akaruz Char ID: 9 Slot: 1 93936DD04BD37DE7
+2017/02/13 1:57:29: Status changed to connected: 127.0.0.1
+2017/02/13 1:57:29: Received From Client: 93936DD04BD37DE7
+2017/02/13 1:57:29: Player Found ID: 9 Name: Ingsan
+2017/02/13 1:57:31: Ingsan Dir: 4 X: 31 Y: 21
+2017/02/13 1:57:31: Ingsan Dir: 7 X: 30 Y: 21
+2017/02/13 1:57:31: Ingsan Dir: 7 X: 29 Y: 21
+2017/02/13 2:01:42: Game Server Name: Canal 1
+2017/02/13 2:01:42: Discovery: Elysium Diamond #1.0.0
+2017/02/13 2:01:42: Port: 10120
+2017/02/13 2:01:42: MaximumConnections: 2000
+2017/02/13 2:01:43: ConnectionTimeOut: 25
+2017/02/13 2:01:43: Logs: True
+2017/02/13 2:01:43: Sleep: 1
+2017/02/13 2:01:43: Game Server ID: gameserver_1
+2017/02/13 2:01:43: Carregando config mysql
+2017/02/13 2:01:43: Connectado ao banco de dados
+2017/02/13 2:01:43: WorldServer 1  ID: Artemis
+2017/02/13 2:01:43: WorldServer 2  ID: 
+2017/02/13 2:01:43: WorldServer 3  ID: 
+2017/02/13 2:01:43: WorldServer 4  ID: 
+2017/02/13 2:01:43: WorldServer 5  ID: 
+2017/02/13 2:01:43: Carregando experiência
+2017/02/13 2:01:43: Level Max: 121
+2017/02/13 2:01:43: Exp Max: 22353256174
+2017/02/13 2:01:43: Carregando guilds
+2017/02/13 2:01:43: Carregando membros
+2017/02/13 2:01:43: Carregando classe(s) base
+2017/02/13 2:01:43: Carregando classe(s) incremento
+2017/02/13 2:01:43: Carregando NPC
+2017/02/13 2:01:43: Game Server Start
+2017/02/13 2:01:52: Status changed to connected: 127.0.0.1
+2017/02/13 2:01:55: Data From World Server ID: 1 Account: akaruz Char ID: 9 Slot: 1 F72C7A224108F96D
+2017/02/13 2:01:55: Status changed to connected: 127.0.0.1
+2017/02/13 2:01:55: Received From Client: F72C7A224108F96D
+2017/02/13 2:01:55: Player Found ID: 9 Name: Ingsan
+2017/02/13 2:01:59: Ingsan Dir: 4 X: 31 Y: 21
+2017/02/13 2:01:59: Ingsan Dir: 4 X: 31 Y: 22
+2017/02/13 2:02:02: Ingsan Dir: 4 X: 31 Y: 23
+2017/02/13 2:02:02: Ingsan Dir: 4 X: 31 Y: 24
+2017/02/13 2:02:02: Ingsan Dir: 1 X: 31 Y: 23
+2017/02/13 2:02:02: Ingsan Dir: 1 X: 31 Y: 22
+2017/02/13 2:02:03: Ingsan Dir: 1 X: 31 Y: 21
+2017/02/13 2:02:03: Ingsan Dir: 1 X: 31 Y: 20
+2017/02/13 2:02:32: ID: 9 Ingsan Status changed to disconnected: 127.0.0.1
+2017/02/13 2:02:38: Data From World Server ID: 1 Account: akaruz Char ID: 9 Slot: 1 2DD6E604E5A6A010
+2017/02/13 2:02:38: Status changed to connected: 127.0.0.1
+2017/02/13 2:02:38: Received From Client: 2DD6E604E5A6A010
+2017/02/13 2:02:38: Player Found ID: 9 Name: Ingsan
+2017/02/13 2:02:40: Ingsan Dir: 4 X: 31 Y: 21
+2017/02/13 2:02:40: Ingsan Dir: 4 X: 31 Y: 22
+2017/02/13 2:32:25: Game Server Name: Canal 1
+2017/02/13 2:32:25: Discovery: Elysium Diamond #1.0.0
+2017/02/13 2:32:25: Port: 10120
+2017/02/13 2:32:25: MaximumConnections: 2000
+2017/02/13 2:32:25: ConnectionTimeOut: 25
+2017/02/13 2:32:25: Logs: True
+2017/02/13 2:32:25: Sleep: 1
+2017/02/13 2:32:25: Game Server ID: gameserver_1
+2017/02/13 2:32:25: Carregando config mysql
+2017/02/13 2:32:25: Connectado ao banco de dados
+2017/02/13 2:32:25: WorldServer 1  ID: Artemis
+2017/02/13 2:32:25: WorldServer 2  ID: 
+2017/02/13 2:32:25: WorldServer 3  ID: 
+2017/02/13 2:32:25: WorldServer 4  ID: 
+2017/02/13 2:32:25: WorldServer 5  ID: 
+2017/02/13 2:32:25: Carregando experiência
+2017/02/13 2:32:25: Level Max: 121
+2017/02/13 2:32:25: Exp Max: 22353256174
+2017/02/13 2:32:25: Carregando guilds
+2017/02/13 2:32:25: Carregando membros
+2017/02/13 2:32:25: Carregando classe(s) base
+2017/02/13 2:32:25: Carregando classe(s) incremento
+2017/02/13 2:32:25: Carregando NPC
+2017/02/13 2:32:26: Game Server Start
+2017/02/13 2:32:35: Status changed to connected: 127.0.0.1
+2017/02/13 2:32:45: Data From World Server ID: 1 Account: akaruz Char ID: 9 Slot: 1 937A158504E46F0E
+2017/02/13 2:32:46: Status changed to connected: 127.0.0.1
+2017/02/13 2:32:46: Received From Client: 937A158504E46F0E
+2017/02/13 2:32:46: Player Found ID: 9 Name: Ingsan
+2017/02/13 2:32:47: Ingsan Dir: 4 X: 31 Y: 21
+2017/02/13 2:32:48: Ingsan Dir: 4 X: 31 Y: 22
+2017/02/13 2:32:48: Ingsan Dir: 4 X: 31 Y: 23
+2017/02/13 2:32:48: Ingsan Dir: 4 X: 31 Y: 24
+2017/02/13 2:32:49: Ingsan Dir: 7 X: 30 Y: 24
+2017/02/13 2:32:49: Ingsan Dir: 7 X: 29 Y: 24
+2017/02/13 2:32:49: Ingsan Dir: 7 X: 28 Y: 24
+2017/02/13 2:32:49: Ingsan Dir: 1 X: 28 Y: 23
+2017/02/13 2:32:50: Ingsan Dir: 1 X: 28 Y: 22
+2017/02/13 2:32:50: Ingsan Dir: 1 X: 28 Y: 21
+2017/02/13 2:32:50: Ingsan Dir: 1 X: 28 Y: 20
+2017/02/13 2:32:50: Ingsan Dir: 4 X: 28 Y: 21
+2017/02/13 2:32:51: Ingsan Dir: 4 X: 28 Y: 22
+2017/02/13 2:32:51: Ingsan Dir: 4 X: 28 Y: 23
+2017/02/13 2:32:55: Ingsan Dir: 1 X: 28 Y: 22
+2017/02/13 2:32:55: Ingsan Dir: 1 X: 28 Y: 21
+2017/02/13 2:32:56: Ingsan Dir: 1 X: 28 Y: 20
+2017/02/13 2:32:56: Ingsan Dir: 1 X: 28 Y: 19
+2017/02/13 2:32:56: Ingsan Dir: 1 X: 28 Y: 18
+2017/02/13 2:32:56: Ingsan Dir: 4 X: 28 Y: 19
+2017/02/13 2:32:57: Ingsan Dir: 4 X: 28 Y: 20
+2017/02/13 2:32:57: Ingsan Dir: 1 X: 28 Y: 19
+2017/02/13 2:32:57: Ingsan Dir: 1 X: 28 Y: 18
+2017/02/13 2:32:57: Ingsan Dir: 1 X: 28 Y: 17
+2017/02/13 2:32:58: Ingsan Dir: 4 X: 28 Y: 18
+2017/02/13 2:32:58: Ingsan Dir: 4 X: 28 Y: 19
+2017/02/13 2:33:13: Ingsan Dir: 4 X: 28 Y: 20
+2017/02/13 2:33:13: Ingsan Dir: 4 X: 28 Y: 21
+2017/02/13 2:39:46: Game Server Name: Canal 1
+2017/02/13 2:39:46: Discovery: Elysium Diamond #1.0.0
+2017/02/13 2:39:46: Port: 10120
+2017/02/13 2:39:46: MaximumConnections: 2000
+2017/02/13 2:39:46: ConnectionTimeOut: 25
+2017/02/13 2:39:46: Logs: True
+2017/02/13 2:39:46: Sleep: 1
+2017/02/13 2:39:46: Game Server ID: gameserver_1
+2017/02/13 2:39:46: Carregando config mysql
+2017/02/13 2:39:46: Connectado ao banco de dados
+2017/02/13 2:39:46: WorldServer 1  ID: Artemis
+2017/02/13 2:39:46: WorldServer 2  ID: 
+2017/02/13 2:39:46: WorldServer 3  ID: 
+2017/02/13 2:39:46: WorldServer 4  ID: 
+2017/02/13 2:39:46: WorldServer 5  ID: 
+2017/02/13 2:39:46: Carregando experiência
+2017/02/13 2:39:46: Level Max: 121
+2017/02/13 2:39:46: Exp Max: 22353256174
+2017/02/13 2:39:46: Carregando guilds
+2017/02/13 2:39:46: Carregando membros
+2017/02/13 2:39:46: Carregando classe(s) base
+2017/02/13 2:39:46: Carregando classe(s) incremento
+2017/02/13 2:39:46: Carregando NPC
+2017/02/13 2:39:47: Game Server Start
+2017/02/13 2:39:49: Status changed to connected: 127.0.0.1
+2017/02/13 2:39:53: Data From World Server ID: 1 Account: akaruz Char ID: 11 Slot: 3 1D56B41AE79307EF
+2017/02/13 2:39:53: Status changed to connected: 127.0.0.1
+2017/02/13 2:39:53: Received From Client: 1D56B41AE79307EF
+2017/02/13 2:39:53: Player Found ID: 11 Name: ZecaUrubu
+2017/02/13 2:39:54: ZecaUrubu Dir: 4 X: 0 Y: 1
+2017/02/13 2:39:55: ZecaUrubu Dir: 4 X: 0 Y: 2
+2017/02/13 2:39:55: ZecaUrubu Dir: 10 X: 1 Y: 2
+2017/02/13 2:39:55: ZecaUrubu Dir: 10 X: 2 Y: 2
+2017/02/13 2:39:55: ZecaUrubu Dir: 10 X: 3 Y: 2
+2017/02/13 2:39:56: ZecaUrubu Dir: 10 X: 4 Y: 2
+2017/02/13 2:39:56: ZecaUrubu Dir: 4 X: 4 Y: 3
+2017/02/13 2:39:56: ZecaUrubu Dir: 4 X: 4 Y: 4
+2017/02/13 2:39:56: ZecaUrubu Dir: 4 X: 4 Y: 5
+2017/02/13 2:39:56: ZecaUrubu Dir: 4 X: 4 Y: 6
+2017/02/13 2:39:57: ZecaUrubu Dir: 10 X: 5 Y: 6
+2017/02/13 2:39:57: ZecaUrubu Dir: 10 X: 6 Y: 6
+2017/02/13 2:39:57: ZecaUrubu Dir: 10 X: 7 Y: 6
+2017/02/13 2:39:57: ZecaUrubu Dir: 10 X: 8 Y: 6
+2017/02/13 2:39:57: ZecaUrubu Dir: 10 X: 9 Y: 6
+2017/02/13 2:39:58: ZecaUrubu Dir: 10 X: 10 Y: 6
+2017/02/13 2:39:58: ZecaUrubu Dir: 4 X: 10 Y: 7
+2017/02/13 2:39:58: ZecaUrubu Dir: 4 X: 10 Y: 8
+2017/02/13 2:39:58: ZecaUrubu Dir: 10 X: 11 Y: 8
+2017/02/13 2:39:58: ZecaUrubu Dir: 10 X: 12 Y: 8
+2017/02/13 2:39:59: ZecaUrubu Dir: 10 X: 13 Y: 8
+2017/02/13 2:39:59: ZecaUrubu Dir: 10 X: 14 Y: 8
+2017/02/13 2:39:59: ZecaUrubu Dir: 10 X: 15 Y: 8
+2017/02/13 2:39:59: ZecaUrubu Dir: 10 X: 16 Y: 8
+2017/02/13 2:39:59: ZecaUrubu Dir: 10 X: 17 Y: 8
+2017/02/13 2:40:00: ZecaUrubu Dir: 4 X: 17 Y: 9
+2017/02/13 2:40:00: ZecaUrubu Dir: 10 X: 18 Y: 9
+2017/02/13 2:40:00: ZecaUrubu Dir: 10 X: 19 Y: 9
+2017/02/13 2:40:00: ZecaUrubu Dir: 10 X: 20 Y: 9
+2017/02/13 2:40:00: ZecaUrubu Dir: 10 X: 21 Y: 9
+2017/02/13 2:40:00: ZecaUrubu Dir: 10 X: 22 Y: 9
+2017/02/13 2:40:01: ZecaUrubu Dir: 4 X: 22 Y: 10
+2017/02/13 2:40:01: ZecaUrubu Dir: 4 X: 22 Y: 11
+2017/02/13 2:40:01: ZecaUrubu Dir: 10 X: 23 Y: 11
+2017/02/13 2:40:01: ZecaUrubu Dir: 10 X: 24 Y: 11
+2017/02/13 2:40:02: ZecaUrubu Dir: 10 X: 25 Y: 11
+2017/02/13 2:40:02: ZecaUrubu Dir: 4 X: 25 Y: 12
+2017/02/13 2:40:02: ZecaUrubu Dir: 10 X: 26 Y: 12
+2017/02/13 2:40:03: ZecaUrubu Dir: 10 X: 27 Y: 12
+2017/02/13 2:40:03: ZecaUrubu Dir: 10 X: 28 Y: 12
+2017/02/13 2:40:03: ZecaUrubu Dir: 10 X: 29 Y: 12
+2017/02/13 2:40:03: ZecaUrubu Dir: 4 X: 29 Y: 13
+2017/02/13 2:40:04: ZecaUrubu Dir: 4 X: 29 Y: 14
+2017/02/13 2:40:04: ZecaUrubu Dir: 4 X: 29 Y: 15
+2017/02/13 2:40:04: ZecaUrubu Dir: 10 X: 30 Y: 15
+2017/02/13 2:40:04: ZecaUrubu Dir: 10 X: 31 Y: 15
+2017/02/13 2:40:05: ZecaUrubu Dir: 10 X: 32 Y: 15
+2017/02/13 2:40:05: ZecaUrubu Dir: 4 X: 32 Y: 16
+2017/02/13 2:40:05: ZecaUrubu Dir: 4 X: 32 Y: 17
+2017/02/13 2:40:05: ZecaUrubu Dir: 4 X: 32 Y: 18
+2017/02/13 2:40:05: ZecaUrubu Dir: 4 X: 32 Y: 19
+2017/02/13 2:40:06: ZecaUrubu Dir: 10 X: 33 Y: 19
+2017/02/13 2:40:06: ZecaUrubu Dir: 10 X: 34 Y: 19
+2017/02/13 2:40:06: ZecaUrubu Dir: 4 X: 34 Y: 20
+2017/02/13 2:40:44: ID: 11 ZecaUrubu Status changed to disconnected: 127.0.0.1
+2017/02/13 2:44:18: Status changed to connected: 127.0.0.1
+2017/02/13 2:44:24: ID: 0  Status changed to disconnected: 127.0.0.1
+2017/02/13 2:45:18: ID: 0  Status changed to disconnected: 127.0.0.1
+2017/02/13 2:49:02: Status changed to connected: 127.0.0.1
+2017/02/13 2:49:50: Data From World Server ID: 1 Account: akaruz Char ID: 12 Slot: 3 8DC7D56F3B0C6958
+2017/02/13 2:49:50: Status changed to connected: 127.0.0.1
+2017/02/13 2:49:50: Received From Client: 8DC7D56F3B0C6958
+2017/02/13 2:49:50: Player Found ID: 12 Name: ZecaUrubu
+2017/02/13 2:49:52: ZecaUrubu Dir: 4 X: 0 Y: 1
+2017/02/13 2:49:52: ZecaUrubu Dir: 4 X: 0 Y: 2
+2017/02/13 2:49:52: ZecaUrubu Dir: 10 X: 1 Y: 2
+2017/02/13 2:49:52: ZecaUrubu Dir: 10 X: 2 Y: 2
+2017/02/13 2:49:52: ZecaUrubu Dir: 10 X: 3 Y: 2
+2017/02/13 2:49:53: ZecaUrubu Dir: 10 X: 4 Y: 2
+2017/02/13 2:49:53: ZecaUrubu Dir: 10 X: 5 Y: 2
+2017/02/13 2:49:53: ZecaUrubu Dir: 10 X: 6 Y: 2
+2017/02/13 2:49:53: ZecaUrubu Dir: 10 X: 7 Y: 2
+2017/02/13 2:49:54: ZecaUrubu Dir: 4 X: 7 Y: 3
+2017/02/13 2:49:54: ZecaUrubu Dir: 4 X: 7 Y: 4
+2017/02/13 2:49:54: ZecaUrubu Dir: 4 X: 7 Y: 5
+2017/02/13 2:49:57: ZecaUrubu Dir: 10 X: 8 Y: 5
+2017/02/13 2:49:57: ZecaUrubu Dir: 4 X: 8 Y: 6
+2017/02/13 2:50:21: ID: 12 ZecaUrubu Status changed to disconnected: 127.0.0.1
+2017/02/13 2:50:23: ID: 0  Status changed to disconnected: 127.0.0.1
+2017/02/13 2:50:36: Status changed to connected: 127.0.0.1
+2017/02/13 2:51:41: ID: 0  Status changed to disconnected: 127.0.0.1
+2017/02/13 2:52:26: Status changed to connected: 127.0.0.1
+2017/02/13 2:54:22: Status changed to connected: 127.0.0.1
+2017/02/13 2:54:23: ID: 0  Status changed to disconnected: 127.0.0.1
+2017/02/13 2:54:29: Status changed to connected: 127.0.0.1
+2017/02/13 2:54:47: ID: 0  Status changed to disconnected: 127.0.0.1
+2017/02/13 2:54:56: Data From World Server ID: 1 Account: akaruz Char ID: 9 Slot: 1 B989EDE89530007E
+2017/02/13 2:54:56: Status changed to connected: 127.0.0.1
+2017/02/13 2:54:56: Received From Client: B989EDE89530007E
+2017/02/13 2:54:57: Player Found ID: 9 Name: Ingsan
+2017/02/13 2:54:58: Ingsan Dir: 7 X: 30 Y: 20
+2017/02/13 2:54:58: Ingsan Dir: 1 X: 30 Y: 19
+2017/02/13 2:54:58: Ingsan Dir: 4 X: 30 Y: 20
+2017/02/13 2:54:59: Ingsan Dir: 4 X: 30 Y: 21
+2017/02/13 2:54:59: Ingsan Dir: 4 X: 30 Y: 22
+2017/02/13 2:56:22: Game Server Name: Canal 1
+2017/02/13 2:56:22: Discovery: Elysium Diamond #1.0.0
+2017/02/13 2:56:22: Port: 10120
+2017/02/13 2:56:22: MaximumConnections: 2000
+2017/02/13 2:56:22: ConnectionTimeOut: 25
+2017/02/13 2:56:22: Logs: True
+2017/02/13 2:56:22: Sleep: 1
+2017/02/13 2:56:22: Game Server ID: gameserver_1
+2017/02/13 2:56:22: Carregando config mysql
+2017/02/13 2:56:22: Connectado ao banco de dados
+2017/02/13 2:56:22: WorldServer 1  ID: Artemis
+2017/02/13 2:56:22: WorldServer 2  ID: 
+2017/02/13 2:56:22: WorldServer 3  ID: 
+2017/02/13 2:56:22: WorldServer 4  ID: 
+2017/02/13 2:56:22: WorldServer 5  ID: 
+2017/02/13 2:56:22: Carregando experiência
+2017/02/13 2:56:22: Level Max: 121
+2017/02/13 2:56:22: Exp Max: 22353256174
+2017/02/13 2:56:22: Carregando guilds
+2017/02/13 2:56:22: Carregando membros
+2017/02/13 2:56:22: Carregando classe(s) base
+2017/02/13 2:56:23: Carregando classe(s) incremento
+2017/02/13 2:56:23: Carregando NPC
+2017/02/13 2:56:23: Game Server Start
+2017/02/13 2:56:29: Status changed to connected: 127.0.0.1
+2017/02/13 2:57:12: ID: 0  Status changed to disconnected: 127.0.0.1
+2017/02/13 2:58:34: Status changed to connected: 127.0.0.1
+2017/02/13 2:59:10: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 1 BA3C453CE22EDE07
+2017/02/13 2:59:11: Status changed to connected: 127.0.0.1
+2017/02/13 2:59:11: Received From Client: BA3C453CE22EDE07
+2017/02/13 2:59:11: Player Found ID: 16 Name: Ingsan
+2017/02/13 2:59:12: Ingsan Dir: 4 X: 0 Y: 1
+2017/02/13 2:59:12: Ingsan Dir: 4 X: 0 Y: 2
+2017/02/13 2:59:12: Ingsan Dir: 4 X: 0 Y: 3
+2017/02/13 2:59:13: Ingsan Dir: 4 X: 0 Y: 4
+2017/02/13 2:59:13: Ingsan Dir: 10 X: 1 Y: 4
+2017/02/13 2:59:13: Ingsan Dir: 10 X: 2 Y: 4
+2017/02/13 2:59:13: Ingsan Dir: 10 X: 3 Y: 4
+2017/02/13 2:59:13: Ingsan Dir: 10 X: 4 Y: 4
+2017/02/13 2:59:14: Ingsan Dir: 10 X: 5 Y: 4
+2017/02/13 2:59:14: Ingsan Dir: 4 X: 5 Y: 5
+2017/02/13 2:59:14: Ingsan Dir: 4 X: 5 Y: 6
+2017/02/13 2:59:14: Ingsan Dir: 10 X: 6 Y: 6
+2017/02/13 2:59:14: Ingsan Dir: 10 X: 7 Y: 6
+2017/02/13 2:59:15: Ingsan Dir: 10 X: 8 Y: 6
+2017/02/13 2:59:15: Ingsan Dir: 10 X: 9 Y: 6
+2017/02/13 2:59:15: Ingsan Dir: 4 X: 9 Y: 7
+2017/02/13 2:59:15: Ingsan Dir: 4 X: 9 Y: 8
+2017/02/13 2:59:15: Ingsan Dir: 4 X: 9 Y: 9
+2017/02/13 2:59:16: Ingsan Dir: 10 X: 10 Y: 9
+2017/02/13 2:59:16: Ingsan Dir: 10 X: 11 Y: 9
+2017/02/13 2:59:16: Ingsan Dir: 10 X: 12 Y: 9
+2017/02/13 2:59:16: Ingsan Dir: 10 X: 13 Y: 9
+2017/02/13 2:59:16: Ingsan Dir: 4 X: 13 Y: 10
+2017/02/13 2:59:17: Ingsan Dir: 4 X: 13 Y: 11
+2017/02/13 2:59:17: Ingsan Dir: 4 X: 13 Y: 12
+2017/02/13 2:59:17: Ingsan Dir: 10 X: 14 Y: 12
+2017/02/13 2:59:17: Ingsan Dir: 10 X: 15 Y: 12
+2017/02/13 2:59:17: Ingsan Dir: 10 X: 16 Y: 12
+2017/02/13 2:59:18: Ingsan Dir: 10 X: 17 Y: 12
+2017/02/13 2:59:18: Ingsan Dir: 4 X: 17 Y: 13
+2017/02/13 2:59:18: Ingsan Dir: 4 X: 17 Y: 14
+2017/02/13 2:59:18: Ingsan Dir: 4 X: 17 Y: 15
+2017/02/13 2:59:18: Ingsan Dir: 4 X: 17 Y: 16
+2017/02/13 2:59:19: Ingsan Dir: 10 X: 18 Y: 16
+2017/02/13 2:59:19: Ingsan Dir: 10 X: 19 Y: 16
+2017/02/13 2:59:19: Ingsan Dir: 10 X: 20 Y: 16
+2017/02/13 2:59:19: Ingsan Dir: 4 X: 20 Y: 17
+2017/02/13 2:59:19: Ingsan Dir: 4 X: 20 Y: 18
+2017/02/13 2:59:20: Ingsan Dir: 4 X: 20 Y: 19
+2017/02/13 2:59:20: Ingsan Dir: 4 X: 20 Y: 20
+2017/02/13 2:59:21: Ingsan Dir: 10 X: 21 Y: 20
+2017/02/13 2:59:21: Ingsan Dir: 10 X: 22 Y: 20
+2017/02/13 2:59:21: Ingsan Dir: 4 X: 22 Y: 21
+2017/02/13 2:59:50: ID: 16 Ingsan Status changed to disconnected: 127.0.0.1
+2017/02/13 3:00:31: ID: 0  Status changed to disconnected: 127.0.0.1
+2017/02/13 3:01:27: Status changed to connected: 127.0.0.1
+2017/02/13 3:04:18: Game Server Name: Canal 1
+2017/02/13 3:04:18: Discovery: Elysium Diamond #1.0.0
+2017/02/13 3:04:18: Port: 10120
+2017/02/13 3:04:18: MaximumConnections: 2000
+2017/02/13 3:04:18: ConnectionTimeOut: 25
+2017/02/13 3:04:18: Logs: True
+2017/02/13 3:04:18: Sleep: 1
+2017/02/13 3:04:18: Game Server ID: gameserver_1
+2017/02/13 3:04:18: Carregando config mysql
+2017/02/13 3:04:18: Connectado ao banco de dados
+2017/02/13 3:04:18: WorldServer 1  ID: Artemis
+2017/02/13 3:04:18: WorldServer 2  ID: 
+2017/02/13 3:04:18: WorldServer 3  ID: 
+2017/02/13 3:04:18: WorldServer 4  ID: 
+2017/02/13 3:04:18: WorldServer 5  ID: 
+2017/02/13 3:04:18: Carregando experiência
+2017/02/13 3:04:18: Level Max: 121
+2017/02/13 3:04:18: Exp Max: 22353256174
+2017/02/13 3:04:18: Carregando guilds
+2017/02/13 3:04:18: Carregando membros
+2017/02/13 3:04:18: Carregando classe(s) base
+2017/02/13 3:04:18: Carregando classe(s) incremento
+2017/02/13 3:04:18: Carregando NPC
+2017/02/13 3:04:18: Game Server Start
+2017/02/13 3:04:27: Status changed to connected: 127.0.0.1
+2017/02/13 3:05:29: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 1 99EA90B34AA96C65
+2017/02/13 3:05:30: Status changed to connected: 127.0.0.1
+2017/02/13 3:05:30: Received From Client: 99EA90B34AA96C65
+2017/02/13 3:05:30: Player Found ID: 16 Name: Ingsan
+2017/02/13 3:05:31: Ingsan Dir: 4 X: 22 Y: 22
+2017/02/13 3:05:31: Ingsan Dir: 4 X: 22 Y: 23
+2017/02/13 3:05:32: Ingsan Dir: 4 X: 22 Y: 24
+2017/02/13 3:05:32: Ingsan Dir: 4 X: 22 Y: 25
+2017/02/13 3:05:32: Ingsan Dir: 1 X: 22 Y: 24
+2017/02/13 3:05:32: Ingsan Dir: 1 X: 22 Y: 23
+2017/02/13 3:05:32: Ingsan Dir: 10 X: 23 Y: 23
+2017/02/13 3:05:33: Ingsan Dir: 10 X: 24 Y: 23
+2017/02/13 3:05:33: Ingsan Dir: 10 X: 25 Y: 23
+2017/02/13 3:05:33: Ingsan Dir: 10 X: 26 Y: 23
+2017/02/13 3:05:33: Ingsan Dir: 1 X: 26 Y: 22
+2017/02/13 3:05:33: Ingsan Dir: 1 X: 26 Y: 21
+2017/02/13 3:05:33: Ingsan Dir: 1 X: 26 Y: 20
+2017/02/13 3:05:34: Ingsan Dir: 10 X: 27 Y: 20
+2017/02/13 3:05:34: Ingsan Dir: 10 X: 28 Y: 20
+2017/02/13 3:05:34: Ingsan Dir: 10 X: 29 Y: 20
+2017/02/13 3:05:34: Ingsan Dir: 1 X: 29 Y: 19
+2017/02/13 3:05:34: Ingsan Dir: 1 X: 29 Y: 18
+2017/02/13 3:05:35: Ingsan Dir: 1 X: 29 Y: 17
+2017/02/13 3:05:35: Ingsan Dir: 1 X: 29 Y: 16
+2017/02/13 3:05:35: Ingsan Dir: 10 X: 30 Y: 16
+2017/02/13 3:05:35: Ingsan Dir: 10 X: 31 Y: 16
+2017/02/13 3:05:35: Ingsan Dir: 10 X: 32 Y: 16
+2017/02/13 3:05:36: Ingsan Dir: 10 X: 33 Y: 16
+2017/02/13 3:05:36: Ingsan Dir: 1 X: 33 Y: 15
+2017/02/13 3:05:36: Ingsan Dir: 1 X: 33 Y: 14
+2017/02/13 3:05:36: Ingsan Dir: 1 X: 33 Y: 13
+2017/02/13 3:05:36: Ingsan Dir: 10 X: 34 Y: 13
+2017/02/13 3:05:37: Ingsan Dir: 10 X: 35 Y: 13
+2017/02/13 3:05:37: Ingsan Dir: 10 X: 36 Y: 13
+2017/02/13 3:05:37: Ingsan Dir: 10 X: 37 Y: 13
+2017/02/13 3:05:37: Ingsan Dir: 10 X: 38 Y: 13
+2017/02/13 3:05:37: Ingsan Dir: 10 X: 39 Y: 13
+2017/02/13 3:05:38: Ingsan Dir: 10 X: 40 Y: 13
+2017/02/13 3:05:38: Ingsan Dir: 1 X: 40 Y: 12
+2017/02/13 3:05:38: Ingsan Dir: 1 X: 40 Y: 11
+2017/02/13 3:05:38: Ingsan Dir: 10 X: 41 Y: 11
+2017/02/13 3:05:38: Ingsan Dir: 10 X: 42 Y: 11
+2017/02/13 3:05:39: Ingsan Dir: 10 X: 43 Y: 11
+2017/02/13 3:05:39: Ingsan Dir: 10 X: 44 Y: 11
+2017/02/13 3:05:39: Ingsan Dir: 10 X: 45 Y: 11
+2017/02/13 3:05:39: Ingsan Dir: 4 X: 45 Y: 12
+2017/02/13 3:05:39: Ingsan Dir: 4 X: 45 Y: 13
+2017/02/13 3:05:40: Ingsan Dir: 4 X: 45 Y: 14
+2017/02/13 3:05:40: Ingsan Dir: 4 X: 45 Y: 15
+2017/02/13 3:06:13: ID: 16 Ingsan Status changed to disconnected: 127.0.0.1
+2017/02/13 3:06:44: Data From World Server ID: 1 Account: akaruz Char ID: 3 Slot: 2 4FD40C428E85C35B
+2017/02/13 3:06:45: Status changed to connected: 127.0.0.1
+2017/02/13 3:06:45: Received From Client: 4FD40C428E85C35B
+2017/02/13 3:06:45: Player Found ID: 3 Name: 地区
+2017/02/13 3:06:46: 地区 Dir: 4 X: 22 Y: 19
+2017/02/13 3:06:46: 地区 Dir: 4 X: 22 Y: 20
+2017/02/13 3:06:46: 地区 Dir: 10 X: 23 Y: 20
+2017/02/13 3:06:46: 地区 Dir: 10 X: 24 Y: 20
+2017/02/13 3:06:46: 地区 Dir: 10 X: 25 Y: 20
+2017/02/13 3:06:47: 地区 Dir: 10 X: 26 Y: 20
+2017/02/13 3:06:47: 地区 Dir: 10 X: 27 Y: 20
+2017/02/13 3:06:47: 地区 Dir: 10 X: 28 Y: 20
+2017/02/13 3:06:47: 地区 Dir: 10 X: 29 Y: 20
+2017/02/13 3:06:47: 地区 Dir: 1 X: 29 Y: 19
+2017/02/13 3:06:48: 地区 Dir: 1 X: 29 Y: 18
+2017/02/13 3:06:48: 地区 Dir: 10 X: 30 Y: 18
+2017/02/13 3:06:48: 地区 Dir: 10 X: 31 Y: 18
+2017/02/13 3:06:49: 地区 Dir: 10 X: 32 Y: 18
+2017/02/13 3:06:49: 地区 Dir: 1 X: 32 Y: 17
+2017/02/13 3:06:49: 地区 Dir: 1 X: 32 Y: 16
+2017/02/13 3:06:49: 地区 Dir: 1 X: 32 Y: 15
+2017/02/13 3:06:50: 地区 Dir: 1 X: 32 Y: 14
+2017/02/13 3:07:22: ID: 3 地区 Status changed to disconnected: 127.0.0.1
+2017/02/13 3:07:57: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 1 98F2EBC6A9372E55
+2017/02/13 3:07:57: Status changed to connected: 127.0.0.1
+2017/02/13 3:07:57: Received From Client: 98F2EBC6A9372E55
+2017/02/13 3:07:57: Player Found ID: 16 Name: Ingsan
+2017/02/13 3:07:58: Ingsan Dir: 4 X: 45 Y: 16
+2017/02/13 3:07:58: Ingsan Dir: 4 X: 45 Y: 17
+2017/02/13 3:07:58: Ingsan Dir: 4 X: 45 Y: 18
+2017/02/13 3:07:59: Ingsan Dir: 1 X: 45 Y: 17
+2017/02/13 3:07:59: Ingsan Dir: 1 X: 45 Y: 16
+2017/02/13 3:07:59: Ingsan Dir: 10 X: 46 Y: 16
+2017/02/13 3:08:28: ID: 16 Ingsan Status changed to disconnected: 127.0.0.1
+2017/02/13 3:09:23: Data From World Server ID: 1 Account: akaruz Char ID: 14 Slot: 0 2D84EAD317FD522A
+2017/02/13 3:09:23: Status changed to connected: 127.0.0.1
+2017/02/13 3:09:24: Received From Client: 2D84EAD317FD522A
+2017/02/13 3:09:24: Player Found ID: 14 Name: Joanlac
+2017/02/13 3:09:24: Joanlac Dir: 4 X: 0 Y: 1
+2017/02/13 3:09:24: Joanlac Dir: 4 X: 0 Y: 2
+2017/02/13 3:09:25: Joanlac Dir: 10 X: 1 Y: 2
+2017/02/13 3:09:25: Joanlac Dir: 10 X: 2 Y: 2
+2017/02/13 3:09:25: Joanlac Dir: 10 X: 3 Y: 2
+2017/02/13 3:09:25: Joanlac Dir: 10 X: 4 Y: 2
+2017/02/13 3:09:25: Joanlac Dir: 10 X: 5 Y: 2
+2017/02/13 3:09:26: Joanlac Dir: 10 X: 6 Y: 2
+2017/02/13 3:09:26: Joanlac Dir: 10 X: 7 Y: 2
+2017/02/13 3:09:26: Joanlac Dir: 10 X: 8 Y: 2
+2017/02/13 3:09:26: Joanlac Dir: 10 X: 9 Y: 2
+2017/02/13 3:09:26: Joanlac Dir: 10 X: 10 Y: 2
+2017/02/13 3:09:27: Joanlac Dir: 10 X: 11 Y: 2
+2017/02/13 3:09:27: Joanlac Dir: 4 X: 11 Y: 3
+2017/02/13 3:09:27: Joanlac Dir: 4 X: 11 Y: 4
+2017/02/13 3:09:27: Joanlac Dir: 4 X: 11 Y: 5
+2017/02/13 3:09:27: Joanlac Dir: 4 X: 11 Y: 6
+2017/02/13 3:09:28: Joanlac Dir: 10 X: 12 Y: 6
+2017/02/13 3:09:28: Joanlac Dir: 10 X: 13 Y: 6
+2017/02/13 3:09:28: Joanlac Dir: 10 X: 14 Y: 6
+2017/02/13 3:09:28: Joanlac Dir: 10 X: 15 Y: 6
+2017/02/13 3:09:28: Joanlac Dir: 10 X: 16 Y: 6
+2017/02/13 3:09:29: Joanlac Dir: 10 X: 17 Y: 6
+2017/02/13 3:09:29: Joanlac Dir: 10 X: 18 Y: 6
+2017/02/13 3:09:29: Joanlac Dir: 10 X: 19 Y: 6
+2017/02/13 3:09:29: Joanlac Dir: 10 X: 20 Y: 6
+2017/02/13 3:09:29: Joanlac Dir: 10 X: 21 Y: 6
+2017/02/13 3:09:30: Joanlac Dir: 10 X: 22 Y: 6
+2017/02/13 3:09:30: Joanlac Dir: 10 X: 23 Y: 6
+2017/02/13 3:09:30: Joanlac Dir: 10 X: 24 Y: 6
+2017/02/13 3:09:30: Joanlac Dir: 4 X: 24 Y: 7
+2017/02/13 3:09:30: Joanlac Dir: 4 X: 24 Y: 8
+2017/02/13 3:09:31: Joanlac Dir: 10 X: 25 Y: 8
+2017/02/13 3:09:31: Joanlac Dir: 10 X: 26 Y: 8
+2017/02/13 3:09:31: Joanlac Dir: 10 X: 27 Y: 8
+2017/02/13 3:09:31: Joanlac Dir: 10 X: 28 Y: 8
+2017/02/13 3:09:31: Joanlac Dir: 10 X: 29 Y: 8
+2017/02/13 3:09:32: Joanlac Dir: 4 X: 29 Y: 9
+2017/02/13 3:09:32: Joanlac Dir: 4 X: 29 Y: 10
+2017/02/13 3:09:32: Joanlac Dir: 4 X: 29 Y: 11
+2017/02/13 3:09:32: Joanlac Dir: 4 X: 29 Y: 12
+2017/02/13 3:09:34: Joanlac Dir: 10 X: 30 Y: 12
+2017/02/13 3:09:34: Joanlac Dir: 10 X: 31 Y: 12
+2017/02/13 3:09:34: Joanlac Dir: 10 X: 32 Y: 12
+2017/02/13 3:09:35: Joanlac Dir: 10 X: 33 Y: 12
+2017/02/13 3:09:35: Joanlac Dir: 10 X: 34 Y: 12
+2017/02/13 3:09:35: Joanlac Dir: 4 X: 34 Y: 13
+2017/02/13 3:09:35: Joanlac Dir: 4 X: 34 Y: 14
+2017/02/13 3:09:35: Joanlac Dir: 4 X: 34 Y: 15
+2017/02/13 3:09:36: Joanlac Dir: 4 X: 34 Y: 16
+2017/02/13 3:09:36: Joanlac Dir: 4 X: 34 Y: 17
+2017/02/13 3:09:36: Joanlac Dir: 4 X: 34 Y: 18
+2017/02/13 3:09:36: Joanlac Dir: 10 X: 35 Y: 18
+2017/02/13 3:09:36: Joanlac Dir: 10 X: 36 Y: 18
+2017/02/13 3:09:37: Joanlac Dir: 10 X: 37 Y: 18
+2017/02/13 3:09:37: Joanlac Dir: 10 X: 38 Y: 18
+2017/02/13 3:09:37: Joanlac Dir: 10 X: 39 Y: 18
+2017/02/13 3:09:37: Joanlac Dir: 7 X: 38 Y: 18
+2017/02/13 3:09:37: Joanlac Dir: 4 X: 38 Y: 19
+2017/02/13 3:09:38: Joanlac Dir: 4 X: 38 Y: 20
+2017/02/13 3:09:38: Joanlac Dir: 4 X: 38 Y: 21
+2017/02/13 3:09:38: Joanlac Dir: 4 X: 38 Y: 22
+2017/02/13 3:09:38: Joanlac Dir: 4 X: 38 Y: 23
+2017/02/13 3:09:38: Joanlac Dir: 4 X: 38 Y: 24
+2017/02/13 3:09:39: Joanlac Dir: 4 X: 38 Y: 25
+2017/02/13 3:09:40: Joanlac Dir: 1 X: 38 Y: 24
+2017/02/13 3:09:40: Joanlac Dir: 1 X: 38 Y: 23
+2017/02/13 3:09:40: Joanlac Dir: 1 X: 38 Y: 22
+2017/02/13 3:09:41: Joanlac Dir: 1 X: 38 Y: 21
+2017/02/13 3:09:41: Joanlac Dir: 1 X: 38 Y: 20
+2017/02/13 3:09:41: Joanlac Dir: 1 X: 38 Y: 19
+2017/02/13 3:09:42: Joanlac Dir: 1 X: 38 Y: 18
+2017/02/13 3:09:44: Joanlac Dir: 1 X: 38 Y: 17
+2017/02/13 3:09:44: Joanlac Dir: 1 X: 38 Y: 16
+2017/02/13 3:09:44: Joanlac Dir: 4 X: 38 Y: 17
+2017/02/13 3:09:44: Joanlac Dir: 4 X: 38 Y: 18
+2017/02/13 3:09:44: Joanlac Dir: 4 X: 38 Y: 19
+2017/02/13 3:09:45: Joanlac Dir: 4 X: 38 Y: 20
+2017/02/13 3:09:45: Joanlac Dir: 4 X: 38 Y: 21
+2017/02/13 3:09:45: Joanlac Dir: 4 X: 38 Y: 22
+2017/02/13 3:09:45: Joanlac Dir: 4 X: 38 Y: 23
+2017/02/13 3:09:46: Joanlac Dir: 4 X: 38 Y: 24
+2017/02/13 3:09:48: Joanlac Dir: 4 X: 38 Y: 25
+2017/02/13 3:09:48: Joanlac Dir: 4 X: 38 Y: 26
+2017/02/13 3:09:48: Joanlac Dir: 1 X: 38 Y: 25
+2017/02/13 3:09:48: Joanlac Dir: 1 X: 38 Y: 24
+2017/02/13 3:09:48: Joanlac Dir: 1 X: 38 Y: 23
+2017/02/13 3:09:48: Joanlac Dir: 1 X: 38 Y: 22
+2017/02/13 3:09:49: Joanlac Dir: 1 X: 38 Y: 21
+2017/02/13 3:09:49: Joanlac Dir: 4 X: 38 Y: 22
+2017/02/13 3:09:50: Joanlac Dir: 7 X: 37 Y: 22
+2017/02/13 3:09:50: Joanlac Dir: 10 X: 38 Y: 22
+2017/02/13 3:09:52: Joanlac Dir: 1 X: 38 Y: 21
+2017/02/13 3:09:52: Joanlac Dir: 1 X: 38 Y: 20
+2017/02/13 3:09:52: Joanlac Dir: 1 X: 38 Y: 19
+2017/02/13 3:09:52: Joanlac Dir: 1 X: 38 Y: 18
+2017/02/13 3:09:52: Joanlac Dir: 7 X: 37 Y: 18
+2017/02/13 3:10:19: ID: 14 Joanlac Status changed to disconnected: 127.0.0.1
+2017/02/13 3:10:43: Data From World Server ID: 1 Account: akaruz Char ID: 14 Slot: 0 7128D35D8DBC5B2B
+2017/02/13 3:10:44: Status changed to connected: 127.0.0.1
+2017/02/13 3:10:44: Received From Client: 7128D35D8DBC5B2B
+2017/02/13 3:10:44: Player Found ID: 14 Name: Joanlac
+2017/02/13 3:10:45: Joanlac Dir: 7 X: 36 Y: 18
+2017/02/13 3:10:45: Joanlac Dir: 7 X: 35 Y: 18
+2017/02/13 3:10:45: Joanlac Dir: 7 X: 34 Y: 18
+2017/02/13 3:10:45: Joanlac Dir: 7 X: 33 Y: 18
+2017/02/13 3:10:46: Joanlac Dir: 4 X: 33 Y: 19
+2017/02/13 3:10:46: Joanlac Dir: 4 X: 33 Y: 20
+2017/02/13 3:10:46: Joanlac Dir: 10 X: 34 Y: 20
+2017/02/13 3:10:46: Joanlac Dir: 1 X: 34 Y: 19
+2017/02/13 3:10:46: Joanlac Dir: 1 X: 34 Y: 18
+2017/02/13 3:10:47: Joanlac Dir: 4 X: 34 Y: 19
+2017/02/13 3:10:47: Joanlac Dir: 4 X: 34 Y: 20
+2017/02/13 3:10:47: Joanlac Dir: 4 X: 34 Y: 21
+2017/02/13 3:10:47: Joanlac Dir: 4 X: 34 Y: 22
+2017/02/13 3:10:48: Joanlac Dir: 4 X: 34 Y: 23
+2017/02/13 3:11:03: Joanlac Dir: 1 X: 34 Y: 22
+2017/02/13 3:11:03: Joanlac Dir: 1 X: 34 Y: 21
+2017/02/13 3:11:03: Joanlac Dir: 1 X: 34 Y: 20
+2017/02/13 3:11:04: Joanlac Dir: 1 X: 34 Y: 19
+2017/02/13 3:11:04: Joanlac Dir: 1 X: 34 Y: 18
+2017/02/13 3:11:04: Joanlac Dir: 1 X: 34 Y: 17
+2017/02/13 3:11:04: Joanlac Dir: 1 X: 34 Y: 16
+2017/02/13 3:11:04: Joanlac Dir: 1 X: 34 Y: 15
+2017/02/13 3:11:05: Joanlac Dir: 4 X: 34 Y: 16
+2017/02/13 3:11:05: Joanlac Dir: 4 X: 34 Y: 17
+2017/02/13 3:11:05: Joanlac Dir: 7 X: 33 Y: 17
+2017/02/13 3:11:05: Joanlac Dir: 7 X: 32 Y: 17
+2017/02/13 3:11:05: Joanlac Dir: 7 X: 31 Y: 17
+2017/02/13 3:11:06: Joanlac Dir: 7 X: 30 Y: 17
+2017/02/13 3:11:06: Joanlac Dir: 4 X: 30 Y: 18
+2017/02/13 3:11:06: Joanlac Dir: 4 X: 30 Y: 19
+2017/02/13 3:11:06: Joanlac Dir: 4 X: 30 Y: 20
+2017/02/13 3:11:06: Joanlac Dir: 4 X: 30 Y: 21
+2017/02/13 3:11:07: Joanlac Dir: 4 X: 30 Y: 22
+2017/02/13 3:11:09: Joanlac Dir: 7 X: 29 Y: 22
+2017/02/13 3:11:09: Joanlac Dir: 7 X: 28 Y: 22
+2017/02/13 3:11:09: Joanlac Dir: 1 X: 28 Y: 21
+2017/02/13 3:11:10: Joanlac Dir: 1 X: 28 Y: 20
+2017/02/13 3:11:10: Joanlac Dir: 1 X: 28 Y: 19
+2017/02/13 3:11:10: Joanlac Dir: 7 X: 27 Y: 19
+2017/02/13 3:11:10: Joanlac Dir: 7 X: 26 Y: 19
+2017/02/13 3:11:10: Joanlac Dir: 7 X: 25 Y: 19
+2017/02/13 3:11:11: Joanlac Dir: 1 X: 25 Y: 18
+2017/02/13 3:11:11: Joanlac Dir: 1 X: 25 Y: 17
+2017/02/13 3:11:11: Joanlac Dir: 1 X: 25 Y: 16
+2017/02/13 3:11:11: Joanlac Dir: 7 X: 24 Y: 16
+2017/02/13 3:11:11: Joanlac Dir: 7 X: 23 Y: 16
+2017/02/13 3:11:12: Joanlac Dir: 7 X: 22 Y: 16
+2017/02/13 3:11:12: Joanlac Dir: 7 X: 21 Y: 16
+2017/02/13 3:11:12: Joanlac Dir: 1 X: 21 Y: 15
+2017/02/13 3:11:12: Joanlac Dir: 1 X: 21 Y: 14
+2017/02/13 3:11:12: Joanlac Dir: 1 X: 21 Y: 13
+2017/02/13 3:11:13: Joanlac Dir: 4 X: 21 Y: 14
+2017/02/13 3:11:13: Joanlac Dir: 4 X: 21 Y: 15
+2017/02/13 3:12:51: Game Server Name: Canal 1
+2017/02/13 3:12:51: Discovery: Elysium Diamond #1.0.0
+2017/02/13 3:12:51: Port: 10120
+2017/02/13 3:12:51: MaximumConnections: 2000
+2017/02/13 3:12:51: ConnectionTimeOut: 25
+2017/02/13 3:12:51: Logs: True
+2017/02/13 3:12:51: Sleep: 1
+2017/02/13 3:12:51: Game Server ID: gameserver_1
+2017/02/13 3:12:51: Carregando config mysql
+2017/02/13 3:12:51: Connectado ao banco de dados
+2017/02/13 3:12:51: WorldServer 1  ID: Artemis
+2017/02/13 3:12:51: WorldServer 2  ID: 
+2017/02/13 3:12:51: WorldServer 3  ID: 
+2017/02/13 3:12:51: WorldServer 4  ID: 
+2017/02/13 3:12:51: WorldServer 5  ID: 
+2017/02/13 3:12:51: Carregando experiência
+2017/02/13 3:12:51: Level Max: 121
+2017/02/13 3:12:51: Exp Max: 22353256174
+2017/02/13 3:12:51: Carregando guilds
+2017/02/13 3:12:51: Carregando membros
+2017/02/13 3:12:51: Carregando classe(s) base
+2017/02/13 3:12:51: Carregando classe(s) incremento
+2017/02/13 3:12:51: Carregando NPC
+2017/02/13 3:12:51: Game Server Start
+2017/02/13 3:12:54: Status changed to connected: 127.0.0.1
+2017/02/13 3:13:10: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 1 0FAE8780B7DF5C97
+2017/02/13 3:13:11: Status changed to connected: 127.0.0.1
+2017/02/13 3:13:11: Received From Client: 0FAE8780B7DF5C97
+2017/02/13 3:13:11: Player Found ID: 16 Name: Ingsan
+2017/02/13 3:13:21: Data From World Server ID: 2 Account: dragonick Char ID: 10 Slot: 0 E9B40008745C5009
+2017/02/13 3:13:21: Status changed to connected: 127.0.0.1
+2017/02/13 3:13:21: Received From Client: E9B40008745C5009
+2017/02/13 3:13:21: Player Found ID: 10 Name: sacizenta
+2017/02/13 3:13:22: sacizenta Dir: 10 X: 8 Y: 7
+2017/02/13 3:13:23: sacizenta Dir: 10 X: 9 Y: 7
+2017/02/13 3:13:23: sacizenta Dir: 10 X: 10 Y: 7
+2017/02/13 3:13:23: sacizenta Dir: 10 X: 11 Y: 7
+2017/02/13 3:13:23: sacizenta Dir: 4 X: 11 Y: 8
+2017/02/13 3:13:24: sacizenta Dir: 10 X: 12 Y: 8
+2017/02/13 3:13:24: sacizenta Dir: 10 X: 13 Y: 8
+2017/02/13 3:13:24: sacizenta Dir: 10 X: 14 Y: 8
+2017/02/13 3:13:24: sacizenta Dir: 10 X: 15 Y: 8
+2017/02/13 3:13:24: sacizenta Dir: 10 X: 16 Y: 8
+2017/02/13 3:13:24: sacizenta Dir: 10 X: 17 Y: 8
+2017/02/13 3:13:25: sacizenta Dir: 10 X: 18 Y: 8
+2017/02/13 3:13:25: sacizenta Dir: 4 X: 18 Y: 9
+2017/02/13 3:13:25: sacizenta Dir: 4 X: 18 Y: 10
+2017/02/13 3:13:25: sacizenta Dir: 4 X: 18 Y: 11
+2017/02/13 3:13:25: sacizenta Dir: 4 X: 18 Y: 12
+2017/02/13 3:13:26: sacizenta Dir: 4 X: 18 Y: 13
+2017/02/13 3:13:26: sacizenta Dir: 10 X: 19 Y: 13
+2017/02/13 3:13:26: sacizenta Dir: 10 X: 20 Y: 13
+2017/02/13 3:13:26: sacizenta Dir: 10 X: 21 Y: 13
+2017/02/13 3:13:27: sacizenta Dir: 4 X: 21 Y: 14
+2017/02/13 3:13:27: sacizenta Dir: 10 X: 22 Y: 14
+2017/02/13 3:13:27: sacizenta Dir: 10 X: 23 Y: 14
+2017/02/13 3:13:27: sacizenta Dir: 10 X: 24 Y: 14
+2017/02/13 3:13:27: sacizenta Dir: 4 X: 24 Y: 15
+2017/02/13 3:13:28: sacizenta Dir: 4 X: 24 Y: 16
+2017/02/13 3:13:28: sacizenta Dir: 10 X: 25 Y: 16
+2017/02/13 3:13:28: sacizenta Dir: 10 X: 26 Y: 16
+2017/02/13 3:13:28: sacizenta Dir: 10 X: 27 Y: 16
+2017/02/13 3:13:28: sacizenta Dir: 10 X: 28 Y: 16
+2017/02/13 3:13:28: sacizenta Dir: 10 X: 29 Y: 16
+2017/02/13 3:13:29: sacizenta Dir: 10 X: 30 Y: 16
+2017/02/13 3:13:29: sacizenta Dir: 10 X: 31 Y: 16
+2017/02/13 3:13:29: sacizenta Dir: 10 X: 32 Y: 16
+2017/02/13 3:13:29: sacizenta Dir: 10 X: 33 Y: 16
+2017/02/13 3:13:30: sacizenta Dir: 10 X: 34 Y: 16
+2017/02/13 3:13:30: sacizenta Dir: 10 X: 35 Y: 16
+2017/02/13 3:13:30: sacizenta Dir: 10 X: 36 Y: 16
+2017/02/13 3:13:30: sacizenta Dir: 10 X: 37 Y: 16
+2017/02/13 3:13:30: sacizenta Dir: 10 X: 38 Y: 16
+2017/02/13 3:13:30: sacizenta Dir: 10 X: 39 Y: 16
+2017/02/13 3:13:31: sacizenta Dir: 10 X: 40 Y: 16
+2017/02/13 3:13:31: sacizenta Dir: 10 X: 41 Y: 16
+2017/02/13 3:13:31: sacizenta Dir: 10 X: 42 Y: 16
+2017/02/13 3:13:31: sacizenta Dir: 10 X: 43 Y: 16
+2017/02/13 3:13:31: sacizenta Dir: 10 X: 44 Y: 16
+2017/02/13 3:13:32: sacizenta Dir: 10 X: 45 Y: 16
+2017/02/13 3:13:34: sacizenta Dir: 10 X: 46 Y: 16
+2017/02/13 3:13:35: sacizenta Dir: 1 X: 46 Y: 15
+2017/02/13 3:13:35: sacizenta Dir: 1 X: 46 Y: 14
+2017/02/13 3:13:35: sacizenta Dir: 4 X: 46 Y: 15
+2017/02/13 3:13:35: sacizenta Dir: 4 X: 46 Y: 16
+2017/02/13 3:13:36: sacizenta Dir: 4 X: 46 Y: 17
+2017/02/13 3:13:36: sacizenta Dir: 4 X: 46 Y: 18
+2017/02/13 3:13:36: sacizenta Dir: 1 X: 46 Y: 17
+2017/02/13 3:13:36: sacizenta Dir: 1 X: 46 Y: 16
+2017/02/13 3:13:37: sacizenta Dir: 1 X: 46 Y: 15
+2017/02/13 3:13:38: sacizenta Dir: 1 X: 46 Y: 14
+2017/02/13 3:13:38: sacizenta Dir: 4 X: 46 Y: 15
+2017/02/13 3:13:39: sacizenta Dir: 7 X: 45 Y: 15
+2017/02/13 3:13:40: sacizenta Dir: 10 X: 46 Y: 15
+2017/02/13 3:13:40: sacizenta Dir: 10 X: 47 Y: 15
+2017/02/13 3:13:40: sacizenta Dir: 10 X: 48 Y: 15
+2017/02/13 3:13:40: sacizenta Dir: 7 X: 47 Y: 15
+2017/02/13 3:13:40: sacizenta Dir: 7 X: 46 Y: 15
+2017/02/13 3:13:40: sacizenta Dir: 4 X: 46 Y: 16
+2017/02/13 3:13:41: sacizenta Dir: 7 X: 45 Y: 16
+2017/02/13 3:13:41: sacizenta Dir: 4 X: 45 Y: 17
+2017/02/13 3:13:42: sacizenta Dir: 10 X: 46 Y: 17
+2017/02/13 3:13:42: sacizenta Dir: 10 X: 47 Y: 17
+2017/02/13 3:13:42: sacizenta Dir: 1 X: 47 Y: 16
+2017/02/13 3:13:43: sacizenta Dir: 7 X: 46 Y: 16
+2017/02/13 3:13:43: sacizenta Dir: 1 X: 46 Y: 15
+2017/02/13 3:13:43: sacizenta Dir: 7 X: 45 Y: 15
+2017/02/13 3:13:44: sacizenta Dir: 4 X: 45 Y: 16
+2017/02/13 3:13:45: sacizenta Dir: 7 X: 44 Y: 16
+2017/02/13 3:13:45: sacizenta Dir: 1 X: 44 Y: 15
+2017/02/13 3:13:45: sacizenta Dir: 10 X: 45 Y: 15
+2017/02/13 3:13:45: sacizenta Dir: 10 X: 46 Y: 15
+2017/02/13 3:13:46: sacizenta Dir: 10 X: 47 Y: 15
+2017/02/13 3:13:46: sacizenta Dir: 10 X: 48 Y: 15
+2017/02/13 3:13:46: sacizenta Dir: 4 X: 48 Y: 16
+2017/02/13 3:13:46: sacizenta Dir: 7 X: 47 Y: 16
+2017/02/13 3:13:46: sacizenta Dir: 7 X: 46 Y: 16
+2017/02/13 3:13:47: sacizenta Dir: 7 X: 45 Y: 16
+2017/02/13 3:13:47: sacizenta Dir: 1 X: 45 Y: 15
+2017/02/13 3:13:47: sacizenta Dir: 1 X: 45 Y: 14
+2017/02/13 3:13:47: sacizenta Dir: 7 X: 44 Y: 14
+2017/02/13 3:13:47: sacizenta Dir: 7 X: 43 Y: 14
+2017/02/13 3:13:49: sacizenta Dir: 7 X: 42 Y: 14
+2017/02/13 3:13:49: sacizenta Dir: 7 X: 41 Y: 14
+2017/02/13 3:13:49: sacizenta Dir: 4 X: 41 Y: 15
+2017/02/13 3:13:49: sacizenta Dir: 4 X: 41 Y: 16
+2017/02/13 3:13:49: sacizenta Dir: 10 X: 42 Y: 16
+2017/02/13 3:13:50: sacizenta Dir: 7 X: 41 Y: 16
+2017/02/13 3:13:50: sacizenta Dir: 10 X: 42 Y: 16
+2017/02/13 3:13:50: sacizenta Dir: 7 X: 41 Y: 16
+2017/02/13 3:13:50: sacizenta Dir: 1 X: 41 Y: 15
+2017/02/13 3:13:50: sacizenta Dir: 7 X: 40 Y: 15
+2017/02/13 3:13:51: sacizenta Dir: 7 X: 39 Y: 15
+2017/02/13 3:13:51: sacizenta Dir: 7 X: 38 Y: 15
+2017/02/13 3:13:51: sacizenta Dir: 7 X: 37 Y: 15
+2017/02/13 3:13:51: sacizenta Dir: 10 X: 38 Y: 15
+2017/02/13 3:13:51: sacizenta Dir: 4 X: 38 Y: 16
+2017/02/13 3:13:52: sacizenta Dir: 4 X: 38 Y: 17
+2017/02/13 4:30:04: Game Server Name: Canal 1
+2017/02/13 4:30:04: Discovery: Elysium Diamond #1.0.0
+2017/02/13 4:30:04: Port: 10120
+2017/02/13 4:30:04: MaximumConnections: 2000
+2017/02/13 4:30:04: ConnectionTimeOut: 25
+2017/02/13 4:30:04: Logs: True
+2017/02/13 4:30:04: Sleep: 1
+2017/02/13 4:30:04: Game Server ID: gameserver_1
+2017/02/13 4:30:04: Carregando config mysql
+2017/02/13 4:30:04: Connectado ao banco de dados
+2017/02/13 4:30:04: WorldServer 1  ID: Artemis
+2017/02/13 4:30:04: WorldServer 2  ID: 
+2017/02/13 4:30:04: WorldServer 3  ID: 
+2017/02/13 4:30:04: WorldServer 4  ID: 
+2017/02/13 4:30:04: WorldServer 5  ID: 
+2017/02/13 4:30:04: Carregando experiência
+2017/02/13 4:30:04: Level Max: 121
+2017/02/13 4:30:04: Exp Max: 22353256174
+2017/02/13 4:30:04: Carregando guilds
+2017/02/13 4:30:04: Carregando membros
+2017/02/13 4:30:04: Carregando classe(s) base
+2017/02/13 4:30:04: Carregando classe(s) incremento
+2017/02/13 4:30:04: Carregando NPC
+2017/02/13 4:30:04: Game Server Start
+2017/02/13 4:30:13: Status changed to connected: 127.0.0.1
+2017/02/13 4:30:28: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 1 1FBACAA17421DB2F
+2017/02/13 4:30:29: Status changed to connected: 127.0.0.1
+2017/02/13 4:30:29: Received From Client: 1FBACAA17421DB2F
+2017/02/13 4:30:29: Player Found ID: 16 Name: Ingsan
+2017/02/13 4:30:30: Ingsan Dir: 4 X: 46 Y: 17
+2017/02/13 4:30:30: Ingsan Dir: 7 X: 45 Y: 17
+2017/02/13 4:30:30: Ingsan Dir: 7 X: 44 Y: 17
+2017/02/13 4:30:31: Ingsan Dir: 4 X: 44 Y: 18
+2017/02/13 4:30:31: Ingsan Dir: 4 X: 44 Y: 19
+2017/02/13 4:30:31: Ingsan Dir: 7 X: 43 Y: 19
+2017/02/13 4:30:31: Ingsan Dir: 1 X: 43 Y: 18
+2017/02/13 4:30:31: Ingsan Dir: 1 X: 43 Y: 17
+2017/02/13 4:30:31: Ingsan Dir: 1 X: 43 Y: 16
+2017/02/13 4:30:33: Ingsan Dir: 4 X: 43 Y: 17
+2017/02/13 4:30:33: Ingsan Dir: 4 X: 43 Y: 18
+2017/02/13 4:30:33: Ingsan Dir: 7 X: 42 Y: 18
+2017/02/13 4:30:33: Ingsan Dir: 7 X: 41 Y: 18
+2017/02/13 4:30:33: Ingsan Dir: 7 X: 40 Y: 18
+2017/02/13 4:30:34: Ingsan Dir: 10 X: 41 Y: 18
+2017/02/13 4:30:34: Ingsan Dir: 4 X: 41 Y: 19
+2017/02/13 4:30:50: Ingsan Dir: 4 X: 41 Y: 20
+2017/02/13 4:30:50: Ingsan Dir: 4 X: 41 Y: 21
+2017/02/13 4:30:50: Ingsan Dir: 7 X: 40 Y: 21
+2017/02/13 4:30:50: Ingsan Dir: 1 X: 40 Y: 20
+2017/02/13 4:30:51: Ingsan Dir: 1 X: 40 Y: 19
+2017/02/13 4:30:51: Ingsan Dir: 1 X: 40 Y: 18
+2017/02/13 4:30:51: Ingsan Dir: 1 X: 40 Y: 17
+2017/02/13 4:30:51: Ingsan Dir: 1 X: 40 Y: 16
+2017/02/13 4:30:51: Ingsan Dir: 7 X: 39 Y: 16
+2017/02/13 4:30:52: Ingsan Dir: 7 X: 38 Y: 16
+2017/02/13 4:30:52: Ingsan Dir: 7 X: 37 Y: 16
+2017/02/13 4:30:52: Ingsan Dir: 7 X: 36 Y: 16
+2017/02/13 4:30:52: Ingsan Dir: 4 X: 36 Y: 17
+2017/02/13 4:30:53: Ingsan Dir: 4 X: 36 Y: 18
+2017/02/13 4:30:53: Ingsan Dir: 4 X: 36 Y: 19
+2017/02/13 4:30:53: Ingsan Dir: 7 X: 35 Y: 19
+2017/02/13 4:30:53: Ingsan Dir: 7 X: 34 Y: 19
+2017/02/13 4:30:53: Ingsan Dir: 7 X: 33 Y: 19
+2017/02/13 4:30:53: Ingsan Dir: 7 X: 32 Y: 19
+2017/02/13 4:30:54: Ingsan Dir: 4 X: 32 Y: 20
+2017/02/13 4:30:54: Ingsan Dir: 4 X: 32 Y: 21
+2017/02/13 4:30:54: Ingsan Dir: 7 X: 31 Y: 21
+2017/02/13 4:30:54: Ingsan Dir: 7 X: 30 Y: 21
+2017/02/13 4:30:54: Ingsan Dir: 7 X: 29 Y: 21
+2017/02/13 4:30:55: Ingsan Dir: 4 X: 29 Y: 22
+2017/02/13 4:30:55: Ingsan Dir: 4 X: 29 Y: 23
+2017/02/13 4:30:55: Ingsan Dir: 7 X: 28 Y: 23
+2017/02/13 4:30:55: Ingsan Dir: 7 X: 27 Y: 23
+2017/02/13 4:30:56: Ingsan Dir: 7 X: 26 Y: 23
+2017/02/13 4:30:56: Ingsan Dir: 4 X: 26 Y: 24
+2017/02/13 4:30:56: Ingsan Dir: 4 X: 26 Y: 25
+2017/02/13 4:30:56: Ingsan Dir: 4 X: 26 Y: 26
+2017/02/13 4:30:57: Ingsan Dir: 7 X: 25 Y: 26
+2017/02/13 4:30:57: Ingsan Dir: 7 X: 24 Y: 26
+2017/02/13 4:30:57: Ingsan Dir: 7 X: 23 Y: 26
+2017/02/13 4:30:57: Ingsan Dir: 7 X: 22 Y: 26
+2017/02/13 4:30:58: Ingsan Dir: 1 X: 22 Y: 25
+2017/02/13 4:30:58: Ingsan Dir: 1 X: 22 Y: 24
+2017/02/13 4:30:58: Ingsan Dir: 1 X: 22 Y: 23
+2017/02/13 4:30:58: Ingsan Dir: 1 X: 22 Y: 22
+2017/02/13 4:30:58: Ingsan Dir: 1 X: 22 Y: 21
+2017/02/13 4:30:59: Ingsan Dir: 1 X: 22 Y: 20
+2017/02/13 4:31:15: Game Server Name: Canal 1
+2017/02/13 4:31:15: Discovery: Elysium Diamond #1.0.0
+2017/02/13 4:31:15: Port: 10120
+2017/02/13 4:31:15: MaximumConnections: 2000
+2017/02/13 4:31:15: ConnectionTimeOut: 25
+2017/02/13 4:31:15: Logs: True
+2017/02/13 4:31:15: Sleep: 1
+2017/02/13 4:31:15: Game Server ID: gameserver_1
+2017/02/13 4:31:15: Carregando config mysql
+2017/02/13 4:31:15: Connectado ao banco de dados
+2017/02/13 4:31:15: WorldServer 1  ID: Artemis
+2017/02/13 4:31:15: WorldServer 2  ID: 
+2017/02/13 4:31:15: WorldServer 3  ID: 
+2017/02/13 4:31:15: WorldServer 4  ID: 
+2017/02/13 4:31:15: WorldServer 5  ID: 
+2017/02/13 4:31:15: Carregando experiência
+2017/02/13 4:31:15: Level Max: 121
+2017/02/13 4:31:15: Exp Max: 22353256174
+2017/02/13 4:31:15: Carregando guilds
+2017/02/13 4:31:15: Carregando membros
+2017/02/13 4:31:15: Carregando classe(s) base
+2017/02/13 4:31:15: Carregando classe(s) incremento
+2017/02/13 4:31:15: Carregando NPC
+2017/02/13 4:31:15: Game Server Start
+2017/02/13 4:31:43: Status changed to connected: 127.0.0.1
+2017/02/13 4:31:44: Data From World Server ID: 1 Account: akaruz Char ID: 3 Slot: 2 32AF413BE297EB70
+2017/02/13 4:31:44: Status changed to connected: 127.0.0.1
+2017/02/13 4:31:44: Received From Client: 32AF413BE297EB70
+2017/02/13 4:31:44: Player Found ID: 3 Name: 地区
+2017/02/13 4:31:45: 地区 Dir: 4 X: 32 Y: 15
+2017/02/13 4:31:45: 地区 Dir: 4 X: 32 Y: 16
+2017/02/13 4:31:45: 地区 Dir: 4 X: 32 Y: 17
+2017/02/13 4:31:45: 地区 Dir: 4 X: 32 Y: 18
+2017/02/13 4:31:46: 地区 Dir: 4 X: 32 Y: 19
+2017/02/13 4:36:51: Game Server Name: Canal 1
+2017/02/13 4:36:51: Discovery: Elysium Diamond #1.0.0
+2017/02/13 4:36:51: Port: 10120
+2017/02/13 4:36:51: MaximumConnections: 2000
+2017/02/13 4:36:51: ConnectionTimeOut: 25
+2017/02/13 4:36:51: Logs: True
+2017/02/13 4:36:51: Sleep: 1
+2017/02/13 4:36:51: Game Server ID: gameserver_1
+2017/02/13 4:36:51: Carregando config mysql
+2017/02/13 4:36:52: Connectado ao banco de dados
+2017/02/13 4:36:52: WorldServer 1  ID: Artemis
+2017/02/13 4:36:52: WorldServer 2  ID: 
+2017/02/13 4:36:52: WorldServer 3  ID: 
+2017/02/13 4:36:52: WorldServer 4  ID: 
+2017/02/13 4:36:52: WorldServer 5  ID: 
+2017/02/13 4:36:52: Carregando experiência
+2017/02/13 4:36:52: Level Max: 121
+2017/02/13 4:36:52: Exp Max: 22353256174
+2017/02/13 4:36:52: Carregando guilds
+2017/02/13 4:36:52: Carregando membros
+2017/02/13 4:36:52: Carregando classe(s) base
+2017/02/13 4:36:52: Carregando classe(s) incremento
+2017/02/13 4:36:52: Carregando NPC
+2017/02/13 4:36:52: Game Server Start
+2017/02/13 4:36:53: Status changed to connected: 127.0.0.1
+2017/02/13 4:36:59: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 1 EE9F14E44773140B
+2017/02/13 4:37:00: Status changed to connected: 127.0.0.1
+2017/02/13 4:37:00: Received From Client: EE9F14E44773140B
+2017/02/13 4:37:00: Player Found ID: 16 Name: Ingsan
+2017/02/13 4:37:27: ID: 16 Ingsan Status changed to disconnected: 127.0.0.1
+2017/02/13 4:39:37: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 1 AB1F67370B8D3890
+2017/02/13 4:39:38: Status changed to connected: 127.0.0.1
+2017/02/13 4:39:38: Received From Client: AB1F67370B8D3890
+2017/02/13 4:39:38: Player Found ID: 16 Name: Ingsan
+2017/02/13 4:39:39: Ingsan Dir: 4 X: 46 Y: 17
+2017/02/13 4:39:40: Ingsan Dir: 4 X: 46 Y: 18
+2017/02/13 4:39:40: Ingsan Dir: 4 X: 46 Y: 19
+2017/02/13 4:39:40: Ingsan Dir: 4 X: 46 Y: 20
+2017/02/13 4:39:40: Ingsan Dir: 4 X: 46 Y: 21
+2017/02/13 4:39:41: Ingsan Dir: 7 X: 45 Y: 21
+2017/02/13 4:39:41: Ingsan Dir: 4 X: 45 Y: 22
+2017/02/13 4:39:41: Ingsan Dir: 7 X: 44 Y: 22
+2017/02/13 4:39:41: Ingsan Dir: 4 X: 44 Y: 23
+2017/02/13 4:39:41: Ingsan Dir: 4 X: 44 Y: 24
+2017/02/13 4:39:42: Ingsan Dir: 4 X: 44 Y: 25
+2017/02/13 4:39:42: Ingsan Dir: 7 X: 43 Y: 25
+2017/02/13 4:39:42: Ingsan Dir: 7 X: 42 Y: 25
+2017/02/13 4:39:42: Ingsan Dir: 4 X: 42 Y: 26
+2017/02/13 4:39:42: Ingsan Dir: 4 X: 42 Y: 27
+2017/02/13 4:39:43: Ingsan Dir: 4 X: 42 Y: 28
+2017/02/13 4:39:43: Ingsan Dir: 4 X: 42 Y: 29
+2017/02/13 4:39:43: Ingsan Dir: 4 X: 42 Y: 30
+2017/02/13 4:39:43: Ingsan Dir: 7 X: 41 Y: 30
+2017/02/13 4:39:43: Ingsan Dir: 7 X: 40 Y: 30
+2017/02/13 4:39:44: Ingsan Dir: 7 X: 39 Y: 30
+2017/02/13 4:39:44: Ingsan Dir: 7 X: 38 Y: 30
+2017/02/13 4:39:44: Ingsan Dir: 7 X: 37 Y: 30
+2017/02/13 4:39:44: Ingsan Dir: 4 X: 37 Y: 31
+2017/02/13 4:39:44: Ingsan Dir: 4 X: 37 Y: 32
+2017/02/13 4:39:45: Ingsan Dir: 4 X: 37 Y: 33
+2017/02/13 4:39:45: Ingsan Dir: 7 X: 36 Y: 33
+2017/02/13 4:39:45: Ingsan Dir: 7 X: 35 Y: 33
+2017/02/13 4:39:46: Ingsan Dir: 7 X: 34 Y: 33
+2017/02/13 4:39:46: Ingsan Dir: 7 X: 33 Y: 33
+2017/02/13 4:39:46: Ingsan Dir: 7 X: 32 Y: 33
+2017/02/13 4:39:46: Ingsan Dir: 1 X: 32 Y: 32
+2017/02/13 4:39:46: Ingsan Dir: 1 X: 32 Y: 31
+2017/02/13 4:39:47: Ingsan Dir: 1 X: 32 Y: 30
+2017/02/13 4:39:47: Ingsan Dir: 4 X: 32 Y: 31
+2017/02/13 4:39:47: Ingsan Dir: 4 X: 32 Y: 32
+2017/02/13 4:39:48: Ingsan Dir: 4 X: 32 Y: 33
+2017/02/13 4:39:48: Ingsan Dir: 4 X: 32 Y: 34
+2017/02/13 4:39:48: Ingsan Dir: 4 X: 32 Y: 35
+2017/02/13 4:39:49: Ingsan Dir: 1 X: 32 Y: 34
+2017/02/13 4:39:50: Ingsan Dir: 1 X: 32 Y: 33
+2017/02/13 4:39:50: Ingsan Dir: 7 X: 31 Y: 33
+2017/02/13 4:39:50: Ingsan Dir: 7 X: 30 Y: 33
+2017/02/13 4:39:50: Ingsan Dir: 4 X: 30 Y: 34
+2017/02/13 4:39:50: Ingsan Dir: 4 X: 30 Y: 35
+2017/02/13 4:39:51: Ingsan Dir: 4 X: 30 Y: 36
+2017/02/13 4:39:52: Ingsan Dir: 1 X: 30 Y: 35
+2017/02/13 4:39:52: Ingsan Dir: 1 X: 30 Y: 34
+2017/02/13 4:39:52: Ingsan Dir: 1 X: 30 Y: 33
+2017/02/13 4:39:52: Ingsan Dir: 7 X: 29 Y: 33
+2017/02/13 4:39:52: Ingsan Dir: 4 X: 29 Y: 34
+2017/02/13 4:39:53: Ingsan Dir: 7 X: 28 Y: 34
+2017/02/13 4:39:53: Ingsan Dir: 7 X: 27 Y: 34
+2017/02/13 4:39:53: Ingsan Dir: 7 X: 26 Y: 34
+2017/02/13 4:39:53: Ingsan Dir: 7 X: 25 Y: 34
+2017/02/13 4:39:53: Ingsan Dir: 7 X: 24 Y: 34
+2017/02/13 4:39:55: Ingsan Dir: 1 X: 24 Y: 33
+2017/02/13 4:39:55: Ingsan Dir: 1 X: 24 Y: 32
+2017/02/13 4:39:55: Ingsan Dir: 1 X: 24 Y: 31
+2017/02/13 4:40:19: ID: 16 Ingsan Status changed to disconnected: 127.0.0.1
+2017/02/13 4:44:32: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 1 747FB2EC4513C63F
+2017/02/13 4:44:33: Status changed to connected: 127.0.0.1
+2017/02/13 4:44:33: Received From Client: 747FB2EC4513C63F
+2017/02/13 4:44:33: Player Found ID: 16 Name: Ingsan
+2017/02/13 4:44:35: Ingsan Dir: 4 X: 24 Y: 32
+2017/02/13 4:44:35: Ingsan Dir: 4 X: 24 Y: 33
+2017/02/13 4:44:35: Ingsan Dir: 10 X: 25 Y: 33
+2017/02/13 4:44:35: Ingsan Dir: 1 X: 25 Y: 32
+2017/02/13 4:44:35: Ingsan Dir: 1 X: 25 Y: 31
+2017/02/13 4:44:36: Ingsan Dir: 7 X: 24 Y: 31
+2017/02/13 4:44:36: Ingsan Dir: 4 X: 24 Y: 32
+2017/02/13 4:44:37: Ingsan Dir: 7 X: 23 Y: 32
+2017/02/13 4:44:37: Ingsan Dir: 7 X: 22 Y: 32
+2017/02/13 4:44:37: Ingsan Dir: 1 X: 22 Y: 31
+2017/02/13 4:44:37: Ingsan Dir: 1 X: 22 Y: 30
+2017/02/13 4:44:37: Ingsan Dir: 1 X: 22 Y: 29
+2017/02/13 4:44:38: Ingsan Dir: 4 X: 22 Y: 30
+2017/02/13 4:44:38: Ingsan Dir: 4 X: 22 Y: 31
+2017/02/13 4:44:38: Ingsan Dir: 4 X: 22 Y: 32
+2017/02/13 4:44:39: Ingsan Dir: 1 X: 22 Y: 31
+2017/02/13 4:44:39: Ingsan Dir: 1 X: 22 Y: 30
+2017/02/13 4:44:39: Ingsan Dir: 1 X: 22 Y: 29
+2017/02/13 4:44:39: Ingsan Dir: 1 X: 22 Y: 28
+2017/02/13 4:44:40: Ingsan Dir: 1 X: 22 Y: 27
+2017/02/13 4:44:40: Ingsan Dir: 1 X: 22 Y: 26
+2017/02/13 4:44:40: Ingsan Dir: 4 X: 22 Y: 27
+2017/02/13 4:44:40: Ingsan Dir: 4 X: 22 Y: 28
+2017/02/13 4:44:41: Ingsan Dir: 4 X: 22 Y: 29
+2017/02/13 4:44:41: Ingsan Dir: 4 X: 22 Y: 30
+2017/02/13 4:44:41: Ingsan Dir: 4 X: 22 Y: 31
+2017/02/13 4:44:42: Ingsan Dir: 1 X: 22 Y: 30
+2017/02/13 4:44:43: Ingsan Dir: 1 X: 22 Y: 29
+2017/02/13 4:44:43: Ingsan Dir: 10 X: 23 Y: 29
+2017/02/13 4:44:43: Ingsan Dir: 10 X: 24 Y: 29
+2017/02/13 4:44:43: Ingsan Dir: 10 X: 25 Y: 29
+2017/02/13 4:44:44: Ingsan Dir: 10 X: 26 Y: 29
+2017/02/13 4:44:44: Ingsan Dir: 10 X: 27 Y: 29
+2017/02/13 4:44:44: Ingsan Dir: 1 X: 27 Y: 28
+2017/02/13 4:44:44: Ingsan Dir: 1 X: 27 Y: 27
+2017/02/13 4:44:44: Ingsan Dir: 1 X: 27 Y: 26
+2017/02/13 4:44:45: Ingsan Dir: 10 X: 28 Y: 26
+2017/02/13 4:44:45: Ingsan Dir: 10 X: 29 Y: 26
+2017/02/13 4:44:45: Ingsan Dir: 10 X: 30 Y: 26
+2017/02/13 4:45:12: ID: 16 Ingsan Status changed to disconnected: 127.0.0.1
+2017/02/13 4:49:20: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 1 50EC96F916731D06
+2017/02/13 4:49:20: Status changed to connected: 127.0.0.1
+2017/02/13 4:49:20: Received From Client: 50EC96F916731D06
+2017/02/13 4:49:20: Player Found ID: 16 Name: Ingsan
+2017/02/13 4:49:21: Ingsan Dir: 1 X: 30 Y: 25
+2017/02/13 4:49:22: Ingsan Dir: 1 X: 30 Y: 24
+2017/02/13 4:49:22: Ingsan Dir: 1 X: 30 Y: 23
+2017/02/13 4:49:22: Ingsan Dir: 4 X: 30 Y: 24
+2017/02/13 4:49:47: ID: 16 Ingsan Status changed to disconnected: 127.0.0.1
+2017/02/13 4:51:49: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 1 5D654F3A892B2A9C
+2017/02/13 4:51:50: Status changed to connected: 127.0.0.1
+2017/02/13 4:51:50: Received From Client: 5D654F3A892B2A9C
+2017/02/13 4:51:50: Player Found ID: 16 Name: Ingsan
+2017/02/13 4:51:50: Ingsan Dir: 4 X: 30 Y: 25
+2017/02/13 4:51:50: Ingsan Dir: 4 X: 30 Y: 26
+2017/02/13 4:51:51: Ingsan Dir: 4 X: 30 Y: 27
+2017/02/13 4:51:51: Ingsan Dir: 4 X: 30 Y: 28
+2017/02/13 4:52:25: ID: 16 Ingsan Status changed to disconnected: 127.0.0.1
+2017/02/13 4:53:53: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 1 378CA42EC356FDBD
+2017/02/13 4:53:53: Status changed to connected: 127.0.0.1
+2017/02/13 4:53:53: Received From Client: 378CA42EC356FDBD
+2017/02/13 4:53:53: Player Found ID: 16 Name: Ingsan
+2017/02/13 4:53:55: Ingsan Dir: 4 X: 30 Y: 29
+2017/02/13 4:53:55: Ingsan Dir: 4 X: 30 Y: 30
+2017/02/13 4:53:55: Ingsan Dir: 4 X: 30 Y: 31
+2017/02/13 4:53:55: Ingsan Dir: 4 X: 30 Y: 32
+2017/02/13 4:54:20: ID: 16 Ingsan Status changed to disconnected: 127.0.0.1
+2017/02/13 4:55:47: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 1 5534A6290BC65D3C
+2017/02/13 4:55:48: Status changed to connected: 127.0.0.1
+2017/02/13 4:55:48: Received From Client: 5534A6290BC65D3C
+2017/02/13 4:55:48: Player Found ID: 16 Name: Ingsan
+2017/02/13 4:55:49: Ingsan Dir: 4 X: 30 Y: 33
+2017/02/13 4:55:49: Ingsan Dir: 4 X: 30 Y: 34
+2017/02/13 4:56:13: ID: 16 Ingsan Status changed to disconnected: 127.0.0.1
+2017/02/13 4:58:52: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 1 DA83BB0079D25128
+2017/02/13 4:58:52: Status changed to connected: 127.0.0.1
+2017/02/13 4:58:52: Received From Client: DA83BB0079D25128
+2017/02/13 4:58:52: Player Found ID: 16 Name: Ingsan
+2017/02/13 4:58:53: Ingsan Dir: 4 X: 30 Y: 35
+2017/02/13 4:58:53: Ingsan Dir: 4 X: 30 Y: 36
+2017/02/13 4:58:53: Ingsan Dir: 10 X: 31 Y: 36
+2017/02/13 4:58:54: Ingsan Dir: 1 X: 31 Y: 35
+2017/02/13 4:58:54: Ingsan Dir: 1 X: 31 Y: 34
+2017/02/13 4:58:54: Ingsan Dir: 1 X: 31 Y: 33
+2017/02/13 4:58:54: Ingsan Dir: 1 X: 31 Y: 32
+2017/02/13 4:58:55: Ingsan Dir: 1 X: 31 Y: 31
+2017/02/13 4:58:55: Ingsan Dir: 1 X: 31 Y: 30
+2017/02/13 4:58:55: Ingsan Dir: 1 X: 31 Y: 29
+2017/02/13 4:58:55: Ingsan Dir: 1 X: 31 Y: 28
+2017/02/13 4:58:55: Ingsan Dir: 7 X: 30 Y: 28
+2017/02/13 4:58:56: Ingsan Dir: 4 X: 30 Y: 29
+2017/02/13 4:58:56: Ingsan Dir: 4 X: 30 Y: 30
+2017/02/13 4:58:56: Ingsan Dir: 4 X: 30 Y: 31
+2017/02/13 4:59:21: ID: 16 Ingsan Status changed to disconnected: 127.0.0.1
+2017/02/13 5:02:18: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 1 10BD8643DD8EC23D
+2017/02/13 5:02:18: Status changed to connected: 127.0.0.1
+2017/02/13 5:02:19: Received From Client: 10BD8643DD8EC23D
+2017/02/13 5:02:19: Player Found ID: 16 Name: Ingsan
+2017/02/13 5:02:43: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 1 5C63FC60CF6177C9
+2017/02/13 5:02:43: ID: 16 Ingsan Status changed to disconnected: 127.0.0.1
+2017/02/13 5:02:44: Status changed to connected: 127.0.0.1
+2017/02/13 5:02:44: Received From Client: 5C63FC60CF6177C9
+2017/02/13 5:02:44: Player Found ID: 16 Name: Ingsan
+2017/02/13 5:02:45: Ingsan Dir: 4 X: 30 Y: 32
+2017/02/13 5:02:45: Ingsan Dir: 4 X: 30 Y: 33
+2017/02/13 5:02:45: Ingsan Dir: 1 X: 30 Y: 32
+2017/02/13 5:02:46: Ingsan Dir: 1 X: 30 Y: 31
+2017/02/13 5:02:46: Ingsan Dir: 1 X: 30 Y: 30
+2017/02/13 5:02:46: Ingsan Dir: 1 X: 30 Y: 29
+2017/02/13 5:03:11: ID: 16 Ingsan Status changed to disconnected: 127.0.0.1
+2017/02/13 5:03:52: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 1 90A27046FF01B36E
+2017/02/13 5:03:53: Status changed to connected: 127.0.0.1
+2017/02/13 5:03:53: Received From Client: 90A27046FF01B36E
+2017/02/13 5:03:53: Player Found ID: 16 Name: Ingsan
+2017/02/13 5:03:54: Ingsan Dir: 4 X: 30 Y: 30
+2017/02/13 5:03:54: Ingsan Dir: 4 X: 30 Y: 31
+2017/02/13 5:03:55: Ingsan Dir: 1 X: 30 Y: 30
+2017/02/13 5:03:55: Ingsan Dir: 1 X: 30 Y: 29
+2017/02/13 5:03:55: Ingsan Dir: 1 X: 30 Y: 28
+2017/02/13 5:03:55: Ingsan Dir: 1 X: 30 Y: 27
+2017/02/13 5:03:56: Ingsan Dir: 1 X: 30 Y: 26
+2017/02/13 5:03:56: Ingsan Dir: 10 X: 31 Y: 26
+2017/02/13 5:03:57: Ingsan Dir: 10 X: 32 Y: 26
+2017/02/13 5:03:57: Ingsan Dir: 10 X: 33 Y: 26
+2017/02/13 5:03:57: Ingsan Dir: 4 X: 33 Y: 27
+2017/02/13 5:03:57: Ingsan Dir: 4 X: 33 Y: 28
+2017/02/13 5:04:00: Ingsan Dir: 1 X: 33 Y: 27
+2017/02/13 5:04:00: Ingsan Dir: 1 X: 33 Y: 26
+2017/02/13 5:04:00: Ingsan Dir: 1 X: 33 Y: 25
+2017/02/13 5:04:00: Ingsan Dir: 1 X: 33 Y: 24
+2017/02/13 5:04:00: Ingsan Dir: 1 X: 33 Y: 23
+2017/02/13 5:04:01: Ingsan Dir: 1 X: 33 Y: 22
+2017/02/13 5:04:26: ID: 16 Ingsan Status changed to disconnected: 127.0.0.1
+2017/02/13 5:05:29: Game Server Name: Canal 1
+2017/02/13 5:05:29: Discovery: Elysium Diamond #1.0.0
+2017/02/13 5:05:29: Port: 10120
+2017/02/13 5:05:29: MaximumConnections: 2000
+2017/02/13 5:05:29: ConnectionTimeOut: 25
+2017/02/13 5:05:29: Logs: True
+2017/02/13 5:05:29: Sleep: 1
+2017/02/13 5:05:29: Game Server ID: gameserver_1
+2017/02/13 5:05:29: Carregando config mysql
+2017/02/13 5:05:29: Connectado ao banco de dados
+2017/02/13 5:05:29: WorldServer 1  ID: Artemis
+2017/02/13 5:05:29: WorldServer 2  ID: 
+2017/02/13 5:05:29: WorldServer 3  ID: 
+2017/02/13 5:05:29: WorldServer 4  ID: 
+2017/02/13 5:05:29: WorldServer 5  ID: 
+2017/02/13 5:05:29: Carregando experiência
+2017/02/13 5:05:29: Level Max: 121
+2017/02/13 5:05:29: Exp Max: 22353256174
+2017/02/13 5:05:29: Carregando guilds
+2017/02/13 5:05:29: Carregando membros
+2017/02/13 5:05:29: Carregando classe(s) base
+2017/02/13 5:05:29: Carregando classe(s) incremento
+2017/02/13 5:05:29: Carregando NPC
+2017/02/13 5:05:30: Game Server Start
+2017/02/13 5:05:33: Status changed to connected: 127.0.0.1
+2017/02/13 5:05:40: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 1 FB74013CE4C72B55
+2017/02/13 5:05:40: Status changed to connected: 127.0.0.1
+2017/02/13 5:05:40: Received From Client: FB74013CE4C72B55
+2017/02/13 5:05:40: Player Found ID: 16 Name: Ingsan
+2017/02/13 5:05:41: Ingsan Dir: 4 X: 33 Y: 23
+2017/02/13 5:05:41: Ingsan Dir: 7 X: 32 Y: 23
+2017/02/13 5:05:41: Ingsan Dir: 1 X: 32 Y: 22
+2017/02/13 5:05:42: Ingsan Dir: 1 X: 32 Y: 21
+2017/02/13 5:05:45: Ingsan Dir: 4 X: 32 Y: 22
+2017/02/13 5:05:46: Ingsan Dir: 4 X: 32 Y: 23
+2017/02/13 5:05:46: Ingsan Dir: 7 X: 31 Y: 23
+2017/02/13 5:05:46: Ingsan Dir: 7 X: 30 Y: 23
+2017/02/13 5:05:46: Ingsan Dir: 7 X: 29 Y: 23
+2017/02/13 5:05:46: Ingsan Dir: 4 X: 29 Y: 24
+2017/02/13 5:05:47: Ingsan Dir: 4 X: 29 Y: 25
+2017/02/13 5:05:47: Ingsan Dir: 1 X: 29 Y: 24
+2017/02/13 5:05:47: Ingsan Dir: 1 X: 29 Y: 23
+2017/02/13 5:05:47: Ingsan Dir: 1 X: 29 Y: 22
+2017/02/13 5:05:48: Ingsan Dir: 1 X: 29 Y: 21
+2017/02/13 5:05:48: Ingsan Dir: 1 X: 29 Y: 20
+2017/02/13 5:05:48: Ingsan Dir: 1 X: 29 Y: 19
+2017/02/13 5:05:48: Ingsan Dir: 1 X: 29 Y: 18
+2017/02/13 5:05:48: Ingsan Dir: 1 X: 29 Y: 17
+2017/02/13 5:05:49: Ingsan Dir: 1 X: 29 Y: 16
+2017/02/13 5:05:49: Ingsan Dir: 1 X: 29 Y: 15
+2017/02/13 5:05:49: Ingsan Dir: 1 X: 29 Y: 14
+2017/02/13 5:05:49: Ingsan Dir: 1 X: 29 Y: 13
+2017/02/13 5:05:49: Ingsan Dir: 4 X: 29 Y: 14
+2017/02/13 5:05:50: Ingsan Dir: 4 X: 29 Y: 15
+2017/02/13 5:05:52: Ingsan Dir: 1 X: 29 Y: 14
+2017/02/13 5:05:52: Ingsan Dir: 1 X: 29 Y: 13
+2017/02/13 5:05:52: Ingsan Dir: 1 X: 29 Y: 12
+2017/02/13 5:05:52: Ingsan Dir: 1 X: 29 Y: 11
+2017/02/13 5:05:53: Ingsan Dir: 4 X: 29 Y: 12
+2017/02/13 5:05:53: Ingsan Dir: 4 X: 29 Y: 13
+2017/02/13 5:07:14: Game Server Name: Canal 1
+2017/02/13 5:07:14: Discovery: Elysium Diamond #1.0.0
+2017/02/13 5:07:14: Port: 10120
+2017/02/13 5:07:14: MaximumConnections: 2000
+2017/02/13 5:07:14: ConnectionTimeOut: 25
+2017/02/13 5:07:14: Logs: True
+2017/02/13 5:07:14: Sleep: 1
+2017/02/13 5:07:14: Game Server ID: gameserver_1
+2017/02/13 5:07:14: Carregando config mysql
+2017/02/13 5:07:14: Connectado ao banco de dados
+2017/02/13 5:07:14: WorldServer 1  ID: Artemis
+2017/02/13 5:07:14: WorldServer 2  ID: 
+2017/02/13 5:07:14: WorldServer 3  ID: 
+2017/02/13 5:07:14: WorldServer 4  ID: 
+2017/02/13 5:07:14: WorldServer 5  ID: 
+2017/02/13 5:07:14: Carregando experiência
+2017/02/13 5:07:14: Level Max: 121
+2017/02/13 5:07:14: Exp Max: 22353256174
+2017/02/13 5:07:14: Carregando guilds
+2017/02/13 5:07:14: Carregando membros
+2017/02/13 5:07:14: Carregando classe(s) base
+2017/02/13 5:07:14: Carregando classe(s) incremento
+2017/02/13 5:07:14: Carregando NPC
+2017/02/13 5:07:14: Game Server Start
+2017/02/13 5:07:23: Status changed to connected: 127.0.0.1
+2017/02/13 6:14:34: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 1 FE59392AD408FF9E
+2017/02/13 6:14:35: Status changed to connected: 127.0.0.1
+2017/02/13 6:14:35: Received From Client: FE59392AD408FF9E
+2017/02/13 6:14:35: Player Found ID: 16 Name: Ingsan
+2017/02/13 6:14:36: Ingsan Dir: 4 X: 33 Y: 23
+2017/02/13 6:14:36: Ingsan Dir: 4 X: 33 Y: 24
+2017/02/13 6:14:36: Ingsan Dir: 4 X: 33 Y: 25
+2017/02/13 6:14:36: Ingsan Dir: 7 X: 32 Y: 25
+2017/02/13 6:14:37: Ingsan Dir: 7 X: 31 Y: 25
+2017/02/13 6:14:37: Ingsan Dir: 4 X: 31 Y: 26
+2017/02/13 6:14:37: Ingsan Dir: 4 X: 31 Y: 27
+2017/02/13 6:15:02: ID: 16 Ingsan Status changed to disconnected: 127.0.0.1
+2017/02/13 7:41:40: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 1 E5A0CC82BEA04DDC
+2017/02/13 7:41:40: Status changed to connected: 127.0.0.1
+2017/02/13 7:41:40: Received From Client: E5A0CC82BEA04DDC
+2017/02/13 7:41:40: Player Found ID: 16 Name: Ingsan
+2017/02/13 7:41:41: Ingsan Dir: 4 X: 31 Y: 28
+2017/02/13 7:41:41: Ingsan Dir: 4 X: 31 Y: 29
+2017/02/13 7:41:42: Ingsan Dir: 4 X: 31 Y: 30
+2017/02/13 7:41:42: Ingsan Dir: 4 X: 31 Y: 31
+2017/02/13 7:41:43: Ingsan Dir: 1 X: 31 Y: 30
+2017/02/13 7:41:43: Ingsan Dir: 1 X: 31 Y: 29
+2017/02/13 7:41:43: Ingsan Dir: 1 X: 31 Y: 28
+2017/02/13 7:41:43: Ingsan Dir: 1 X: 31 Y: 27
+2017/02/13 7:41:43: Ingsan Dir: 1 X: 31 Y: 26
+2017/02/13 7:42:09: ID: 16 Ingsan Status changed to disconnected: 127.0.0.1
+2017/02/13 7:42:39: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 1 55500F14D11C5A0B
+2017/02/13 7:42:40: Status changed to connected: 127.0.0.1
+2017/02/13 7:42:40: Received From Client: 55500F14D11C5A0B
+2017/02/13 7:42:40: Player Found ID: 16 Name: Ingsan
+2017/02/13 7:42:41: Ingsan Dir: 4 X: 31 Y: 27
+2017/02/13 7:42:41: Ingsan Dir: 4 X: 31 Y: 28
+2017/02/13 7:42:41: Ingsan Dir: 4 X: 31 Y: 29
+2017/02/13 7:42:42: Ingsan Dir: 1 X: 31 Y: 28
+2017/02/13 7:42:42: Ingsan Dir: 1 X: 31 Y: 27
+2017/02/13 7:42:42: Ingsan Dir: 1 X: 31 Y: 26
+2017/02/13 7:42:42: Ingsan Dir: 1 X: 31 Y: 25
+2017/02/13 7:42:42: Ingsan Dir: 1 X: 31 Y: 24
+2017/02/13 7:42:43: Ingsan Dir: 7 X: 30 Y: 24
+2017/02/13 7:42:43: Ingsan Dir: 7 X: 29 Y: 24
+2017/02/13 7:42:43: Ingsan Dir: 7 X: 28 Y: 24
+2017/02/13 7:42:43: Ingsan Dir: 7 X: 27 Y: 24
+2017/02/13 7:42:43: Ingsan Dir: 1 X: 27 Y: 23
+2017/02/13 7:42:44: Ingsan Dir: 1 X: 27 Y: 22
+2017/02/13 7:42:44: Ingsan Dir: 1 X: 27 Y: 21
+2017/02/13 7:42:44: Ingsan Dir: 1 X: 27 Y: 20
+2017/02/13 7:42:44: Ingsan Dir: 4 X: 27 Y: 21
+2017/02/13 7:42:44: Ingsan Dir: 4 X: 27 Y: 22
+2017/02/13 7:42:45: Ingsan Dir: 4 X: 27 Y: 23
+2017/02/13 7:42:45: Ingsan Dir: 4 X: 27 Y: 24
+2017/02/13 7:42:46: Ingsan Dir: 1 X: 27 Y: 23
+2017/02/13 7:42:46: Ingsan Dir: 1 X: 27 Y: 22
+2017/02/13 7:42:46: Ingsan Dir: 1 X: 27 Y: 21
+2017/02/13 7:42:46: Ingsan Dir: 1 X: 27 Y: 20
+2017/02/13 7:42:47: Ingsan Dir: 4 X: 27 Y: 21
+2017/02/13 7:42:47: Ingsan Dir: 4 X: 27 Y: 22
+2017/02/13 7:42:47: Ingsan Dir: 4 X: 27 Y: 23
+2017/02/13 7:42:47: Ingsan Dir: 4 X: 27 Y: 24
+2017/02/13 7:42:48: Ingsan Dir: 1 X: 27 Y: 23
+2017/02/13 7:42:48: Ingsan Dir: 1 X: 27 Y: 22
+2017/02/13 7:42:48: Ingsan Dir: 1 X: 27 Y: 21
+2017/02/13 7:42:49: Ingsan Dir: 1 X: 27 Y: 20
+2017/02/13 7:42:49: Ingsan Dir: 1 X: 27 Y: 19
+2017/02/13 7:42:49: Ingsan Dir: 1 X: 27 Y: 18
+2017/02/13 7:42:49: Ingsan Dir: 1 X: 27 Y: 17
+2017/02/13 7:42:50: Ingsan Dir: 4 X: 27 Y: 18
+2017/02/13 7:42:50: Ingsan Dir: 4 X: 27 Y: 19
+2017/02/13 7:42:50: Ingsan Dir: 4 X: 27 Y: 20
+2017/02/13 7:42:50: Ingsan Dir: 4 X: 27 Y: 21
+2017/02/13 7:42:54: Ingsan Dir: 1 X: 27 Y: 20
+2017/02/13 7:42:54: Ingsan Dir: 1 X: 27 Y: 19
+2017/02/13 7:42:55: Ingsan Dir: 1 X: 27 Y: 18
+2017/02/13 7:43:23: ID: 16 Ingsan Status changed to disconnected: 127.0.0.1
+2017/02/13 8:13:27: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 1 3D91E1BA18322BFC
+2017/02/13 8:13:28: Status changed to connected: 127.0.0.1
+2017/02/13 8:13:28: Received From Client: 3D91E1BA18322BFC
+2017/02/13 8:13:28: Player Found ID: 16 Name: Ingsan
+2017/02/13 8:14:01: ID: 16 Ingsan Status changed to disconnected: 127.0.0.1
+2017/02/13 8:23:33: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 1 33C96DFE042DB64E
+2017/02/13 8:23:34: Status changed to connected: 127.0.0.1
+2017/02/13 8:23:34: Received From Client: 33C96DFE042DB64E
+2017/02/13 8:23:34: Player Found ID: 16 Name: Ingsan
+2017/02/13 8:23:59: ID: 16 Ingsan Status changed to disconnected: 127.0.0.1
+2017/02/13 8:25:33: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 1 3D16F564F892DC46
+2017/02/13 8:25:34: Status changed to connected: 127.0.0.1
+2017/02/13 8:25:34: Received From Client: 3D16F564F892DC46
+2017/02/13 8:25:34: Player Found ID: 16 Name: Ingsan
+2017/02/13 8:25:59: ID: 16 Ingsan Status changed to disconnected: 127.0.0.1
+2017/02/13 8:26:49: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 1 9CF3CDCF46DF5358
+2017/02/13 8:26:50: Status changed to connected: 127.0.0.1
+2017/02/13 8:26:50: Received From Client: 9CF3CDCF46DF5358
+2017/02/13 8:26:50: Player Found ID: 16 Name: Ingsan
+2017/02/13 8:27:15: ID: 16 Ingsan Status changed to disconnected: 127.0.0.1
+2017/02/13 8:29:39: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 1 2AF034AE8FCE2E27
+2017/02/13 8:29:39: Status changed to connected: 127.0.0.1
+2017/02/13 8:29:39: Received From Client: 2AF034AE8FCE2E27
+2017/02/13 8:29:39: Player Found ID: 16 Name: Ingsan
+2017/02/13 8:30:04: ID: 16 Ingsan Status changed to disconnected: 127.0.0.1
+2017/02/13 8:32:51: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 1 B37A12D0E263673B
+2017/02/13 8:32:51: Status changed to connected: 127.0.0.1
+2017/02/13 8:32:51: Received From Client: B37A12D0E263673B
+2017/02/13 8:32:51: Player Found ID: 16 Name: Ingsan
+2017/02/13 8:33:16: ID: 16 Ingsan Status changed to disconnected: 127.0.0.1
+2017/02/13 8:33:37: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 1 F8457CFAD313DB0F
+2017/02/13 8:33:37: Status changed to connected: 127.0.0.1
+2017/02/13 8:33:37: Received From Client: F8457CFAD313DB0F
+2017/02/13 8:33:37: Player Found ID: 16 Name: Ingsan
+2017/02/13 8:34:08: ID: 16 Ingsan Status changed to disconnected: 127.0.0.1
+2017/02/13 8:35:14: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 1 77B0F32CD4551277
+2017/02/13 8:35:15: Status changed to connected: 127.0.0.1
+2017/02/13 8:35:15: Received From Client: 77B0F32CD4551277
+2017/02/13 8:35:15: Player Found ID: 16 Name: Ingsan
+2017/02/13 8:35:44: ID: 16 Ingsan Status changed to disconnected: 127.0.0.1
+2017/02/13 8:36:01: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 1 803C37FFDB4FC088
+2017/02/13 8:36:01: Status changed to connected: 127.0.0.1
+2017/02/13 8:36:01: Received From Client: 803C37FFDB4FC088
+2017/02/13 8:36:01: Player Found ID: 16 Name: Ingsan
+2017/02/13 8:39:41: ID: 16 Ingsan Status changed to disconnected: 127.0.0.1
+2017/02/13 8:40:40: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 1 1C4A7624C8627C4E
+2017/02/13 8:40:41: Status changed to connected: 127.0.0.1
+2017/02/13 8:40:41: Received From Client: 1C4A7624C8627C4E
+2017/02/13 8:40:41: Player Found ID: 16 Name: Ingsan
+2017/02/13 8:41:50: ID: 16 Ingsan Status changed to disconnected: 127.0.0.1
+2017/02/13 9:03:10: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 1 1B6A52E45769E7BF
+2017/02/13 9:03:11: Status changed to connected: 127.0.0.1
+2017/02/13 9:03:11: Received From Client: 1B6A52E45769E7BF
+2017/02/13 9:03:11: Player Found ID: 16 Name: Ingsan
+2017/02/13 9:03:36: ID: 16 Ingsan Status changed to disconnected: 127.0.0.1
+2017/02/13 9:04:20: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 1 A826F75361B1B6DD
+2017/02/13 9:04:20: Status changed to connected: 127.0.0.1
+2017/02/13 9:04:20: Received From Client: A826F75361B1B6DD
+2017/02/13 9:04:20: Player Found ID: 16 Name: Ingsan
+2017/02/13 9:04:45: ID: 16 Ingsan Status changed to disconnected: 127.0.0.1
+2017/02/13 9:06:12: Data From World Server ID: 1 Account: akaruz Char ID: 16 Slot: 1 40D3B4B713483A6B
+2017/02/13 9:06:13: Status changed to connected: 127.0.0.1
+2017/02/13 9:06:13: Received From Client: 40D3B4B713483A6B
+2017/02/13 9:06:13: Player Found ID: 16 Name: Ingsan

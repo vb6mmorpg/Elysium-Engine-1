@@ -1,0 +1,133 @@
+2016/11/06 16:45:54: Game Server Name: Canal 1
+2016/11/06 16:45:54: Discovery: Elysium Diamond #1.0.0
+2016/11/06 16:45:54: Port: 10120
+2016/11/06 16:45:54: MaximumConnections: 2000
+2016/11/06 16:45:54: ConnectionTimeOut: 25
+2016/11/06 16:45:54: Logs: True
+2016/11/06 16:45:54: Sleep: 1
+2016/11/06 16:45:54: Game Server ID: gameserver_1
+2016/11/06 16:45:54: Carregando config mysql
+2016/11/06 16:45:54: Connectado ao banco de dados
+2016/11/06 16:45:54: WorldServer 1  ID: Artemis
+2016/11/06 16:45:54: WorldServer 2  ID: 
+2016/11/06 16:45:54: WorldServer 3  ID: 
+2016/11/06 16:45:54: WorldServer 4  ID: 
+2016/11/06 16:45:54: WorldServer 5  ID: 
+2016/11/06 16:45:54: Carregando experiência
+2016/11/06 16:45:54: Level Max: 120
+2016/11/06 16:45:54: Exp Max: 20291626883
+2016/11/06 16:45:54: Carregando guilds
+2016/11/06 16:45:54: Carregando membros
+2016/11/06 16:45:54: Carregando classe(s) base
+2016/11/06 16:45:54: Carregando classe(s) incremento
+2016/11/06 16:45:54: Carregando NPC
+2016/11/06 16:45:54: Game Server Start
+2016/11/06 16:46:02: Status changed to connected: 127.0.0.1
+2016/11/06 16:46:42: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 B2832F969A60E581
+2016/11/06 16:47:17: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 0E89B553470A2119
+2016/11/06 16:47:27: Removed HexID: B2832F969A60E581 akaruz
+2016/11/06 16:58:05: Game Server Name: Canal 1
+2016/11/06 16:58:05: Discovery: Elysium Diamond #1.0.0
+2016/11/06 16:58:05: Port: 10120
+2016/11/06 16:58:05: MaximumConnections: 2000
+2016/11/06 16:58:05: ConnectionTimeOut: 25
+2016/11/06 16:58:05: Logs: True
+2016/11/06 16:58:05: Sleep: 1
+2016/11/06 16:58:05: Game Server ID: gameserver_1
+2016/11/06 16:58:05: Carregando config mysql
+2016/11/06 16:58:06: Connectado ao banco de dados
+2016/11/06 16:58:06: WorldServer 1  ID: Artemis
+2016/11/06 16:58:06: WorldServer 2  ID: 
+2016/11/06 16:58:06: WorldServer 3  ID: 
+2016/11/06 16:58:06: WorldServer 4  ID: 
+2016/11/06 16:58:06: WorldServer 5  ID: 
+2016/11/06 16:58:06: Carregando experiência
+2016/11/06 16:58:06: Level Max: 120
+2016/11/06 16:58:06: Exp Max: 20291626883
+2016/11/06 16:58:06: Carregando guilds
+2016/11/06 16:58:06: Carregando membros
+2016/11/06 16:58:06: Carregando classe(s) base
+2016/11/06 16:58:06: Carregando classe(s) incremento
+2016/11/06 16:58:06: Carregando NPC
+2016/11/06 16:58:06: Game Server Start
+2016/11/06 16:58:12: Status changed to connected: 127.0.0.1
+2016/11/06 16:58:27: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 5ECD3538E34C5A0B
+2016/11/06 16:58:28: Status changed to connected: 127.0.0.1
+2016/11/06 16:58:28: Received From Client: 5ECD3538E34C5A0B
+2016/11/06 16:58:28: Player Found ID: 1 Name: Joanlac
+2016/11/06 16:58:56: ID: 1 Joanlac Status changed to disconnected: 127.0.0.1
+2016/11/06 17:01:47: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 DAEC15C584475E84
+2016/11/06 17:01:48: Status changed to connected: 127.0.0.1
+2016/11/06 17:01:48: Received From Client: DAEC15C584475E84
+2016/11/06 17:01:48: Player Found ID: 1 Name: Joanlac
+2016/11/06 17:02:15: ID: 1 Joanlac Status changed to disconnected: 127.0.0.1
+2016/11/06 17:05:16: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 E735ED0169FD6D69
+2016/11/06 17:05:17: Status changed to connected: 127.0.0.1
+2016/11/06 17:05:17: Received From Client: E735ED0169FD6D69
+2016/11/06 17:05:17: Player Found ID: 1 Name: Joanlac
+2016/11/06 17:05:45: ID: 1 Joanlac Status changed to disconnected: 127.0.0.1
+2016/11/06 17:08:16: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 35334ED6CB0BC1E5
+2016/11/06 17:08:17: Status changed to connected: 127.0.0.1
+2016/11/06 17:08:17: Received From Client: 35334ED6CB0BC1E5
+2016/11/06 17:08:17: Player Found ID: 1 Name: Joanlac
+2016/11/06 17:08:19: Joanlac Dir: 4 X: 21 Y: 18
+2016/11/06 17:08:19: Joanlac Dir: 10 X: 22 Y: 18
+2016/11/06 17:08:19: Joanlac Dir: 10 X: 23 Y: 18
+2016/11/06 17:08:19: Joanlac Dir: 10 X: 24 Y: 18
+2016/11/06 17:08:20: Joanlac Dir: 10 X: 25 Y: 18
+2016/11/06 17:08:20: Joanlac Dir: 10 X: 26 Y: 18
+2016/11/06 17:08:20: Joanlac Dir: 4 X: 26 Y: 19
+2016/11/06 17:08:20: Joanlac Dir: 4 X: 26 Y: 20
+2016/11/06 17:08:20: Joanlac Dir: 4 X: 26 Y: 21
+2016/11/06 17:08:21: Joanlac Dir: 4 X: 26 Y: 22
+2016/11/06 17:08:21: Joanlac Dir: 4 X: 26 Y: 23
+2016/11/06 17:08:21: Joanlac Dir: 4 X: 26 Y: 24
+2016/11/06 17:08:21: Joanlac Dir: 4 X: 26 Y: 25
+2016/11/06 17:08:22: Joanlac Dir: 1 X: 26 Y: 24
+2016/11/06 17:08:22: Joanlac Dir: 1 X: 26 Y: 23
+2016/11/06 17:08:22: Joanlac Dir: 1 X: 26 Y: 22
+2016/11/06 17:08:23: Joanlac Dir: 1 X: 26 Y: 21
+2016/11/06 17:08:23: Joanlac Dir: 1 X: 26 Y: 20
+2016/11/06 17:08:48: ID: 1 Joanlac Status changed to disconnected: 127.0.0.1
+2016/11/06 17:33:28: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 8B9B1CD29E841D6D
+2016/11/06 17:33:44: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 8B9B1CD29E841D6D
+2016/11/06 17:34:13: Removed HexID: 8B9B1CD29E841D6D akaruz
+2016/11/06 17:55:25: Game Server Name: Canal 1
+2016/11/06 17:55:25: Discovery: Elysium Diamond #1.0.0
+2016/11/06 17:55:25: Port: 10120
+2016/11/06 17:55:25: MaximumConnections: 2000
+2016/11/06 17:55:25: ConnectionTimeOut: 25
+2016/11/06 17:55:25: Logs: True
+2016/11/06 17:55:25: Sleep: 1
+2016/11/06 17:55:25: Game Server ID: gameserver_1
+2016/11/06 17:55:25: Carregando config mysql
+2016/11/06 17:55:25: Connectado ao banco de dados
+2016/11/06 17:55:25: WorldServer 1  ID: Artemis
+2016/11/06 17:55:25: WorldServer 2  ID: 
+2016/11/06 17:55:25: WorldServer 3  ID: 
+2016/11/06 17:55:25: WorldServer 4  ID: 
+2016/11/06 17:55:25: WorldServer 5  ID: 
+2016/11/06 17:55:25: Carregando experiência
+2016/11/06 17:55:25: Level Max: 120
+2016/11/06 17:55:25: Exp Max: 20291626883
+2016/11/06 17:55:25: Carregando guilds
+2016/11/06 17:55:25: Carregando membros
+2016/11/06 17:55:25: Carregando classe(s) base
+2016/11/06 17:55:25: Carregando classe(s) incremento
+2016/11/06 17:55:25: Carregando NPC
+2016/11/06 17:55:26: Game Server Start
+2016/11/06 17:55:33: Status changed to connected: 127.0.0.1
+2016/11/06 17:55:46: Data From World Server ID: 1 Account: akaruz Char ID: 1 Slot: 0 1B7E3C9B534CBD94
+2016/11/06 17:55:46: Status changed to connected: 127.0.0.1
+2016/11/06 17:55:46: Received From Client: 1B7E3C9B534CBD94
+2016/11/06 17:55:47: Player Found ID: 1 Name: Joanlac
+2016/11/06 17:55:48: Joanlac Dir: 10 X: 27 Y: 20
+2016/11/06 17:55:48: Joanlac Dir: 4 X: 27 Y: 21
+2016/11/06 17:55:49: Joanlac Dir: 4 X: 27 Y: 22
+2016/11/06 17:55:49: Joanlac Dir: 10 X: 28 Y: 22
+2016/11/06 17:55:49: Joanlac Dir: 7 X: 27 Y: 22
+2016/11/06 17:55:49: Joanlac Dir: 4 X: 27 Y: 23
+2016/11/06 17:55:50: Joanlac Dir: 10 X: 28 Y: 23
+2016/11/06 17:55:50: Joanlac Dir: 1 X: 28 Y: 22
+2016/11/06 17:55:50: Joanlac Dir: 7 X: 27 Y: 22
+2016/11/06 17:56:16: ID: 1 Joanlac Status changed to disconnected: 127.0.0.1

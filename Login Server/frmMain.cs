@@ -91,7 +91,7 @@ namespace LoginServer
 
             if (Settings.LogSystem == 1) {
                 WriteLog("LogSystem - Ativado.", Color.Green);
-                LogConfig.OpenFileLog();
+                FileLog.OpenFileLog();
             }
             else {
                 WriteLog("LogSystem - Desativado.", Color.Black);
@@ -104,7 +104,7 @@ namespace LoginServer
             InitializeDatabaseConfig();
 
             var tempError = string.Empty;
-            if (!Common_DB.Connect(out tempError)) {
+            if (!Common_DB.Open(out tempError)) {
                 WriteLog(tempError, Color.Red);
             }
             else {
@@ -113,11 +113,11 @@ namespace LoginServer
 
             WriteLog("Conectando World Server.", Color.Green);
 
-            WorldServerNetwork.InitializeWorldServer();
+            WorldNetwork.InitializeWorldServer();
 
             WriteLog("Login Server Start.", Color.Green);
 
-            LoginServerNetwork.InitializeServer();
+            LoginNetwork.InitializeServer();
 
             #region Tray System
             trayMenu.MenuItems.Add("Mostrar", ShowForm);
@@ -151,8 +151,6 @@ namespace LoginServer
 
         //File -> Quit
         private void quit_MenuItem_Click(object sender, EventArgs e) {
-            Login.Close();
-
             trayIcon.Visible = false;
             trayIcon.Dispose();
 
@@ -227,7 +225,7 @@ namespace LoginServer
                     Settings.Server[i].WorldServerPort = Configuration.GetInt32((i + 1) + "_WorldServerPort");
                     Settings.Server[i].Status = Configuration.GetString((i + 1) + "_Status");
 
-                    LogConfig.WriteLog($"Servidor adicionado: {Settings.Server[i].Name} {Settings.Server[i].Region} {Settings.Server[i].Status}", System.Drawing.Color.Coral);
+                    FileLog.WriteLog($"Servidor adicionado: {Settings.Server[i].Name} {Settings.Server[i].Region} {Settings.Server[i].Status}", System.Drawing.Color.Coral);
                 }
             }
         }

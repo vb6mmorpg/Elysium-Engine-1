@@ -6,7 +6,7 @@ using WorldServer.Common;
 using WorldServer.Network;
 using WorldServer.MySQL;
 using WorldServer.Server;
-using WorldServer.Classe;
+using WorldServer.ClasseData;
 using WorldServer.GameGuild;
 using System.Runtime.InteropServices;
 using System.Threading;
@@ -57,7 +57,7 @@ namespace WorldServer {
         }
 
         private void quit_MenuItem_Click(object sender, EventArgs e) {
-            LogConfig.CloseFileLog();
+            FileLog.Close();
             Application.Exit();
         }
         private void ShowForm(object sender, EventArgs e) {
@@ -97,14 +97,14 @@ namespace WorldServer {
 
             LuaConfig.InitializeConfig();
 
-            WriteLog($"Create Character: {Settings.CharacterCreation}", Color.MediumVioletRed);
-            WriteLog($"Delete Character: {Settings.CharacterDelete}", Color.MediumVioletRed);
+            WriteLog($"Create Character: {GameSettings.CharacterCreation}", Color.MediumVioletRed);
+            WriteLog($"Delete Character: {GameSettings.CharacterDelete}", Color.MediumVioletRed);
 
             InitializeServerConfig();
 
             if (Settings.LogSystem == true) {
                 WriteLog("LogSystem - Ativado.", Color.Green);
-                LogConfig.OpenFileLog();
+                FileLog.Open();
             }
             else 
                 WriteLog("LogSystem - Desativado.", Color.Black); 
@@ -120,7 +120,7 @@ namespace WorldServer {
             Common_DB.Database = Configuration.GetString("MySQL_DB");
 
             // Tenta fazer a conexão com o banco de dados
-            if (!Common_DB.Connect(out tempError)) 
+            if (!Common_DB.Open(out tempError)) 
                 WriteLog(tempError, Color.Red);
             else 
                 WriteLog("Connectado ao banco de dados", Color.Green);
@@ -132,8 +132,8 @@ namespace WorldServer {
             InitializeGuild();
             InitializeClasse();
         
-            WorldServerNetwork.InitializeTCP();
-            GameServerNetwork.InitializeGameServer();
+            WorldNetwork.InitializeServer();
+            GameNetwork.InitializeGameServer();
 
             WriteLog("World Server Start.", Color.Green);
 
@@ -174,18 +174,21 @@ namespace WorldServer {
         }
 
         public void InitializeClasse() {
-            Classes.ClassesBase = new List<ClassesBase>();
-            Classes.ClassesIncrement = new List<ClassesIncrement>();
-            Classes.ClassesItem = new List<ClassesItem>();
+            Classe.Classes = new List<Classe>();
             
             WriteLog("Carregando classe(s) base.", Color.BlueViolet);
-            Classes_DB.GetClasseBase();
+            Classes_DB.GetClasseStatsBase();
 
             WriteLog("Carregando classe(s) incremento.", Color.BlueViolet);
-            Classes_DB.GetClasseIncrement();
 
+            for(var index = 0; index < Classe.Classes.Count; index++) {
+                Classes_DB.GetClasseStatsIncrement(index, Classe.Classes[index].IncrementID);
+            }
+                
             WriteLog("Carregando classe(s) items.", Color.BlueViolet);
-            Classes_DB.GetClasseItem();
+            for (var index = 0; index < Classe.Classes.Count; index++) {
+                Classes_DB.GetClasseItem(index, Classe.Classes[index].ID);
+            }
         }
 
         private void InitializeServerConfig() {
@@ -226,7 +229,7 @@ namespace WorldServer {
         private void frmMain_FormClosing(object sender, FormClosingEventArgs e) {
             e.Cancel = true;
 
-            LogConfig.CloseFileLog();
+            FileLog.Close();
 
             e.Cancel = false;
         }

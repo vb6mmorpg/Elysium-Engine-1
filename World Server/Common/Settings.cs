@@ -47,12 +47,5 @@ namespace WorldServer.Common {
         /// Caminho do executável.
         /// </summary>
         public static string ServerPath { get; } = Environment.CurrentDirectory;
-
-        public static bool CharacterCreation { get; set; }
-        public static bool CharacterDelete { get; set; }
-        public static int CharacterDeleteMinLevel { get; set; }
-        public static int CharacterDeleteMaxLevel { get; set; }
     }
-
-
 }

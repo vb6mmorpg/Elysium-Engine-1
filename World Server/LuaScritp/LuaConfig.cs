@@ -5,33 +5,30 @@ using WorldServer.Server;
 
 namespace WorldServer.LuaScript {
     public static class LuaConfig {
-        private static Lua lua;
-
         /// <summary>
         /// Inicializa lua e obtem as configurações.
         /// </summary>
         public static void InitializeConfig() {
-            lua = new Lua();
-            //lua.LoadCLRPackage();
 
-            lua.DoFile("Config.lua");
+            using (var lua = new Lua()) {
+                //lua.LoadCLRPackage();
 
-            Settings.CharacterCreation = (bool)lua["CharacterCreation"];
-            Settings.CharacterDelete = (bool)lua["CharacterDelete"];
-            Settings.CharacterDeleteMinLevel = Convert.ToInt32(lua["CharacterDeleteMinLevel"]);
-            Settings.CharacterDeleteMaxLevel = Convert.ToInt32(lua["CharacterDeleteMaxLevel"]);
+                lua.DoFile("Config.lua");
 
-            //LuaFunction f = lua["function_name"] as LuaFunction;
+                GameSettings.CharacterCreation = (bool)lua["CharacterCreation"];
+                GameSettings.CharacterDelete = (bool)lua["CharacterDelete"];
+                GameSettings.CharacterDeleteMinLevel = Convert.ToInt32(lua["CharacterDeleteMinLevel"]);
+                GameSettings.CharacterDeleteMaxLevel = Convert.ToInt32(lua["CharacterDeleteMaxLevel"]);
 
-            //if (f != null) f.Call(550);
+                //LuaFunction f = lua["function_name"] as LuaFunction;
 
-            lua.RegisterFunction("Add", null, typeof(ProhibitedNames).GetMethod("Add"));
-            lua.RegisterFunction("AddRange", null, typeof(ProhibitedNames).GetMethod("AddRange"));
-  
-            lua.DoFile("ProhibitedNames.lua");
+                //if (f != null) f.Call(550);
 
+                lua.RegisterFunction("Add", null, typeof(ProhibitedNames).GetMethod("Add"));
+                lua.RegisterFunction("AddRange", null, typeof(ProhibitedNames).GetMethod("AddRange"));
 
+                lua.DoFile("ProhibitedNames.lua");
+            }
         }
-
     }
 }

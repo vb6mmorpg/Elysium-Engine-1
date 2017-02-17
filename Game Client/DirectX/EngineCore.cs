@@ -1,151 +1,142 @@
 ﻿using System;
 using System.Windows.Forms;
 using Elysium_Diamond.Resource;
-using Elysium_Diamond.GameWindow;
+using Elysium_Diamond.EngineWindow;
 using Elysium_Diamond.Network;
 using Elysium_Diamond.Common;
+using Elysium_Diamond.Client;
 using SharpDX;
 using SharpDX.Direct3D9;
 using Color = SharpDX.Color;
 
-namespace Elysium_Diamond.DirectX
-{
-    public class EngineCore 
-    {
-        public static Device DirectXDevice { get; set; }
+namespace Elysium_Diamond.DirectX {
+    public class EngineCore {
+        /// <summary>
+        /// Dispostivo de directx.
+        /// </summary>
+        public static Device Device { get; set; }
+
+        /// <summary>
+        /// Dispositivo de sprite.
+        /// </summary>
         public static Sprite SpriteDevice { get; set; }
-        public static int FPS { get; set; }
+
+        /// <summary>
+        /// Etapa de desenho??
+        /// </summary>
         public static byte GameState { get; set; }
-        public static Point MousePosition { get; set; }
+
+        /// <summary>
+        /// Checa se o mouse foi pressionado.
+        /// </summary>
         public static bool MouseDown { get; set; }
 
-        private static int pingTick, pFPS, TickFPS, tcpTick;
+        /// <summary>
+        /// Coordenadas de mouse.
+        /// </summary>
+        public static Point MousePosition { get; set; }
 
-        public static Form Target; // Form Target
+        public static int FPS { get; set; }
+
+        /// <summary>
+        /// Controle de FPS.
+        /// </summary>
+        private static int pingTick, pFPS, tickFPS, tcpTick;
 
         /// <summary>
         /// Imagem de fundo para testes com transparência.
         /// </summary>
-        private static EngineObject BackGround { get; set; }
-        public static EngineCharacter Personagem { get; set; }
-        public static EngineExpBar EngineBar { get; set; }
+        private static EngineObject background;
 
-        public static EngineCharacter otherPlayer;
-         
-        public static bool Initialize()
-        {
-            try
-            {
+        public static bool InitializeDirectX() {
+            try {
                 PresentParameters presentParams = new PresentParameters();
                 presentParams.Windowed = true;
                 presentParams.BackBufferCount = 1;
                 presentParams.SwapEffect = SwapEffect.Discard;
-                presentParams.PresentationInterval = PresentInterval.Immediate;
+                presentParams.PresentationInterval = PresentInterval.Default;
 
-                DirectXDevice = new Device(new Direct3D(), 0, DeviceType.Hardware, Program.graphicsDisplay.Handle, CreateFlags.SoftwareVertexProcessing, presentParams);
-                SpriteDevice = new Sprite(DirectXDevice);
+                Device = new Device(new Direct3D(), 0, DeviceType.Hardware, Program.GraphicsDisplay.Handle, CreateFlags.SoftwareVertexProcessing, presentParams);
+                SpriteDevice = new Sprite(Device);
 
-                DirectXDevice.SetRenderState(RenderState.SourceBlendAlpha, true);
-                DirectXDevice.SetRenderState(RenderState.DestinationBlendAlpha, true);
-                
-
-                BackGround = new EngineObject(Environment.CurrentDirectory + @"\Data\background.png", 1024, 768);
-                BackGround.Size = new Size2(1024, 768);
-                BackGround.SourceRect = new Rectangle(0, 0, 1024, 768);
-
-                EngineBar = new EngineExpBar(519, 36);
-                EngineBar.Position = new Point(245, 639);
-
-                Personagem = new EngineCharacter();
-                Personagem.Name = "DragonicK";
-                Personagem.GuildName = "B地区";
-                Personagem.Sprite = 5;
-                Personagem.Enabled = true;
-
-                otherPlayer = new EngineCharacter();
-                
-                CurrentPlayerData.Level = 1;
-
-                Experience.LoadExperience();
-
-                EngineFont.Initialize();
-                EngineMessageBox.Initialize();
-                EngineInputBox.Initialize();
-                EngineMultimedia.Initialize();
-
-                WindowLogin.Initialize();
-                WindowServer.Initialize();
-                WindowCharacter.Initialize();
-                WindowNewCharacter.Initialize();
-                WindowGuild.Initialize();
-
-                ResourceSprite.Initialize();
-
-                EngineMultimedia.PlayMusic(0, true);
-
-                GameState = 1;
+                Device.SetRenderState(RenderState.SourceBlendAlpha, true);
+                Device.SetRenderState(RenderState.DestinationBlendAlpha, true);
 
                 return true;
             }
-            catch (Exception ex)
-            {
+            catch (Exception ex) {
                 MessageBox.Show(ex.Message);
                 return false;
             }
         }
 
-        public static void Render()
-        {
-            if (DirectXDevice == null) { return; }
+        public static bool InitializeEngine() {
+            NetworkSocket.Initialize();
+            try {
+                background = new EngineObject($"{Environment.CurrentDirectory}\\Data\\background.png", 1024, 768);
+                background.Size = new Size2(1024, 768);
+                background.SourceRect = new Rectangle(0, 0, 1024, 768);
 
-            DirectXDevice.Clear(ClearFlags.Target, Color.Black, 1.0f, 0);
-            DirectXDevice.BeginScene();
+                //Carrega os dados de experiencia
+                ExperienceManage.Experience.Initialize("experience");            
 
-            if (GameState >= 1 && GameState <= 4) 
-                BackGround.Draw();
+                EngineFont.Initialize();
+                EngineMessageBox.Initialize();
+                EngineInputBox.Initialize();
+                EngineMultimedia.Initialize();
+  
+                WindowLogin.Initialize();
+                WindowServer.Initialize();
+                WindowCharacter.Initialize();
+                WindowNewCharacter.Initialize();
 
+                WindowGame.Initialize();
+
+                SpriteManage.Initialize();
+
+                EngineMultimedia.PlayMusic(0, true);
+
+                GameState = 1;
+                return true;
+            }
+            catch (Exception ex) {
+                MessageBox.Show(ex.Message);
+                return false;
+            }
+        }
+
+        public static void Render() {
+            if (Device == null) { return; }
+
+            Device.Clear(ClearFlags.Target, Color.Black, 1.0f, 0);
+            Device.BeginScene();
+
+            background.Draw(); 
+                       
             if (GameState == 1) { WindowLogin.Draw(); }
             if (GameState == 2) { WindowServer.Draw(); }
             if (GameState == 3) { WindowCharacter.Draw(); }
             if (GameState == 4) { WindowNewCharacter.Draw(); }
-            if (GameState == 6) {
-                Personagem.Draw();
-
-                foreach (EngineCharacter playerData in GameLogic.PlayerList.Player) {
-                    playerData.Draw();
-                 }
-                 
-               // for (var n = 0; n < 3; n++) {
-              //      Maps.npc[n].Draw();
-              //  }
-
-                EngineBar.Draw(CurrentPlayerData.Exp + "/" + Experience.Data[CurrentPlayerData.Level + 1]);
-                EngineFont.DrawText(null, "X: " + Personagem.Coordinate.X + " Y: " + Personagem.Coordinate.Y, 900, 32, Color.Coral, EngineFontStyle.Bold);
-                EngineFont.DrawText(null, "X: " + Personagem.PositionX + " Y: " + Personagem.PositionY, 850, 75, Color.Coral, EngineFontStyle.Bold);
-                EngineFont.DrawText(null, "X: " + Personagem.OffSetX + " Y: " + Personagem.OffSetY, 850, 115, Color.Coral, EngineFontStyle.Bold);
-                WindowGuild.Draw();
-            }
-
+            if (GameState == 6) { WindowGame.Draw(); }
+        
             EngineInputBox.Draw();
             EngineMessageBox.Draw();
 
             EngineFont.DrawText(null, "FPS: " + FPS, 925, 0, Color.Coral, EngineFontStyle.Bold);
-            EngineFont.DrawText(null, "Ping: " + Settings.ping, 5, 0, Color.Coral, EngineFontStyle.Bold);
+            EngineFont.DrawText(null, "Ping: " + Common.Configuration.Latency, 5, 0, Color.Coral, EngineFontStyle.Bold);
 
-            DirectXDevice.EndScene();
-            DirectXDevice.Present();
+            Device.EndScene();
+            Device.Present();
         }
-        static public void Update()
-        {
-            LoginServerNetwork.Instance.ReceiveData();
-            GameServerNetwork.Instance.ReceiveData();
-            WorldServerNetwork.Instance.ReceiveData();
 
-            if (Environment.TickCount >= tcpTick + 3000) {
-                if (!Settings.Disconnected) {
-                    LoginServerNetwork.Instance.initTCP();
-                    GameServerNetwork.Instance.initTCP();
-                    WorldServerNetwork.Instance.initTCP();
+        static public void Update() {
+            NetworkSocket.ReceiveData();
+  
+            if (Environment.TickCount >= tcpTick + 1000) {
+                if (!Common.Configuration.Disconnected) {
+                    NetworkSocket.DiscoverServer(NetworkSocketEnum.LoginServer);
+                    NetworkSocket.DiscoverServer(NetworkSocketEnum.WorldServer);
+                    NetworkSocket.DiscoverServer(NetworkSocketEnum.GameServer);
                 }
 
                 tcpTick = Environment.TickCount;
@@ -154,16 +145,16 @@ namespace Elysium_Diamond.DirectX
             //ping
             if (GameState == 6) {
                 if (Environment.TickCount >= pingTick + 1000) {
-                    GeneralServerPacket.SendRequestPing();
+                    CommonPacket.RequestPing();
                     pingTick = Environment.TickCount;
                 }
             }
 
-            if (Environment.TickCount >= TickFPS + 1000) {
+            if (Environment.TickCount >= tickFPS + 1000) {
                 FPS = pFPS;
                 pFPS = 0;
 
-                TickFPS = Environment.TickCount;
+                tickFPS = Environment.TickCount;
             }
             else {
                 pFPS++;
@@ -176,6 +167,7 @@ namespace Elysium_Diamond.DirectX
 
             Application.Exit();
         }
-                
+
     }
 }
+    

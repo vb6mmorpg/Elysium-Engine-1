@@ -10,8 +10,13 @@ namespace WorldServer.Network {
         public NetClient Socket;
         private NetIncomingMessage incMsg;
 
-        // Init Network Controller
-        public void initTCP(string localAddress, string address, int port) {
+        /// <summary>
+        /// Inicializa o cliente.
+        /// </summary>
+        /// <param name="localAddress"></param>
+        /// <param name="address"></param>
+        /// <param name="port"></param>
+        public void InitializeClient(string localAddress, string address, int port) {
             if (Socket == null) {
                 LocalIP = localAddress;
                 IP = address;
@@ -27,12 +32,18 @@ namespace WorldServer.Network {
                 Socket.Socket.Blocking = false;
             }
         }
+        
+        public void Shutdown() {
+            Socket.Shutdown("");
+            Socket = null;
+        }
 
-        // Discover Server
+        /// <summary>
+        /// Descoberta de servidor.
+        /// </summary>
+        /// <returns></returns>
         public bool DiscoverServer() {
-            if (Equals(null, Socket)) {
-                return false;
-            }
+            if (Equals(null, Socket)) { return false; }
 
             if (Connected()) { return true; }
 
@@ -46,21 +57,32 @@ namespace WorldServer.Network {
             return false;
         }
 
-        // Check if player is connected
+        /// <summary>
+        /// Verifica se o cliente está conectado.
+        /// </summary>
+        /// <returns></returns>
         public bool Connected() {
             if (Socket == null) { return false; }
             return Socket.ConnectionStatus == NetConnectionStatus.Connected ? true : false;
         }
 
+        /// <summary>
+        /// Envia os dados.
+        /// </summary>
+        /// <param name="Data"></param>
         public void SendData(NetOutgoingMessage Data) {
             if (Socket == null) { return; }
             Socket.SendMessage(Data, NetDeliveryMethod.ReliableOrdered);
         }
 
+        /// <summary>
+        /// Lê e processa as informações recebidas.
+        /// </summary>
+        /// <param name="index"></param>
         public void ReceiveData(int index) {
             if (Socket == null) { return; }
 
-            // READ INCOMING MESSAGE //
+            //lê os dados recebidos
             while ((incMsg = Socket.ReadMessage()) != null) {
                 switch (incMsg.MessageType) {
                     case NetIncomingMessageType.DiscoveryResponse:
@@ -74,7 +96,7 @@ namespace WorldServer.Network {
                         }
                         break;
                     case NetIncomingMessageType.Data:
-                        GameServerHandleData.HandleData(index, incMsg);
+                        GameData.HandleData(index, incMsg);
                         break;
                 }
 

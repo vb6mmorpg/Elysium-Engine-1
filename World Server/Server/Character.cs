@@ -13,11 +13,21 @@
         /// <summary>
         /// ID de sprite.
         /// </summary>
-        public int Sprite { get; set; }
+        public short Sprite { get; set; }
 
         /// <summary>
         /// Level de personagem.
         /// </summary>
         public int Level { get; set; }   
+
+        /// <summary>
+        /// Limpa todos os dados
+        /// </summary>
+        public void Clear() {
+            Name = string.Empty;
+            Class = 0;
+            Sprite = 0;
+            Level = 0;
+        }
     }
 }

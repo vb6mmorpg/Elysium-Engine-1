@@ -5,24 +5,17 @@ using WorldServer.Common;
 namespace WorldServer.Server {
     public class PlayerLogin {
         public static void Login(PlayerData pData) {
-            // Carrega os personagens para aprensetar ao cliente.
+            //Carrega os personagens para apresentar ao cliente.                                             
+            Character_DB.PreLoad(pData);
+ 
+            FileLog.WriteLog($"PreLoad ID: {pData.AccountID} Account: {pData.Account}", System.Drawing.Color.Black);
 
-            for (var n = 0; n < Constant.MAX_CHAR; n++) {
-                pData.Character[n] = new Character() { Name = string.Empty } ;
-                                              
-                Character_DB.PreLoad(pData, n);
-            }
-
-            LogConfig.WriteLog($"PreLoad ID: {pData.AccountID} Account: {pData.Account}", System.Drawing.Color.Black);
-
-            // Envia o PreLoad
-            WorldServerPacket.PreLoad(pData);
-
+            //Envia o PreLoad
+            WorldPacket.PreLoad(pData);
             //Aceita a conexão
-            WorldServerPacket.Message(pData.Connection, (int)PacketList.AcceptedConnection);
-
-            // Muda de janela
-            WorldServerPacket.GameState(pData.HexID, 3);
+            WorldPacket.Message(pData.Connection, (int)PacketList.AcceptedConnection);
+            //Muda de janela
+            WorldPacket.GameState(pData.HexID, 3);
         }
     }
 }

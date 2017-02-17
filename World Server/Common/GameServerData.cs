@@ -11,7 +11,7 @@
         public string GameServerLocalIP { get; set; }
 
         /// <summary>
-        ///
+        /// Porta de so servidor.
         /// </summary>
         public int GameServerPort { get; set; }
 

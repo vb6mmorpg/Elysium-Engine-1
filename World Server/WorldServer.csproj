@@ -82,11 +82,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classe\ClassesItem.cs" />
-    <Compile Include="Classe\ClassesBase.cs" />
-    <Compile Include="Classe\Classes.cs" />
-    <Compile Include="Classe\ClassesIncrement.cs" />
+    <Compile Include="ClasseData\StatsBase.cs" />
+    <Compile Include="ClasseData\Classe.cs" />
+    <Compile Include="ClasseData\StatsIncrement.cs" />
     <Compile Include="Common\Constant.cs" />
+    <Compile Include="Common\GameSettings.cs" />
     <Compile Include="Enumeration\Stats.cs" />
     <Compile Include="Common\Configuration.cs" />
     <Compile Include="Enumeration\PacketList.cs" />
@@ -95,20 +95,20 @@
     <Compile Include="Guild\GuildChat.cs" />
     <Compile Include="Guild\GuildFunction.cs" />
     <Compile Include="Items\Item.cs" />
-    <Compile Include="Enumeration\Item.cs" />
+    <Compile Include="Enumeration\ItemType.cs" />
     <Compile Include="LuaScritp\LuaConfig.cs" />
     <Compile Include="MySQL\Character_DB.cs" />
     <Compile Include="MySQL\Classes_DB.cs" />
-    <Compile Include="Network\Game\GameServerData.cs" />
-    <Compile Include="Network\Game\GameServerPacket.cs" />
+    <Compile Include="Network\Game\GameData.cs" />
+    <Compile Include="Network\Game\GamePacket.cs" />
     <Compile Include="Network\Game\NetworkClient.cs" />
-    <Compile Include="Network\Game\GameServerNetwork.cs" />
+    <Compile Include="Network\Game\GameNetwork.cs" />
     <Compile Include="Server\AuthenticationFunction.cs" />
     <Compile Include="Server\ProhibitedNames.cs" />
     <Compile Include="Server\Character.cs" />
     <Compile Include="Server\HexID.cs" />
     <Compile Include="Common\Settings.cs" />
-    <Compile Include="Common\LogConfig.cs" />
+    <Compile Include="Common\FileLog.cs" />
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,9 +122,9 @@
     <Compile Include="Guild\GuildGeneral.cs" />
     <Compile Include="Guild\GuildMember.cs" />
     <Compile Include="Server\PlayerData.cs" />
-    <Compile Include="Network\World\WorldServerData.cs" />
-    <Compile Include="Network\World\WorldServerNetwork.cs" />
-    <Compile Include="Network\World\WorldServerPacket.cs" />
+    <Compile Include="Network\World\WorldData.cs" />
+    <Compile Include="Network\World\WorldNetwork.cs" />
+    <Compile Include="Network\World\WorldPacket.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Server\PlayerLogin.cs" />

@@ -8,7 +8,8 @@ using WorldServer.Common;
 
 /* O servidor de login gera um código hexadecimal a partir da conexão; esse código chamo de hexID.
    Esse hexa é enviado para o cliente no momento da conexão com o servidor de login.
-   E também é enviado ao servidor (world) que o jogador quer conectar-se.
+   Quando o usuário clica para conectar em algum servidor (world), o login server envia o hexID para o world server.
+
    O World recebendo o hexa pelo servidor de login, é adicionado na lista "HexID".
 
    Então, o cliente conecta ao servidor (world) e envia o hexadecimal que foi enviado pelo servidor de login.
@@ -43,8 +44,8 @@ namespace WorldServer.Server {
             hexID.HexID = data.ReadString();
             hexID.Account = data.ReadString();
             hexID.AccountID = data.ReadInt32();
-            hexID.LanguageID = data.ReadInt32();
-            hexID.AccessLevel = data.ReadInt32();
+            hexID.LanguageID = data.ReadByte();
+            hexID.AccessLevel = data.ReadInt16();
             hexID.Cash = data.ReadInt32();
             hexID.Pin = data.ReadString();
             hexID.Time = Environment.TickCount;
@@ -54,7 +55,7 @@ namespace WorldServer.Server {
 
             HexID.Add(hexID);
 
-            LogConfig.WriteLog($"Data From Login Server ID: {hexID.AccountID} Account: {hexID.Account} {hexID.HexID}", Color.Black);
+            FileLog.WriteLog($"Data From Login Server ID: {hexID.AccountID} Account: {hexID.Account} {hexID.HexID}", Color.Black);
         }
 
         /// <summary>
@@ -66,7 +67,7 @@ namespace WorldServer.Server {
             var pData = FindByConnection(connection);
             pData.HexID = hexID;
 
-            LogConfig.WriteLog($"Data From Client: {hexID}", Color.Black);
+            FileLog.WriteLog($"Data From Client: {hexID}", Color.Black);
         }
 
         /// <summary>
@@ -103,14 +104,14 @@ namespace WorldServer.Server {
 
                 // Se não encontrar o hexid, desconecta o usuário pelo cliente
                 if (Equals(null, hexID)) { 
-                    WorldServerPacket.Message(pData.Connection, (int)PacketList.Disconnect);
+                    WorldPacket.Message(pData.Connection, (int)PacketList.Disconnect);
                     continue;
                 }
                 
                 //Aceita o hexID e permite a conexão
-                Authentication.AcceptHexID(pData.Connection, hexID);
+                AcceptHexID(pData.Connection, hexID);
 
-                LogConfig.WriteLog($"Player Found ID: {pData.AccountID} Account: {pData.Account} {pData.HexID}", Color.Black);
+                FileLog.WriteLog($"Player Found ID: {pData.AccountID} Account: {pData.Account} {pData.HexID}", Color.Black);
 
                 //inicia o processo de login
                 PlayerLogin.Login(pData);
@@ -124,7 +125,7 @@ namespace WorldServer.Server {
             //se algum dado estiver mais que 30 segundos no sistema, é removido da lista.
             foreach (var hexID in HexID) {
                 if (Environment.TickCount > hexID.Time + 30000) {
-                    LogConfig.WriteLog($"Removed HexID: {hexID.HexID} {hexID.Account}", Color.Coral);
+                    FileLog.WriteLog($"Removed HexID: {hexID.HexID} {hexID.Account}", Color.Coral);
                     HexID.Remove(hexID); 
                 }
             }
@@ -212,5 +213,12 @@ namespace WorldServer.Server {
             return (find_account.FirstOrDefault() == null) ? false : true;
         }
 
+        /// <summary>
+        /// Limpa todos os dados.
+        /// </summary>
+        public static void Clear() {
+            HexID.Clear();
+            Player.Clear();
+        }
     }
 }

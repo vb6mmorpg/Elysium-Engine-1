@@ -6,8 +6,8 @@
         public string Account { get; set; }
         public int CharacterID { get; set; }
         public int CharSlot { get; set; }
-        public int LanguageID { get; set; }
-        public int AccessLevel { get; set; }
+        public byte LanguageID { get; set; }
+        public short AccessLevel { get; set; }
         /// <summary>
         /// 使用はない
         /// </summary>

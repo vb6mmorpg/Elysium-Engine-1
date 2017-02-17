@@ -6,8 +6,7 @@ using SharpDX.Direct3D9;
 using Color = SharpDX.Color;
 
 
-namespace Elysium_Diamond.GameWindow
-{
+namespace Elysium_Diamond.EngineWindow {
     public class WindowGuild
     {    
         private static EngineObject guild_panel;
@@ -39,7 +38,7 @@ namespace Elysium_Diamond.GameWindow
         public static void Initialize()
         {
             guild_panel = new EngineObject();
-            guild_panel.Texture = EngineTexture.TextureFromFile(Settings.GamePath + @"\Data\Graphics\guild_panel_2.png", 430, 280);
+            guild_panel.Texture = EngineTexture.TextureFromFile(Common.Configuration.GamePath + @"\Data\Graphics\guild_panel_2.png", 430, 280);
             guild_panel.Size = new Size2(430, 280);
             guild_panel.SourceRect = new Rectangle(0, 0, 430, 280);
             guild_panel.Visible = true;
@@ -47,7 +46,7 @@ namespace Elysium_Diamond.GameWindow
             guild_panel.Color = Color.White;
             guild_panel.Transparency = 255;
 
-            button[0] = new EngineButton(Settings.lang, Settings.GamePath, "detail", 128, 32);
+            button[0] = new EngineButton("detail", 128, 32);
             button[0].Position = new Point(posx + 62, posy + 50);
             button[0].BorderRect = new Rectangle(20, 2, 86, 26);
             button[0].Enabled = true;
@@ -55,7 +54,7 @@ namespace Elysium_Diamond.GameWindow
             button[0].SourceRect = new Rectangle(0, 0, 128, 32);
             button[0].MouseUp += Detail_MouseUp;
 
-            button[1] = new EngineButton(Settings.lang, Settings.GamePath, "quest", 128, 32);
+            button[1] = new EngineButton("quest", 128, 32);
             button[1].Position = new Point(posx + 165, posy + 50);
             button[1].BorderRect = new Rectangle(20, 2, 86, 26);
             button[1].Enabled = true;
@@ -63,7 +62,7 @@ namespace Elysium_Diamond.GameWindow
             button[1].SourceRect = new Rectangle(0, 0, 128, 32);
             button[1].MouseUp += Quest_MouseUp;
 
-            button[2] = new EngineButton(Settings.lang, Settings.GamePath, "member", 128, 32);
+            button[2] = new EngineButton("member", 128, 32);
             button[2].Position = new Point(posx + 270, posy + 50);
             button[2].BorderRect = new Rectangle(20, 2, 86, 26);
             button[2].Enabled = true;
@@ -71,7 +70,7 @@ namespace Elysium_Diamond.GameWindow
             button[2].SourceRect = new Rectangle(0, 0, 128, 32);
             button[2].MouseUp += Member_MouseUp;
 
-            button[3] = new EngineButton(Settings.lang, Settings.GamePath, "invite", 128, 32);
+            button[3] = new EngineButton("invite", 128, 32);
             button[3].Position = new Point(posx + 165, posy + 210);
             button[3].BorderRect = new Rectangle(20, 2, 86, 26);
             button[3].Enabled = true;
@@ -79,7 +78,7 @@ namespace Elysium_Diamond.GameWindow
             button[3].SourceRect = new Rectangle(0, 0, 128, 32);
             button[3].MouseUp += Member_MouseUp;
 
-            button[4] = new EngineButton(Settings.lang, Settings.GamePath, "panel", 128, 32);
+            button[4] = new EngineButton("panel", 128, 32);
             button[4].Position = new Point(posx + 270, posy + 210);
             button[4].BorderRect = new Rectangle(20, 2, 86, 26);
             button[4].Enabled = true;
@@ -100,7 +99,7 @@ namespace Elysium_Diamond.GameWindow
             button[3].Draw();
             button[4].Draw();
 
-            if (Settings.lang == Language.Portuguese)
+            if (Common.Configuration.Language == Language.Portuguese)
             {
                 EngineFont.DrawText(null, GuildName, new Size2(430, 0), new Point(posx, posy + 40), Color.BlueViolet, EngineFontStyle.Bold, FontDrawFlags.Left, true);
                 EngineFont.DrawText(null, "Guild Master: " + GuildMaster, new Size2(430, 0), new Point(posx, posy + 100), Color.White, EngineFontStyle.Regular, FontDrawFlags.Left, true);
@@ -114,7 +113,7 @@ namespace Elysium_Diamond.GameWindow
                 EngineFont.DrawText(null, Announcement, posx + 145, posy + 180, Color.White, EngineFontStyle.Regular);
             }
 
-            if (Settings.lang == Language.Japanese)
+            if (Common.Configuration.Language == Language.Japanese)
             {
                 EngineFont.DrawText(null, GuildName, new Size2(365, 0), new Point(posx, posy + 40), Color.BlueViolet, EngineFontStyle.Bold, FontDrawFlags.Left, true);
                 EngineFont.DrawText(null, "ギルドマスター: " + GuildMaster, new Size2(365, 0), new Point(posx, posy + 100), Color.White, EngineFontStyle.Regular, FontDrawFlags.Left, true);

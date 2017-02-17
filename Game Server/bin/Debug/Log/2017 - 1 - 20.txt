@@ -1,0 +1,116 @@
+2017/01/20 19:36:09: Game Server Name: Canal 1
+2017/01/20 19:36:09: Discovery: Elysium Diamond #1.0.0
+2017/01/20 19:36:09: Port: 10120
+2017/01/20 19:36:09: MaximumConnections: 2000
+2017/01/20 19:36:09: ConnectionTimeOut: 25
+2017/01/20 19:36:09: Logs: True
+2017/01/20 19:36:09: Sleep: 1
+2017/01/20 19:36:09: Game Server ID: gameserver_1
+2017/01/20 19:36:09: Carregando config mysql
+2017/01/20 19:36:09: Connectado ao banco de dados
+2017/01/20 19:36:09: WorldServer 1  ID: Artemis
+2017/01/20 19:36:09: WorldServer 2  ID: 
+2017/01/20 19:36:09: WorldServer 3  ID: 
+2017/01/20 19:36:09: WorldServer 4  ID: 
+2017/01/20 19:36:09: WorldServer 5  ID: 
+2017/01/20 19:36:09: Carregando experiência
+2017/01/20 19:36:09: Level Max: 121
+2017/01/20 19:36:09: Exp Max: 22353256174
+2017/01/20 19:36:09: Carregando guilds
+2017/01/20 19:36:09: Carregando membros
+2017/01/20 19:36:09: Carregando classe(s) base
+2017/01/20 19:36:09: Carregando classe(s) incremento
+2017/01/20 19:36:09: Carregando NPC
+2017/01/20 19:36:25: Game Server Name: Canal 1
+2017/01/20 19:36:25: Discovery: Elysium Diamond #1.0.0
+2017/01/20 19:36:25: Port: 10120
+2017/01/20 19:36:25: MaximumConnections: 2000
+2017/01/20 19:36:25: ConnectionTimeOut: 25
+2017/01/20 19:36:25: Logs: True
+2017/01/20 19:36:25: Sleep: 1
+2017/01/20 19:36:25: Game Server ID: gameserver_1
+2017/01/20 19:36:25: Carregando config mysql
+2017/01/20 19:36:25: Connectado ao banco de dados
+2017/01/20 19:36:25: WorldServer 1  ID: Artemis
+2017/01/20 19:36:25: WorldServer 2  ID: 
+2017/01/20 19:36:25: WorldServer 3  ID: 
+2017/01/20 19:36:25: WorldServer 4  ID: 
+2017/01/20 19:36:25: WorldServer 5  ID: 
+2017/01/20 19:36:25: Carregando experiência
+2017/01/20 19:36:25: Level Max: 121
+2017/01/20 19:36:25: Exp Max: 22353256174
+2017/01/20 19:36:25: Carregando guilds
+2017/01/20 19:36:25: Carregando membros
+2017/01/20 19:36:25: Carregando classe(s) base
+2017/01/20 19:36:25: Carregando classe(s) incremento
+2017/01/20 19:36:25: Carregando NPC
+2017/01/20 19:37:45: Game Server Name: Canal 1
+2017/01/20 19:37:45: Discovery: Elysium Diamond #1.0.0
+2017/01/20 19:37:45: Port: 10120
+2017/01/20 19:37:45: MaximumConnections: 2000
+2017/01/20 19:37:45: ConnectionTimeOut: 25
+2017/01/20 19:37:45: Logs: True
+2017/01/20 19:37:45: Sleep: 1
+2017/01/20 19:37:45: Game Server ID: gameserver_1
+2017/01/20 19:37:45: Carregando config mysql
+2017/01/20 19:37:45: Connectado ao banco de dados
+2017/01/20 19:37:45: WorldServer 1  ID: Artemis
+2017/01/20 19:37:45: WorldServer 2  ID: 
+2017/01/20 19:37:45: WorldServer 3  ID: 
+2017/01/20 19:37:45: WorldServer 4  ID: 
+2017/01/20 19:37:45: WorldServer 5  ID: 
+2017/01/20 19:37:45: Carregando experiência
+2017/01/20 19:37:45: Level Max: 121
+2017/01/20 19:37:45: Exp Max: 22353256174
+2017/01/20 19:37:45: Carregando guilds
+2017/01/20 19:37:45: Carregando membros
+2017/01/20 19:37:45: Carregando classe(s) base
+2017/01/20 19:37:45: Carregando classe(s) incremento
+2017/01/20 19:37:45: Carregando NPC
+2017/01/20 19:38:47: Game Server Name: Canal 1
+2017/01/20 19:38:47: Discovery: Elysium Diamond #1.0.0
+2017/01/20 19:38:47: Port: 10120
+2017/01/20 19:38:47: MaximumConnections: 2000
+2017/01/20 19:38:47: ConnectionTimeOut: 25
+2017/01/20 19:38:47: Logs: True
+2017/01/20 19:38:47: Sleep: 1
+2017/01/20 19:38:47: Game Server ID: gameserver_1
+2017/01/20 19:38:47: Carregando config mysql
+2017/01/20 19:38:48: Connectado ao banco de dados
+2017/01/20 19:38:48: WorldServer 1  ID: Artemis
+2017/01/20 19:38:48: WorldServer 2  ID: 
+2017/01/20 19:38:48: WorldServer 3  ID: 
+2017/01/20 19:38:48: WorldServer 4  ID: 
+2017/01/20 19:38:48: WorldServer 5  ID: 
+2017/01/20 19:38:48: Carregando experiência
+2017/01/20 19:38:48: Level Max: 121
+2017/01/20 19:38:48: Exp Max: 22353256174
+2017/01/20 19:38:48: Carregando guilds
+2017/01/20 19:38:48: Carregando membros
+2017/01/20 19:38:48: Carregando classe(s) base
+2017/01/20 19:38:48: Carregando classe(s) incremento
+2017/01/20 19:38:48: Carregando NPC
+2017/01/20 19:38:48: Game Server Start
+2017/01/20 19:38:52: Status changed to connected: 127.0.0.1
+2017/01/20 19:39:46: Data From World Server ID: 1 Account: akaruz Char ID: 3 Slot: 2 196253587821D5E7
+2017/01/20 19:39:46: Status changed to connected: 127.0.0.1
+2017/01/20 19:39:46: Received From Client: 196253587821D5E7
+2017/01/20 19:39:46: Player Found ID: 3 Name: 地区
+2017/01/20 19:39:48: 地区 Dir: 10 X: 20 Y: 20
+2017/01/20 19:39:48: 地区 Dir: 1 X: 20 Y: 19
+2017/01/20 19:39:48: 地区 Dir: 1 X: 20 Y: 18
+2017/01/20 19:39:49: 地区 Dir: 1 X: 20 Y: 17
+2017/01/20 19:39:49: 地区 Dir: 1 X: 20 Y: 16
+2017/01/20 19:39:49: 地区 Dir: 10 X: 21 Y: 16
+2017/01/20 19:39:49: 地区 Dir: 10 X: 22 Y: 16
+2017/01/20 19:39:49: 地区 Dir: 10 X: 23 Y: 16
+2017/01/20 19:39:49: 地区 Dir: 10 X: 24 Y: 16
+2017/01/20 19:39:50: 地区 Dir: 10 X: 25 Y: 16
+2017/01/20 19:39:50: 地区 Dir: 10 X: 26 Y: 16
+2017/01/20 19:39:50: 地区 Dir: 4 X: 26 Y: 17
+2017/01/20 19:39:51: 地区 Dir: 1 X: 26 Y: 16
+2017/01/20 19:39:53: 地区 Dir: 10 X: 27 Y: 16
+2017/01/20 19:39:53: 地区 Dir: 1 X: 27 Y: 15
+2017/01/20 19:39:53: 地区 Dir: 1 X: 27 Y: 14
+2017/01/20 19:39:53: 地区 Dir: 1 X: 27 Y: 13
+2017/01/20 19:39:53: 地区 Dir: 1 X: 27 Y: 12

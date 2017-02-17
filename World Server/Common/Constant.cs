@@ -1,6 +1,5 @@
 ﻿namespace WorldServer.Common {
     public class Constant {
-
         /// <summary>
         /// Arquivo de configuração.
         /// </summary>

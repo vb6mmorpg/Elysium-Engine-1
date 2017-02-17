@@ -81,11 +81,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\Classes.cs" />
-    <Compile Include="Classes\ClassesBase.cs" />
-    <Compile Include="Classes\ClassesIncrement.cs" />
+    <Compile Include="ClasseData\Classe.cs" />
+    <Compile Include="ClasseData\StatsIncrement.cs" />
     <Compile Include="Common\Constant.cs" />
-    <Compile Include="Enumeration\Stats.cs" />
+    <Compile Include="Enumeration\StatType.cs" />
     <Compile Include="Common\Configuration.cs" />
     <Compile Include="Enumeration\Enumeration.cs" />
     <Compile Include="Common\LogConfig.cs" />
@@ -134,7 +133,7 @@
     <Compile Include="Server\PlayerPacket.cs" />
     <Compile Include="Server\Service\PlayerService.cs" />
     <Compile Include="Server\World.cs" />
-    <Compile Include="Abstract\Stat.cs" />
+    <Compile Include="ClasseData\StatsBase.cs" />
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -162,7 +161,9 @@
   <ItemGroup>
     <Content Include="gs.ico" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Abstract\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

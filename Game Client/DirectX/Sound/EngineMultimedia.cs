@@ -24,8 +24,8 @@ namespace Elysium_Diamond.DirectX {
             Player.Add(new EngineMusic("scene_1.wav", "Scene"));
 
             //Carrega os arquivos.
-            Sound.Add(new EngineSound(Settings.GamePath + @"\Data\Sound\0.wav"));
-            Sound.Add(new EngineSound(Settings.GamePath + @"\Data\Sound\1.wav"));
+            Sound.Add(new EngineSound(Configuration.GamePath + @"\Data\Sound\0.wav"));
+            Sound.Add(new EngineSound(Configuration.GamePath + @"\Data\Sound\1.wav"));
         }
 
         public static void PlayMusic(int index, bool loop) {

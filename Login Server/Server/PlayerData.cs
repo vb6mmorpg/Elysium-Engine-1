@@ -41,17 +41,17 @@ namespace LoginServer.Server {
         /// <summary>
         /// Quantidade de tentativas de login.
         /// </summary>
-        public int LoginAttempt { get; set; }
+        public byte LoginAttempt { get; set; }
 
         /// <summary>
         /// ID de idioma.
         /// </summary>
-        public int LanguageID { get; set; }
+        public byte LanguageID { get; set; }
 
         /// <summary>
         /// Nível de acesso ao sistema.
         /// </summary>
-        public int AccessLevel { get; set; }
+        public short AccessLevel { get; set; }
 
         /// <summary>
         /// Quantidade de cash.
@@ -95,6 +95,16 @@ namespace LoginServer.Server {
         }
 
         /// <summary>
+        /// Destrutor
+        /// </summary>
+        ~PlayerData() {
+            Service.Clear();
+            Service = null;
+            Connection.Disconnect("");
+            Connection = null;
+        }
+
+        /// <summary>
         /// Limpa os dados para permitir um novo login.
         /// </summary>  
         public void Clear() {
@@ -103,6 +113,7 @@ namespace LoginServer.Server {
             Password = string.Empty;
             Account = string.Empty; 
             IP = string.Empty;
+            Service.Clear();
         }
     }
 }

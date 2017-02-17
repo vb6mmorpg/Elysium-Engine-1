@@ -9,7 +9,7 @@ namespace GameServer.Network {
         public static NetServer Socket;
         private static NetOutgoingMessage outgoingPacket;
 
-        public static void initServerTCP() {
+        public static void InitializeServer() {
             // SERVER TCP CONFIG //
             var config = new NetPeerConfiguration(Settings.Discovery);
             config.Port = Settings.Port;

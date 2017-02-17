@@ -1,4 +1,4 @@
-﻿public enum Stats {
+﻿public enum StatType {
     MaxHP,
     MaxMP,
     MaxSP,

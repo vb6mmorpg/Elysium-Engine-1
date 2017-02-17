@@ -1,0 +1,8 @@
+01/26/2017 01:53:47: Connected World Server #火星
+01/26/2017 01:53:57: User Login: akaruz 127.0.0.1
+01/26/2017 01:53:58: World Server 火星 Login Attempt: akaruz 127.0.0.1
+01/26/2017 01:55:38: Status changed to disconnected: 1 akaruz 127.0.0.1 581782D418F10550
+01/26/2017 01:57:01: World Server #火星 disconnected
+01/26/2017 01:58:17: Connected World Server #火星
+01/26/2017 01:58:21: User Login: akaruz 127.0.0.1
+01/26/2017 01:58:22: World Server 火星 Login Attempt: akaruz 127.0.0.1

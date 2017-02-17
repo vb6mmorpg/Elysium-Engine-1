@@ -1,19 +1,21 @@
 ﻿using System;
 using WorldServer.Network;
+using WorldServer.ClasseData;
 using WorldServer.Common;
+using WorldServer.MySQL;
 
 namespace WorldServer.Server {
     public class World {
         public static void Loop() {
             try {
                 //Recebe os dados do world server
-                WorldServerNetwork.ReceivedData();
+                WorldNetwork.ReceivedData();
 
                 // Verifica e tenta uma nova conexão com o game server
-                GameServerNetwork.GameServerConnect();
+                GameNetwork.GameServerConnect();
 
                 // Recebe os dados do game server
-                GameServerNetwork.GameServerReceiveData();
+                GameNetwork.GameServerReceiveData();
 
                 // Percorre todos os hexid e verifica se o tempo limite já foi ultrapassado ...
                 // Se verdadeiro, é retirado da lista
@@ -28,7 +30,14 @@ namespace WorldServer.Server {
         }
 
         public static void Close() {
+            Common_DB.Close();
+            WorldNetwork.Shutdown();
+            GameNetwork.Shutdown();
+            Classe.Clear();
+            Configuration.Clear();
+            Authentication.Clear();
             ProhibitedNames.Clear();
+            FileLog.Close();
         }
     }
 

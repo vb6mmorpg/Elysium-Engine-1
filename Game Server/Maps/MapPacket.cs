@@ -24,7 +24,7 @@ namespace GameServer.Maps {
             GameServerNetwork.SendDataTo(connection, buffer, NetDeliveryMethod.ReliableOrdered);
         }
 
-        public static void SendMapPlayer(NetConnection connection, int playerID, string name, int sprite, int direction, int x, int y) {
+        public static void SendMapPlayer(NetConnection connection, int playerID, string name, short sprite, short direction, short x, short y) {
             var buffer = GameServerNetwork.Socket.CreateMessage();
             buffer.Write((int)PacketList.GameServer_Client_GetMapPlayer);
             buffer.Write(playerID);
@@ -38,7 +38,7 @@ namespace GameServer.Maps {
 
         }
 
-        public static void SendPlayerMapMove(NetConnection connection, int playerID, int direction) {
+        public static void SendPlayerMapMove(NetConnection connection, int playerID, short direction) {
             var buffer = GameServerNetwork.Socket.CreateMessage();
             buffer.Write((int)PacketList.GameServer_Client_PlayerMapMove);
             buffer.Write(playerID);

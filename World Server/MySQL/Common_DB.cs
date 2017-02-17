@@ -16,7 +16,7 @@ namespace WorldServer.MySQL {
         /// </summary>
         /// <param name="error"></param>
         /// <returns></returns>
-        public static bool Connect(out string message) {
+        public static bool Open(out string message) {
             var varQuery = $"Server={Server};Port={ Port};Database={Database};User ID={Username};Password={Password};";
 
             try {
@@ -37,20 +37,10 @@ namespace WorldServer.MySQL {
         /// Fecha a conexão com o banco de dados.
         /// </summary>
         /// <returns></returns>
-        public static bool Disconnect() {
-            if (Connection == null) { return false; }
-
-            if (Connection.State != ConnectionState.Closed) {
-                Connection.Close();
-                Connection.Dispose();
-            }
-
-            Thread.Sleep(750);
-
-            if (Connection.State == ConnectionState.Closed)
-                return true;
-            else
-                return false;
+        public static void Close() {
+            if (Connection == null)  return; 
+            Connection.Close();
+            Connection.Dispose();
         }
     }
 }

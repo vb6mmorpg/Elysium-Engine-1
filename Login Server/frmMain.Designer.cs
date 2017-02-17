@@ -78,14 +78,14 @@
             // min_MenuItem
             // 
             this.min_MenuItem.Name = "min_MenuItem";
-            this.min_MenuItem.Size = new System.Drawing.Size(152, 22);
+            this.min_MenuItem.Size = new System.Drawing.Size(132, 22);
             this.min_MenuItem.Text = "Minimizar";
             this.min_MenuItem.Click += new System.EventHandler(this.min_MenuItem_Click);
             // 
             // quit_MenuItem
             // 
             this.quit_MenuItem.Name = "quit_MenuItem";
-            this.quit_MenuItem.Size = new System.Drawing.Size(152, 22);
+            this.quit_MenuItem.Size = new System.Drawing.Size(132, 22);
             this.quit_MenuItem.Text = "Sair";
             this.quit_MenuItem.Click += new System.EventHandler(this.quit_MenuItem_Click);
             // 

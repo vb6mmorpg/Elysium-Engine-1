@@ -7,8 +7,8 @@
         public string HexID { get; set; }
         public int AccountID { get; set; }
         public string Account { get; set; }
-        public int LanguageID { get; set; }
-        public int AccessLevel { get; set; }
+        public byte LanguageID { get; set; }
+        public short AccessLevel { get; set; }
         public int Cash { get; set; }
 
         /// <summary>
@@ -21,7 +21,11 @@
         /// </summary>
         public PlayerService Service { get; set; }
 
+        /// <summary>
+        /// Construtor
+        /// </summary>
         public HexaID() {
+            //instancia o serviço
             Service = new PlayerService();
         }
 

@@ -30,8 +30,8 @@ namespace GameServer.Server {
             hexID.HexID = data.ReadString();
             hexID.Account = data.ReadString();
             hexID.AccountID = data.ReadInt32();
-            hexID.LanguageID = data.ReadInt32();
-            hexID.AccessLevel = data.ReadInt32();
+            hexID.LanguageID = data.ReadByte();
+            hexID.AccessLevel = data.ReadInt16();
             hexID.CharacterID = data.ReadInt32();
             hexID.CharSlot = data.ReadInt32();
             var service = data.ReadInt32();
@@ -95,7 +95,7 @@ namespace GameServer.Server {
                         hexID.Account = pData.HexID;
                         hexID.HexID = pData.HexID;
 
-                        Authentication.AcceptHexID(pData.Connection, hexID);
+                        AcceptHexID(pData.Connection, hexID);
                     }
                 }
 
@@ -107,27 +107,31 @@ namespace GameServer.Server {
                     continue;
                 }
 
-                Authentication.AcceptHexID(pData.Connection, hexID);
+                AcceptHexID(pData.Connection, hexID);
 
                 // Carrega dados do personagem
                 Character_DB.Load(pData.HexID, pData.CharSlot);
                 LogConfig.WriteLog($"Player Found ID: {pData.CharacterID} Name: {pData.CharacterName}", System.Drawing.Color.Black);
 
-                //Create Character
+                //Realiza o calculo dos stats
                 CharacterLogic.UpdateCharacterStats(pData.AccountID);
 
-                //atualiza os dados
-                pData.GuildName = GameGuild.Guild.FindGuildByID(pData.GuildID)?.Name;
-        
                 //Aceita a conexão
                 GameServerPacket.Message(pData.Connection, (int)PacketList.AcceptedConnection);
 
                 //Envia dados para o jogador
-                pData.SendData();
-        
-                GameServerPacket.SendGuild(pData.HexID);
-                GameServerPacket.SendMember(pData.HexID);
-
+                pData.SendPlayerBasicData();
+                pData.SendPlayerElementalStats();
+                pData.SendPlayerLocation();
+                pData.SendPlayerMagicStats();
+                pData.SendPlayerPhysicalStats();
+                pData.SendPlayerResistStats();
+                pData.SendPlayerStats();
+                pData.SendPlayerUniqueStats();
+                pData.SendPlayerVital();
+                pData.SendPlayerVitalRegen();
+                pData.SendPlayerExp();
+                      
                 // adiciona o jogador ao mapa
                 MapGeneral.Map.PlayerID.Add(pData.AccountID);
 

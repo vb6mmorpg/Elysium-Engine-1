@@ -16,7 +16,7 @@ namespace GameServer.Network {
                 case (int)PacketList.Ping: Ping(connection); break;
                 case (int)PacketList.WorldServer_GameServer_GameServerLogin: Authentication.AddHexID(data); break;
                 case (int)PacketList.Client_GameServer_SendPlayerHexID: Authentication.ReceiveHexID(connection, data.ReadString()); break;
-                case (int)PacketList.Client_GameServer_PlayerMove: PlayerMove(connection, data.ReadInt32()); break;
+                case (int)PacketList.Client_GameServer_PlayerMove: PlayerMove(connection, data.ReadInt16()); break;
             }
         }
         public static void Ping(NetConnection connection) {
@@ -25,7 +25,7 @@ namespace GameServer.Network {
             GameServerNetwork.SendDataTo(connection, buffer, NetDeliveryMethod.ReliableUnordered);
         }
 
-        public static void PlayerMove(NetConnection connection, int dir) {
+        public static void PlayerMove(NetConnection connection, short dir) {
             var pData = Authentication.FindByConnection(connection);
 
             pData.Direction = dir;

@@ -1,0 +1,17 @@
+01/20/2017 19:36:04: Discovery Response IPEndPoint: 127.0.0.1
+01/20/2017 19:36:04: Status changed to connected: 127.0.0.1
+01/20/2017 19:37:49: Data From Login Server ID: 1 Account: akaruz 93C47BA34B98EDEE
+01/20/2017 19:37:49: Discovery Response IPEndPoint: 127.0.0.1
+01/20/2017 19:37:49: Status changed to connected: 127.0.0.1
+01/20/2017 19:37:49: Data From Client: 93C47BA34B98EDEE
+01/20/2017 19:37:49: Player Found ID: 1 Account: akaruz 93C47BA34B98EDEE
+01/20/2017 19:37:49: PreLoad ID: 1 Account: akaruz
+01/20/2017 19:38:24: Status changed to disconnected: 1 akaruz 127.0.0.1 93C47BA34B98EDEE
+01/20/2017 19:39:26: Data From Login Server ID: 1 Account: akaruz 196253587821D5E7
+01/20/2017 19:39:26: Discovery Response IPEndPoint: 127.0.0.1
+01/20/2017 19:39:26: Status changed to connected: 127.0.0.1
+01/20/2017 19:39:26: Data From Client: 196253587821D5E7
+01/20/2017 19:39:26: Player Found ID: 1 Account: akaruz 196253587821D5E7
+01/20/2017 19:39:26: PreLoad ID: 1 Account: akaruz
+01/20/2017 19:39:46: GameServer Login Attempt: akaruz 127.0.0.1
+01/20/2017 19:40:17: Status changed to disconnected: 1 akaruz 127.0.0.1 196253587821D5E7

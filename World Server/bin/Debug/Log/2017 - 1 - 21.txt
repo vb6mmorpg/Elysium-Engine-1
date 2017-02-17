@@ -1,0 +1,10 @@
+01/21/2017 21:51:44: Discovery Response IPEndPoint: 127.0.0.1
+01/21/2017 21:51:44: Status changed to connected: 127.0.0.1
+01/21/2017 21:53:39: Data From Login Server ID: 1 Account: akaruz 3D445192FD82F17B
+01/21/2017 21:53:40: Discovery Response IPEndPoint: 127.0.0.1
+01/21/2017 21:53:40: Status changed to connected: 127.0.0.1
+01/21/2017 21:53:40: Data From Client: 3D445192FD82F17B
+01/21/2017 21:53:40: Player Found ID: 1 Account: akaruz 3D445192FD82F17B
+01/21/2017 21:53:40: PreLoad ID: 1 Account: akaruz
+01/21/2017 21:53:49: Character Deleted: From: 1 akaruz Char: DragonicK
+01/21/2017 21:54:17: Status changed to disconnected: 1 akaruz 127.0.0.1 3D445192FD82F17B

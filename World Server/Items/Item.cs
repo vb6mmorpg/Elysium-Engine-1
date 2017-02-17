@@ -1,4 +1,5 @@
-﻿namespace WorldServer.Items {
+﻿using System;
+namespace WorldServer.Items {
     public class Item {
         /// <summary>
         /// ID de item.
@@ -38,11 +39,41 @@
         /// <summary>
         /// Tempo limite
         /// </summary>
-        public string ExpireTime { get; set; }
+        public DateTime ExpireTime { get; set; }
 
         /// <summary>
         /// Ligado ao personagem.
         /// </summary>
         public byte IsSoulBound { get; set; }
+
+        /// <summary>
+        /// Se o item está no inventário ou não.
+        /// </summary>
+        public bool IsInInventory { get; set; }
+
+        /// <summary>
+        /// Construtor.
+        /// </summary>
+        public Item() {
+            this.UniqueID = string.Empty;
+            this.Slots = string.Empty;
+        }
+
+        /// <summary>
+        /// Construtor.
+        /// </summary>
+        /// <param name="item"></param>
+        public Item(Item item) {
+            this.ID = item.ID;
+            this.UniqueID = item.UniqueID;
+            this.Quantity = item.Quantity;
+            this.Enchant = item.Enchant;
+            this.Element = item.Element;
+            this.Durability = item.Durability;
+            this.Slots = item.Slots;
+            this.ExpireTime = item.ExpireTime;
+            this.IsSoulBound = item.IsSoulBound;
+            this.IsInInventory = item.IsInInventory;
+        }
     }
 }

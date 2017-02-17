@@ -101,23 +101,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Common\ConfigGet.cs" />
-    <Compile Include="Common\CurrentPlayerData.cs" />
-    <Compile Include="Common\Settings.cs" />
-    <Compile Include="Common\Cryptography.cs" />
-    <Compile Include="Common\Enumerations.cs" />
-    <Compile Include="Common\StructVar.cs" />
+    <Compile Include="Client\PlayerData.cs" />
+    <Compile Include="Client\PlayerLocal.cs" />
+    <Compile Include="Common\Configuration.cs" />
+    <Compile Include="Common\IPAddress.cs" />
+    <Compile Include="Common\Language.cs" />
+    <Compile Include="Common\PacketList.cs" />
     <Compile Include="CreateDevice.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CreateDevice.Designer.cs">
       <DependentUpon>CreateDevice.cs</DependentUpon>
     </Compile>
-    <Compile Include="DirectX\Controls\EngineExpBar.cs" />
-    <Compile Include="DirectX\Controls\EngineSkillShortCut.cs" />
+    <Compile Include="DirectX\Controls\Common\EngineButtonStyle.cs" />
+    <Compile Include="DirectX\Controls\EngineExperienceBar.cs" />
+    <Compile Include="DirectX\Controls\EngineShortCut.cs" />
+    <Compile Include="DirectX\Controls\EngineInputBoxAction.cs" />
     <Compile Include="DirectX\EngineNpc.cs" />
-    <Compile Include="DirectX\Font\EngineFontEnum.cs" />
-    <Compile Include="DirectX\Controls\EngineButton.cs" />
+    <Compile Include="DirectX\Font\EngineFontStyle.cs" />
+    <Compile Include="DirectX\Controls\Common\EngineButton.cs" />
     <Compile Include="DirectX\Sound\EngineMusic.cs" />
     <Compile Include="DirectX\Sound\EngineMultimedia.cs" />
     <Compile Include="DirectX\Sound\EngineSound.cs" />
@@ -126,35 +128,37 @@
     <Compile Include="DirectX\EngineCharacter.cs" />
     <Compile Include="DirectX\EngineCore.cs" />
     <Compile Include="DirectX\Font\EngineFont.cs" />
+    <Compile Include="EngineWindow\WindowCharacterStatus.cs" />
+    <Compile Include="EngineWindow\WindowShortCut.cs" />
+    <Compile Include="Network\CommonPacket.cs" />
+    <Compile Include="Network\CommonData.cs" />
     <Compile Include="EngineWindow\WindowServerRow.cs" />
     <Compile Include="EngineWindow\WindowGuild.cs" />
     <Compile Include="DirectX\Controls\EngineInputBox.cs" />
-    <Compile Include="DirectX\Controls\EngineLabel.cs" />
+    <Compile Include="DirectX\Controls\Common\EngineLabel.cs" />
     <Compile Include="DirectX\Controls\EngineMessageBox.cs" />
-    <Compile Include="DirectX\Controls\EngineObject.cs" />
-    <Compile Include="DirectX\Controls\EngineTextBox.cs" />
+    <Compile Include="DirectX\Controls\Common\EngineObject.cs" />
+    <Compile Include="DirectX\Controls\Common\EngineTextBox.cs" />
     <Compile Include="DirectX\EngineTexture.cs" />
     <Compile Include="GameFunction\ResourceFunction.cs" />
     <Compile Include="EngineWindow\WindowCharacter.cs" />
-    <Compile Include="EngineWindow\WindowMain.cs" />
+    <Compile Include="EngineWindow\WindowGame.cs" />
     <Compile Include="EngineWindow\WindowLogin.cs" />
     <Compile Include="GameFunction\MapFunction.cs" />
     <Compile Include="EngineWindow\WindowNewCharacter.cs" />
     <Compile Include="EngineWindow\WindowServer.cs" />
     <Compile Include="GameLogic\NpcList.cs" />
-    <Compile Include="GameLogic\PlayerList.cs" />
     <Compile Include="Maps.cs" />
-    <Compile Include="Network\CommonMessage.cs" />
-    <Compile Include="Network\GeneralServer\GeneralServerData.cs" />
-    <Compile Include="Network\GeneralServer\GeneralServerPacket.cs" />
-    <Compile Include="Network\LoginServer\LoginServerNetwork.cs" />
-    <Compile Include="Network\LoginServer\LoginServerData.cs" />
-    <Compile Include="Network\GameServerHandle.cs" />
-    <Compile Include="Network\LoginServer\LoginServerPacket.cs" />
-    <Compile Include="Network\WorldServer\WorldServerNetwork.cs" />
-    <Compile Include="Network\GameServerNetwork.cs" />
-    <Compile Include="Network\WorldServer\WorldServerData.cs" />
-    <Compile Include="Network\WorldServer\WorldServerPacket.cs" />
+    <Compile Include="Network\Game Server\GameServerData.cs" />
+    <Compile Include="Network\Game Server\GameServerPacket.cs" />
+    <Compile Include="Network\Login Server\LoginServerData.cs" />
+    <Compile Include="Network\Login Server\LoginServerPacket.cs" />
+    <Compile Include="Network\Message.cs" />
+    <Compile Include="Network\NetworkSocket.cs" />
+    <Compile Include="Network\NetworkPacket.cs" />
+    <Compile Include="Network\NetworkSocketEnum.cs" />
+    <Compile Include="Network\World Server\WorldServerData.cs" />
+    <Compile Include="Network\World Server\WorldServerPacket.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -162,9 +166,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resource\Experience.cs" />
-    <Compile Include="Resource\Resource_Battles.cs" />
-    <Compile Include="Resource\ResourceSprite.cs" />
+    <Compile Include="Resource\ExperienceManage.cs" />
+    <Compile Include="Resource\SpriteManage.cs" />
+    <Compile Include="Resource\SpriteTexture.cs" />
+    <Compile Include="Client\StatsBase.cs" />
     <EmbeddedResource Include="CreateDevice.resx">
       <DependentUpon>CreateDevice.cs</DependentUpon>
       <SubType>Designer</SubType>

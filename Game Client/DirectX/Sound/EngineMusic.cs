@@ -18,7 +18,7 @@ public class EngineMusic {
     private bool AlreadyOpened { get; set; }
 
     public EngineMusic(string file, string alias) {
-        File = Settings.GamePath + @"\Data\Music\" + file;
+        File = Configuration.GamePath + @"\Data\Music\" + file;
         Alias = alias;
     }
 

@@ -1,0 +1,69 @@
+30/12/2016 01:42:03: Game Server Name: Canal 1
+30/12/2016 01:42:03: Discovery: Elysium Diamond #1.0.0
+30/12/2016 01:42:03: Port: 10120
+30/12/2016 01:42:03: MaximumConnections: 2000
+30/12/2016 01:42:03: ConnectionTimeOut: 25
+30/12/2016 01:42:03: Logs: True
+30/12/2016 01:42:03: Sleep: 1
+30/12/2016 01:42:03: Game Server ID: gameserver_1
+30/12/2016 01:42:03: Carregando config mysql
+30/12/2016 01:42:09: Connectado ao banco de dados
+30/12/2016 01:42:09: WorldServer 1  ID: Artemis
+30/12/2016 01:42:09: WorldServer 2  ID: 
+30/12/2016 01:42:09: WorldServer 3  ID: 
+30/12/2016 01:42:09: WorldServer 4  ID: 
+30/12/2016 01:42:09: WorldServer 5  ID: 
+30/12/2016 01:42:09: Carregando experiência
+30/12/2016 01:42:09: Level Max: 121
+30/12/2016 01:42:09: Exp Max: 22353256174
+30/12/2016 01:42:09: Carregando guilds
+30/12/2016 01:42:09: Carregando membros
+30/12/2016 01:42:09: Carregando classe(s) base
+30/12/2016 01:42:09: Carregando classe(s) incremento
+30/12/2016 01:42:09: Carregando NPC
+30/12/2016 01:42:13: Game Server Name: Canal 1
+30/12/2016 01:42:13: Discovery: Elysium Diamond #1.0.0
+30/12/2016 01:42:13: Port: 10120
+30/12/2016 01:42:13: MaximumConnections: 2000
+30/12/2016 01:42:13: ConnectionTimeOut: 25
+30/12/2016 01:42:13: Logs: True
+30/12/2016 01:42:13: Sleep: 1
+30/12/2016 01:42:13: Game Server ID: gameserver_1
+30/12/2016 01:42:13: Carregando config mysql
+30/12/2016 01:42:13: Connectado ao banco de dados
+30/12/2016 01:42:13: WorldServer 1  ID: Artemis
+30/12/2016 01:42:13: WorldServer 2  ID: 
+30/12/2016 01:42:13: WorldServer 3  ID: 
+30/12/2016 01:42:13: WorldServer 4  ID: 
+30/12/2016 01:42:13: WorldServer 5  ID: 
+30/12/2016 01:42:13: Carregando experiência
+30/12/2016 01:42:13: Level Max: 121
+30/12/2016 01:42:13: Exp Max: 22353256174
+30/12/2016 01:42:13: Carregando guilds
+30/12/2016 01:42:13: Carregando membros
+30/12/2016 01:42:13: Carregando classe(s) base
+30/12/2016 01:42:13: Carregando classe(s) incremento
+30/12/2016 01:42:13: Carregando NPC
+30/12/2016 01:42:35: Game Server Name: Canal 1
+30/12/2016 01:42:35: Discovery: Elysium Diamond #1.0.0
+30/12/2016 01:42:35: Port: 10120
+30/12/2016 01:42:35: MaximumConnections: 2000
+30/12/2016 01:42:35: ConnectionTimeOut: 25
+30/12/2016 01:42:35: Logs: True
+30/12/2016 01:42:35: Sleep: 1
+30/12/2016 01:42:35: Game Server ID: gameserver_1
+30/12/2016 01:42:35: Carregando config mysql
+30/12/2016 01:42:36: Connectado ao banco de dados
+30/12/2016 01:42:36: WorldServer 1  ID: Artemis
+30/12/2016 01:42:36: WorldServer 2  ID: 
+30/12/2016 01:42:36: WorldServer 3  ID: 
+30/12/2016 01:42:36: WorldServer 4  ID: 
+30/12/2016 01:42:36: WorldServer 5  ID: 
+30/12/2016 01:42:36: Carregando experiência
+30/12/2016 01:42:36: Level Max: 121
+30/12/2016 01:42:36: Exp Max: 22353256174
+30/12/2016 01:42:36: Carregando guilds
+30/12/2016 01:42:36: Carregando membros
+30/12/2016 01:42:36: Carregando classe(s) base
+30/12/2016 01:42:36: Carregando classe(s) incremento
+30/12/2016 01:42:36: Carregando NPC

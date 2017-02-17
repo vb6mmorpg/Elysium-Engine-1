@@ -12,7 +12,7 @@ namespace GameServer.MySQL {
         /// Carrega todos os NPC.
         /// </summary>
         public static void InitializeNpc() {
-            var varQuery = "SELECT * FROM npc_data";
+            var varQuery = "SELECT * FROM data_npc";
             var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
             var reader = cmd.ExecuteReader();
             NpcData npc;
@@ -21,7 +21,7 @@ namespace GameServer.MySQL {
                 npc = new NpcData();
                 npc.ID = (int)reader["id"];
                 npc.Sprite = (int)reader["sprite"];
-                npc.Elite = (int)reader["elite"];
+                npc.Elit = (int)reader["elit_level"];
                 npc.Type = (int)reader["type"];
                 npc.Level = (int)reader["level"];
                 npc.HP = npc.MaxHP = (int)reader["hp"];
@@ -50,9 +50,6 @@ namespace GameServer.MySQL {
                 npc.ResistCriticalDamage = (int)reader["resist_critical_damage"];
                 npc.ResistMagicCriticalRate = (int)reader["resist_magic_critical_rate"];
                 npc.ResistMagicCriticalDamage = (int)reader["resist_magic_critical_damage"];
-                npc.ParseSkill((string)reader["skill"]);
-                npc.ParseQuest((string)reader["quest"]);
-                npc.ParseShop((string)reader["shop"]);
 
                 NpcGeneral.Npc.Add(npc);
             }
