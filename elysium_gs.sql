@@ -2,15 +2,15 @@
 Navicat MySQL Data Transfer
 
 Source Server         : Connection
-Source Server Version : 50617
+Source Server Version : 50626
 Source Host           : localhost:3306
 Source Database       : elysium_gs
 
 Target Server Type    : MYSQL
-Target Server Version : 50617
+Target Server Version : 50626
 File Encoding         : 65001
 
-Date: 2016-08-14 08:41:53
+Date: 2017-02-15 03:35:51
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -20,93 +20,71 @@ SET FOREIGN_KEY_CHECKS=0;
 -- ----------------------------
 DROP TABLE IF EXISTS `classes`;
 CREATE TABLE `classes` (
-  `id` int(10) NOT NULL,
-  `increment_id` int(10) DEFAULT '0',
-  `name` varchar(25) DEFAULT '',
-  `gender` int(4) DEFAULT '0',
-  `sprite_female` int(10) DEFAULT '0',
-  `sprite_male` int(10) DEFAULT '0',
-  `level` int(10) DEFAULT '1',
-  `regen_hp` int(10) DEFAULT '0',
-  `regen_mp` int(10) DEFAULT '0',
-  `regen_sp` int(10) DEFAULT '0',
-  `hp` int(10) DEFAULT '0',
-  `mp` int(10) DEFAULT '0',
-  `sp` int(10) DEFAULT '0',
-  `strenght` int(10) DEFAULT '0',
-  `dexterity` int(10) DEFAULT '0',
-  `agility` int(10) DEFAULT '0',
-  `constitution` int(10) DEFAULT '0',
-  `intelligence` int(10) DEFAULT '0',
-  `will` int(10) DEFAULT '0',
-  `wisdom` int(10) DEFAULT '0',
-  `mind` int(10) DEFAULT '0',
-  `charisma` int(10) DEFAULT '0',
-  `points` int(10) DEFAULT '0',
-  `critical_rate` int(10) DEFAULT '0',
-  `critical_damage` int(10) DEFAULT '0',
-  `magic_critical_rate` int(10) DEFAULT '0',
-  `magic_critical_damage` int(10) DEFAULT '0',
-  `healing_power` int(10) DEFAULT '0',
-  `concentration` int(10) DEFAULT '0',
-  `attack` int(10) DEFAULT '0',
-  `accuracy` int(10) DEFAULT '0',
-  `defense` int(10) DEFAULT '0',
-  `evasion` int(10) DEFAULT '0',
-  `block` int(10) DEFAULT '0',
-  `parry` int(10) DEFAULT '0',
-  `magic_attack` int(10) DEFAULT '0',
-  `magic_accuracy` int(10) DEFAULT '0',
-  `magic_defense` int(10) DEFAULT '0',
-  `magic_resist` int(10) DEFAULT '0',
-  `damage_suppression` int(10) DEFAULT '0',
-  `additional_damage` int(10) DEFAULT '0',
-  `enmity` int(10) DEFAULT '0',
-  `attack_speed` int(10) DEFAULT '0',
-  `cast_speed` int(10) DEFAULT '0',
-  `attribute_fire` int(10) DEFAULT '0',
-  `attribute_water` int(10) DEFAULT '0',
-  `attribute_earth` int(10) DEFAULT '0',
-  `attribute_wind` int(10) DEFAULT '0',
-  `resist_stun` int(10) DEFAULT '0',
-  `resist_silence` int(10) DEFAULT '0',
-  `resist_paralysis` int(10) DEFAULT '0',
-  `resist_blind` int(10) DEFAULT '0',
-  `resist_critical_rate` int(10) DEFAULT '0',
-  `resist_critical_damage` int(10) DEFAULT '0',
-  `resist_magic_critical_rate` int(10) DEFAULT '0',
-  `resist_magic_critical_damage` int(10) DEFAULT '0',
-  PRIMARY KEY (`id`)
+  `id` int(11) NOT NULL,
+  `increment_id` int(11) NOT NULL DEFAULT '0',
+  `name` varchar(25) NOT NULL DEFAULT '',
+  `sprite_female` smallint(6) NOT NULL DEFAULT '0',
+  `sprite_male` smallint(6) NOT NULL DEFAULT '0',
+  `level` int(11) NOT NULL DEFAULT '1',
+  `regen_hp` int(11) NOT NULL DEFAULT '0',
+  `regen_mp` int(11) NOT NULL DEFAULT '0',
+  `regen_sp` int(11) NOT NULL DEFAULT '0',
+  `hp` int(11) NOT NULL DEFAULT '0',
+  `mp` int(11) NOT NULL DEFAULT '0',
+  `sp` int(11) NOT NULL DEFAULT '0',
+  `strenght` int(11) NOT NULL DEFAULT '0',
+  `dexterity` int(11) NOT NULL DEFAULT '0',
+  `agility` int(11) NOT NULL DEFAULT '0',
+  `constitution` int(11) NOT NULL DEFAULT '0',
+  `intelligence` int(11) NOT NULL DEFAULT '0',
+  `will` int(11) NOT NULL DEFAULT '0',
+  `wisdom` int(11) NOT NULL DEFAULT '0',
+  `mind` int(11) NOT NULL DEFAULT '0',
+  `charisma` int(11) NOT NULL DEFAULT '0',
+  `points` int(11) NOT NULL DEFAULT '0',
+  `critical_rate` int(11) NOT NULL DEFAULT '0',
+  `critical_damage` int(11) NOT NULL DEFAULT '0',
+  `magic_critical_rate` int(11) NOT NULL DEFAULT '0',
+  `magic_critical_damage` int(11) NOT NULL DEFAULT '0',
+  `healing_power` int(11) NOT NULL DEFAULT '0',
+  `concentration` int(11) NOT NULL DEFAULT '0',
+  `attack` int(11) NOT NULL DEFAULT '0',
+  `accuracy` int(11) NOT NULL DEFAULT '0',
+  `defense` int(11) NOT NULL DEFAULT '0',
+  `evasion` int(11) NOT NULL DEFAULT '0',
+  `block` int(11) NOT NULL DEFAULT '0',
+  `parry` int(11) NOT NULL DEFAULT '0',
+  `magic_attack` int(11) NOT NULL DEFAULT '0',
+  `magic_accuracy` int(11) NOT NULL DEFAULT '0',
+  `magic_defense` int(11) NOT NULL DEFAULT '0',
+  `magic_resist` int(11) NOT NULL DEFAULT '0',
+  `damage_suppression` int(11) NOT NULL DEFAULT '0',
+  `additional_damage` int(11) NOT NULL DEFAULT '0',
+  `enmity` int(11) NOT NULL DEFAULT '0',
+  `attack_speed` int(11) NOT NULL DEFAULT '0',
+  `cast_speed` int(11) NOT NULL DEFAULT '0',
+  `attribute_fire` int(11) NOT NULL DEFAULT '0',
+  `attribute_water` int(11) NOT NULL DEFAULT '0',
+  `attribute_earth` int(11) NOT NULL DEFAULT '0',
+  `attribute_wind` int(11) NOT NULL DEFAULT '0',
+  `resist_stun` int(11) NOT NULL DEFAULT '0',
+  `resist_silence` int(11) NOT NULL DEFAULT '0',
+  `resist_paralysis` int(11) NOT NULL DEFAULT '0',
+  `resist_blind` int(11) NOT NULL DEFAULT '0',
+  `resist_critical_rate` int(11) NOT NULL DEFAULT '0',
+  `resist_critical_damage` int(11) NOT NULL DEFAULT '0',
+  `resist_magic_critical_rate` int(11) NOT NULL DEFAULT '0',
+  `resist_magic_critical_damage` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `classe_increment_fk` (`increment_id`),
+  CONSTRAINT `classe_increment_fk` FOREIGN KEY (`increment_id`) REFERENCES `classes_increment` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of classes
 -- ----------------------------
-INSERT INTO `classes` VALUES ('0', '0', 'Guerreiro', '0', '5', '5', '1', '5', '5', '5', '1500', '1500', '1500', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5');
-INSERT INTO `classes` VALUES ('1', '1', 'Mago', '0', '15', '9', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100');
-
--- ----------------------------
--- Table structure for classes_equipped
--- ----------------------------
-DROP TABLE IF EXISTS `classes_equipped`;
-CREATE TABLE `classes_equipped` (
-  `id` int(11) NOT NULL,
-  `classe_id` int(11) NOT NULL,
-  `inventory_slot` int(11) NOT NULL,
-  `item_id` int(11) NOT NULL,
-  `item_unique_id` varchar(255) NOT NULL,
-  `enchant` int(11) NOT NULL DEFAULT '0',
-  `item_element` int(11) NOT NULL DEFAULT '0',
-  `durability` int(11) NOT NULL DEFAULT '0',
-  `slots` varchar(255) NOT NULL DEFAULT '0, 0, 0, 0, 0, 0',
-  `expire_time` varchar(25) NOT NULL DEFAULT '0',
-  `is_soul_bound` tinyint(1) DEFAULT '1',
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of classes_equipped
--- ----------------------------
+INSERT INTO `classes` VALUES ('0', '0', 'Guerreiro', '5', '5', '1', '5', '5', '5', '1500', '1500', '1500', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5');
+INSERT INTO `classes` VALUES ('1', '1', 'Mago', '15', '9', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100', '100');
 
 -- ----------------------------
 -- Table structure for classes_increment
@@ -114,56 +92,56 @@ CREATE TABLE `classes_equipped` (
 DROP TABLE IF EXISTS `classes_increment`;
 CREATE TABLE `classes_increment` (
   `id` int(11) NOT NULL,
-  `name` varchar(20) DEFAULT '',
-  `hp` varchar(100) DEFAULT '0;0;0;0;0;0;0;0;0;0',
-  `mp` varchar(100) DEFAULT '0;0;0;0;0;0;0;0;0;0',
-  `sp` varchar(100) DEFAULT '0;0;0;0;0;0;0;0;0;0',
-  `regen_hp` varchar(100) DEFAULT '0;0;0;0;0;0;0;0;0;0',
-  `regen_mp` varchar(100) DEFAULT '0;0;0;0;0;0;0;0;0;0',
-  `regen_sp` varchar(100) DEFAULT '0;0;0;0;0;0;0;0;0;0',
-  `strenght` int(11) DEFAULT '0',
-  `dexterity` int(11) DEFAULT '0',
-  `agility` int(11) DEFAULT '0',
-  `constitution` int(11) DEFAULT '0',
-  `intelligence` int(11) DEFAULT '0',
-  `wisdom` int(11) DEFAULT '0',
-  `will` int(11) DEFAULT '0',
-  `mind` int(11) DEFAULT '0',
-  `charisma` int(11) DEFAULT '0',
-  `points` int(11) DEFAULT '0',
-  `critical_rate` varchar(100) DEFAULT '0;0;0;0;0;0;0;0;0;0',
-  `critical_damage` varchar(100) DEFAULT '0;0;0;0;0;0;0;0;0;0',
-  `magic_critical_rate` varchar(100) DEFAULT '0;0;0;0;0;0;0;0;0;0',
-  `magic_critical_damage` varchar(100) DEFAULT '0;0;0;0;0;0;0;0;0;0',
-  `healing_power` varchar(100) DEFAULT '0;0;0;0;0;0;0;0;0;0',
-  `concentration` varchar(100) DEFAULT '0;0;0;0;0;0;0;0;0;0',
-  `attack` varchar(100) DEFAULT '0;0;0;0;0;0;0;0;0;0',
-  `accuracy` varchar(100) DEFAULT '0;0;0;0;0;0;0;0;0;0',
-  `defense` varchar(100) DEFAULT '0;0;0;0;0;0;0;0;0;0',
-  `evasion` varchar(100) DEFAULT '0;0;0;0;0;0;0;0;0;0',
-  `block` varchar(100) DEFAULT '0;0;0;0;0;0;0;0;0;0',
-  `parry` varchar(100) DEFAULT '0;0;0;0;0;0;0;0;0;0',
-  `magic_attack` varchar(100) DEFAULT '0;0;0;0;0;0;0;0;0;0',
-  `magic_accuracy` varchar(100) DEFAULT '0;0;0;0;0;0;0;0;0;0',
-  `magic_defense` varchar(100) DEFAULT '0;0;0;0;0;0;0;0;0;0',
-  `magic_resist` varchar(100) DEFAULT '0;0;0;0;0;0;0;0;0;0',
-  `damage_suppression` varchar(100) DEFAULT '0;0;0;0;0;0;0;0;0;0',
-  `additional_damage` varchar(100) DEFAULT '0;0;0;0;0;0;0;0;0;0',
-  `enmity` varchar(100) DEFAULT '0;0;0;0;0;0;0;0;0;0',
-  `attack_speed` varchar(100) DEFAULT '0;0;0;0;0;0;0;0;0;0',
-  `cast_speed` varchar(100) DEFAULT '0;0;0;0;0;0;0;0;0;0',
-  `attribute_fire` varchar(100) DEFAULT '0;0;0;0;0;0;0;0;0;0',
-  `attribute_water` varchar(100) DEFAULT '0;0;0;0;0;0;0;0;0;0',
-  `attribute_earth` varchar(100) DEFAULT '0;0;0;0;0;0;0;0;0;0',
-  `attribute_wind` varchar(100) DEFAULT '0;0;0;0;0;0;0;0;0;0',
-  `resist_stun` varchar(100) DEFAULT '0;0;0;0;0;0;0;0;0;0',
-  `resist_silence` varchar(100) DEFAULT '0;0;0;0;0;0;0;0;0;0',
-  `resist_paralysis` varchar(100) DEFAULT '0;0;0;0;0;0;0;0;0;0',
-  `resist_blind` varchar(100) DEFAULT '0;0;0;0;0;0;0;0;0;0',
-  `resist_critical_rate` varchar(100) DEFAULT '0;0;0;0;0;0;0;0;0;0',
-  `resist_critical_damage` varchar(100) DEFAULT '0;0;0;0;0;0;0;0;0;0',
-  `resist_magic_critical_rate` varchar(100) DEFAULT '0;0;0;0;0;0;0;0;0;0',
-  `resist_magic_critical_damage` varchar(100) DEFAULT '0;0;0;0;0;0;0;0;0;0',
+  `name` varchar(25) NOT NULL DEFAULT '',
+  `hp` varchar(100) NOT NULL DEFAULT '0;0;0;0;0;0;0;0;0;0',
+  `mp` varchar(100) NOT NULL DEFAULT '0;0;0;0;0;0;0;0;0;0',
+  `sp` varchar(100) NOT NULL DEFAULT '0;0;0;0;0;0;0;0;0;0',
+  `regen_hp` varchar(100) NOT NULL DEFAULT '0;0;0;0;0;0;0;0;0;0',
+  `regen_mp` varchar(100) NOT NULL DEFAULT '0;0;0;0;0;0;0;0;0;0',
+  `regen_sp` varchar(100) NOT NULL DEFAULT '0;0;0;0;0;0;0;0;0;0',
+  `strenght` int(11) NOT NULL DEFAULT '0',
+  `dexterity` int(11) NOT NULL DEFAULT '0',
+  `agility` int(11) NOT NULL DEFAULT '0',
+  `constitution` int(11) NOT NULL DEFAULT '0',
+  `intelligence` int(11) NOT NULL DEFAULT '0',
+  `wisdom` int(11) NOT NULL DEFAULT '0',
+  `will` int(11) NOT NULL DEFAULT '0',
+  `mind` int(11) NOT NULL DEFAULT '0',
+  `charisma` int(11) NOT NULL DEFAULT '0',
+  `points` int(11) NOT NULL DEFAULT '0',
+  `critical_rate` varchar(100) NOT NULL DEFAULT '0;0;0;0;0;0;0;0;0;0',
+  `critical_damage` varchar(100) NOT NULL DEFAULT '0;0;0;0;0;0;0;0;0;0',
+  `magic_critical_rate` varchar(100) NOT NULL DEFAULT '0;0;0;0;0;0;0;0;0;0',
+  `magic_critical_damage` varchar(100) NOT NULL DEFAULT '0;0;0;0;0;0;0;0;0;0',
+  `healing_power` varchar(100) NOT NULL DEFAULT '0;0;0;0;0;0;0;0;0;0',
+  `concentration` varchar(100) NOT NULL DEFAULT '0;0;0;0;0;0;0;0;0;0',
+  `attack` varchar(100) NOT NULL DEFAULT '0;0;0;0;0;0;0;0;0;0',
+  `accuracy` varchar(100) NOT NULL DEFAULT '0;0;0;0;0;0;0;0;0;0',
+  `defense` varchar(100) NOT NULL DEFAULT '0;0;0;0;0;0;0;0;0;0',
+  `evasion` varchar(100) NOT NULL DEFAULT '0;0;0;0;0;0;0;0;0;0',
+  `block` varchar(100) NOT NULL DEFAULT '0;0;0;0;0;0;0;0;0;0',
+  `parry` varchar(100) NOT NULL DEFAULT '0;0;0;0;0;0;0;0;0;0',
+  `magic_attack` varchar(100) NOT NULL DEFAULT '0;0;0;0;0;0;0;0;0;0',
+  `magic_accuracy` varchar(100) NOT NULL DEFAULT '0;0;0;0;0;0;0;0;0;0',
+  `magic_defense` varchar(100) NOT NULL DEFAULT '0;0;0;0;0;0;0;0;0;0',
+  `magic_resist` varchar(100) NOT NULL DEFAULT '0;0;0;0;0;0;0;0;0;0',
+  `damage_suppression` varchar(100) NOT NULL DEFAULT '0;0;0;0;0;0;0;0;0;0',
+  `additional_damage` varchar(100) NOT NULL DEFAULT '0;0;0;0;0;0;0;0;0;0',
+  `enmity` varchar(100) NOT NULL DEFAULT '0;0;0;0;0;0;0;0;0;0',
+  `attack_speed` varchar(100) NOT NULL DEFAULT '0;0;0;0;0;0;0;0;0;0',
+  `cast_speed` varchar(100) NOT NULL DEFAULT '0;0;0;0;0;0;0;0;0;0',
+  `attribute_fire` varchar(100) NOT NULL DEFAULT '0;0;0;0;0;0;0;0;0;0',
+  `attribute_water` varchar(100) NOT NULL DEFAULT '0;0;0;0;0;0;0;0;0;0',
+  `attribute_earth` varchar(100) NOT NULL DEFAULT '0;0;0;0;0;0;0;0;0;0',
+  `attribute_wind` varchar(100) NOT NULL DEFAULT '0;0;0;0;0;0;0;0;0;0',
+  `resist_stun` varchar(100) NOT NULL DEFAULT '0;0;0;0;0;0;0;0;0;0',
+  `resist_silence` varchar(100) NOT NULL DEFAULT '0;0;0;0;0;0;0;0;0;0',
+  `resist_paralysis` varchar(100) NOT NULL DEFAULT '0;0;0;0;0;0;0;0;0;0',
+  `resist_blind` varchar(100) NOT NULL DEFAULT '0;0;0;0;0;0;0;0;0;0',
+  `resist_critical_rate` varchar(100) NOT NULL DEFAULT '0;0;0;0;0;0;0;0;0;0',
+  `resist_critical_damage` varchar(100) NOT NULL DEFAULT '0;0;0;0;0;0;0;0;0;0',
+  `resist_magic_critical_rate` varchar(100) NOT NULL DEFAULT '0;0;0;0;0;0;0;0;0;0',
+  `resist_magic_critical_damage` varchar(100) NOT NULL DEFAULT '0;0;0;0;0;0;0;0;0;0',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
@@ -171,15 +149,41 @@ CREATE TABLE `classes_increment` (
 -- Records of classes_increment
 -- ----------------------------
 INSERT INTO `classes_increment` VALUES ('0', 'Guerreiro', '1;1;1;1;1;1;1;1;1;1', '1;1;1;1;1;1;1;1;1;1', '1;1;1;1;1;1;1;1;1;1', '1;1;1;1;1;1;1;1;1;1', '1;1;1;1;1;1;1;1;1;1', '1;1;1;1;1;1;1;1;1;1', '15', '15', '15', '15', '15', '15', '15', '15', '15', '15', '1;1;1;1;1;1;1;1;1;1', '1;1;1;1;1;1;1;1;1;1', '1;1;1;1;1;1;1;1;1;1', '1;1;1;1;1;1;1;1;1;1', '1;1;1;1;1;1;1;1;1;1', '1;1;1;1;1;1;1;1;1;1', '1;1;1;1;1;1;1;1;1;1', '1;1;1;1;1;1;1;1;1;1', '1;1;1;1;1;1;1;1;1;1', '1;1;1;1;1;1;1;1;1;1', '1;1;1;1;1;1;1;1;1;1', '1;1;1;1;1;1;1;1;1;1', '1;1;1;1;1;1;1;1;1;1', '1;1;1;1;1;1;1;1;1;1', '1;1;1;1;1;1;1;1;1;1', '1;1;1;1;1;1;1;1;1;1', '1;1;1;1;1;1;1;1;1;1', '1;1;1;1;1;1;1;1;1;1', '1;1;1;1;1;1;1;1;1;1', '1;1;1;1;1;1;1;1;1;1', '1;1;1;1;1;1;1;1;1;1', '1;1;1;1;1;1;1;1;1;1', '1;1;1;1;1;1;1;1;1;1', '1;1;1;1;1;1;1;1;1;1', '1;1;1;1;1;1;1;1;1;1', '1;1;1;1;1;1;1;1;1;1', '1;1;1;1;1;1;1;1;1;1', '1;1;1;1;1;1;1;1;1;1', '1;1;1;1;1;1;1;1;1;1', '1;1;1;1;1;1;1;1;1;1', '1;1;1;1;1;1;1;1;1;1', '1;1;1;1;1;1;1;1;1;1', '1;1;1;1;1;1;1;1;1;1');
-INSERT INTO `classes_increment` VALUES ('1', 'Mago', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0');
+INSERT INTO `classes_increment` VALUES ('1', 'Mago', '1;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0');
+
+-- ----------------------------
+-- Table structure for classes_item
+-- ----------------------------
+DROP TABLE IF EXISTS `classes_item`;
+CREATE TABLE `classes_item` (
+  `id` int(11) NOT NULL,
+  `classe_id` int(11) NOT NULL DEFAULT '0',
+  `slot` int(11) NOT NULL,
+  `item_id` int(11) NOT NULL,
+  `item_unique_id` varchar(255) NOT NULL,
+  `enchant` int(11) NOT NULL DEFAULT '0',
+  `item_element` int(11) NOT NULL DEFAULT '0',
+  `durability` int(11) NOT NULL DEFAULT '0',
+  `slots` varchar(255) NOT NULL DEFAULT '0, 0, 0, 0, 0, 0',
+  `expire_time` datetime NOT NULL,
+  `is_soul_bound` tinyint(1) NOT NULL DEFAULT '1',
+  PRIMARY KEY (`id`),
+  KEY `classe_item_fk` (`classe_id`),
+  CONSTRAINT `classe_item_fk` FOREIGN KEY (`classe_id`) REFERENCES `classes` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of classes_item
+-- ----------------------------
+INSERT INTO `classes_item` VALUES ('1', '1', '0', '1', '4ASD51GI4QE152DA', '5', '1', '150', '0, 0, 0, 0, 0, 0', '1999-01-01 15:21:21', '1');
 
 -- ----------------------------
 -- Table structure for data_exp
 -- ----------------------------
 DROP TABLE IF EXISTS `data_exp`;
 CREATE TABLE `data_exp` (
-  `level` int(10) unsigned NOT NULL,
-  `exp_to_reach_lvl` bigint(20) unsigned NOT NULL
+  `level` int(11) unsigned NOT NULL,
+  `exp_to_reach_lvl` bigint(20) unsigned NOT NULL DEFAULT '0'
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- ----------------------------
@@ -316,7 +320,7 @@ CREATE TABLE `data_npc` (
   `name` varchar(100) DEFAULT '',
   `sprite` int(11) DEFAULT '0',
   `type` int(4) DEFAULT '0',
-  `elite` int(11) DEFAULT '0',
+  `elit_level` int(11) DEFAULT '0',
   `level` int(11) DEFAULT '1',
   `hp` int(11) DEFAULT '0',
   `regen_hp` int(11) DEFAULT '0',
@@ -344,45 +348,41 @@ CREATE TABLE `data_npc` (
   `resist_critical_damage` int(11) DEFAULT '0',
   `resist_magic_critical_rate` int(11) DEFAULT '0',
   `resist_magic_critical_damage` int(11) DEFAULT '0',
-  `skill` varchar(20) DEFAULT '0;0;0;0;0;0;0;0;0;0',
-  `quest` varchar(20) DEFAULT '0;0;0;0;0;0;0;0;0;0',
-  `shop` varchar(20) DEFAULT '0;0;0;0;0',
-  `drop` varchar(20) DEFAULT '0;0;0;0;0;0;0;0;0;0',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=31 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of data_npc
 -- ----------------------------
-INSERT INTO `data_npc` VALUES ('1', 'Alicia', '25', '0', '0', '1', '250', '1', '15', '25', '8', '0', '0', '0', '100', '2000', '0', '0', '0', '50', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0');
-INSERT INTO `data_npc` VALUES ('2', 'Janira', '12', '0', '5', '1', '1200', '2', '55', '55', '55', '55', '55', '55', '5555', '2000', '0', '0', '0', '250', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0');
-INSERT INTO `data_npc` VALUES ('3', 'Vartao', '22', '0', '0', '1', '120', '2', '10', '30', '15', '0', '0', '12', '160', '2000', '0', '0', '0', '30', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0');
-INSERT INTO `data_npc` VALUES ('4', 'QWE', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0');
-INSERT INTO `data_npc` VALUES ('5', 'QWEQWE', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0');
-INSERT INTO `data_npc` VALUES ('6', 'sdasd', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0');
-INSERT INTO `data_npc` VALUES ('7', 'ASDFQW', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0');
-INSERT INTO `data_npc` VALUES ('8', 'qwe', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0');
-INSERT INTO `data_npc` VALUES ('9', 'qwe', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0');
-INSERT INTO `data_npc` VALUES ('10', 'qwe', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0');
-INSERT INTO `data_npc` VALUES ('11', 'adsf', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0');
-INSERT INTO `data_npc` VALUES ('12', 'afds', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0');
-INSERT INTO `data_npc` VALUES ('13', 'asdf', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0');
-INSERT INTO `data_npc` VALUES ('14', 'sdfgsfdg', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0');
-INSERT INTO `data_npc` VALUES ('15', 'adsf', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0');
-INSERT INTO `data_npc` VALUES ('16', 'wery7s', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0');
-INSERT INTO `data_npc` VALUES ('17', 'wer', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0');
-INSERT INTO `data_npc` VALUES ('18', 'qwe', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0');
-INSERT INTO `data_npc` VALUES ('19', 'sfdrhs', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0');
-INSERT INTO `data_npc` VALUES ('20', 'raefg524fg', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0');
-INSERT INTO `data_npc` VALUES ('21', 'adsf8adsf6', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0');
-INSERT INTO `data_npc` VALUES ('23', 'rqwet5wer', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0');
-INSERT INTO `data_npc` VALUES ('24', 'asdf', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0');
-INSERT INTO `data_npc` VALUES ('25', '4dsf64', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0');
-INSERT INTO `data_npc` VALUES ('26', 'asdf65asdf4', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0');
-INSERT INTO `data_npc` VALUES ('27', '65sfdg', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0');
-INSERT INTO `data_npc` VALUES ('28', '6s5d4fg', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0');
-INSERT INTO `data_npc` VALUES ('29', 's6f6g5', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0');
-INSERT INTO `data_npc` VALUES ('30', '6dsgsdfg', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0', '0;0;0;0;0', '0;0;0;0;0;0;0;0;0;0');
+INSERT INTO `data_npc` VALUES ('1', 'Alicia', '25', '0', '0', '1', '250', '1', '15', '25', '8', '0', '0', '0', '100', '2000', '0', '0', '0', '50', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
+INSERT INTO `data_npc` VALUES ('2', 'Janira', '12', '0', '5', '1', '1200', '2', '55', '55', '55', '55', '55', '55', '5555', '2000', '0', '0', '0', '250', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
+INSERT INTO `data_npc` VALUES ('3', 'Vartao', '22', '0', '0', '1', '120', '2', '10', '30', '15', '0', '0', '12', '160', '2000', '0', '0', '0', '30', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
+INSERT INTO `data_npc` VALUES ('4', 'QWE', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
+INSERT INTO `data_npc` VALUES ('5', 'QWEQWE', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
+INSERT INTO `data_npc` VALUES ('6', 'sdasd', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
+INSERT INTO `data_npc` VALUES ('7', 'ASDFQW', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
+INSERT INTO `data_npc` VALUES ('8', 'qwe', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
+INSERT INTO `data_npc` VALUES ('9', 'qwe', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
+INSERT INTO `data_npc` VALUES ('10', 'qwe', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
+INSERT INTO `data_npc` VALUES ('11', 'adsf', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
+INSERT INTO `data_npc` VALUES ('12', 'afds', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
+INSERT INTO `data_npc` VALUES ('13', 'asdf', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
+INSERT INTO `data_npc` VALUES ('14', 'sdfgsfdg', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
+INSERT INTO `data_npc` VALUES ('15', 'adsf', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
+INSERT INTO `data_npc` VALUES ('16', 'wery7s', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
+INSERT INTO `data_npc` VALUES ('17', 'wer', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
+INSERT INTO `data_npc` VALUES ('18', 'qwe', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
+INSERT INTO `data_npc` VALUES ('19', 'sfdrhs', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
+INSERT INTO `data_npc` VALUES ('20', 'raefg524fg', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
+INSERT INTO `data_npc` VALUES ('21', 'adsf8adsf6', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
+INSERT INTO `data_npc` VALUES ('23', 'rqwet5wer', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
+INSERT INTO `data_npc` VALUES ('24', 'asdf', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
+INSERT INTO `data_npc` VALUES ('25', '4dsf64', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
+INSERT INTO `data_npc` VALUES ('26', 'asdf65asdf4', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
+INSERT INTO `data_npc` VALUES ('27', '65sfdg', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
+INSERT INTO `data_npc` VALUES ('28', '6s5d4fg', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
+INSERT INTO `data_npc` VALUES ('29', 's6f6g5', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
+INSERT INTO `data_npc` VALUES ('30', '6dsgsdfg', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0');
 
 -- ----------------------------
 -- Table structure for data_sxp
@@ -758,45 +758,44 @@ CREATE TABLE `old_names` (
 -- ----------------------------
 DROP TABLE IF EXISTS `players`;
 CREATE TABLE `players` (
-  `id` int(10) NOT NULL AUTO_INCREMENT,
-  `account_id` int(10) DEFAULT '0',
-  `class_id` int(10) DEFAULT '0',
-  `guild_id` int(10) DEFAULT '0',
-  `char_slot` int(10) DEFAULT '0',
-  `name` varchar(25) DEFAULT '',
-  `gender` tinyint(1) DEFAULT '0',
-  `sprite` int(10) DEFAULT '0',
-  `hp` int(11) DEFAULT '0',
-  `mp` int(11) DEFAULT '0',
-  `sp` int(11) DEFAULT '0',
-  `level` int(10) DEFAULT '1',
-  `exp` bigint(11) DEFAULT '0',
-  `strenght` int(10) DEFAULT '0',
-  `dexterity` int(10) DEFAULT '0',
-  `agility` int(10) DEFAULT '0',
-  `constitution` int(10) DEFAULT '0',
-  `intelligence` int(10) DEFAULT '0',
-  `wisdom` int(10) DEFAULT '0',
-  `will` int(10) DEFAULT '0',
-  `mind` int(10) DEFAULT '0',
-  `charisma` int(10) DEFAULT '0',
-  `statpoints` int(10) DEFAULT '0',
-  `world_id` int(10) DEFAULT '0',
-  `region_id` int(10) DEFAULT '0',
-  `direction` mediumint(3) DEFAULT '1',
-  `posx` mediumint(5) DEFAULT '0',
-  `posy` mediumint(5) DEFAULT '0',
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `account_id` int(11) NOT NULL DEFAULT '0',
+  `class_id` int(11) NOT NULL DEFAULT '0',
+  `guild_id` int(11) NOT NULL DEFAULT '0',
+  `char_slot` int(11) NOT NULL DEFAULT '0',
+  `name` varchar(25) NOT NULL DEFAULT '',
+  `gender` tinyint(1) NOT NULL DEFAULT '0',
+  `sprite` smallint(6) NOT NULL DEFAULT '0',
+  `hp` int(11) NOT NULL DEFAULT '0',
+  `mp` int(11) NOT NULL DEFAULT '0',
+  `sp` int(11) NOT NULL DEFAULT '0',
+  `level` int(11) NOT NULL DEFAULT '1',
+  `exp` bigint(20) NOT NULL DEFAULT '0',
+  `strenght` int(11) NOT NULL DEFAULT '0',
+  `dexterity` int(11) NOT NULL DEFAULT '0',
+  `agility` int(11) NOT NULL DEFAULT '0',
+  `constitution` int(11) NOT NULL DEFAULT '0',
+  `intelligence` int(11) NOT NULL DEFAULT '0',
+  `wisdom` int(11) NOT NULL DEFAULT '0',
+  `will` int(11) NOT NULL DEFAULT '0',
+  `mind` int(11) NOT NULL DEFAULT '0',
+  `charisma` int(11) NOT NULL DEFAULT '0',
+  `statpoints` int(11) NOT NULL DEFAULT '0',
+  `world_id` int(11) NOT NULL DEFAULT '0',
+  `region_id` int(11) NOT NULL DEFAULT '0',
+  `direction` smallint(6) NOT NULL DEFAULT '1',
+  `posx` smallint(6) NOT NULL DEFAULT '0',
+  `posy` smallint(6) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of players
 -- ----------------------------
-INSERT INTO `players` VALUES ('1', '1', '0', '1', '0', 'Joanlac', '0', '6', '160', '80', '20', '1', '0', '10', '5', '5', '8', '1', '0', '0', '1', '0', '5', '0', '0', '4', '29', '18');
-INSERT INTO `players` VALUES ('3', '1', '0', '1', '2', '地区', '0', '11', '160', '80', '20', '1', '0', '10', '5', '5', '8', '1', '0', '0', '1', '0', '5', '0', '0', '4', '19', '20');
-INSERT INTO `players` VALUES ('6', '1', '0', '0', '3', 'DragonicK', '0', '12', '160', '80', '20', '1', '0', '10', '5', '5', '8', '1', '0', '0', '1', '0', '5', '0', '0', '1', '0', '0');
-INSERT INTO `players` VALUES ('9', '1', '1', '0', '1', 'Ingsan', '0', '11', '1500', '1500', '1500', '1', '0', '20', '20', '20', '20', '20', '20', '20', '20', '20', '20', '0', '0', '10', '34', '28');
-INSERT INTO `players` VALUES ('10', '2', '0', '0', '0', 'sacizenta', '0', '15', '1546', '1546', '1546', '1', '0', '20', '20', '20', '20', '20', '20', '20', '20', '20', '20', '0', '0', '4', '7', '7');
+INSERT INTO `players` VALUES ('3', '1', '0', '1', '2', '地区', '0', '11', '160', '80', '20', '5', '15', '10', '5', '5', '8', '1', '0', '0', '1', '0', '5', '0', '0', '1', '32', '14');
+INSERT INTO `players` VALUES ('10', '2', '0', '0', '0', 'sacizenta', '0', '15', '1546', '1546', '1546', '6', '19', '20', '20', '20', '20', '20', '20', '20', '20', '20', '20', '0', '0', '4', '7', '7');
+INSERT INTO `players` VALUES ('14', '1', '0', '0', '0', 'Joanlac', '0', '6', '1546', '1546', '1546', '7', '25', '9500', '5', '5', '5', '5', '5', '5', '5', '5', '5', '0', '0', '7', '37', '18');
+INSERT INTO `players` VALUES ('16', '1', '0', '0', '1', 'Ingsan', '0', '11', '1546', '1546', '1546', '9', '432', '5', '5', '5', '5', '5', '5', '5', '5', '5', '5', '0', '0', '1', '27', '18');
 
 -- ----------------------------
 -- Table structure for player_inventory
@@ -819,17 +818,4 @@ CREATE TABLE `player_inventory` (
 
 -- ----------------------------
 -- Records of player_inventory
--- ----------------------------
-
--- ----------------------------
--- Table structure for server_variable
--- ----------------------------
-DROP TABLE IF EXISTS `server_variable`;
-CREATE TABLE `server_variable` (
-  `key` varchar(25) NOT NULL,
-  `value` varchar(100) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of server_variable
 -- ----------------------------
