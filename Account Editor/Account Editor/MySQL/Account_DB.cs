@@ -17,15 +17,15 @@ namespace Account_Editor.MySQL
         public static string Email;
         public static string Pin;
         public static int Cash;
-        public static int Language;
-        public static int Logged; // Não modificavel
-        public static int Access;
-        public static int Active;
+        public static byte Language;
+        public static byte Logged; // Não modificavel
+        public static short Access;
+        public static byte Active;
         public static string FirstName;
         public static string LastName;
         public static string Location;
-        public static string Date_Register; // Não modificavel
-        public static string Date_Login; // Não modificavel
+        public static DateTime Date_Register; // Não modificavel
+        public static DateTime Date_Login; // Não modificavel
         public static string Creator_Ip; // Não modificavel
         public static string Last_Ip; // Não modificavel
         public static string Current_Ip; // Não modificavel
@@ -58,15 +58,15 @@ namespace Account_Editor.MySQL
             Email = (string)reader["email"];
             Pin = (string)reader["pin"];
             Cash = (int)reader["cash"];
-            Language = (int)reader["language_id"];
-            Logged = (int)reader["logged_in"];
-            Access = (int)reader["access_level"];
-            Active = (int)reader["active"];
+            Language = Convert.ToByte(reader["language_id"]);
+            Logged = Convert.ToByte(reader["logged_in"]);
+            Access = Convert.ToInt16(reader["access_level"]);
+            Active = Convert.ToByte(reader["active"]);
             FirstName = (string)reader["first_name"];
             LastName = (string)reader["last_name"];
             Location = (string)reader["location"];
-            Date_Register = (string)reader["date_created"];
-            Date_Login = (string)reader["date_last_login"];
+            Date_Register = Convert.ToDateTime(reader["date_created"]);
+            Date_Login = Convert.ToDateTime(reader["date_last_login"]);
             Creator_Ip = (string)reader["creator_ip"];
             Last_Ip = (string)reader["last_ip"];
             Current_Ip = (string)reader["current_ip"];

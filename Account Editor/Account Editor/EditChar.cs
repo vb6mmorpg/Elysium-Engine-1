@@ -50,9 +50,12 @@ namespace Account_Editor
             txtStr.Text = Character.Strenght.ToString();
             txtDex.Text = Character.Dexterity.ToString();
             txtAgi.Text = Character.Agility.ToString();
-            txtVit.Text = Character.Vitality.ToString();
+            txtConst.Text = Character.Constitution.ToString();
             txtInt.Text = Character.Intelligence.ToString();
+            txtWis.Text = Character.Wisdom.ToString();
+            txtWill.Text = Character.Will.ToString();
             txtMind.Text = Character.Mind.ToString();
+            txtCharis.Text = Character.Charisma.ToString();
             txtPoints.Text = Character.Points.ToString();
 
             // Localização
@@ -100,7 +103,7 @@ namespace Account_Editor
             Character.Class_ID = cmbClass.SelectedIndex;
             Character.Gender = cmbGender.SelectedIndex;
             Character.Guild_ID = int.Parse(txtGuild.Text.Trim());
-            Character.Sprite = int.Parse(txtSprite.Text.Trim());
+            Character.Sprite = short.Parse(txtSprite.Text.Trim());
             Character.Level = int.Parse(txtLevel.Text.Trim());
             Character.EXP = long.Parse(txtExp.Text.Trim());
 
@@ -113,9 +116,18 @@ namespace Account_Editor
             Character.Strenght = int.Parse(txtStr.Text.Trim());
             Character.Dexterity = int.Parse(txtDex.Text.Trim());
             Character.Agility = int.Parse(txtAgi.Text.Trim());
-            Character.Vitality = int.Parse(txtVit.Text.Trim());
+            Character.Constitution = int.Parse(txtConst.Text.Trim());
+            Character.Wisdom = int.Parse(txtWis.Text.Trim());
+            Character.Will = int.Parse(txtWill.Text.Trim());
             Character.Intelligence = int.Parse(txtInt.Text.Trim());
             Character.Mind = int.Parse(txtMind.Text.Trim());
+            Character.Charisma = int.Parse(txtCharis.Text.Trim());
+
+         //   Character.Wisdom = int.Parse(txtVit.Text.Trim());
+         //   Character.Will = int.Parse(txtInt.Text.Trim());
+          //  Character.Charisma = int.Parse(txtMind.Text.Trim());
+
+
             Character.Points = int.Parse(txtPoints.Text.Trim());
 
             // Iniciar função de salvar

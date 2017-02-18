@@ -18,7 +18,7 @@ namespace Account_Editor.MySQL
         public int Slot; // Não modificavel
         public string Name;
         public int Gender;
-        public int Sprite;
+        public short Sprite;
         public int HP;
         public int MP;
         public int SP;
@@ -27,9 +27,12 @@ namespace Account_Editor.MySQL
         public int Strenght;
         public int Dexterity;
         public int Agility;
-        public int Vitality;
+        public int Constitution;
         public int Intelligence;
+        public int Wisdom;
         public int Mind;
+        public int Will;
+        public int Charisma;
         public int Points;
 
         // Localização
@@ -47,7 +50,7 @@ namespace Account_Editor.MySQL
             if (Program.EditForm.GS_Database.mysql_connection == null) return false;
 
             // Procurar dados apartir do pAccount - Id da conta/pSlot - Slot do personagem
-            string varQuery = "SELECT * FROM characters WHERE account_id='" + pAccount + "' and char_slot='" + pSlot + "'";
+            string varQuery = "SELECT * FROM players WHERE account_id='" + pAccount + "' and char_slot='" + pSlot + "'";
             MySqlCommand cmd = new MySqlCommand(varQuery, Program.EditForm.GS_Database.mysql_connection);
             MySqlDataReader reader = cmd.ExecuteReader(); // Abrir Conexão
 
@@ -64,8 +67,7 @@ namespace Account_Editor.MySQL
             Guild_ID = (int)reader["guild_id"]; // Id da guild
             Slot = (int)reader["char_slot"]; // Slot do Personagem
             Name = (string)reader["name"]; // Nome do Personagem
-            Gender = Convert.ToByte(reader["gender"]); // Genêro do Personagem
-            Sprite = (int)reader["sprite"]; // Gráfico do Personagem
+            Sprite = Convert.ToInt16(reader["sprite"]); // Gráfico do Personagem
             HP = (int)reader["hp"]; // HP-Vida do Personagem
             MP = (int)reader["mp"]; // MP-Magia do Personagem
             SP = (int)reader["sp"]; // SP-Super Poder do Personagem
@@ -75,15 +77,19 @@ namespace Account_Editor.MySQL
             Strenght = (int)reader["strenght"]; // Força do personagem
             Dexterity = (int)reader["dexterity"]; // Dextreza do personagem
             Agility = (int)reader["agility"]; // Agilidade do personagem
-            Vitality = (int)reader["vitality"]; // Vitalidade do personagem
+            Constitution = (int)reader["constitution"]; // Vitalidade do personagem
             Intelligence = (int)reader["intelligence"]; // Inteligencia do personagem
+            Wisdom = (int)reader["wisdom"]; // Mind do personagem
+            Will = (int)reader["will"]; // Mind do personagem
             Mind = (int)reader["mind"]; // Mind do personagem
+            Charisma = (int)reader["charisma"]; // Mind do personagem
+
             Points = (int)reader["statpoints"]; // Pontos do personagem
 
             World = (int)reader["world_id"]; // Mundo em que o personagem está
             Region = (int)reader["region_id"]; // Região do mundo em que o personagem está
-            X = (int)reader["posx"]; // Posição do personagem no eixo X
-            Y = (int)reader["posy"]; // Posição do personagem no eixo Y
+            X = Convert.ToInt16(reader["posx"]); // Posição do personagem no eixo X
+            Y = Convert.ToInt16(reader["posy"]); // Posição do personagem no eixo Y
 
             reader.Close();
             return true;
@@ -102,12 +108,11 @@ namespace Account_Editor.MySQL
             {
                 // Definir quais dados serão salvos e seus novos valores.
                 StringBuilder varQuery = new StringBuilder();
-                varQuery.Append("UPDATE characters SET " +
+                varQuery.Append("UPDATE players SET " +
                     "account_id='" + Account_ID + "', " +
                     "class_id='" + Class_ID + "', " +
                     "guild_id='" + Guild_ID + "', " +
                     "name='" + Name + "', " +
-                    "gender='" + Gender + "', " +
                     "sprite='" + Sprite + "', " +
                     "hp='" + HP + "', " +
                     "mp='" + MP + "', " +
@@ -117,9 +122,12 @@ namespace Account_Editor.MySQL
                     "strenght='" + Strenght + "', " +
                     "dexterity='" + Dexterity + "', " +
                     "agility='" + Agility + "', " +
-                    "vitality='" + Vitality + "', " +
+                    "constitution='" + Constitution + "', " +
                     "intelligence='" + Intelligence + "', " +
+                    "wisdom='" + Wisdom + "', " +
+                    "will='" + Will + "', " +
                     "mind='" + Mind + "', " +
+                    "charisma='" + Charisma + "', " +
                     "statpoints='" + Points + "', " +
                     "world_id='" + World + "', " +
                     "region_id='" + Region + "', " +

@@ -69,12 +69,12 @@ namespace Account_Editor
                     txtCash.Text = Account_DB.Cash.ToString();
                     cmbLanguage.SelectedIndex = Account_DB.Language - 1;
                     cmbAccess.SelectedIndex = Account_DB.Access - 1;
-                    cmbActive.SelectedIndex = Account_DB.Active;
+                    cmbActive.SelectedIndex = Convert.ToInt32(Account_DB.Active);
                     txtName.Text = Account_DB.FirstName;
                     txtLastName.Text = Account_DB.LastName;
                     txtLocation.Text = Account_DB.Location;
-                    lblDRegister.Text = "D. de Registro: " + Account_DB.Date_Register;
-                    lblDLogin.Text = "D. de Login: " + Account_DB.Date_Login;
+                    lblDRegister.Text = "D. de Registro: " + Account_DB.Date_Register.ToString();
+                    lblDLogin.Text = "D. de Login: " + Account_DB.Date_Login.ToString();
                     lblIpRegister.Text = "IP de Registro: " + Account_DB.Creator_Ip;
                     lblIpLogin.Text = "Ip do Ultimo Login: " + Account_DB.Last_Ip;
                     lblIpCurrent.Text = "Ip Atual: " + Account_DB.Current_Ip;
@@ -226,9 +226,8 @@ namespace Account_Editor
             Account_DB.Email = txtEmail.Text;
             Account_DB.Pin = txtPin.Text;
             Account_DB.Cash = int.Parse(txtCash.Text);
-            Account_DB.Language = cmbLanguage.SelectedIndex + 1;
-            Account_DB.Access = cmbAccess.SelectedIndex + 1;
-            Account_DB.Active = cmbActive.SelectedIndex;
+            Account_DB.Language = Convert.ToByte(cmbLanguage.SelectedIndex + 1);
+            Account_DB.Active = Convert.ToByte(cmbActive.SelectedIndex);
             Account_DB.FirstName = txtName.Text;
             Account_DB.LastName = txtLastName.Text;
             Account_DB.Location = txtLocation.Text;
@@ -263,7 +262,7 @@ namespace Account_Editor
             }
         }
 
-        #region "Aqui está as Funções das TexBoxs e Modificações"
+        #region "Funções das TexBoxs e Modificações"
         private void txtPin_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!char.IsDigit(e.KeyChar) && e.KeyChar != (char)8)

@@ -8,3 +8,12 @@ c:\users\eudivan\documents\visual studio 2013\Projects\GameLoop\Account Editor\A
 c:\users\eudivan\documents\visual studio 2013\Projects\GameLoop\Account Editor\Account Editor\obj\Debug\Account Editor.pdb
 c:\users\eudivan\documents\visual studio 2013\Projects\GameLoop\Account Editor\Account Editor\bin\Debug\MySql.Data.dll
 C:\Users\Eudivan\Documents\Visual Studio 2013\Projects\GameLoop\Account Editor\Account Editor\obj\Debug\Account_Editor.EditChar.resources
+D:\Programing Files\Elysium Diamond\Account Editor\Account Editor\obj\Debug\Account Editor.pdb
+D:\Programing Files\Elysium Diamond\Account Editor\Account Editor\bin\Debug\Account Editor.exe
+D:\Programing Files\Elysium Diamond\Account Editor\Account Editor\bin\Debug\Account Editor.pdb
+D:\Programing Files\Elysium Diamond\Account Editor\Account Editor\obj\Debug\Account Editor.csprojResolveAssemblyReference.cache
+D:\Programing Files\Elysium Diamond\Account Editor\Account Editor\obj\Debug\Account_Editor.EditChar.resources
+D:\Programing Files\Elysium Diamond\Account Editor\Account Editor\obj\Debug\Account_Editor.FormMain.resources
+D:\Programing Files\Elysium Diamond\Account Editor\Account Editor\obj\Debug\Account_Editor.Properties.Resources.resources
+D:\Programing Files\Elysium Diamond\Account Editor\Account Editor\obj\Debug\Account Editor.csproj.GenerateResource.Cache
+D:\Programing Files\Elysium Diamond\Account Editor\Account Editor\obj\Debug\Account Editor.exe

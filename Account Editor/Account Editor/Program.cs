@@ -20,7 +20,7 @@ namespace Account_Editor
             EditForm.Connect_Mysql();
             EditForm.Width = 375;
             EditForm.Height = 316;
-            EditForm.pnlConsole.Top = 56;
+            EditForm.pnlConsole.Top = 52;
             EditForm.pnlConsole.Height = 209;
 
             // Executar Aplicação

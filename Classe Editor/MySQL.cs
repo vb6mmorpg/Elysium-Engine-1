@@ -107,20 +107,22 @@ namespace Classe_Editor {
             var cmd = new MySqlCommand(varQuery, Connection);
             var reader = cmd.ExecuteReader();
 
-            if (!reader.Read()) { reader.Close(); return; }
+            if (!reader.Read()) {
+                reader.Close();
+                return;
+            }
 
             Static.Classes.ID = (int)reader["id"]; 
             Static.Classes.ClasseIncrementID = (int)reader["increment_id"];
             Static.Classes.ClasseName = (string)reader["name"];
-            Static.Classes.Gender = (int)reader["gender"];
             Static.Classes.SetBaseStat(Stat.MaxHP, (int)reader["hp"]);
             Static.Classes.SetBaseStat(Stat.MaxMP, (int)reader["mp"]);
             Static.Classes.SetBaseStat(Stat.MaxSP, (int)reader["sp"]);
             Static.Classes.SetBaseStat(Stat.RegenHP, (int)reader["regen_hp"]);
             Static.Classes.SetBaseStat(Stat.RegenMP, (int)reader["regen_mp"]);
             Static.Classes.SetBaseStat(Stat.RegenSP, (int)reader["regen_sp"]);
-            Static.Classes.SpriteFemale =  (int)reader["sprite_female"];
-            Static.Classes.SpriteMale = (int)reader["sprite_male"];
+            Static.Classes.SpriteFemale =  Convert.ToInt16(reader["sprite_female"]);
+            Static.Classes.SpriteMale = Convert.ToInt16(reader["sprite_male"]);
             Static.Classes.SetBaseStat(Stat.Level, (int)reader["level"]);
             Static.Classes.SetBaseStat(Stat.Strenght, (int)reader["strenght"]);
             Static.Classes.SetBaseStat(Stat.Dexterity, (int)reader["dexterity"]);
@@ -188,7 +190,7 @@ namespace Classe_Editor {
             varQuery.Append("UPDATE classes SET id='" + Static.Classes.ID + "', ");
             varQuery.Append("increment_id='" + Static.Classes.ClasseIncrementID + "', ");
             varQuery.Append("name='" + Static.Classes.ClasseName + "', ");
-            varQuery.Append("gender='" + Static.Classes.Gender + "', ");
+//            varQuery.Append("gender='" + Static.Classes.Gender + "', ");
             varQuery.Append("sprite_female='" + Static.Classes.SpriteFemale + "', ");
             varQuery.Append("sprite_male='" + Static.Classes.SpriteMale + "', ");
             varQuery.Append("level='" + Static.Classes.GetBaseStat(Stat.Level) + "', ");
@@ -253,7 +255,7 @@ namespace Classe_Editor {
         public static void InsertClasseBase() {
             var varQuery = new StringBuilder();
             varQuery.Append("INSERT INTO classes (id, increment_id, name, ");
-            varQuery.Append("gender, sprite_female, sprite_male, ");
+            varQuery.Append("sprite_female, sprite_male, ");
             varQuery.Append("level, hp, mp, sp, regen_hp, regen_mp, regen_sp, ");
             varQuery.Append("strenght, dexterity, agility, constitution, intelligence, wisdom, will, mind, charisma, points, ");
             varQuery.Append("critical_rate, critical_damage, ");
@@ -269,7 +271,6 @@ namespace Classe_Editor {
             varQuery.Append("VALUES ('" + Static.Classes.ID + "', '");
             varQuery.Append(Static.Classes.ClasseIncrementID + "', '");
             varQuery.Append(Static.Classes.ClasseName + "', '");
-            varQuery.Append(Static.Classes.Gender + "', '");
             varQuery.Append(Static.Classes.SpriteFemale + "', '");
             varQuery.Append(Static.Classes.SpriteMale + "', '");
             varQuery.Append(Static.Classes.GetBaseStat(Stat.Level) + "', '");
@@ -378,7 +379,10 @@ namespace Classe_Editor {
             var cmd = new MySqlCommand(varQuery, Connection);
             var reader = cmd.ExecuteReader();
 
-            if (!reader.Read()) { reader.Close(); return; }
+            if (!reader.Read()) {
+                reader.Close();
+                return;
+            }
 
             Static.Classes.IncrementID = (int)reader["id"];
             Static.Classes.IncrementName = (string)reader["name"];
