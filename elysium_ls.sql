@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50626
 File Encoding         : 65001
 
-Date: 2017-02-15 03:36:03
+Date: 2017-03-22 01:42:41
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -44,8 +44,8 @@ CREATE TABLE `account` (
 -- ----------------------------
 -- Records of account
 -- ----------------------------
-INSERT INTO `account` VALUES ('1', 'akaruz', '39046213b04423ced40ff162cefd811ffd4a4f939083b1bf151ca47f7f864705', 'juliosperandio@hotmail.com', '91306354', '0', '1', '1', '1', '1', 'Julio', 'Sperandio', 'Brazil', '2015-07-07 17:45:02', '2017-02-13 09:06:10', '127.0.0.1', '127.0.0.1', '127.0.0.1');
-INSERT INTO `account` VALUES ('2', 'dragonick', '39046213b04423ced40ff162cefd811ffd4a4f939083b1bf151ca47f7f864705', 'juliosperandio@hotmail.com', '19676091', '0', '3', '0', '3', '1', 'Julio', 'Sperandio', '日本', '2015-07-07 17:45:02', '2017-02-13 03:36:48', '127.0.0.1', '127.0.0.1', '');
+INSERT INTO `account` VALUES ('1', 'akaruz', '39046213b04423ced40ff162cefd811ffd4a4f939083b1bf151ca47f7f864705', 'juliosperandio@hotmail.com', '91306354', '0', '1', '0', '1', '1', 'Julio', 'Sperandio', 'Brazil', '2015-07-07 17:45:02', '2017-03-21 05:40:25', '127.0.0.1', '189.47.119.147', '');
+INSERT INTO `account` VALUES ('2', 'dragonick', '39046213b04423ced40ff162cefd811ffd4a4f939083b1bf151ca47f7f864705', 'juliosperandio@hotmail.com', '19676091', '0', '3', '0', '3', '1', 'Julio', 'Sperandio', '日本', '2015-07-07 17:45:02', '2017-03-21 05:24:29', '127.0.0.1', '189.47.119.147', '');
 INSERT INTO `account` VALUES ('3', 'nadaila', '39046213b04423ced40ff162cefd811ffd4a4f939083b1bf151ca47f7f864705', 'nadaila@hotmail.com', '196760', '0', '1', '0', '1', '1', 'Julio', 'Sperandio', 'Brazil', '2015-07-07 17:45:02', '2017-02-13 03:36:48', '127.0.0.1', '', '');
 
 -- ----------------------------

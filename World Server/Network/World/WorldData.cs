@@ -5,21 +5,23 @@ using WorldServer.Server;
 
 namespace WorldServer.Network {
     public class WorldData {
-        public static void HandleData(NetConnection connection, NetIncomingMessage data) {
-            // Packet Header //
-            var MsgType = data.ReadInt32();
+        public static void HandleData(NetConnection connection, NetIncomingMessage msg) {
+            if (msg.LengthBytes < 4) { return; }
 
-            // Check Packet Number
-            if (MsgType < 0) { return; }
+            //packet Header 
+            var msgType = msg.ReadInt32();
 
-             switch (MsgType) {
-                case (int)PacketList.LoginServer_WorldServer_SendPlayerHexID: Authentication.AddHexID(data); break;
-                case (int)PacketList.Client_WorldServer_SendPlayerHexID: Authentication.ReceivedHexID(connection, data.ReadString()); break;
-                case (int)PacketList.Client_WorldServer_DeleteCharacter: DeleteCharacter(connection, data.ReadByte()); break;
-                case (int)PacketList.Client_WorldServer_CreateCharacter: CreateCharacter(connection, data); break;
-                case (int)PacketList.Client_WorldServer_EnterInGame: StartGame(connection, data.ReadByte()); break;
-                case (int)PacketList.LoginServer_WorldServer_IsPlayerConnected: IsPlayerConnected(connection, data.ReadString()); break;
-                case (int)PacketList.LoginServer_WorldServer_DisconnectPlayer: PlayerDisconnect(data.ReadString()); break;
+            if (msgType < 0) { return; }
+
+             switch (msgType) {
+                case (int)PacketList.LoginServer_WorldServer_SendPlayerHexID: Authentication.AddHexID(msg); break;
+                case (int)PacketList.Client_WorldServer_SendPlayerHexID: Authentication.ReceivedHexID(connection, msg.ReadString()); break;
+                case (int)PacketList.Client_WorldServer_DeleteCharacter: DeleteCharacter(connection, msg.ReadByte()); break;
+                case (int)PacketList.Client_WorldServer_CreateCharacter: CreateCharacter(connection, msg); break;
+                case (int)PacketList.Client_WorldServer_RequestPreLoad: RequestPreLoad(connection); break;
+                case (int)PacketList.Client_WorldServer_EnterInGame: StartGame(connection, msg.ReadByte()); break;
+                case (int)PacketList.LoginServer_WorldServer_IsPlayerConnected: IsPlayerConnected(connection, msg.ReadString()); break;
+                case (int)PacketList.LoginServer_WorldServer_DisconnectPlayer: PlayerDisconnect(msg.ReadString()); break;
             }
         }
 
@@ -29,7 +31,7 @@ namespace WorldServer.Network {
                 WorldPacket.Message(connection, (int)PacketList.WorldServer_Client_CharacterCreationDisabled);
                 return;
             }
-
+                   
             //nome do personagem 
             var charactername = data.ReadString();
             //se encontrar nome nao permitido, envia mensagem de erro
@@ -48,7 +50,7 @@ namespace WorldServer.Network {
             var pData = Authentication.FindByConnection(connection);
 
             var slot = data.ReadByte();
-            var classe = data.ReadByte();
+            var classe = data.ReadInt32();
             var gender = data.ReadByte();
             var sprite = data.ReadInt32();
 
@@ -61,7 +63,7 @@ namespace WorldServer.Network {
             // Insere o personagem no banco de dados
             Character_DB.InsertNewCharacter(pData.HexID, gender, classe, charactername, sprite, slot);
             // Insere os items iniciais
-            Character_DB.InsertInitialItems(charactername, classe);
+            //Character_DB.InsertInitialItems(charactername, classe);
 
             // Carrega os personagens
             Character_DB.PreLoad(pData);
@@ -71,6 +73,22 @@ namespace WorldServer.Network {
 
             //game state 3 = seleção de personagem 
             WorldPacket.GameState(pData.HexID, 3);
+        }
+
+        /// <summary>
+        /// Envia o pré carregamento dos personagens.
+        /// </summary>
+        /// <param name="connection"></param>
+        public static void RequestPreLoad(NetConnection connection) {
+            var pData = Authentication.FindByConnection(connection);
+
+            pData.Character = new Character[Settings.MAX_CHAR];
+
+            //Carrega os personagens (preload)
+            Character_DB.PreLoad(pData);
+
+            //Envia o preload
+            WorldPacket.PreLoad(pData);
         }
 
         /// <summary>
@@ -155,17 +173,17 @@ namespace WorldServer.Network {
         }
 
         /// <summary>
-        /// Disconenct
+        /// Desconecta o usuário antigo para o novo entrar.
         /// </summary>
         /// <param name="username"></param>
         public static void PlayerDisconnect(string username) {
             if (!Authentication.IsConnected(username)) { return; }
             
             var pData = Authentication.FindByAccount(username);
-           
-          //  LoginServerPacket.Message(Authentication.FindByAccount(pData.Username).HexID, (int)PacketList.Disconnect);
+
+            WorldPacket.Message(pData?.HexID, (int)PacketList.Disconnect);
           
-            pData.Connection.Disconnect("");
+            pData?.Connection.Disconnect("");
 
             FileLog.WriteLog($"Disconnected by login server: {username}", System.Drawing.Color.Black);
 

@@ -123,10 +123,13 @@ namespace WorldServer.Server {
         /// </summary>
         public static void VerifyHexID() {
             //se algum dado estiver mais que 30 segundos no sistema, é removido da lista.
+            //então, o jogador deve fazer um login
             foreach (var hexID in HexID) {
+                if (Equals(null, hexID)) { continue; }
+
                 if (Environment.TickCount > hexID.Time + 30000) {
                     FileLog.WriteLog($"Removed HexID: {hexID.HexID} {hexID.Account}", Color.Coral);
-                    HexID.Remove(hexID); 
+                    HexID.Remove(hexID);
                 }
             }
         }

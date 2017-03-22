@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
+using System.Collections.Generic;
 using MySql.Data.MySqlClient;
-using WorldServer.ClasseData;
 using WorldServer.Server;
 
 namespace WorldServer.MySQL {
@@ -12,8 +12,9 @@ namespace WorldServer.MySQL {
         /// <param name="name"></param>
         /// <returns></returns>
         public static int ID(string name) {
-            var varQuery = $"SELECT id FROM players WHERE name='{name}'";
+            var varQuery = "SELECT id FROM players WHERE name=?name";
             var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
+            cmd.Parameters.AddWithValue("?name", name);
             var reader = cmd.ExecuteReader();
 
             if (!reader.Read()) {
@@ -33,8 +34,9 @@ namespace WorldServer.MySQL {
         /// <param name="name"></param>
         /// <returns></returns>
         public static bool Exist(string name) {
-            var varQuery = $"SELECT id FROM players WHERE name='{name}'";
+            var varQuery = "SELECT id FROM players WHERE name=?name";
             var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
+            cmd.Parameters.AddWithValue("?name", name);
             var reader = cmd.ExecuteReader();
 
             var result = reader.Read();
@@ -50,8 +52,10 @@ namespace WorldServer.MySQL {
         /// <param name="charSlot"></param>
         /// <returns></returns>
         public static string GetName(int accountID, int charSlot) {
-            var varQuery = $"SELECT name FROM players WHERE account_id='{accountID}' and char_slot='{charSlot}'";
+            var varQuery = "SELECT name FROM players WHERE account_id=?accountID and char_slot=?charSlot";
             var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
+            cmd.Parameters.AddWithValue("?accountID", accountID);
+            cmd.Parameters.AddWithValue("?charSlot", charSlot);
             var reader = cmd.ExecuteReader();
 
             if (!reader.Read()) {
@@ -70,11 +74,13 @@ namespace WorldServer.MySQL {
         /// Retorna o level de um personagem.
         /// </summary>
         /// <param name="accountID"></param>
-        /// <param name="chatSlot"></param>
+        /// <param name="charSlot"></param>
         /// <returns></returns>
-        public static int GetLevel(int accountID, int chatSlot) {
-            var varQuery = $"SELECT level FROM players WHERE account_id='{accountID}' and char_slot='{chatSlot}'";
+        public static int GetLevel(int accountID, int charSlot) {
+            var varQuery = "SELECT level FROM players WHERE account_id=?accountID and char_slot=?charslot";
             var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
+            cmd.Parameters.AddWithValue("?accountID", accountID);
+            cmd.Parameters.AddWithValue("?charslot", charSlot);
             var reader = cmd.ExecuteReader();
 
             if (!reader.Read()) {
@@ -94,8 +100,10 @@ namespace WorldServer.MySQL {
         /// <param name="accountID"></param>
         /// <param name="charSlot"></param>
         public static bool Delete(int accountID, int charSlot) {
-            var varQuery = $"DELETE FROM players WHERE account_id='{accountID}' and char_slot='{charSlot}'";
+            var varQuery = "DELETE FROM players WHERE account_id=?accountID AND char_slot=?charslot";
             var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
+            cmd.Parameters.AddWithValue("?accountID", accountID);
+            cmd.Parameters.AddWithValue("?charslot", charSlot);
 
             try {
                 cmd.ExecuteNonQuery();
@@ -113,8 +121,9 @@ namespace WorldServer.MySQL {
         /// <param name="pData"></param>
         /// <param name="charSlot"></param>
         public static void PreLoad(PlayerData pData) {
-            var varQuery = $"SELECT class_id, char_slot, name, sprite, level FROM players WHERE account_id='{pData.AccountID}'";
+            var varQuery = "SELECT class_id, char_slot, name, sprite, level FROM players WHERE account_id=?accountID";
             var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
+            cmd.Parameters.AddWithValue("?accountID", pData.AccountID);
             var reader = cmd.ExecuteReader();
 
             pData.ClearCharacter();
@@ -127,7 +136,8 @@ namespace WorldServer.MySQL {
                 pData.Character[slot].Class = (int)reader["class_id"];
                 pData.Character[slot].Sprite = Convert.ToInt16(reader["sprite"]);
             }
-                  
+
+
             reader.Close();
         }
 
@@ -137,8 +147,10 @@ namespace WorldServer.MySQL {
         /// <param name="pData"></param>
         /// <param name="charSlot"></param>
         public static void Load(PlayerData pData, int charSlot) {
-            var varQuery = $"SELECT id, guild_id, name, world_id, region_id FROM players WHERE account_id='{pData.AccountID}' and char_slot='{charSlot}'";
+            var varQuery = "SELECT id, guild_id, name, world_id, region_id FROM players WHERE account_id=?accountID and char_slot=?charSlot";
             var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
+            cmd.Parameters.AddWithValue("?accountID", pData.AccountID);
+            cmd.Parameters.AddWithValue("?charSlot", charSlot);
             var reader = cmd.ExecuteReader();
 
             if (!reader.Read()) {
@@ -170,31 +182,32 @@ namespace WorldServer.MySQL {
             var pData = Authentication.FindByHexID(hexID);
             var index = Classe.FindClasseIndexByID(classeID);
 
-            query.Append("INSERT INTO players (account_id, class_id, char_slot, name, level, gender, sprite, hp, mp, sp,");
+            query.Append("INSERT INTO players (account_id, class_id, char_slot, name, level, gender, sprite, ");
             query.Append("strenght, dexterity, agility, constitution, intelligence, wisdom, will, mind, charisma, statpoints)");
-            query.Append("VALUES ("); 
-            query.Append($"'{pData.AccountID}', ");
-            query.Append($"'{classeID}', ");
-            query.Append($"'{charSlot}', ");
-            query.Append($"'{name}', ");
-            query.Append($"'{Classe.Classes[index].GetStat(StatType.Level)}', ");
-            query.Append($"'{gender}', ");           
-            query.Append($"'{sprite}', ");
-            query.Append($"'{Classe.Classes[index].GetStat(StatType.MaxHP)}', ");
-            query.Append($"'{Classe.Classes[index].GetStat(StatType.MaxMP)}', ");
-            query.Append($"'{Classe.Classes[index].GetStat(StatType.MaxSP)}', ");
-            query.Append($"'{Classe.Classes[index].Strenght}', ");
-            query.Append($"'{Classe.Classes[index].Dexterity}', ");
-            query.Append($"'{Classe.Classes[index].Agility}', ");
-            query.Append($"'{Classe.Classes[index].Constitution}', ");
-            query.Append($"'{Classe.Classes[index].Intelligence}', ");
-            query.Append($"'{Classe.Classes[index].Wisdom}', ");
-            query.Append($"'{Classe.Classes[index].Will}', ");
-            query.Append($"'{Classe.Classes[index].Mind}', ");
-            query.Append($"'{Classe.Classes[index].Charisma}', ");
-            query.Append($"'{Classe.Classes[index].Points}')");
+            query.Append("VALUES (?accountID, ?classeID, ?charSlot, ?name, ?level, ?gender, ?sprite, ?strenght, ?dexterity, ?agility, ");
+            query.Append("?constitution, ?intelligence, ?wisdom, ?will, ?mind, ?charisma, ?statpoints)");
 
+            var list = new List<MySqlParameter>();
+            list.Add(new MySqlParameter("?accountID", pData.AccountID));
+            list.Add(new MySqlParameter("?classeID", classeID));
+            list.Add(new MySqlParameter("?charSlot", charSlot));
+            list.Add(new MySqlParameter("?name", name));
+            list.Add(new MySqlParameter("?level", Classe.Classes[index].Level));
+            list.Add(new MySqlParameter("?gender", gender));
+            list.Add(new MySqlParameter("?sprite", sprite));
+            list.Add(new MySqlParameter("?strenght", Classe.Classes[index].Strenght));
+            list.Add(new MySqlParameter("?dexterity", Classe.Classes[index].Dexterity));
+            list.Add(new MySqlParameter("?agility", Classe.Classes[index].Agility));
+            list.Add(new MySqlParameter("?constitution", Classe.Classes[index].Constitution));
+            list.Add(new MySqlParameter("?intelligence", Classe.Classes[index].Intelligence));
+            list.Add(new MySqlParameter("?wisdom", Classe.Classes[index].Wisdom));
+            list.Add(new MySqlParameter("?will", Classe.Classes[index].Will));
+            list.Add(new MySqlParameter("?mind", Classe.Classes[index].Mind));
+            list.Add(new MySqlParameter("?charisma", Classe.Classes[index].Charisma));
+            list.Add(new MySqlParameter("?statpoints", Classe.Classes[index].Points));
+          
             var cmd = new MySqlCommand(query.ToString(), Common_DB.Connection);
+            cmd.Parameters.AddRange(list.ToArray());
             cmd.ExecuteNonQuery(); 
         }    
 
@@ -208,7 +221,7 @@ namespace WorldServer.MySQL {
             var index = Classe.FindClasseIndexByID(classeID);
             var charID = ID(name);
 
-            for(var item = 0; item < Common.Constant.MAX_ITEM; item++) {
+            for(var item = 0; item < Common.Settings.MAX_ITEM; item++) {
                 //se não há nenhum item, próximo
                 if (Classe.Classes[index].GetItem((ItemType)item).ID == 0) continue;
 

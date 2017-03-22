@@ -14,7 +14,8 @@ namespace WorldServer.Server {
             WorldPacket.PreLoad(pData);
             //Aceita a conexão
             WorldPacket.Message(pData.Connection, (int)PacketList.AcceptedConnection);
-            //Muda de janela
+            //Muda de janela 
+            //3 seleção de personagem
             WorldPacket.GameState(pData.HexID, 3);
         }
     }

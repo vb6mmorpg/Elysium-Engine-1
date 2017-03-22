@@ -68,10 +68,6 @@
     <ApplicationIcon>elysiumico.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Crypt, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\x86\Debug\Crypt.dll</HintPath>
-    </Reference>
     <Reference Include="Lidgren.Network, Version=2012.1.7.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\x86\Release\Lidgren.Network.dll</HintPath>
@@ -101,8 +97,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Client\PlayerData.cs" />
-    <Compile Include="Client\PlayerLocal.cs" />
+    <Compile Include="Classes\ClasseDescription.cs" />
+    <Compile Include="DirectX\Sound\EngineMusic.cs" />
+    <Compile Include="EngineWindow\System\WindowOption.cs" />
+    <Compile Include="GameClient\Client.cs" />
+    <Compile Include="GameClient\PlayerData.cs" />
+    <Compile Include="GameClient\PlayerSlotData.cs" />
     <Compile Include="Common\Configuration.cs" />
     <Compile Include="Common\IPAddress.cs" />
     <Compile Include="Common\Language.cs" />
@@ -118,22 +118,20 @@
     <Compile Include="DirectX\Controls\EngineShortCut.cs" />
     <Compile Include="DirectX\Controls\EngineInputBoxAction.cs" />
     <Compile Include="DirectX\EngineNpc.cs" />
+    <Compile Include="DirectX\EngineCharacter.cs" />
     <Compile Include="DirectX\Font\EngineFontStyle.cs" />
     <Compile Include="DirectX\Controls\Common\EngineButton.cs" />
-    <Compile Include="DirectX\Sound\EngineMusic.cs" />
     <Compile Include="DirectX\Sound\EngineMultimedia.cs" />
     <Compile Include="DirectX\Sound\EngineSound.cs" />
     <Compile Include="DirectX\Sound\EngineSoundEnum.cs" />
     <Compile Include="DirectX\Sound\EngineSoundManager.cs" />
-    <Compile Include="DirectX\EngineCharacter.cs" />
     <Compile Include="DirectX\EngineCore.cs" />
     <Compile Include="DirectX\Font\EngineFont.cs" />
     <Compile Include="EngineWindow\WindowCharacterStatus.cs" />
     <Compile Include="EngineWindow\WindowShortCut.cs" />
     <Compile Include="Network\CommonPacket.cs" />
     <Compile Include="Network\CommonData.cs" />
-    <Compile Include="EngineWindow\WindowServerRow.cs" />
-    <Compile Include="EngineWindow\WindowGuild.cs" />
+    <Compile Include="EngineWindow\System\WindowServerRow.cs" />
     <Compile Include="DirectX\Controls\EngineInputBox.cs" />
     <Compile Include="DirectX\Controls\Common\EngineLabel.cs" />
     <Compile Include="DirectX\Controls\EngineMessageBox.cs" />
@@ -141,24 +139,24 @@
     <Compile Include="DirectX\Controls\Common\EngineTextBox.cs" />
     <Compile Include="DirectX\EngineTexture.cs" />
     <Compile Include="GameFunction\ResourceFunction.cs" />
-    <Compile Include="EngineWindow\WindowCharacter.cs" />
+    <Compile Include="EngineWindow\System\WindowCharacter.cs" />
     <Compile Include="EngineWindow\WindowGame.cs" />
-    <Compile Include="EngineWindow\WindowLogin.cs" />
+    <Compile Include="EngineWindow\System\WindowLogin.cs" />
     <Compile Include="GameFunction\MapFunction.cs" />
-    <Compile Include="EngineWindow\WindowNewCharacter.cs" />
-    <Compile Include="EngineWindow\WindowServer.cs" />
+    <Compile Include="EngineWindow\System\WindowNewCharacter.cs" />
+    <Compile Include="EngineWindow\System\WindowServer.cs" />
     <Compile Include="GameLogic\NpcList.cs" />
     <Compile Include="Maps.cs" />
-    <Compile Include="Network\Game Server\GameServerData.cs" />
-    <Compile Include="Network\Game Server\GameServerPacket.cs" />
-    <Compile Include="Network\Login Server\LoginServerData.cs" />
-    <Compile Include="Network\Login Server\LoginServerPacket.cs" />
+    <Compile Include="Network\Game Server\GameData.cs" />
+    <Compile Include="Network\Game Server\GamePacket.cs" />
+    <Compile Include="Network\Login Server\LoginData.cs" />
+    <Compile Include="Network\Login Server\LoginPacket.cs" />
     <Compile Include="Network\Message.cs" />
     <Compile Include="Network\NetworkSocket.cs" />
     <Compile Include="Network\NetworkPacket.cs" />
     <Compile Include="Network\NetworkSocketEnum.cs" />
-    <Compile Include="Network\World Server\WorldServerData.cs" />
-    <Compile Include="Network\World Server\WorldServerPacket.cs" />
+    <Compile Include="Network\World Server\WorldData.cs" />
+    <Compile Include="Network\World Server\WorldPacket.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -166,10 +164,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Resource\ExperienceManage.cs" />
-    <Compile Include="Resource\SpriteManage.cs" />
+    <Compile Include="Classes\ClasseManager.cs" />
+    <Compile Include="Resource\ExperienceManager.cs" />
+    <Compile Include="Resource\SpriteManager.cs" />
     <Compile Include="Resource\SpriteTexture.cs" />
-    <Compile Include="Client\StatsBase.cs" />
+    <Compile Include="GameClient\StatsBase.cs" />
     <EmbeddedResource Include="CreateDevice.resx">
       <DependentUpon>CreateDevice.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -190,13 +189,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="bin\Debug\Data\" />
     <Folder Include="Enumeration\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="bin\Debug\Data\gam1232.cur" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="bin\Debug\Data\cur_png.cur" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="elysiumico.ico" />

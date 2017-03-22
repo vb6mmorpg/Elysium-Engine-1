@@ -1,13 +1,8 @@
 ﻿using GameServer.Common;
 using GameServer.Network;
-using System.Threading;
 
 namespace GameServer.Server{
     public class ServerLoop {
-
-        public static void Initialize() {
-
-        }
     
         public static void Loop() {
             // Percorre todos os hexid e verifica se o tempo limite já foi ultrapassado ...
@@ -18,9 +13,7 @@ namespace GameServer.Server{
             Authentication.VerifyPlayerHexID();
 
             // Recebe os dados do game server
-            GameServerNetwork.ReceiveData();
-
-            if (Settings.Sleep > 0) { Thread.Sleep(Settings.Sleep); }          
+            GameNetwork.ReceiveData();      
         }
 
         public static void Close() {

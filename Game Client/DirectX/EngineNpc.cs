@@ -97,7 +97,7 @@ namespace Elysium_Diamond.DirectX {
             ProcessAnimation();
 
             EngineCore.SpriteDevice.Begin(SpriteFlags);
-            EngineCore.SpriteDevice.Draw(SpriteManage.FindByID(Sprite), new Color(Color.R, Color.G, Color.B, Transparency), SourceRect, new Vector3(0, 0, 0), new Vector3(PositionX, PositionY, 0));
+            EngineCore.SpriteDevice.Draw(SpriteManager.FindByID(Sprite), new Color(Color.R, Color.G, Color.B, Transparency), SourceRect, new Vector3(0, 0, 0), new Vector3(PositionX, PositionY, 0));
             EngineCore.SpriteDevice.End();
 
             //Shadow
@@ -185,18 +185,18 @@ namespace Elysium_Diamond.DirectX {
                 if (InsideButton()) {
                     if (!move) {
                         move = true;
-                        if (MouseMove != null) { MouseMove(this, EventArgs.Empty); }
+                        MouseMove?.Invoke(this, EventArgs.Empty);
                     }
 
                     if (EngineCore.MouseDown) {
                         if (!click) {
-                            if (MouseDown != null) { MouseDown(this, EventArgs.Empty); }
+                            MouseDown?.Invoke(this, EventArgs.Empty);
                             click = true;
                         }
                     }
                     else {
                         if (click) {
-                            if (MouseUp != null) { MouseUp(this, EventArgs.Empty); }
+                            MouseUp?.Invoke(this, EventArgs.Empty);
                         }
 
                         click = false;
@@ -205,7 +205,7 @@ namespace Elysium_Diamond.DirectX {
                 else {
                     if (move) {
                         move = false;
-                        if (MouseLeave != null) { MouseLeave(this, EventArgs.Empty); }
+                        MouseLeave?.Invoke(this, EventArgs.Empty);
                     }
                 }
             }
@@ -218,7 +218,7 @@ namespace Elysium_Diamond.DirectX {
             if (!Enabled) { return false; }
             if (!Visible) { return false; }
             if (!Program.GraphicsDisplay.Focused) { return false; }
-            if (Program.GraphicsDisplay.WindowState == System.Windows.Forms.FormWindowState.Minimized) { return false; }
+            if (Program.GraphicsDisplay.WindowState == FormWindowState.Minimized) { return false; }
 
             if ((EngineCore.MousePosition.X >= PositionX) && (EngineCore.MousePosition.X <= (Size.Width + PositionX))) {
                 if ((EngineCore.MousePosition.Y >= PositionY) && (EngineCore.MousePosition.Y <= (PositionY + Size.Height))) { return true; }

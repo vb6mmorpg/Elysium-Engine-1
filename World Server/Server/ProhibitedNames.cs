@@ -7,14 +7,14 @@ namespace WorldServer.Server {
         /// <summary>
         /// Lista de nomes banidos.
         /// </summary>
-        private static HashSet<string> Names { get; set; } = new HashSet<string>();
+        private static HashSet<string> names = new HashSet<string>();
 
         /// <summary>
         /// Adiciona um nome a lista.
         /// </summary>
         /// <param name="name"></param>
         public static void Add(string name) {
-            Names.Add(name);
+            names.Add(name);
         }
 
         /// <summary>
@@ -23,7 +23,7 @@ namespace WorldServer.Server {
         /// <param name="name"></param>
         public static void AddRange(params string[] name) {
             foreach(string item in name) {
-                Names.Add(item);
+                names.Add(item);
             }
         }
             
@@ -33,8 +33,7 @@ namespace WorldServer.Server {
         /// <param name="name"></param>
         /// <returns></returns>
         public static bool Compare(string name) {
-            if (FindName(name))  return true; 
-            return false;
+            return (FindName(name)) ? true : false; 
         }
 
         /// <summary>
@@ -45,7 +44,7 @@ namespace WorldServer.Server {
         private static bool FindName(string name) {
             if (string.IsNullOrEmpty(name))  return false; 
 
-            var find_name = from nData in Names
+            var find_name = from nData in names
                              where nData.CompareTo(name) == 0
                              select nData;
 
@@ -56,8 +55,8 @@ namespace WorldServer.Server {
         /// Remove todos os items do hashset.
         /// </summary>
         public static void Clear() {
-            Names.Clear();
-            Names = null;
+            names.Clear();
+            names = null;
         }
     }
 }

@@ -34,10 +34,9 @@ namespace LoginServer.Common {
         /// </summary>
         /// <param name="text"></param>
         public static void WriteLog(string text) {
-            if (Settings.LogSystem == DISABLED) { return; }
             writer.WriteLine($"{DateTime.Now}: {text}");
             writer.Flush();
-        }  
+        }
 
         /// <summary>
         /// Escreve a mensagem na tela.
@@ -45,7 +44,10 @@ namespace LoginServer.Common {
         /// <param name="log"></param>
         /// <param name="color"></param>
         public static void WriteLog(string log, System.Drawing.Color color) {
-            if (!Settings.LogSystemScreen) { Settings.ConnectForm.WriteLog(log, color); }
+            if (Settings.LogSystem == DISABLED) { return; }
+
+            Settings.ConnectForm.WriteLog(log, color);
+            WriteLog(log);
         }
     }
 }

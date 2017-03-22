@@ -1,5 +1,5 @@
 ﻿namespace WorldServer.Common {
-    public class GameServerData {
+    public struct GameServerData {
         /// <summary>
         /// IP externo para World Server.
         /// </summary>

@@ -16,10 +16,8 @@ using Microsoft.VisualBasic;
 using System.IO;
 using System.Security.Cryptography;
 
-namespace Elysium_Diamond
-{
-    public partial class CreateDevice : Form
-    {
+namespace Elysium_Diamond {
+    public partial class CreateDevice : Form {
         public string ImeModeIso = string.Empty;
         public bool ImeModeOn = false;
         public bool gameRunning = true;
@@ -190,39 +188,33 @@ namespace Elysium_Diamond
 
         /// <summary>Windows Message</summary>
         [StructLayout(LayoutKind.Sequential)]
-        public struct Message
-        {
+        public struct Message {
             public IntPtr hWnd;
             public IntPtr msg;
             public IntPtr wParam;
             public IntPtr lParam;
             public uint time;
             public System.Drawing.Point p;
-        } 
-
-        public void OnApplicationIdle(object sender, EventArgs e)
-        {
-            while (this.AppStillIdle)
-            {
-                 EngineCore.Update();
-                 EngineCore.Render();
-            }
-
-            if (!gameRunning) { EngineCore.Exit(); }
         }
 
-        private bool AppStillIdle
-        {
-            get
-            {
+        public void OnApplicationIdle(object sender, EventArgs e) {
+            while (this.AppStillIdle) {
+                EngineCore.Update();
+                EngineCore.Render();
+            }
+
+            if (!EngineCore.GameRunning) { EngineCore.Exit(); }
+        }
+
+        private bool AppStillIdle {
+            get {
                 Message msg;
                 return !PeekMessage(out msg, IntPtr.Zero, 0, 0, 0);
             }
         }
         #endregion
 
-        public CreateDevice()
-        {
+        public CreateDevice() {
             InitializeComponent();
             this.SetStyle(ControlStyles.AllPaintingInWmPaint, false);
             this.SetStyle(ControlStyles.OptimizedDoubleBuffer, true);
@@ -230,34 +222,27 @@ namespace Elysium_Diamond
             this.SetStyle(ControlStyles.Opaque, true);
         }
 
-        private void CreateDevice_MouseMove(object sender, MouseEventArgs e)
-        {
+        private void CreateDevice_MouseMove(object sender, MouseEventArgs e) {
             EngineCore.MousePosition = new SharpDX.Point(this.PointToClient(MousePosition).X, this.PointToClient(MousePosition).Y);
         }
 
-        private void CreateDevice_MouseUp(object sender, MouseEventArgs e)
-        {
+        private void CreateDevice_MouseUp(object sender, MouseEventArgs e) {
             EngineCore.MouseDown = false;
         }
 
-        private void CreateDevice_MouseDown(object sender, MouseEventArgs e)
-        {
+        private void CreateDevice_MouseDown(object sender, MouseEventArgs e) {
             if (e.Button == MouseButtons.Left) { EngineCore.MouseDown = true; }
         }
 
-        private void CreateDevice_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Escape) { gameRunning = false; }
+        private void CreateDevice_KeyDown(object sender, KeyEventArgs e) {
+            // if (e.KeyCode == Keys.J) { NetworkPacket.CreateGuild("銀魂"); }
 
-           // if (e.KeyCode == Keys.J) { NetworkPacket.CreateGuild("銀魂"); }
+            //  if (e.KeyCode == Keys.W) { GameCharacter.DirUp = true; GameCharacter.DirDown = false; GameCharacter.DirLeft = false; GameCharacter.DirRight = false; }
+            //    if (e.KeyCode == Keys.S) { GameCharacter.DirUp = false; GameCharacter.DirDown = true; GameCharacter.DirLeft = false; GameCharacter.DirRight = false; }
+            //    if (e.KeyCode == Keys.A) { GameCharacter.DirUp = false; GameCharacter.DirDown = false; GameCharacter.DirLeft = true; GameCharacter.DirRight = false; }
+            //     if (e.KeyCode == Keys.D) { GameCharacter.DirUp = false; GameCharacter.DirDown = false; GameCharacter.DirLeft = false; GameCharacter.DirRight = true; }
 
-          //  if (e.KeyCode == Keys.W) { GameCharacter.DirUp = true; GameCharacter.DirDown = false; GameCharacter.DirLeft = false; GameCharacter.DirRight = false; }
-        //    if (e.KeyCode == Keys.S) { GameCharacter.DirUp = false; GameCharacter.DirDown = true; GameCharacter.DirLeft = false; GameCharacter.DirRight = false; }
-        //    if (e.KeyCode == Keys.A) { GameCharacter.DirUp = false; GameCharacter.DirDown = false; GameCharacter.DirLeft = true; GameCharacter.DirRight = false; }
-       //     if (e.KeyCode == Keys.D) { GameCharacter.DirUp = false; GameCharacter.DirDown = false; GameCharacter.DirLeft = false; GameCharacter.DirRight = true; }
-
-            if (EngineCore.GameState == 6)
-            {
+            if (EngineCore.GameState == 6) {
                 if (e.KeyCode == Keys.C) {
                     if (WindowCharacterStatus.Visible) {
                         WindowCharacterStatus.Visible = false;
@@ -267,54 +252,55 @@ namespace Elysium_Diamond
                     }
                 }
 
-
-                if (WindowGuild.GuildName.CompareTo(string.Empty) == 0) { return; }
-
-                if (e.KeyCode == Keys.G) {
-                    if (WindowGuild.Visible) {
-                        WindowGuild.Visible = false;
+                if (e.KeyCode == Keys.Escape) {
+                    if (WindowOption.Visible) {
+                        WindowOption.Visible = false;
                     }
                     else {
-                        WindowGuild.Visible = true;
+                        WindowOption.Visible = true;
                     }
-                }    
+                }
+
+                //      if (WindowGuild.GuildName.CompareTo(string.Empty) == 0) { return; }
+                //
+                //       if (e.KeyCode == Keys.G) {
+                //     if (WindowGuild.Visible) {
+                //        WindowGuild.Visible = false;
+                //       }
+                //      else {
+                //  WindowGuild.Visible = true;
+                //    }//
+                //  }    
             }
         }
 
-        private void CreateDevice_Load(object sender, EventArgs e)
-        {
+        private void CreateDevice_Load(object sender, EventArgs e) {
             m_hImc = ImmGetContext(this.Handle);
 
             var md5 = MD5.Create();
 
             Common.Configuration.ClientSerial = BitConverter.ToString(md5.ComputeHash(File.ReadAllBytes("Elysium Diamond.exe")));
         }
- 
-        private void CreateDevice_KeyPress(object sender, KeyPressEventArgs e)
-        {
+
+        private void CreateDevice_KeyPress(object sender, KeyPressEventArgs e) {
             #region GameState 1
-            if (EngineCore.GameState == 1)
-            {   
-                if (e.KeyChar == Convert.ToChar(Keys.Enter))
-                {
+            if (EngineCore.GameState == 1) {
+                if (e.KeyChar == Convert.ToChar(Keys.Enter)) {
                     WindowLogin.Login();
                 }
 
-                if (e.KeyChar == Convert.ToChar(Keys.Tab))
-                {
-                    if (WindowLogin.TextBox[0].CursorEnabled == true)
-                    {
-                        if (WindowLogin.TextBox[0].Enabled == false) return;
-                        WindowLogin.TextBox[0].CursorEnabled = false;
-                        WindowLogin.TextBox[1].CursorEnabled = true;
-                        WindowLogin.TextBox[1].CursorState = 0;
+                if (e.KeyChar == Convert.ToChar(Keys.Tab)) {
+                    if (WindowLogin.textbox[0].CursorEnabled == true) {
+                        if (WindowLogin.textbox[0].Enabled == false) return;
+                        WindowLogin.textbox[0].CursorEnabled = false;
+                        WindowLogin.textbox[1].CursorEnabled = true;
+                        WindowLogin.textbox[1].CursorState = 0;
                     }
-                    else
-                    {
-                        if (WindowLogin.TextBox[1].Enabled == false) return;
-                        WindowLogin.TextBox[0].CursorEnabled = true;
-                        WindowLogin.TextBox[1].CursorEnabled = false;
-                        WindowLogin.TextBox[0].CursorState = 0;
+                    else {
+                        if (WindowLogin.textbox[1].Enabled == false) return;
+                        WindowLogin.textbox[0].CursorEnabled = true;
+                        WindowLogin.textbox[1].CursorEnabled = false;
+                        WindowLogin.textbox[0].CursorState = 0;
                     }
 
                     return;
@@ -324,54 +310,50 @@ namespace Elysium_Diamond
                 if (ImeModeOn) { return; }
 
 
-                if (WindowLogin.TextBox[0].CursorEnabled == true)
-                {
-                    if (WindowLogin.TextBox[0].Enabled == false) { return; }
+                if (WindowLogin.textbox[0].CursorEnabled == true) {
+                    if (WindowLogin.textbox[0].Enabled == false) { return; }
 
                     //if (char.IsLetterOrDigit(e.KeyChar) || char.(e.KeyChar))
 
-                    if (Convert.ToInt32(e.KeyChar) == 8) { if (WindowLogin.TextBox[0].Text.Length > 0) { WindowLogin.TextBox[0].RemoveText(); } }
+                    if (Convert.ToInt32(e.KeyChar) == 8) { if (WindowLogin.textbox[0].Text.Length > 0) { WindowLogin.textbox[0].RemoveText(); } }
 
                     if (char.IsLetterOrDigit(e.KeyChar)) {
-                        if (WindowLogin.TextBox[0].Text.Length <= 27) {
+                        if (WindowLogin.textbox[0].Text.Length <= 27) {
                             //retorna se o ime estiver ativado
-                            WindowLogin.TextBox[0].AddText(e.KeyChar);
-                        } 
-                    }           
+                            WindowLogin.textbox[0].AddText(e.KeyChar);
+                        }
+                    }
                 }
 
 
-                if (WindowLogin.TextBox[1].CursorEnabled == true)
-                {
-                    if (WindowLogin.TextBox[1].Enabled == false) return;
+                if (WindowLogin.textbox[1].CursorEnabled == true) {
+                    if (WindowLogin.textbox[1].Enabled == false) return;
 
-                    if (Convert.ToInt32(e.KeyChar) == 8) { if (WindowLogin.TextBox[1].Text.Length > 0) { WindowLogin.TextBox[1].RemoveText(); } }
+                    if (Convert.ToInt32(e.KeyChar) == 8) { if (WindowLogin.textbox[1].Text.Length > 0) { WindowLogin.textbox[1].RemoveText(); } }
 
-                    if (char.IsLetterOrDigit(e.KeyChar)) { 
-                        if (WindowLogin.TextBox[1].Text.Length <= 27) { 
-                            WindowLogin.TextBox[1].AddText(e.KeyChar);
-                        } 
-                    }                  
+                    if (char.IsLetterOrDigit(e.KeyChar)) {
+                        if (WindowLogin.textbox[1].Text.Length <= 27) {
+                            WindowLogin.textbox[1].AddText(e.KeyChar);
+                        }
+                    }
                 }
 
                 return;
             }
-#endregion
+            #endregion
 
             #region GameState 3
-            if (EngineCore.GameState == 3)
-            {
+            if (EngineCore.GameState == 3) {
                 if (!EngineInputBox.Visible) { return; }
 
-                if (EngineInputBox.TextBox.CursorEnabled == true)
-                {
+                if (EngineInputBox.TextBox.CursorEnabled == true) {
                     if (EngineInputBox.TextBox.Enabled == false) return;
 
                     if (Convert.ToInt32(e.KeyChar) == 8) { if (EngineInputBox.TextBox.Text.Length > 0) { EngineInputBox.TextBox.RemoveText(); } }
 
                     if (ImeModeOn) { return; }
                     if (char.IsDigit(e.KeyChar) || char.IsLetter(e.KeyChar)) { if (EngineInputBox.TextBox.Text.Length <= 12) { EngineInputBox.TextBox.AddText(e.KeyChar); } }
-             
+
                 }
 
                 return;
@@ -379,29 +361,27 @@ namespace Elysium_Diamond
             #endregion
 
             #region GameState 4
-            if (EngineCore.GameState == 4)
-            {
-                if (WindowNewCharacter.textbox.CursorEnabled == true)
-                {
+            if (EngineCore.GameState == 4) {
+                if (WindowNewCharacter.textbox.CursorEnabled == true) {
                     if (WindowNewCharacter.textbox.Enabled == false) return;
 
                     if (Convert.ToInt32(e.KeyChar) == 8) { if (WindowNewCharacter.textbox.Text.Length > 0) { WindowNewCharacter.textbox.RemoveText(); } }
 
                     if (ImeModeOn) { return; }
                     if (char.IsDigit(e.KeyChar) || char.IsLetter(e.KeyChar)) { if (WindowNewCharacter.textbox.Text.Length <= 12) { WindowNewCharacter.textbox.AddText(e.KeyChar); } }
-                }  
+                }
 
                 return;
             }
             #endregion
-
-   
-
-
         }
 
         private void CreateDevice_FormClosing(object sender, FormClosingEventArgs e) {
+            e.Cancel = true;
+         
             ImmReleaseContext(this.Handle, m_hImc);
+            EngineCore.GameRunning = false;
+            e.Cancel = false;
         }
 
         private void CreateDevice_InputLanguageChanged(object sender, InputLanguageChangedEventArgs e) {
@@ -409,48 +389,53 @@ namespace Elysium_Diamond
 
             if (ImeModeIso == "en" | ImeModeIso == "pt") {
                 ImeModeOn = false;
-            } else {
+            }
+            else {
                 ImeModeOn = true;
             }
-  
+
 
             // Get IMC Handle
-          /*  IME.imcHandle = IME.ImmGetContext(this.Handle);
+            /*  IME.imcHandle = IME.ImmGetContext(this.Handle);
 
-            // Get language and layout details
-            keys.languageFullName = e.InputLanguage.Culture.EnglishName;
-            keys.languageShortName = e.InputLanguage.Culture.TwoLetterISOLanguageName;
-            keys.layoutID = e.InputLanguage.Culture.KeyboardLayoutId;
+              // Get language and layout details
+              keys.languageFullName = e.InputLanguage.Culture.EnglishName;
+              keys.languageShortName = e.InputLanguage.Culture.TwoLetterISOLanguageName;
+              keys.layoutID = e.InputLanguage.Culture.KeyboardLayoutId;
 
-            // Get current Conversion and Sentence Modes into IME.current*
-            IME.ImmGetConversionStatus(IME.imcHandle, ref IME.currentConversionMode, ref IME.currentSentenceMode);
+              // Get current Conversion and Sentence Modes into IME.current*
+              IME.ImmGetConversionStatus(IME.imcHandle, ref IME.currentConversionMode, ref IME.currentSentenceMode);
 
-            if (IME.currentConversionMode == 0 && keys.languageShortName == "ja") {
-                IME.currentConversionMode = (int)IME.ConversionMode.IME_CMODE_NATIVE;
-                IME.currentSentenceMode = (int)IME.SentenceMode.IME_SMODE_AUTOMATIC;
+              if (IME.currentConversionMode == 0 && keys.languageShortName == "ja") {
+                  IME.currentConversionMode = (int)IME.ConversionMode.IME_CMODE_NATIVE;
+                  IME.currentSentenceMode = (int)IME.SentenceMode.IME_SMODE_AUTOMATIC;
 
-                IME.ImmSetConversionStatus(IME.imcHandle, (int)IME.ConversionMode.IME_CMODE_NATIVE | (int)IME.ConversionMode.IME_CMODE_FULLSHAPE, (int)IME.SentenceMode.IME_SMODE_AUTOMATIC);
+                  IME.ImmSetConversionStatus(IME.imcHandle, (int)IME.ConversionMode.IME_CMODE_NATIVE | (int)IME.ConversionMode.IME_CMODE_FULLSHAPE, (int)IME.SentenceMode.IME_SMODE_AUTOMATIC);
 
-            }
+              }
 
-            if (IME.currentConversionMode != 0 && keys.languageShortName == "en") {
-                IME.currentConversionMode = 0;
-                IME.currentSentenceMode = (int)IME.SentenceMode.IME_SMODE_NONE;
+              if (IME.currentConversionMode != 0 && keys.languageShortName == "en") {
+                  IME.currentConversionMode = 0;
+                  IME.currentSentenceMode = (int)IME.SentenceMode.IME_SMODE_NONE;
 
-                IME.ImmSetConversionStatus(IME.imcHandle, (int)IME.ConversionMode.IME_CMODE_ALPHANUMERIC, (int)IME.SentenceMode.IME_SMODE_NONE);
+                  IME.ImmSetConversionStatus(IME.imcHandle, (int)IME.ConversionMode.IME_CMODE_ALPHANUMERIC, (int)IME.SentenceMode.IME_SMODE_NONE);
 
-            }
+              }
 
-            // Release IMC Handle
-            IME.ImmReleaseContext(this.Handle, IME.imcHandle);
+              // Release IMC Handle
+              IME.ImmReleaseContext(this.Handle, IME.imcHandle);
 
-            base.OnInputLanguageChanged(e);
-             */
+              base.OnInputLanguageChanged(e);
+               */
         }
 
         private void CreateDevice_ImeModeChanged(object sender, EventArgs e) {
-          
-  
+
+
+        }
+
+        private void CreateDevice_FormClosed(object sender, FormClosedEventArgs e) {
+           
         }
     }
 }

@@ -2,70 +2,148 @@
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using System.Collections.Generic;
+using Elysium_Diamond.GameClient;
 using Elysium_Diamond.Resource;
 using Elysium_Diamond.Network;
 using SharpDX;
 using SharpDX.Direct3D9;
-using Color = SharpDX.Color;
 
 namespace Elysium_Diamond.DirectX {
     public class EngineCharacter {
         [DllImport("user32")]
-        public static extern Int16 GetAsyncKeyState(Int16 vKey);
+        private static extern Int16 GetAsyncKeyState(Int16 vKey);
 
-        public enum Direction {
+        public enum Direction : byte {
             Up = 1,
             Down = 4,
             Left = 7,
             Right = 10
         }
 
-        //temp
+        public EventHandler MouseUp { get; set; }
+        public EventHandler MouseDown { get; set; }
+        public EventHandler MouseMove { get; set; }
+        public EventHandler MouseLeave { get; set; }
+
         public int ID { get; set; }
-        public Queue<int> DirectionQueue { get; set; } = new Queue<int>();
-
-        public Direction Dir { get; set; }
+        public Queue<byte> DirectionQueue { get; set; } = new Queue<byte>();
+        public short Sprite { get; set; }
         public string Name { get; set; }
-        public string GuildName { get; set; }
-        public int Sprite { get; set; }
+        public string Guild { get; set; }
+
+
+        /// <summary>
+        /// Ativa ou desativa o controle do jogador.
+        /// </summary>
+        public bool CanPlayerControl { get; set; }
+
+        /// <summary>
+        /// Direção da sprite.
+        /// </summary>
+        public Direction Dir { get; set; }
+
+        /// <summary>
+        /// Cor da sprite.
+        /// </summary>
         public Color Color { get; set; }
-        public int PositionX { get; set; }
-        public int PositionY { get; set; }
-        public int OffSetY { get; set; }
-        public int OffSetX { get; set; }
-        public Point Coordinate { get; set; }
-        public Size2 Size { get; set; }
-        public bool Visible { get; set; }
-        public bool Enabled { get; set; }
+
+        /// <summary>
+        /// Transparencia do controle.
+        /// </summary>
         public byte Transparency { get; set; }
-        public float ShadowAngle { get; set; }
-        public Color ShadowColor { get; set; }
-        public byte ShadowTransparency { get; set; }
-        public SpriteFlags SpriteFlags { get; set; }
-        public Rectangle SourceRect { get; set; }
 
-        public bool Move { get; set; }
+        /// <summary>
+        /// Ativa ou desativa o controle.
+        /// </summary>
+        public bool Enabled { get; set; }
 
-        public event EventHandler MouseUp, MouseDown, MouseMove, MouseLeave;
+        /// <summary>
+        /// Altera ou obtem a visibilidade.
+        /// </summary>
+        public bool Visible { get; set; }
 
-        private int anim, animTime, moveTime, step;
-        private bool moveButton,  click;
+        /// <summary>
+        /// Coordenadas do jogador.
+        /// </summary>
+        public Point Coordinate { get; set; }
 
+        /// <summary>
+        /// Area de recorte da sprite.
+        /// </summary>
+        private Rectangle source_rect;
+
+        /// <summary>
+        /// posição x.
+        /// </summary>
+        public int X { get; set; }
+        
+        /// <summary>
+        /// posição y.
+        /// </summary>
+        public int Y { get; set; }
+
+        /// <summary>
+        /// comprimento sprite.
+        /// </summary>
+        private int Width { get; set; }
+
+        /// <summary>
+        /// altura sprite.
+        /// </summary>
+        private int Height { get; set; } 
+
+        private int OffSetY { get; set; }
+        private int OffSetX { get; set; }
+
+        /// <summary>
+        /// Define se o jogador pode mover-se ou não.
+        /// </summary>
+        private bool Move { get; set; }
+
+        /// <summary>
+        /// Tempo de cada passo do personagem.
+        /// </summary>
+        private int moveTime;
+
+        /// <summary>
+        /// Número da animação.
+        /// </summary>
+        private int anim;
+
+        /// <summary>
+        /// Tick de animação.
+        /// </summary>
+        private int animTime;
+
+        /// <summary>
+        /// Etapa da animação.
+        /// </summary>
+        private int step;
+
+        /// <summary>
+        /// Controle dos botões que permite apenas uma ação.
+        /// </summary>
+        private bool moveButton, click;
+        
+        /// <summary>
+        /// Construtor.
+        /// </summary>
         public EngineCharacter() {
+            CanPlayerControl = true;
             Visible = true;
             Enabled = true;
-            Size = new Size2(32, 32);
-            ShadowAngle = 0.7f;
-            ShadowTransparency = 120;
+            Width = 32;
+            Height = 32;
             Transparency = 255;
-            ShadowColor = Color.Black;
             Name = string.Empty;
-            GuildName = string.Empty;
+            Guild = string.Empty;
             Color = Color.White;
-            SourceRect = new Rectangle(0, 0, Size.Width, Size.Height);
-            SpriteFlags = SpriteFlags.AlphaBlend;
+            source_rect = new Rectangle(0, 0, 32, 32);
         }
 
+        /// <summary>
+        /// Desenha os controles.
+        /// </summary>
         public void Draw() {
             if (!Visible) { return; }
             if (Transparency == 0) { return; }
@@ -76,19 +154,17 @@ namespace Elysium_Diamond.DirectX {
             ProcessMovement();
             ProcessAnimation();
 
-            EngineCore.SpriteDevice.Begin(SpriteFlags);
-            EngineCore.SpriteDevice.Draw(SpriteManage.FindByID(Sprite), new Color(Color.R, Color.G, Color.B, Transparency), SourceRect, new Vector3(0, 0, 0), new Vector3(PositionX, PositionY, 0));
+            EngineCore.SpriteDevice.Begin(SpriteFlags.AlphaBlend);
+            EngineCore.SpriteDevice.Draw(SpriteManager.FindByID(Sprite), new Color(Color.R, Color.G, Color.B, Transparency), source_rect, new Vector3(0, 0, 0), new Vector3(X, Y, 0));
             EngineCore.SpriteDevice.End();
 
-            //Shadow
-            //EngineCore.SpriteDevice.Begin(SpriteFlags);
-            //EngineCore.SpriteDevice.Draw(ResourceSprite.FindByID(Sprite), new Color(ShadowColor.R, ShadowColor.G, ShadowColor.B, ShadowTransparency), SourceRect, new Vector3(-20, 10, 0), new Vector3(PositionX, PositionY, 0));
-            //EngineCore.SpriteDevice.End();
-
-            EngineFont.DrawText(null, Name, new Size2(30, 0), new Point(PositionX, PositionY - 5), Color.White, EngineFontStyle.Regular, FontDrawFlags.Center);
-            EngineFont.DrawText(null, GuildName, new Size2(30, 0), new Point(PositionX, PositionY - 20), Color.BlueViolet, EngineFontStyle.Bold, FontDrawFlags.Center);
+            EngineFont.DrawText(null, Name, new Size2(30, 0), new Point(X, Y - 5), Color.White, EngineFontStyle.Regular, FontDrawFlags.Center);
+            EngineFont.DrawText(null, Guild, new Size2(30, 0), new Point(X, Y - 20), Color.BlueViolet, EngineFontStyle.Bold, FontDrawFlags.Center);
         }
 
+        /// <summary>
+        /// Realiza o processo de animação da sprite.
+        /// </summary>
         public void ProcessAnimation() {
             anim = (int)Dir;
 
@@ -111,9 +187,12 @@ namespace Elysium_Diamond.DirectX {
                 }
             }
 
-            SourceRect = new Rectangle(anim * 32, 0, Size.Width, Size.Height);
+            source_rect = new Rectangle(anim * 32, 0, Width, Height);
         }
 
+        /// <summary>
+        /// Processa o movimento da sprite.
+        /// </summary>
         public void ProcessMovement() {
             if (DirectionQueue.Count > 0) {
                 if (!Move) {
@@ -146,54 +225,59 @@ namespace Elysium_Diamond.DirectX {
 
                 switch (Dir) {
                     case Direction.Up:
-                        PositionY -= 4;
-                        OffSetY -= 4;
-                        if (OffSetY <= 0) {
-                            Move = false;
-                            Coordinate = new Point(Coordinate.X, Coordinate.Y - 1);
-                        }
-                        break;
+                    Y -= 4;
+                    OffSetY -= 4;
+                    if (OffSetY <= 0) {
+                        Move = false;
+                        Coordinate = new Point(Coordinate.X, Coordinate.Y - 1);
+                    }
+                    break;
 
                     case Direction.Down:
-                        PositionY += 4;
-                        OffSetY += 4;
-                        if (OffSetY >= 0) {
-                            Move = false;
-                            Coordinate = new Point(Coordinate.X, Coordinate.Y + 1);
-                        }
-                        break;
+                    Y += 4;
+                    OffSetY += 4;
+                    if (OffSetY >= 0) {
+                        Move = false;
+                        Coordinate = new Point(Coordinate.X, Coordinate.Y + 1);
+                    }
+                    break;
 
                     case Direction.Left:
-                        PositionX -= 4;
-                        OffSetX -= 4;
-                        if (OffSetX <= 0) {
-                            Move = false;
-                            Coordinate = new Point(Coordinate.X - 1, Coordinate.Y);
-                        }
-                        break;
+                    X -= 4;
+                    OffSetX -= 4;
+                    if (OffSetX <= 0) {
+                        Move = false;
+                        Coordinate = new Point(Coordinate.X - 1, Coordinate.Y);
+                    }
+                    break;
 
                     case Direction.Right:
-                        PositionX += 4;
-                        OffSetX += 4;
-                        if (OffSetX >= 0) {
-                            Move = false;
-                            Coordinate = new Point(Coordinate.X + 1, Coordinate.Y);
-                        }
-                        break;
+                    X += 4;
+                    OffSetX += 4;
+                    if (OffSetX >= 0) {
+                        Move = false;
+                        Coordinate = new Point(Coordinate.X + 1, Coordinate.Y);
+                    }
+                    break;
                 }
             }
         }
 
+        /// <summary>
+        /// Realiza a verificação das teclas de movimento.
+        /// </summary>
         public void KeyState() {
             if (!Enabled) { return; }
             if (!Program.GraphicsDisplay.Focused) { return; }
+
+            if (!CanPlayerControl) { return; }
 
             if (GetAsyncKeyState((short)Keys.W) < 0) {
                 if (Move == false) {
                     OffSetY = 16;
                     Dir = Direction.Up;
                     Move = true;
-                    GameServerPacket.PlayerMove(Dir);
+                    GamePacket.PlayerMove(Dir);
                 }
             }
 
@@ -202,7 +286,7 @@ namespace Elysium_Diamond.DirectX {
                     OffSetY = -16;
                     Dir = Direction.Down;
                     Move = true;
-                    GameServerPacket.PlayerMove(Dir);
+                   GamePacket.PlayerMove(Dir);
                 }
             }
 
@@ -211,7 +295,7 @@ namespace Elysium_Diamond.DirectX {
                     OffSetX = 16;
                     Dir = Direction.Left;
                     Move = true;
-                    GameServerPacket.PlayerMove(Dir);
+                    GamePacket.PlayerMove(Dir);
                 }
             }
 
@@ -220,12 +304,14 @@ namespace Elysium_Diamond.DirectX {
                     OffSetX = -16;
                     Dir = Direction.Right;
                     Move = true;
-                    GameServerPacket.PlayerMove(Dir);
+                    GamePacket.PlayerMove(Dir);
                 }
             }
         }
 
- 
+        /// <summary>
+        /// Executa os eventos de mouse.
+        /// </summary>
         public void MouseButtons() {
             if (Enabled) {
                 if (InsideButton()) {
@@ -265,11 +351,19 @@ namespace Elysium_Diamond.DirectX {
             if (!Program.GraphicsDisplay.Focused) { return false; }
             if (Program.GraphicsDisplay.WindowState == FormWindowState.Minimized) { return false; }
 
-            if ((EngineCore.MousePosition.X >= PositionX) && (EngineCore.MousePosition.X <= (Size.Width + PositionX))) {
-                if ((EngineCore.MousePosition.Y >= PositionY) && (EngineCore.MousePosition.Y <= (PositionY + Size.Height))) { return true; }
+            if ((EngineCore.MousePosition.X >= X) && (EngineCore.MousePosition.X <= (Width + X))) {
+                if ((EngineCore.MousePosition.Y >= Y) && (EngineCore.MousePosition.Y <= (Y + Height))) { return true; }
             }
 
             return false;
+        }
+
+        public void Clear() {
+            ID = 0;
+            DirectionQueue.Clear();
+            Sprite = 0;
+            Name = string.Empty;
+            Guild = string.Empty;
         }
     }
 }

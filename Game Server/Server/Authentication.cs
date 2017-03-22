@@ -42,7 +42,7 @@ namespace GameServer.Server {
 
             HexID.Add(hexID);
 
-            LogConfig.WriteLog($"Data From World Server ID: {hexID.AccountID} Account: {hexID.Account} Char ID: {hexID.CharacterID} Slot: {hexID.CharSlot} {hexID.HexID}", System.Drawing.Color.Black);
+            FileLog.WriteLog($"Data From World Server ID: {hexID.AccountID} Account: {hexID.Account} Char ID: {hexID.CharacterID} Slot: {hexID.CharSlot} {hexID.HexID}", System.Drawing.Color.Black);
         }
 
         /// <summary>
@@ -54,7 +54,7 @@ namespace GameServer.Server {
             PlayerData pData = FindByConnection(connection);
             pData.HexID = hexID;
 
-            LogConfig.WriteLog($"Received From Client: {hexID}", System.Drawing.Color.Black);
+            FileLog.WriteLog($"Received From Client: {hexID}", System.Drawing.Color.Black);
         }
 
         /// <summary>
@@ -103,21 +103,40 @@ namespace GameServer.Server {
 
                 // Se não encontrar o hexid, desconecta o usuário pelo cliente
                 if (hexID == null) {
-                    GameServerPacket.Message(pData.Connection, (int)PacketList.Disconnect);
+                    GamePacket.Message(pData.Connection, (int)PacketList.Disconnect);
                     continue;
                 }
-
+              
+                //aceita a conexão
                 AcceptHexID(pData.Connection, hexID);
+
+                //pega o nome do personagem.
+                var charname = Character_DB.CharacterName(pData.AccountID, pData.CharSlot);
+                //verifica se há algum personagem conectado.
+                var playerData = FindByCharacterName(charname);
+
+                //salva o personagem e limpa para uma nova conexão
+                if (playerData != null) {
+                    Character_DB.Save(playerData);
+                    FileLog.WriteLog($"Player disconnected: {playerData.CharacterName}", System.Drawing.Color.Peru);
+
+                    //remove o jogador do mapa
+                    var _mapid = playerData.WorldID;
+                    MapManager.FindMapByID(_mapid).RemovePlayer(pData.CharacterID);
+
+                    playerData.Clear();
+                    playerData.Connection.Disconnect("");
+                } 
 
                 // Carrega dados do personagem
                 Character_DB.Load(pData.HexID, pData.CharSlot);
-                LogConfig.WriteLog($"Player Found ID: {pData.CharacterID} Name: {pData.CharacterName}", System.Drawing.Color.Black);
+                FileLog.WriteLog($"Player Found ID: {pData.CharacterID} Name: {pData.CharacterName}", System.Drawing.Color.Black);
 
                 //Realiza o calculo dos stats
                 CharacterLogic.UpdateCharacterStats(pData.AccountID);
 
                 //Aceita a conexão
-                GameServerPacket.Message(pData.Connection, (int)PacketList.AcceptedConnection);
+                GamePacket.Message(pData.Connection, (int)PacketList.AcceptedConnection);
 
                 //Envia dados para o jogador
                 pData.SendPlayerBasicData();
@@ -131,15 +150,16 @@ namespace GameServer.Server {
                 pData.SendPlayerVital();
                 pData.SendPlayerVitalRegen();
                 pData.SendPlayerExp();
-                      
+
                 // adiciona o jogador ao mapa
-                MapGeneral.Map.PlayerID.Add(pData.AccountID);
+                MapManager.FindMapByID(pData.WorldID).CharacterID.Add(pData.CharacterID);
+                FileLog.WriteLog($"{pData.CharacterName} joined map id {pData.WorldID}", System.Drawing.Color.Black);
 
                 //envia outros jogadores do mapa
-                MapGeneral.Map.GetPlayerOnMap(pData);
+                MapManager.FindMapByID(pData.WorldID).GetPlayerOnMap(pData);
 
                 //envia jogador para outros jogadores do mapa
-                MapGeneral.Map.SendPlayerToMap(pData);
+                MapManager.FindMapByID(pData.WorldID).SendPlayerToMap(pData);
 
                 //########################
                 //####  GET MAP DATA  ####
@@ -148,7 +168,7 @@ namespace GameServer.Server {
                 // Maps.MapPacket.SendNpc(pData.Connection, 0);
 
                 // Muda de janela
-                GameServerPacket.GameState(pData.HexID, 6);
+                GamePacket.GameState(pData.HexID, 6);
             }
         }
 
@@ -157,8 +177,10 @@ namespace GameServer.Server {
         /// </summary>
         public static void VerifyHexID() {
             foreach (HexaID hexID in HexID) {
-                if (Environment.TickCount > hexID.Time + 45000) {
-                    LogConfig.WriteLog($"Removed HexID: {hexID.HexID} {hexID.Account}", System.Drawing.Color.Coral);
+                if (Equals(null, hexID)) { continue; }
+
+                if (Environment.TickCount >= hexID.Time + 30000) {
+                    FileLog.WriteLog($"Removed HexID: {hexID.HexID} {hexID.Account}", System.Drawing.Color.Coral);
                     HexID.Remove(hexID); 
                 }
             }
@@ -187,6 +209,34 @@ namespace GameServer.Server {
         public static PlayerData FindByAccountID(int pID) {
             var find_id = from pData in Player
                           where pData.AccountID.CompareTo(pID) == 0
+                          select pData;
+
+            return find_id.FirstOrDefault();
+        }
+
+        /// <summary>
+        /// Realiza uma busca pelo ID de usuário.
+        /// </summary>
+        /// <param name="cID"></param>
+        /// <returns></returns>
+        public static PlayerData FindByCharacterID(int cID) {
+            var find_id = from pData in Player
+                          where pData.CharacterID.CompareTo(cID) == 0
+                          select pData;
+
+            return find_id.FirstOrDefault();
+        }
+
+        /// <summary>
+        /// Realiza uma busca pelo nome do personagem.
+        /// </summary>
+        /// <param name="pID"></param>
+        /// <returns></returns>
+        public static PlayerData FindByCharacterName(string charName) {
+            if (string.IsNullOrEmpty(charName)) { return null; }
+
+            var find_id = from pData in Player
+                          where pData.CharacterName.CompareTo(charName) == 0
                           select pData;
 
             return find_id.FirstOrDefault();
@@ -245,6 +295,5 @@ namespace GameServer.Server {
 
             return find_account.FirstOrDefault() == null ? true : false;
         }
-
     }
 }

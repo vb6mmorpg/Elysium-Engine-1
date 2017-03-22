@@ -26,9 +26,9 @@ namespace GameServer.GameLogic.Character {
             pData.MaxMP = Classe.Classes[index].GetPlayerStat(StatType.MaxMP, pData, value);
             pData.MaxSP = Classe.Classes[index].GetPlayerStat(StatType.MaxSP, pData, value);
 
-            if (pData.HP > pData.MaxHP) pData.HP = pData.MaxHP;
-            if (pData.MP > pData.MaxMP) pData.MP = pData.MaxMP;
-            if (pData.SP > pData.MaxSP) pData.SP = pData.MaxSP;
+            if (pData.HP > pData.MaxHP || pData.HP == 0) pData.HP = pData.MaxHP;
+            if (pData.MP > pData.MaxMP || pData.MP == 0) pData.MP = pData.MaxMP;
+            if (pData.SP > pData.MaxSP || pData.SP == 0) pData.SP = pData.MaxSP;
 
             pData.RegenHP = Classe.Classes[index].GetPlayerStat(StatType.RegenHP, pData, value);
             pData.RegenMP = Classe.Classes[index].GetPlayerStat(StatType.RegenMP, pData, value);

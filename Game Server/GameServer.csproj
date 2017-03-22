@@ -87,7 +87,7 @@
     <Compile Include="Enumeration\StatType.cs" />
     <Compile Include="Common\Configuration.cs" />
     <Compile Include="Enumeration\Enumeration.cs" />
-    <Compile Include="Common\LogConfig.cs" />
+    <Compile Include="Common\FileLog.cs" />
     <Compile Include="Enumeration\PacketList.cs" />
     <Compile Include="GameLogic\Character\CharacterLogic.cs" />
     <Compile Include="Guild\Guild.cs" />
@@ -98,8 +98,7 @@
     <Compile Include="Guild\GuildMember.cs" />
     <Compile Include="Item\Item.cs" />
     <Compile Include="Maps\MapData.cs" />
-    <Compile Include="Maps\MapGeneral.cs" />
-    <Compile Include="Maps\MapLimit.cs" />
+    <Compile Include="Maps\MapManager.cs" />
     <Compile Include="Maps\MapPacket.cs" />
     <Compile Include="Maps\MapRegion.cs" />
     <Compile Include="MySQL\Classes_DB.cs" />
@@ -107,11 +106,10 @@
     <Compile Include="MySQL\Item_DB.cs" />
     <Compile Include="MySQL\Npc_DB.cs" />
     <Compile Include="MySQL\ServerData_DB.cs" />
-    <Compile Include="Network\GameServerData.cs" />
-    <Compile Include="Network\GameServerNetwork.cs" />
-    <Compile Include="Network\GameServerPacket.cs" />
-    <Compile Include="Network\Packet\PlayerPacket.cs" />
-    <Compile Include="Npcs\NpcGeneral.cs" />
+    <Compile Include="Network\GameData.cs" />
+    <Compile Include="Network\GameNetwork.cs" />
+    <Compile Include="Network\GamePacket.cs" />
+    <Compile Include="Npcs\NpcManager.cs" />
     <Compile Include="Npcs\NpcData.cs" />
     <Compile Include="Server\Authentication.cs" />
     <Compile Include="Server\Experience.cs" />
@@ -161,9 +159,7 @@
   <ItemGroup>
     <Content Include="gs.ico" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Abstract\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -5,6 +5,9 @@ using LoginServer.MySQL;
 
 namespace LoginServer.Server {
     public class Login {
+        public static int CPS { get; set; }
+        private static int count, tick;
+
         /// <summary>
         /// Loop do servidor.
         /// </summary>
@@ -18,9 +21,20 @@ namespace LoginServer.Server {
 
                 // Recebe os dados do world server
                 WorldNetwork.WorldServerReceiveData();
+
+                // Verifica cada ip bloqueado, se o tempo expirou remove da lista
+                GeoIp.CheckIpBlockedTime();
+
+                if (Environment.TickCount >= tick + 1000) {
+                    CPS = count;
+                    tick = Environment.TickCount;
+                    count = 0;
+                }
+
+                count++;
             }
-            catch (Exception e) {
-                throw new Exception($"Ocorreu um erro: {e.Message}", e);
+            catch {
+
             }
         }
 

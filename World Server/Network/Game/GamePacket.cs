@@ -21,11 +21,11 @@ namespace WorldServer.Network {
             buffer.Write(pData.CharSlot);
 
             //pega a quantidade de serviços
-            var servicesID = pData.Service.ServicesID();
+            var servicesID = pData.Service.GetServicesID();
             buffer.Write(servicesID.Length);
 
             //escreve cada um no buffer
-            foreach (var id in servicesID) buffer.Write(pData.Service.ServiceTime(id));
+            foreach (var id in servicesID) buffer.Write(pData.Service.GetServiceTime(id));
 
             GameNetwork.GameServer[serverID].SendData(buffer);  
         }

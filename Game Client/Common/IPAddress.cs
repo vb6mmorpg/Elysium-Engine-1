@@ -1,6 +1,4 @@
-﻿
-//Configuração de IP
-public struct IPAddress {
+﻿public struct IPAddress {
     public string IP { get; set; }
     public int Port { get; set; }
 
@@ -13,5 +11,10 @@ public struct IPAddress {
         IP = ip;
         Port = port; 
     } 
+
+    public void Clear() {
+        IP = string.Empty;
+        Port = 0;
+    }
 }
 

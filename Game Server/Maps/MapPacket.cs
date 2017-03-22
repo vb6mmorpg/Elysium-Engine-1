@@ -9,23 +9,23 @@ using Lidgren.Network;
 namespace GameServer.Maps {
     public class MapPacket {
         public static void SendNpc(NetConnection connection, int index) {
-            var buffer = GameServerNetwork.Socket.CreateMessage();
-        //    buffer.Write((int)PacketList.GameServer_SendNpc);
-            buffer.Write(MapGeneral.Map.Npc.Count);
+       //     var buffer = GameNetwork.CreateMessage();
+         //   buffer.Write((int)PacketList.GameServer_SendNpc);
+        //    buffer.Write(MapManager.Map.Npc.Count);
 
-            foreach (var item in MapGeneral.Map.Npc) {
-                buffer.Write(item.Sprite);
-                buffer.Write(item.Level);
-                buffer.Write(item.HP);
-                buffer.Write(item.X);
-                buffer.Write(item.Y);
-            }
+           // foreach (var item in MapManager.Map.Npc) {
+          //      buffer.Write(item.Sprite);
+        //        buffer.Write(item.Level);
+       //         buffer.Write(item.HP);
+        //        buffer.Write(item.X);
+        //        buffer.Write(item.Y);
+        //    }
 
-            GameServerNetwork.SendDataTo(connection, buffer, NetDeliveryMethod.ReliableOrdered);
+        //    GameNetwork.SendDataTo(connection, buffer, NetDeliveryMethod.ReliableOrdered);
         }
 
-        public static void SendMapPlayer(NetConnection connection, int playerID, string name, short sprite, short direction, short x, short y) {
-            var buffer = GameServerNetwork.Socket.CreateMessage();
+        public static void SendMapPlayer(NetConnection connection, int playerID, string name, short sprite, byte direction, short x, short y) {
+            var buffer = GameNetwork.CreateMessage();
             buffer.Write((int)PacketList.GameServer_Client_GetMapPlayer);
             buffer.Write(playerID);
             buffer.Write(name);
@@ -34,17 +34,25 @@ namespace GameServer.Maps {
             buffer.Write(x);
             buffer.Write(y);
 
-            GameServerNetwork.SendDataTo(connection, buffer, NetDeliveryMethod.ReliableOrdered);
+            GameNetwork.SendDataTo(connection, buffer, NetDeliveryMethod.ReliableOrdered);
 
         }
 
-        public static void SendPlayerMapMove(NetConnection connection, int playerID, short direction) {
-            var buffer = GameServerNetwork.Socket.CreateMessage();
+        public static void RemovePlayerOnMap(NetConnection connection, int playerID) {
+            var buffer = GameNetwork.CreateMessage();
+            buffer.Write((int)PacketList.GameServer_Client_RemovePlayerFromMap);
+            buffer.Write(playerID);
+
+            GameNetwork.SendDataTo(connection, buffer, NetDeliveryMethod.ReliableOrdered);
+        }
+
+        public static void SendPlayerMapMove(NetConnection connection, int playerID, byte direction) {
+            var buffer = GameNetwork.CreateMessage();
             buffer.Write((int)PacketList.GameServer_Client_PlayerMapMove);
             buffer.Write(playerID);
             buffer.Write(direction);
 
-            GameServerNetwork.SendDataTo(connection, buffer, NetDeliveryMethod.ReliableOrdered);
+            GameNetwork.SendDataTo(connection, buffer, NetDeliveryMethod.ReliableOrdered);
         }
     }
 }

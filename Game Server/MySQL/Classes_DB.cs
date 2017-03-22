@@ -28,8 +28,8 @@ namespace GameServer.MySQL {
                 _base.RegenHP = (int)reader["regen_hp"];
                 _base.RegenMP = (int)reader["regen_mp"];
                 _base.RegenSP = (int)reader["regen_sp"];
-                _base.SpriteFemale = Convert.ToInt16(reader["sprite_female"]);
-                _base.SpriteMale = Convert.ToInt16(reader["sprite_male"]);
+              //  _base.SpriteFemale = Convert.ToInt16(reader["sprite_female"]);
+             //   _base.SpriteMale = Convert.ToInt16(reader["sprite_male"]);
                 _base.Level = (int)reader["level"];
                 _base.Strenght = (int)reader["strenght"];
                 _base.Dexterity = (int)reader["dexterity"];

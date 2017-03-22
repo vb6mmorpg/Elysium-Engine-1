@@ -22,8 +22,8 @@ namespace Elysium_Diamond.Network {
                 case (int)PacketList.LoginServer_Client_AccountDisabled: Message.Show(PacketList.LoginServer_Client_AccountDisabled); break;
                 case (int)PacketList.LoginServer_Client_InvalidNamePass: Message.Show(PacketList.LoginServer_Client_InvalidNamePass); break;
                 case (int)PacketList.LoginServer_Client_AlreadyLoggedIn: Message.Show(PacketList.LoginServer_Client_AlreadyLoggedIn); break;
-                case (int)PacketList.LoginServer_Client_SendPlayerHexID: LoginServerData.HexID(msg.ReadString()); break;
-                case (int)PacketList.LoginServer_Client_ServerList: LoginServerData.ServerList(msg); break;
+                case (int)PacketList.LoginServer_Client_SendPlayerHexID: LoginData.HexID(msg.ReadString()); break;
+                case (int)PacketList.LoginServer_Client_ServerList: LoginData.ServerList(msg); break;
 
                 case (int)PacketList.WorldServer_Client_CharacterDeleted: Message.Show(PacketList.WorldServer_Client_CharacterDeleted); break;
                 case (int)PacketList.WorldServer_Client_CharNameInUse: Message.Show(PacketList.WorldServer_Client_CharNameInUse); break;
@@ -32,28 +32,29 @@ namespace Elysium_Diamond.Network {
                 case (int)PacketList.WorldServer_Client_InvalidLevelToDelete: Message.Show(PacketList.WorldServer_Client_InvalidLevelToDelete); break;
 
 
-                case (int)PacketList.GameServer_Client_NeedHexID: GameServerPacket.GameServerHexID(); break;
-                case (int)PacketList.GameServer_Client_PlayerData: GameServerData.PlayerData(msg); break;
+                case (int)PacketList.GameServer_Client_NeedHexID: GamePacket.GameServerHexID(); break;
+                case (int)PacketList.GameServer_Client_PlayerData: GameData.PlayerData(msg); break;
                // case (int)PacketList.GameServer_SendNpc: GameServerData.ReceiveNpc(msg); break;
-                case (int)PacketList.GameServer_Client_GetMapPlayer: GameServerData.GetPlayerOnMap(msg); break;
-                case (int)PacketList.GameServer_Client_PlayerMapMove: GameServerData.PlayerMapMove(msg); break;
+                case (int)PacketList.GameServer_Client_GetMapPlayer: GameData.GetPlayerMap(msg); break;
+                case (int)PacketList.GameServer_Client_PlayerMapMove: GameData.PlayerMapMove(msg); break;
   
 
-                case (int)PacketList.WorldServer_Client_NeedPlayerHexID: WorldServerPacket.WorldServerHexID(); break;
-                case (int)PacketList.WorldServer_Client_CharacterPreLoad: WorldServerData.PreLoad(msg); break;
+                case (int)PacketList.WorldServer_Client_NeedPlayerHexID: WorldPacket.WorldServerHexID(); break;
+                case (int)PacketList.WorldServer_Client_CharacterPreLoad: WorldData.PreLoad(msg); break;
                // case (int)PacketList.WorldServer_Client_GuildInfo: WorldServerData.WorldGuildInfo(msg); break;
-                case (int)PacketList.WorldServer_Client_GameServerData: WorldServerData.GameServerData(msg); break;
+                case (int)PacketList.WorldServer_Client_GameServerData: WorldData.GameServerData(msg); break;
 
-                case (int)PacketList.GameServer_Client_PlayerLocation: GameServerData.PlayerLocation(msg); break;
-                case (int)PacketList.GameServer_Client_PlayerStats: GameServerData.PlayerStats(msg); break;
-                case (int)PacketList.GameServer_Client_PlayerVital: GameServerData.PlayerVital(msg); break;
-                case (int)PacketList.GameServer_Client_PlayerVitalRegen: GameServerData.PlayerVitalRegen(msg); break;
-                case (int)PacketList.GameServer_Client_PlayerPhysicalStats: GameServerData.PlayerPhysicalStats(msg); break;
-                case (int)PacketList.GameServer_Client_PlayerExp: GameServerData.PlayerExp(msg); break;
-                case (int)PacketList.GameServer_Client_PlayerMagicalStats: GameServerData.PlayerMagicalStats(msg); break;
-                case (int)PacketList.GameServer_Client_PlayerUniqueStats: GameServerData.PlayerUniqueStats(msg); break;
-                case (int)PacketList.GameServer_Client_PlayerElementalStats: GameServerData.PlayerElementalStats(msg); break;
-                case (int)PacketList.GameServer_Client_PlayerResistStats: GameServerData.PlayerResistStats(msg); break;
+                case (int)PacketList.GameServer_Client_PlayerLocation: GameData.PlayerLocation(msg); break;
+                case (int)PacketList.GameServer_Client_PlayerStats: GameData.PlayerStats(msg); break;
+                case (int)PacketList.GameServer_Client_PlayerVital: GameData.PlayerVital(msg); break;
+                case (int)PacketList.GameServer_Client_PlayerVitalRegen: GameData.PlayerVitalRegen(msg); break;
+                case (int)PacketList.GameServer_Client_PlayerPhysicalStats: GameData.PlayerPhysicalStats(msg); break;
+                case (int)PacketList.GameServer_Client_PlayerExp: GameData.PlayerExp(msg); break;
+                case (int)PacketList.GameServer_Client_PlayerMagicalStats: GameData.PlayerMagicalStats(msg); break;
+                case (int)PacketList.GameServer_Client_PlayerUniqueStats: GameData.PlayerUniqueStats(msg); break;
+                case (int)PacketList.GameServer_Client_PlayerElementalStats: GameData.PlayerElementalStats(msg); break;
+                case (int)PacketList.GameServer_Client_PlayerResistStats: GameData.PlayerResistStats(msg); break;
+                case (int)PacketList.GameServer_Client_RemovePlayerFromMap: GameData.RemovePlayerMap(msg.ReadInt32()); break;
             }
         }
     }

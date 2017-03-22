@@ -34,6 +34,7 @@
     Client_WorldServer_DeleteCharacter = 0x0191,
     Client_WorldServer_CreateCharacter = 0x0192,
     Client_WorldServer_EnterInGame = 0x0193,
+    Client_WorldServer_RequestPreLoad = 0x0194,
 
     //500 ~599 world server to client
     WorldServer_Client_CharacterCreationDisabled = 0x01F4,
@@ -70,5 +71,6 @@
     GameServer_Client_PlayerMagicalStats = 0x07DA,
     GameServer_Client_PlayerUniqueStats = 0x07DB,
     GameServer_Client_PlayerElementalStats = 0x07DC,
-    GameServer_Client_PlayerResistStats = 0x07DE
+    GameServer_Client_PlayerResistStats = 0x07DE,
+    GameServer_Client_RemovePlayerFromMap = 0x07DF
 }

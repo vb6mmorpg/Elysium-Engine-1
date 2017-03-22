@@ -8,13 +8,28 @@ using GameServer.Network;
 
 namespace GameServer.Maps {
     public class MapData {
-        public HashSet<int> PlayerID { get; set; } = new HashSet<int>();
+        /// <summary>
+        /// ID do mapa.
+        /// </summary>
+        public int ID { get; set; }
+
+        /// <summary>
+        /// Lista de jogadores no mapa.
+        /// </summary>
+        public HashSet<int> CharacterID { get; set; } = new HashSet<int>();
+
+        /// <summary>
+        /// Lista de Npc
+        /// </summary>
         public HashSet<NpcData> Npc { get; set; } = new HashSet<NpcData>();
 
-        //public MapLimit RegionLimit { get; set; }
-        //public HashSet<ObjectData> MapObject { get; set; }
-        //public HashSet<ItemDrop> MapItems { get; set; }
-        //public HashSet<MapAttributeData> MapAttribute { get; set; }
+        /// <summary>
+        /// Construtor.
+        /// </summary>
+        /// <param name="id"></param>
+        public MapData(int id) {
+            ID = id;
+        }
 
         /// <summary>
         /// Encontra um npc pelo ID.
@@ -30,18 +45,18 @@ namespace GameServer.Maps {
         }
 
         /// <summary>
-        /// Envia determinado jogador para todos do mapa.
+        /// Envia jogador para todos do mapa.
         /// </summary>
         /// <param name="pData"></param>
         public void SendPlayerToMap(PlayerData pData) {
-            foreach (int playerID in PlayerID) {
+            foreach (int characterID in CharacterID) {
                 //procura o jogador pelo ID
-                var playerData = Authentication.FindByAccountID(playerID);
+                var playerData = Authentication.FindByCharacterID(characterID);
 
                 //se for o mesmo jogador, ignora
-                if (playerData.AccountID == pData.AccountID) { continue; }
+                if (playerData.CharacterID == pData.CharacterID) { continue; }
 
-                MapPacket.SendMapPlayer(playerData.Connection, pData.AccountID, pData.CharacterName, pData.Sprite, pData.Direction, pData.PosX, pData.PosY);
+                MapPacket.SendMapPlayer(playerData.Connection, pData.CharacterID, pData.CharacterName, pData.Sprite, pData.Direction, pData.PosX, pData.PosY);
             }
         }
 
@@ -50,60 +65,48 @@ namespace GameServer.Maps {
         /// </summary>
         /// <param name="pData"></param>
         public void GetPlayerOnMap(PlayerData pData) {
-            foreach (int playerID in PlayerID) {
+            foreach (int characterID in CharacterID) {
                 //procura o jogador pelo ID
-                var playerData = Authentication.FindByAccountID(playerID);
+                var playerData = Authentication.FindByCharacterID(characterID);
 
                 //se for o mesmo jogador, ignora
-                if (playerData.AccountID == pData.AccountID) { continue; }
+                if (playerData.CharacterID == pData.CharacterID) { continue; }
 
-                MapPacket.SendMapPlayer(pData.Connection, playerData.AccountID, playerData.CharacterName, playerData.Sprite, playerData.Direction, playerData.PosX, playerData.PosY);
+                MapPacket.SendMapPlayer(pData.Connection, playerData.CharacterID, playerData.CharacterName, playerData.Sprite, playerData.Direction, playerData.PosX, playerData.PosY);
             }
         }
 
-        public void SendPlayerMove(PlayerData pData, short dir) {
-            foreach (int playerID in PlayerID) {
+        /// <summary>
+        /// Envia o movimento do jogador para o mapa.
+        /// </summary>
+        /// <param name="pData"></param>
+        /// <param name="dir"></param>
+        public void SendPlayerMove(PlayerData pData, byte dir) {
+            foreach (int characterID in CharacterID) {
                 //procura o jogador pelo ID
-                var playerData = Authentication.FindByAccountID(playerID);
+                var playerData = Authentication.FindByCharacterID(characterID);
 
                 //se for o mesmo jogador, ignora
-                if (playerData.AccountID == pData.AccountID) { continue; }
+                if (playerData.CharacterID == pData.CharacterID) { continue; }
 
-                MapPacket.SendPlayerMapMove(playerData.Connection, pData.AccountID, dir);
+                MapPacket.SendPlayerMapMove(playerData.Connection, pData.CharacterID, dir);
             }
         }
 
+        /// <summary>
+        /// Remove um jogador do mapa.
+        /// </summary>
+        /// <param name="id"></param>
+        public void RemovePlayer(int characterID) {
+            CharacterID.Remove(characterID);
 
-        public void ExecuteMapAI() {
+            foreach (int id in CharacterID) {
+                var pData = Authentication.FindByCharacterID(id);
 
+                if (pData.CharacterID == characterID) { continue; }
+
+                MapPacket.RemovePlayerOnMap(pData.Connection, characterID);
+            }
         }
-        public void ExecuteNpcAI() {
-
-        }
-
     }
 }
-
-
-
-/* public void InitializeMap() {
-     var npc = (NpcData)NpcGeneral.FindByID(1).Clone();
-     npc.X = 10 * 32;
-     npc.Y = 5 * 32;
-
-     Npc.Add(npc);
-
-     npc = null;
-     npc = (NpcData)NpcGeneral.FindByID(2).Clone();
-     npc.X = 15 * 32;
-     npc.Y = 13 * 32;
-
-     Npc.Add(npc);
-
-     npc = null;
-     npc = (NpcData)NpcGeneral.FindByID(3).Clone();
-     npc.X = 3 * 32;
-     npc.Y = 10 * 32;
-
-     Npc.Add(npc); 
-}*/

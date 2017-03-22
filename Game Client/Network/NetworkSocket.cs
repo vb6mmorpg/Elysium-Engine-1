@@ -33,8 +33,16 @@ namespace Elysium_Diamond.Network {
             }
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         public static NetOutgoingMessage CreateMessage() {
             return client[0].CreateMessage();
+        }
+
+        public static NetOutgoingMessage CreateMessage(int initialCapacity) {
+            return client[0].CreateMessage(initialCapacity);
         }
 
         /// <summary>

@@ -57,6 +57,7 @@ namespace GameServer.Server {
         public long GetMaxExp() {
             return (long)experience[LevelMax];
         }
+
         /// <summary>
         /// Limpa os dados do hashset.
         /// </summary>

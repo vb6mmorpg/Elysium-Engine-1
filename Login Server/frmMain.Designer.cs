@@ -39,13 +39,13 @@
             this.reloadVersion_MenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clear_MenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ClearScreenSeconds = new System.Windows.Forms.ToolStripMenuItem();
-            this.checkLog = new System.Windows.Forms.ToolStripMenuItem();
             this.manutençãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.disableLogin_MenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.config_TabPage = new System.Windows.Forms.TabControl();
             this.general_TabPage = new System.Windows.Forms.TabPage();
             this.general_textbox = new System.Windows.Forms.RichTextBox();
             this.timerClear = new System.Windows.Forms.Timer(this.components);
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.menuStrip.SuspendLayout();
             this.config_TabPage.SuspendLayout();
             this.general_TabPage.SuspendLayout();
@@ -94,8 +94,7 @@
             this.config_MenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.reloadSList_MenuItem,
             this.reloadVersion_MenuItem,
-            this.clear_MenuItem,
-            this.checkLog});
+            this.clear_MenuItem});
             this.config_MenuItem.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.config_MenuItem.Name = "config_MenuItem";
             this.config_MenuItem.Size = new System.Drawing.Size(102, 20);
@@ -104,14 +103,14 @@
             // reloadSList_MenuItem
             // 
             this.reloadSList_MenuItem.Name = "reloadSList_MenuItem";
-            this.reloadSList_MenuItem.Size = new System.Drawing.Size(256, 22);
+            this.reloadSList_MenuItem.Size = new System.Drawing.Size(245, 22);
             this.reloadSList_MenuItem.Text = "Recarregar WorldSever List";
             this.reloadSList_MenuItem.Click += new System.EventHandler(this.reload_MenuItem_Click);
             // 
             // reloadVersion_MenuItem
             // 
             this.reloadVersion_MenuItem.Name = "reloadVersion_MenuItem";
-            this.reloadVersion_MenuItem.Size = new System.Drawing.Size(256, 22);
+            this.reloadVersion_MenuItem.Size = new System.Drawing.Size(245, 22);
             this.reloadVersion_MenuItem.Text = "Recarregar Versão";
             this.reloadVersion_MenuItem.Click += new System.EventHandler(this.reloadVersion_MenuItem_Click);
             // 
@@ -120,7 +119,7 @@
             this.clear_MenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ClearScreenSeconds});
             this.clear_MenuItem.Name = "clear_MenuItem";
-            this.clear_MenuItem.Size = new System.Drawing.Size(256, 22);
+            this.clear_MenuItem.Size = new System.Drawing.Size(245, 22);
             this.clear_MenuItem.Text = "Limpar Tela";
             this.clear_MenuItem.Click += new System.EventHandler(this.clear_MenuItem_Click);
             // 
@@ -130,14 +129,6 @@
             this.ClearScreenSeconds.Size = new System.Drawing.Size(156, 22);
             this.ClearScreenSeconds.Text = "30 segundos";
             this.ClearScreenSeconds.Click += new System.EventHandler(this.ClearScreenSeconds_Click);
-            // 
-            // checkLog
-            // 
-            this.checkLog.CheckOnClick = true;
-            this.checkLog.Name = "checkLog";
-            this.checkLog.Size = new System.Drawing.Size(256, 22);
-            this.checkLog.Text = "Desabilitar logs no programa";
-            this.checkLog.Click += new System.EventHandler(this.checkLog_Click);
             // 
             // manutençãoToolStripMenuItem
             // 
@@ -194,6 +185,12 @@
             this.timerClear.Interval = 30000;
             this.timerClear.Tick += new System.EventHandler(this.timerClear_Tick);
             // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 850;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -208,7 +205,7 @@
             this.MaximizeBox = false;
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Login Server @";
+            this.Text = "Login Server @ 0";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmMain_FormClosing);
             this.Load += new System.EventHandler(this.frmMain_Load);
             this.menuStrip.ResumeLayout(false);
@@ -232,12 +229,12 @@
         private System.Windows.Forms.TabControl config_TabPage;
         private System.Windows.Forms.TabPage general_TabPage;
         public System.Windows.Forms.RichTextBox general_textbox;
-        public System.Windows.Forms.ToolStripMenuItem checkLog;
         private System.Windows.Forms.ToolStripMenuItem manutençãoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem disableLogin_MenuItem;
         private System.Windows.Forms.ToolStripMenuItem reloadVersion_MenuItem;
         private System.Windows.Forms.ToolStripMenuItem ClearScreenSeconds;
         private System.Windows.Forms.Timer timerClear;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 

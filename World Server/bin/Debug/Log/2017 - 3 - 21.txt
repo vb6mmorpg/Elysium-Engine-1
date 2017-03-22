@@ -1,0 +1,338 @@
+03/21/2017 13:33:24: Discovery Response IPEndPoint: 127.0.0.1
+03/21/2017 13:33:24: Status changed to connected: 127.0.0.1
+03/21/2017 13:33:43: Data From Login Server ID: 1 Account: akaruz 5F2D55CA15627B30
+03/21/2017 13:33:43: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 13:33:43: Status changed to connected: 189.47.119.147
+03/21/2017 13:33:43: Data From Client: 5F2D55CA15627B30
+03/21/2017 13:33:43: Player Found ID: 1 Account: akaruz 5F2D55CA15627B30
+03/21/2017 13:33:43: PreLoad ID: 1 Account: akaruz
+03/21/2017 13:34:22: Status changed to disconnected: 1 akaruz 189.47.119.147 5F2D55CA15627B30
+03/21/2017 14:13:18: Data From Login Server ID: 1 Account: akaruz 6A6319E46CE49CE0
+03/21/2017 14:13:19: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 14:13:19: Status changed to connected: 189.47.119.147
+03/21/2017 14:13:19: Data From Client: 6A6319E46CE49CE0
+03/21/2017 14:13:19: Player Found ID: 1 Account: akaruz 6A6319E46CE49CE0
+03/21/2017 14:13:19: PreLoad ID: 1 Account: akaruz
+03/21/2017 14:13:20: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 14:13:38: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 14:13:39: Status changed to disconnected: 1 akaruz 189.47.119.147 6A6319E46CE49CE0
+03/21/2017 14:13:58: Data From Login Server ID: 1 Account: akaruz B825BFEEA5A3605E
+03/21/2017 14:13:58: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 14:13:58: Status changed to connected: 189.47.119.147
+03/21/2017 14:13:58: Data From Client: B825BFEEA5A3605E
+03/21/2017 14:13:58: Player Found ID: 1 Account: akaruz B825BFEEA5A3605E
+03/21/2017 14:13:58: PreLoad ID: 1 Account: akaruz
+03/21/2017 14:13:59: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 14:14:31: Status changed to disconnected: 1 akaruz 189.47.119.147 B825BFEEA5A3605E
+03/21/2017 14:14:41: Data From Login Server ID: 1 Account: akaruz F6D8950E285CF2D9
+03/21/2017 14:14:42: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 14:14:42: Status changed to connected: 189.47.119.147
+03/21/2017 14:14:42: Data From Client: F6D8950E285CF2D9
+03/21/2017 14:14:42: Player Found ID: 1 Account: akaruz F6D8950E285CF2D9
+03/21/2017 14:14:42: PreLoad ID: 1 Account: akaruz
+03/21/2017 14:14:43: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 14:15:02: Disconnected by login server: akaruz
+03/21/2017 14:15:02: Status changed to disconnected: 1 akaruz 189.47.119.147 F6D8950E285CF2D9
+03/21/2017 14:15:04: Data From Login Server ID: 1 Account: akaruz 89AFFAC225E6DE15
+03/21/2017 14:15:05: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 14:15:05: Status changed to connected: 189.47.119.147
+03/21/2017 14:15:05: Data From Client: 89AFFAC225E6DE15
+03/21/2017 14:15:05: Player Found ID: 1 Account: akaruz 89AFFAC225E6DE15
+03/21/2017 14:15:05: PreLoad ID: 1 Account: akaruz
+03/21/2017 14:15:06: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 14:15:34: Status changed to disconnected: 1 akaruz 189.47.119.147 89AFFAC225E6DE15
+03/21/2017 14:27:09: Data From Login Server ID: 1 Account: akaruz 8E6E2C43172B7F51
+03/21/2017 14:27:10: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 14:27:10: Status changed to connected: 189.47.119.147
+03/21/2017 14:27:10: Data From Client: 8E6E2C43172B7F51
+03/21/2017 14:27:10: Player Found ID: 1 Account: akaruz 8E6E2C43172B7F51
+03/21/2017 14:27:10: PreLoad ID: 1 Account: akaruz
+03/21/2017 14:27:12: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 14:27:45: Status changed to disconnected: 1 akaruz 189.47.119.147 8E6E2C43172B7F51
+03/21/2017 14:30:36: Data From Login Server ID: 1 Account: akaruz 64DE6B19F989591A
+03/21/2017 14:30:37: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 14:30:37: Status changed to connected: 189.47.119.147
+03/21/2017 14:30:37: Data From Client: 64DE6B19F989591A
+03/21/2017 14:30:37: Player Found ID: 1 Account: akaruz 64DE6B19F989591A
+03/21/2017 14:30:37: PreLoad ID: 1 Account: akaruz
+03/21/2017 14:30:38: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 14:31:12: Status changed to disconnected: 1 akaruz 189.47.119.147 64DE6B19F989591A
+03/21/2017 14:34:16: Data From Login Server ID: 1 Account: akaruz 5BD05E6D456D653C
+03/21/2017 14:34:17: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 14:34:17: Status changed to connected: 189.47.119.147
+03/21/2017 14:34:17: Data From Client: 5BD05E6D456D653C
+03/21/2017 14:34:17: Player Found ID: 1 Account: akaruz 5BD05E6D456D653C
+03/21/2017 14:34:17: PreLoad ID: 1 Account: akaruz
+03/21/2017 14:34:19: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 14:34:46: Status changed to disconnected: 1 akaruz 189.47.119.147 5BD05E6D456D653C
+03/21/2017 14:36:10: Data From Login Server ID: 1 Account: akaruz E88404F6D3C2A270
+03/21/2017 14:36:11: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 14:36:11: Status changed to connected: 189.47.119.147
+03/21/2017 14:36:11: Data From Client: E88404F6D3C2A270
+03/21/2017 14:36:11: Player Found ID: 1 Account: akaruz E88404F6D3C2A270
+03/21/2017 14:36:11: PreLoad ID: 1 Account: akaruz
+03/21/2017 14:36:12: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 14:36:58: Status changed to disconnected: 1 akaruz 189.47.119.147 E88404F6D3C2A270
+03/21/2017 14:42:05: Data From Login Server ID: 1 Account: akaruz 2328F6FDC580BACB
+03/21/2017 14:42:06: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 14:42:06: Status changed to connected: 189.47.119.147
+03/21/2017 14:42:06: Data From Client: 2328F6FDC580BACB
+03/21/2017 14:42:06: Player Found ID: 1 Account: akaruz 2328F6FDC580BACB
+03/21/2017 14:42:06: PreLoad ID: 1 Account: akaruz
+03/21/2017 14:43:39: Status changed to disconnected: 1 akaruz 189.47.119.147 2328F6FDC580BACB
+03/21/2017 14:44:33: Data From Login Server ID: 1 Account: akaruz 3C65FBB97DC38455
+03/21/2017 14:44:34: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 14:44:34: Status changed to connected: 189.47.119.147
+03/21/2017 14:44:34: Data From Client: 3C65FBB97DC38455
+03/21/2017 14:44:34: Player Found ID: 1 Account: akaruz 3C65FBB97DC38455
+03/21/2017 14:44:34: PreLoad ID: 1 Account: akaruz
+03/21/2017 14:44:35: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 14:45:03: Status changed to disconnected: 1 akaruz 189.47.119.147 3C65FBB97DC38455
+03/21/2017 14:45:26: Data From Login Server ID: 1 Account: akaruz 4F0DAFCD30693889
+03/21/2017 14:45:27: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 14:45:27: Status changed to connected: 189.47.119.147
+03/21/2017 14:45:27: Data From Client: 4F0DAFCD30693889
+03/21/2017 14:45:27: Player Found ID: 1 Account: akaruz 4F0DAFCD30693889
+03/21/2017 14:45:27: PreLoad ID: 1 Account: akaruz
+03/21/2017 14:45:29: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 14:46:02: Status changed to disconnected: 1 akaruz 189.47.119.147 4F0DAFCD30693889
+03/21/2017 14:47:32: Data From Login Server ID: 1 Account: akaruz F7316DFD00B3FBB3
+03/21/2017 14:47:32: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 14:47:32: Status changed to connected: 189.47.119.147
+03/21/2017 14:47:32: Data From Client: F7316DFD00B3FBB3
+03/21/2017 14:47:32: Player Found ID: 1 Account: akaruz F7316DFD00B3FBB3
+03/21/2017 14:47:32: PreLoad ID: 1 Account: akaruz
+03/21/2017 14:47:33: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 14:48:27: Status changed to disconnected: 1 akaruz 189.47.119.147 F7316DFD00B3FBB3
+03/21/2017 14:50:06: Data From Login Server ID: 1 Account: akaruz F87EB66512590DAC
+03/21/2017 14:50:06: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 14:50:06: Status changed to connected: 189.47.119.147
+03/21/2017 14:50:06: Data From Client: F87EB66512590DAC
+03/21/2017 14:50:06: Player Found ID: 1 Account: akaruz F87EB66512590DAC
+03/21/2017 14:50:06: PreLoad ID: 1 Account: akaruz
+03/21/2017 14:50:09: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 14:51:11: Disconnected by login server: akaruz
+03/21/2017 14:51:11: Status changed to disconnected: 1 akaruz 189.47.119.147 F87EB66512590DAC
+03/21/2017 14:51:12: Data From Login Server ID: 1 Account: akaruz 0B68A814C62C4966
+03/21/2017 14:51:13: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 14:51:13: Status changed to connected: 189.47.119.147
+03/21/2017 14:51:13: Data From Client: 0B68A814C62C4966
+03/21/2017 14:51:13: Player Found ID: 1 Account: akaruz 0B68A814C62C4966
+03/21/2017 14:51:13: PreLoad ID: 1 Account: akaruz
+03/21/2017 14:51:14: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 14:51:46: Status changed to disconnected: 1 akaruz 189.47.119.147 0B68A814C62C4966
+03/21/2017 14:51:48: Data From Login Server ID: 1 Account: akaruz A1AAB9AC386D27BB
+03/21/2017 14:51:48: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 14:51:48: Status changed to connected: 189.47.119.147
+03/21/2017 14:51:48: Data From Client: A1AAB9AC386D27BB
+03/21/2017 14:51:48: Player Found ID: 1 Account: akaruz A1AAB9AC386D27BB
+03/21/2017 14:51:48: PreLoad ID: 1 Account: akaruz
+03/21/2017 14:51:49: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 14:52:23: Status changed to disconnected: 1 akaruz 189.47.119.147 A1AAB9AC386D27BB
+03/21/2017 14:52:25: Data From Login Server ID: 1 Account: akaruz 418CCF17A42C3F03
+03/21/2017 14:52:26: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 14:52:26: Status changed to connected: 189.47.119.147
+03/21/2017 14:52:26: Data From Client: 418CCF17A42C3F03
+03/21/2017 14:52:26: Player Found ID: 1 Account: akaruz 418CCF17A42C3F03
+03/21/2017 14:52:26: PreLoad ID: 1 Account: akaruz
+03/21/2017 14:52:27: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 14:53:03: Status changed to disconnected: 1 akaruz 189.47.119.147 418CCF17A42C3F03
+03/21/2017 14:53:43: Data From Login Server ID: 1 Account: akaruz C55BFF00783C4400
+03/21/2017 14:53:43: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 14:53:43: Status changed to connected: 189.47.119.147
+03/21/2017 14:53:43: Data From Client: C55BFF00783C4400
+03/21/2017 14:53:43: Player Found ID: 1 Account: akaruz C55BFF00783C4400
+03/21/2017 14:53:43: PreLoad ID: 1 Account: akaruz
+03/21/2017 14:53:44: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 14:54:18: Status changed to disconnected: 1 akaruz 189.47.119.147 C55BFF00783C4400
+03/21/2017 14:56:06: Data From Login Server ID: 1 Account: akaruz 3676DE25FE2D0B79
+03/21/2017 14:56:06: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 14:56:07: Status changed to connected: 189.47.119.147
+03/21/2017 14:56:07: Data From Client: 3676DE25FE2D0B79
+03/21/2017 14:56:07: Player Found ID: 1 Account: akaruz 3676DE25FE2D0B79
+03/21/2017 14:56:07: PreLoad ID: 1 Account: akaruz
+03/21/2017 14:56:08: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 14:57:48: Status changed to disconnected: 1 akaruz 189.47.119.147 3676DE25FE2D0B79
+03/21/2017 15:01:44: Data From Login Server ID: 1 Account: akaruz C1E1D11C73C362E4
+03/21/2017 15:01:45: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 15:01:45: Status changed to connected: 189.47.119.147
+03/21/2017 15:01:45: Data From Client: C1E1D11C73C362E4
+03/21/2017 15:01:45: Player Found ID: 1 Account: akaruz C1E1D11C73C362E4
+03/21/2017 15:01:45: PreLoad ID: 1 Account: akaruz
+03/21/2017 15:01:46: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 15:02:34: Status changed to disconnected: 1 akaruz 189.47.119.147 C1E1D11C73C362E4
+03/21/2017 15:03:08: Data From Login Server ID: 1 Account: akaruz 6516D62F30FCB9B2
+03/21/2017 15:03:08: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 15:03:08: Status changed to connected: 189.47.119.147
+03/21/2017 15:03:08: Data From Client: 6516D62F30FCB9B2
+03/21/2017 15:03:08: Player Found ID: 1 Account: akaruz 6516D62F30FCB9B2
+03/21/2017 15:03:08: PreLoad ID: 1 Account: akaruz
+03/21/2017 15:03:10: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 15:03:43: Disconnected by login server: akaruz
+03/21/2017 15:03:43: Status changed to disconnected: 1 akaruz 189.47.119.147 6516D62F30FCB9B2
+03/21/2017 15:03:45: Data From Login Server ID: 1 Account: akaruz 9ADABA1409384873
+03/21/2017 15:03:46: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 15:03:46: Status changed to connected: 189.47.119.147
+03/21/2017 15:03:46: Data From Client: 9ADABA1409384873
+03/21/2017 15:03:46: Player Found ID: 1 Account: akaruz 9ADABA1409384873
+03/21/2017 15:03:46: PreLoad ID: 1 Account: akaruz
+03/21/2017 15:03:47: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 15:04:33: Status changed to disconnected: 1 akaruz 189.47.119.147 9ADABA1409384873
+03/21/2017 15:09:19: Data From Login Server ID: 1 Account: akaruz ED81E23C61860A11
+03/21/2017 15:09:20: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 15:09:20: Status changed to connected: 189.47.119.147
+03/21/2017 15:09:20: Data From Client: ED81E23C61860A11
+03/21/2017 15:09:20: Player Found ID: 1 Account: akaruz ED81E23C61860A11
+03/21/2017 15:09:20: PreLoad ID: 1 Account: akaruz
+03/21/2017 15:09:21: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 15:10:19: Status changed to disconnected: 1 akaruz 189.47.119.147 ED81E23C61860A11
+03/21/2017 15:26:21: Data From Login Server ID: 1 Account: akaruz 29D9183F87BB0C32
+03/21/2017 15:26:21: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 15:26:21: Status changed to connected: 189.47.119.147
+03/21/2017 15:26:22: Data From Client: 29D9183F87BB0C32
+03/21/2017 15:26:22: Player Found ID: 1 Account: akaruz 29D9183F87BB0C32
+03/21/2017 15:26:22: PreLoad ID: 1 Account: akaruz
+03/21/2017 15:26:23: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 15:27:01: Status changed to disconnected: 1 akaruz 189.47.119.147 29D9183F87BB0C32
+03/21/2017 15:36:55: Data From Login Server ID: 1 Account: akaruz A7A1BBBE48832BAA
+03/21/2017 15:36:56: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 15:36:56: Status changed to connected: 189.47.119.147
+03/21/2017 15:36:56: Data From Client: A7A1BBBE48832BAA
+03/21/2017 15:36:56: Player Found ID: 1 Account: akaruz A7A1BBBE48832BAA
+03/21/2017 15:36:56: PreLoad ID: 1 Account: akaruz
+03/21/2017 15:36:57: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 15:37:59: Status changed to disconnected: 1 akaruz 189.47.119.147 A7A1BBBE48832BAA
+03/21/2017 15:40:59: Data From Login Server ID: 1 Account: akaruz 743240FF4DB1B046
+03/21/2017 15:40:59: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 15:40:59: Status changed to connected: 189.47.119.147
+03/21/2017 15:40:59: Data From Client: 743240FF4DB1B046
+03/21/2017 15:40:59: Player Found ID: 1 Account: akaruz 743240FF4DB1B046
+03/21/2017 15:40:59: PreLoad ID: 1 Account: akaruz
+03/21/2017 15:41:01: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 15:41:48: Status changed to disconnected: 1 akaruz 189.47.119.147 743240FF4DB1B046
+03/21/2017 15:42:14: Data From Login Server ID: 1 Account: akaruz F63587BAC32D2BF8
+03/21/2017 15:42:14: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 15:42:14: Status changed to connected: 189.47.119.147
+03/21/2017 15:42:14: Data From Client: F63587BAC32D2BF8
+03/21/2017 15:42:14: Player Found ID: 1 Account: akaruz F63587BAC32D2BF8
+03/21/2017 15:42:14: PreLoad ID: 1 Account: akaruz
+03/21/2017 15:43:03: Status changed to disconnected: 1 akaruz 189.47.119.147 F63587BAC32D2BF8
+03/21/2017 16:07:37: Data From Login Server ID: 1 Account: akaruz 281E4E43404F6127
+03/21/2017 16:07:37: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 16:07:37: Status changed to connected: 189.47.119.147
+03/21/2017 16:07:37: Data From Client: 281E4E43404F6127
+03/21/2017 16:07:37: Player Found ID: 1 Account: akaruz 281E4E43404F6127
+03/21/2017 16:07:38: PreLoad ID: 1 Account: akaruz
+03/21/2017 16:07:40: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 16:08:21: Status changed to disconnected: 1 akaruz 189.47.119.147 281E4E43404F6127
+03/21/2017 16:40:39: Data From Login Server ID: 1 Account: akaruz ACE6260F1E9987A7
+03/21/2017 16:40:39: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 16:40:39: Status changed to connected: 189.47.119.147
+03/21/2017 16:40:40: Data From Client: ACE6260F1E9987A7
+03/21/2017 16:40:40: Player Found ID: 1 Account: akaruz ACE6260F1E9987A7
+03/21/2017 16:40:40: PreLoad ID: 1 Account: akaruz
+03/21/2017 16:40:42: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 16:41:17: Status changed to disconnected: 1 akaruz 189.47.119.147 ACE6260F1E9987A7
+03/21/2017 16:41:35: Data From Login Server ID: 1 Account: akaruz 1D594C513B7FA3E7
+03/21/2017 16:41:35: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 16:41:35: Status changed to connected: 189.47.119.147
+03/21/2017 16:41:35: Data From Client: 1D594C513B7FA3E7
+03/21/2017 16:41:35: Player Found ID: 1 Account: akaruz 1D594C513B7FA3E7
+03/21/2017 16:41:35: PreLoad ID: 1 Account: akaruz
+03/21/2017 16:41:41: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 16:42:34: Status changed to disconnected: 1 akaruz 189.47.119.147 1D594C513B7FA3E7
+03/21/2017 17:03:04: Discovery Response IPEndPoint: 127.0.0.1
+03/21/2017 17:03:04: Status changed to connected: 127.0.0.1
+03/21/2017 17:03:54: Data From Login Server ID: 1 Account: akaruz 2844E90AB74E0F29
+03/21/2017 17:03:55: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 17:03:55: Status changed to connected: 189.47.119.147
+03/21/2017 17:03:55: Data From Client: 2844E90AB74E0F29
+03/21/2017 17:03:55: Player Found ID: 1 Account: akaruz 2844E90AB74E0F29
+03/21/2017 17:03:55: PreLoad ID: 1 Account: akaruz
+03/21/2017 17:03:57: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 17:04:20: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 17:07:34: Discovery Response IPEndPoint: 127.0.0.1
+03/21/2017 17:07:34: Status changed to connected: 127.0.0.1
+03/21/2017 17:08:01: Data From Login Server ID: 1 Account: akaruz DED5882D4E68D41F
+03/21/2017 17:08:01: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 17:08:01: Status changed to connected: 189.47.119.147
+03/21/2017 17:08:01: Data From Client: DED5882D4E68D41F
+03/21/2017 17:08:01: Player Found ID: 1 Account: akaruz DED5882D4E68D41F
+03/21/2017 17:08:01: PreLoad ID: 1 Account: akaruz
+03/21/2017 17:08:03: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 17:08:14: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 17:08:46: Status changed to disconnected: 1 akaruz 189.47.119.147 DED5882D4E68D41F
+03/21/2017 17:23:26: Data From Login Server ID: 1 Account: akaruz FC71809164689591
+03/21/2017 17:23:26: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 17:23:26: Status changed to connected: 189.47.119.147
+03/21/2017 17:23:26: Data From Client: FC71809164689591
+03/21/2017 17:23:26: Player Found ID: 1 Account: akaruz FC71809164689591
+03/21/2017 17:23:26: PreLoad ID: 1 Account: akaruz
+03/21/2017 17:23:28: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 17:23:40: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 17:23:52: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 17:24:02: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 17:24:14: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 17:24:30: Data From Login Server ID: 2 Account: dragonick 0C41AF7499164E07
+03/21/2017 17:24:31: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 17:24:31: Status changed to connected: 189.47.119.147
+03/21/2017 17:24:31: Data From Client: 0C41AF7499164E07
+03/21/2017 17:24:31: Player Found ID: 2 Account: dragonick 0C41AF7499164E07
+03/21/2017 17:24:31: PreLoad ID: 2 Account: dragonick
+03/21/2017 17:24:32: GameServer Login Attempt: dragonick 189.47.119.147
+03/21/2017 17:24:54: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 17:25:00: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 17:25:06: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 17:25:36: Status changed to disconnected: 1 akaruz 189.47.119.147 FC71809164689591
+03/21/2017 17:25:42: Status changed to disconnected: 2 dragonick 189.47.119.147 0C41AF7499164E07
+03/21/2017 17:29:56: Data From Login Server ID: 1 Account: akaruz 8F26CC431FC1877E
+03/21/2017 17:29:56: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 17:29:56: Status changed to connected: 189.47.119.147
+03/21/2017 17:29:56: Data From Client: 8F26CC431FC1877E
+03/21/2017 17:29:56: Player Found ID: 1 Account: akaruz 8F26CC431FC1877E
+03/21/2017 17:29:56: PreLoad ID: 1 Account: akaruz
+03/21/2017 17:29:59: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 17:30:05: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 17:30:17: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 17:30:37: Disconnected by login server: akaruz
+03/21/2017 17:30:37: Status changed to disconnected: 1 akaruz 189.47.119.147 8F26CC431FC1877E
+03/21/2017 17:30:39: Data From Login Server ID: 1 Account: akaruz 0641469205B0A5CE
+03/21/2017 17:30:40: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 17:30:40: Status changed to connected: 189.47.119.147
+03/21/2017 17:30:40: Data From Client: 0641469205B0A5CE
+03/21/2017 17:30:40: Player Found ID: 1 Account: akaruz 0641469205B0A5CE
+03/21/2017 17:30:40: PreLoad ID: 1 Account: akaruz
+03/21/2017 17:30:50: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 17:32:42: Status changed to disconnected: 1 akaruz 189.47.119.147 0641469205B0A5CE
+03/21/2017 17:33:56: Data From Login Server ID: 1 Account: akaruz 5190FBB48D72C266
+03/21/2017 17:33:57: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 17:33:57: Status changed to connected: 189.47.119.147
+03/21/2017 17:33:57: Data From Client: 5190FBB48D72C266
+03/21/2017 17:33:57: Player Found ID: 1 Account: akaruz 5190FBB48D72C266
+03/21/2017 17:33:57: PreLoad ID: 1 Account: akaruz
+03/21/2017 17:34:00: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 17:34:28: Status changed to disconnected: 1 akaruz 189.47.119.147 5190FBB48D72C266
+03/21/2017 17:34:49: Data From Login Server ID: 1 Account: akaruz 25DCC8F3BA191BD7
+03/21/2017 17:34:50: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 17:34:50: Status changed to connected: 189.47.119.147
+03/21/2017 17:34:50: Data From Client: 25DCC8F3BA191BD7
+03/21/2017 17:34:50: Player Found ID: 1 Account: akaruz 25DCC8F3BA191BD7
+03/21/2017 17:34:50: PreLoad ID: 1 Account: akaruz
+03/21/2017 17:34:53: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 17:35:21: Status changed to disconnected: 1 akaruz 189.47.119.147 25DCC8F3BA191BD7
+03/21/2017 17:40:27: Data From Login Server ID: 1 Account: akaruz D2E2272223468C2F
+03/21/2017 17:40:27: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 17:40:27: Status changed to connected: 189.47.119.147
+03/21/2017 17:40:27: Data From Client: D2E2272223468C2F
+03/21/2017 17:40:27: Player Found ID: 1 Account: akaruz D2E2272223468C2F
+03/21/2017 17:40:27: PreLoad ID: 1 Account: akaruz
+03/21/2017 17:40:32: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 17:40:58: GameServer Login Attempt: akaruz 189.47.119.147
+03/21/2017 17:41:34: Status changed to disconnected: 1 akaruz 189.47.119.147 D2E2272223468C2F
+03/21/2017 19:14:04: Discovery Response IPEndPoint: 127.0.0.1
+03/21/2017 19:14:04: Status changed to connected: 127.0.0.1
+03/21/2017 19:15:24: Discovery Response IPEndPoint: 127.0.0.1
+03/21/2017 19:15:24: Status changed to connected: 127.0.0.1
+03/21/2017 19:18:24: Discovery Response IPEndPoint: 127.0.0.1
+03/21/2017 19:18:24: Status changed to connected: 127.0.0.1
+03/21/2017 19:52:11: Status changed to disconnected: 0  127.0.0.1 

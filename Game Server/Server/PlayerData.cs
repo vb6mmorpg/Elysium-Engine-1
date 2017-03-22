@@ -23,9 +23,9 @@ namespace GameServer.Server {
         public int MaxMP { get; set; }
         public int MaxSP { get; set; }
         public long Exp { get; set; }
-        public int WorldID { get; set; }
-        public int RegionID { get; set; }
-        public short Direction { get; set; }
+        public short WorldID { get; set; }
+        public short RegionID { get; set; }
+        public byte Direction { get; set; }
         public short PosX { get; set; }
         public short PosY { get; set; }
         public PlayerService Service { get; set; }
@@ -61,6 +61,10 @@ namespace GameServer.Server {
         public void Clear() {
             AccountID = 0;
             Account = IP = string.Empty;
+            HexID = string.Empty;
+            CharacterID = 0;
+            CharacterName = string.Empty;
+            CharSlot = 0;
         }
     }
 }

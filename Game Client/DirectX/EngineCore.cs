@@ -3,8 +3,9 @@ using System.Windows.Forms;
 using Elysium_Diamond.Resource;
 using Elysium_Diamond.EngineWindow;
 using Elysium_Diamond.Network;
+using Elysium_Diamond.Classes;
 using Elysium_Diamond.Common;
-using Elysium_Diamond.Client;
+using Elysium_Diamond.GameClient;
 using SharpDX;
 using SharpDX.Direct3D9;
 using Color = SharpDX.Color;
@@ -30,6 +31,8 @@ namespace Elysium_Diamond.DirectX {
         /// Checa se o mouse foi pressionado.
         /// </summary>
         public static bool MouseDown { get; set; }
+
+        public static bool GameRunning { get; set; } = true;
 
         /// <summary>
         /// Coordenadas de mouse.
@@ -72,13 +75,17 @@ namespace Elysium_Diamond.DirectX {
 
         public static bool InitializeEngine() {
             NetworkSocket.Initialize();
+
             try {
                 background = new EngineObject($"{Environment.CurrentDirectory}\\Data\\background.png", 1024, 768);
                 background.Size = new Size2(1024, 768);
                 background.SourceRect = new Rectangle(0, 0, 1024, 768);
 
+                //Carrega os dados de classe.
+                ClasseManager.Initialize();
+
                 //Carrega os dados de experiencia
-                ExperienceManage.Experience.Initialize("experience");            
+                ExperienceManager.Experience.Initialize("experience");            
 
                 EngineFont.Initialize();
                 EngineMessageBox.Initialize();
@@ -92,7 +99,7 @@ namespace Elysium_Diamond.DirectX {
 
                 WindowGame.Initialize();
 
-                SpriteManage.Initialize();
+                SpriteManager.Initialize();
 
                 EngineMultimedia.PlayMusic(0, true);
 
@@ -117,7 +124,9 @@ namespace Elysium_Diamond.DirectX {
             if (GameState == 2) { WindowServer.Draw(); }
             if (GameState == 3) { WindowCharacter.Draw(); }
             if (GameState == 4) { WindowNewCharacter.Draw(); }
-            if (GameState == 6) { WindowGame.Draw(); }
+            if (GameState == 6) {
+                WindowGame.Draw();
+            }
         
             EngineInputBox.Draw();
             EngineMessageBox.Draw();
@@ -162,8 +171,13 @@ namespace Elysium_Diamond.DirectX {
         }
 
         public static void Exit() {
-            EngineMultimedia.StopEngine();
-            EngineMultimedia.StopMusic();
+            EngineMultimedia.StopMultimedia();
+
+            //limpa o endereço do servidor
+            if (NetworkSocket.Connected(NetworkSocketEnum.GameServer)) {
+                Common.Configuration.IPAddress[(int)NetworkSocketEnum.GameServer].Clear();
+                NetworkSocket.Disconnect(NetworkSocketEnum.GameServer);
+            }
 
             Application.Exit();
         }

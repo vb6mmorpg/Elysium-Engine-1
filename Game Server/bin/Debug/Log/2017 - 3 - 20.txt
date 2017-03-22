@@ -1,0 +1,1208 @@
+2017/03/20 6:25:16: Game Server Name: Canal 1
+2017/03/20 6:25:16: Discovery: Elysium Diamond #1.0.0
+2017/03/20 6:25:16: Port: 10120
+2017/03/20 6:25:16: MaximumConnections: 2000
+2017/03/20 6:25:16: ConnectionTimeOut: 25
+2017/03/20 6:25:16: Logs: True
+2017/03/20 6:25:16: Sleep: 1
+2017/03/20 6:25:16: Game Server ID: gameserver_1
+2017/03/20 6:25:16: Carregando config mysql
+2017/03/20 6:25:16: Connectado ao banco de dados
+2017/03/20 6:25:16: WorldServer 1  ID: Artemis
+2017/03/20 6:25:16: WorldServer 2  ID: 
+2017/03/20 6:25:16: WorldServer 3  ID: 
+2017/03/20 6:25:16: WorldServer 4  ID: 
+2017/03/20 6:25:16: WorldServer 5  ID: 
+2017/03/20 6:25:16: Carregando experiência
+2017/03/20 6:25:16: Level Max: 121
+2017/03/20 6:25:16: Exp Max: 22353256174
+2017/03/20 6:25:16: Carregando guilds
+2017/03/20 6:25:16: Carregando membros
+2017/03/20 6:25:16: Carregando classe(s) base
+2017/03/20 6:25:16: Carregando classe(s) incremento
+2017/03/20 6:25:16: Carregando NPC
+2017/03/20 6:25:16: Game Server Start
+2017/03/20 6:25:25: Discovery Response IPEndPoint: 127.0.0.1
+2017/03/20 6:25:25: Status changed to connected: 127.0.0.1
+2017/03/20 6:25:31: Data From World Server ID: 1 Account: akaruz Char ID: 35 Slot: 2 0B19B0BCEB774D97
+2017/03/20 6:25:42: Discovery Response IPEndPoint: 189.47.119.147
+2017/03/20 6:25:42: Discovery Response IPEndPoint: 189.47.119.147
+2017/03/20 6:25:42: Discovery Response IPEndPoint: 189.47.119.147
+2017/03/20 6:25:42: Discovery Response IPEndPoint: 189.47.119.147
+2017/03/20 6:25:42: Discovery Response IPEndPoint: 189.47.119.147
+2017/03/20 6:25:42: Discovery Response IPEndPoint: 189.47.119.147
+2017/03/20 6:25:42: Status changed to connected: 189.47.119.147
+2017/03/20 6:25:42: Received From Client: 
+2017/03/20 6:25:48: Data From World Server ID: 1 Account: akaruz Char ID: 35 Slot: 2 0B19B0BCEB774D97
+2017/03/20 6:25:48: Discovery Response IPEndPoint: 189.47.119.147
+2017/03/20 6:25:48: Status changed to connected: 189.47.119.147
+2017/03/20 6:25:48: Received From Client: 0B19B0BCEB774D97
+2017/03/20 6:25:48: Player Found ID: 35 Name: Nadaila
+2017/03/20 6:25:53: Nadaila Dir: 4 X: 28 Y: 23
+2017/03/20 6:25:53: Nadaila Dir: 4 X: 28 Y: 24
+2017/03/20 6:25:54: Nadaila Dir: 1 X: 28 Y: 23
+2017/03/20 6:25:54: Nadaila Dir: 1 X: 28 Y: 22
+2017/03/20 6:25:54: Nadaila Dir: 1 X: 28 Y: 21
+2017/03/20 6:25:54: Nadaila Dir: 1 X: 28 Y: 20
+2017/03/20 6:25:55: Nadaila Dir: 1 X: 28 Y: 19
+2017/03/20 6:25:55: Nadaila Dir: 4 X: 28 Y: 20
+2017/03/20 6:25:56: Nadaila Dir: 4 X: 28 Y: 21
+2017/03/20 6:25:56: Nadaila Dir: 4 X: 28 Y: 22
+2017/03/20 6:25:56: Nadaila Dir: 4 X: 28 Y: 23
+2017/03/20 6:25:59: Nadaila Dir: 1 X: 28 Y: 22
+2017/03/20 6:25:59: Nadaila Dir: 1 X: 28 Y: 21
+2017/03/20 6:26:00: Nadaila Dir: 7 X: 27 Y: 21
+2017/03/20 6:26:00: Nadaila Dir: 7 X: 26 Y: 21
+2017/03/20 6:26:01: Nadaila Dir: 1 X: 26 Y: 20
+2017/03/20 6:26:01: Nadaila Dir: 1 X: 26 Y: 19
+2017/03/20 6:26:01: Nadaila Dir: 1 X: 26 Y: 18
+2017/03/20 6:26:01: Nadaila Dir: 1 X: 26 Y: 17
+2017/03/20 6:26:01: Nadaila Dir: 1 X: 26 Y: 16
+2017/03/20 6:26:02: Nadaila Dir: 4 X: 26 Y: 17
+2017/03/20 6:26:02: Nadaila Dir: 4 X: 26 Y: 18
+2017/03/20 6:26:02: Nadaila Dir: 4 X: 26 Y: 19
+2017/03/20 6:26:08: Nadaila Dir: 7 X: 25 Y: 19
+2017/03/20 6:26:08: Nadaila Dir: 7 X: 24 Y: 19
+2017/03/20 6:26:08: Nadaila Dir: 10 X: 25 Y: 19
+2017/03/20 6:26:09: Nadaila Dir: 10 X: 26 Y: 19
+2017/03/20 6:26:09: Nadaila Dir: 10 X: 27 Y: 19
+2017/03/20 6:26:33: Removed HexID: 0B19B0BCEB774D97 akaruz
+2017/03/20 6:27:10: Game Server Name: Canal 1
+2017/03/20 6:27:10: Discovery: Elysium Diamond #1.0.0
+2017/03/20 6:27:10: Port: 10120
+2017/03/20 6:27:10: MaximumConnections: 2000
+2017/03/20 6:27:10: ConnectionTimeOut: 25
+2017/03/20 6:27:10: Logs: True
+2017/03/20 6:27:10: Sleep: 1
+2017/03/20 6:27:10: Game Server ID: gameserver_1
+2017/03/20 6:27:10: Carregando config mysql
+2017/03/20 6:27:11: Connectado ao banco de dados
+2017/03/20 6:27:11: WorldServer 1  ID: Artemis
+2017/03/20 6:27:11: WorldServer 2  ID: 
+2017/03/20 6:27:11: WorldServer 3  ID: 
+2017/03/20 6:27:11: WorldServer 4  ID: 
+2017/03/20 6:27:11: WorldServer 5  ID: 
+2017/03/20 6:27:11: Carregando experiência
+2017/03/20 6:27:11: Level Max: 121
+2017/03/20 6:27:11: Exp Max: 22353256174
+2017/03/20 6:27:11: Carregando guilds
+2017/03/20 6:27:11: Carregando membros
+2017/03/20 6:27:11: Carregando classe(s) base
+2017/03/20 6:27:11: Carregando classe(s) incremento
+2017/03/20 6:27:11: Carregando NPC
+2017/03/20 6:27:11: Game Server Start
+2017/03/20 6:32:29: Game Server Name: Canal 1
+2017/03/20 6:32:29: Discovery: Elysium Diamond #1.0.0
+2017/03/20 6:32:29: Port: 10120
+2017/03/20 6:32:29: MaximumConnections: 2000
+2017/03/20 6:32:29: ConnectionTimeOut: 25
+2017/03/20 6:32:29: Logs: True
+2017/03/20 6:32:29: Sleep: 1
+2017/03/20 6:32:29: Game Server ID: gameserver_1
+2017/03/20 6:32:29: Carregando config mysql
+2017/03/20 6:32:29: Connectado ao banco de dados
+2017/03/20 6:32:29: WorldServer 1  ID: Artemis
+2017/03/20 6:32:29: WorldServer 2  ID: 
+2017/03/20 6:32:29: WorldServer 3  ID: 
+2017/03/20 6:32:29: WorldServer 4  ID: 
+2017/03/20 6:32:29: WorldServer 5  ID: 
+2017/03/20 6:32:29: Carregando experiência
+2017/03/20 6:32:29: Level Max: 121
+2017/03/20 6:32:29: Exp Max: 22353256174
+2017/03/20 6:32:29: Carregando guilds
+2017/03/20 6:32:29: Carregando membros
+2017/03/20 6:32:29: Carregando classe(s) base
+2017/03/20 6:32:29: Carregando classe(s) incremento
+2017/03/20 6:32:29: Carregando NPC
+2017/03/20 6:32:30: Game Server Start
+2017/03/20 6:33:21: Game Server Name: Canal 1
+2017/03/20 6:33:21: Discovery: Elysium Diamond #1.0.0
+2017/03/20 6:33:21: Port: 55970
+2017/03/20 6:33:21: MaximumConnections: 2000
+2017/03/20 6:33:21: ConnectionTimeOut: 25
+2017/03/20 6:33:21: Logs: True
+2017/03/20 6:33:21: Sleep: 1
+2017/03/20 6:33:21: Game Server ID: gameserver_1
+2017/03/20 6:33:21: Carregando config mysql
+2017/03/20 6:33:21: Connectado ao banco de dados
+2017/03/20 6:33:21: WorldServer 1  ID: Artemis
+2017/03/20 6:33:21: WorldServer 2  ID: 
+2017/03/20 6:33:21: WorldServer 3  ID: 
+2017/03/20 6:33:21: WorldServer 4  ID: 
+2017/03/20 6:33:21: WorldServer 5  ID: 
+2017/03/20 6:33:21: Carregando experiência
+2017/03/20 6:33:21: Level Max: 121
+2017/03/20 6:33:21: Exp Max: 22353256174
+2017/03/20 6:33:21: Carregando guilds
+2017/03/20 6:33:22: Carregando membros
+2017/03/20 6:33:22: Carregando classe(s) base
+2017/03/20 6:33:22: Carregando classe(s) incremento
+2017/03/20 6:33:22: Carregando NPC
+2017/03/20 6:33:22: Game Server Start
+2017/03/20 6:33:26: Discovery Response IPEndPoint: 127.0.0.1
+2017/03/20 6:33:26: Status changed to connected: 127.0.0.1
+2017/03/20 6:33:40: Data From World Server ID: 1 Account: akaruz Char ID: 35 Slot: 2 DDC66C570CAE7D14
+2017/03/20 6:33:40: Discovery Response IPEndPoint: 189.47.119.147
+2017/03/20 6:33:40: Status changed to connected: 189.47.119.147
+2017/03/20 6:33:40: Received From Client: DDC66C570CAE7D14
+2017/03/20 6:33:40: Player Found ID: 35 Name: Nadaila
+2017/03/20 6:33:41: Nadaila Dir: 4 X: 28 Y: 23
+2017/03/20 6:33:41: Nadaila Dir: 4 X: 28 Y: 24
+2017/03/20 6:33:42: Nadaila Dir: 4 X: 28 Y: 25
+2017/03/20 6:34:05: ID: 35 Nadaila Status changed to disconnected: 189.47.119.147
+2017/03/20 6:56:33: Game Server Name: Canal 1
+2017/03/20 6:56:33: Discovery: Elysium Diamond #1.0.0
+2017/03/20 6:56:33: Port: 55970
+2017/03/20 6:56:33: MaximumConnections: 2000
+2017/03/20 6:56:33: ConnectionTimeOut: 25
+2017/03/20 6:56:33: Logs: True
+2017/03/20 6:56:33: Sleep: 1
+2017/03/20 6:56:33: Game Server ID: gameserver_1
+2017/03/20 6:56:33: Carregando config mysql
+2017/03/20 6:56:33: Connectado ao banco de dados
+2017/03/20 6:56:33: WorldServer 1  ID: Artemis
+2017/03/20 6:56:33: WorldServer 2  ID: 
+2017/03/20 6:56:33: WorldServer 3  ID: 
+2017/03/20 6:56:33: WorldServer 4  ID: 
+2017/03/20 6:56:33: WorldServer 5  ID: 
+2017/03/20 6:56:33: Carregando experiência
+2017/03/20 6:56:33: Level Max: 121
+2017/03/20 6:56:33: Exp Max: 22353256174
+2017/03/20 6:56:33: Carregando guilds
+2017/03/20 6:56:33: Carregando membros
+2017/03/20 6:56:33: Carregando classe(s) base
+2017/03/20 6:56:33: Carregando classe(s) incremento
+2017/03/20 6:56:33: Carregando NPC
+2017/03/20 6:56:34: Game Server Start
+2017/03/20 6:56:37: Discovery Response IPEndPoint: 127.0.0.1
+2017/03/20 6:56:38: Status changed to connected: 127.0.0.1
+2017/03/20 15:15:42: Game Server Name: Canal 1
+2017/03/20 15:15:42: Discovery: Elysium Diamond #1.0.0
+2017/03/20 15:15:42: Port: 55970
+2017/03/20 15:15:42: MaximumConnections: 2000
+2017/03/20 15:15:42: ConnectionTimeOut: 25
+2017/03/20 15:15:42: Logs: True
+2017/03/20 15:15:42: Sleep: 1
+2017/03/20 15:15:42: Game Server ID: gameserver_1
+2017/03/20 15:15:42: Carregando config mysql
+2017/03/20 15:15:42: Connectado ao banco de dados
+2017/03/20 15:15:42: WorldServer 1  ID: Artemis
+2017/03/20 15:15:42: WorldServer 2  ID: 
+2017/03/20 15:15:42: WorldServer 3  ID: 
+2017/03/20 15:15:42: WorldServer 4  ID: 
+2017/03/20 15:15:42: WorldServer 5  ID: 
+2017/03/20 15:15:42: Carregando experiência
+2017/03/20 15:15:42: Level Max: 121
+2017/03/20 15:15:42: Exp Max: 22353256174
+2017/03/20 15:15:42: Carregando guilds
+2017/03/20 15:15:42: Carregando membros
+2017/03/20 15:15:42: Carregando classe(s) base
+2017/03/20 15:15:42: Carregando classe(s) incremento
+2017/03/20 15:15:42: Carregando NPC
+2017/03/20 15:15:43: Game Server Start
+2017/03/20 15:15:48: Discovery Response IPEndPoint: 127.0.0.1
+2017/03/20 15:15:48: Status changed to connected: 127.0.0.1
+2017/03/20 15:16:09: Data From World Server ID: 1 Account: akaruz Char ID: 35 Slot: 2 0CD66095600213EA
+2017/03/20 15:16:09: Discovery Response IPEndPoint: 189.47.119.147
+2017/03/20 15:16:09: Status changed to connected: 189.47.119.147
+2017/03/20 15:16:09: Received From Client: 0CD66095600213EA
+2017/03/20 15:16:09: Player Found ID: 35 Name: Nadaila
+2017/03/20 15:16:37: ID: 35 Nadaila Status changed to disconnected: 189.47.119.147
+2017/03/20 15:18:25: Data From World Server ID: 1 Account: akaruz Char ID: 35 Slot: 2 FFEECFC41FDD6DD2
+2017/03/20 15:18:26: Discovery Response IPEndPoint: 189.47.119.147
+2017/03/20 15:18:26: Status changed to connected: 189.47.119.147
+2017/03/20 15:18:26: Received From Client: FFEECFC41FDD6DD2
+2017/03/20 15:18:26: Player Found ID: 35 Name: Nadaila
+2017/03/20 15:18:28: Nadaila Dir: 4 X: 28 Y: 26
+2017/03/20 15:18:28: Nadaila Dir: 7 X: 27 Y: 26
+2017/03/20 15:18:28: Nadaila Dir: 7 X: 26 Y: 26
+2017/03/20 15:18:28: Nadaila Dir: 1 X: 26 Y: 25
+2017/03/20 15:18:28: Nadaila Dir: 1 X: 26 Y: 24
+2017/03/20 15:18:29: Nadaila Dir: 1 X: 26 Y: 23
+2017/03/20 15:18:29: Nadaila Dir: 1 X: 26 Y: 22
+2017/03/20 15:18:29: Nadaila Dir: 1 X: 26 Y: 21
+2017/03/20 15:18:29: Nadaila Dir: 4 X: 26 Y: 22
+2017/03/20 15:18:30: Nadaila Dir: 4 X: 26 Y: 23
+2017/03/20 15:18:58: Data From World Server ID: 2 Account: dragonick Char ID: 36 Slot: 0 0C208AAF1912C85A
+2017/03/20 15:19:00: Discovery Response IPEndPoint: 189.47.119.147
+2017/03/20 15:19:00: Status changed to connected: 189.47.119.147
+2017/03/20 15:19:00: Received From Client: 0C208AAF1912C85A
+2017/03/20 15:19:00: Player Found ID: 36 Name: Severino
+2017/03/20 15:19:01: Severino Dir: 4 X: 0 Y: 1
+2017/03/20 15:19:01: Severino Dir: 4 X: 0 Y: 2
+2017/03/20 15:19:01: Severino Dir: 4 X: 0 Y: 3
+2017/03/20 15:19:01: Severino Dir: 10 X: 1 Y: 3
+2017/03/20 15:19:02: Severino Dir: 10 X: 2 Y: 3
+2017/03/20 15:19:02: Severino Dir: 10 X: 3 Y: 3
+2017/03/20 15:19:02: Severino Dir: 10 X: 4 Y: 3
+2017/03/20 15:19:02: Severino Dir: 10 X: 5 Y: 3
+2017/03/20 15:19:03: Severino Dir: 10 X: 6 Y: 3
+2017/03/20 15:19:03: Severino Dir: 10 X: 7 Y: 3
+2017/03/20 15:19:03: Severino Dir: 10 X: 8 Y: 3
+2017/03/20 15:19:03: Severino Dir: 10 X: 9 Y: 3
+2017/03/20 15:19:03: Severino Dir: 10 X: 10 Y: 3
+2017/03/20 15:19:04: Severino Dir: 10 X: 11 Y: 3
+2017/03/20 15:19:04: Severino Dir: 10 X: 12 Y: 3
+2017/03/20 15:19:04: Severino Dir: 10 X: 13 Y: 3
+2017/03/20 15:19:04: Severino Dir: 10 X: 14 Y: 3
+2017/03/20 15:19:04: Severino Dir: 10 X: 15 Y: 3
+2017/03/20 15:19:05: Severino Dir: 4 X: 15 Y: 4
+2017/03/20 15:19:05: Severino Dir: 4 X: 15 Y: 5
+2017/03/20 15:19:05: Severino Dir: 4 X: 15 Y: 6
+2017/03/20 15:19:05: Severino Dir: 4 X: 15 Y: 7
+2017/03/20 15:19:05: Severino Dir: 4 X: 15 Y: 8
+2017/03/20 15:19:05: Severino Dir: 10 X: 16 Y: 8
+2017/03/20 15:19:06: Severino Dir: 10 X: 17 Y: 8
+2017/03/20 15:19:06: Severino Dir: 10 X: 18 Y: 8
+2017/03/20 15:19:06: Severino Dir: 4 X: 18 Y: 9
+2017/03/20 15:19:07: Severino Dir: 4 X: 18 Y: 10
+2017/03/20 15:19:07: Severino Dir: 4 X: 18 Y: 11
+2017/03/20 15:19:07: Severino Dir: 4 X: 18 Y: 12
+2017/03/20 15:19:07: Severino Dir: 4 X: 18 Y: 13
+2017/03/20 15:19:07: Severino Dir: 4 X: 18 Y: 14
+2017/03/20 15:19:08: Severino Dir: 4 X: 18 Y: 15
+2017/03/20 15:19:08: Severino Dir: 4 X: 18 Y: 16
+2017/03/20 15:19:08: Severino Dir: 4 X: 18 Y: 17
+2017/03/20 15:19:09: Severino Dir: 4 X: 18 Y: 18
+2017/03/20 15:19:09: Severino Dir: 4 X: 18 Y: 19
+2017/03/20 15:19:09: Severino Dir: 10 X: 19 Y: 19
+2017/03/20 15:19:09: Severino Dir: 10 X: 20 Y: 19
+2017/03/20 15:19:09: Severino Dir: 10 X: 21 Y: 19
+2017/03/20 15:19:10: Severino Dir: 10 X: 22 Y: 19
+2017/03/20 15:19:10: Severino Dir: 10 X: 23 Y: 19
+2017/03/20 15:19:10: Severino Dir: 10 X: 24 Y: 19
+2017/03/20 15:19:10: Severino Dir: 10 X: 25 Y: 19
+2017/03/20 15:19:10: Severino Dir: 10 X: 26 Y: 19
+2017/03/20 15:19:11: Severino Dir: 4 X: 26 Y: 20
+2017/03/20 15:19:11: Severino Dir: 4 X: 26 Y: 21
+2017/03/20 15:19:11: Severino Dir: 4 X: 26 Y: 22
+2017/03/20 15:19:11: Severino Dir: 4 X: 26 Y: 23
+2017/03/20 15:19:11: Severino Dir: 4 X: 26 Y: 24
+2017/03/20 15:19:12: Severino Dir: 4 X: 26 Y: 25
+2017/03/20 15:19:12: Severino Dir: 4 X: 26 Y: 26
+2017/03/20 15:19:12: Severino Dir: 7 X: 25 Y: 26
+2017/03/20 15:19:12: Severino Dir: 1 X: 25 Y: 25
+2017/03/20 15:19:13: Severino Dir: 1 X: 25 Y: 24
+2017/03/20 15:19:13: Severino Dir: 1 X: 25 Y: 23
+2017/03/20 15:19:13: Severino Dir: 10 X: 26 Y: 23
+2017/03/20 15:19:13: Severino Dir: 10 X: 27 Y: 23
+2017/03/20 15:19:14: Severino Dir: 7 X: 26 Y: 23
+2017/03/20 15:19:15: Severino Dir: 4 X: 26 Y: 24
+2017/03/20 15:19:16: Severino Dir: 4 X: 26 Y: 25
+2017/03/20 15:19:16: Severino Dir: 7 X: 25 Y: 25
+2017/03/20 15:19:16: Severino Dir: 1 X: 25 Y: 24
+2017/03/20 15:19:17: Severino Dir: 1 X: 25 Y: 23
+2017/03/20 15:19:17: Severino Dir: 1 X: 25 Y: 22
+2017/03/20 15:19:17: Severino Dir: 10 X: 26 Y: 22
+2017/03/20 15:19:18: Severino Dir: 4 X: 26 Y: 23
+2017/03/20 15:19:18: Severino Dir: 4 X: 26 Y: 24
+2017/03/20 15:19:19: Severino Dir: 7 X: 25 Y: 24
+2017/03/20 15:19:19: Severino Dir: 1 X: 25 Y: 23
+2017/03/20 15:19:20: Severino Dir: 10 X: 26 Y: 23
+2017/03/20 15:19:20: Severino Dir: 10 X: 27 Y: 23
+2017/03/20 15:19:20: Severino Dir: 10 X: 28 Y: 23
+2017/03/20 15:19:20: Severino Dir: 7 X: 27 Y: 23
+2017/03/20 15:19:21: Severino Dir: 1 X: 27 Y: 22
+2017/03/20 15:19:21: Severino Dir: 1 X: 27 Y: 21
+2017/03/20 15:19:21: Severino Dir: 7 X: 26 Y: 21
+2017/03/20 15:19:22: Severino Dir: 7 X: 25 Y: 21
+2017/03/20 15:19:22: Severino Dir: 4 X: 25 Y: 22
+2017/03/20 15:19:22: Severino Dir: 4 X: 25 Y: 23
+2017/03/20 15:19:22: Severino Dir: 4 X: 25 Y: 24
+2017/03/20 15:19:23: Severino Dir: 4 X: 25 Y: 25
+2017/03/20 15:19:23: Severino Dir: 4 X: 25 Y: 26
+2017/03/20 15:19:23: Severino Dir: 10 X: 26 Y: 26
+2017/03/20 15:19:23: Severino Dir: 10 X: 27 Y: 26
+2017/03/20 15:19:23: Severino Dir: 10 X: 28 Y: 26
+2017/03/20 15:19:24: Severino Dir: 1 X: 28 Y: 25
+2017/03/20 15:19:24: Severino Dir: 1 X: 28 Y: 24
+2017/03/20 15:19:24: Severino Dir: 1 X: 28 Y: 23
+2017/03/20 15:19:24: Severino Dir: 7 X: 27 Y: 23
+2017/03/20 15:19:24: Severino Dir: 7 X: 26 Y: 23
+2017/03/20 15:19:25: Severino Dir: 7 X: 25 Y: 23
+2017/03/20 15:19:25: Severino Dir: 7 X: 24 Y: 23
+2017/03/20 15:19:25: Severino Dir: 1 X: 24 Y: 22
+2017/03/20 15:19:25: Severino Dir: 10 X: 25 Y: 22
+2017/03/20 15:19:25: Severino Dir: 10 X: 26 Y: 22
+2017/03/20 15:19:26: Severino Dir: 10 X: 27 Y: 22
+2017/03/20 15:19:26: Severino Dir: 10 X: 28 Y: 22
+2017/03/20 15:19:26: Severino Dir: 10 X: 29 Y: 22
+2017/03/20 15:19:26: Severino Dir: 10 X: 30 Y: 22
+2017/03/20 15:19:26: Severino Dir: 4 X: 30 Y: 23
+2017/03/20 15:19:27: Severino Dir: 4 X: 30 Y: 24
+2017/03/20 15:19:27: Severino Dir: 7 X: 29 Y: 24
+2017/03/20 15:19:27: Severino Dir: 7 X: 28 Y: 24
+2017/03/20 15:19:27: Severino Dir: 7 X: 27 Y: 24
+2017/03/20 15:19:27: Severino Dir: 7 X: 26 Y: 24
+2017/03/20 15:19:28: Severino Dir: 7 X: 25 Y: 24
+2017/03/20 15:19:28: Severino Dir: 7 X: 24 Y: 24
+2017/03/20 15:19:28: Severino Dir: 1 X: 24 Y: 23
+2017/03/20 15:19:28: Severino Dir: 1 X: 24 Y: 22
+2017/03/20 15:19:28: Severino Dir: 1 X: 24 Y: 21
+2017/03/20 15:19:29: Severino Dir: 10 X: 25 Y: 21
+2017/03/20 15:19:29: Severino Dir: 10 X: 26 Y: 21
+2017/03/20 15:19:29: Severino Dir: 10 X: 27 Y: 21
+2017/03/20 15:19:29: Severino Dir: 10 X: 28 Y: 21
+2017/03/20 15:19:31: Severino Dir: 4 X: 28 Y: 22
+2017/03/20 15:19:31: Severino Dir: 4 X: 28 Y: 23
+2017/03/20 15:19:35: Severino Dir: 1 X: 28 Y: 22
+2017/03/20 15:19:36: Severino Dir: 1 X: 28 Y: 21
+2017/03/20 15:19:36: Severino Dir: 1 X: 28 Y: 20
+2017/03/20 15:19:36: Severino Dir: 1 X: 28 Y: 19
+2017/03/20 15:19:36: Severino Dir: 7 X: 27 Y: 19
+2017/03/20 15:19:36: Severino Dir: 7 X: 26 Y: 19
+2017/03/20 15:19:36: Severino Dir: 7 X: 25 Y: 19
+2017/03/20 15:19:38: Severino Dir: 4 X: 25 Y: 20
+2017/03/20 15:19:38: Severino Dir: 4 X: 25 Y: 21
+2017/03/20 15:19:38: Severino Dir: 4 X: 25 Y: 22
+2017/03/20 15:19:38: Severino Dir: 4 X: 25 Y: 23
+2017/03/20 15:19:39: Severino Dir: 4 X: 25 Y: 24
+2017/03/20 15:19:39: Severino Dir: 10 X: 26 Y: 24
+2017/03/20 15:19:39: Severino Dir: 10 X: 27 Y: 24
+2017/03/20 15:19:39: Severino Dir: 10 X: 28 Y: 24
+2017/03/20 15:19:39: Severino Dir: 1 X: 28 Y: 23
+2017/03/20 15:19:40: Severino Dir: 7 X: 27 Y: 23
+2017/03/20 15:19:40: Severino Dir: 7 X: 26 Y: 23
+2017/03/20 15:19:40: Severino Dir: 7 X: 25 Y: 23
+2017/03/20 15:19:40: Severino Dir: 7 X: 24 Y: 23
+2017/03/20 15:19:40: Severino Dir: 1 X: 24 Y: 22
+2017/03/20 15:19:41: Severino Dir: 1 X: 24 Y: 21
+2017/03/20 15:19:41: Severino Dir: 10 X: 25 Y: 21
+2017/03/20 15:19:41: Severino Dir: 10 X: 26 Y: 21
+2017/03/20 15:19:41: Severino Dir: 10 X: 27 Y: 21
+2017/03/20 15:19:42: Severino Dir: 7 X: 26 Y: 21
+2017/03/20 15:19:42: Severino Dir: 7 X: 25 Y: 21
+2017/03/20 15:19:42: Severino Dir: 7 X: 24 Y: 21
+2017/03/20 15:19:42: Severino Dir: 7 X: 23 Y: 21
+2017/03/20 15:19:42: Severino Dir: 7 X: 22 Y: 21
+2017/03/20 15:19:43: Severino Dir: 10 X: 23 Y: 21
+2017/03/20 15:19:43: Severino Dir: 10 X: 24 Y: 21
+2017/03/20 15:19:43: Severino Dir: 10 X: 25 Y: 21
+2017/03/20 15:19:44: Severino Dir: 10 X: 26 Y: 21
+2017/03/20 15:19:44: Severino Dir: 10 X: 27 Y: 21
+2017/03/20 15:19:44: Severino Dir: 1 X: 27 Y: 20
+2017/03/20 15:19:44: Severino Dir: 1 X: 27 Y: 19
+2017/03/20 15:19:44: Severino Dir: 1 X: 27 Y: 18
+2017/03/20 15:19:45: Severino Dir: 1 X: 27 Y: 17
+2017/03/20 15:19:45: Severino Dir: 10 X: 28 Y: 17
+2017/03/20 15:19:45: Severino Dir: 10 X: 29 Y: 17
+2017/03/20 15:19:45: Severino Dir: 4 X: 29 Y: 18
+2017/03/20 15:19:45: Severino Dir: 4 X: 29 Y: 19
+2017/03/20 15:19:46: Severino Dir: 4 X: 29 Y: 20
+2017/03/20 15:19:46: Severino Dir: 4 X: 29 Y: 21
+2017/03/20 15:19:46: Severino Dir: 4 X: 29 Y: 22
+2017/03/20 15:19:46: Severino Dir: 4 X: 29 Y: 23
+2017/03/20 15:19:46: Severino Dir: 4 X: 29 Y: 24
+2017/03/20 15:19:47: Severino Dir: 7 X: 28 Y: 24
+2017/03/20 15:19:47: Severino Dir: 7 X: 27 Y: 24
+2017/03/20 15:19:47: Severino Dir: 7 X: 26 Y: 24
+2017/03/20 15:19:47: Severino Dir: 7 X: 25 Y: 24
+2017/03/20 15:19:47: Severino Dir: 1 X: 25 Y: 23
+2017/03/20 15:19:48: Severino Dir: 10 X: 26 Y: 23
+2017/03/20 15:19:48: Severino Dir: 10 X: 27 Y: 23
+2017/03/20 15:19:48: Severino Dir: 10 X: 28 Y: 23
+2017/03/20 15:19:48: Severino Dir: 10 X: 29 Y: 23
+2017/03/20 15:19:48: Severino Dir: 1 X: 29 Y: 22
+2017/03/20 15:19:49: Severino Dir: 1 X: 29 Y: 21
+2017/03/20 15:19:49: Severino Dir: 1 X: 29 Y: 20
+2017/03/20 15:20:13: ID: 36 Severino Status changed to disconnected: 189.47.119.147
+2017/03/20 15:20:15: ID: 35 Nadaila Status changed to disconnected: 189.47.119.147
+2017/03/20 15:20:57: Data From World Server ID: 1 Account: akaruz Char ID: 35 Slot: 2 23523F39AF7E1030
+2017/03/20 15:20:57: Discovery Response IPEndPoint: 189.47.119.147
+2017/03/20 15:20:57: Status changed to connected: 189.47.119.147
+2017/03/20 15:20:57: Received From Client: 23523F39AF7E1030
+2017/03/20 15:20:57: Player Found ID: 35 Name: Nadaila
+2017/03/20 15:35:45: Game Server Name: Canal 1
+2017/03/20 15:35:45: Discovery: Elysium Diamond #1.0.0
+2017/03/20 15:35:45: Port: 55970
+2017/03/20 15:35:45: MaximumConnections: 2000
+2017/03/20 15:35:45: ConnectionTimeOut: 25
+2017/03/20 15:35:45: Logs: True
+2017/03/20 15:35:45: Sleep: 1
+2017/03/20 15:35:45: Game Server ID: gameserver_1
+2017/03/20 15:35:45: Carregando config mysql
+2017/03/20 15:35:46: Connectado ao banco de dados
+2017/03/20 15:35:46: WorldServer 1  ID: Artemis
+2017/03/20 15:35:46: WorldServer 2  ID: 
+2017/03/20 15:35:46: WorldServer 3  ID: 
+2017/03/20 15:35:46: WorldServer 4  ID: 
+2017/03/20 15:35:46: WorldServer 5  ID: 
+2017/03/20 15:35:46: Carregando experiência
+2017/03/20 15:35:46: Level Max: 121
+2017/03/20 15:35:46: Exp Max: 22353256174
+2017/03/20 15:35:46: Carregando guilds
+2017/03/20 15:35:46: Carregando membros
+2017/03/20 15:35:46: Carregando classe(s) base
+2017/03/20 15:35:46: Carregando classe(s) incremento
+2017/03/20 15:35:46: Carregando NPC
+2017/03/20 15:35:46: Game Server Start
+2017/03/20 15:35:48: Discovery Response IPEndPoint: 127.0.0.1
+2017/03/20 15:35:48: Status changed to connected: 127.0.0.1
+2017/03/20 15:35:49: Data From World Server ID: 1 Account: akaruz Char ID: 35 Slot: 2 99CFBA7E69D34BA9
+2017/03/20 15:35:50: Discovery Response IPEndPoint: 189.47.119.147
+2017/03/20 15:35:50: Status changed to connected: 189.47.119.147
+2017/03/20 15:35:50: Received From Client: 99CFBA7E69D34BA9
+2017/03/20 15:35:50: Player Found ID: 35 Name: Nadaila
+2017/03/20 15:35:53: Nadaila Dir: 4 X: 26 Y: 24
+2017/03/20 15:35:53: Nadaila Dir: 4 X: 26 Y: 25
+2017/03/20 15:35:53: Nadaila Dir: 4 X: 26 Y: 26
+2017/03/20 15:35:54: Nadaila Dir: 4 X: 26 Y: 27
+2017/03/20 15:35:54: Nadaila Dir: 4 X: 26 Y: 28
+2017/03/20 15:35:54: Nadaila Dir: 4 X: 26 Y: 29
+2017/03/20 15:35:54: Nadaila Dir: 4 X: 26 Y: 30
+2017/03/20 15:35:54: Nadaila Dir: 4 X: 26 Y: 31
+2017/03/20 15:35:55: Nadaila Dir: 4 X: 26 Y: 32
+2017/03/20 15:35:55: Nadaila Dir: 7 X: 25 Y: 32
+2017/03/20 15:35:55: Nadaila Dir: 4 X: 25 Y: 33
+2017/03/20 15:35:55: Nadaila Dir: 4 X: 25 Y: 34
+2017/03/20 15:35:55: Nadaila Dir: 4 X: 25 Y: 35
+2017/03/20 15:35:56: Nadaila Dir: 4 X: 25 Y: 36
+2017/03/20 15:36:08: Data From World Server ID: 2 Account: dragonick Char ID: 36 Slot: 0 DBCEF2C61C2F285D
+2017/03/20 15:36:09: Discovery Response IPEndPoint: 189.47.119.147
+2017/03/20 15:36:09: Status changed to connected: 189.47.119.147
+2017/03/20 15:36:09: Received From Client: DBCEF2C61C2F285D
+2017/03/20 15:36:09: Player Found ID: 36 Name: Severino
+2017/03/20 15:36:15: Severino Dir: 4 X: 29 Y: 21
+2017/03/20 15:36:15: Severino Dir: 4 X: 29 Y: 22
+2017/03/20 15:36:15: Severino Dir: 4 X: 29 Y: 23
+2017/03/20 15:36:15: Severino Dir: 4 X: 29 Y: 24
+2017/03/20 15:36:15: Severino Dir: 4 X: 29 Y: 25
+2017/03/20 15:36:16: Severino Dir: 4 X: 29 Y: 26
+2017/03/20 15:36:16: Severino Dir: 4 X: 29 Y: 27
+2017/03/20 15:36:16: Severino Dir: 4 X: 29 Y: 28
+2017/03/20 15:36:16: Severino Dir: 4 X: 29 Y: 29
+2017/03/20 15:36:16: Severino Dir: 4 X: 29 Y: 30
+2017/03/20 15:36:17: Severino Dir: 4 X: 29 Y: 31
+2017/03/20 15:36:17: Severino Dir: 4 X: 29 Y: 32
+2017/03/20 15:36:17: Severino Dir: 4 X: 29 Y: 33
+2017/03/20 15:36:17: Severino Dir: 7 X: 28 Y: 33
+2017/03/20 15:36:17: Severino Dir: 7 X: 27 Y: 33
+2017/03/20 15:36:18: Severino Dir: 7 X: 26 Y: 33
+2017/03/20 15:36:18: Severino Dir: 4 X: 26 Y: 34
+2017/03/20 15:36:18: Severino Dir: 4 X: 26 Y: 35
+2017/03/20 15:36:18: Severino Dir: 10 X: 27 Y: 35
+2017/03/20 15:36:18: Severino Dir: 4 X: 27 Y: 36
+2017/03/20 15:36:44: ID: 36 Severino Status changed to disconnected: 189.47.119.147
+2017/03/20 15:37:14: ID: 35 Nadaila Status changed to disconnected: 189.47.119.147
+2017/03/20 15:39:44: Game Server Name: Canal 1
+2017/03/20 15:39:44: Discovery: Elysium Diamond #1.0.0
+2017/03/20 15:39:44: Port: 55970
+2017/03/20 15:39:44: MaximumConnections: 2000
+2017/03/20 15:39:44: ConnectionTimeOut: 25
+2017/03/20 15:39:44: Logs: True
+2017/03/20 15:39:44: Sleep: 1
+2017/03/20 15:39:44: Game Server ID: gameserver_1
+2017/03/20 15:39:44: Carregando config mysql
+2017/03/20 15:39:44: Connectado ao banco de dados
+2017/03/20 15:39:44: WorldServer 1  ID: Artemis
+2017/03/20 15:39:44: WorldServer 2  ID: 
+2017/03/20 15:39:44: WorldServer 3  ID: 
+2017/03/20 15:39:44: WorldServer 4  ID: 
+2017/03/20 15:39:44: WorldServer 5  ID: 
+2017/03/20 15:39:44: Carregando experiência
+2017/03/20 15:39:44: Level Max: 121
+2017/03/20 15:39:44: Exp Max: 22353256174
+2017/03/20 15:39:44: Carregando guilds
+2017/03/20 15:39:44: Carregando membros
+2017/03/20 15:39:44: Carregando classe(s) base
+2017/03/20 15:39:44: Carregando classe(s) incremento
+2017/03/20 15:39:44: Carregando NPC
+2017/03/20 15:39:44: Game Server Start
+2017/03/20 15:39:48: Discovery Response IPEndPoint: 127.0.0.1
+2017/03/20 15:39:48: Status changed to connected: 127.0.0.1
+2017/03/20 15:40:13: Data From World Server ID: 1 Account: akaruz Char ID: 35 Slot: 2 3121C7FCB8BB64B0
+2017/03/20 15:40:13: Discovery Response IPEndPoint: 189.47.119.147
+2017/03/20 15:40:13: Status changed to connected: 189.47.119.147
+2017/03/20 15:40:13: Received From Client: 3121C7FCB8BB64B0
+2017/03/20 15:40:13: Player Found ID: 35 Name: Nadaila
+2017/03/20 15:40:22: Nadaila Dir: 4 X: 25 Y: 37
+2017/03/20 15:40:22: Nadaila Dir: 4 X: 25 Y: 38
+2017/03/20 15:40:22: Nadaila Dir: 1 X: 25 Y: 37
+2017/03/20 15:40:22: Nadaila Dir: 1 X: 25 Y: 36
+2017/03/20 15:40:23: Nadaila Dir: 1 X: 25 Y: 35
+2017/03/20 15:40:23: Nadaila Dir: 1 X: 25 Y: 34
+2017/03/20 15:40:23: Nadaila Dir: 4 X: 25 Y: 35
+2017/03/20 15:40:24: Nadaila Dir: 4 X: 25 Y: 36
+2017/03/20 15:40:35: Data From World Server ID: 2 Account: dragonick Char ID: 36 Slot: 0 2931535238B265F7
+2017/03/20 15:40:36: Discovery Response IPEndPoint: 189.47.119.147
+2017/03/20 15:40:36: Status changed to connected: 189.47.119.147
+2017/03/20 15:40:36: Received From Client: 2931535238B265F7
+2017/03/20 15:40:36: Player Found ID: 36 Name: Severino
+2017/03/20 15:40:37: Severino Dir: 1 X: 27 Y: 35
+2017/03/20 15:40:38: Severino Dir: 1 X: 27 Y: 34
+2017/03/20 15:40:38: Severino Dir: 1 X: 27 Y: 33
+2017/03/20 15:40:38: Severino Dir: 7 X: 26 Y: 33
+2017/03/20 15:40:38: Severino Dir: 7 X: 25 Y: 33
+2017/03/20 15:40:38: Severino Dir: 7 X: 24 Y: 33
+2017/03/20 15:40:38: Severino Dir: 7 X: 23 Y: 33
+2017/03/20 15:40:39: Severino Dir: 7 X: 22 Y: 33
+2017/03/20 15:40:39: Severino Dir: 7 X: 21 Y: 33
+2017/03/20 15:40:39: Severino Dir: 7 X: 20 Y: 33
+2017/03/20 15:40:39: Severino Dir: 4 X: 20 Y: 34
+2017/03/20 15:40:40: Severino Dir: 10 X: 21 Y: 34
+2017/03/20 15:40:40: Severino Dir: 4 X: 21 Y: 35
+2017/03/20 15:40:41: Severino Dir: 4 X: 21 Y: 36
+2017/03/20 15:40:42: Severino Dir: 1 X: 21 Y: 35
+2017/03/20 15:40:42: Severino Dir: 10 X: 22 Y: 35
+2017/03/20 15:41:07: ID: 36 Severino Status changed to disconnected: 189.47.119.147
+2017/03/20 15:41:33: ID: 35 Nadaila Status changed to disconnected: 189.47.119.147
+2017/03/20 15:42:28: Data From World Server ID: 1 Account: akaruz Char ID: 35 Slot: 2 4266215297EBFA18
+2017/03/20 15:42:28: Discovery Response IPEndPoint: 189.47.119.147
+2017/03/20 15:42:28: Status changed to connected: 189.47.119.147
+2017/03/20 15:42:28: Received From Client: 4266215297EBFA18
+2017/03/20 15:42:28: Player Found ID: 35 Name: Nadaila
+2017/03/20 15:44:24: Game Server Name: Canal 1
+2017/03/20 15:44:24: Discovery: Elysium Diamond #1.0.0
+2017/03/20 15:44:24: Port: 55970
+2017/03/20 15:44:24: MaximumConnections: 2000
+2017/03/20 15:44:24: ConnectionTimeOut: 25
+2017/03/20 15:44:24: Logs: True
+2017/03/20 15:44:24: Sleep: 1
+2017/03/20 15:44:24: Game Server ID: gameserver_1
+2017/03/20 15:44:24: Carregando config mysql
+2017/03/20 15:44:25: Connectado ao banco de dados
+2017/03/20 15:44:25: WorldServer 1  ID: Artemis
+2017/03/20 15:44:25: WorldServer 2  ID: 
+2017/03/20 15:44:25: WorldServer 3  ID: 
+2017/03/20 15:44:25: WorldServer 4  ID: 
+2017/03/20 15:44:25: WorldServer 5  ID: 
+2017/03/20 15:44:25: Carregando experiência
+2017/03/20 15:44:25: Level Max: 121
+2017/03/20 15:44:25: Exp Max: 22353256174
+2017/03/20 15:44:25: Carregando guilds
+2017/03/20 15:44:25: Carregando membros
+2017/03/20 15:44:25: Carregando classe(s) base
+2017/03/20 15:44:25: Carregando classe(s) incremento
+2017/03/20 15:44:25: Carregando NPC
+2017/03/20 15:44:25: Game Server Start
+2017/03/20 15:44:28: Discovery Response IPEndPoint: 127.0.0.1
+2017/03/20 15:44:28: Status changed to connected: 127.0.0.1
+2017/03/20 15:44:38: Data From World Server ID: 1 Account: akaruz Char ID: 35 Slot: 2 43C4FBC93730119E
+2017/03/20 15:44:38: Discovery Response IPEndPoint: 189.47.119.147
+2017/03/20 15:44:38: Status changed to connected: 189.47.119.147
+2017/03/20 15:44:38: Received From Client: 43C4FBC93730119E
+2017/03/20 15:44:38: Player Found ID: 35 Name: Nadaila
+2017/03/20 15:45:01: Nadaila Dir: 1 X: 25 Y: 35
+2017/03/20 15:45:10: Data From World Server ID: 2 Account: dragonick Char ID: 36 Slot: 0 16C110500B22F3D7
+2017/03/20 15:45:11: Discovery Response IPEndPoint: 189.47.119.147
+2017/03/20 15:45:11: Status changed to connected: 189.47.119.147
+2017/03/20 15:45:11: Received From Client: 16C110500B22F3D7
+2017/03/20 15:45:11: Player Found ID: 36 Name: Severino
+2017/03/20 15:46:30: ID: 36 Severino Status changed to disconnected: 189.47.119.147
+2017/03/20 15:57:30: Game Server Name: Canal 1
+2017/03/20 15:57:30: Discovery: Elysium Diamond #1.0.0
+2017/03/20 15:57:30: Port: 55970
+2017/03/20 15:57:30: MaximumConnections: 2000
+2017/03/20 15:57:30: ConnectionTimeOut: 25
+2017/03/20 15:57:30: Logs: True
+2017/03/20 15:57:30: Sleep: 1
+2017/03/20 15:57:30: Game Server ID: gameserver_1
+2017/03/20 15:57:30: Carregando config mysql
+2017/03/20 15:57:31: Connectado ao banco de dados
+2017/03/20 15:57:31: WorldServer 1  ID: Artemis
+2017/03/20 15:57:31: WorldServer 2  ID: 
+2017/03/20 15:57:31: WorldServer 3  ID: 
+2017/03/20 15:57:31: WorldServer 4  ID: 
+2017/03/20 15:57:31: WorldServer 5  ID: 
+2017/03/20 15:57:31: Carregando experiência
+2017/03/20 15:57:31: Level Max: 121
+2017/03/20 15:57:31: Exp Max: 22353256174
+2017/03/20 15:57:31: Carregando guilds
+2017/03/20 15:57:31: Carregando membros
+2017/03/20 15:57:31: Carregando classe(s) base
+2017/03/20 15:57:31: Carregando classe(s) incremento
+2017/03/20 15:57:31: Carregando NPC
+2017/03/20 15:57:31: Game Server Start
+2017/03/20 15:57:38: Discovery Response IPEndPoint: 127.0.0.1
+2017/03/20 15:57:38: Status changed to connected: 127.0.0.1
+2017/03/20 15:57:48: Data From World Server ID: 1 Account: akaruz Char ID: 35 Slot: 2 7B21445B2C8F83FA
+2017/03/20 15:57:48: Discovery Response IPEndPoint: 189.47.119.147
+2017/03/20 15:57:48: Status changed to connected: 189.47.119.147
+2017/03/20 15:57:48: Received From Client: 7B21445B2C8F83FA
+2017/03/20 15:57:48: Player Found ID: 35 Name: Nadaila
+2017/03/20 15:58:13: Game Server Name: Canal 1
+2017/03/20 15:58:13: Discovery: Elysium Diamond #1.0.0
+2017/03/20 15:58:13: Port: 55970
+2017/03/20 15:58:13: MaximumConnections: 2000
+2017/03/20 15:58:13: ConnectionTimeOut: 25
+2017/03/20 15:58:13: Logs: True
+2017/03/20 15:58:13: Sleep: 1
+2017/03/20 15:58:13: Game Server ID: gameserver_1
+2017/03/20 15:58:13: Carregando config mysql
+2017/03/20 15:58:13: Connectado ao banco de dados
+2017/03/20 15:58:13: WorldServer 1  ID: Artemis
+2017/03/20 15:58:13: WorldServer 2  ID: 
+2017/03/20 15:58:13: WorldServer 3  ID: 
+2017/03/20 15:58:13: WorldServer 4  ID: 
+2017/03/20 15:58:13: WorldServer 5  ID: 
+2017/03/20 15:58:13: Carregando experiência
+2017/03/20 15:58:13: Level Max: 121
+2017/03/20 15:58:13: Exp Max: 22353256174
+2017/03/20 15:58:13: Carregando guilds
+2017/03/20 15:58:13: Carregando membros
+2017/03/20 15:58:13: Carregando classe(s) base
+2017/03/20 15:58:13: Carregando classe(s) incremento
+2017/03/20 15:58:13: Carregando NPC
+2017/03/20 15:58:14: Game Server Start
+2017/03/20 15:58:14: Discovery Response IPEndPoint: 189.47.119.147
+2017/03/20 15:58:14: Status changed to connected: 189.47.119.147
+2017/03/20 15:58:14: Received From Client: 7B21445B2C8F83FA
+2017/03/20 15:58:14: ID: 0  Status changed to disconnected: 189.47.119.147
+2017/03/20 15:58:18: Discovery Response IPEndPoint: 127.0.0.1
+2017/03/20 15:58:18: Status changed to connected: 127.0.0.1
+2017/03/20 15:58:39: Data From World Server ID: 1 Account: akaruz Char ID: 35 Slot: 2 D621C3E61EAA1C3D
+2017/03/20 15:58:40: Discovery Response IPEndPoint: 189.47.119.147
+2017/03/20 15:58:40: Status changed to connected: 189.47.119.147
+2017/03/20 15:58:40: Received From Client: D621C3E61EAA1C3D
+2017/03/20 15:58:40: Player Found ID: 35 Name: Nadaila
+2017/03/20 16:00:31: Game Server Name: Canal 1
+2017/03/20 16:00:31: Discovery: Elysium Diamond #1.0.0
+2017/03/20 16:00:31: Port: 55970
+2017/03/20 16:00:31: MaximumConnections: 2000
+2017/03/20 16:00:31: ConnectionTimeOut: 25
+2017/03/20 16:00:31: Logs: True
+2017/03/20 16:00:31: Sleep: 1
+2017/03/20 16:00:31: Game Server ID: gameserver_1
+2017/03/20 16:00:31: Carregando config mysql
+2017/03/20 16:00:32: Connectado ao banco de dados
+2017/03/20 16:00:32: WorldServer 1  ID: Artemis
+2017/03/20 16:00:32: WorldServer 2  ID: 
+2017/03/20 16:00:32: WorldServer 3  ID: 
+2017/03/20 16:00:32: WorldServer 4  ID: 
+2017/03/20 16:00:32: WorldServer 5  ID: 
+2017/03/20 16:00:32: Carregando experiência
+2017/03/20 16:00:32: Level Max: 121
+2017/03/20 16:00:32: Exp Max: 22353256174
+2017/03/20 16:00:32: Carregando guilds
+2017/03/20 16:00:32: Carregando membros
+2017/03/20 16:00:32: Carregando classe(s) base
+2017/03/20 16:00:32: Carregando classe(s) incremento
+2017/03/20 16:00:32: Carregando NPC
+2017/03/20 16:00:32: Game Server Start
+2017/03/20 16:00:48: Game Server Name: Canal 1
+2017/03/20 16:00:48: Discovery: Elysium Diamond #1.0.0
+2017/03/20 16:00:48: Port: 55970
+2017/03/20 16:00:48: MaximumConnections: 2000
+2017/03/20 16:00:48: ConnectionTimeOut: 25
+2017/03/20 16:00:48: Logs: True
+2017/03/20 16:00:48: Sleep: 1
+2017/03/20 16:00:48: Game Server ID: gameserver_1
+2017/03/20 16:00:49: Carregando config mysql
+2017/03/20 16:00:49: Connectado ao banco de dados
+2017/03/20 16:00:49: WorldServer 1  ID: Artemis
+2017/03/20 16:00:49: WorldServer 2  ID: 
+2017/03/20 16:00:49: WorldServer 3  ID: 
+2017/03/20 16:00:49: WorldServer 4  ID: 
+2017/03/20 16:00:49: WorldServer 5  ID: 
+2017/03/20 16:00:49: Carregando experiência
+2017/03/20 16:00:49: Level Max: 121
+2017/03/20 16:00:49: Exp Max: 22353256174
+2017/03/20 16:00:49: Carregando guilds
+2017/03/20 16:00:49: Carregando membros
+2017/03/20 16:00:49: Carregando classe(s) base
+2017/03/20 16:00:49: Carregando classe(s) incremento
+2017/03/20 16:00:49: Carregando NPC
+2017/03/20 16:00:49: Game Server Start
+2017/03/20 16:00:58: Discovery Response IPEndPoint: 127.0.0.1
+2017/03/20 16:00:58: Status changed to connected: 127.0.0.1
+2017/03/20 16:01:12: Data From World Server ID: 1 Account: akaruz Char ID: 35 Slot: 2 BA055A2749B63128
+2017/03/20 16:01:13: Discovery Response IPEndPoint: 189.47.119.147
+2017/03/20 16:01:13: Status changed to connected: 189.47.119.147
+2017/03/20 16:01:13: Received From Client: BA055A2749B63128
+2017/03/20 16:01:13: Player Found ID: 35 Name: Nadaila
+2017/03/20 16:01:25: Data From World Server ID: 2 Account: dragonick Char ID: 36 Slot: 0 83702030D06CB996
+2017/03/20 16:01:25: Discovery Response IPEndPoint: 189.47.119.147
+2017/03/20 16:01:25: Status changed to connected: 189.47.119.147
+2017/03/20 16:01:25: Received From Client: 83702030D06CB996
+2017/03/20 16:01:25: Player Found ID: 36 Name: Severino
+2017/03/20 16:01:28: Severino Dir: 1 X: 22 Y: 34
+2017/03/20 16:01:28: Severino Dir: 1 X: 22 Y: 33
+2017/03/20 16:01:28: Severino Dir: 10 X: 23 Y: 33
+2017/03/20 16:01:29: Severino Dir: 10 X: 24 Y: 33
+2017/03/20 16:01:29: Severino Dir: 10 X: 25 Y: 33
+2017/03/20 16:01:29: Severino Dir: 10 X: 26 Y: 33
+2017/03/20 16:01:29: Severino Dir: 4 X: 26 Y: 34
+2017/03/20 16:01:29: Severino Dir: 4 X: 26 Y: 35
+2017/03/20 16:01:30: Severino Dir: 7 X: 25 Y: 35
+2017/03/20 16:01:30: Severino Dir: 4 X: 25 Y: 36
+2017/03/20 16:01:30: Severino Dir: 7 X: 24 Y: 36
+2017/03/20 16:01:31: Severino Dir: 10 X: 25 Y: 36
+2017/03/20 16:01:31: Severino Dir: 10 X: 26 Y: 36
+2017/03/20 16:01:31: Severino Dir: 10 X: 27 Y: 36
+2017/03/20 16:01:32: Severino Dir: 7 X: 26 Y: 36
+2017/03/20 16:01:32: Severino Dir: 7 X: 25 Y: 36
+2017/03/20 16:01:32: Severino Dir: 7 X: 24 Y: 36
+2017/03/20 16:01:32: Severino Dir: 1 X: 24 Y: 35
+2017/03/20 16:01:33: Severino Dir: 7 X: 23 Y: 35
+2017/03/20 16:01:33: Severino Dir: 7 X: 22 Y: 35
+2017/03/20 16:01:33: Severino Dir: 4 X: 22 Y: 36
+2017/03/20 16:01:33: Severino Dir: 7 X: 21 Y: 36
+2017/03/20 16:01:33: Severino Dir: 7 X: 20 Y: 36
+2017/03/20 16:01:34: Severino Dir: 7 X: 19 Y: 36
+2017/03/20 16:01:34: Severino Dir: 7 X: 18 Y: 36
+2017/03/20 16:01:34: Severino Dir: 1 X: 18 Y: 35
+2017/03/20 16:01:34: Severino Dir: 4 X: 18 Y: 36
+2017/03/20 16:01:34: Severino Dir: 4 X: 18 Y: 37
+2017/03/20 16:01:35: Severino Dir: 4 X: 18 Y: 38
+2017/03/20 16:02:00: ID: 36 Severino Status changed to disconnected: 189.47.119.147
+2017/03/20 16:02:22: Data From World Server ID: 2 Account: dragonick Char ID: 36 Slot: 0 C8A410406593503F
+2017/03/20 16:02:23: Discovery Response IPEndPoint: 189.47.119.147
+2017/03/20 16:02:23: Status changed to connected: 189.47.119.147
+2017/03/20 16:02:23: Received From Client: C8A410406593503F
+2017/03/20 16:02:23: Player Found ID: 36 Name: Severino
+2017/03/20 16:02:28: Severino Dir: 10 X: 19 Y: 38
+2017/03/20 16:02:28: Severino Dir: 1 X: 19 Y: 37
+2017/03/20 16:02:28: Severino Dir: 1 X: 19 Y: 36
+2017/03/20 16:02:28: Severino Dir: 1 X: 19 Y: 35
+2017/03/20 16:02:28: Severino Dir: 10 X: 20 Y: 35
+2017/03/20 16:02:29: Severino Dir: 10 X: 21 Y: 35
+2017/03/20 16:02:56: ID: 36 Severino Status changed to disconnected: 189.47.119.147
+2017/03/20 16:03:42: Data From World Server ID: 2 Account: dragonick Char ID: 36 Slot: 0 93A250831C7CCA77
+2017/03/20 16:03:42: ID: 35 Nadaila Status changed to disconnected: 189.47.119.147
+2017/03/20 16:03:42: Discovery Response IPEndPoint: 189.47.119.147
+2017/03/20 16:03:42: Status changed to connected: 189.47.119.147
+2017/03/20 16:03:42: Received From Client: 93A250831C7CCA77
+2017/03/20 16:03:42: Player Found ID: 36 Name: Severino
+2017/03/20 16:03:43: Severino Dir: 4 X: 21 Y: 36
+2017/03/20 16:03:43: Severino Dir: 1 X: 21 Y: 35
+2017/03/20 16:03:44: Severino Dir: 1 X: 21 Y: 34
+2017/03/20 16:03:44: Severino Dir: 1 X: 21 Y: 33
+2017/03/20 16:03:44: Severino Dir: 1 X: 21 Y: 32
+2017/03/20 16:03:44: Severino Dir: 1 X: 21 Y: 31
+2017/03/20 16:03:44: Severino Dir: 1 X: 21 Y: 30
+2017/03/20 16:03:45: Severino Dir: 7 X: 20 Y: 30
+2017/03/20 16:03:45: Severino Dir: 7 X: 19 Y: 30
+2017/03/20 16:03:46: Severino Dir: 1 X: 19 Y: 29
+2017/03/20 16:03:46: Severino Dir: 1 X: 19 Y: 28
+2017/03/20 16:03:46: Severino Dir: 1 X: 19 Y: 27
+2017/03/20 16:03:46: Severino Dir: 1 X: 19 Y: 26
+2017/03/20 16:03:47: Severino Dir: 1 X: 19 Y: 25
+2017/03/20 16:03:47: Severino Dir: 1 X: 19 Y: 24
+2017/03/20 16:03:47: Severino Dir: 1 X: 19 Y: 23
+2017/03/20 16:03:47: Severino Dir: 1 X: 19 Y: 22
+2017/03/20 16:04:11: ID: 36 Severino Status changed to disconnected: 189.47.119.147
+2017/03/20 16:04:48: Data From World Server ID: 2 Account: dragonick Char ID: 36 Slot: 0 83B52CDED6292FDF
+2017/03/20 16:04:48: Discovery Response IPEndPoint: 189.47.119.147
+2017/03/20 16:04:48: Status changed to connected: 189.47.119.147
+2017/03/20 16:04:48: Received From Client: 83B52CDED6292FDF
+2017/03/20 16:04:48: Player Found ID: 36 Name: Severino
+2017/03/20 16:04:50: Severino Dir: 1 X: 19 Y: 21
+2017/03/20 16:04:50: Severino Dir: 1 X: 19 Y: 20
+2017/03/20 16:04:51: Severino Dir: 1 X: 19 Y: 19
+2017/03/20 16:04:51: Severino Dir: 1 X: 19 Y: 18
+2017/03/20 16:04:51: Severino Dir: 4 X: 19 Y: 19
+2017/03/20 16:05:23: ID: 36 Severino Status changed to disconnected: 189.47.119.147
+2017/03/20 16:49:05: Game Server Name: Canal 1
+2017/03/20 16:49:05: Discovery: Elysium Diamond #1.0.0
+2017/03/20 16:49:05: Port: 55970
+2017/03/20 16:49:05: MaximumConnections: 2000
+2017/03/20 16:49:05: ConnectionTimeOut: 25
+2017/03/20 16:49:05: Logs: True
+2017/03/20 16:49:05: Sleep: 1
+2017/03/20 16:49:05: Game Server ID: gameserver_1
+2017/03/20 16:49:05: Carregando config mysql
+2017/03/20 16:49:06: Connectado ao banco de dados
+2017/03/20 16:49:06: WorldServer 1  ID: Artemis
+2017/03/20 16:49:06: WorldServer 2  ID: 
+2017/03/20 16:49:06: WorldServer 3  ID: 
+2017/03/20 16:49:06: WorldServer 4  ID: 
+2017/03/20 16:49:06: WorldServer 5  ID: 
+2017/03/20 16:49:06: Carregando experiência
+2017/03/20 16:49:06: Level Max: 121
+2017/03/20 16:49:06: Exp Max: 22353256174
+2017/03/20 16:49:06: Carregando guilds
+2017/03/20 16:49:06: Carregando membros
+2017/03/20 16:49:06: Carregando classe(s) base
+2017/03/20 16:49:06: Carregando classe(s) incremento
+2017/03/20 16:49:06: Carregando NPC
+2017/03/20 16:49:06: Game Server Start
+2017/03/20 16:49:08: Discovery Response IPEndPoint: 127.0.0.1
+2017/03/20 16:49:08: Status changed to connected: 127.0.0.1
+2017/03/20 16:49:34: Data From World Server ID: 1 Account: akaruz Char ID: 35 Slot: 2 8A09A8EF0DDA72A0
+2017/03/20 16:49:34: Discovery Response IPEndPoint: 189.47.119.147
+2017/03/20 16:49:34: Status changed to connected: 189.47.119.147
+2017/03/20 16:49:34: Received From Client: 8A09A8EF0DDA72A0
+2017/03/20 16:49:34: Player Found ID: 35 Name: Nadaila
+2017/03/20 16:49:36: Nadaila Dir: 1 X: 25 Y: 35
+2017/03/20 16:49:36: Nadaila Dir: 1 X: 25 Y: 34
+2017/03/20 16:49:36: Nadaila Dir: 1 X: 25 Y: 33
+2017/03/20 16:49:46: Data From World Server ID: 2 Account: dragonick Char ID: 36 Slot: 0 1861028C133DDD65
+2017/03/20 16:49:47: Discovery Response IPEndPoint: 189.47.119.147
+2017/03/20 16:49:47: Status changed to connected: 189.47.119.147
+2017/03/20 16:49:47: Received From Client: 1861028C133DDD65
+2017/03/20 16:49:47: Player Found ID: 36 Name: Severino
+2017/03/20 16:49:49: Severino Dir: 1 X: 19 Y: 18
+2017/03/20 16:49:49: Severino Dir: 1 X: 19 Y: 17
+2017/03/20 16:49:49: Severino Dir: 1 X: 19 Y: 16
+2017/03/20 16:49:49: Severino Dir: 4 X: 19 Y: 17
+2017/03/20 16:49:50: Severino Dir: 4 X: 19 Y: 18
+2017/03/20 16:49:50: Severino Dir: 4 X: 19 Y: 19
+2017/03/20 16:49:50: Severino Dir: 10 X: 20 Y: 19
+2017/03/20 16:49:50: Severino Dir: 10 X: 21 Y: 19
+2017/03/20 16:49:50: Severino Dir: 4 X: 21 Y: 20
+2017/03/20 16:49:51: Severino Dir: 4 X: 21 Y: 21
+2017/03/20 16:49:51: Severino Dir: 4 X: 21 Y: 22
+2017/03/20 16:49:51: Severino Dir: 4 X: 21 Y: 23
+2017/03/20 16:49:51: Severino Dir: 4 X: 21 Y: 24
+2017/03/20 16:49:51: Severino Dir: 4 X: 21 Y: 25
+2017/03/20 16:49:51: Severino Dir: 4 X: 21 Y: 26
+2017/03/20 16:49:52: Severino Dir: 10 X: 22 Y: 26
+2017/03/20 16:49:52: Severino Dir: 4 X: 22 Y: 27
+2017/03/20 16:49:52: Severino Dir: 4 X: 22 Y: 28
+2017/03/20 16:50:18: ID: 36 Severino Status changed to disconnected: 189.47.119.147
+2017/03/20 16:50:57: ID: 35 Nadaila Status changed to disconnected: 189.47.119.147
+2017/03/20 18:02:58: Game Server Name: Canal 1
+2017/03/20 18:02:58: Discovery: Elysium Diamond #1.0.0
+2017/03/20 18:02:58: Port: 55970
+2017/03/20 18:02:58: MaximumConnections: 2000
+2017/03/20 18:02:58: ConnectionTimeOut: 25
+2017/03/20 18:02:58: Logs: True
+2017/03/20 18:02:58: Sleep: 1
+2017/03/20 18:02:58: Game Server ID: gameserver_1
+2017/03/20 18:02:58: Carregando config mysql
+2017/03/20 18:02:59: Connectado ao banco de dados
+2017/03/20 18:02:59: WorldServer 1  ID: Artemis
+2017/03/20 18:02:59: WorldServer 2  ID: 
+2017/03/20 18:02:59: WorldServer 3  ID: 
+2017/03/20 18:02:59: WorldServer 4  ID: 
+2017/03/20 18:02:59: WorldServer 5  ID: 
+2017/03/20 18:02:59: Carregando experiência
+2017/03/20 18:02:59: Level Max: 121
+2017/03/20 18:02:59: Exp Max: 22353256174
+2017/03/20 18:02:59: Carregando guilds
+2017/03/20 18:02:59: Carregando membros
+2017/03/20 18:02:59: Carregando classe(s) base
+2017/03/20 18:02:59: Carregando classe(s) incremento
+2017/03/20 18:02:59: Carregando NPC
+2017/03/20 18:02:59: Game Server Start
+2017/03/20 18:03:08: Discovery Response IPEndPoint: 127.0.0.1
+2017/03/20 18:03:08: Status changed to connected: 127.0.0.1
+2017/03/20 18:04:30: Game Server Name: Canal 1
+2017/03/20 18:04:30: Discovery: Elysium Diamond #1.0.0
+2017/03/20 18:04:30: Port: 55970
+2017/03/20 18:04:30: MaximumConnections: 2000
+2017/03/20 18:04:30: ConnectionTimeOut: 25
+2017/03/20 18:04:30: Logs: True
+2017/03/20 18:04:30: Sleep: 1
+2017/03/20 18:04:30: Game Server ID: gameserver_1
+2017/03/20 18:04:30: Carregando config mysql
+2017/03/20 18:04:30: Connectado ao banco de dados
+2017/03/20 18:04:30: WorldServer 1  ID: Artemis
+2017/03/20 18:04:31: WorldServer 2  ID: 
+2017/03/20 18:04:31: WorldServer 3  ID: 
+2017/03/20 18:04:31: WorldServer 4  ID: 
+2017/03/20 18:04:31: WorldServer 5  ID: 
+2017/03/20 18:04:31: Carregando experiência
+2017/03/20 18:04:31: Level Max: 121
+2017/03/20 18:04:31: Exp Max: 22353256174
+2017/03/20 18:04:31: Carregando guilds
+2017/03/20 18:04:31: Carregando membros
+2017/03/20 18:04:31: Carregando classe(s) base
+2017/03/20 18:04:31: Carregando classe(s) incremento
+2017/03/20 18:04:31: Carregando NPC
+2017/03/20 18:04:31: Game Server Start
+2017/03/20 18:04:38: Discovery Response IPEndPoint: 127.0.0.1
+2017/03/20 18:04:38: Status changed to connected: 127.0.0.1
+2017/03/20 18:38:04: Game Server Name: Canal 1
+2017/03/20 18:38:04: Discovery: Elysium Diamond #1.0.0
+2017/03/20 18:38:04: Port: 55970
+2017/03/20 18:38:04: MaximumConnections: 2000
+2017/03/20 18:38:04: ConnectionTimeOut: 25
+2017/03/20 18:38:04: Logs: True
+2017/03/20 18:38:04: Sleep: 1
+2017/03/20 18:38:04: Game Server ID: gameserver_1
+2017/03/20 18:38:04: Carregando config mysql
+2017/03/20 18:38:04: Connectado ao banco de dados
+2017/03/20 18:38:04: WorldServer 1  ID: Artemis
+2017/03/20 18:38:04: WorldServer 2  ID: 
+2017/03/20 18:38:04: WorldServer 3  ID: 
+2017/03/20 18:38:04: WorldServer 4  ID: 
+2017/03/20 18:38:04: WorldServer 5  ID: 
+2017/03/20 18:38:04: Carregando experiência
+2017/03/20 18:38:04: Level Max: 121
+2017/03/20 18:38:04: Exp Max: 22353256174
+2017/03/20 18:38:04: Carregando guilds
+2017/03/20 18:38:04: Carregando membros
+2017/03/20 18:38:04: Carregando classe(s) base
+2017/03/20 18:38:04: Carregando classe(s) incremento
+2017/03/20 18:38:04: Carregando NPC
+2017/03/20 18:38:05: Game Server Start
+2017/03/20 18:38:12: Discovery Response IPEndPoint: 127.0.0.1
+2017/03/20 18:38:12: Status changed to connected: 127.0.0.1
+2017/03/20 18:38:35: Data From World Server ID: 1 Account: akaruz Char ID: 33 Slot: 1 838451CB266FF682
+2017/03/20 18:38:35: Discovery Response IPEndPoint: 189.47.119.147
+2017/03/20 18:38:35: Status changed to connected: 189.47.119.147
+2017/03/20 18:38:35: Received From Client: 838451CB266FF682
+2017/03/20 18:38:35: Player Found ID: 33 Name: Joanlac
+2017/03/20 18:38:36: Joanlac Dir: 4 X: 31 Y: 22
+2017/03/20 18:38:38: Joanlac Dir: 1 X: 31 Y: 21
+2017/03/20 18:38:38: Joanlac Dir: 1 X: 31 Y: 20
+2017/03/20 18:38:38: Joanlac Dir: 1 X: 31 Y: 19
+2017/03/20 18:38:38: Joanlac Dir: 1 X: 31 Y: 18
+2017/03/20 18:38:38: Joanlac Dir: 1 X: 31 Y: 17
+2017/03/20 18:38:38: Joanlac Dir: 10 X: 32 Y: 17
+2017/03/20 18:38:39: Joanlac Dir: 10 X: 33 Y: 17
+2017/03/20 18:38:39: Joanlac Dir: 10 X: 34 Y: 17
+2017/03/20 18:38:39: Joanlac Dir: 10 X: 35 Y: 17
+2017/03/20 18:38:39: Joanlac Dir: 10 X: 36 Y: 17
+2017/03/20 18:38:39: Joanlac Dir: 10 X: 37 Y: 17
+2017/03/20 18:38:40: Joanlac Dir: 4 X: 37 Y: 18
+2017/03/20 18:38:49: Data From World Server ID: 2 Account: dragonick Char ID: 36 Slot: 0 67CE6E4FBDBD49C8
+2017/03/20 18:38:50: Discovery Response IPEndPoint: 189.47.119.147
+2017/03/20 18:38:50: Status changed to connected: 189.47.119.147
+2017/03/20 18:38:50: Received From Client: 67CE6E4FBDBD49C8
+2017/03/20 18:38:50: Player Found ID: 36 Name: Severino
+2017/03/20 18:38:55: Severino Dir: 1 X: 22 Y: 27
+2017/03/20 18:38:55: Severino Dir: 1 X: 22 Y: 26
+2017/03/20 18:38:55: Severino Dir: 1 X: 22 Y: 25
+2017/03/20 18:38:55: Severino Dir: 1 X: 22 Y: 24
+2017/03/20 18:38:55: Severino Dir: 1 X: 22 Y: 23
+2017/03/20 18:38:55: Severino Dir: 1 X: 22 Y: 22
+2017/03/20 18:38:56: Severino Dir: 1 X: 22 Y: 21
+2017/03/20 18:38:56: Severino Dir: 1 X: 22 Y: 20
+2017/03/20 18:38:56: Severino Dir: 10 X: 23 Y: 20
+2017/03/20 18:38:56: Severino Dir: 1 X: 23 Y: 19
+2017/03/20 18:38:57: Severino Dir: 10 X: 24 Y: 19
+2017/03/20 18:38:57: Severino Dir: 10 X: 25 Y: 19
+2017/03/20 18:38:57: Severino Dir: 10 X: 26 Y: 19
+2017/03/20 18:38:57: Severino Dir: 1 X: 26 Y: 18
+2017/03/20 18:38:57: Severino Dir: 1 X: 26 Y: 17
+2017/03/20 18:38:58: Severino Dir: 10 X: 27 Y: 17
+2017/03/20 18:38:58: Severino Dir: 10 X: 28 Y: 17
+2017/03/20 18:38:58: Severino Dir: 10 X: 29 Y: 17
+2017/03/20 18:38:58: Severino Dir: 4 X: 29 Y: 18
+2017/03/20 18:38:58: Severino Dir: 10 X: 30 Y: 18
+2017/03/20 18:38:59: Severino Dir: 10 X: 31 Y: 18
+2017/03/20 18:38:59: Severino Dir: 10 X: 32 Y: 18
+2017/03/20 18:38:59: Severino Dir: 10 X: 33 Y: 18
+2017/03/20 18:38:59: Severino Dir: 10 X: 34 Y: 18
+2017/03/20 18:38:59: Severino Dir: 10 X: 35 Y: 18
+2017/03/20 18:39:01: Severino Dir: 4 X: 35 Y: 19
+2017/03/20 18:39:02: Severino Dir: 1 X: 35 Y: 18
+2017/03/20 18:39:02: Severino Dir: 10 X: 36 Y: 18
+2017/03/20 18:39:03: Severino Dir: 7 X: 35 Y: 18
+2017/03/20 18:39:03: Severino Dir: 10 X: 36 Y: 18
+2017/03/20 18:39:03: Severino Dir: 10 X: 37 Y: 18
+2017/03/20 18:39:03: Severino Dir: 10 X: 38 Y: 18
+2017/03/20 18:39:04: Severino Dir: 10 X: 39 Y: 18
+2017/03/20 18:39:04: Severino Dir: 7 X: 38 Y: 18
+2017/03/20 18:39:05: Severino Dir: 7 X: 37 Y: 18
+2017/03/20 18:39:05: Severino Dir: 7 X: 36 Y: 18
+2017/03/20 18:39:06: Severino Dir: 10 X: 37 Y: 18
+2017/03/20 18:39:07: Severino Dir: 7 X: 36 Y: 18
+2017/03/20 18:39:07: Severino Dir: 7 X: 35 Y: 18
+2017/03/20 18:39:07: Severino Dir: 7 X: 34 Y: 18
+2017/03/20 18:39:07: Severino Dir: 7 X: 33 Y: 18
+2017/03/20 18:39:07: Severino Dir: 7 X: 32 Y: 18
+2017/03/20 18:39:08: Severino Dir: 4 X: 32 Y: 19
+2017/03/20 18:39:08: Severino Dir: 7 X: 31 Y: 19
+2017/03/20 18:39:08: Severino Dir: 7 X: 30 Y: 19
+2017/03/20 18:39:08: Severino Dir: 7 X: 29 Y: 19
+2017/03/20 18:39:08: Severino Dir: 7 X: 28 Y: 19
+2017/03/20 18:39:09: Severino Dir: 7 X: 27 Y: 19
+2017/03/20 18:39:09: Severino Dir: 1 X: 27 Y: 18
+2017/03/20 18:39:09: Severino Dir: 1 X: 27 Y: 17
+2017/03/20 18:39:35: ID: 36 Severino Status changed to disconnected: 189.47.119.147
+2017/03/20 18:39:37: Joanlac Dir: 7 X: 36 Y: 18
+2017/03/20 18:39:38: Joanlac Dir: 7 X: 35 Y: 18
+2017/03/20 18:39:38: Joanlac Dir: 4 X: 35 Y: 19
+2017/03/20 18:39:38: Joanlac Dir: 4 X: 35 Y: 20
+2017/03/20 18:39:38: Joanlac Dir: 7 X: 34 Y: 20
+2017/03/20 18:39:38: Joanlac Dir: 7 X: 33 Y: 20
+2017/03/20 18:39:39: Joanlac Dir: 7 X: 32 Y: 20
+2017/03/20 18:40:04: ID: 33 Joanlac Status changed to disconnected: 189.47.119.147
+2017/03/20 19:04:03: Game Server Name: Canal 1
+2017/03/20 19:04:03: Discovery: Elysium Diamond #1.0.0
+2017/03/20 19:04:03: Port: 55970
+2017/03/20 19:04:03: MaximumConnections: 2000
+2017/03/20 19:04:03: ConnectionTimeOut: 25
+2017/03/20 19:04:03: Logs: True
+2017/03/20 19:04:03: Sleep: 1
+2017/03/20 19:04:03: Game Server ID: gameserver_1
+2017/03/20 19:04:03: Carregando config mysql
+2017/03/20 19:04:03: Connectado ao banco de dados
+2017/03/20 19:04:03: WorldServer 1  ID: Artemis
+2017/03/20 19:04:03: WorldServer 2  ID: 
+2017/03/20 19:04:03: WorldServer 3  ID: 
+2017/03/20 19:04:03: WorldServer 4  ID: 
+2017/03/20 19:04:03: WorldServer 5  ID: 
+2017/03/20 19:04:03: Carregando experiência
+2017/03/20 19:04:03: Level Max: 121
+2017/03/20 19:04:03: Exp Max: 22353256174
+2017/03/20 19:04:03: Carregando guilds
+2017/03/20 19:04:03: Carregando membros
+2017/03/20 19:04:03: Carregando classe(s) base
+2017/03/20 19:04:03: Carregando classe(s) incremento
+2017/03/20 19:04:03: Carregando NPC
+2017/03/20 19:04:04: Game Server Start
+2017/03/20 19:04:08: Discovery Response IPEndPoint: 127.0.0.1
+2017/03/20 19:04:08: Status changed to connected: 127.0.0.1
+2017/03/20 19:06:29: Data From World Server ID: 1 Account: akaruz Char ID: 35 Slot: 2 486FEE516A186F71
+2017/03/20 19:06:29: Discovery Response IPEndPoint: 189.47.119.147
+2017/03/20 19:06:29: Status changed to connected: 189.47.119.147
+2017/03/20 19:06:29: Received From Client: 486FEE516A186F71
+2017/03/20 19:06:29: Player Found ID: 35 Name: Nadaila
+2017/03/20 19:06:30: Nadaila Dir: 4 X: 25 Y: 34
+2017/03/20 19:06:30: Nadaila Dir: 4 X: 25 Y: 35
+2017/03/20 19:06:30: Nadaila Dir: 10 X: 26 Y: 35
+2017/03/20 19:06:30: Nadaila Dir: 1 X: 26 Y: 34
+2017/03/20 19:06:31: Nadaila Dir: 1 X: 26 Y: 33
+2017/03/20 19:06:31: Nadaila Dir: 1 X: 26 Y: 32
+2017/03/20 19:06:40: Data From World Server ID: 2 Account: dragonick Char ID: 36 Slot: 0 C892F6344226A725
+2017/03/20 19:06:40: Discovery Response IPEndPoint: 189.47.119.147
+2017/03/20 19:06:40: Status changed to connected: 189.47.119.147
+2017/03/20 19:06:40: Received From Client: C892F6344226A725
+2017/03/20 19:06:40: Player Found ID: 36 Name: Severino
+2017/03/20 19:06:41: Severino Dir: 4 X: 27 Y: 18
+2017/03/20 19:06:41: Severino Dir: 4 X: 27 Y: 19
+2017/03/20 19:06:42: Severino Dir: 4 X: 27 Y: 20
+2017/03/20 19:06:42: Severino Dir: 7 X: 26 Y: 20
+2017/03/20 19:06:42: Severino Dir: 7 X: 25 Y: 20
+2017/03/20 19:06:42: Severino Dir: 7 X: 24 Y: 20
+2017/03/20 19:06:43: Severino Dir: 7 X: 23 Y: 20
+2017/03/20 19:06:43: Severino Dir: 4 X: 23 Y: 21
+2017/03/20 19:06:43: Severino Dir: 4 X: 23 Y: 22
+2017/03/20 19:06:44: Severino Dir: 1 X: 23 Y: 21
+2017/03/20 19:06:44: Severino Dir: 1 X: 23 Y: 20
+2017/03/20 19:06:44: Severino Dir: 1 X: 23 Y: 19
+2017/03/20 19:06:45: Severino Dir: 1 X: 23 Y: 18
+2017/03/20 19:06:45: Severino Dir: 1 X: 23 Y: 17
+2017/03/20 19:06:45: Severino Dir: 4 X: 23 Y: 18
+2017/03/20 19:06:45: Severino Dir: 4 X: 23 Y: 19
+2017/03/20 19:06:56: ID: 35 Nadaila Status changed to disconnected: 189.47.119.147
+2017/03/20 19:07:13: ID: 36 Severino Status changed to disconnected: 189.47.119.147
+2017/03/20 19:07:58: Game Server Name: Canal 1
+2017/03/20 19:07:58: Discovery: Elysium Diamond #1.0.0
+2017/03/20 19:07:58: Port: 55970
+2017/03/20 19:07:58: MaximumConnections: 2000
+2017/03/20 19:07:58: ConnectionTimeOut: 25
+2017/03/20 19:07:58: Logs: True
+2017/03/20 19:07:58: Sleep: 1
+2017/03/20 19:07:58: Game Server ID: gameserver_1
+2017/03/20 19:07:58: Carregando config mysql
+2017/03/20 19:07:59: Connectado ao banco de dados
+2017/03/20 19:07:59: WorldServer 1  ID: Artemis
+2017/03/20 19:07:59: WorldServer 2  ID: 
+2017/03/20 19:07:59: WorldServer 3  ID: 
+2017/03/20 19:07:59: WorldServer 4  ID: 
+2017/03/20 19:07:59: WorldServer 5  ID: 
+2017/03/20 19:07:59: Carregando experiência
+2017/03/20 19:07:59: Level Max: 121
+2017/03/20 19:07:59: Exp Max: 22353256174
+2017/03/20 19:07:59: Carregando guilds
+2017/03/20 19:07:59: Carregando membros
+2017/03/20 19:07:59: Carregando classe(s) base
+2017/03/20 19:07:59: Carregando classe(s) incremento
+2017/03/20 19:07:59: Carregando NPC
+2017/03/20 19:07:59: Game Server Start
+2017/03/20 19:08:00: Discovery Response IPEndPoint: 189.47.119.147
+2017/03/20 19:08:00: Status changed to connected: 189.47.119.147
+2017/03/20 19:08:00: Received From Client: 64FB70FB7B2C1F73
+2017/03/20 19:08:00: ID: 0  Status changed to disconnected: 189.47.119.147
+2017/03/20 19:08:08: Discovery Response IPEndPoint: 127.0.0.1
+2017/03/20 19:08:08: Status changed to connected: 127.0.0.1
+2017/03/20 19:08:15: Data From World Server ID: 1 Account: akaruz Char ID: 33 Slot: 1 1C9F319CEE1310BD
+2017/03/20 19:08:16: Discovery Response IPEndPoint: 189.47.119.147
+2017/03/20 19:08:16: Status changed to connected: 189.47.119.147
+2017/03/20 19:08:16: Received From Client: 1C9F319CEE1310BD
+2017/03/20 19:08:16: Player Found ID: 33 Name: Joanlac
+2017/03/20 19:08:45: ID: 33 Joanlac Status changed to disconnected: 189.47.119.147
+2017/03/20 20:31:38: Game Server Name: Canal 1
+2017/03/20 20:31:38: Discovery: Elysium Diamond #1.0.0
+2017/03/20 20:31:38: Port: 55970
+2017/03/20 20:31:38: MaximumConnections: 2000
+2017/03/20 20:31:38: ConnectionTimeOut: 25
+2017/03/20 20:31:38: Logs: True
+2017/03/20 20:31:38: Sleep: 1
+2017/03/20 20:31:38: Game Server ID: gameserver_1
+2017/03/20 20:31:38: Carregando config mysql
+2017/03/20 20:31:39: Connectado ao banco de dados
+2017/03/20 20:31:39: WorldServer 1  ID: Artemis
+2017/03/20 20:31:39: WorldServer 2  ID: 
+2017/03/20 20:31:39: WorldServer 3  ID: 
+2017/03/20 20:31:39: WorldServer 4  ID: 
+2017/03/20 20:31:39: WorldServer 5  ID: 
+2017/03/20 20:31:39: Carregando experiência
+2017/03/20 20:31:39: Level Max: 121
+2017/03/20 20:31:39: Exp Max: 22353256174
+2017/03/20 20:31:39: Carregando guilds
+2017/03/20 20:31:39: Carregando membros
+2017/03/20 20:31:39: Carregando classe(s) base
+2017/03/20 20:31:39: Carregando classe(s) incremento
+2017/03/20 20:31:39: Carregando NPC
+2017/03/20 20:31:39: Game Server Start
+2017/03/20 20:31:43: Discovery Response IPEndPoint: 127.0.0.1
+2017/03/20 20:31:43: Status changed to connected: 127.0.0.1
+2017/03/20 20:32:14: Data From World Server ID: 1 Account: akaruz Char ID: 35 Slot: 2 4BFDB5F858914A3A
+2017/03/20 20:32:15: Discovery Response IPEndPoint: 189.47.119.147
+2017/03/20 20:32:15: Status changed to connected: 189.47.119.147
+2017/03/20 20:32:15: Received From Client: 4BFDB5F858914A3A
+2017/03/20 20:32:15: Player Found ID: 35 Name: Nadaila
+2017/03/20 20:32:31: Game Server Name: Canal 1
+2017/03/20 20:32:31: Discovery: Elysium Diamond #1.0.0
+2017/03/20 20:32:31: Port: 55970
+2017/03/20 20:32:31: MaximumConnections: 2000
+2017/03/20 20:32:31: ConnectionTimeOut: 25
+2017/03/20 20:32:31: Logs: True
+2017/03/20 20:32:31: Sleep: 1
+2017/03/20 20:32:31: Game Server ID: gameserver_1
+2017/03/20 20:32:31: Carregando config mysql
+2017/03/20 20:32:32: Connectado ao banco de dados
+2017/03/20 20:32:32: WorldServer 1  ID: Artemis
+2017/03/20 20:32:32: WorldServer 2  ID: 
+2017/03/20 20:32:32: WorldServer 3  ID: 
+2017/03/20 20:32:32: WorldServer 4  ID: 
+2017/03/20 20:32:32: WorldServer 5  ID: 
+2017/03/20 20:32:32: Carregando experiência
+2017/03/20 20:32:32: Level Max: 121
+2017/03/20 20:32:32: Exp Max: 22353256174
+2017/03/20 20:32:32: Carregando guilds
+2017/03/20 20:32:32: Carregando membros
+2017/03/20 20:32:32: Carregando classe(s) base
+2017/03/20 20:32:32: Carregando classe(s) incremento
+2017/03/20 20:32:32: Carregando NPC
+2017/03/20 20:32:32: Game Server Start
+2017/03/20 20:32:38: Game Server Name: Canal 1
+2017/03/20 20:32:38: Discovery: Elysium Diamond #1.0.0
+2017/03/20 20:32:38: Port: 55970
+2017/03/20 20:32:38: MaximumConnections: 2000
+2017/03/20 20:32:38: ConnectionTimeOut: 25
+2017/03/20 20:32:38: Logs: True
+2017/03/20 20:32:38: Sleep: 1
+2017/03/20 20:32:38: Game Server ID: gameserver_1
+2017/03/20 20:32:38: Carregando config mysql
+2017/03/20 20:32:39: Connectado ao banco de dados
+2017/03/20 20:32:39: WorldServer 1  ID: Artemis
+2017/03/20 20:32:39: WorldServer 2  ID: 
+2017/03/20 20:32:39: WorldServer 3  ID: 
+2017/03/20 20:32:39: WorldServer 4  ID: 
+2017/03/20 20:32:39: WorldServer 5  ID: 
+2017/03/20 20:32:39: Carregando experiência
+2017/03/20 20:32:39: Level Max: 121
+2017/03/20 20:32:39: Exp Max: 22353256174
+2017/03/20 20:32:39: Carregando guilds
+2017/03/20 20:32:39: Carregando membros
+2017/03/20 20:32:39: Carregando classe(s) base
+2017/03/20 20:32:39: Carregando classe(s) incremento
+2017/03/20 20:32:39: Carregando NPC
+2017/03/20 20:32:39: Game Server Start
+2017/03/20 20:32:43: Discovery Response IPEndPoint: 127.0.0.1
+2017/03/20 20:32:43: Status changed to connected: 127.0.0.1
+2017/03/20 20:34:00: Data From World Server ID: 1 Account: akaruz Char ID: 35 Slot: 2 BD0B2301780198EB
+2017/03/20 20:34:01: Discovery Response IPEndPoint: 189.47.119.147
+2017/03/20 20:34:01: Status changed to connected: 189.47.119.147
+2017/03/20 20:34:01: Received From Client: BD0B2301780198EB
+2017/03/20 20:34:01: Player Found ID: 35 Name: Nadaila
+2017/03/20 20:34:42: Data From World Server ID: 2 Account: dragonick Char ID: 36 Slot: 0 8E38EB2639505CD4
+2017/03/20 20:34:42: Discovery Response IPEndPoint: 189.47.119.147
+2017/03/20 20:34:42: Status changed to connected: 189.47.119.147
+2017/03/20 20:34:42: Received From Client: 8E38EB2639505CD4
+2017/03/20 20:34:42: Player Found ID: 36 Name: Severino
+2017/03/20 20:35:04: Data From World Server ID: 1 Account: akaruz Char ID: 33 Slot: 1 035E12DE67CC0BE4
+2017/03/20 20:35:04: Discovery Response IPEndPoint: 189.47.119.147
+2017/03/20 20:35:05: Status changed to connected: 189.47.119.147
+2017/03/20 20:35:05: Received From Client: 035E12DE67CC0BE4
+2017/03/20 20:35:05: Player Found ID: 33 Name: Joanlac
+2017/03/20 20:35:12: ID: 35 Nadaila Status changed to disconnected: 189.47.119.147
+2017/03/20 20:35:36: ID: 33 Joanlac Status changed to disconnected: 189.47.119.147
+2017/03/20 20:35:39: ID: 36 Severino Status changed to disconnected: 189.47.119.147

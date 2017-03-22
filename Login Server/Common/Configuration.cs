@@ -36,7 +36,7 @@ namespace LoginServer.Common {
                 }
             }
         }
-    
+
         /// <summary>
         /// Converte e retorna um bool.
         /// </summary>
@@ -69,7 +69,7 @@ namespace LoginServer.Common {
         /// <param name="key"></param>
         /// <returns></returns>
         public static long GetInt64(string key) {
-             return Convert.ToInt64(cache[key]);
+            return Convert.ToInt64(cache[key]);
         }
 
         /// <summary>
@@ -79,10 +79,10 @@ namespace LoginServer.Common {
         /// <returns></returns>
         public static string GetString(string key) {
             if (cache[key] == null) return "command not found";
-               
+
             return cache[key].ToString();
         }
-    
+
         /// <summary>
         /// Limpa e libera os recursos.
         /// </summary>

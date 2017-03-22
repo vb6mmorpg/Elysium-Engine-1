@@ -1,26 +1,66 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using SharpDX.XAudio2;
-using SharpDX.Multimedia;
-using SharpDX.IO;
-
-// Retirado de "SharpDX.org"
-//http://neareal.net/index.php?ComputerGraphics%2FSharpDX%2FSoundEffectWithToolkit
 
 namespace Elysium_Diamond.DirectX {
     public class EngineSoundManager {
+
+        private struct SoundCompleteCallback {
+            public EngineSoundManager Manager;
+            public SourceVoice Voice;
+
+            public SoundCompleteCallback(EngineSoundManager manager, SourceVoice voice) {
+                Manager = manager;
+                Voice = voice;
+            }
+
+            public void OnSoundFinished(IntPtr arg) {
+                Manager.ReuseVoice(Voice);
+            }
+        }
+
+        private XAudio2 XAudio2;
+        private MasteringVoice MasteringVoice;
+        private List<SourceVoice> FreeVoices = new List<SourceVoice>();
+
+        /// <summary>
+        /// Construtor
+        /// </summary>
         public EngineSoundManager() {
             XAudio2 = new XAudio2();
             MasteringVoice = new MasteringVoice(XAudio2);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
         public void StopEngine() {
             XAudio2.StopEngine();
         }
 
+        /// <summary>
+        /// Altera o volume.
+        /// </summary>
+        /// <param name="volume"></param>
+        public void SetVolume(float volume) {
+            MasteringVoice.SetVolume(volume);
+        }
+
+        /// <summary>
+        /// Otem o volume 1.0f (máximo).
+        /// </summary>
+        /// <returns></returns>
+        public float GetVolume() {
+            return MasteringVoice.Volume;
+        }
+
+        /// <summary>
+        /// Executa o stream de som.
+        /// </summary>
+        /// <param name="sound"></param>
         public void Play(EngineSound sound) {
             SourceVoice voice;
+
             lock (FreeVoices) {
                 if (FreeVoices.Count == 0) {
                     voice = new SourceVoice(XAudio2, sound.SoundStream.Format, true);
@@ -30,30 +70,26 @@ namespace Elysium_Diamond.DirectX {
                     FreeVoices.RemoveAt(FreeVoices.Count - 1);
                 }
             }
+
             voice.SubmitSourceBuffer(sound.AudioBuffer, sound.SoundStream.DecodedPacketsInfo);
             voice.Start();
         }
 
-        public void ReuseVoice(SourceVoice voice) {
+        private void ReuseVoice(SourceVoice voice) {
             lock (FreeVoices) {
                 FreeVoices.Add(voice);
             }
         }
 
-        protected struct SoundCompleteCallback {
-            public EngineSoundManager Manager;
-            public SourceVoice Voice;
-            public SoundCompleteCallback(EngineSoundManager manager, SourceVoice voice) {
-                Manager = manager;
-                Voice = voice;
-            }
-            public void OnSoundFinished(IntPtr arg) {
-                Manager.ReuseVoice(Voice);
-            }
-        }
+        /// <summary>
+        /// Não necessariamente um dispose.
+        /// </summary>
+        public void Dispose() {
+            StopEngine();
+            XAudio2.Dispose();
 
-        protected XAudio2 XAudio2;
-        protected MasteringVoice MasteringVoice;
-        protected List<SourceVoice> FreeVoices = new List<SourceVoice>();
+            XAudio2 = null;
+            MasteringVoice = null;
+        }
     }
 }

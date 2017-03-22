@@ -66,7 +66,7 @@ namespace LoginServer
 
             LuaScript.LuaConfig.InitializeConfig();
 
-            Configuration.ParseConfigFile($"{Environment.CurrentDirectory}\\{Settings.FileConfig}");
+            Configuration.ParseConfigFile($"{Environment.CurrentDirectory}\\{Settings.FILE_CONFIG}");
 
             Settings.Discovery = Configuration.GetString("Discovery");
             WriteLog($"Discovery: {Settings.Discovery}", Color.Black);
@@ -89,15 +89,20 @@ namespace LoginServer
             Settings.Version = Configuration.GetString("CheckVersion");
             WriteLog($"Version: {Settings.Version}", Color.BlueViolet);
 
-            if (Settings.LogSystem == 1) {
-                WriteLog("LogSystem - Ativado.", Color.Green);
-                FileLog.OpenFileLog();
-            }
-            else {
-                WriteLog("LogSystem - Desativado.", Color.Black);
-            }
+            GeoIp.Enabled = Configuration.GetBoolean("GeoIp");
+            var result = (GeoIp.Enabled == true) ? "Ativado" : "Desativado";
+            WriteLog($"GeoIp: {result}", Color.BlueViolet);
 
-            Settings.Server = new List<ServerData>();
+            CheckSum.Enabled = Configuration.GetBoolean("CheckSum");
+            result = (CheckSum.Enabled == true) ? "Ativado" : "Desativado";
+            WriteLog($"CheckSum: {result}", Color.BlueViolet);
+
+            //1 - enabled
+            result = (Settings.LogSystem == 1) ? "LogSystem: Ativado" : "LogSystem: Desativado";
+            WriteLog("LogSystem: Desativado.", Color.Black);
+            
+            if (Settings.LogSystem == 1) { FileLog.OpenFileLog(); }
+
             Authentication.Player = new HashSet<PlayerData>();
 
             InitializeServerConfig();
@@ -118,6 +123,8 @@ namespace LoginServer
             WriteLog("Login Server Start.", Color.Green);
 
             LoginNetwork.InitializeServer();
+
+            GeoIp.ReadFile();
 
             #region Tray System
             trayMenu.MenuItems.Add("Mostrar", ShowForm);
@@ -168,7 +175,7 @@ namespace LoginServer
         }
 
         private void reloadVersion_MenuItem_Click(object sender, EventArgs e) {
-            Configuration.ParseConfigFile($"{Environment.CurrentDirectory}\\{Settings.FileConfig}");
+            Configuration.ParseConfigFile($"{Environment.CurrentDirectory}\\{Settings.FILE_CONFIG}");
             Settings.Version = Configuration.GetString("CheckVersion");
             WriteLog($"Version: {Settings.Version}", Color.Black);
         }
@@ -192,12 +199,13 @@ namespace LoginServer
         }
         #endregion
 
+        /// <summary>
+        /// FORM LOAD
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void frmMain_Load(object sender, EventArgs e) {
             this.Show();
-        }
-
-        private void checkLog_Click(object sender, EventArgs e) {
-            Settings.LogSystemScreen = checkLog.Checked;
         }
 
         /// <summary>
@@ -206,9 +214,10 @@ namespace LoginServer
         public static void InitializeServerConfig() {
             var enabled = 0;
             for (var i = 0; i < Settings.MAX_SERVER; i++) {
-                Settings.Server.Add(new ServerData());
 
                 enabled = Configuration.GetInt32((i + 1) + "_Enabled");
+
+                Settings.Server[i] = new ServerData();
 
                 if (enabled == 0) {
                     Settings.Server[i].Name = string.Empty;
@@ -264,6 +273,10 @@ namespace LoginServer
                 ClearScreenSeconds.Checked = true;
                 timerClear.Start();
             }
+        }
+
+        private void timer1_Tick(object sender, EventArgs e) {
+            Text = $"Login Server @ {Login.CPS}";
         }
     }
 }

@@ -11,6 +11,8 @@ namespace WorldServer.Common {
     // @contact psoreto@gmail.com
 
     public static class Configuration {
+
+
         static Hashtable cache = new Hashtable();
 
         /// <summary>

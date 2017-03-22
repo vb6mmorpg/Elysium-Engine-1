@@ -1,4 +1,6 @@
-﻿using System.Drawing.Text;
+﻿using System;
+using System.IO;
+using System.Drawing.Text;
 using SharpDX;
 using SharpDX.Direct3D9;
 using Color = SharpDX.Color;
@@ -17,28 +19,28 @@ namespace Elysium_Diamond.DirectX {
         public static void Initialize() {
             var fCollection = new PrivateFontCollection();
 
-            var fontName = "Georgia";
-            var size = 16f;
+         //   var fontName = "Georgia";
+            var size = 14f;
 
             #region Multi Font
-            /* if (File.Exists(fontName)) {
-                fCollection.AddFontFile(fontName); 
-            }
-            else { 
-                fCollection.AddFontFile(@"C:\Windows\Fonts\Georgia.ttf"); 
-            } 
+        //    if (File.Exists(fontName)) {
+        //        fCollection.AddFontFile(fontName); 
+       //     }
+        //    else { 
+             fCollection.AddFontFile($"{Environment.CurrentDirectory}\\Data\\Font\\OpenSans-Light.ttf"); 
+        //    } 
              
-            fCollection.Families[0] - first name//
-            */
+          //  fCollection.Families[0] 
+         //  
             #endregion
 
-            var font = new SD.Font(fontName, size, SD.FontStyle.Regular, SD.GraphicsUnit.Pixel);
+            var font = new SD.Font(fCollection.Families[0], size, SD.FontStyle.Regular, SD.GraphicsUnit.Pixel);
             regular = new Font(EngineCore.Device, font);
 
-            font = new SD.Font(fontName, size, SD.FontStyle.Bold, SD.GraphicsUnit.Pixel);
+            font = new SD.Font(fCollection.Families[0], size, SD.FontStyle.Bold, SD.GraphicsUnit.Pixel);
             bold = new Font(EngineCore.Device, font);
 
-            font = new SD.Font(fontName, size, SD.FontStyle.Italic, SD.GraphicsUnit.Pixel);
+            font = new SD.Font(fCollection.Families[0], size, SD.FontStyle.Italic, SD.GraphicsUnit.Pixel);
             italic = new Font(EngineCore.Device, font);
 
             font.Dispose();

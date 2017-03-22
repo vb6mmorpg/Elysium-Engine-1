@@ -21,7 +21,7 @@ namespace LoginServer.Network {
         /// <summary>
         /// Socket client.
         /// </summary>
-        public NetClient Socket { get; set; } = null;
+        private NetClient socket { get; set; }
 
         /// <summary>
         /// Dados de entrada.
@@ -40,13 +40,40 @@ namespace LoginServer.Network {
             this.port = port;
 
             NetPeerConfiguration config = new NetPeerConfiguration(Settings.Discovery);
-            config.EnableMessageType(NetIncomingMessageType.DiscoveryResponse);
             config.ConnectionTimeout = 25;
             config.UseMessageRecycling = true;
+            config.AutoFlushSendQueue = true;
+            config.EnableMessageType(NetIncomingMessageType.DiscoveryResponse | NetIncomingMessageType.StatusChanged | NetIncomingMessageType.Data);
+            config.DisableMessageType(NetIncomingMessageType.ConnectionApproval |
+                NetIncomingMessageType.ConnectionLatencyUpdated |
+                NetIncomingMessageType.DebugMessage |
+                NetIncomingMessageType.Error |
+                NetIncomingMessageType.NatIntroductionSuccess |
+                NetIncomingMessageType.Receipt |
+                NetIncomingMessageType.UnconnectedData |
+                NetIncomingMessageType.VerboseDebugMessage |
+                NetIncomingMessageType.WarningMessage);
 
-            Socket = new NetClient(config);
-            Socket.Start();
-            Socket.Socket.Blocking = false;
+            socket = new NetClient(config);
+            socket.Start();
+            socket.Socket.Blocking = false;
+        }
+
+        /// <summary>
+        /// Cria a mensagem de envio.
+        /// </summary>
+        /// <returns></returns>
+        public NetOutgoingMessage CreateMessage() {
+            return socket.CreateMessage();
+        }
+
+        /// <summary>
+        /// Cria a mensagem de envio com a capacidade inicial.
+        /// </summary>
+        /// <param name="initialCapacity"></param>
+        /// <returns></returns>
+        public NetOutgoingMessage CreateMessage(int initialCapacity) {
+            return socket.CreateMessage(initialCapacity);
         }
 
         /// <summary>
@@ -54,18 +81,18 @@ namespace LoginServer.Network {
         /// </summary>
         /// <returns></returns>
         public bool DiscoverServer() {
-            if (Equals(null, Socket))
+            if (Equals(null, socket))
                 return false;
 
             if (Connected())
                 return true;
 
             if (string.IsNullOrEmpty(localIP)) {
-                if (Socket.DiscoverKnownPeer(ip, port))
+                if (socket.DiscoverKnownPeer(ip, port))
                     return true; 
             }
             else {
-                if (Socket.DiscoverKnownPeer(localIP, port))
+                if (socket.DiscoverKnownPeer(localIP, port))
                     return true; 
             }
                    
@@ -76,12 +103,15 @@ namespace LoginServer.Network {
         /// Fecha a conexão.
         /// </summary>
         public void Disconnect() {
-            Socket.Disconnect("");
+            socket.Disconnect("");
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
         public void Shutdown() {
-            if (Socket.Status == NetPeerStatus.Running) { Socket.Disconnect(""); }
-            Socket = null;
+            if (socket.Status == NetPeerStatus.Running) { socket.Disconnect(""); }
+            socket = null;
         }
 
         /// <summary>
@@ -89,10 +119,10 @@ namespace LoginServer.Network {
         /// </summary>
         /// <returns>bool</returns>
         public bool Connected() {
-            if (Equals(null, Socket))
+            if (Equals(null, socket))
                 return false; 
 
-            return Socket.ConnectionStatus == NetConnectionStatus.Connected ? true : false;
+            return socket.ConnectionStatus == NetConnectionStatus.Connected ? true : false;
         }
 
         /// <summary>
@@ -100,10 +130,10 @@ namespace LoginServer.Network {
         /// </summary>
         /// <param name="Data"></param>
         public void SendData(NetOutgoingMessage Data) {
-            if (Equals(null, Socket))
+            if (Equals(null, socket))
                 return; 
 
-            Socket.SendMessage(Data, NetDeliveryMethod.ReliableOrdered);
+            socket.SendMessage(Data, NetDeliveryMethod.ReliableOrdered);
         }
 
         /// <summary>
@@ -111,22 +141,20 @@ namespace LoginServer.Network {
         /// </summary>
         /// <param name="index"></param>
         public void ReceiveData(int index) {
-            if (Equals(null, Socket))
+            if (Equals(null, socket))
                 return; 
 
             //recebe as mensagens
-            while ((incMsg = Socket.ReadMessage()) != null) {
+            while ((incMsg = socket.ReadMessage()) != null) {
                 switch (incMsg.MessageType) {
                     case NetIncomingMessageType.DiscoveryResponse:
-                        Socket.Connect(incMsg.SenderEndPoint);
-                        FileLog.WriteLog($"Connected World Server #{Settings.Server[index].Name}");            
+                        socket.Connect(incMsg.SenderEndPoint);   
                         FileLog.WriteLog($"Connected World Server #{Settings.Server[index].Name}", System.Drawing.Color.Green);
                         break;
 
                     case NetIncomingMessageType.StatusChanged:
                         NetConnectionStatus status = (NetConnectionStatus)incMsg.ReadByte();
                         if (status == NetConnectionStatus.Disconnected) {
-                            FileLog.WriteLog($"World Server #{Settings.Server[index].Name} disconnected"); 
                             FileLog.WriteLog($"World Server #{Settings.Server[index].Name} disconnected", System.Drawing.Color.Green);
                         }
                         break;
@@ -136,7 +164,7 @@ namespace LoginServer.Network {
                         break;
                 }
 
-                Socket.Recycle(incMsg);
+                socket.Recycle(incMsg);
             }
         }
     }

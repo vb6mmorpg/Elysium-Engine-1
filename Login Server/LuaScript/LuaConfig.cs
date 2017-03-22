@@ -14,10 +14,10 @@ namespace LoginServer.LuaScript {
             using(var lua = new Lua()) {
                 //lua.LoadCLRPackage();
                 lua.RegisterFunction("AddChecksum", null, typeof(CheckSum).GetMethod("Add"));
+                lua.RegisterFunction("AddCountry", null, typeof(GeoIp).GetMethod("AddCountry"));
 
                 lua.DoFile("checksum.lua");
-
-                CheckSum.Enabled = (bool)lua["enabled"];
+                lua.DoFile("geoip.lua");
             }       
         }
     }

@@ -1,0 +1,36 @@
+2017/03/14 17:52:38: Game Server Name: Canal 1
+2017/03/14 17:52:38: Discovery: Elysium Diamond #1.0.0
+2017/03/14 17:52:38: Port: 10120
+2017/03/14 17:52:38: MaximumConnections: 2000
+2017/03/14 17:52:38: ConnectionTimeOut: 25
+2017/03/14 17:52:38: Logs: True
+2017/03/14 17:52:38: Sleep: 1
+2017/03/14 17:52:38: Game Server ID: gameserver_1
+2017/03/14 17:52:38: Carregando config mysql
+2017/03/14 17:52:39: Connectado ao banco de dados
+2017/03/14 17:52:39: WorldServer 1  ID: Artemis
+2017/03/14 17:52:39: WorldServer 2  ID: 
+2017/03/14 17:52:39: WorldServer 3  ID: 
+2017/03/14 17:52:39: WorldServer 4  ID: 
+2017/03/14 17:52:39: WorldServer 5  ID: 
+2017/03/14 17:52:39: Carregando experiência
+2017/03/14 17:52:39: Level Max: 121
+2017/03/14 17:52:39: Exp Max: 22353256174
+2017/03/14 17:52:39: Carregando guilds
+2017/03/14 17:52:39: Carregando membros
+2017/03/14 17:52:39: Carregando classe(s) base
+2017/03/14 17:52:39: Carregando classe(s) incremento
+2017/03/14 17:52:39: Carregando NPC
+2017/03/14 17:52:39: Game Server Start
+2017/03/14 17:52:42: Status changed to connected: 127.0.0.1
+2017/03/14 17:53:02: Data From World Server ID: 1 Account: akaruz Char ID: 14 Slot: 0 E8A2BD60C8233179
+2017/03/14 17:53:02: Status changed to connected: 127.0.0.1
+2017/03/14 17:53:02: Received From Client: E8A2BD60C8233179
+2017/03/14 17:53:02: Player Found ID: 14 Name: Joanlac
+2017/03/14 17:54:41: ID: 14 Joanlac Status changed to disconnected: 127.0.0.1
+2017/03/14 22:19:59: Data From World Server ID: 1 Account: akaruz Char ID: 18 Slot: 3 C35E2BFC12B365DD
+2017/03/14 22:20:00: Status changed to connected: 127.0.0.1
+2017/03/14 22:20:00: Received From Client: C35E2BFC12B365DD
+2017/03/14 22:20:00: Player Found ID: 18 Name: Caronne
+2017/03/14 22:20:27: ID: 18 Caronne Status changed to disconnected: 127.0.0.1
+2017/03/14 23:43:04: ID: 0  Status changed to disconnected: 127.0.0.1

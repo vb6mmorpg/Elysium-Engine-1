@@ -24,8 +24,19 @@ namespace WorldServer.Network {
 
                 // Networking //
                 var config = new NetPeerConfiguration(Settings.Discovery);
-                config.EnableMessageType(NetIncomingMessageType.DiscoveryResponse);
                 config.ConnectionTimeout = 25;
+                config.UseMessageRecycling = true;
+                config.AutoFlushSendQueue = true;
+                config.EnableMessageType(NetIncomingMessageType.DiscoveryResponse | NetIncomingMessageType.StatusChanged | NetIncomingMessageType.Data);
+                config.DisableMessageType(NetIncomingMessageType.ConnectionApproval |
+                    NetIncomingMessageType.ConnectionLatencyUpdated |
+                    NetIncomingMessageType.DebugMessage |
+                    NetIncomingMessageType.Error |
+                    NetIncomingMessageType.NatIntroductionSuccess |
+                    NetIncomingMessageType.Receipt |
+                    NetIncomingMessageType.UnconnectedData |
+                    NetIncomingMessageType.VerboseDebugMessage |
+                    NetIncomingMessageType.WarningMessage);
 
                 Socket = new NetClient(config);
                 Socket.Start();
@@ -33,6 +44,9 @@ namespace WorldServer.Network {
             }
         }
         
+        /// <summary>
+        /// 
+        /// </summary>
         public void Shutdown() {
             Socket.Shutdown("");
             Socket = null;
@@ -70,9 +84,9 @@ namespace WorldServer.Network {
         /// Envia os dados.
         /// </summary>
         /// <param name="Data"></param>
-        public void SendData(NetOutgoingMessage Data) {
+        public void SendData(NetOutgoingMessage msg) {
             if (Socket == null) { return; }
-            Socket.SendMessage(Data, NetDeliveryMethod.ReliableOrdered);
+            Socket.SendMessage(msg, NetDeliveryMethod.ReliableOrdered);
         }
 
         /// <summary>

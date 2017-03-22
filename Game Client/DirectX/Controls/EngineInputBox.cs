@@ -35,15 +35,15 @@ namespace Elysium_Diamond.DirectX {
         static EngineButton[] button = new EngineButton[2]; // 2 botões
 
         public static void Initialize() {
-            Position = new Point(312, 15);
+            Position = new Point(295, 15);
             Visible = false;
             TextTransparency = 255;
 
             background = new EngineObject();
-            background.Texture = EngineTexture.TextureFromFile(Common.Configuration.GamePath + @"\Data\Graphics\Window_Server_2.png", 400, 140);
-            background.Size = new Size2(400, 140);
+            background.Texture = EngineTexture.TextureFromFile(Common.Configuration.GamePath + @"\Data\Graphics\inputbox.png", 424, 163);
+            background.Size = new Size2(424, 163);
             background.Position = Position;
-            background.SourceRect = new Rectangle(0, 0, 400, 140);
+            background.SourceRect = new Rectangle(0, 0, 424, 163);
             background.Visible = true;
 
             TextBox = new EngineTextBox("textbox", 256, 32);
@@ -120,7 +120,7 @@ namespace Elysium_Diamond.DirectX {
             //delete
             if (InputBoxAction == EngineInputBoxAction.Delete) {
                 if (TextBox.Text.CompareTo("deletar") == 0) {
-                    WorldServerPacket.DeleteCharacter((byte)WindowCharacter.SelectedIndex);
+                    WorldPacket.DeleteCharacter((byte)WindowCharacter.SelectedIndex);
                     Hide();
                 }
                 else {

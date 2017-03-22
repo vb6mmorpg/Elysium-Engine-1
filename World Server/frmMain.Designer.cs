@@ -36,6 +36,7 @@
             this.quit_MenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.config_MenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clear_MenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ClearScreenSeconds = new System.Windows.Forms.ToolStripMenuItem();
             this.Logs = new System.Windows.Forms.ToolStripMenuItem();
             this.reloadGuild_MenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reloadChar_MenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -45,7 +46,7 @@
             this.general_TabPage = new System.Windows.Forms.TabPage();
             this.general_textbox = new System.Windows.Forms.RichTextBox();
             this.timerClear = new System.Windows.Forms.Timer(this.components);
-            this.ClearScreenSeconds = new System.Windows.Forms.ToolStripMenuItem();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.menuStrip.SuspendLayout();
             this.config_TabPage.SuspendLayout();
             this.general_TabPage.SuspendLayout();
@@ -110,6 +111,13 @@
             this.clear_MenuItem.Size = new System.Drawing.Size(256, 22);
             this.clear_MenuItem.Text = "Limpar Tela";
             this.clear_MenuItem.Click += new System.EventHandler(this.clear_MenuItem_Click);
+            // 
+            // ClearScreenSeconds
+            // 
+            this.ClearScreenSeconds.Name = "ClearScreenSeconds";
+            this.ClearScreenSeconds.Size = new System.Drawing.Size(156, 22);
+            this.ClearScreenSeconds.Text = "30 segundos";
+            this.ClearScreenSeconds.Click += new System.EventHandler(this.ClearScreenSeconds_Click);
             // 
             // Logs
             // 
@@ -185,12 +193,11 @@
             this.timerClear.Interval = 30000;
             this.timerClear.Tick += new System.EventHandler(this.timerClear_Tick);
             // 
-            // ClearScreenSeconds
+            // timer1
             // 
-            this.ClearScreenSeconds.Name = "ClearScreenSeconds";
-            this.ClearScreenSeconds.Size = new System.Drawing.Size(156, 22);
-            this.ClearScreenSeconds.Text = "30 segundos";
-            this.ClearScreenSeconds.Click += new System.EventHandler(this.ClearScreenSeconds_Click);
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 850;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // frmMain
             // 
@@ -206,7 +213,7 @@
             this.MaximizeBox = false;
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "World Server @";
+            this.Text = "World Server @ ";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmMain_FormClosing);
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
@@ -235,6 +242,7 @@
         private System.Windows.Forms.ToolStripMenuItem reloadServerData_MenuItem;
         private System.Windows.Forms.Timer timerClear;
         private System.Windows.Forms.ToolStripMenuItem ClearScreenSeconds;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 

@@ -68,21 +68,21 @@
             this.exitItem});
             this.fileItem.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fileItem.Name = "fileItem";
-            this.fileItem.Size = new System.Drawing.Size(40, 20);
-            this.fileItem.Text = "File";
+            this.fileItem.Size = new System.Drawing.Size(66, 20);
+            this.fileItem.Text = "Arquivo";
             // 
             // clearScreenItem
             // 
             this.clearScreenItem.Name = "clearScreenItem";
-            this.clearScreenItem.Size = new System.Drawing.Size(154, 22);
-            this.clearScreenItem.Text = "Clear Screen";
+            this.clearScreenItem.Size = new System.Drawing.Size(152, 22);
+            this.clearScreenItem.Text = "Limpar Tela";
             this.clearScreenItem.Click += new System.EventHandler(this.clearScreenItem_Click);
             // 
             // exitItem
             // 
             this.exitItem.Name = "exitItem";
-            this.exitItem.Size = new System.Drawing.Size(154, 22);
-            this.exitItem.Text = "Exit";
+            this.exitItem.Size = new System.Drawing.Size(152, 22);
+            this.exitItem.Text = "Sair";
             this.exitItem.Click += new System.EventHandler(this.exitItem_Click);
             // 
             // frmMain

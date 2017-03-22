@@ -51,7 +51,7 @@ namespace GameServer.MySQL {
                 npc.ResistMagicCriticalRate = (int)reader["resist_magic_critical_rate"];
                 npc.ResistMagicCriticalDamage = (int)reader["resist_magic_critical_damage"];
 
-                NpcGeneral.Npc.Add(npc);
+                NpcManager.Npc.Add(npc);
             }
 
             reader.Close();

@@ -5,25 +5,22 @@ using System.Windows.Forms;
 using GameServer.Common;
 using GameServer.Server;
 
-namespace GameServer
-{
-    static class Program
-    {
+namespace GameServer {
+    static class Program {
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
         [STAThread]
-        static void Main()
-        {
+        static void Main() {
             Application.EnableVisualStyles();
 
-            LogConfig.mainForm = new frmMain();
+            FileLog.MainForm = new frmMain();
 
-            Application.Idle += new EventHandler(LogConfig.mainForm.OnApplicationIdle);
+            Application.Idle += new EventHandler(FileLog.MainForm.OnApplicationIdle);
 
-            LogConfig.mainForm.InitializeServer();
+            FileLog.MainForm.InitializeServer();
 
-            Application.Run(LogConfig.mainForm);
+            Application.Run(FileLog.MainForm);
         }
     }
 }

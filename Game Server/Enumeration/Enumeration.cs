@@ -8,7 +8,6 @@ namespace GameServer.Common
         Right = 10
     }
 
-    
     public enum Stats {
         Strenght,
         Dexterity,

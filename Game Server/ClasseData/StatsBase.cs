@@ -1,7 +1,5 @@
 ﻿namespace GameServer.ClasseData {
     public abstract class StatsBase {
-        public short SpriteFemale { get; set; }
-        public short SpriteMale { get; set; }
         public int HP { get; set; }
         public int MP { get; set; }
         public int SP { get; set; }

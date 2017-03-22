@@ -108,10 +108,12 @@ namespace LoginServer.Server {
         /// Limpa os dados para permitir um novo login.
         /// </summary>  
         public void Clear() {
+            //não deve limpar o hexid, pois ainda é necessário na conexão.
             ID = 0;
             LoginAttempt = 0;
             Password = string.Empty;
-            Account = string.Empty; 
+            Account = string.Empty;
+            Username = string.Empty;
             IP = string.Empty;
             Service.Clear();
         }

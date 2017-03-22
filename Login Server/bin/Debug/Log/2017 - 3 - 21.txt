@@ -1,0 +1,223 @@
+03/21/2017 13:33:11: Servidor adicionado: 火星 (JP) 普通
+03/21/2017 13:33:11: Servidor adicionado: 木星 (JP) 普通
+03/21/2017 13:33:11: Servidor adicionado: 화성 (KR) 표준
+03/21/2017 13:33:11: Servidor adicionado: Local Server (BR) Privado
+03/21/2017 13:33:11: Servidor adicionado: Event Server Test (BR) PvP
+03/21/2017 13:33:14: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 13:33:14: Status changed to connected: 189.47.119.147
+03/21/2017 13:33:24: Connected World Server #火星
+03/21/2017 13:33:39: User Login: akaruz 189.47.119.147
+03/21/2017 13:33:43: World Server 火星 Login Attempt: akaruz 189.47.119.147
+03/21/2017 13:34:21: Status changed to disconnected: 1 akaruz 189.47.119.147 5F2D55CA15627B30
+03/21/2017 14:13:14: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 14:13:14: Status changed to connected: 189.47.119.147
+03/21/2017 14:13:17: User Login: akaruz 189.47.119.147
+03/21/2017 14:13:18: World Server 火星 Login Attempt: akaruz 189.47.119.147
+03/21/2017 14:13:39: Status changed to disconnected: 1 akaruz 189.47.119.147 6A6319E46CE49CE0
+03/21/2017 14:13:53: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 14:13:53: Status changed to connected: 189.47.119.147
+03/21/2017 14:13:57: User Login: akaruz 189.47.119.147
+03/21/2017 14:13:58: World Server 火星 Login Attempt: akaruz 189.47.119.147
+03/21/2017 14:14:32: Status changed to disconnected: 1 akaruz 189.47.119.147 B825BFEEA5A3605E
+03/21/2017 14:14:37: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 14:14:37: Status changed to connected: 189.47.119.147
+03/21/2017 14:14:40: User Login: akaruz 189.47.119.147
+03/21/2017 14:14:41: World Server 火星 Login Attempt: akaruz 189.47.119.147
+03/21/2017 14:14:56: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 14:14:56: Status changed to connected: 189.47.119.147
+03/21/2017 14:15:03: User Login: akaruz 189.47.119.147
+03/21/2017 14:15:04: World Server 火星 Login Attempt: akaruz 189.47.119.147
+03/21/2017 14:15:12: Status changed to disconnected: 0  189.47.119.147 F6D8950E285CF2D9
+03/21/2017 14:15:35: Status changed to disconnected: 1 akaruz 189.47.119.147 89AFFAC225E6DE15
+03/21/2017 14:27:06: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 14:27:06: Status changed to connected: 189.47.119.147
+03/21/2017 14:27:09: User Login: akaruz 189.47.119.147
+03/21/2017 14:27:09: World Server 火星 Login Attempt: akaruz 189.47.119.147
+03/21/2017 14:27:45: Status changed to disconnected: 1 akaruz 189.47.119.147 8E6E2C43172B7F51
+03/21/2017 14:30:32: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 14:30:32: Status changed to connected: 189.47.119.147
+03/21/2017 14:30:35: User Login: akaruz 189.47.119.147
+03/21/2017 14:30:36: World Server 火星 Login Attempt: akaruz 189.47.119.147
+03/21/2017 14:31:13: Status changed to disconnected: 1 akaruz 189.47.119.147 64DE6B19F989591A
+03/21/2017 14:34:12: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 14:34:12: Status changed to connected: 189.47.119.147
+03/21/2017 14:34:16: User Login: akaruz 189.47.119.147
+03/21/2017 14:34:16: World Server 火星 Login Attempt: akaruz 189.47.119.147
+03/21/2017 14:34:47: Status changed to disconnected: 1 akaruz 189.47.119.147 5BD05E6D456D653C
+03/21/2017 14:36:04: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 14:36:04: Status changed to connected: 189.47.119.147
+03/21/2017 14:36:09: User Login: akaruz 189.47.119.147
+03/21/2017 14:36:10: World Server 火星 Login Attempt: akaruz 189.47.119.147
+03/21/2017 14:36:59: Status changed to disconnected: 1 akaruz 189.47.119.147 E88404F6D3C2A270
+03/21/2017 14:41:56: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 14:41:56: Status changed to connected: 189.47.119.147
+03/21/2017 14:42:04: User Login: akaruz 189.47.119.147
+03/21/2017 14:42:05: World Server 火星 Login Attempt: akaruz 189.47.119.147
+03/21/2017 14:43:18: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 14:43:18: Status changed to connected: 189.47.119.147
+03/21/2017 14:43:39: Status changed to disconnected: 1 akaruz 189.47.119.147 2328F6FDC580BACB
+03/21/2017 14:43:45: Status changed to disconnected: 0  189.47.119.147 8EB404F4BD6EF81E
+03/21/2017 14:44:21: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 14:44:21: Status changed to connected: 189.47.119.147
+03/21/2017 14:44:33: User Login: akaruz 189.47.119.147
+03/21/2017 14:44:33: World Server 火星 Login Attempt: akaruz 189.47.119.147
+03/21/2017 14:45:02: Status changed to disconnected: 1 akaruz 189.47.119.147 3C65FBB97DC38455
+03/21/2017 14:45:23: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 14:45:23: Status changed to connected: 189.47.119.147
+03/21/2017 14:45:26: User Login: akaruz 189.47.119.147
+03/21/2017 14:45:26: World Server 火星 Login Attempt: akaruz 189.47.119.147
+03/21/2017 14:46:02: Status changed to disconnected: 1 akaruz 189.47.119.147 4F0DAFCD30693889
+03/21/2017 14:47:28: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 14:47:28: Status changed to connected: 189.47.119.147
+03/21/2017 14:47:31: User Login: akaruz 189.47.119.147
+03/21/2017 14:47:32: World Server 火星 Login Attempt: akaruz 189.47.119.147
+03/21/2017 14:48:27: Status changed to disconnected: 1 akaruz 189.47.119.147 F7316DFD00B3FBB3
+03/21/2017 14:50:01: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 14:50:01: Status changed to connected: 189.47.119.147
+03/21/2017 14:50:05: User Login: akaruz 189.47.119.147
+03/21/2017 14:50:06: World Server 火星 Login Attempt: akaruz 189.47.119.147
+03/21/2017 14:51:06: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 14:51:06: Status changed to connected: 189.47.119.147
+03/21/2017 14:51:11: Status changed to disconnected: 1 akaruz 189.47.119.147 F87EB66512590DAC
+03/21/2017 14:51:11: User Login: akaruz 189.47.119.147
+03/21/2017 14:51:12: World Server 火星 Login Attempt: akaruz 189.47.119.147
+03/21/2017 14:51:42: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 14:51:42: Status changed to connected: 189.47.119.147
+03/21/2017 14:51:45: Status changed to disconnected: 1 akaruz 189.47.119.147 0B68A814C62C4966
+03/21/2017 14:51:47: User Login: akaruz 189.47.119.147
+03/21/2017 14:51:48: World Server 火星 Login Attempt: akaruz 189.47.119.147
+03/21/2017 14:52:19: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 14:52:19: Status changed to connected: 189.47.119.147
+03/21/2017 14:52:23: Status changed to disconnected: 1 akaruz 189.47.119.147 A1AAB9AC386D27BB
+03/21/2017 14:52:24: User Login: akaruz 189.47.119.147
+03/21/2017 14:52:25: World Server 火星 Login Attempt: akaruz 189.47.119.147
+03/21/2017 14:53:02: Status changed to disconnected: 1 akaruz 189.47.119.147 418CCF17A42C3F03
+03/21/2017 14:53:39: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 14:53:39: Status changed to connected: 189.47.119.147
+03/21/2017 14:53:41: User Login: akaruz 189.47.119.147
+03/21/2017 14:53:43: World Server 火星 Login Attempt: akaruz 189.47.119.147
+03/21/2017 14:54:18: Status changed to disconnected: 1 akaruz 189.47.119.147 C55BFF00783C4400
+03/21/2017 14:56:02: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 14:56:03: Status changed to connected: 189.47.119.147
+03/21/2017 14:56:05: User Login: akaruz 189.47.119.147
+03/21/2017 14:56:06: World Server 火星 Login Attempt: akaruz 189.47.119.147
+03/21/2017 14:57:48: Status changed to disconnected: 1 akaruz 189.47.119.147 3676DE25FE2D0B79
+03/21/2017 15:01:38: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 15:01:38: Status changed to connected: 189.47.119.147
+03/21/2017 15:01:43: User Login: akaruz 189.47.119.147
+03/21/2017 15:01:44: World Server 火星 Login Attempt: akaruz 189.47.119.147
+03/21/2017 15:02:35: Status changed to disconnected: 1 akaruz 189.47.119.147 C1E1D11C73C362E4
+03/21/2017 15:03:03: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 15:03:03: Status changed to connected: 189.47.119.147
+03/21/2017 15:03:07: User Login: akaruz 189.47.119.147
+03/21/2017 15:03:08: World Server 火星 Login Attempt: akaruz 189.47.119.147
+03/21/2017 15:03:28: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 15:03:28: Status changed to connected: 189.47.119.147
+03/21/2017 15:03:44: User Login: akaruz 189.47.119.147
+03/21/2017 15:03:45: Status changed to disconnected: 0  189.47.119.147 6516D62F30FCB9B2
+03/21/2017 15:03:45: World Server 火星 Login Attempt: akaruz 189.47.119.147
+03/21/2017 15:04:33: Status changed to disconnected: 1 akaruz 189.47.119.147 9ADABA1409384873
+03/21/2017 15:09:15: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 15:09:15: Status changed to connected: 189.47.119.147
+03/21/2017 15:09:18: User Login: akaruz 189.47.119.147
+03/21/2017 15:09:19: World Server 火星 Login Attempt: akaruz 189.47.119.147
+03/21/2017 15:10:20: Status changed to disconnected: 1 akaruz 189.47.119.147 ED81E23C61860A11
+03/21/2017 15:26:13: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 15:26:14: Status changed to connected: 189.47.119.147
+03/21/2017 15:26:20: User Login: akaruz 189.47.119.147
+03/21/2017 15:26:21: World Server 火星 Login Attempt: akaruz 189.47.119.147
+03/21/2017 15:27:01: Status changed to disconnected: 1 akaruz 189.47.119.147 29D9183F87BB0C32
+03/21/2017 15:36:50: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 15:36:50: Status changed to connected: 189.47.119.147
+03/21/2017 15:36:54: User Login: akaruz 189.47.119.147
+03/21/2017 15:36:55: World Server 火星 Login Attempt: akaruz 189.47.119.147
+03/21/2017 15:37:59: Status changed to disconnected: 1 akaruz 189.47.119.147 A7A1BBBE48832BAA
+03/21/2017 15:40:54: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 15:40:54: Status changed to connected: 189.47.119.147
+03/21/2017 15:40:58: User Login: akaruz 189.47.119.147
+03/21/2017 15:40:59: World Server 火星 Login Attempt: akaruz 189.47.119.147
+03/21/2017 15:41:50: Status changed to disconnected: 1 akaruz 189.47.119.147 743240FF4DB1B046
+03/21/2017 15:42:10: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 15:42:10: Status changed to connected: 189.47.119.147
+03/21/2017 15:42:13: User Login: akaruz 189.47.119.147
+03/21/2017 15:42:14: World Server 火星 Login Attempt: akaruz 189.47.119.147
+03/21/2017 15:43:03: Status changed to disconnected: 1 akaruz 189.47.119.147 F63587BAC32D2BF8
+03/21/2017 15:46:38: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 15:46:38: Status changed to connected: 189.47.119.147
+03/21/2017 15:47:11: Status changed to disconnected: 0  189.47.119.147 8585CE088B9CEE5E
+03/21/2017 15:47:17: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 15:47:17: Status changed to connected: 189.47.119.147
+03/21/2017 15:47:44: Status changed to disconnected: 0  189.47.119.147 488CB1FD7BD4C630
+03/21/2017 15:51:54: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 15:51:55: Status changed to connected: 189.47.119.147
+03/21/2017 15:52:24: Status changed to disconnected: 0  189.47.119.147 E810F1A360B382EB
+03/21/2017 16:07:32: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 16:07:33: Status changed to connected: 189.47.119.147
+03/21/2017 16:07:36: User Login: akaruz 189.47.119.147
+03/21/2017 16:07:37: World Server 火星 Login Attempt: akaruz 189.47.119.147
+03/21/2017 16:08:22: Status changed to disconnected: 1 akaruz 189.47.119.147 281E4E43404F6127
+03/21/2017 16:40:33: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 16:40:34: Status changed to connected: 189.47.119.147
+03/21/2017 16:40:38: User Login: akaruz 189.47.119.147
+03/21/2017 16:40:39: World Server 火星 Login Attempt: akaruz 189.47.119.147
+03/21/2017 16:41:17: Status changed to disconnected: 1 akaruz 189.47.119.147 ACE6260F1E9987A7
+03/21/2017 16:41:29: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 16:41:29: Status changed to connected: 189.47.119.147
+03/21/2017 16:41:33: User Login: akaruz 189.47.119.147
+03/21/2017 16:41:35: World Server 火星 Login Attempt: akaruz 189.47.119.147
+03/21/2017 16:42:34: Status changed to disconnected: 1 akaruz 189.47.119.147 1D594C513B7FA3E7
+03/21/2017 16:52:37: World Server #火星 disconnected
+03/21/2017 17:03:04: Connected World Server #火星
+03/21/2017 17:03:50: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 17:03:50: Status changed to connected: 189.47.119.147
+03/21/2017 17:03:53: User Login: akaruz 189.47.119.147
+03/21/2017 17:03:54: World Server 火星 Login Attempt: akaruz 189.47.119.147
+03/21/2017 17:04:45: World Server #火星 disconnected
+03/21/2017 17:05:19: Status changed to disconnected: 1 akaruz 189.47.119.147 2844E90AB74E0F29
+03/21/2017 17:07:34: Connected World Server #火星
+03/21/2017 17:07:57: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 17:07:57: Status changed to connected: 189.47.119.147
+03/21/2017 17:08:00: User Login: akaruz 189.47.119.147
+03/21/2017 17:08:01: World Server 火星 Login Attempt: akaruz 189.47.119.147
+03/21/2017 17:08:46: Status changed to disconnected: 1 akaruz 189.47.119.147 DED5882D4E68D41F
+03/21/2017 17:23:18: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 17:23:18: Status changed to connected: 189.47.119.147
+03/21/2017 17:23:25: User Login: akaruz 189.47.119.147
+03/21/2017 17:23:26: World Server 火星 Login Attempt: akaruz 189.47.119.147
+03/21/2017 17:24:23: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 17:24:23: Status changed to connected: 189.47.119.147
+03/21/2017 17:24:29: User Login: dragonick 189.47.119.147
+03/21/2017 17:24:30: World Server 火星 Login Attempt: dragonick 189.47.119.147
+03/21/2017 17:25:36: Status changed to disconnected: 1 akaruz 189.47.119.147 FC71809164689591
+03/21/2017 17:25:40: Status changed to disconnected: 2 dragonick 189.47.119.147 0C41AF7499164E07
+03/21/2017 17:29:43: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 17:29:43: Status changed to connected: 189.47.119.147
+03/21/2017 17:29:49: User Login: akaruz 189.47.119.147
+03/21/2017 17:29:56: World Server 火星 Login Attempt: akaruz 189.47.119.147
+03/21/2017 17:30:25: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 17:30:25: Status changed to connected: 189.47.119.147
+03/21/2017 17:30:38: User Login: akaruz 189.47.119.147
+03/21/2017 17:30:39: World Server 火星 Login Attempt: akaruz 189.47.119.147
+03/21/2017 17:30:46: Status changed to disconnected: 0  189.47.119.147 8F26CC431FC1877E
+03/21/2017 17:32:41: Status changed to disconnected: 1 akaruz 189.47.119.147 0641469205B0A5CE
+03/21/2017 17:33:16: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 17:33:16: Status changed to connected: 189.47.119.147
+03/21/2017 17:33:55: User Login: akaruz 189.47.119.147
+03/21/2017 17:33:56: World Server 火星 Login Attempt: akaruz 189.47.119.147
+03/21/2017 17:34:29: Status changed to disconnected: 1 akaruz 189.47.119.147 5190FBB48D72C266
+03/21/2017 17:34:45: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 17:34:45: Status changed to connected: 189.47.119.147
+03/21/2017 17:34:48: User Login: akaruz 189.47.119.147
+03/21/2017 17:34:49: World Server 火星 Login Attempt: akaruz 189.47.119.147
+03/21/2017 17:35:22: Status changed to disconnected: 1 akaruz 189.47.119.147 25DCC8F3BA191BD7
+03/21/2017 17:40:14: Discovery Response IPEndPoint: 189.47.119.147
+03/21/2017 17:40:14: Status changed to connected: 189.47.119.147
+03/21/2017 17:40:25: User Login: akaruz 189.47.119.147
+03/21/2017 17:40:27: World Server 火星 Login Attempt: akaruz 189.47.119.147
+03/21/2017 17:41:33: Status changed to disconnected: 1 akaruz 189.47.119.147 D2E2272223468C2F
+03/21/2017 19:10:32: World Server #火星 disconnected
+03/21/2017 19:14:04: Connected World Server #火星
+03/21/2017 19:15:09: World Server #火星 disconnected
+03/21/2017 19:15:24: Connected World Server #火星
+03/21/2017 19:15:57: World Server #火星 disconnected
+03/21/2017 19:18:24: Connected World Server #火星

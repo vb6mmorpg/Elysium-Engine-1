@@ -4,25 +4,22 @@ using System.Linq;
 using System.Windows.Forms;
 using LoginServer.Common;
 
-namespace LoginServer
-{
-    static class Program
-    {
+namespace LoginServer {
+    static class Program {
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
         [STAThread]
-        static void Main()
-        {
-                Application.EnableVisualStyles();
+        static void Main() {
+            Application.EnableVisualStyles();
 
-                Settings.ConnectForm = new frmMain();
+            Settings.ConnectForm = new frmMain();
 
-                Application.Idle += new EventHandler(Settings.ConnectForm.OnApplicationIdle);
+            Application.Idle += new EventHandler(Settings.ConnectForm.OnApplicationIdle);
 
-                Settings.ConnectForm.InitializeServer();
+            Settings.ConnectForm.InitializeServer();
 
-                Application.Run(Settings.ConnectForm);
+            Application.Run(Settings.ConnectForm);
         }
     }
 }

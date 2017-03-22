@@ -8,7 +8,17 @@ namespace WorldServer.Network {
         /// <summary>
         /// Socket de conexão.
         /// </summary>
-        public static NetServer Socket { get; set; }
+        private static NetServer socket;
+
+        /// <summary>
+        /// 
+        /// </summary>
+        private static NetIncomingMessage msg;
+
+        /// <summary>
+        /// 
+        /// </summary>
+        private static PlayerData pData;
 
         /// <summary>
         /// Inicia as configurações.
@@ -22,33 +32,57 @@ namespace WorldServer.Network {
             config.ConnectionTimeout = (float)Settings.ConnectionTimeOut;
             config.PingInterval = 2.0f;
             config.UseMessageRecycling = true;
-            config.DisableMessageType(NetIncomingMessageType.ConnectionApproval | NetIncomingMessageType.UnconnectedData | NetIncomingMessageType.VerboseDebugMessage | NetIncomingMessageType.ConnectionLatencyUpdated);
+            config.DisableMessageType(NetIncomingMessageType.ConnectionApproval |                  
+                NetIncomingMessageType.ConnectionLatencyUpdated |
+                NetIncomingMessageType.DebugMessage |
+                NetIncomingMessageType.DiscoveryResponse |
+                NetIncomingMessageType.Error |
+                NetIncomingMessageType.NatIntroductionSuccess |
+                NetIncomingMessageType.Receipt |
+                NetIncomingMessageType.UnconnectedData |
+                NetIncomingMessageType.VerboseDebugMessage |
+                NetIncomingMessageType.WarningMessage);
 
-            Socket = new NetServer(config);
-            Socket.Start();
-            Socket.Socket.Blocking = false;
+            socket = new NetServer(config);
+            socket.Start();
+            socket.Socket.Blocking = false;
+        }
+
+        /// <summary>
+        /// Cria a mensagem de envio.
+        /// </summary>
+        /// <returns></returns>
+        public static NetOutgoingMessage CreateMessage() {
+            return socket.CreateMessage();
+        }
+
+        /// <summary>
+        /// Cria a mensagem de envio com a capacidade inicial.
+        /// </summary>
+        /// <param name="initialCapacity"></param>
+        /// <returns></returns>
+        public static NetOutgoingMessage CreateMessage(int initialCapacity) {
+            return socket.CreateMessage(initialCapacity);
         }
 
         /// <summary>
         /// Fecha a conexão.
         /// </summary>
         public static void Shutdown() {
-            Socket.Shutdown("");
-            Socket = null;
+            socket.Shutdown("");
+            socket = null;
         }
 
         /// <summary>
         /// Recebe os dados.
         /// </summary>
         public static void ReceivedData() {
-            NetIncomingMessage msg;
-
-            while ((msg = Socket.ReadMessage()) != null) {
-                var pData = Authentication.FindByConnection(msg.SenderConnection);
+            while ((msg = socket.ReadMessage()) != null) {
+                pData = Authentication.FindByConnection(msg.SenderConnection);
 
                 switch (msg.MessageType) {
                     case NetIncomingMessageType.DiscoveryRequest:
-                         Socket.SendDiscoveryResponse(null, msg.SenderEndPoint);
+                         socket.SendDiscoveryResponse(null, msg.SenderEndPoint);
                          FileLog.WriteLog($"Discovery Response IPEndPoint: {msg.SenderEndPoint.Address}", Color.Coral);
 
                         break;
@@ -90,13 +124,13 @@ namespace WorldServer.Network {
                         break;
             
                     default:
-                        if (Settings.LogSystem) { FileLog.WriteLog($"Unhandled type: {msg.MessageType}"); }
+                        if (Settings.LogSystem) { FileLog.WriteLog($"Unhandled type: {msg.MessageType}", Color.Red); }
 
                         Program.WorldForm.WriteLog($"Unhandled type: {msg.MessageType}", Color.DarkRed);
                         break;
                 }
 
-                Socket.Recycle(msg);
+                socket.Recycle(msg);
             }
         }
 
@@ -126,10 +160,8 @@ namespace WorldServer.Network {
         /// <param name="hexID"></param>
         /// <param name="data"></param>
         /// <param name="deliveryMethod"></param>
-        public static void SendDataTo(string hexID, NetOutgoingMessage data, NetDeliveryMethod deliveryMethod) {
-            var outgoingPacket = Socket.CreateMessage(data.LengthBytes);
-            outgoingPacket.Write(data);
-            Socket.SendMessage(outgoingPacket, Authentication.FindByHexID(hexID).Connection, deliveryMethod);
+        public static void SendDataTo(string hexID, NetOutgoingMessage msg, NetDeliveryMethod deliveryMethod) {
+            socket.SendMessage(msg, Authentication.FindByHexID(hexID).Connection, deliveryMethod);
         }
 
         /// <summary>
@@ -138,10 +170,8 @@ namespace WorldServer.Network {
         /// <param name="connection"></param>
         /// <param name="data"></param>
         /// <param name="deliveryMethod"></param>
-        public static void SendDataTo(NetConnection connection, NetOutgoingMessage data, NetDeliveryMethod deliveryMethod) {
-            var outgoingPacket = Socket.CreateMessage(data.LengthBytes);
-            outgoingPacket.Write(data);
-            Socket.SendMessage(outgoingPacket, connection, deliveryMethod);
+        public static void SendDataTo(NetConnection connection, NetOutgoingMessage msg, NetDeliveryMethod deliveryMethod) {
+            socket.SendMessage(msg, connection, deliveryMethod);
         }
 
         /// <summary>
@@ -149,9 +179,9 @@ namespace WorldServer.Network {
         /// </summary>
         /// <param name="data"></param>
         /// <param name="deliveryMethod"></param>
-        public static void SendDataToAll(NetOutgoingMessage data, NetDeliveryMethod deliveryMethod) {
+        public static void SendDataToAll(NetOutgoingMessage msg, NetDeliveryMethod deliveryMethod) {
             foreach(PlayerData pData in Authentication.Player) {
-                if (IsConnected(pData.Connection)) SendDataTo(pData.Connection, data, deliveryMethod); //if (IsConnected(index)) 
+                if (IsConnected(pData.Connection)) SendDataTo(pData.Connection, msg, deliveryMethod);
             }
         }
 
@@ -161,9 +191,9 @@ namespace WorldServer.Network {
         /// <param name="hexID"></param>
         /// <param name="data"></param>
         /// <param name="deliveryMethod"></param>
-        public static void SendDataToAllBut(string hexID, NetOutgoingMessage data, NetDeliveryMethod deliveryMethod) {
+        public static void SendDataToAllBut(string hexID, NetOutgoingMessage msg, NetDeliveryMethod deliveryMethod) {
             foreach (PlayerData pData in Authentication.Player) {
-                if (pData.HexID.CompareTo(hexID) != 0) { SendDataTo(pData.Connection, data, deliveryMethod); }
+                if (pData.HexID.CompareTo(hexID) != 0) { SendDataTo(pData.Connection, msg, deliveryMethod); }
             }
         }
 
@@ -173,9 +203,9 @@ namespace WorldServer.Network {
         /// <param name="connection"></param>
         /// <param name="data"></param>
         /// <param name="deliveryMethod"></param>
-        public static void SendDataToAllBut(NetConnection connection, NetOutgoingMessage data, NetDeliveryMethod deliveryMethod) {
+        public static void SendDataToAllBut(NetConnection connection, NetOutgoingMessage msg, NetDeliveryMethod deliveryMethod) {
             foreach(PlayerData pData in Authentication.Player) {
-                if (!pData.Connection.Equals(connection)) { SendDataTo(pData.Connection, data, deliveryMethod); }
+                if (!pData.Connection.Equals(connection)) { SendDataTo(pData.Connection, msg, deliveryMethod); }
             }
         }
     }

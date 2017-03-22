@@ -33,11 +33,11 @@ namespace LoginServer.Server {
                 }
 
             var pData = FindByHexID(hexID);
-            pData.Username = data.ReadString().ToLower();     //lê o nome de usuário em uma variavel temporaria
+            pData.Username = data.ReadString().ToLower();     //lê o nome de usuário em uma variavel temporaria para distinguir do 'account
             pData.Password = data.ReadString();               //lê a senha de usuário
 
             //Verifica se o usuário está na lista de banidos, caso verdadeiro, envia mensagem de erro
-            if (Accounts_DB.BannedAccount(Accounts_DB.GetID(pData.Username))) {
+            if (Accounts_DB.IsBanned(Accounts_DB.GetID(pData.Username))) {
                 LoginPacket.Message(pData.HexID, (int)PacketList.LoginServer_Client_AccountBanned);
                 return;
             }
@@ -130,19 +130,15 @@ namespace LoginServer.Server {
                 return;
             }
 
-            //muda o nome de usuario para o campo oficial de usuario
+            //muda o nome de usuario para o campo oficial de usuario e limpar o campo temporario
             pData.Account = pData.Username;
             pData.Username = string.Empty;
 
-            FileLog.WriteLog($"User Login: {pData.Account} {pData.IP}"); 
             FileLog.WriteLog($"User Login: {pData.Account} {pData.IP}", System.Drawing.Color.Black); 
 
-            //obtem o id de usuario
-            pData.ID = Accounts_DB.GetID(pData.Account);
-
             //carrega as informações da conta
-            Accounts_DB.AccountData(pData);
-            Accounts_DB.AccountService(pData);
+            Accounts_DB.LoadAccountData(pData);
+            Accounts_DB.LoadAccountService(pData);
 
             //verifica os serviços
             pData.Service.VerifyServices(pData.ID);
@@ -160,7 +156,7 @@ namespace LoginServer.Server {
         /// Limpa os dados de usuário para voltar a tela de login
         /// </summary>
         /// <param name="index"></param>
-        public static void BackToLogin(string hexID) {
+        public static void BackToLoginScreen(string hexID) {
             var pData = Authentication.FindByHexID(hexID);
 
             Accounts_DB.UpdateLastIP(pData.Account, pData.IP);
@@ -173,24 +169,25 @@ namespace LoginServer.Server {
         /// Verifica o número de tentativas e envia mensagens de erro.
         /// </summary>
         /// <param name="pData"></param>
-        public static void TryingToAccess(PlayerData pData) {
-            const int MAX_ATTEMPT = 3;
-
+        public static void TryingToAccess(PlayerData pData) {       
             // se realizar 3 tentativas de login, desconecta o usuário que já está logado e permite que o novo se conecte
-            if (pData.LoginAttempt >= MAX_ATTEMPT) {
+            if (pData.LoginAttempt >= Settings.MAX_ATTEMPT) {
 
                 //Desconecta o usuario em todos os servidores
                 WorldPacket.PlayerDisconnect(pData);
 
                 // ##################### MUDAR PARA WORLD SERVER #####################
                 //Desconecta o usuario no servidor de login (se houver) pelo cliente
-                LoginPacket.Message(Authentication.FindByAccount(pData.Username).HexID, (int)PacketList.Disconnect);
+                var hexid = Authentication.FindByAccount(pData.Username)?.HexID;
+
+                if (!string.IsNullOrEmpty(hexid)) {
+                    LoginPacket.Message(hexid, (int)PacketList.Disconnect); 
+                }
                 //######################################################################
 
                 //se conectado ao login server, limpa os dados do usuario conectado da lista para o novo login
                 if (Authentication.IsConnected(pData.Username)) {
-                    var playerData = Authentication.FindByAccount(pData.Username);
-                    playerData.Clear();
+                    Authentication.FindByAccount(pData.Username)?.Clear();
                 }                
 
                 //reseta o contador

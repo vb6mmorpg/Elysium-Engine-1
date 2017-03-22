@@ -82,11 +82,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClasseData\StatsBase.cs" />
-    <Compile Include="ClasseData\Classe.cs" />
-    <Compile Include="ClasseData\StatsIncrement.cs" />
-    <Compile Include="Common\Constant.cs" />
+    <Compile Include="Server\Classe.cs" />
     <Compile Include="Common\GameSettings.cs" />
+    <Compile Include="dev.cs" />
     <Compile Include="Enumeration\Stats.cs" />
     <Compile Include="Common\Configuration.cs" />
     <Compile Include="Enumeration\PacketList.cs" />
@@ -103,7 +101,6 @@
     <Compile Include="Network\Game\GamePacket.cs" />
     <Compile Include="Network\Game\NetworkClient.cs" />
     <Compile Include="Network\Game\GameNetwork.cs" />
-    <Compile Include="Server\AuthenticationFunction.cs" />
     <Compile Include="Server\ProhibitedNames.cs" />
     <Compile Include="Server\Character.cs" />
     <Compile Include="Server\HexID.cs" />

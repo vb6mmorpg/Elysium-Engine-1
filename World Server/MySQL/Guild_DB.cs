@@ -13,8 +13,10 @@ namespace WorldServer.MySQL {
         /// <param name="pName"></param>
         /// <returns></returns>
         public static int GetPlayerGuildID(int playerID, string name) {
-            var varQuery = $"SELECT guild_id FROM players WHERE id='{playerID}' and name='{name}'";
+            var varQuery = "SELECT guild_id FROM players WHERE id=?playerID and name=?name";
             var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
+            cmd.Parameters.AddWithValue("?playerID", playerID);
+            cmd.Parameters.AddWithValue("?name", name);
             var reader = cmd.ExecuteReader();
 
             if (!reader.Read()) {
@@ -35,8 +37,10 @@ namespace WorldServer.MySQL {
         /// <param name="playerID"></param>
         /// <param name="guildID"></param>
         public static void UpdatePlayerGuildID(int playerID, int guildID) {           
-            var varQuery = $"UPDATE characters SET guild_id='{guildID}' WHERE id='{playerID}'";
+            var varQuery = "UPDATE characters SET guild_id=?guildID WHERE id=?playerID";
             var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
+            cmd.Parameters.AddWithValue("?playerID", playerID);
+            cmd.Parameters.AddWithValue("?guildID", guildID);
             cmd.ExecuteNonQuery();
         }
         

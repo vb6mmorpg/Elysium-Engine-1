@@ -28,6 +28,5 @@
             //instancia o serviço
             Service = new PlayerService();
         }
-
     } 
 }

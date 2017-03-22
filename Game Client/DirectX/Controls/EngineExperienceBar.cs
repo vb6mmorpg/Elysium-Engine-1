@@ -4,7 +4,6 @@ using Color = SharpDX.Color;
 
 namespace Elysium_Diamond.DirectX {
     public class EngineExperienceBar : EngineObject {
-
         /// <summary>
         /// Texturas de fundo e progressão da barra.
         /// </summary>
@@ -39,9 +38,9 @@ namespace Elysium_Diamond.DirectX {
             DrawText = true;
             SpriteFlags = SpriteFlags.AlphaBlend;
 
-            textureBack = EngineTexture.TextureFromFile(Common.Configuration.GamePath + @"\Data\Graphics\bar_back.png", width, height);
-            textureColor = EngineTexture.TextureFromFile(Common.Configuration.GamePath + @"\Data\Graphics\bar_color.png", width, height);
-            Texture = EngineTexture.TextureFromFile(Common.Configuration.GamePath + @"\Data\Graphics\bar_border.png", width, height);                
+            textureBack = EngineTexture.TextureFromFile($"{Common.Configuration.GamePath}\\Data\\Graphics\\bar_back.png", width, height);
+            textureColor = EngineTexture.TextureFromFile($"{Common.Configuration.GamePath}\\Data\\Graphics\\bar_color.png", width, height);
+            Texture = EngineTexture.TextureFromFile($"{Common.Configuration.GamePath}\\Data\\Graphics\\bar_border.png", width, height);                
         }
 
         /// <summary>
@@ -67,7 +66,7 @@ namespace Elysium_Diamond.DirectX {
 
             if (DrawText == false) { return; }
 
-            EngineFont.DrawText(null, text, new Size2(519, 0), new Point(Position.X, Position.Y + 21), Color.White, EngineFontStyle.Regular, FontDrawFlags.Center);
+            EngineFont.DrawText(null, text, new Size2(519, 0), new Point(Position.X, Position.Y + 22), Color.White, EngineFontStyle.Regular, FontDrawFlags.Center);
         }
     }
 }

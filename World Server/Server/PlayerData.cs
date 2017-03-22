@@ -6,7 +6,7 @@ namespace WorldServer.Server {
         /// <summary>
         /// Dados temporários de personagem.
         /// </summary>
-        public Character[] Character = new Character[Constant.MAX_CHAR];
+        public Character[] Character = new Character[Settings.MAX_CHAR];
 
         /// <summary>
         /// Player Socket.
@@ -62,7 +62,7 @@ namespace WorldServer.Server {
             Service = new PlayerService();
 
             //Inicializa os personagens
-            for (var n = 0; n < Constant.MAX_CHAR; n++) {
+            for (var n = 0; n < Settings.MAX_CHAR; n++) {
                 Character[n] = new Character() { Name = string.Empty };
             }
         }
@@ -90,7 +90,7 @@ namespace WorldServer.Server {
         }
 
         public void ClearCharacter() {
-            for (var n = 0; n < Constant.MAX_CHAR; n++) {
+            for (var n = 0; n < Settings.MAX_CHAR; n++) {
                 Character[n].Clear();
             }
         }

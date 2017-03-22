@@ -12,7 +12,6 @@ D:\Programing Files\Elysium Diamond\Login Server\obj\Debug\LoginServer.pdb
 D:\Programing Files\Elysium Diamond\Login Server\bin\Debug\LoginServer.exe
 D:\Programing Files\Elysium Diamond\Login Server\bin\Debug\LoginServer.pdb
 D:\Programing Files\Elysium Diamond\Login Server\bin\Debug\Lidgren.Network.dll
-D:\Programing Files\Elysium Diamond\Login Server\bin\Debug\MySql.Data.dll
 D:\Programing Files\Elysium Diamond\Login Server\obj\Debug\LoginServer.frmMain.resources
 D:\Programing Files\Elysium Diamond\Login Server\obj\Debug\LoginServer.Properties.Resources.resources
 D:\Programing Files\Elysium Diamond\Login Server\obj\Debug\LoginServer.csproj.GenerateResource.Cache

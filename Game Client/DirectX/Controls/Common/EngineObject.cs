@@ -281,7 +281,6 @@ namespace Elysium_Diamond.DirectX {
 
         }
         #endregion
-
     }
 }
 

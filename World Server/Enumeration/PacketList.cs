@@ -34,6 +34,7 @@
     Client_WorldServer_DeleteCharacter = 0x0191,
     Client_WorldServer_CreateCharacter = 0x0192,
     Client_WorldServer_EnterInGame = 0x0193,
+    Client_WorldServer_RequestPreLoad = 0x0194,
 
     //500 ~599 world server to client
     WorldServer_Client_CharacterCreationDisabled = 0x01F4,
@@ -51,5 +52,6 @@
     WorldServer_Client_InvalidLevelToDelete = 0x0200,
     WorldServer_Client_GameServerData = 0x0201,
     WorldServer_GameServer_GameServerLogin = 0x0202
+        
 }
 

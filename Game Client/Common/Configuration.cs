@@ -68,7 +68,7 @@ namespace Elysium_Diamond.Common {
             using (FileStream file = new FileStream(FILE_CONFIG, FileMode.Open, FileAccess.Read)) {
                 BinaryReader reader = new BinaryReader(file);
 
-                cache.Add("IP", reader.ReadString());    
+                cache.Add("IP", reader.ReadString());
                 cache.Add("Port", reader.ReadInt32());
 
                 reader.Close();
@@ -92,17 +92,14 @@ namespace Elysium_Diamond.Common {
                 BinaryWriter writer = new BinaryWriter(file);
 
                 //save
-                //cache.Add("IP", "127.0.0.1");
+                //cache.Add("IP", "juliosperandio.ddns.net");
                 //cache.Add("Port", 44405);
 
                 writer.Write((string)cache["IP"]);
                 writer.Write((int)cache["Port"]);
 
                 writer.Close();
-                writer.Flush();
             }
-
-
         }
 
         /// <summary>

@@ -33,10 +33,10 @@
             // 
             // CreateDevice
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1008, 738);
+            this.ClientSize = new System.Drawing.Size(1008, 681);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
@@ -45,6 +45,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Elysium Diamond";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.CreateDevice_FormClosing);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.CreateDevice_FormClosed);
             this.Load += new System.EventHandler(this.CreateDevice_Load);
             this.InputLanguageChanged += new System.Windows.Forms.InputLanguageChangedEventHandler(this.CreateDevice_InputLanguageChanged);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CreateDevice_KeyDown);

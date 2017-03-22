@@ -9,7 +9,7 @@ namespace LoginServer.Network {
         /// <param name="hexID"></param>
         /// <param name="hexid"></param>
         public static void HexID(string hexID, string hexid) {
-            var buffer = LoginNetwork.Socket.CreateMessage();
+            var buffer = LoginNetwork.CreateMessage();
             buffer.Write((int)PacketList.LoginServer_Client_SendPlayerHexID);
             buffer.Write(hexid);
             LoginNetwork.SendDataTo(hexID, buffer, NetDeliveryMethod.ReliableOrdered);
@@ -21,7 +21,7 @@ namespace LoginServer.Network {
         /// <param name="hexID"></param>
         /// <param name="value"></param>
         public static void GameState(string hexID, byte value) {
-            var buffer = LoginNetwork.Socket.CreateMessage(5);
+            var buffer = LoginNetwork.CreateMessage(5);
             buffer.Write((int)PacketList.ChangeGameState);
             buffer.Write(value);
             LoginNetwork.SendDataTo(hexID, buffer, NetDeliveryMethod.ReliableOrdered);
@@ -33,7 +33,7 @@ namespace LoginServer.Network {
         /// <param name="hexID"></param>
         /// <param name="value"></param>
         public static void Message(string hexID, int value) {
-            var buffer = LoginNetwork.Socket.CreateMessage(4);
+            var buffer = LoginNetwork.CreateMessage(4);
             buffer.Write(value);
             LoginNetwork.SendDataTo(hexID, buffer, NetDeliveryMethod.ReliableUnordered);
         }
@@ -43,7 +43,7 @@ namespace LoginServer.Network {
         /// </summary>
         /// <param name="hexID"></param>
         public static void ServerList(string hexID) {
-            var buffer = LoginNetwork.Socket.CreateMessage();
+            var buffer = LoginNetwork.CreateMessage();
             buffer.Write((int)PacketList.LoginServer_Client_ServerList);
 
             for (var n = 0; n < Settings.MAX_SERVER; n++) {

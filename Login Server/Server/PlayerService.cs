@@ -45,7 +45,7 @@ namespace LoginServer.Server {
         /// </summary>
         /// <param name="dateTime"></param>
         /// <returns></returns>
-        private bool ServiceExpired(int id) {
+        private bool IsServiceExpired(int id) {
             return DateTime.Now.CompareTo(Convert.ToDateTime(service[id])) == EXPIRED ? true : false;
         }
 
@@ -54,12 +54,13 @@ namespace LoginServer.Server {
         /// </summary>
         /// <param name="accountID"></param>
         public void VerifyServices(int accountID) {
-            //pega a lista de serviços
-            var sID = ServicesID();
+            var id = 0;
 
             //se expirou, atualiza a db e remove da lista.
-            foreach(var id in sID) {
-                if (ServiceExpired(id)) {
+            foreach (DictionaryEntry pair in service) {
+                id = Convert.ToInt32(pair.Key);
+
+                if (IsServiceExpired(id)) {
                     Accounts_DB.UpdateService(accountID, id, EXPIRED);
                     service.Remove(id);
                 }
@@ -70,7 +71,7 @@ namespace LoginServer.Server {
         /// Lista todos os serviços do usuário.
         /// </summary>
         /// <returns></returns>
-        public int[] ServicesID() {
+        public int[] GetServicesID() {
             int[] service = new int[this.service.Count];
             var index = 0;
 
@@ -87,7 +88,7 @@ namespace LoginServer.Server {
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
-        public string ServiceTime(int id) {
+        public string GetServiceTime(int id) {
             var date = Convert.ToDateTime(service[id]);
             return $"{id}-{date.ToString()}";
         }

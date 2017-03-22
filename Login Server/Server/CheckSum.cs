@@ -29,8 +29,7 @@ namespace LoginServer.Server {
         /// <param name="checksum"></param>
         /// <returns></returns>
         public static bool Compare(string version, string checkSum) { 
-            if (string.CompareOrdinal(checkSum, (string)checksum[version]) == 0) return true;
-            return false;
+           return (string.CompareOrdinal(checkSum, (string)checksum[version]) == 0) ? true : false;
         }
 
         /// <summary>

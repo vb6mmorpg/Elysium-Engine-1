@@ -33,7 +33,7 @@ namespace WorldServer.Common {
         /// Escreve no arquivo de logs.
         /// </summary>
         /// <param name="text"></param>
-        public static void WriteLog(string text) {
+        private static void WriteLog(string text) {
             writer.WriteLine(DateTime.Now + ": " + text);
             writer.Flush();
         }
@@ -44,8 +44,17 @@ namespace WorldServer.Common {
         /// <param name="log"></param>
         /// <param name="color"></param>
         public static void WriteLog(string log, System.Drawing.Color color) {
-            if (Settings.LogSystem == true) { WriteLog(log); }
-            if (Program.WorldForm.Logs.Checked == false) { Program.WorldForm.WriteLog(log, color); }
+            if (!Settings.LogSystem) { return; }
+
+            Program.WorldForm.general_textbox.SelectionStart = Program.WorldForm.general_textbox.TextLength;
+            Program.WorldForm.general_textbox.SelectionLength = 0;
+
+            Program.WorldForm.general_textbox.SelectionColor = color;
+            Program.WorldForm.general_textbox.AppendText($"{DateTime.Now}: {log}{Environment.NewLine}");
+            Program.WorldForm.general_textbox.SelectionColor = color;
+
+            Program.WorldForm.general_textbox.ScrollToCaret();
+            WriteLog(log);
         }
     }
 }

@@ -21,7 +21,6 @@ namespace WorldServer.LuaScript {
                 GameSettings.CharacterDeleteMaxLevel = Convert.ToInt32(lua["CharacterDeleteMaxLevel"]);
 
                 //LuaFunction f = lua["function_name"] as LuaFunction;
-
                 //if (f != null) f.Call(550);
 
                 lua.RegisterFunction("Add", null, typeof(ProhibitedNames).GetMethod("Add"));

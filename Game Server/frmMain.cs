@@ -3,6 +3,7 @@ using System.Runtime.InteropServices;
 using System.Collections.Generic;
 using System.Windows.Forms;
 using System.Drawing;
+using System.Threading;
 using GameServer.Common;
 using GameServer.MySQL;
 using GameServer.Server;
@@ -29,12 +30,14 @@ namespace GameServer
             public IntPtr wParam;
             public IntPtr lParam;
             public uint time;
-            public System.Drawing.Point p;
+            public Point p;
         }
 
         public void OnApplicationIdle(object sender, EventArgs e) {
             while (this.AppStillIdle) {
                 ServerLoop.Loop();
+
+                if (Settings.Sleep > 0) { Thread.Sleep(Settings.Sleep); }
             }
 
             if (!GameRunning) { Application.Exit(); }
@@ -62,7 +65,7 @@ namespace GameServer
         }
 
         private void MainForm_FormClosing(object sender, FormClosingEventArgs e) {
-            LogConfig.CloseFileLog();
+            FileLog.CloseFileLog();
         }
 
         private void clearScreenItem_Click(object sender, EventArgs e) {
@@ -72,37 +75,37 @@ namespace GameServer
         public void InitializeServer() {
             var error = string.Empty;
 
-            LogConfig.OpenFileLog();
+            FileLog.OpenFileLog();
             Configuration.ParseConfigFile(Constant.FILE_CONFIG);
 
             Settings.Name = Configuration.GetString("Name");
-            LogConfig.WriteLog($"Game Server Name: {Settings.Name}", Color.CornflowerBlue);
+            FileLog.WriteLog($"Game Server Name: {Settings.Name}", Color.CornflowerBlue);
             this.Text = $"Game Server @ {Settings.Name}";
 
             Settings.Discovery = Configuration.GetString("Discovery");
-            LogConfig.WriteLog($"Discovery: {Settings.Discovery}", Color.Black);
+            FileLog.WriteLog($"Discovery: {Settings.Discovery}", Color.Black);
 
             Settings.Port = Configuration.GetInt32("Port");
-            LogConfig.WriteLog($"Port: {Settings.Port}", Color.Black);
+            FileLog.WriteLog($"Port: {Settings.Port}", Color.Black);
 
             Settings.MaxConnection = Configuration.GetInt32("MaximumConnections");
-            LogConfig.WriteLog($"MaximumConnections: {Settings.MaxConnection}", Color.Black);
+            FileLog.WriteLog($"MaximumConnections: {Settings.MaxConnection}", Color.Black);
 
             Settings.ConnectionTimeOut = Configuration.GetInt32("ConnectionTimeOut");
-            LogConfig.WriteLog($"ConnectionTimeOut: {Settings.ConnectionTimeOut}", Color.Black);
+            FileLog.WriteLog($"ConnectionTimeOut: {Settings.ConnectionTimeOut}", Color.Black);
 
             Settings.Logs = Convert.ToBoolean(Configuration.GetInt32("LogSystem"));
-            LogConfig.WriteLog($"Logs: {Settings.Logs}", Color.Black);
+            FileLog.WriteLog($"Logs: {Settings.Logs}", Color.Black);
 
             Settings.Sleep = Configuration.GetInt32("Sleep");
-            LogConfig.WriteLog($"Sleep: {Settings.Sleep}", Color.Black);
+            FileLog.WriteLog($"Sleep: {Settings.Sleep}", Color.Black);
 
             Settings.ID = Configuration.GetString("ID");
-            LogConfig.WriteLog($"Game Server ID: {Settings.ID}", Color.Black);
+            FileLog.WriteLog($"Game Server ID: {Settings.ID}", Color.Black);
 
             Settings.WorldServerID = new string[Constant.MAX_SERVER];
 
-            LogConfig.WriteLog("Carregando config mysql", Color.Black);
+            FileLog.WriteLog("Carregando config mysql", Color.Black);
 
             Common_DB.Server = Configuration.GetString("MySQL_IP");
             Common_DB.Port = Configuration.GetInt32("MySQL_Port");
@@ -112,60 +115,66 @@ namespace GameServer
 
             // Tenta se conectar ao banco de dados
             if (!Common_DB.Connect(out error)) {
-                LogConfig.WriteLog(error, Color.Red);
+                FileLog.WriteLog(error, Color.Red);
             }
             else {
-                LogConfig.WriteLog("Connectado ao banco de dados", Color.Green);
+                FileLog.WriteLog("Connectado ao banco de dados", Color.Green);
             }
 
-            if (!string.IsNullOrEmpty(error)) { LogConfig.WriteLog(error, Color.Red); }
+            if (!string.IsNullOrEmpty(error)) { FileLog.WriteLog(error, Color.Red); }
 
             for (int n = 0; n < Constant.MAX_SERVER; n++) {
                 Settings.WorldServerID[n] = Configuration.GetString($"{n + 1}_WorldID");
-                LogConfig.WriteLog($"WorldServer {n + 1}  ID: {Settings.WorldServerID[n]}", Color.Coral);
+                FileLog.WriteLog($"WorldServer {n + 1}  ID: {Settings.WorldServerID[n]}", Color.Coral);
             }
 
-            LogConfig.WriteLog("Carregando experiência", Color.Black);
+            FileLog.WriteLog("Carregando experiência", Color.Black);
             ServerData_DB.LoadExperience();
-            LogConfig.WriteLog($"Level Max: {Experience.Level.LevelMax}", Color.BlueViolet);
-            LogConfig.WriteLog($"Exp Max: {Experience.Level.GetMaxExp()}", Color.BlueViolet);
+
+            FileLog.WriteLog($"Level Max: {Experience.Level.LevelMax}", Color.BlueViolet);
+            FileLog.WriteLog($"Exp Max: {Experience.Level.GetMaxExp()}", Color.BlueViolet);
 
             Guild.Guilds = null;
             // Prepara as classes para receber dados
             Guild.Guilds = new HashSet<Guild>();
 
             // Carrega todos os dados de guild
-            LogConfig.WriteLog("Carregando guilds", Color.Black);
+            FileLog.WriteLog("Carregando guilds", Color.Black);
             Guild_DB.GuildInfo();
 
             Guild_DB.MemberInfo();
-            LogConfig.WriteLog("Carregando membros", Color.Black);
+            FileLog.WriteLog("Carregando membros", Color.Black);
 
             // Classes
             InitializeClasse();
 
             ///npc
-            LogConfig.WriteLog("Carregando NPC", Color.Black);
-            NpcGeneral.Npc = new HashSet<NpcData>();
+            FileLog.WriteLog("Carregando NPC", Color.Black);
+            NpcManager.Npc = new HashSet<NpcData>();
             Npc_DB.InitializeNpc();
 
-            //mapa de teste
+            //Inicia mapas de teste
             //Maps.MapGeneral.Map.InitializeMap();
+            Maps.MapManager.Add(1);
+            Maps.MapManager.Add(2);
+            Maps.MapManager.Add(3);
 
             Authentication.HexID = new HashSet<HexaID>();
             Authentication.Player = new HashSet<PlayerData>();
 
-            GameServerNetwork.InitializeServer();
-            LogConfig.WriteLog("Game Server Start", Color.Green);
+            
+
+            GameNetwork.InitializeServer();
+            FileLog.WriteLog("Game Server Start", Color.Green);
         }
 
         public void InitializeClasse() {
             Classe.Classes = new List<Classe>();
 
-            LogConfig.WriteLog("Carregando classe(s) base", Color.MediumVioletRed);
+            FileLog.WriteLog("Carregando classe(s) base", Color.MediumVioletRed);
             Classes_DB.GetClasseStatsBase();
 
-            LogConfig.WriteLog("Carregando classe(s) incremento", Color.MediumVioletRed);
+            FileLog.WriteLog("Carregando classe(s) incremento", Color.MediumVioletRed);
 
             for (var index = 0; index < Classe.Classes.Count; index++) {
                 Classes_DB.GetClasseStatsIncrement(index, Classe.Classes[index].IncrementID);
@@ -173,7 +182,7 @@ namespace GameServer
         }
 
         public void Exit() {
-            LogConfig.CloseFileLog();
+            FileLog.CloseFileLog();
             Application.Exit();
         }
 

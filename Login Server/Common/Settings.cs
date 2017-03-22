@@ -3,12 +3,15 @@ using System.Collections.Generic;
 
 namespace LoginServer.Common {
     public static class Settings {
-        public const string FileConfig = "LoginConfig.txt";
+
+        public const int MAX_ATTEMPT = 3;
+        public const string FILE_CONFIG = "LoginConfig.txt";
         public const int MAX_SERVER = 5;
+
         /// <summary>
-        /// Chave para criptografia.
+        /// Ativa ou desativa o bloqueio de países.
         /// </summary>
-        public static string Key { get; set; }
+        public static bool GeoIp { get; set; }
         
         /// <summary>
         /// Descoberta de conexão.
@@ -34,11 +37,6 @@ namespace LoginServer.Common {
         /// Ativa ou desativa o sistema de logs.
         /// </summary>
         public static int LogSystem { get; set; }
-
-        /// <summary>
-        /// Ativa ou desativa mensagens de logs na tela.
-        /// </summary>
-        public static bool LogSystemScreen { get; set; }
           
         /// <summary>
         /// Sleep do loop principal.
@@ -58,12 +56,14 @@ namespace LoginServer.Common {
         /// <summary>
         /// Caminho do executável.
         /// </summary>
-        public static string ServerPath { get; } = Environment.CurrentDirectory;
+        public static string ServerPath {
+            get { return Environment.CurrentDirectory; }
+        }
 
         /// <summary>
         /// Lista de Canal / Servidor.
         /// </summary>
-        public static List<ServerData> Server { get; set; }
+        public static ServerData[] Server { get; set; } = new ServerData[MAX_SERVER];
 
         /// <summary>
         /// Formulário único e príncipal.

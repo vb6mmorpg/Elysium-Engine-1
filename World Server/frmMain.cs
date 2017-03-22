@@ -6,7 +6,6 @@ using WorldServer.Common;
 using WorldServer.Network;
 using WorldServer.MySQL;
 using WorldServer.Server;
-using WorldServer.ClasseData;
 using WorldServer.GameGuild;
 using System.Runtime.InteropServices;
 using System.Threading;
@@ -70,12 +69,12 @@ namespace WorldServer {
             trayIcon = new NotifyIcon();
             trayMenu = new ContextMenu();
 
-            Configuration.ParseConfigFile(Constant.FILE_CONFIG);
+            Configuration.ParseConfigFile(Settings.FILE_CONFIG);
 
             // CARREGA TODAS AS INFORMAÇÕES DE CONFIURAÇÃO 
             Settings.WorldServerName = Configuration.GetString("WorldServerName");
             WriteLog($"World Server Name: {Settings.WorldServerName}", Color.CornflowerBlue);
-            this.Text = $"World Server @ {Settings.WorldServerName}";
+            Text = $"World Server @ {Settings.WorldServerName}";
             
             Settings.Discovery = Configuration.GetString("Discovery");
             WriteLog($"Discovery: {Settings.Discovery}", Color.Black);
@@ -178,12 +177,6 @@ namespace WorldServer {
             
             WriteLog("Carregando classe(s) base.", Color.BlueViolet);
             Classes_DB.GetClasseStatsBase();
-
-            WriteLog("Carregando classe(s) incremento.", Color.BlueViolet);
-
-            for(var index = 0; index < Classe.Classes.Count; index++) {
-                Classes_DB.GetClasseStatsIncrement(index, Classe.Classes[index].IncrementID);
-            }
                 
             WriteLog("Carregando classe(s) items.", Color.BlueViolet);
             for (var index = 0; index < Classe.Classes.Count; index++) {
@@ -192,11 +185,10 @@ namespace WorldServer {
         }
 
         private void InitializeServerConfig() {
-            Settings.GameServer = new List<ServerData>();
             var enabled = 0;
 
-            for (var i = 0; i < Constant.MAX_SERVER; i++) {
-                Settings.GameServer.Add(new ServerData());              
+            for (var i = 0; i < Settings.MAX_SERVER; i++) {
+                Settings.GameServer[i] = new ServerData();         
 
                 enabled = Configuration.GetInt32((i + 1) + "_Enabled");
 
@@ -290,6 +282,10 @@ namespace WorldServer {
                 ClearScreenSeconds.Checked = true;
                 timerClear.Start();
             }
+        }
+
+        private void timer1_Tick(object sender, EventArgs e) {
+            Text = $"World Server @ {Settings.WorldServerName} {World.CPS}";
         }
     }
 }

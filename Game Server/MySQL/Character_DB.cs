@@ -5,6 +5,23 @@ using GameServer.Server;
 
 namespace GameServer.MySQL {
     public class Character_DB {
+
+        public static string CharacterName(int accountID, int slot) {
+            var varQuery = $"SELECT name FROM players WHERE account_id='{accountID}' and char_slot='{slot}'";
+            var cmd = new MySqlCommand(varQuery, Common_DB.Connection);
+            var reader = cmd.ExecuteReader();
+
+            if (reader.Read() == false) {
+                reader.Close();
+                return string.Empty;
+            }
+
+            var result = (string)reader["name"];
+            reader.Close();
+
+            return result;
+        }
+
         /// <summary>
         /// Carrega todos os dados do personagem.
         /// </summary>
@@ -25,7 +42,7 @@ namespace GameServer.MySQL {
             }
 
             pData.CharSlot = slot;
-            pData.ClasseID = (int)reader["class_id"]; ;
+            pData.ClasseID = (int)reader["class_id"]; 
             pData.CharacterID = (int)reader["id"];    
             pData.GuildID = (int)reader["guild_id"];
             pData.CharacterName = (string)reader["name"];
@@ -46,9 +63,9 @@ namespace GameServer.MySQL {
             pData.BaseMind = (int)reader["mind"];
             pData.BaseCharisma = (int)reader["charisma"];
             pData.Points = (int)reader["statpoints"];
-            pData.WorldID = (int)reader["world_id"];
-            pData.RegionID = (int)reader["region_id"];
-            pData.Direction = Convert.ToInt16(reader["direction"]);
+            pData.WorldID = Convert.ToInt16(reader["world_id"]);
+            pData.RegionID = Convert.ToInt16(reader["region_id"]);
+            pData.Direction = Convert.ToByte(reader["direction"]);
             pData.PosX = Convert.ToInt16(reader["posx"]);
             pData.PosY = Convert.ToInt16(reader["posy"]);
 

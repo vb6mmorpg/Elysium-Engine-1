@@ -2,7 +2,7 @@
     /// <summary>
     /// Dados de Canal / Servidor.
     /// </summary>
-    public class ServerData {
+    public struct ServerData {
         /// <summary>
         /// IP externo para World Server.
         /// </summary>

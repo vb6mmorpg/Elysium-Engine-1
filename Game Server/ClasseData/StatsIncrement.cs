@@ -2,9 +2,6 @@
 
 namespace GameServer.ClasseData {
     public class StatsIncrement {
-        /// <summary>
-        /// ID
-        /// </summary>
         public int IncrementID { get; set; }
         public int Strenght { get; set; }
         public int Dexterity { get; set; }
