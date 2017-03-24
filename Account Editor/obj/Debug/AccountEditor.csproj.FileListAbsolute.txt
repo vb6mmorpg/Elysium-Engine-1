@@ -1,0 +1,12 @@
+C:\Users\DragonicK\Desktop\AccountEditor\bin\Debug\AccountEditor.exe
+C:\Users\DragonicK\Desktop\AccountEditor\bin\Debug\AccountEditor.pdb
+C:\Users\DragonicK\Desktop\AccountEditor\obj\Debug\AccountEditor.csprojResolveAssemblyReference.cache
+C:\Users\DragonicK\Desktop\AccountEditor\obj\Debug\AccountEditor.Properties.Resources.resources
+C:\Users\DragonicK\Desktop\AccountEditor\obj\Debug\AccountEditor.csproj.GenerateResource.Cache
+C:\Users\DragonicK\Desktop\AccountEditor\obj\Debug\AccountEditor.exe
+C:\Users\DragonicK\Desktop\AccountEditor\obj\Debug\AccountEditor.pdb
+C:\Users\DragonicK\Desktop\AccountEditor\obj\Debug\AccountEditor.FormCharacter.resources
+C:\Users\DragonicK\Desktop\AccountEditor\obj\Debug\AccountEditor.FormAccount.resources
+C:\Users\DragonicK\Desktop\AccountEditor\obj\Debug\AccountEditor.MainForm.resources
+C:\Users\DragonicK\Desktop\AccountEditor\obj\Debug\AccountEditor.NewAccount.resources
+C:\Users\DragonicK\Desktop\AccountEditor\obj\Debug\AccountEditor.NewCharacter.resources
